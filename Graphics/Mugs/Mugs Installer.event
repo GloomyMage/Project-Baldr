@@ -1288,6 +1288,37 @@ ShopkeeperToaPortrait:
 #incbin "ShopkeeperToa_minimug.dmp"
 setMugEntry(0x68,ShopkeeperToaPortrait,4,3,2,0)
 
+ALIGN 4
+SoldierPortrait:
+#incbin "Soldier_mug.dmp"
+#incbin "Soldier_frames.dmp"
+#incbin "Soldier_palette.dmp"
+#incbin "Soldier_minimug.dmp"
+setMugEntry(0x6A,SoldierPortrait,4,4,4,4)
+
+ALIGN 4
+CrossKnightPortrait:
+#incbin "CrossKnight_mug.dmp"
+#incbin "CrossKnight_frames.dmp"
+#incbin "CrossKnight_palette.dmp"
+#incbin "CrossKnight_minimug.dmp"
+setMugEntry(0x6F,CrossKnightPortrait,4,4,4,4)
+
+ALIGN 4
+BatuPortrait:
+#incbin "Batu_mug.dmp"
+#incbin "Batu_frames.dmp"
+#incbin "Batu_palette.dmp"
+#incbin "Batu_minimug.dmp"
+setMugEntry(0xE4,BatuPortrait,2,6,2,4)
+
+ALIGN 4
+CohenPortrait:
+#incbin "Cohen_mug.dmp"
+#incbin "Cohen_frames.dmp"
+#incbin "Cohen_palette.dmp"
+#incbin "Cohen_minimug.dmp"
+setMugEntry(0xFB,CohenPortrait,2,5,2,3)
 
 ALIGN 4
 Snevejr_Mug:
