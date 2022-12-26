@@ -22,7 +22,7 @@
 #define MasterAxe 0xBE
 #define SeaAxe 0x83
 
-#define GreatBallista 0x38
+#define GreatArch 0x38
 #define MagicBow 0x84
 #define MasterBow 0xBF
 

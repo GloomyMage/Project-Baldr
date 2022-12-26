@@ -3,6 +3,54 @@
 # 0x0212
 Sigurd[X]
 
+# 0x1000
+[X]
+
+# 0x1001
+Baldr[X]
+
+# 0x1002
+Od[X]
+
+# 0x1003
+Hodr[X]
+
+# 0x1004
+Njorun[X]
+
+# 0x1005
+Dainn[X]
+
+# 0x1006
+Nier[X]
+
+# 0x1007
+Ulir[X]
+
+# 0x1008
+Fjalar[X]
+
+# 0x1009
+Thrud[X]
+
+# 0x100A
+Forseti[X]
+
+# 0x100B
+Naga[X]
+
+# 0x100C
+Loptous[X]
+
+# 0x100D
+Bragi[X]
+
+# 0x100E
+Major:[X]
+
+# 0x100F
+Minor:[X]
+
 ##Name_Julia
 Julia[X]
 
