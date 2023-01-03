@@ -4,7 +4,7 @@
 Sigurd[X]
 
 # 0x1000
-[X]
+None[X]
 
 # 0x1001
 Baldr[X]
