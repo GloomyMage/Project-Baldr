@@ -43,8 +43,9 @@
 
 #define Jormugandr 0x45
 #define Hel 0x48
-#define PoisonTome 0xE1
-#define Petrify 0x4A
+#define Erra 0x4A
+#define Poison 0xB3
+#define Petrify 0xB4
 
 
 #define CharmStaff 0xC7 //"geez biraku we don't even know what it does" shut up
