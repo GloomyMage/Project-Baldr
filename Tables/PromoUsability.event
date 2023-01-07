@@ -1,0 +1,8 @@
+ALIGN 4
+MasterSealClassList:
+BYTE Thief ThiefF Merc MercF Myrm MyrmF Archer ArcherF Fighter FighterF Pirate PirateF Soldier 
+BYTE FreeCav LncCav AxeCav BowCav SwdArm LncArm AxeArm BowArm
+BYTE Mage MageF TroubF Priest Cleric DarkM DarkF 
+BYTE LncPeg
+BYTE 0x00 0x00
+

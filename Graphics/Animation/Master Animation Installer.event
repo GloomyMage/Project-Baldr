@@ -92,6 +92,7 @@
 #include "PalM(SALVAGED)\Sword Installer.event"
 #include "PalM(SALVAGED)\Lance Installer.event"
 #include "PalM(SALVAGED)\Unarmed Installer.event"
+#include "PalM(SALVAGED)\Staff Installer.event"
 }
 {
 #include "PalF(SALVAGED)\Sword Installer.event"
@@ -306,4 +307,12 @@ TroubFAnims:
 SwordAnim(0xBA)
 StaffAnim(0x86)
 MagicAnim(0x85)
+EndAnim
+
+ALIGN 4
+PalFAnims:
+SwordAnim(0x4b)
+LanceAnim(0x4c)
+StaffAnim(0xc9)
+UnarmedAnim(0x3f)
 EndAnim
