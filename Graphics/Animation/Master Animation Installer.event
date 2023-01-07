@@ -49,6 +49,10 @@
 #include "JamkePro\Bow Installer.event"
 }
 {
+#include "Holyn\Sword Installer.event"
+#include "Holyn\Unarmed Installer.event"
+}
+{
 #include "Brigand\Axe Installer.event"
 #include "Brigand\Handaxe Installer.event"
 #include "Brigand\Unarmed Installer.event"
@@ -195,6 +199,11 @@ ALIGN 4
 JamkeProAnims:
 BowAnim(0xF5)
 EndAnim  
+
+ALIGN 4
+HolynAnims:
+SwordAnim(0x53)
+UnarmedAnim(0x57)
 
 ALIGN 4
 BardMAnims:

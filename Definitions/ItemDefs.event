@@ -1,3 +1,8 @@
+#undef Fire
+#undef Elfire
+#undef Thunder
+#undef Bolting
+//
 #define EarthSwd 0x11
 #define BragiBlade 0x81
 #define MasterSword 0xBC
@@ -22,7 +27,7 @@
 #define MasterAxe 0xBE
 #define SeaAxe 0x83
 
-#define GreatArch 0x38
+#define GreatBallista 0x38
 #define MagicBow 0x84
 #define MasterBow 0xBF
 
@@ -75,7 +80,13 @@
 #define Gradivus 0x3A
 #define Hauteclere 0x3B
 #define Parthia 0x3C
-#define Falchion 0x3E
+#define Falchion 0xAD
+#define Starlight 0xAE
+#define Imhullu 0xAF
+
+#define Salamander 0xDF
+#define Awaken 0xE0
+#define Grafcalibur 0xE1
 
 #define Balmung 0x0A
 #define Valflame 0x3D
@@ -93,16 +104,11 @@
 
 //Things I want to add but haven't found an appropiate slot yet
 //#define BiracleSword
-//#define Starlight
-//#define Imhullu
-//#define Grafcalibur
 //#define ThorHammer
 //#define DarknessLance
-//#define Salamander
 //#define Maera
 //#define AndorAxe
 //#define ToaBlade
 //#define FleursDuMal
-//#define Awaken
 //#define Galerider
 //#define Durandal

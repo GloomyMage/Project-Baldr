@@ -36,6 +36,7 @@ ALIGN 4
 TurnBasedEvents:
 TurnEventEnemy(0x0,MidirDieth,1)
 TurnEventPlayer(0x0,AzelCometh,2)
+TurnEventPlayer(0x0,QuanCometh,3)
 
 END_MAIN
 
@@ -91,26 +92,41 @@ SFXKillUnit(Midir)
 ENDA
 
 AzelCometh:
+CAM1 [40,3]
 LOAD1 0x1 LexCometh
-ENDA
+ENUN
+EndEvent
+
+QuanCometh:
+CAM1 [44,9]
+LOAD1 0x1 LensterCavalry
+ENUN
+EndEvent
 
 
 ALIGN 4
 
 PlayerUnits:
 UNIT Sigurd KnightLord Sigurd Level(1,Ally,0) [56,5] 0x0 0x0 0x0 0x1 [SilverSword, Tyrfing] NoAI
-UNIT Alec Cavalier 0x0 Level(10,Ally,0) [55,6] 0x0 0x0 0x0 0x1 [IronSword, MasterSeal] NoAI
-UNIT Noish Cavalier 0x0 Level(1,Ally,0) [57,6] 0x0 0x0 0x0 0x1 [IronSword] NoAI
-UNIT Arden Knight 0x0 Level(1,Ally,0) [56,7] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT Alec UniCav 0x0 Level(10,Ally,0) [55,6] 0x0 0x0 0x0 0x1 [IronSword, MasterSeal] NoAI
+UNIT Noish UniCav 0x0 Level(1,Ally,0) [57,6] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT Arden SwdArm 0x0 Level(1,Ally,0) [56,7] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT Holyn Merc 0x0 Level(1,Ally,0) [52,4] 0x0 0x0 0x0 0x1 [SlimSword] NoAI
 UNIT //Tells the game that the unit list has ended
 
 UselessBoi:
-UNIT Midir Archer Sigurd Level(1,NPC,0) [29,18] 0x0 0x0 0x0 0x1 [IronBow] NoAI
+UNIT Midir BowCav Sigurd Level(1,NPC,0) [29,18] 0x0 0x0 0x0 0x1 [IronBow] NoAI
 UNIT
 
 LexCometh:
-UNIT Azel Mage 0x0 Level(10,Ally,0) [40,4] 0x0 0x0 0x0 0x1 [Fire, MasterSeal, Thunder, Fimbulvetr] NoAI
-UNIT Lex Fighter 0x0 Level(10,Ally,0) [42,4] 0x0 0x0 0x0 0x1 [IronAxe, MasterSeal] NoAI
+UNIT Azel Mage 0x0 Level(10,Ally,0) [40,0] 0x0 0x0 0x1 REDA40R4 [Fire, MasterSeal, 0xE2, Fimbulvetr] NoAI
+UNIT Lex AxeCav 0x0 Level(10,Ally,0) [42,0] 0x0 0x0 0x1 REDA42R4 [IronAxe, MasterSeal] NoAI
+UNIT
+
+LensterCavalry:
+UNIT Finn LncCav 0x0 Level(10,Ally,0) [54,10] 0x0 0x0 0x1 REDA49R9 [IronLance, MasterSeal] NoAI
+UNIT Quan DukeKnt 0x0 Level(10,Ally,0) [57,8] 0x0 0x0 0x1 REDA44R9 [SteelLance, MasterSeal] NoAI
+UNIT Ethlyn Troub 0x0 Level(10,Ally,0) [57,7] 0x0 0x0 0x1 REDA46R11 [Heal, MasterSeal] NoAI
 UNIT
 
 ArvisCometh:

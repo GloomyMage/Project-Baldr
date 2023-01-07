@@ -33,3 +33,11 @@ SigurdST:
 ALIGN 4
 SigurdMv:
 #incbin "SigurdMv.dmp" 
+
+ALIGN 4 
+PrinceST:
+#incbin "PrinceST.dmp"
+
+ALIGN 4 
+PrinceMv:
+#incbin "PrinceMv.dmp"

@@ -146,6 +146,9 @@ POP
   //Mug Exceed
   #include "ExternalHacks/MugExceed/EA.txt"
   
+  //Dynamic Portrait
+  #include "Necessary/DynamicPortrait/DynamicPortraitsInstaller.event" 
+  
   //Uncheese
   #include "ExternalHacks/Uncheese/UncheeseMasterInstaller.event"
 
