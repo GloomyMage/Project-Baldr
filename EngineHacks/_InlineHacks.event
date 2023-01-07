@@ -16,6 +16,21 @@ BYTE 02
 ORG 0x3327C
 BYTE 02
 
+//Class Grants Bonus EXP when killed
+ORG 0x02C3FE
+BYTE 44
+
+//Phantom Class HardCoding
+ORG 0x18EDE
+BYTE 72
+ORG 0x3122E
+BYTE 72
+ORG 0x0240F6
+BYTE 72
+ORG 0x002C528
+BYTE 72
+
+
 //Allows MNC2 To jump to any chapter ID.
 ORG 0xBD070
 SHORT 0xE0B8

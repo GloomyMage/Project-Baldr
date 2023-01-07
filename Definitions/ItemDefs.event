@@ -1,3 +1,8 @@
+#undef Fire
+#undef Elfire
+#undef Thunder
+#undef Bolting
+//
 #define EarthSwd 0x11
 #define BragiBlade 0x81
 #define MasterSword 0xBC
