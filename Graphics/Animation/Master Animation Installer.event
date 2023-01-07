@@ -92,11 +92,11 @@
 #include "PalM(SALVAGED)\Sword Installer.event"
 #include "PalM(SALVAGED)\Lance Installer.event"
 #include "PalM(SALVAGED)\Unarmed Installer.event"
-#include "PalM(SALVAGED)\Staff Installer.event"
 }
 {
 #include "PalF(SALVAGED)\Sword Installer.event"
 #include "PalF(SALVAGED)\Lance Installer.event"
+#include "PalF(SALVAGED)\Staff Installer.event"
 #include "PalF(SALVAGED)\Unarmed Installer.event"
 }
 {
