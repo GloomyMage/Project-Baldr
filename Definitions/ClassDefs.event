@@ -1,135 +1,116 @@
-#undef Prince
-#undef General
-#undef Queen
-#undef Ranger
-#undef Hero
-#undef Archer
-#undef Sniper
-#undef Mage
-#undef Sage
-#undef Bishop
-#undef Fighter
-#undef Warrior
-#undef Brigand
-#undef Berserker
-#undef Pirate
-#undef Priest
-#undef Cleric
-#undef Soldier
-#undef Thief
-#undef Rogue
-#undef Dancer
-#undef Bard
 //class defs
-#define SeliphLord 0x01
+#define Lord 0x01
+#define Knight Lord (Seliph) 0x02
+#define Knight Lord (Sigurd) 0x03
 #define Prince 0x04
-#define SeliphLordX 0x02
-#define KnightLord 0x03
-#define Princess 0x05 
-#define MasterKnt 0x06
-#define MasterKntF 0x07
+#define Princess 0x05
+#define Master Knight (M) 0x06
+#define Master Knight (F) 0x07
+#define Myrmidon (M) 0x08
+#define Myrmidon (F) 0x09
+#define Mercenary (M) 0x0A
+#define Mercenary (F) 0x0B
+#define Swordmaster (M) 0x0C
+#define Swordmaster (F) 0x0D
+#define Hero (M) 0x0E
+#define Hero (F) 0x0F
+#define Thief (M) 0x10
+#define Thief (F) 0x11
+#define Rogue (M) 0x12
+#define Rogue (F) 0x13
+#define Assassin (M) 0x14
+#define Assassin (F) 0x15
+#define Dancer 0x16
+#define Fighter 0x17
+#define Warrior 0x18
+#define Hunter 0x19
+#define Barbarian 0x1A
+#define Brigand (M) 0x1B
+#define Brigand (F) 0x1C
+#define Pirate (M) 0x1D
+#define Pirate (F) 0x1E
+#define Berserker (M) 0x1F
+#define Berserker (F) 0x20
+#define Archer (M) 0x21
+#define Archer (F) 0x22
+#define Sniper (M) 0x23
+#define Sniper (F) 0x24
+#define Adventurer (M) 0x25
+#define Adventurer (F) 0x26
 #define Freeblade 0x27
-#define Queen 0x79
-#define DarkPrince 0x7F
-#define UniCav 0x2B
-#define LncCav 0x35
-#define AxeCav 0x37
-#define FreeCav 0x31
-#define BowCav 0x3B
-#define PalM 0x2C
-#define PalF 0x30
-#define GrtKnt 0x38
-#define Ranger 0x32
-#define RangerF 0x33
-#define DukeKnt 0x36
-#define HolyKnt 0x2D
-#define ArchKnt 0x39
-#define ArchKntF 0x3A
-#define LncArm 0x3D
-#define SwdArm 0x3C
-#define AxeArm 0x3E
-#define BowArm 0x3F
+#define Trueblade 0x28
+#define Soldier 0x29
+#define Halberdier 0x2A
+#define Cavalier 0x2B
+#define Paladin (M) 0x2C
+#define Holy Knight 0x2D
+#define Troubadour 0x2E
+#define Walkyrie 0x2F
+#define Paladin (F) 0x30
+#define Free Knight 0x31
+#define Ranger (M) 0x32
+#define Ranger (F) 0x33
+#define Lance Knight 0x35
+#define Duke Knight 0x36
+#define Axe Knight 0x37
+#define Great Knight 0x38
+#define Arch Knight (M) 0x39
+#define Arch Knight (F) 0x3A
+#define Bow Knight 0x3B
+#define Sword Armour 0x3C
+#define Lance Armour 0x3D
+#define Axe Armour 0x3E
+#define Bow Armour 0x3F
+#define Protector 0x40
+#define Sentinel 0x41
 #define General 0x42
 #define Baron 0x43
 #define Emperor 0x44
-#define Protector 0x40
-#define Sentinel 0x41
-#define Merc 0xA
-#define MercF 0xB
-#define Hero 0xE
-#define HeroF 0xF
-#define Myrm 0x08
-#define MyrmF 0x09
-#define SwMast 0xC
-#define SwMastF 0xD
-#define Trueblade 0x28
-#define Thief 0x10
-#define FThief 0x11
-#define Rogue 0x12
-#define RogueF 0x13
-#define Assass 0x14
-#define AssassF 0x15
-#define Archer 0x21
-#define ArcherF 0x22
-#define Hunter 0x19
-#define Sniper 0x23
-#define SniperF 0x24
-#define Adventurer 0x25
-#define AdventurerF 0x26
-#define DrgRider 0x48
-#define DrgRiderF 0x49
-#define WyvKnight 0x4A
-#define WyvKnightF 0x4B
-#define WyvLord 0x4E
-#define WyvLordF 0x4F
-#define DrgMaster 0x4C
-#define DrgMasterF 0x4D
-#define MaligKnt 0x50
-#define Mage 0x59
-#define MageF 0x5A
-#define WindMage 0x55
-#define WindMageF 0x56
-#define ThunderMage 0x53
-#define ThunderMageF 0x54
-#define FireMage 0x51
-#define FireMageF 0x52
-#define Sage 0x5F
-#define SageF 0x60
-#define MagKnt 0x5B //I gotta do those swords soon
-#define MagKntF 0x5C
-#define Bishop 0x78
-#define DarkM 0x7A
-#define DarkF 0x7B
-#define LoptBishop 0x7C
-#define LoptBishopF 0x7D
-#define DarkBishop 0x7E
-#define MageFighter 0x57
-#define MageFighterF 0x58
-#define HighPriest 0x76
-#define HighPriestF 0x77
-#define Priestess 0x5E
-#define Fighter 0x17
-#define Warrior 0x18
-#define Brigand 0x1B
-#define BrigandF 0x1C
-#define Pirate 0x1D
-#define PirateF 0x1E
-#define Berserker 0x1F
-#define BerserkerF 0x20
-#define Barbarian 0x1A
-#define Priest 0x74
-#define Dancer 0x16
-#define Bard 0x5D
-#define LncPeg 0x45
-#define Falco 0x46
+#define Pegasus Knight 0x45
+#define Falcon Knight 0x46
 #define Harrier 0x47
+#define Wyvern Rider (M) 0x48
+#define Wyvern Rider (F) 0x49
+#define Wyvern Knight (M) 0x4A
+#define Wyvern Knight (F) 0x4B
+#define Wyvern Master (M) 0x4C
+#define Wyvern Master (F) 0x4D
+#define Wyvern Lord (M) 0x4E
+#define Wyvern Lord (F) 0x4F
+#define Malig Knight 0x50
+#define Fire Mage (M) 0x51
+#define Fire Mage (F) 0x52
+#define Thunder Mage (M) 0x53
+#define Thunder Mage (F) 0x54
+#define Wind Mage (M) 0x55
+#define Wind Mage (F) 0x56
+#define Mage Fighter (M) 0x57
+#define Mage Fighter (F) 0x58
+#define Mage (M) 0x59
+#define Mage (F) 0x5A
+#define Mage Knight (M) 0x5B
+#define Mage Knight (F) 0x5C
+#define Bard 0x5D
+#define Shaman 0x5E
+#define Sage (M) 0x5F
+#define Sage (F) 0x60
+
+#define Civilian (M) 0x6D
+#define Civilian (F) 0x6E
+#define Civilian (M) 0x6F
+#define Civilian (F) 0x70
+#define Civilian (M) 0x71
+#define Civilian (F) 0x72
+#define Peer 0x73
+#define Priest 0x74
 #define Cleric 0x75
-#define Troub 0x2E
-#define Valk 0x2F
-#define Soldier 0x29
-#define Halberdier 0x2A
-#define CivilM 0x6F
-#define CivilF 0x70
-#define ChildM 0x6D
-#define ChildF 0x6E
-//#define Peer 0x73
+#define High Priest 0x76
+#define High Priestess 0x77
+#define Bishop 0x78
+#define Queen 0x79
+#define Dark Mage (M) 0x7A
+#define Dark Mage (F) 0x7B
+#define Dark Bishop (M) 0x7C
+#define Dark Bishop (F) 0x7D
+#define Archbishop 0x7E
+#define Dark Prince 0x7F
