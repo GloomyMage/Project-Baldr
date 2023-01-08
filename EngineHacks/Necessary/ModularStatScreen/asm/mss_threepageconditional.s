@@ -22,7 +22,7 @@ ldr  r0,[r0]
 ldrh r0,[r0,r1]
 mov  r1, #0x04 @ 4 pages if there are supports to show.
 cmp  r0, #0x00
-bne NoSupportsStatScreen
+b    NoSupportsStatScreen
     mov r1, #0x03 @ 3 pages if there no are supports to show.
     @ We also need to ensure that the stat screen does not try to load page 4 (because the user left from page 4 on the last stat screen).
     ldrb r0, [ r5 ] @ Current stat screen page.

@@ -49,7 +49,7 @@ END_MAIN
 
 ALIGN 32
 CharacterBasedEvents:
-CharacterEventBothWays(0xA,SigurdArvisTalkConvo,Sigurd,ArvisGen1)
+CharacterEventBothWays(0x0,SigurdArvisTalkConvo,Sigurd,ArvisGen1)
 END_MAIN
 
 MiscBasedEvents:
@@ -61,7 +61,8 @@ LOAD1 0x1 PlayerUnits
 LOAD1 0x1 UselessBoi
 ENUN
 LOAD1 0x1 EnemyUnits
-ENDA
+ENUN
+EndEvent
 
 EndingScene:
 ENDA
@@ -75,10 +76,17 @@ LOAD1 0x1 ArvisCometh
 ENDA
 
 SigurdArvisTalkConvo:
+CHECK_ALIVE Azel
+BNE 0x1 0xC 0x0
+GOTO 0x2
+LABEL 0x1
 Text(0x090B)
+LABEL 0x2
 GiveItem(SilverSword,Sigurd)
+MOVE 120 ArvisGen1 [17,0]
+ENUN
 SilentKillUnit(ArvisGen1)
-ENDA
+EndEvent
 
 MidirDieth:
 CAM1 [29,19]
@@ -87,8 +95,8 @@ NormalDamage(1,22)
 CriticalHit(0,99)
 EndAttack
 FIG1 Munnir Midir HandAxe
-Text(0x0C41) //midir fucking dies
 SFXKillUnit(Midir)
+LOAD 0x1 Kidnapped
 ENDA
 
 AzelCometh:
@@ -109,13 +117,18 @@ ALIGN 4
 PlayerUnits:
 UNIT Sigurd KnightLord Sigurd Level(1,Ally,0) [56,5] 0x0 0x0 0x0 0x1 [SilverSword, Tyrfing] NoAI
 UNIT Alec UniCav 0x0 Level(10,Ally,0) [55,6] 0x0 0x0 0x0 0x1 [IronSword, MasterSeal] NoAI
-UNIT Noish UniCav 0x0 Level(1,Ally,0) [57,6] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT Noish UniCav 0x0 Level(1,Ally,0) [57,6] 0x0 0x0 0x0 0x1 [SteelSword] NoAI
 UNIT Arden SwdArm 0x0 Level(1,Ally,0) [56,7] 0x0 0x0 0x0 0x1 [IronSword] NoAI
 UNIT Holyn Merc 0x0 Level(1,Ally,0) [52,4] 0x0 0x0 0x0 0x1 [SlimSword] NoAI
+UNIT ArvisGen1 Sage 0x0 Level(1,Ally,0) [53,4] 0x0 0x0 0x0 0x1 [SlimSword] NoAI
 UNIT //Tells the game that the unit list has ended
 
 UselessBoi:
 UNIT Midir BowCav Sigurd Level(1,NPC,0) [29,18] 0x0 0x0 0x0 0x1 [IronBow] NoAI
+UNIT
+
+Kidnapped:
+UNIT Edain Cleric Sigurd Level(1,NPC,0) [29,18] 0x0 0x0 0x0 0x1 [IronBow] NoAI
 UNIT
 
 LexCometh:
@@ -126,7 +139,7 @@ UNIT
 LensterCavalry:
 UNIT Finn LncCav 0x0 Level(10,Ally,0) [54,10] 0x0 0x0 0x1 REDA49R9 [IronLance, MasterSeal] NoAI
 UNIT Quan DukeKnt 0x0 Level(10,Ally,0) [57,8] 0x0 0x0 0x1 REDA44R9 [SteelLance, MasterSeal] NoAI
-UNIT Ethlyn Troub 0x0 Level(10,Ally,0) [57,7] 0x0 0x0 0x1 REDA46R11 [Heal, MasterSeal] NoAI
+UNIT Ethlyn PalF 0x0 Level(10,Ally,0) [57,7] 0x0 0x0 0x1 REDA46R11 [Heal, MasterSeal] NoAI
 UNIT
 
 ArvisCometh:
@@ -134,8 +147,32 @@ UNIT ArvisGen1 Sage 0x0 Level(10,NPC,0) [55,9] 0x0 0x0 0x0 0x1 [Fire, MasterSeal
 UNIT
 
 EnemyUnits:
-UNIT DiMaggio Brigand DiMaggio Level(3,Enemy,0) [52,6] 0x0 0x0 0x0 0x1 [SteelAxe, HandAxe] AttackInRangeAI
-UNIT Gerrard Fighter Gerrard Level(3,Enemy,0) [1,8] 0x0 0x0 0x0 0x1 [SteelAxe, HandAxe] AttackInRangeAI
-UNIT Munnir Warrior Munnir Level(3,Enemy,0) [28,19] 0x0 0x0 0x0 0x1 [SteelAxe, HandAxe] AttackInRangeAI
-UNIT Snevejr Fighter Snevejr Level(3,Enemy,0) [1,10] 0x0 0x0 0x0 0x1 [SteelAxe, HandAxe] AttackInRangeAI
+UNIT DiMaggio Brigand Munnir Level(10,Enemy,0) [19,12] 0x0 0x0 0x1 REDA22R20 [SteelAxe] AttackInRangeAI
+UNIT Gerrard Fighter Munnir Level(20,Enemy,0) [1,8] 0x0 0x0 0x0 0x1 [SteelAxe, HandAxe] AttackInRangeAI
+UNIT Munnir Warrior Sandima Level(20,Enemy,0) [28,19] 0x0 0x0 0x0 0x1 [HandAxe, SklRing] AttackInRangeAI
+UNIT Verdane1 Barbarian DiMaggio Level(1,Enemy,1) [9,1] 0x0 0x0 0x0 0x1 [IronAxe] AttackInRangeAI
+UNIT Verdane1 Barbarian DiMaggio Level(1,Enemy,1) [8,5] 0x0 0x0 0x0 0x1 [IronAxe] AttackInRangeAI
+UNIT Verdane1 Barbarian DiMaggio Level(1,Enemy,1) [18,10] 0x0 0x0 0x0 0x1 [IronAxe] AttackInRangeAI
+UNIT Verdane1 Barbarian DiMaggio Level(1,Enemy,1) [21,6] 0x0 0x0 0x0 0x1 [IronAxe] AttackInRangeAI
+UNIT Verdane1 Barbarian DiMaggio Level(1,Enemy,1) [27,21] 0x0 0x0 0x0 0x1 [IronAxe] AttackInRangeAI
+UNIT Verdane1 Barbarian DiMaggio Level(1,Enemy,1) [24,19] 0x0 0x0 0x0 0x1 [IronAxe] AttackInRangeAI
+UNIT Verdane1 Barbarian DiMaggio Level(1,Enemy,1) [32,18] 0x0 0x0 0x0 0x1 [IronAxe] AttackInRangeAI
+UNIT Verdane1 Barbarian DiMaggio Level(1,Enemy,1) [32,19] 0x0 0x0 0x0 0x1 [IronAxe] AttackInRangeAI
+UNIT Verdane1 Barbarian DiMaggio Level(1,Enemy,1) [34,19] 0x0 0x0 0x0 0x1 [IronAxe] AttackInRangeAI
+UNIT Verdane1 Barbarian DiMaggio Level(1,Enemy,1) [38,15] 0x0 0x0 0x0 0x1 [IronAxe] AttackInRangeAI
+UNIT Verdane1 Barbarian DiMaggio Level(1,Enemy,1) [32,11] 0x0 0x0 0x0 0x1 [IronAxe] AttackInRangeAI
+UNIT Verdane1 Barbarian DiMaggio Level(1,Enemy,1) [33,12] 0x0 0x0 0x0 0x1 [IronAxe] AttackInRangeAI
+UNIT Verdane1 Barbarian DiMaggio Level(1,Enemy,1) [33,10] 0x0 0x0 0x0 0x1 [IronAxe] AttackInRangeAI
+UNIT Verdane1 Barbarian DiMaggio Level(1,Enemy,1) [39,19] 0x0 0x0 0x0 0x1 [IronAxe] AttackInRangeAI
+UNIT Verdane1 Barbarian DiMaggio Level(1,Enemy,1) [41,16] 0x0 0x0 0x0 0x1 [IronAxe] AttackInRangeAI
+UNIT Verdane1 Barbarian DiMaggio Level(1,Enemy,1) [38,12] 0x0 0x0 0x0 0x1 [IronAxe] AttackInRangeAI
+UNIT Verdane1 Barbarian DiMaggio Level(1,Enemy,1) [43,13] 0x0 0x0 0x0 0x1 [IronAxe] AttackInRangeAI
+UNIT Verdane1 Barbarian DiMaggio Level(1,Enemy,1) [47,7] 0x0 0x0 0x0 0x1 [IronAxe] AttackInRangeAI
+UNIT Verdane1 Barbarian DiMaggio Level(1,Enemy,1) [43,4] 0x0 0x0 0x0 0x1 [IronAxe] AttackInRangeAI
+UNIT Verdane1 Barbarian DiMaggio Level(1,Enemy,1) [45,2] 0x0 0x0 0x0 0x1 [IronAxe] AttackInRangeAI
+UNIT Verdane1 Barbarian DiMaggio Level(1,Enemy,1) [37,4] 0x0 0x0 0x0 0x1 [IronAxe] AttackInRangeAI
+UNIT Verdane1 Barbarian DiMaggio Level(1,Enemy,1) [32,3] 0x0 0x0 0x0 0x1 [IronAxe] AttackInRangeAI
+UNIT Verdane1 Barbarian DiMaggio Level(1,Enemy,1) [28,0] 0x0 0x0 0x0 0x1 [IronAxe] AttackInRangeAI
+UNIT Verdane1 Barbarian DiMaggio Level(1,Enemy,1) [29,0] 0x0 0x0 0x0 0x1 [IronAxe] AttackInRangeAI
+UNIT Verdane1 Barbarian DiMaggio Level(1,Enemy,1) [28,4] 0x0 0x0 0x0 0x1 [IronAxe] AttackInRangeAI
 UNIT 

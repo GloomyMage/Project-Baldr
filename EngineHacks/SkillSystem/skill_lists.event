@@ -59,6 +59,11 @@ BYTE 1 LethalityID
 BYTE 00 00
 ALIGN 4
 
+DukeKnightSkillList:
+BYTE 1 AegisID
+BYTE 00 00
+ALIGN 4
+
 ArcherSkillList:
 BYTE 00 00
 ALIGN 4
@@ -119,6 +124,8 @@ BYTE 00 00
 ALIGN 4
 
 GreatKnightSkillList:
+BYTE 255 CantoPlusID
+BYTE 1 PaviseID
 BYTE 00 00
 ALIGN 4
 

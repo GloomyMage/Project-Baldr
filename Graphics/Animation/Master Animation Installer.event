@@ -311,8 +311,8 @@ EndAnim
 
 ALIGN 4
 PalFAnims:
-SwordAnim(0x4b)
-LanceAnim(0x4c)
+SwordAnim(0x3d)
+LanceAnim(0x3e)
 StaffAnim(0xc9)
 UnarmedAnim(0x3f)
 EndAnim

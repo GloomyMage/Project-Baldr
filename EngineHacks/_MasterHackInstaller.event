@@ -151,6 +151,11 @@ POP
   
   //Uncheese
   #include "ExternalHacks/Uncheese/UncheeseMasterInstaller.event"
+  
+  //walking sounds
+  PUSH
+  #include "QualityOfLife/FE8-Walking-Sounds-Fix/FE8-Walking Sounds.event"
+  POP
 
   //Supply available in prologue
   #include "QualityOfLife/PrologueSupply.event"
