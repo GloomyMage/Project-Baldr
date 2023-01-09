@@ -15,8 +15,8 @@
 #define ArenaGuy 0xEF
 #define BlacksmithGuy 0xF0 
 #define VendorDude 0xF1
-#define Anna 0xF2
-#define PawnshopGuy 0xF3
+#define PawnshopGuy 0xF2
+#define Anna 0xF3
 #define Jake 0xF4
 #define Arena1 0xF5
 #define Arena2 0xF6
