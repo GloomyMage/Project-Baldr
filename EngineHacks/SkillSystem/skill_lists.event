@@ -1,135 +1,89 @@
 
-EphraimLordSkillList:
+LordSkillList:
 BYTE 00 00
 ALIGN 4
 
-EirikaLordSkillList:
+KnightLordSeliphSkillList:
 BYTE 00 00
 ALIGN 4
 
-EphraimGreatLordSkillList:
-BYTE 1 SupplyID
+KnightLordSigurdSkillList:
 BYTE 00 00
 ALIGN 4
 
-EirikaGreatLordSkillList:
-BYTE 1 SupplyID
+PrinceSkillList:
 BYTE 00 00
 ALIGN 4
 
-CavalierSkillList:
-BYTE 00 00
-
-PaladinSkillList:
+PrincessSkillList:
 BYTE 00 00
 ALIGN 4
 
-KnightSkillList:
+MasterKnightMSkillList:
 BYTE 00 00
 ALIGN 4
 
-GeneralSkillList:
+MasterKnightFSkillList:
 BYTE 00 00
 ALIGN 4
 
-ThiefSkillList:
-BYTE 1 StealID
+MyrmidonMSkillList:
 BYTE 00 00
 ALIGN 4
 
-MercenarySkillList:
+MyrmidonFSkillList:
 BYTE 00 00
 ALIGN 4
 
-HeroSkillList:
+MercenaryMSkillList:
 BYTE 00 00
 ALIGN 4
 
-MyrmidonSkillList:
+MercenaryFSkillList:
 BYTE 00 00
 ALIGN 4
 
-SwordmasterSkillList:
+SwordmasterMSkillList:
 BYTE 00 00
 ALIGN 4
 
-AssassinSkillList:
-BYTE 255 StealID
-BYTE 1 LethalityID
+SwordmasterFSkillList:
 BYTE 00 00
 ALIGN 4
 
-DukeKnightSkillList:
-BYTE 1 AegisID
+HeroMSkillList:
 BYTE 00 00
 ALIGN 4
 
-ArcherSkillList:
+HeroFSkillList:
 BYTE 00 00
 ALIGN 4
 
-SniperSkillList:
+ThiefMSkillList:
 BYTE 00 00
 ALIGN 4
 
-RangerSkillList:
+ThiefFSkillList:
 BYTE 00 00
 ALIGN 4
 
-WyvernRiderSkillList:
+RogueMSkillList:
 BYTE 00 00
 ALIGN 4
 
-WyvernLordSkillList:
+RogueFSkillList:
 BYTE 00 00
 ALIGN 4
 
-WyvernKnightSkillList:
-BYTE 1 LunaID
+AssassinMSkillList:
 BYTE 00 00
 ALIGN 4
 
-MageSkillList:
+AssassinFSkillList:
 BYTE 00 00
 ALIGN 4
 
-SageSkillList:
-BYTE 00 00
-ALIGN 4
-
-MageKnightSkillList:
-BYTE 00 00
-ALIGN 4
-
-BishopSkillList:
-BYTE 00 00
-ALIGN 4
-
-ShamanSkillList:
-BYTE 00 00
-ALIGN 4
-
-DruidSkillList:
-BYTE 00 00
-ALIGN 4
-
-SummonerSkillList:
-BYTE 00 00
-ALIGN 4
-
-RogueSkillList:
-BYTE 255 StealID
-BYTE 1 LocktouchID
-BYTE 00 00
-ALIGN 4
-
-GreatKnightSkillList:
-BYTE 255 CantoPlusID
-BYTE 1 PaviseID
-BYTE 00 00
-ALIGN 4
-
-ManaketeFSkillList:
+DancerSkillList:
 BYTE 00 00
 ALIGN 4
 
@@ -141,47 +95,67 @@ WarriorSkillList:
 BYTE 00 00
 ALIGN 4
 
-BrigandSkillList:
+HunterSkillList:
 BYTE 00 00
 ALIGN 4
 
-PirateSkillList:
+BarbarianSkillList:
 BYTE 00 00
 ALIGN 4
 
-BerserkerSkillList:
+BrigandMSkillList:
 BYTE 00 00
 ALIGN 4
 
-MonkSkillList:
+BrigandFSkillList:
 BYTE 00 00
 ALIGN 4
 
-PriestSkillList:
+PirateMSkillList:
 BYTE 00 00
 ALIGN 4
 
-PegKnightSkillList:
+PirateFSkillList:
 BYTE 00 00
 ALIGN 4
 
-FalcoknightSkillList:
+BerserkerMSkillList:
 BYTE 00 00
 ALIGN 4
 
-ClericSkillList:
+BerserkerFSkillList:
 BYTE 00 00
 ALIGN 4
 
-TroubadourSkillList:
+ArcherMSkillList:
 BYTE 00 00
 ALIGN 4
 
-ValkyrieSkillList:
+ArcherFSkillList:
 BYTE 00 00
 ALIGN 4
 
-DancerSkillList:
+SniperMSkillList:
+BYTE 00 00
+ALIGN 4
+
+SniperFSkillList:
+BYTE 00 00
+ALIGN 4
+
+AdventurerMSkillList:
+BYTE 00 00
+ALIGN 4
+
+AdventurerFSkillList:
+BYTE 00 00
+ALIGN 4
+
+FreebladeSkillList:
+BYTE 00 00
+ALIGN 4
+
+TruebladeSkillList:
 BYTE 00 00
 ALIGN 4
 
@@ -189,34 +163,274 @@ SoldierSkillList:
 BYTE 00 00
 ALIGN 4
 
-NecromancerSkillList:
+HalberdierSkillList:
 BYTE 00 00
 ALIGN 4
 
-FleetSkillList:
+CavalierSkillList:
 BYTE 00 00
 ALIGN 4
 
-PhantomSkillList:
+PaladinMSkillList:
 BYTE 00 00
 ALIGN 4
 
-SuperJourneymanSkillList:
+HolyKnightSkillList:
 BYTE 00 00
 ALIGN 4
 
-SuperPupilSkillList:
+TroubadourSkillList:
 BYTE 00 00
 ALIGN 4
 
-SuperRecruitSkillList:
+WalkyrieSkillList:
 BYTE 00 00
 ALIGN 4
 
-ManaketeMSkillList:
+PaladinFSkillList:
 BYTE 00 00
 ALIGN 4
 
-DemonKingSkillList:
+FreeKnightSkillList:
+BYTE 00 00
+ALIGN 4
+
+RangerMSkillList:
+BYTE 1 DesperationID
+BYTE 00 00
+ALIGN 4
+
+RangerFSkillList:
+BYTE 1 DesperationID
+BYTE 00 00
+ALIGN 4
+
+LanceKnightSkillList:
+BYTE 00 00
+ALIGN 4
+
+DukeKnightSkillList:
+BYTE 1 AegisID
+BYTE 00 00
+ALIGN 4
+
+AxeKnightSkillList:
+BYTE 00 00
+ALIGN 4
+
+GreatKnightSkillList:
+BYTE 1 PaviseID
+BYTE 00 00
+ALIGN 4
+
+ArchKnightMSkillList:
+BYTE 00 00
+ALIGN 4
+
+ArchKnightFSkillList:
+BYTE 00 00
+ALIGN 4
+
+BowKnightSkillList:
+BYTE 1 BowRangeUpID
+BYTE 00 00
+ALIGN 4
+
+SwordArmourSkillList:
+BYTE 00 00
+ALIGN 4
+
+LanceArmourSkillList:
+BYTE 00 00
+ALIGN 4
+
+AxeArmourSkillList:
+BYTE 00 00
+ALIGN 4
+
+BowArmourSkillList:
+BYTE 00 00
+ALIGN 4
+
+ProtectorSkillList:
+BYTE 00 00
+ALIGN 4
+
+SentinelSkillList:
+BYTE 00 00
+ALIGN 4
+
+GeneralSkillList:
+BYTE 00 00
+ALIGN 4
+
+BaronSkillList:
+BYTE 00 00
+ALIGN 4
+
+EmperorSkillList:
+BYTE 1 CharismaID
+BYTE 00 00
+ALIGN 4
+
+PegasusKnightSkillList:
+BYTE 00 00
+ALIGN 4
+
+FalconKnightSkillList:
+BYTE 00 00
+ALIGN 4
+
+HarrierSkillList:
+BYTE 00 00
+ALIGN 4
+
+WyvernRiderMSkillList:
+BYTE 00 00
+ALIGN 4
+
+WyvernRiderFSkillList:
+BYTE 00 00
+ALIGN 4
+
+WyvernKnightMSkillList:
+BYTE 00 00
+ALIGN 4
+
+WyvernKnightFSkillList:
+BYTE 00 00
+ALIGN 4
+
+WyvernMasterMSkillList:
+BYTE 1 VengeanceID
+BYTE 00 00
+ALIGN 4
+
+WyvernMasterFSkillList:
+BYTE 1 VengeanceID
+BYTE 00 00
+ALIGN 4
+
+WyvernLordMSkillList:
+BYTE 00 00
+ALIGN 4
+
+WyvernLordFSkillList:
+BYTE 00 00
+ALIGN 4
+
+MaligKnightSkillList:
+BYTE 00 00
+ALIGN 4
+
+FireMageMSkillList:
+BYTE 00 00
+ALIGN 4
+
+FireMageFSkillList:
+BYTE 00 00
+ALIGN 4
+
+ThunderMageMSkillList:
+BYTE 00 00
+ALIGN 4
+
+ThunderMageFSkillList:
+BYTE 00 00
+ALIGN 4
+
+WindMageMSkillList:
+BYTE 00 00
+ALIGN 4
+
+WindMageFSkillList:
+BYTE 00 00
+ALIGN 4
+
+MageFighterMSkillList:
+BYTE 00 00
+ALIGN 4
+
+MageFighterFSkillList:
+BYTE 00 00
+ALIGN 4
+
+MageMSkillList:
+BYTE 00 00
+ALIGN 4
+
+MageFSkillList:
+BYTE 00 00
+ALIGN 4
+
+MageKnightMSkillList:
+BYTE 00 00
+ALIGN 4
+
+MageKnightFSkillList:
+BYTE 00 00
+ALIGN 4
+
+BardSkillList:
+BYTE 00 00
+ALIGN 4
+
+ShamanSkillList:
+BYTE 00 00
+ALIGN 4
+
+SageMSkillList:
+BYTE 00 00
+ALIGN 4
+
+SageFSkillList:
+BYTE 00 00
+ALIGN 4
+
+PriestSkillList:
+BYTE 00 00
+ALIGN 4
+
+ClericSkillList:
+BYTE 00 00
+ALIGN 4
+
+HighPriestSkillList:
+BYTE 00 00
+ALIGN 4
+
+HighPriestessSkillList:
+BYTE 00 00
+ALIGN 4
+
+BishopSkillList:
+BYTE 00 00
+ALIGN 4
+
+QueenSkillList:
+BYTE 00 00
+ALIGN 4
+
+DarkMageMSkillList:
+BYTE 00 00
+ALIGN 4
+
+DarkMageFSkillList:
+BYTE 00 00
+ALIGN 4
+
+DarkBishopMSkillList:
+BYTE 00 00
+ALIGN 4
+
+DarkBishopFSkillList:
+BYTE 00 00
+ALIGN 4
+
+ArchbishopSkillList:
+BYTE 00 00
+ALIGN 4
+
+DarkPrinceSkillList:
 BYTE 00 00
 ALIGN 4

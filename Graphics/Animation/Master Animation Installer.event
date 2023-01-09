@@ -86,6 +86,7 @@
 {
 #include "CavM(SALVAGED)\Axe Installer.event"
 #include "CavM(SALVAGED)\Handaxe Installer.event"
+#include "CavM(SALVAGED)\Bow Installer.event"
 #include "CavM(SALVAGED)\Unarmed Installer.event"
 }
 {
@@ -316,3 +317,8 @@ LanceAnim(0x3e)
 StaffAnim(0xc9)
 UnarmedAnim(0x3f)
 EndAnim
+
+ALIGN 4
+BowCavAnims:
+BowAnim(0xac)
+UnarmedAnim(0x39)

@@ -149,6 +149,9 @@ POP
   //Dynamic Portrait
   #include "Necessary/DynamicPortrait/DynamicPortraitsInstaller.event" 
   
+  //Switch Map Palette
+  #include "ExternalHacks/SwitchMapPalette/Installer.event"
+  
   //Uncheese
   #include "ExternalHacks/Uncheese/UncheeseMasterInstaller.event"
   
@@ -201,6 +204,9 @@ POP
   //Status-Inflicting Weapons
   ALIGN 4
   #include "ExternalHacks/StatusWeapons/StatusWeapons.event"
+  
+  //chai improvement
+  #include "Necessary/CHAI_Fix/FE8-New_CHAI_EA.event"
   
   //Narrow Fonts by Scraiza
   ALIGN 4

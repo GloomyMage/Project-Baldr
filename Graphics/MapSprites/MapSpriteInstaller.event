@@ -41,3 +41,27 @@ PrinceST:
 ALIGN 4 
 PrinceMv:
 #incbin "PrinceMv.dmp"
+
+ALIGN 4
+ArcherMSt:
+#incbin "ArcherMSt.dmp" 
+
+ALIGN 4
+ArcherMMv:
+#incbin "ArcherMMv.dmp" 
+
+ALIGN 4
+ArcherFSt:
+#incbin "ArcherFSt.dmp"
+ 
+ALIGN 4
+ArcherFMv:
+#incbin "ArcherFMv.dmp" 
+
+ALIGN 4
+PirateMSt:
+#incbin "PirateMSt.dmp"
+ 
+ALIGN 4
+PirateMMv:
+#incbin "PirateMMv.dmp"

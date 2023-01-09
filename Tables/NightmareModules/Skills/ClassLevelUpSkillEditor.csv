@@ -1,101 +1,101 @@
 INLINE ClassLevelUpSkillTable,Skill Pointer
 0x00 Separator/Nothing,0x0
-0x01 Lord,EphraimLordSkillList|IsPointer
-0x02 Knight Lord (Seliph),EirikaLordSkillList|IsPointer
-0x03 Knight Lord (Sigurd),EphraimGreatLordSkillList|IsPointer
-0x04 Prince,EirikaGreatLordSkillList|IsPointer
-0x05 Princess,CavalierSkillList|IsPointer
-0x06 Master Knight (M),CavalierSkillList|IsPointer
-0x07 Master Knight (F),PaladinSkillList|IsPointer
-0x08 Myrmidon (M),PaladinSkillList|IsPointer
-0x09 Myrmidon (F),KnightSkillList|IsPointer
-0x0A Mercenary (M),KnightSkillList|IsPointer
-0x0B Mercenary (F),GeneralSkillList|IsPointer
-0x0C Swordmaster (M),GeneralSkillList|IsPointer
-0x0D Swordmaster (F),ThiefSkillList|IsPointer
-0x0E Hero (M),0x0
-0x0D Hero (F),MercenarySkillList|IsPointer
-0x10 Thief (M),MercenarySkillList|IsPointer
-0x11 Thief (F),HeroSkillList|IsPointer
-0x12 Rogue (M),HeroSkillList|IsPointer
-0x13 Rogue (F),MyrmidonSkillList|IsPointer
-0x14 Assassin (M),MyrmidonSkillList|IsPointer
-0x15 Assassin (F),SwordmasterSkillList|IsPointer
-0x16 Dancer,SwordmasterSkillList|IsPointer
-0x17 Fighter,AssassinSkillList|IsPointer
-0x18 Warrior,AssassinSkillList|IsPointer
-0x19 Hunter,ArcherSkillList|IsPointer
-0x1A Barbarian,ArcherSkillList|IsPointer
-0x1B Brigand (M),SniperSkillList|IsPointer
-0x1C Brigand (F),SniperSkillList|IsPointer
-0x1D Pirate (M),RangerSkillList|IsPointer
-0x1E Pirate (F),RangerSkillList|IsPointer
-0x1F Berserker (M),WyvernRiderSkillList|IsPointer
-0x20 Berserker (F),WyvernRiderSkillList|IsPointer
-0x21 Archer (M),WyvernLordSkillList|IsPointer
-0x22 Archer (F),WyvernLordSkillList|IsPointer
-0x23 Sniper (M),WyvernKnightSkillList|IsPointer
-0x24 Sniper (F),WyvernKnightSkillList|IsPointer
-0x25 Adventurer (M),MageSkillList|IsPointer
-0x26 Adventurer (F),MageSkillList|IsPointer
-0x27 Freeblade,SageSkillList|IsPointer
-0x28 Trueblade,SageSkillList|IsPointer
-0x29 Soldier,MageKnightSkillList|IsPointer
-0x2A Halberdier,MageKnightSkillList|IsPointer
-0x2B Cavalier,BishopSkillList|IsPointer
-0x2C Paladin (M),BishopSkillList|IsPointer
-0x2D Holy Knight,ShamanSkillList|IsPointer
-0x2E Troubadour,ShamanSkillList|IsPointer
-0x2F Walkyrie,DruidSkillList|IsPointer
-0x30 Paladin (F),DruidSkillList|IsPointer
-0x31 Free Knight,SummonerSkillList|IsPointer
-0x32 Ranger (M),SummonerSkillList|IsPointer
-0x33 Ranger (F),RogueSkillList|IsPointer
+0x01 Lord,LordSkillList|IsPointer
+0x02 Knight Lord (Seliph),KnightLordSeliphSkillList|IsPointer
+0x03 Knight Lord (Sigurd),KnightLordSigurdSkillList|IsPointer
+0x04 Prince,PrinceSkillList|IsPointer
+0x05 Princess,PrincessSkillList|IsPointer
+0x06 Master Knight (M),MasterKnightMSkillList|IsPointer
+0x07 Master Knight (F),MasterKnightFSkillList|IsPointer
+0x08 Myrmidon (M),MyrmidonMSkillList|IsPointer
+0x09 Myrmidon (F),MyrmidonFSkillList|IsPointer
+0x0A Mercenary (M),MercenaryMSkillList|IsPointer
+0x0B Mercenary (F),MercenaryFSkillList|IsPointer
+0x0C Swordmaster (M),SwordmasterMSkillList|IsPointer
+0x0D Swordmaster (F),SwordmasterFSkillList|IsPointer
+0x0E Hero (M),HeroMSkillList|IsPointer
+0x0D Hero (F),HeroFSkillList|IsPointer
+0x10 Thief (M),ThiefMSkillList|IsPointer
+0x11 Thief (F),ThiefFSkillList|IsPointer
+0x12 Rogue (M),RogueMSkillList|IsPointer
+0x13 Rogue (F),RogueFSkillList|IsPointer
+0x14 Assassin (M),AssassinMSkillList|IsPointer
+0x15 Assassin (F),AssassinFSkillList|IsPointer
+0x16 Dancer,DancerSkillList|IsPointer
+0x17 Fighter,FighterSkillList|IsPointer
+0x18 Warrior,WarriorSkillList|IsPointer
+0x19 Hunter,HunterSkillList|IsPointer
+0x1A Barbarian,BarbarianSkillList|IsPointer
+0x1B Brigand (M),BrigandMSkillList|IsPointer
+0x1C Brigand (F),BrigandFSkillList|IsPointer
+0x1D Pirate (M),PirateMSkillList|IsPointer
+0x1E Pirate (F),PirateFSkillList|IsPointer
+0x1F Berserker (M),BerserkerMSkillList|IsPointer
+0x20 Berserker (F),BerserkerFSkillList|IsPointer
+0x21 Archer (M),ArcherMSkillList|IsPointer
+0x22 Archer (F),ArcherFSkillList|IsPointer
+0x23 Sniper (M),SniperMSkillList|IsPointer
+0x24 Sniper (F),SniperFSkillList|IsPointer
+0x25 Adventurer (M),AdventurerMSkillList|IsPointer
+0x26 Adventurer (F),AdventurerFSkillList|IsPointer
+0x27 Freeblade,FreebladeSkillList|IsPointer
+0x28 Trueblade,TruebladeSkillList|IsPointer
+0x29 Soldier,SoldierSkillList|IsPointer
+0x2A Halberdier,HalberdierSkillList|IsPointer
+0x2B Cavalier,CavalierSkillList|IsPointer
+0x2C Paladin (M),PaladinMSkillList|IsPointer
+0x2D Holy Knight,HolyKnightSkillList|IsPointer
+0x2E Troubadour,TroubadourSkillList|IsPointer
+0x2F Walkyrie,WalkyrieSkillList|IsPointer
+0x30 Paladin (F),PaladinFSkillList|IsPointer
+0x31 Free Knight,FreeKnightSkillList|IsPointer
+0x32 Ranger (M),RangerMSkillList|IsPointer
+0x33 Ranger (F),RangerFSkillList|IsPointer
 0x34 DON'T TOUCH THIS,0x0
-0x35 Lance Knight,CavalierSkillList|IsPointer
+0x35 Lance Knight,LanceKnightSkillList|IsPointer
 0x36 Duke Knight,DukeKnightSkillList|IsPointer
-0x37 Axe Knight,0x0
+0x37 Axe Knight,AxeKnightSkillList|IsPointer
 0x38 Great Knight,GreatKnightSkillList|IsPointer
-0x39 Arch Knight (M),0x0
-0x3A Arch Knight (F),0x0
-0x3B Bow Knight,0x0
-0x3C Sword Armour,ManaketeFSkillList|IsPointer
-0x3D Lance Armour,0x0
-0x3E Axe Armour,0x0
-0x3F Bow Armour,FighterSkillList|IsPointer
-0x40 Protector,WarriorSkillList|IsPointer
-0x41 Sentinel,BrigandSkillList|IsPointer
-0x42 General,PirateSkillList|IsPointer
-0x43 Baron,BerserkerSkillList|IsPointer
-0x44 Emperor,MonkSkillList|IsPointer
-0x45 Pegasus Knight,PriestSkillList|IsPointer
-0x46 Falcon Knight,0x0
-0x47 Harrier,0x0
-0x48 Wyvern Rider (M),PegKnightSkillList|IsPointer
-0x49 Wyvern Rider (F),FalcoknightSkillList|IsPointer
-0x4A Wyvern Knight (M),ClericSkillList|IsPointer
-0x4B Wyvern Knight (F),TroubadourSkillList|IsPointer
-0x4C Wyvern Master (M),ValkyrieSkillList|IsPointer
-0x4D Wyvern Master (F),DancerSkillList|IsPointer
-0x4E Wyvern Lord (M),SoldierSkillList|IsPointer
-0x4F Wyvern Lord (F),NecromancerSkillList|IsPointer
-0x50 Malig Knight,FleetSkillList|IsPointer
-0x51 Fire Mage (M),PhantomSkillList|IsPointer
-0x52 Fire Mage (F),0x0
-0x53 Thunder Mage (M),0x0
-0x54 Thunder Mage (F),0x0
-0x55 Wind Mage (M),0x0
-0x56 Wind Mage (F),0x0
-0x57 Mage Fighter (M),0x0
-0x58 Mage Fighter (F),0x0
-0x59 Mage (M),0x0
-0x5A Mage (F),0x0
-0x5B Mage Knight (M),0x0
-0x5C Mage Knight (F),0x0
-0x5D Bard,0x0
-0x5E Shaman,0x0
-0x5F Sage (M),0x0
-0x60 Sage (F),0x0
+0x39 Arch Knight (M),ArchKnightMSkillList|IsPointer
+0x3A Arch Knight (F),ArchKnightFSkillList|IsPointer
+0x3B Bow Knight,BowKnightSkillList|IsPointer
+0x3C Sword Armour,SwordArmourSkillList|IsPointer
+0x3D Lance Armour,LanceArmourSkillList|IsPointer
+0x3E Axe Armour,AxeArmourSkillList|IsPointer
+0x3F Bow Armour,BowArmourSkillList|IsPointer
+0x40 Protector,ProtectorSkillList|IsPointer
+0x41 Sentinel,SentinelSkillList|IsPointer
+0x42 General,GeneralSkillList|IsPointer
+0x43 Baron,BaronSkillList|IsPointer
+0x44 Emperor,EmperorSkillList|IsPointer
+0x45 Pegasus Knight,PegasusKnightSkillList|IsPointer
+0x46 Falcon Knight,FalconKnightSkillList|IsPointer
+0x47 Harrier,HarrierSkillList|IsPointer
+0x48 Wyvern Rider (M),WyvernRiderMSkillList|IsPointer
+0x49 Wyvern Rider (F),WyvernRiderFSkillList|IsPointer
+0x4A Wyvern Knight (M),WyvernKnightMSkillList|IsPointer
+0x4B Wyvern Knight (F),WyvernKnightFSkillList|IsPointer
+0x4C Wyvern Master (M),WyvernMasterMSkillList|IsPointer
+0x4D Wyvern Master (F),WyvernMasterFSkillList|IsPointer
+0x4E Wyvern Lord (M),WyvernLordMSkillList|IsPointer
+0x4F Wyvern Lord (F),WyvernLordFSkillList|IsPointer
+0x50 Malig Knight,MaligKnightSkillList|IsPointer
+0x51 Fire Mage (M),FireMageMSkillList|IsPointer
+0x52 Fire Mage (F),FireMageFSkillList|IsPointer
+0x53 Thunder Mage (M),ThunderMageMSkillList|IsPointer
+0x54 Thunder Mage (F),ThunderMageFSkillList|IsPointer
+0x55 Wind Mage (M),WindMageMSkillList|IsPointer
+0x56 Wind Mage (F),WindMageFSkillList|IsPointer
+0x57 Mage Fighter (M),MageFighterMSkillList|IsPointer
+0x58 Mage Fighter (F),MageFighterFSkillList|IsPointer
+0x59 Mage (M),MageMSkillList|IsPointer
+0x5A Mage (F),MageFSkillList|IsPointer
+0x5B Mage Knight (M),MageKnightMSkillList|IsPointer
+0x5C Mage Knight (F),MageKnightFSkillList|IsPointer
+0x5D Bard,BardSkillList|IsPointer
+0x5E Shaman,ShamanSkillList|IsPointer
+0x5F Sage (M),SageMSkillList|IsPointer
+0x60 Sage (F),SageFSkillList|IsPointer
 0x61 Gorgon,0x0
 0x62 DON'T TOUCH THIS,0x0
 0x63 Gargoyle,0x0
@@ -115,141 +115,141 @@ INLINE ClassLevelUpSkillTable,Skill Pointer
 0x71 Civilian,0x0
 0x72 Civilian (F),0x0
 0x73 Peer,0x0
-0x74 Priest,0x0
-0x75 Cleric,0x0
-0x76 High Priest,0x0
-0x77 High Priestess,0x0
-0x78 Bishop,0x0
-0x79 Queen,0x0
-0x7A Dark Mage (M),0x0
-0x7B Dark Mage (F),0x0
-0x7C Dark Bishop (M),0x0
-0x7D Dark Bishop (F),0x0
-0x7E Archbishop,0x0
-0x7F Dark Prince,0x0
--,0x0
--,0x0
--,0x0
--,0x0
--,0x0
--,0x0
--,0x0
--,0x0
--,0x0
--,0x0
--,0x0
--,0x0
--,0x0
--,0x0
--,0x0
--,0x0
--,0x0
--,0x0
--,0x0
--,0x0
--,0x0
--,0x0
--,0x0
--,0x0
--,0x0
--,0x0
--,0x0
--,0x0
--,0x0
--,0x0
--,0x0
--,0x0
--,0x0
--,0x0
--,0x0
--,0x0
--,0x0
--,0x0
--,0x0
--,0x0
--,0x0
--,0x0
--,0x0
--,0x0
--,0x0
--,0x0
--,0x0
--,0x0
--,0x0
--,0x0
--,0x0
--,0x0
--,0x0
--,0x0
--,0x0
--,0x0
--,0x0
--,0x0
--,0x0
--,0x0
--,0x0
--,0x0
--,0x0
--,0x0
--,0x0
--,0x0
--,0x0
--,0x0
--,0x0
--,0x0
--,0x0
--,0x0
--,0x0
--,0x0
--,0x0
--,0x0
--,0x0
--,0x0
--,0x0
--,0x0
--,0x0
--,0x0
--,0x0
--,0x0
--,0x0
--,0x0
--,0x0
--,0x0
--,0x0
--,0x0
--,0x0
--,0x0
--,0x0
--,0x0
--,0x0
--,0x0
--,0x0
--,0x0
--,0x0
--,0x0
--,0x0
--,0x0
--,0x0
--,0x0
--,0x0
--,0x0
--,0x0
--,0x0
--,0x0
--,0x0
--,0x0
--,0x0
--,0x0
--,0x0
--,0x0
--,0x0
--,0x0
--,0x0
--,0x0
--,0x0
--,0x0
--,0x0
--,0x0
--,0x0
--,0x0
--,0x0
+0x74 Priest,PriestSkillList|IsPointer
+0x75 Cleric,ClericSkillList|IsPointer
+0x76 High Priest,HighPriestSkillList|IsPointer
+0x77 High Priestess,HighPriestessSkillList|IsPointer
+0x78 Bishop,BishopSkillList|IsPointer
+0x79 Queen,QueenSkillList|IsPointer
+0x7A Dark Mage (M),DarkMageMSkillList|IsPointer
+0x7B Dark Mage (F),DarkMageFSkillList|IsPointer
+0x7C Dark Bishop (M),DarkBishopMSkillList|IsPointer
+0x7D Dark Bishop (F),DarkBishopFSkillList|IsPointer
+0x7E Archbishop,ArchbishopSkillList|IsPointer
+0x7F Dark Prince,DarkPrinceSkillList|IsPointer
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0

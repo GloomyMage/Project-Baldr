@@ -97,6 +97,9 @@ EndAttack
 FIG1 Munnir Midir HandAxe
 SFXKillUnit(Midir)
 LOAD 0x1 Kidnapped
+MOVE 120 DiMaggio [29,18]
+ENUN
+SetAI(DiMaggio,0x03,0x03,0x04,0x20)
 ENDA
 
 AzelCometh:
@@ -148,7 +151,7 @@ UNIT
 
 EnemyUnits:
 UNIT DiMaggio Brigand Munnir Level(10,Enemy,0) [19,12] 0x0 0x0 0x1 REDA22R20 [SteelAxe] AttackInRangeAI
-UNIT Gerrard Fighter Munnir Level(20,Enemy,0) [1,8] 0x0 0x0 0x0 0x1 [SteelAxe, HandAxe] AttackInRangeAI
+UNIT Gerrard Fighter Munnir Level(20,Enemy,0) [1,8] 0x0 0x0 0x0 0x1 [SteelAxe, HandAxe] NeverMoveAI
 UNIT Munnir Warrior Sandima Level(20,Enemy,0) [28,19] 0x0 0x0 0x0 0x1 [HandAxe, SklRing] AttackInRangeAI
 UNIT Verdane1 Barbarian DiMaggio Level(1,Enemy,1) [9,1] 0x0 0x0 0x0 0x1 [IronAxe] AttackInRangeAI
 UNIT Verdane1 Barbarian DiMaggio Level(1,Enemy,1) [8,5] 0x0 0x0 0x0 0x1 [IronAxe] AttackInRangeAI
