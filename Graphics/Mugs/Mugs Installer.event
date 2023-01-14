@@ -257,6 +257,14 @@ IndechPortrait:
 setMugEntry(0x21,IndechPortrait,3,6,3,4)
 
 ALIGN 4
+CallistaPortrait:
+#incbin "Callista_mug.dmp"
+#incbin "Callista_frames.dmp"
+#incbin "Callista_palette.dmp"
+#incbin "Callista_minimug.dmp"
+setMugEntry(0xFF,CallistaPortrait,4,6,4,4)
+
+ALIGN 4
 TailtiuPortrait:
 #incbin "Tailtiu_mug.dmp"
 #incbin "Tailtiu_frames.dmp"
@@ -1078,7 +1086,7 @@ JuphielPortrait:
 #incbin "Juphiel_frames.dmp"
 #incbin "Juphiel_palette.dmp"
 #incbin "Juphiel_minimug.dmp"
-setMugEntry(0xB0,JuphielPortrait,3,6,3,2)
+setMugEntry(0xB0,JuphielPortrait,3,6,3,4)
 
 ALIGN 4
 FisherPortrait:
@@ -1199,6 +1207,14 @@ AidaPortrait:
 #incbin "Aida_palette.dmp"
 #incbin "Aida_minimug.dmp"
 setMugEntry(0x15,AidaPortrait,3,5,3,3)
+
+ALIGN 4
+LahnaPortrait:
+#incbin "Lahna_mug.dmp"
+#incbin "Lahna_frames.dmp"
+#incbin "Lahna_palette.dmp"
+#incbin "Lahna_minimug.dmp"
+setMugEntry(0xEF,LahnaPortrait,2,5,2,3)
 
 ALIGN 4
 PalmarchOldPortrait:

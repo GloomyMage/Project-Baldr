@@ -1,0 +1,129 @@
+INLINE PaletteAssociationTable,Palette Association List Pointer
+0x00 (No one/Not referenced),0x0
+Lord,EmptyPaletteList|IsPointer
+Knight Lord (Seliph),EmptyPaletteList|IsPointer
+Knight Lord (Sigurd),EmptyPaletteList|IsPointer
+Prince,EmptyPaletteList|IsPointer
+Princess,EmptyPaletteList|IsPointer
+Master Knight (M),MasterKntPaletteList|IsPointer
+Master Knight (F),MasterKntPaletteList|IsPointer
+Myrmidon (M),MyrmPaletteList|IsPointer
+Myrmidon (F),MyrmPaletteList|IsPointer
+Mercenary (M),MercPaletteList|IsPointer
+Mercenary (F),MercPaletteList|IsPointer
+Swordmaster (M),SwordmasterPaletteList|IsPointer
+Swordmaster (F),SwordmasterPaletteList|IsPointer
+Hero (M),HeroPaletteList|IsPointer
+Hero (F),HeroPaletteList|IsPointer
+Thief (M),ThiefPaletteList|IsPointer
+Thief (F),ThiefPaletteList|IsPointer
+Rogue (M),RoguePaletteList|IsPointer
+Rogue (F),RoguePaletteList|IsPointer
+Assassin (M),AssassinPaletteList|IsPointer
+Assassin (F),AssassinPaletteList|IsPointer
+Dancer,EmptyPaletteList|IsPointer
+Fighter,AxeFighterPaletteList|IsPointer
+Warrior,WarriorPaletteList|IsPointer
+Hunter,HunterPaletteList|IsPointer
+Barbarian,BarbarianPaletteList|IsPointer
+Brigand (M),BrigandPaletteList|IsPointer
+Brigand (F),BrigandPaletteList|IsPointer
+Pirate (M),PiratePaletteList|IsPointer
+Pirate (F),PiratePaletteList|IsPointer
+Berserker (M),BerserkerPaletteList|IsPointer
+Berserker (F),BerserkerPaletteList|IsPointer
+Archer (M),ArcherPaletteList|IsPointer
+Archer (F),ArcherPaletteList|IsPointer
+Sniper (M),SniperPaletteList|IsPointer
+Sniper (F),SniperPaletteList|IsPointer
+Adventurer (M),AdventurerPaletteList|IsPointer
+Adventurer (F),AdventurerPaletteList|IsPointer
+Freeblade,EmptyPaletteList|IsPointer
+Trueblade,TruebladePaletteList|IsPointer
+Soldier,SoldierPaletteList|IsPointer
+Halberdier,HalberdierPaletteList|IsPointer
+Cavalier,CavalierPaletteList|IsPointer
+Paladin (M),PaladinPaletteList|IsPointer
+Holy Knight,HolyKntPaletteList|IsPointer
+Troubadour,TroubadourPaletteList|IsPointer
+Walkyrie,ValkyriePaletteList|IsPointer
+Paladin (F),PaladinPaletteList|IsPointer
+Free Knight,FreeCavPaletteList|IsPointer
+Ranger (M),RangerPaletteList|IsPointer
+Ranger (F),RangerPaletteList|IsPointer
+DON'T TOUCH THIS,EmptyPaletteList|IsPointer
+Lance Knight,LncCavPaletteList|IsPointer
+Duke Knight,DukeKntPaletteList|IsPointer
+Axe Knight,AxeCavPaletteList|IsPointer
+Great Knight,GKPaletteList|IsPointer
+Arch Knight (M),BowCavPaletteList|IsPointer
+Arch Knight (F),BowCavPaletteList|IsPointer
+Bow Knight,ArchKntList|IsPointer
+Sword Armour,ArmorPaletteList|IsPointer
+Lance Armour,ArmorPaletteList|IsPointer
+Axe Armour,ArmorPaletteList|IsPointer
+Bow Armour,ArmorPaletteList|IsPointer
+Protector,ProtectorPaletteList|IsPointer
+Sentinel,SentinelPaletteList|IsPointer
+General,GeneralPaletteList|IsPointer
+Baron,GeneralPaletteList|IsPointer
+Emperor,EmperorPaletteList|IsPointer
+Pegasus Knight,PegKnightPaletteList|IsPointer
+Falcon Knight,FalcoknightPaletteList|IsPointer
+Harrier,HarrierPaletteList|IsPointer
+Wyvern Rider (M),WyvRiderPaletteList|IsPointer
+Wyvern Rider (F),WyvRiderPaletteList|IsPointer
+Wyvern Knight (M),WyvKnightPaletteList|IsPointer
+Wyvern Knight (F),WyvKnightPaletteList|IsPointer
+Wyvern Master (M),DrgMasterPaletteList|IsPointer
+Wyvern Master (F),DrgMasterPaletteList|IsPointer
+Wyvern Lord (M),WyvLordPaletteList|IsPointer
+Wyvern Lord (F),WyvLordPaletteList|IsPointer
+Malig Knight,MaligKntPaletteList|IsPointer
+Fire Mage (M),FireMagePaletteList|IsPointer
+Fire Mage (F),FireMagePaletteList|IsPointer
+Thunder Mage (M),ThunderMagePaletteList|IsPointer
+Thunder Mage (F),ThunderMagePaletteList|IsPointer
+Wind Mage (M),WindMagePaletteList|IsPointer
+Wind Mage (F),WindMagePaletteList|IsPointer
+Mage Fighter (M),MageFighterPaletteList|IsPointer
+Mage Fighter (F),MageFighterPaletteList|IsPointer
+Mage (M),MagePaletteList|IsPointer
+Mage (F),MagePaletteList|IsPointer
+Mage Knight (M),MageKnightPaletteList|IsPointer
+Mage Knight (F),MageKnightPaletteList|IsPointer
+Bard,EmptyPaletteList|IsPointer
+Shaman,EmptyPaletteList|IsPointer
+Sage (M),SagePaletteList|IsPointer
+Sage (F),SagePaletteList|IsPointer
+Gorgon,EmptyPaletteList|IsPointer
+DON'T TOUCH THIS,EmptyPaletteList|IsPointer
+Gargoyle,EmptyPaletteList|IsPointer
+Deathgoyle,EmptyPaletteList|IsPointer
+DON'T TOUCH THIS,EmptyPaletteList|IsPointer
+DON'T TOUCH THIS,EmptyPaletteList|IsPointer
+Archer on Ballista,EmptyPaletteList|IsPointer
+Archer on Iron Ballista,EmptyPaletteList|IsPointer
+Archer on Killer Ballista,EmptyPaletteList|IsPointer
+Ballista,EmptyPaletteList|IsPointer
+Iron Ballista,EmptyPaletteList|IsPointer
+Killer Ballista,EmptyPaletteList|IsPointer
+Civilian,EmptyPaletteList|IsPointer
+Civilian (F),EmptyPaletteList|IsPointer
+Civilian,EmptyPaletteList|IsPointer
+Civilian (F),EmptyPaletteList|IsPointer
+Civilian,EmptyPaletteList|IsPointer
+Civilian (F),EmptyPaletteList|IsPointer
+Peer,EmptyPaletteList|IsPointer
+Priest,PriestPaletteList|IsPointer
+Cleric,ClericPaletteList|IsPointer
+High Priest,HighPriestPaletteList|IsPointer
+High Priestess,HighPriestPaletteList|IsPointer
+Bishop,SaintPaletteList|IsPointer
+Queen,EmptyPaletteList|IsPointer
+Dark Mage (M),ShamanPaletteList|IsPointer
+Dark Mage (F),ShamanPaletteList|IsPointer
+Dark Bishop (M),DruidPaletteList|IsPointer
+Dark Bishop (F),DruidPaletteList|IsPointer
+Archbishop,EmptyPaletteList|IsPointer
+Dark Prince,EmptyPaletteList|IsPointer

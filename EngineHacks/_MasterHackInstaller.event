@@ -141,7 +141,13 @@ POP
   #include "PRFAnims/Installer.event"
   
   //Battle Palette Rework
-  //#include "ExternalHacks/BattlePaletteRework/BattlePaletteReworkFE8.event"
+  #include "ExternalHacks/BattlePaletteRework/BattlePaletteReworkFE8.event"
+  
+  //Boss killed by unit 
+  #include "ExternalHacks/KilledbyUnit/Installer.event
+  
+  //ASMC Check Suite
+  #include "Necessary/ASMCCheckSuite/ASMCCheckInstaller.event
   
   //Mug Exceed
   #include "ExternalHacks/MugExceed/EA.txt"

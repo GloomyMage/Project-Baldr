@@ -123,7 +123,7 @@ UNIT Alec UniCav 0x0 Level(10,Ally,0) [55,6] 0x0 0x0 0x0 0x1 [IronSword, MasterS
 UNIT Noish UniCav 0x0 Level(1,Ally,0) [57,6] 0x0 0x0 0x0 0x1 [SteelSword] NoAI
 UNIT Arden SwdArm 0x0 Level(1,Ally,0) [56,7] 0x0 0x0 0x0 0x1 [IronSword] NoAI
 UNIT Holyn Merc 0x0 Level(1,Ally,0) [52,4] 0x0 0x0 0x0 0x1 [SlimSword] NoAI
-UNIT ArvisGen1 Sage 0x0 Level(1,Ally,0) [53,4] 0x0 0x0 0x0 0x1 [SlimSword] NoAI
+UNIT Lachesis Princess 0x0 Level(1,Ally,0) [53,4] 0x0 0x0 0x0 0x1 [SlimSword] NoAI
 UNIT //Tells the game that the unit list has ended
 
 UselessBoi:
@@ -142,7 +142,7 @@ UNIT
 LensterCavalry:
 UNIT Finn LncCav 0x0 Level(10,Ally,0) [54,10] 0x0 0x0 0x1 REDA49R9 [IronLance, MasterSeal] NoAI
 UNIT Quan DukeKnt 0x0 Level(10,Ally,0) [57,8] 0x0 0x0 0x1 REDA44R9 [SteelLance, MasterSeal] NoAI
-UNIT Ethlyn PalF 0x0 Level(10,Ally,0) [57,7] 0x0 0x0 0x1 REDA46R11 [Heal, MasterSeal] NoAI
+UNIT Ethlyn Troub 0x0 Level(10,Ally,0) [57,7] 0x0 0x0 0x1 REDA46R11 [Heal, MasterSeal] NoAI
 UNIT
 
 ArvisCometh:
