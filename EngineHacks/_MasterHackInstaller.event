@@ -144,10 +144,10 @@ POP
   #include "ExternalHacks/BattlePaletteRework/BattlePaletteReworkFE8.event"
   
   //Boss killed by unit 
-  #include "ExternalHacks/KilledbyUnit/Installer.event
+  #include "ExternalHacks/KilledbyUnit/Installer.event"
   
   //ASMC Check Suite
-  #include "Necessary/ASMCCheckSuite/ASMCCheckInstaller.event
+  #include "Necessary/ASMCCheckSuite/ASMCCheckInstaller.event"
   
   //Mug Exceed
   #include "ExternalHacks/MugExceed/EA.txt"
