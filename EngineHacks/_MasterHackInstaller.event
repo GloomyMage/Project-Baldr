@@ -158,6 +158,12 @@ POP
   //Switch Map Palette
   #include "ExternalHacks/SwitchMapPalette/Installer.event"
   
+  //Pursuit
+  #include "Baldr/PursuitCalc/CanUnitDoubleCalcLoop.lyn.event"
+  
+  //New Calculations (crit)
+  #include "Baldr/NewCalcs/NewCalcs.event"
+  
   //Uncheese
   #include "ExternalHacks/Uncheese/UncheeseMasterInstaller.event"
   

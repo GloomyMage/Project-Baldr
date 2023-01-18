@@ -17,6 +17,19 @@
 [Beat] = [ToggleMouthMove]...[.4][ToggleMouthMove]
 [Event] = [LoadOverworldFaces]
 
+[HorseIcon] = [0x7B]
+[PegIcon] = [0x7D]
+[ArmorIcon] = [0x7C]
+[DragonIcon] = [0x7F]
+[SwordIcon] = [0xB3]
+[LanceIcon] = [0xB4]
+[AxeIcon] = [0xB5]
+[BowIcon] = [0xB6]
+[AnimaIcon] = [0xB8]
+[LightIcon] = [0xB7]
+[DarkIcon] = [0xB9]
+[StaffIcon] = [0xBA]
+
 [FarFarLeft] = [OpenFarFarLeft]
 [FarLeft] = [OpenFarLeft]
 [MidLeft] = [OpenMidLeft]
@@ -46,7 +59,12 @@
 [......v.] = [FarRight]
 [.......v] = [FarFarRight]
 
+[OpenQuote] = [0x93]
+[CloseQuote] = [0x94]
+
 [CurrentPortrait] = [0xFF][0xFF]
+[LoadCurrent] = [LoadFace][0xFF][0xFF]
+[LoadPlayer] = [LoadFace][0xE0][0xE0]
 
 [LoadInnes] = [LoadFace][0xf][0x1]
 [LoadCormag] = [LoadFace][0x13][0x1]
