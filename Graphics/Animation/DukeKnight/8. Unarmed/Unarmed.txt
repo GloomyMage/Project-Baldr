@@ -1,5 +1,5 @@
 #######################################################
-#C4 fifd_mg1 Duke Knight Item
+#B2 cer_at1 Duke Knight Item
 #
 #When importing to FEditorAdv delete # and after each line.
 #######################################################

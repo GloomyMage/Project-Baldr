@@ -1,0 +1,56 @@
+##_Seize
+Seize[X]
+
+##_SeizeJungby
+Seize[N]
+Jungby Castle.[X]
+
+##_SeizeEvans
+Seize[N]
+Evans Castle.[X]
+
+##_SeizeGenoa
+Seize[N]
+Genoa Castle.[X]
+
+##_SeizeMarpha
+Seize[N]
+Marpha Castle.[X]
+
+##_SeizeVerdane
+Seize[N]
+Verdane Castle.[X]
+
+##_SeizeCastle
+Seize[N]
+The Castle.[X]
+
+##_Survive
+Survive[X]
+
+##_Escape
+Escape[X]
+
+##_BossKill
+Defeat boss[X]
+
+##_Castle
+Interact![X]
+
+##_Gaiden2
+Avoid Death.[X]
+
+##_Talk
+Talk[X]
+
+##_Rout
+Rout enemy[X]
+
+##_Multiboss
+Defeat bosses[X]
+
+##_Defend
+Defend[X]
+
+##_FinalObjective
+Liberate Jugdral[X]

@@ -9,3 +9,5 @@
 #include "Palettes/_Battle Palette Installer.event"
 
 #include "ItemIcons/Icon Installer.event"
+
+#include "Minimugs/MinimugInstaller.event"

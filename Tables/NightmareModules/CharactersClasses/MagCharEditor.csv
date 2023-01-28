@@ -1,257 +1,257 @@
 INLINE MagCharTable,Base Magic,Magic Growth
 None,0,0
-Eirika,0,5
-Seth,2,10
-Gilliam,0,5
-Franz,1,10
-Moulder,3,40
-Vanessa,2,25
-Ross,0,5
-Neimi,2,15
-Colm,1,10
-Garcia,0,5
-Innes,1,10
-Lute,5,65
-Natasha,1,60
-Cormag,0,5
-Ephraim,0,15
-Forde,1,10
-Kyle,0,10
-Amelia,2,25
-Artur,5,50
-Gerik,0,10
-Tethys,0,5
-Marisa,1,10
-Saleh,11,30
-Ewan,2,45
-L'Arachel,5,50
-Dozla,0,5
-+AC0-0,0,50
-Rennac,3,35
-Duessel,0,5
-Myrrh,2,85
-Knoll,10,50
-Joshua,0,20
-Syrene,4,20
-Tana,2,15
-Lyon,13,50
-Orson,3,10
-Glen,2,0
-Selena,10,40
-Valter,2,10
-Riev,10,45
-Caellach,2,5
-Fado,4,5
-Ismaire,7,15
-Hayden,2,10
-FakeEirika,0,0
-+AC0-0,0,0
-0,0,0
-0,0,0
-0,0,0
-0,0,0
-+AC0-0,0,0
-+AC0-0,0,0
-+AC0-0,0,0
-+AC0-0,0,0
-+AC0-0,0,0
-+AC0-0,0,0
-+AC0-0,0,0
-+AC0-0,0,0
-Lyon's Summon,0,0
-+AC0-0,0,0
-+AC0-0,0,0
-Knoll's Summon,0,0
-Ewan's Summon,0,0
-Lyon (Ch 17),13,50
-Morva (Ch 20),6,85
-Orson (Ch 5x),3,10
-Valter (Ch 15),2,5
-Selena (Ch 10B +ACY- 13B),10,40
-Valter (Prologue),2,5
-Breguet (Ch 1),0,5
-Bone (Ch 2),0,5
-Bazba (Ch 3),1,10
-Entombed (Ch 4),1,5
-Saar (Ch 5),1,5
-Novala (Ch 6),8,50
-Murray (Ch 7),2,5
-Tirado (Ch 8),3,15
-Binks (Ch 9A),2,10
-Pablo (Ch 10A),8,50
-Maelduin (Ch 12A),2,10
-Aias (Ch 13A),2,5
-Carlyle (Ch 14A),5,30
-Caellach (Ch 15),3,5
-Pablo (Ch 13A),8,50
-0,0,0
-Gorgon (Ch 18),10,65
-Riev (Ch 19 +ACY- 20),10,45
-0,0,0
-0,0,0
-Gheb (Ch 9B),2,5
-Beran (Ch 10B),3,15
-Cyclops (Ch 12B),2,5
-Wight (Ch 11A),2,5
-Deathgoyle (Ch 11B),3,5
-Entombed (Monster Boss),3,5
-0,0,0
-0,0,0
-0,0,0
-+AC0-0,0,0
-Hunter (Ch 16),3,10
-+AC0-0,0,0
-Brigand,0,0
-0,0,0
-O'Neill (Prologue),0,5
-Glen (Cutscene),0,0
-Zonta (Ch 5x),1,5
-Vigarde (Ch 14B),5,15
-Lyon (Ch Final),20,20
-Orson (Ch 16),3,5
-0,0,0
-0,0,0
-0,0,0
-0,0,0
-0,0,0
-0,0,0
-0,0,0
-0,0,0
-0,0,0
-0,0,0
-0,0,0
-0,0,0
-0,0,0
-0,0,0
-0,0,0
-0,0,0
-0,0,0
-Grado Soldier (Special),0,0
-Grado Soldier 1 (Normal),0,0
-Grado Soldier 2,0,0
-Grado Soldier 3,0,0
-Grado Soldier 4,0,0
-Grado Soldier 5,0,0
-Grado Soldier 6,0,0
-Grado Soldier 7,0,0
-Grado Soldier 8,0,0
-Grado Soldier 9,0,0
-Grado Soldier 10 (Duessel's),0,0
-Grado Soldier 11 (Duessel's),0,0
-Grado Soldier 12 (Duessel's),0,0
-Grado Soldier 13,0,0
-Grado Remnant 1 (Main),0,0
-Cutthroat,0,0
-Grado Remnant 2 (Cutscene and C16 only?),0,0
-Grado Remnant 3 (C16 only?),0,0
-Grado Remnant 4 (C16 only?),0,0
-Wraith (Sage),0,0
-Wraith (Swords),0,0
-Wraith (Axes),0,0
-0,0,0
-0,0,0
-0,0,0
-0,0,0
-0,0,0
-0,0,0
-0,0,0
-0,0,0
-0,0,0
-0,0,0
-0,0,0
-0,0,0
-0,0,0
-0,0,0
-0,0,0
-0,0,0
-0,0,0
-0,0,0
-Mercenary (C9A),0,0
-Mercenary (C10A),0,0
-Merc Remnant (C13A),0,0
-Monster,0,0
-Monster,0,0
-Monster,0,0
-Monster,0,0
-Monster,0,0
-Monster,0,0
-Monster,0,0
-Monster,0,0
-Monster,0,0
-Monster,0,0
-Monster,0,0
-Monster,0,0
-Monster,0,0
-Monster,0,0
-Monster,0,0
-Monster,0,0
-Monster,0,0
-Monster,0,0
-Monster,0,0
-Monster,0,0
-Monster,0,0
-Demon King,0,0
-0,0,0
-Frelian,0,0
-Frelian,0,0
-0,0,0
-0,0,0
-0,0,0
-Fado (Renais),0,0
-0,0,0
-Hayden (Frelia),0,0
-Mansel (Rausten),0,0
-Klimt (Carcino),0,0
-Dara (Caer Pelyn),0,0
-Ismaire (Jehanna),0,0
-Pegasus Messenger,0,0
-Rausten Knight,0,0
-Rausten Knight,0,0
-(Untested Beyond this point),0,0
-0,0,0
-0,0,0
-0,0,0
-0,0,0
-0,0,0
-0,0,0
-0,0,0
-0,0,0
-0,0,0
-0,0,0
-0,0,0
-0,0,0
-0,0,0
-0,0,0
-0,0,0
-0,0,0
-0,0,0
-0,0,0
-0,0,0
-0,0,0
-0,0,0
-0,0,0
-0,0,0
-0,0,0
-0,0,0
-0,0,0
-0,0,0
-0,0,0
-0,0,0
-0,0,0
-0,0,0
-0,0,0
-0,0,0
-0,0,0
-0,0,0
-0,0,0
-0,0,0
-0,0,0
-0,0,0
-0,0,0
-0,0,0
-0,0,0
-0,0,0
-0,0,0
-0,0,0
-0,0,0
-0,0,0
+Sigurd,0,0
+Seliph,0,0
+Alec,0,0
+Naoise,0,0
+Arden,0,0
+Azelle,0,0
+Lex,0,0
+Quan,0,0
+Ethlyn,0,0
+Finn,0,0
+Midir,0,0
+Edain,0,0
+Dew,0,0
+Ayra,0,0
+Jamke,0,0
+Deirdre,0,0
+Lachesis,0,0
+Chulainn,0,0
+Beowolf,0,0
+Lewyn,0,0
+Silvia,0,0
+Erinys,0,0
+Hopper,0,0
+Indech,0,0
+Claud,0,0
+Tailtiu,0,0
+Callista,0,0
+Brigid,0,0
+Larcei,0,0
+Creidne,0,0
+Scathach,0,0
+Dalvin,0,0
+Lana,0,0
+Muirne,0,0
+Diarmuid,0,0
+Tristan,0,0
+Lester,0,0
+Deimne,0,0
+Fee,0,0
+Hermina,0,0
+Arthur,0,0
+Amid,0,0
+Patty,0,0
+Daisy,0,0
+Nanna,0,0
+Jeanne,0,0
+Lene,0,0
+Laylea,0,0
+CallistaSon,0,0
+CallistaSonSub,0,0
+Tine,0,0
+Linda,0,0
+Febail,0,0
+Asaello,0,0
+Persephone,0,0
+CallistaGirlSub,0,0
+Ced,0,0
+Hawk,0,0
+Coirpre,0,0
+Charlot,0,0
+Oifey (Adult),0,0
+Julia,0,0
+Iuchar,0,0
+Iucharba,0,0
+Shannan (Adult),0,0
+Ares,0,0
+IndechChild,0,0
+Leif,0,0
+Eyvel,0,0
+Hannibal,0,0
+Shannam,0,0
+Altena,0,0
+Saias,0,0
+Arion,0,0
+DiMaggio,0,0
+Gerrard,0,0
+Cimbaeth,0,0
+Munnir,0,0
+Burkaul,0,0
+Sandima,0,0
+Elliot,0,0
+Graham,0,0
+Philip,0,0
+Bordeaux,0,0
+Banquo,0,0
+Ross,0,0
+Macbeth,0,0
+Waltz,0,0
+Elling,0,0
+Clement,0,0
+Zane,0,0
+Chagall,0,0
+Lino,0,0
+Jacobin,0,0
+Estrella,0,0
+Othello,0,0
+Papillon,0,0
+Pizare,0,0
+Duvall,0,0
+Cuvuli,0,0
+Marlon,0,0
+Snevejr,0,0
+Dithorba,0,0
+Myos,0,0
+Ivan,0,0
+Pamela,0,0
+Donovan,0,0
+Lamia,0,0
+Daccar,0,0
+Slayder,0,0
+Andrey,0,0
+Lombard,0,0
+Magorn,0,0
+Vaja,0,0
+Reptor,0,0
+Harold,0,0
+Schmidt,0,0
+Danann,0,0
+Kutozov,0,0
+Liza,0,0
+Ishtore,0,0
+Javarro,0,0
+Bramsel,0,0
+Banba,0,0
+Eriu,0,0
+Fotla,0,0
+Tonnamin,0,0
+Bloom,0,0
+Muhammad,0,0
+Ovo,0,0
+Reinhardt,0,0
+Ishtar,0,0
+Coulter,0,0
+Maykov,0,0
+Kanatz,0,0
+Distler,0,0
+Travant,0,0
+Musar,0,0
+Judah,0,0
+Leidan,0,0
+Lance,0,0
+Lancelot,0,0
+Riddell,0,0
+Hilda,0,0
+Morrigan,0,0
+Zagam,0,0
+Arvis (Gen 2),0,0
+Roberto,0,0
+Boyce,0,0
+Rodan,0,0
+Juphiel,0,0
+Fisher,0,0
+Brian,0,0
+Dahlia,0,0
+Dagon,0,0
+Scipio,0,0
+Baran,0,0
+Meng,0,0
+Bleg,0,0
+Mabel,0,0
+Veld,0,0
+Manfroy,0,0
+Julius,0,0
+Julius (Loptous),0,0
+Heim,0,0
+Baldr,0,0
+Hodr,0,0
+Od,0,0
+Njorun,0,0
+Dainn,0,0
+Nal,0,0
+Ullr,0,0
+Bragi,0,0
+Fjalar,0,0
+Thrud,0,0
+Ced,0,0
+Verdane (1),0,0
+Verdane (2),0,0
+Heirhein,0,0
+Anphony,0,0
+Mackily,0,0
+Silesse,0,0
+Agusty,0,0
+Madino,0,0
+Silvail,0,0
+Orgahil,0,0
+CrossKnight,0,0
+Thove,0,0
+Zaxon,0,0
+BeigeRitter,0,0
+Assassin,0,0
+Lubeck,0,0
+Thracia,0,0
+Velthomer,0,0
+Friege,0,0
+Ganeishire,0,0
+Sophara,0,0
+Isaach,0,0
+Rivough,0,0
+Loptrian,0,0
+Alster,0,0
+Melgen,0,0
+Connaught,0,0
+Kapathogia,0,0
+Grutia,0,0
+Grannvale,0,0
+Miletos,0,0
+RotenRitter,0,0
+Edda,0,0
+GrauenRitter,0,0
+GelbenRitter,0,0
+Belhalla,0,0
+Ruffian,0,0
+Mercenary,0,0
+-,0,0
+-,0,0
+-,0,0
+-,0,0
+-,0,0
+-,0,0
+-,0,0
+-,0,0
+-,0,0
+-,0,0
+-,0,0
+Leonster,0,0
+AnnandSquad,0,0
+Eldigan,0,0
+Annand,0,0
+Arvis,0,0
+Eve,0,0
+Eva,0,0
+Alva,0,0
+Henson,0,0
+Byron,0,0
+Aida,0,0
+Palmarch,0,0
+Augury,0,0
+ArenaGuy,0,0
+BlacksmithGuy,0,0
+VendorDude,0,0
+PawnshopGuy,0,0
+Anna,0,0
+Jake,0,0
+Arena (1),0,0
+Arena (2),0,0
+Arena (3),0,0
+Arena (4),0,0
+Arena (5),0,0
+Arena (6),0,0
+Arena (7),0,0
+-,0,0
+Enemy (Arena),0,0
+Wall,0,0
+Snag,0,0

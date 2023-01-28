@@ -164,6 +164,9 @@ POP
   //New Calculations (crit)
   #include "Baldr/NewCalcs/NewCalcs.event"
   
+  //Set Unit Condition
+  #include "Necessary/SetStatus/SetStatusInstaller.event"
+  
   //Uncheese
   #include "ExternalHacks/Uncheese/UncheeseMasterInstaller.event"
   

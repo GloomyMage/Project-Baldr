@@ -50,6 +50,7 @@ END_MAIN
 ALIGN 32
 CharacterBasedEvents:
 CharacterEventBothWays(0x0,SigurdArvisTalkConvo,Sigurd,ArvisGen1)
+CharacterEventBothWays(0x0,PrettyFace,Alec,Ethlyn)
 END_MAIN
 
 MiscBasedEvents:
@@ -75,6 +76,11 @@ EvansAttack:
 LOAD1 0x1 ArvisCometh
 ENDA
 
+PrettyFace:
+Text(AlecEthlyn)
+GiveItem(IronSword,Ethlyn)
+EndEvent
+
 SigurdArvisTalkConvo:
 CHECK_ALIVE Azel
 BNE 0x1 0xC 0x0
@@ -89,7 +95,9 @@ SilentKillUnit(ArvisGen1)
 EndEvent
 
 MidirDieth:
+EVBIT_T 9
 CAM1 [29,19]
+Text(YouCurs)
 StartBattle 
 NormalDamage(1,22)
 CriticalHit(0,99)
@@ -97,9 +105,34 @@ EndAttack
 FIG1 Munnir Midir HandAxe
 SFXKillUnit(Midir)
 LOAD 0x1 Kidnapped
+MOVE 120 Munnir [29,19]
+ENUN
+Rescue(29,19,29,18)
+STAL 60
+CAM1 Munnir
+MOVE 120 Munnir [18,13]
+ENUN
+MOVE 120 Munnir [7,8]
+ENUN
+MOVE 120 Munnir [1,9]
+ENUN
+EVBIT_F 9
+MOVE 120 Kinbois [7,8]
+ENUN
+SOUN 0xAB
+TILECHANGE 0x28
+MOVE 120 Kinbois [6,23]
+ENUN
+SilentKillUnit(Kinbois)
+MOVE 120 Munnir [6,23]
+ENUN
+DISA Edain
+SilentKillUnit(Munnir)
+CAM1 DiMaggio
 MOVE 120 DiMaggio [29,18]
 ENUN
 SetAI(DiMaggio,0x03,0x03,0x04,0x20)
+EVBIT_F 9
 ENDA
 
 AzelCometh:
@@ -127,7 +160,7 @@ UNIT Lachesis Princess 0x0 Level(1,Ally,0) [53,4] 0x0 0x0 0x0 0x1 [SlimSword] No
 UNIT //Tells the game that the unit list has ended
 
 UselessBoi:
-UNIT Midir BowCav Sigurd Level(1,NPC,0) [29,18] 0x0 0x0 0x0 0x1 [IronBow] NoAI
+UNIT Midir ArchKnt Sigurd Level(1,NPC,0) [29,18] 0x0 0x0 0x0 0x1 [IronBow] NoAI
 UNIT
 
 Kidnapped:
@@ -153,6 +186,8 @@ EnemyUnits:
 UNIT DiMaggio Brigand Munnir Level(10,Enemy,0) [19,12] 0x0 0x0 0x1 REDA22R20 [SteelAxe] AttackInRangeAI
 UNIT Gerrard Fighter Munnir Level(20,Enemy,0) [1,8] 0x0 0x0 0x0 0x1 [SteelAxe, HandAxe] NeverMoveAI
 UNIT Munnir Warrior Sandima Level(20,Enemy,0) [28,19] 0x0 0x0 0x0 0x1 [HandAxe, SklRing] AttackInRangeAI
+UNIT Kinbois Warrior Sandima Level(10,Enemy,0) [7,7] 0x0 0x0 0x0 0x1 [SilverAxe, HandAxe] AttackInRangeAI
+UNIT Belhalla DarkM DiMaggio Level(1,Enemy,1) [56,1] 0x0 0x0 0x0 0x1 [IronAxe] AttackInRangeAI
 UNIT Verdane1 Barbarian DiMaggio Level(1,Enemy,1) [9,1] 0x0 0x0 0x0 0x1 [IronAxe] AttackInRangeAI
 UNIT Verdane1 Barbarian DiMaggio Level(1,Enemy,1) [8,5] 0x0 0x0 0x0 0x1 [IronAxe] AttackInRangeAI
 UNIT Verdane1 Barbarian DiMaggio Level(1,Enemy,1) [18,10] 0x0 0x0 0x0 0x1 [IronAxe] AttackInRangeAI

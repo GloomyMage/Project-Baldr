@@ -1,0 +1,233 @@
+##_Lord
+Lord[X]
+
+##_KntLord
+Knight Lord[X]
+
+##_Prince
+Prince[X]
+
+##_Princess
+Princess[X]
+
+##_MastKnt
+Master Knight[X]
+
+##_Myrm
+Myrmidon[X]
+
+##_Merc
+Mercenary[X]
+
+##_Swdmast
+Swordmaster[X]
+
+##_Hero
+Hero[X]
+
+##_Thief
+Thief[X]
+
+##_Rogue
+Rogue[X]
+
+##_Assass
+Assassin[X]
+
+##_Dancer
+Dancer[X]
+
+##_Fighter
+Fighter[X]
+
+##_Warrior
+Warrior[X]
+
+##_Hunter
+Hunter[X]
+
+##_Barbarian
+Barbarian[X]
+
+##_Brigand
+Brigand[X]
+
+##_Pirate
+Pirate[X]
+
+##_Berserk
+Berserker[X]
+
+##_Archer
+Archer[X]
+
+##_Sniper
+Sniper[X]
+
+##_Advent
+Adventurer[X]
+
+##_Freebld
+Freeblade[X]
+
+##_Truebld
+Trueblade[X]
+
+##_Soldier
+Soldier[X]
+
+##_Halbrd
+Halberdier[X]
+
+##_Cav
+Cavalier[X]
+
+##_Pal
+Paladin[X]
+
+##_HolyKnt
+Holy Knight[X]
+
+##_Trbdr
+Troubadour[X]
+
+##_Valk
+Valkyrie[X]
+
+##_FreeKnt
+Free Knight[X]
+
+##_Ranger
+Ranger[X]
+
+##_LncKnt
+Lance Knight[X]
+
+##_DukeKnt
+Duke Knight[X]
+
+##_AxeKnt
+Axe Knight[X]
+
+##_GreatKnt
+Great Knight[X]
+
+##_ArchKnt
+Arch Knight[X]
+
+##_BowKnt
+Bow Knight[X]
+
+##_SwdArm
+Sword Armour[X]
+
+##_LncArm
+Lance Armour[X]
+
+##_AxeArm
+Axe Armour[X]
+
+##_BowArm
+Bow Armour[X]
+
+##_Protector
+Protector[X]
+
+##_Sentinel
+Sentinel[X]
+
+##_General
+General[X]
+
+##_Baron
+Baron[X]
+
+##_Emperor
+Emperor[X]
+
+##_PegKnt
+Pegasus Knight[X]
+
+##_FalcoKnt
+Falcon Knight[X]
+
+##_Harrier
+Harrier[X]
+
+##_WyvRider
+Wyvern Rider[X]
+
+##_WyvKnt
+Wyvern Knight[X]
+
+##_WyvMast
+Wyvern Master[X]
+
+##_WyvLord
+Wyvern Lord[X]
+
+##_MaligKnt
+Malig Knight[X]
+
+##_FirMage
+Fire Mage[X]
+
+##_ThrMage
+Thunder Mage[X]
+
+##_WndMage
+Wind Mage[X]
+
+##_MageWar
+Mage Fighter[X]
+
+##_Mage
+Mage[X]
+
+##_MageKnt
+Mage Knight[X]
+
+##_Bard
+Bard[X]
+
+##_Shaman
+Shaman[X]
+
+##_Sage
+Sage[X]
+
+##_Civilian
+Civilian[X]
+
+##_Peer
+Peer[X]
+
+##_Priest
+Priest[X]
+
+##_Cleric
+Cleric[X]
+
+##_HPriest
+High Priest[X]
+
+##_HPriestF
+High Priestess[X]
+
+##_Bishop
+Bishop[X]
+
+##_Queen
+Queen[X]
+
+##_DrkMage
+Dark Mage[X]
+
+##_DrkBishop
+Dark Bishop[X]
+
+##_Archbishop
+Archbishop[X]
+
+##_DarkPrince
+Dark Prince[X]

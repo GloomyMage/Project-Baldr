@@ -1,6 +1,6 @@
 #include "ChapterNames.txt"
 
-
+#include "ClassNames.txt"
 
 # 0x1000
 None[X]
@@ -798,8 +798,6 @@ Jake[X]
 ##Name_Enemy
 Enemy[X]
 
-
-
 # 0x090B
 [OpenMidLeft][LoadFace][0x02][0x01][OpenMidRight][LoadFace][0x47][0x01][OpenMidRight]hi[.][A][ToggleSmile][X]
 
@@ -925,3 +923,22 @@ a skill when used.[X]
 #include "skilldesc_text.txt"
 
 #include "unitinfo_text.txt"
+
+#include "CharDescs.txt"
+
+#include "ClassDescs.txt"
+
+# 0x8D1
+Welcome to the arena.[A][NL]
+I see you're back.[A][2NL]
+I've lost a lot of gold[NL]
+thanks to you.[A][2NL]
+If you want to continue,[A][2NL]
+we're going to have to[NL]
+change things up.[A][2NL]
+These foes will give you[NL]
+a run for your money.[A][X]
+
+#include "Chapter Text/Prologue.txt"
+
+#include "Objectives.txt"
