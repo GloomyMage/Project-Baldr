@@ -135,5 +135,6 @@
 [LoadArion] = [LoadFace][0x34][0x1]
 [LoadDimaggio] = [LoadFace][0x36][0x1]
 [LoadGerrard] = [LoadFace][0x37][0x1]
-[LoadKinbois] = [LoadFace][0x37][0x1]
+[LoadKinbois] = [LoadFace][0x38][0x1]
 [LoadMunnir] = [LoadFace][0x39][0x1]
+[LoadRodan] = [LoadFace][0xC9][0x1]

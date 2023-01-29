@@ -43,6 +43,7 @@
 
 {
 #include "Sigurd\Sword Installer.event"
+#include "Sigurd\Lance Installer.event"
 #include "Sigurd\Unarmed Installer.event"
 }
 {
@@ -61,6 +62,11 @@
 #include "FighterM(LeoLink)\Axe Installer.event"
 #include "FighterM(LeoLink)\Handaxe Installer.event"
 #include "FighterM(LeoLink)\Unarmed Installer.event"
+}
+{
+#include "Barbarian\Axe Installer.event"
+#include "Barbarian\Handaxe Installer.event"
+#include "Barbarian\Unarmed Installer.event"
 }
 {
 #include "WarriorM(Pushwall)\Axe Installer.event"
@@ -194,6 +200,7 @@ EndAnim
 ALIGN 4
 SigurdAnims:
 SwordAnim(0x3)
+LanceAnim(0xC2)
 UnarmedAnim(0x4)
 EndAnim  
 
@@ -322,3 +329,10 @@ ALIGN 4
 BowCavAnims:
 BowAnim(0xac)
 UnarmedAnim(0x39)
+
+ALIGN 4
+BarbarianAnims:
+AxeAnim(0x92)
+HandAxeAnim(0x93)
+UnarmedAnim(0x94)
+EndAnim  

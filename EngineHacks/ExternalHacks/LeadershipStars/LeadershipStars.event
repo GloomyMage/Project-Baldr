@@ -30,18 +30,13 @@ BYTE 1 // change to 0 if you don't want this behaviour
 
 LeadershipTable:
 // ALLIES
-BYTE Eirika 2
-BYTE Ephraim 2
-BYTE Seth 1
+BYTE Sigurd 2
+BYTE Seliph 2
 // BOSSES
-BYTE Murray 1
-BYTE ONeill 1
-BYTE Breguet 1
-BYTE Bazba 1
-BYTE Saar 1
-BYTE Novala 1
-BYTE Zonta 1
-BYTE Tirado 1
+BYTE DiMaggio 1
+BYTE Gerrard 2
+BYTE Kinbois 2
+BYTE Munnir 2
 BYTE 0x0 0x0 //delimiter
 
 PUSH

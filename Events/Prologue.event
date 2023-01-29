@@ -37,6 +37,8 @@ TurnBasedEvents:
 TurnEventEnemy(0x0,MidirDieth,1)
 TurnEventPlayer(0x0,AzelCometh,2)
 TurnEventPlayer(0x0,QuanCometh,3)
+TurnEventNPC(0x9,ArvisArrive,1,255)
+TurnEventEnemy(0xA,DestroyBridge,1,255)
 
 END_MAIN
 
@@ -50,22 +52,37 @@ END_MAIN
 ALIGN 32
 CharacterBasedEvents:
 CharacterEventBothWays(0x0,SigurdArvisTalkConvo,Sigurd,ArvisGen1)
-CharacterEventBothWays(0x0,PrettyFace,Alec,Ethlyn)
+CharacterEventBothWays(0x8,PrettyFace,Alec,Ethlyn)
 END_MAIN
 
 MiscBasedEvents:
 CauseGameOverIfLordDies
+AreaEvent(0xB,BanditTime,7,0,20,16)
 END_MAIN
 
 BeginningScene:
-LOAD1 0x1 PlayerUnits
+MUSC 0x26
+ENUT 0x9
+ENUT 0xA
+ENUT 0xB
+STAL 60
+CAM1 [29,19]
+FADU 16
+LOAD1 0x1 EnemyUnits
+ENUN
+CleanText(0x10,SorryAideen)
 LOAD1 0x1 UselessBoi
 ENUN
-LOAD1 0x1 EnemyUnits
+CAM1 [56,5]
+CleanText(0x10,ChalphyDudes)
+LOAD1 0x1 PlayerUnits
 ENUN
 EndEvent
 
 EndingScene:
+MUSC 0x31
+CleanText(0x10,RodanTime)
+MNC2 0x1
 ENDA
 
 DebugMap:
@@ -73,8 +90,20 @@ MNC2 Debugmap
 ENDA
 
 EvansAttack:
-LOAD1 0x1 ArvisCometh
+ENUF 0x9
+ENUF 0xA
+ENUF 0xB
+LOAD1 0x1 UsefulBoi
 ENDA
+
+DestroyBridge:
+LOAD1 0x1 BridgeDestroyers
+TILEREVERSE 0x28
+EndEvent
+
+ArvisArrive:
+LOAD1 0x1 ArvisCometh
+EndEvent
 
 PrettyFace:
 Text(AlecEthlyn)
@@ -95,6 +124,7 @@ SilentKillUnit(ArvisGen1)
 EndEvent
 
 MidirDieth:
+MUSC 0x25
 EVBIT_T 9
 CAM1 [29,19]
 Text(YouCurs)
@@ -107,13 +137,15 @@ SFXKillUnit(Midir)
 LOAD 0x1 Kidnapped
 MOVE 120 Munnir [29,19]
 ENUN
+Text(MunnirTaketh)
 Rescue(29,19,29,18)
-STAL 60
 CAM1 Munnir
 MOVE 120 Munnir [18,13]
 ENUN
+Text(Dawdling)
 MOVE 120 Munnir [7,8]
 ENUN
+Text(Destroythebridge)
 MOVE 120 Munnir [1,9]
 ENUN
 EVBIT_F 9
@@ -124,6 +156,7 @@ TILECHANGE 0x28
 MOVE 120 Kinbois [6,23]
 ENUN
 SilentKillUnit(Kinbois)
+Text(MouthWater)
 MOVE 120 Munnir [6,23]
 ENUN
 DISA Edain
@@ -131,6 +164,7 @@ SilentKillUnit(Munnir)
 CAM1 DiMaggio
 MOVE 120 DiMaggio [29,18]
 ENUN
+Text(MilkTheVillage)
 SetAI(DiMaggio,0x03,0x03,0x04,0x20)
 EVBIT_F 9
 ENDA
@@ -147,20 +181,24 @@ LOAD1 0x1 LensterCavalry
 ENUN
 EndEvent
 
+BanditTime:
+SurpriseAttack(CliffBandits,0,0,0xB)
 
 ALIGN 4
 
 PlayerUnits:
-UNIT Sigurd KnightLord Sigurd Level(1,Ally,0) [56,5] 0x0 0x0 0x0 0x1 [SilverSword, Tyrfing] NoAI
-UNIT Alec UniCav 0x0 Level(10,Ally,0) [55,6] 0x0 0x0 0x0 0x1 [IronSword, MasterSeal] NoAI
-UNIT Noish UniCav 0x0 Level(1,Ally,0) [57,6] 0x0 0x0 0x0 0x1 [SteelSword] NoAI
-UNIT Arden SwdArm 0x0 Level(1,Ally,0) [56,7] 0x0 0x0 0x0 0x1 [IronSword] NoAI
-UNIT Holyn Merc 0x0 Level(1,Ally,0) [52,4] 0x0 0x0 0x0 0x1 [SlimSword] NoAI
-UNIT Lachesis Princess 0x0 Level(1,Ally,0) [53,4] 0x0 0x0 0x0 0x1 [SlimSword] NoAI
+UNIT Sigurd KnightLord Sigurd Level(1,Ally,0) [56,5] 0x0 0x0 0x0 0x1 [SteelSword, IronLance, Tyrfing] NoAI
+UNIT Alec UniCav 0x0 Level(2,Ally,0) [56,5] 0x0 0x0 0x1 REDA55R6 [IronSword, MasterSeal] NoAI
+UNIT Noish UniCav 0x0 Level(3,Ally,0) [56,5] 0x0 0x0 0x1 REDA57R6 [SteelSword] NoAI
+UNIT Arden SwdArm 0x0 Level(3,Ally,0) [56,5] 0x0 0x0 0x1 REDA56R7 [IronSword] NoAI
 UNIT //Tells the game that the unit list has ended
 
 UselessBoi:
 UNIT Midir ArchKnt Sigurd Level(1,NPC,0) [29,18] 0x0 0x0 0x0 0x1 [IronBow] NoAI
+UNIT
+
+UsefulBoi:
+UNIT Midir ArchKnt Sigurd Level(2,Ally,0) [27,18] 0x0 0x0 0x0 0x1 [IronBow] NoAI
 UNIT
 
 Kidnapped:
@@ -168,26 +206,26 @@ UNIT Edain Cleric Sigurd Level(1,NPC,0) [29,18] 0x0 0x0 0x0 0x1 [IronBow] NoAI
 UNIT
 
 LexCometh:
-UNIT Azel Mage 0x0 Level(10,Ally,0) [40,0] 0x0 0x0 0x1 REDA40R4 [Fire, MasterSeal, 0xE2, Fimbulvetr] NoAI
-UNIT Lex AxeCav 0x0 Level(10,Ally,0) [42,0] 0x0 0x0 0x1 REDA42R4 [IronAxe, MasterSeal] NoAI
+UNIT Azel Mage 0x0 Level(1,Ally,0) [40,0] 0x0 0x0 0x1 REDA40R4 [Fire, MasterSeal, 0xE2, Fimbulvetr] NoAI
+UNIT Lex AxeCav 0x0 Level(4,Ally,0) [42,0] 0x0 0x0 0x1 REDA42R4 [IronAxe, MasterSeal] NoAI
 UNIT
 
 LensterCavalry:
-UNIT Finn LncCav 0x0 Level(10,Ally,0) [54,10] 0x0 0x0 0x1 REDA49R9 [IronLance, MasterSeal] NoAI
-UNIT Quan DukeKnt 0x0 Level(10,Ally,0) [57,8] 0x0 0x0 0x1 REDA44R9 [SteelLance, MasterSeal] NoAI
-UNIT Ethlyn Troub 0x0 Level(10,Ally,0) [57,7] 0x0 0x0 0x1 REDA46R11 [Heal, MasterSeal] NoAI
+UNIT Finn LncCav 0x0 Level(1,Ally,0) [54,10] 0x0 0x0 0x1 REDA49R9 [IronLance, MasterSeal] NoAI
+UNIT Quan DukeKnt 0x0 Level(4,Ally,0) [57,8] 0x0 0x0 0x1 REDA44R9 [SteelLance, Javelin, MasterSeal] NoAI
+UNIT Ethlyn Troub 0x0 Level(1,Ally,0) [57,7] 0x0 0x0 0x1 REDA46R11 [Heal, SlimSword, MasterSeal] NoAI
 UNIT
 
 ArvisCometh:
-UNIT ArvisGen1 Sage 0x0 Level(10,NPC,0) [55,9] 0x0 0x0 0x0 0x1 [Fire, MasterSeal, Thunder, Fimbulvetr] NoAI
+UNIT ArvisGen1 Sage 0x0 Level(10,NPC,0) [55,9] 0x0 0x0 0x0 0x1 [Valflame, RecoverRing] NoAI
 UNIT
 
 EnemyUnits:
-UNIT DiMaggio Brigand Munnir Level(10,Enemy,0) [19,12] 0x0 0x0 0x1 REDA22R20 [SteelAxe] AttackInRangeAI
-UNIT Gerrard Fighter Munnir Level(20,Enemy,0) [1,8] 0x0 0x0 0x0 0x1 [SteelAxe, HandAxe] NeverMoveAI
-UNIT Munnir Warrior Sandima Level(20,Enemy,0) [28,19] 0x0 0x0 0x0 0x1 [HandAxe, SklRing] AttackInRangeAI
-UNIT Kinbois Warrior Sandima Level(10,Enemy,0) [7,7] 0x0 0x0 0x0 0x1 [SilverAxe, HandAxe] AttackInRangeAI
-UNIT Belhalla DarkM DiMaggio Level(1,Enemy,1) [56,1] 0x0 0x0 0x0 0x1 [IronAxe] AttackInRangeAI
+UNIT DiMaggio Brigand Munnir Level(10,Enemy,1) [19,12] 0x0 0x0 0x1 REDA22R20 [SteelAxe] AttackInRangeAI
+UNIT Gerrard Fighter Munnir Level(20,Enemy,1) [1,8] 0x0 0x0 0x0 0x1 [SteelAxe, HandAxe] NeverMoveAI
+UNIT Munnir Warrior Sandima Level(20,Enemy,1) [28,19] 0x0 0x0 0x0 0x1 [HandAxe, SklRing] AttackInRangeAI
+UNIT Kinbois Warrior Sandima Level(10,Enemy,1) [7,7] 0x0 0x0 0x0 0x1 [SilverAxe, HandAxe] AttackInRangeAI
+UNIT Verdane1 Brigand DiMaggio Level(1,Enemy,1) [56,1] 0x0 0x0 0x0 0x1 [IronAxe] AttackInRangeAI
 UNIT Verdane1 Barbarian DiMaggio Level(1,Enemy,1) [9,1] 0x0 0x0 0x0 0x1 [IronAxe] AttackInRangeAI
 UNIT Verdane1 Barbarian DiMaggio Level(1,Enemy,1) [8,5] 0x0 0x0 0x0 0x1 [IronAxe] AttackInRangeAI
 UNIT Verdane1 Barbarian DiMaggio Level(1,Enemy,1) [18,10] 0x0 0x0 0x0 0x1 [IronAxe] AttackInRangeAI
@@ -214,3 +252,26 @@ UNIT Verdane1 Barbarian DiMaggio Level(1,Enemy,1) [28,0] 0x0 0x0 0x0 0x1 [IronAx
 UNIT Verdane1 Barbarian DiMaggio Level(1,Enemy,1) [29,0] 0x0 0x0 0x0 0x1 [IronAxe] AttackInRangeAI
 UNIT Verdane1 Barbarian DiMaggio Level(1,Enemy,1) [28,4] 0x0 0x0 0x0 0x1 [IronAxe] AttackInRangeAI
 UNIT 
+
+BridgeDestroyers:
+UNIT Verdane1 Brigand Gerrard Level(10,Enemy,1) [1,8] 0x0 0x0 0x1 REDA0R9 [IronAxe] AttackInRangeAI
+UNIT Verdane1 Brigand Gerrard Level(10,Enemy,1) [1,8] 0x0 0x0 0x1 REDA1R10 [IronAxe] AttackInRangeAI
+UNIT Verdane1 Brigand Gerrard Level(10,Enemy,1) [1,8] 0x0 0x0 0x1 REDA2R9 [IronAxe] AttackInRangeAI
+UNIT Verdane1 Brigand Gerrard Level(10,Enemy,1) [1,8] 0x0 0x0 0x1 REDA3R8 [IronAxe] AttackInRangeAI
+UNIT Verdane1 Brigand Gerrard Level(10,Enemy,1) [1,8] 0x0 0x0 0x1 REDA3R9 [IronAxe] AttackInRangeAI
+UNIT Verdane1 Brigand Gerrard Level(10,Enemy,1) [1,8] 0x0 0x0 0x1 REDA0R10 [IronAxe] AttackInRangeAI
+UNIT Verdane1 Brigand Gerrard Level(10,Enemy,1) [1,8] 0x0 0x0 0x1 REDA5R7 [IronAxe] NoAI
+UNIT Verdane1 Brigand Gerrard Level(10,Enemy,1) [1,8] 0x0 0x0 0x1 REDA6R8 [IronAxe] NoAI
+UNIT Verdane1 Brigand Gerrard Level(10,Enemy,1) [1,8] 0x0 0x0 0x1 REDA5R9 [IronAxe] NoAI
+UNIT Verdane1 Brigand Gerrard Level(10,Enemy,1) [1,8] 0x0 0x0 0x1 REDA6R10 [IronAxe] NoAI
+UNIT Verdane1 Brigand Gerrard Level(10,Enemy,1) [1,8] 0x0 0x0 0x1 REDA5R11 [IronAxe] NoAI
+UNIT Verdane1 Brigand Gerrard Level(10,Enemy,1) [1,8] 0x0 0x0 0x1 REDA6R12 [IronAxe] NoAI
+UNIT
+
+CliffBandits:
+UNIT Verdane1 Brigand Gerrard Level(10,Enemy,1) [1,0] 0x0 0x0 0x1 REDA1R4 [IronAxe] NoAI
+UNIT Verdane1 Brigand Gerrard Level(10,Enemy,1) [1,0] 0x0 0x0 0x1 REDA0R5 [IronAxe] NoAI
+UNIT Verdane1 Brigand Gerrard Level(10,Enemy,1) [1,0] 0x0 0x0 0x1 REDA2R5 [IronAxe] NoAI
+UNIT Verdane1 Brigand Gerrard Level(10,Enemy,1) [1,0] 0x0 0x0 0x1 REDA2R3 [IronAxe] NoAI
+UNIT Verdane1 Brigand Gerrard Level(10,Enemy,1) [1,0] 0x0 0x0 0x1 REDA0R3 [IronAxe] NoAI
+UNIT

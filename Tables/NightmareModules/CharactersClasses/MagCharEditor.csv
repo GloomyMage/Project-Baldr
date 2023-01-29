@@ -1,16 +1,16 @@
 INLINE MagCharTable,Base Magic,Magic Growth
 None,0,0
-Sigurd,0,0
+Sigurd,0,5
 Seliph,0,0
-Alec,0,0
-Naoise,0,0
-Arden,0,0
-Azelle,0,0
-Lex,0,0
-Quan,0,0
-Ethlyn,0,0
-Finn,0,0
-Midir,0,0
+Alec,0,5
+Naoise,0,5
+Arden,0,5
+Azelle,3,40
+Lex,0,5
+Quan,0,5
+Ethlyn,5,5
+Finn,0,5
+Midir,0,5
 Edain,0,0
 Dew,0,0
 Ayra,0,0

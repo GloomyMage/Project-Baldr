@@ -6,7 +6,10 @@
 	SKIPWN
 	ENDA
 	POP
-	
+
+#include "_BattleQuotes.event"
+#include "_DeathQuotes.event"
+
 ALIGN 4
 {
 #include "Prologue.event"

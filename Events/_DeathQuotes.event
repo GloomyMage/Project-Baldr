@@ -1,0 +1,28 @@
+#define AlwaysDeathQuote(arg000,arg001,arg002) "BYTE arg000 0x0 0xff 0xff arg001 0x0 ;SHORT arg002 ;WORD 0x0 "
+#define ChapterDeathQuote(arg000,arg001,arg002,arg003) "BYTE arg000 0x0 0xff arg001 arg002 0x0 ;SHORT arg003 ;WORD 0x0 "
+#define EndDeathQuote "BYTE 0xff 0xff 0x0 0x0 0x0 0x0 ;SHORT 0x0 ;WORD 0x0 "
+#define DefeatBossFlag 0x2
+#define GameOverFlag 0x65
+
+ALIGN 4
+DeathQuoteTable:
+// Prologue
+ChapterDeathQuote(DiMaggio,0x0,0x0,DiMaggioDeath)
+ChapterDeathQuote(Gerrard,0x0,0x0,GerrardDeath)
+// Always (mainly player units)
+AlwaysDeathQuote(Sigurd,GameOverFlag,SigurdDeath)
+AlwaysDeathQuote(Alec,0x0,AlecDeath)
+AlwaysDeathQuote(Noish,0x0,NoishDeath)
+AlwaysDeathQuote(Arden,0x0,ArdenDeath)
+AlwaysDeathQuote(Midir,0x0,MidirDeath)
+AlwaysDeathQuote(Azel,0x0,AzelDeath)
+AlwaysDeathQuote(Lex,0x0,LexDeath)
+AlwaysDeathQuote(Quan,0x0,QuanDeath)
+AlwaysDeathQuote(Finn,0x0,FinnDeath1)
+AlwaysDeathQuote(Ethlyn,0x0,EthlynDeath)
+EndDeathQuote
+
+PUSH
+ORG $8472C
+POIN DeathQuoteTable
+POP

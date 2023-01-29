@@ -1,3 +1,738 @@
+SigurdSkillList:
+BYTE 00 00
+ALIGN 4
+
+SeliphSkillList:
+BYTE 00 00
+ALIGN 4
+
+AlecSkillList:
+BYTE 1 NihilID
+BYTE 00 00
+ALIGN 4
+
+NaoiseSkillList:
+BYTE 00 00
+ALIGN 4
+
+ArdenSkillList:
+BYTE 00 00
+ALIGN 4
+
+AzelleSkillList:
+BYTE 00 00
+ALIGN 4
+
+LexSkillList:
+BYTE 1 ParagonID
+BYTE 00 00
+ALIGN 4
+
+QuanSkillList:
+BYTE 00 00
+ALIGN 4
+
+EthlynSkillList:
+BYTE 00 00
+ALIGN 4
+
+FinnSkillList:
+BYTE 1 MiracleID
+BYTE 00 00
+ALIGN 4
+
+MidirSkillList:
+BYTE 00 00
+ALIGN 4
+
+EdainSkillList:
+BYTE 00 00
+ALIGN 4
+
+DewSkillList:
+BYTE 00 00
+ALIGN 4
+
+AyraSkillList:
+BYTE 00 00
+ALIGN 4
+
+JamkeSkillList:
+BYTE 00 00
+ALIGN 4
+
+DeirdreSkillList:
+BYTE 00 00
+ALIGN 4
+
+LachesisSkillList:
+BYTE 00 00
+ALIGN 4
+
+ChulainnSkillList:
+BYTE 00 00
+ALIGN 4
+
+BeowolfSkillList:
+BYTE 00 00
+ALIGN 4
+
+LewynSkillList:
+BYTE 00 00
+ALIGN 4
+
+SilviaSkillList:
+BYTE 00 00
+ALIGN 4
+
+ErinysSkillList:
+BYTE 00 00
+ALIGN 4
+
+HopperSkillList:
+BYTE 00 00
+ALIGN 4
+
+IndechSkillList:
+BYTE 00 00
+ALIGN 4
+
+ClaudSkillList:
+BYTE 00 00
+ALIGN 4
+
+TailtiuSkillList:
+BYTE 00 00
+ALIGN 4
+
+CallistaSkillList:
+BYTE 00 00
+ALIGN 4
+
+BrigidSkillList:
+BYTE 00 00
+ALIGN 4
+
+LarceiSkillList:
+BYTE 00 00
+ALIGN 4
+
+CreidneSkillList:
+BYTE 00 00
+ALIGN 4
+
+ScathachSkillList:
+BYTE 00 00
+ALIGN 4
+
+DalvinSkillList:
+BYTE 00 00
+ALIGN 4
+
+LanaSkillList:
+BYTE 00 00
+ALIGN 4
+
+MuirneSkillList:
+BYTE 00 00
+ALIGN 4
+
+DiarmuidSkillList:
+BYTE 00 00
+ALIGN 4
+
+TristanSkillList:
+BYTE 00 00
+ALIGN 4
+
+LesterSkillList:
+BYTE 00 00
+ALIGN 4
+
+DeimneSkillList:
+BYTE 00 00
+ALIGN 4
+
+FeeSkillList:
+BYTE 00 00
+ALIGN 4
+
+HerminaSkillList:
+BYTE 00 00
+ALIGN 4
+
+ArthurSkillList:
+BYTE 00 00
+ALIGN 4
+
+AmidSkillList:
+BYTE 00 00
+ALIGN 4
+
+PattySkillList:
+BYTE 00 00
+ALIGN 4
+
+DaisySkillList:
+BYTE 00 00
+ALIGN 4
+
+NannaSkillList:
+BYTE 00 00
+ALIGN 4
+
+JeanneSkillList:
+BYTE 00 00
+ALIGN 4
+
+LeneSkillList:
+BYTE 00 00
+ALIGN 4
+
+LayleaSkillList:
+BYTE 00 00
+ALIGN 4
+
+CallistaSonSkillList:
+BYTE 00 00
+ALIGN 4
+
+CallistaSonSubSkillList:
+BYTE 00 00
+ALIGN 4
+
+TineSkillList:
+BYTE 00 00
+ALIGN 4
+
+LindaSkillList:
+BYTE 00 00
+ALIGN 4
+
+FebailSkillList:
+BYTE 00 00
+ALIGN 4
+
+AsaelloSkillList:
+BYTE 00 00
+ALIGN 4
+
+PersephoneSkillList:
+BYTE 00 00
+ALIGN 4
+
+CallistaGirlSubSkillList:
+BYTE 00 00
+ALIGN 4
+
+CedSkillList:
+BYTE 00 00
+ALIGN 4
+
+HawkSkillList:
+BYTE 00 00
+ALIGN 4
+
+CoirpreSkillList:
+BYTE 00 00
+ALIGN 4
+
+CharlotSkillList:
+BYTE 00 00
+ALIGN 4
+
+OifeySkillList:
+BYTE 00 00
+ALIGN 4
+
+JuliaSkillList:
+BYTE 00 00
+ALIGN 4
+
+IucharSkillList:
+BYTE 00 00
+ALIGN 4
+
+IucharbaSkillList:
+BYTE 00 00
+ALIGN 4
+
+ShannanSkillList:
+BYTE 00 00
+ALIGN 4
+
+AresSkillList:
+BYTE 00 00
+ALIGN 4
+
+IndechChildSkillList:
+BYTE 00 00
+ALIGN 4
+
+LeifSkillList:
+BYTE 00 00
+ALIGN 4
+
+EyvelSkillList:
+BYTE 00 00
+ALIGN 4
+
+HannibalSkillList:
+BYTE 00 00
+ALIGN 4
+
+ShannamSkillList:
+BYTE 00 00
+ALIGN 4
+
+AltenaSkillList:
+BYTE 00 00
+ALIGN 4
+
+SaiasSkillList:
+BYTE 00 00
+ALIGN 4
+
+ArionSkillList:
+BYTE 00 00
+ALIGN 4
+
+DiMaggioSkillList:
+BYTE 00 00
+ALIGN 4
+
+GerrardSkillList:
+BYTE 00 00
+ALIGN 4
+
+CimbaethSkillList:
+BYTE 00 00
+ALIGN 4
+
+MunnirSkillList:
+BYTE 00 00
+ALIGN 4
+
+BurkaulSkillList:
+BYTE 00 00
+ALIGN 4
+
+SandimaSkillList:
+BYTE 00 00
+ALIGN 4
+
+ElliotSkillList:
+BYTE 00 00
+ALIGN 4
+
+GrahamSkillList:
+BYTE 00 00
+ALIGN 4
+
+PhilipSkillList:
+BYTE 00 00
+ALIGN 4
+
+BordeauxSkillList:
+BYTE 00 00
+ALIGN 4
+
+BanquoSkillList:
+BYTE 00 00
+ALIGN 4
+
+RossSkillList:
+BYTE 00 00
+ALIGN 4
+
+MacbethSkillList:
+BYTE 00 00
+ALIGN 4
+
+WaltzSkillList:
+BYTE 00 00
+ALIGN 4
+
+EllingSkillList:
+BYTE 00 00
+ALIGN 4
+
+ClementSkillList:
+BYTE 00 00
+ALIGN 4
+
+ZaneSkillList:
+BYTE 00 00
+ALIGN 4
+
+ChagallSkillList:
+BYTE 00 00
+ALIGN 4
+
+LinoSkillList:
+BYTE 00 00
+ALIGN 4
+
+JacobinSkillList:
+BYTE 00 00
+ALIGN 4
+
+EstrellaSkillList:
+BYTE 00 00
+ALIGN 4
+
+OthelloSkillList:
+BYTE 00 00
+ALIGN 4
+
+PapillonSkillList:
+BYTE 00 00
+ALIGN 4
+
+PizareSkillList:
+BYTE 00 00
+ALIGN 4
+
+DuvallSkillList:
+BYTE 00 00
+ALIGN 4
+
+CuvuliSkillList:
+BYTE 00 00
+ALIGN 4
+
+MarlonSkillList:
+BYTE 00 00
+ALIGN 4
+
+SnevejrSkillList:
+BYTE 00 00
+ALIGN 4
+
+DithorbaSkillList:
+BYTE 00 00
+ALIGN 4
+
+MyosSkillList:
+BYTE 00 00
+ALIGN 4
+
+IvanSkillList:
+BYTE 00 00
+ALIGN 4
+
+PamelaSkillList:
+BYTE 00 00
+ALIGN 4
+
+DonovanSkillList:
+BYTE 00 00
+ALIGN 4
+
+LamiaSkillList:
+BYTE 00 00
+ALIGN 4
+
+DaccarSkillList:
+BYTE 00 00
+ALIGN 4
+
+SlayderSkillList:
+BYTE 00 00
+ALIGN 4
+
+AndreySkillList:
+BYTE 00 00
+ALIGN 4
+
+LombardSkillList:
+BYTE 00 00
+ALIGN 4
+
+MagornSkillList:
+BYTE 00 00
+ALIGN 4
+
+VajaSkillList:
+BYTE 00 00
+ALIGN 4
+
+ReptorSkillList:
+BYTE 00 00
+ALIGN 4
+
+HaroldSkillList:
+BYTE 00 00
+ALIGN 4
+
+SchmidtSkillList:
+BYTE 00 00
+ALIGN 4
+
+DanannSkillList:
+BYTE 00 00
+ALIGN 4
+
+KutuzovSkillList:
+BYTE 00 00
+ALIGN 4
+
+LizaSkillList:
+BYTE 00 00
+ALIGN 4
+
+IshtoreSkillList:
+BYTE 00 00
+ALIGN 4
+
+JavarroSkillList:
+BYTE 00 00
+ALIGN 4
+
+BramselSkillList:
+BYTE 00 00
+ALIGN 4
+
+BanbaSkillList:
+BYTE 00 00
+ALIGN 4
+
+EriuSkillList:
+BYTE 00 00
+ALIGN 4
+
+FotlaSkillList:
+BYTE 00 00
+ALIGN 4
+
+TonnaminSkillList:
+BYTE 00 00
+ALIGN 4
+
+BloomSkillList:
+BYTE 00 00
+ALIGN 4
+
+MuhammadSkillList:
+BYTE 00 00
+ALIGN 4
+
+OvoSkillList:
+BYTE 00 00
+ALIGN 4
+
+ReinhardtSkillList:
+BYTE 00 00
+ALIGN 4
+
+IshtarSkillList:
+BYTE 00 00
+ALIGN 4
+
+CoulterSkillList:
+BYTE 00 00
+ALIGN 4
+
+MaykovSkillList:
+BYTE 00 00
+ALIGN 4
+
+KanatzSkillList:
+BYTE 00 00
+ALIGN 4
+
+DistlerSkillList:
+BYTE 00 00
+ALIGN 4
+
+TravantSkillList:
+BYTE 00 00
+ALIGN 4
+
+MusarSkillList:
+BYTE 00 00
+ALIGN 4
+
+JudahSkillList:
+BYTE 00 00
+ALIGN 4
+
+LeidanSkillList:
+BYTE 00 00
+ALIGN 4
+
+LanceSkillList:
+BYTE 00 00
+ALIGN 4
+
+LancelotSkillList:
+BYTE 00 00
+ALIGN 4
+
+RiddellSkillList:
+BYTE 00 00
+ALIGN 4
+
+HildaSkillList:
+BYTE 00 00
+ALIGN 4
+
+MorriganSkillList:
+BYTE 00 00
+ALIGN 4
+
+ZagamSkillList:
+BYTE 00 00
+ALIGN 4
+
+ArvisSkillList:
+BYTE 1 NihilID
+BYTE 00 00
+ALIGN 4
+
+RobertoSkillList:
+BYTE 00 00
+ALIGN 4
+
+BoyceSkillList:
+BYTE 00 00
+ALIGN 4
+
+RodanSkillList:
+BYTE 00 00
+ALIGN 4
+
+JuphielSkillList:
+BYTE 00 00
+ALIGN 4
+
+FisherSkillList:
+BYTE 00 00
+ALIGN 4
+
+BrianSkillList:
+BYTE 00 00
+ALIGN 4
+
+DahliaSkillList:
+BYTE 00 00
+ALIGN 4
+
+DagonSkillList:
+BYTE 00 00
+ALIGN 4
+
+ScipioSkillList:
+BYTE 00 00
+ALIGN 4
+
+BaranSkillList:
+BYTE 00 00
+ALIGN 4
+
+MengSkillList:
+BYTE 00 00
+ALIGN 4
+
+BlegSkillList:
+BYTE 00 00
+ALIGN 4
+
+MabelSkillList:
+BYTE 00 00
+ALIGN 4
+
+VeldSkillList:
+BYTE 00 00
+ALIGN 4
+
+ManfroySkillList:
+BYTE 00 00
+ALIGN 4
+
+JuliusSkillList:
+BYTE 00 00
+ALIGN 4
+
+HeimSkillList:
+BYTE 00 00
+ALIGN 4
+
+BaldrSkillList:
+BYTE 00 00
+ALIGN 4
+
+HodrSkillList:
+BYTE 00 00
+ALIGN 4
+
+OdSkillList:
+BYTE 00 00
+ALIGN 4
+
+NjorunSkillList:
+BYTE 00 00
+ALIGN 4
+
+DainnSkillList:
+BYTE 00 00
+ALIGN 4
+
+NalSkillList:
+BYTE 00 00
+ALIGN 4
+
+UllrSkillList:
+BYTE 00 00
+ALIGN 4
+
+BragiSkillList:
+BYTE 00 00
+ALIGN 4
+
+FjalarSkillList:
+BYTE 00 00
+ALIGN 4
+
+ThrudSkillList:
+BYTE 00 00
+ALIGN 4
+
+SetiSkillList:
+BYTE 00 00
+ALIGN 4
+
+EldiganSkillList:
+BYTE 00 00
+ALIGN 4
+
+AnnandSkillList:
+BYTE 00 00
+ALIGN 4
+
+EveSkillList:
+BYTE 00 00
+ALIGN 4
+
+EvaSkillList:
+BYTE 00 00
+ALIGN 4
+
+AlvaSkillList:
+BYTE 00 00
+ALIGN 4
+
+ByronSkillList:
+BYTE 00 00
+ALIGN 4
+
+AidaSkillList:
+BYTE 00 00
+ALIGN 4
+
+PalmarchSkillList:
+BYTE 00 00
+ALIGN 4
 
 LordSkillList:
 BYTE 00 00

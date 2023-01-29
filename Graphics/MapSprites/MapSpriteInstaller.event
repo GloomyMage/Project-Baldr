@@ -65,3 +65,51 @@ PirateMSt:
 ALIGN 4
 PirateMMv:
 #incbin "PirateMMv.dmp"
+
+ALIGN 4
+FighterSt:
+#incbin "FighterSt.dmp"
+
+ALIGN 4
+FighterMv:
+#incbin "FighterMv.dmp"
+
+ALIGN 4
+BowCavSt:
+#incbin "BowCavSt.dmp"
+
+ALIGN 4
+BowCavMv:
+#incbin "BowCavMv.dmp"
+
+ALIGN 4
+AxeCavSt:
+#incbin "AxeCavSt.dmp"
+
+ALIGN 4
+AxeCavMv:
+#incbin "AxeCavMv.dmp"
+
+ALIGN 4
+UniCavSt:
+#incbin "UniCavSt.dmp"
+
+ALIGN 4
+UniCavMv:
+#incbin "UniCavMv.dmp"
+
+ALIGN 4
+HunterSt:
+#incbin "HunterSt.dmp"
+
+ALIGN 4
+HunterMv:
+#incbin "HunterMv.dmp"
+
+ALIGN 4
+SwordknightST:
+#incbin "SwordknightST.dmp"
+
+ALIGN 4
+SwordknightMV:
+#incbin "SwordknightMV.dmp"

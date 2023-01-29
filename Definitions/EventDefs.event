@@ -39,6 +39,7 @@
 #define ResetBaseFlags "ENUT 0x3; ENUF BaseFlag1;ENUF BaseFlag2;ENUF BaseFlag3;ENUF BaseFlag4;ENUF BaseFlag5;ENUF BaseFlag6;ENUF BaseFlag7;ENUF BaseFlag8;"
 
 #define DesertItem(itemid,flag) "CHECK_ALLEGIANCE 0xFFFF; BNE 0x1 0xC 0x0; GiveItem(itemid); GOTO 0x2; LABEL 0x1; ENUF flag; LABEL 0x2; EndEvent"
+#define SurpriseAttack(unitpointer,coord1,coord2,flag) "CHECK_ALLEGIANCE 0xFFFF; BNE 0x1 0xC 0x0; CAM1 [coord1,coord2]; LOAD1 0x1 unitpointer; ENUN; GOTO 0x2; LABEL 0x1; ENUF flag; LABEL 0x2; EndEvent"
 #define DesertScroll(skillid,flag) "CHECK_ALLEGIANCE 0xFFFF; BNE 0x1 0xC 0x0; GiveItemWithDurability(SkillScroll,skillid,0xFFFF); GOTO 0x2; LABEL 0x1; ENUF flag; LABEL 0x2; EndEvent"
 
 #define DeathBranchText(char1,char2,deadmus,alivemus,background,bothalive,char1dead,char2dead,bothdead) "CHECK_ALIVE char1; BNE 0x2 0xC 0x0; CHECK_ALIVE char2; BNE 0x3 0xC 0x0; MUSC deadmus; CleanTextNoMap(background,bothdead); GOTO 0x5; LABEL 0x3; MUSC deadmus; CleanTextNoMap(background,char1dead); GOTO 0x5; LABEL 0x2; CHECK_ALIVE char2; BNE 0x4 0xC 0x0; MUSC deadmus; CleanTextNoMap(background,char2dead); GOTO 0x5; LABEL 0x4; MUSC alivemus; CleanTextNoMap(background,bothalive); LABEL 0x5"

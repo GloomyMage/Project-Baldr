@@ -1,0 +1,2445 @@
+//Event file generated from Sappy .s format.
+	#include "MPlayDef.event"
+
+	#define	MidBoss_grp  voicegroup000
+	#define	MidBoss_pri  0
+	#define	MidBoss_rev  0
+	#define	MidBoss_mvl  80
+	#define	MidBoss_key  0
+	#define	MidBoss_tbs  1
+	#define	MidBoss_exg  0
+	#define	MidBoss_cmp  1
+
+	// .rodata
+	//	MidBoss
+	ALIGN 4
+
+//**************** Track 1 (Midi-Chn.2) ****************//
+
+MidBoss_1:
+	BYTE	KEYSH   MidBoss_key+0
+// 000   ----------------------------------------
+	BYTE	TEMPO   125*MidBoss_tbs/2
+	BYTE		VOICE   47
+	BYTE		MODT    0
+	BYTE		LFOS    44
+	BYTE		BENDR   12
+	BYTE		VOL     24*MidBoss_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE	W04
+	BYTE		VOL     31*MidBoss_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v-18
+	BYTE		VOL     31*MidBoss_mvl/mxv
+	BYTE		BEND    c_v+1
+	BYTE		N21     Gn1   v124
+	BYTE	W23
+	BYTE		N17   
+	BYTE	W18
+	BYTE		N17   
+	BYTE	W18
+	BYTE		N16   
+	BYTE	W18
+	BYTE		N17   
+	BYTE	W15
+// 001   ----------------------------------------
+	BYTE	W03
+	BYTE		VOL     10*MidBoss_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v+63
+	BYTE		VOL     0*MidBoss_mvl/mxv
+	BYTE	PRIO    0
+	BYTE		PAN     c_v-64
+	BYTE		N05   
+	BYTE	W07
+	BYTE		VOL     10*MidBoss_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v-64
+	BYTE		VOL     24*MidBoss_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		N05   
+	BYTE	W07
+	BYTE		VOL     31*MidBoss_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v-18
+	BYTE		N12   
+	BYTE	W07
+MidBoss_1_B1:
+	BYTE	W06
+	BYTE		VOL     24*MidBoss_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		N17     Dn1   v124
+	BYTE	W18
+	BYTE		N17   
+	BYTE	W18
+	BYTE		N17   
+	BYTE	W18
+	BYTE		N17   
+	BYTE	W12
+// 002   ----------------------------------------
+	BYTE	W06
+	BYTE		N11   
+	BYTE	W12
+	BYTE		N05     Gn1 
+	BYTE	W07
+	BYTE		VOL     31*MidBoss_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v-18
+	BYTE		N07   
+	BYTE	W08
+	BYTE		VOL     44*MidBoss_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v-37
+	BYTE		VOL     50*MidBoss_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v-21
+	BYTE		N17   
+	BYTE	W18
+	BYTE		VOL     39*MidBoss_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+0
+	BYTE		VOL     31*MidBoss_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v-18
+	BYTE		N17   
+	BYTE	W18
+	BYTE		N17   
+	BYTE	W19
+	BYTE		N17   
+	BYTE	W08
+// 003   ----------------------------------------
+	BYTE	W10
+	BYTE		N17   
+	BYTE	W18
+	BYTE		VOL     24*MidBoss_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		VOL     10*MidBoss_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v-64
+	BYTE		N05   
+	BYTE	W06
+	BYTE		VOL     24*MidBoss_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v-64
+	BYTE		VOL     31*MidBoss_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v-18
+	BYTE		N05   
+	BYTE	W07
+	BYTE		VOL     44*MidBoss_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v-37
+	BYTE		VOL     50*MidBoss_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v-21
+	BYTE		N12   
+	BYTE	W14
+	BYTE		VOL     31*MidBoss_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v+27
+	BYTE		VOL     24*MidBoss_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		N17     Dn1 
+	BYTE	W18
+	BYTE		N17   
+	BYTE	W18
+	BYTE		N17   
+	BYTE	W05
+// 004   ----------------------------------------
+	BYTE	W13
+	BYTE		N17   
+	BYTE	W18
+	BYTE		N11   
+	BYTE	W12
+	BYTE		N05     Gn1 
+	BYTE	W07
+	BYTE		VOL     31*MidBoss_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v-18
+	BYTE		N07   
+	BYTE	W08
+	BYTE		VOL     44*MidBoss_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v-37
+	BYTE		VOL     50*MidBoss_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v-21
+	BYTE		N17   
+	BYTE	W18
+	BYTE		VOL     39*MidBoss_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+0
+	BYTE		VOL     31*MidBoss_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v-18
+	BYTE		N17   
+	BYTE	W18
+	BYTE		N17   
+	BYTE	W02
+// 005   ----------------------------------------
+	BYTE	W16
+	BYTE		VOL     44*MidBoss_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v-37
+	BYTE		VOL     50*MidBoss_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v-21
+	BYTE		N17   
+	BYTE	W18
+	BYTE		VOL     39*MidBoss_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+0
+	BYTE		VOL     31*MidBoss_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v-18
+	BYTE		N17   
+	BYTE	W18
+	BYTE		VOL     24*MidBoss_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		VOL     10*MidBoss_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v-64
+	BYTE		N05   
+	BYTE	W07
+	BYTE		VOL     24*MidBoss_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v-64
+	BYTE		VOL     31*MidBoss_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v-18
+	BYTE		N05   
+	BYTE	W07
+	BYTE		VOL     44*MidBoss_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v-37
+	BYTE		VOL     50*MidBoss_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v-21
+	BYTE		N12   
+	BYTE	W13
+	BYTE		VOL     39*MidBoss_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+0
+	BYTE		VOL     31*MidBoss_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v-18
+	BYTE		N17     Dn1 
+	BYTE	W17
+// 006   ----------------------------------------
+	BYTE	W01
+	BYTE		N17   
+	BYTE	W18
+	BYTE		N11   
+	BYTE	W12
+	BYTE		VOL     24*MidBoss_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		N05     Gn1 
+	BYTE	W07
+	BYTE		VOL     31*MidBoss_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v-18
+	BYTE		N07   
+	BYTE	W08
+	BYTE		VOL     44*MidBoss_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v-37
+	BYTE		VOL     50*MidBoss_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v-21
+	BYTE		N17   
+	BYTE	W18
+	BYTE		VOL     39*MidBoss_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+0
+	BYTE		N17   
+	BYTE	W18
+	BYTE		N17   
+	BYTE	W14
+// 007   ----------------------------------------
+	BYTE	W04
+	BYTE		VOL     31*MidBoss_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v+27
+	BYTE		VOL     24*MidBoss_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE	W01
+	BYTE		N05   
+	BYTE	W06
+	BYTE		VOL     31*MidBoss_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v-18
+	BYTE		N05   
+	BYTE	W07
+	BYTE		VOL     44*MidBoss_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v-37
+	BYTE		VOL     54*MidBoss_mvl/mxv
+	BYTE	PRIO    31
+	BYTE		PAN     c_v-7
+	BYTE		N72   
+	BYTE	W78
+// 008   ----------------------------------------
+	BYTE	W96
+// 009   ----------------------------------------
+	BYTE	W44
+	BYTE	W03
+	BYTE		VOL     31*MidBoss_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v+63
+	BYTE		VOL     0*MidBoss_mvl/mxv
+	BYTE	PRIO    0
+	BYTE		PAN     c_v-64
+	BYTE		N17   
+	BYTE	W18
+	BYTE		VOL     10*MidBoss_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v-64
+	BYTE		VOL     24*MidBoss_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		N17   
+	BYTE	W18
+	BYTE		VOL     31*MidBoss_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v-18
+	BYTE		N17   
+	BYTE	W13
+// 010   ----------------------------------------
+	BYTE	W05
+	BYTE		N17   
+	BYTE	W19
+	BYTE		N16   
+	BYTE	W17
+	BYTE		N17   
+	BYTE	W18
+	BYTE		VOL     10*MidBoss_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v+63
+	BYTE		VOL     0*MidBoss_mvl/mxv
+	BYTE	PRIO    0
+	BYTE		PAN     c_v-64
+	BYTE		N05   
+	BYTE	W07
+	BYTE		VOL     10*MidBoss_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v-64
+	BYTE		VOL     24*MidBoss_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		N05   
+	BYTE	W07
+	BYTE		VOL     31*MidBoss_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v-18
+	BYTE		N12   
+	BYTE	W05
+	BYTE	GoTo
+	 POIN2	MidBoss_1_B1
+MidBoss_1_B2:
+	BYTE	W08
+	BYTE		VOL     24*MidBoss_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		N17     Dn1   v124
+	BYTE	W10
+// 011   ----------------------------------------
+	BYTE	W08
+	BYTE		N17   
+	BYTE	W19
+	BYTE		N15   
+	BYTE	W15
+	BYTE	FINE
+
+//**************** Track 2 (Midi-Chn.3) ****************//
+
+MidBoss_2:
+	BYTE	KEYSH   MidBoss_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   47
+	BYTE		MODT    0
+	BYTE		LFOS    44
+	BYTE		BENDR   12
+	BYTE		VOL     0*MidBoss_mvl/mxv
+	BYTE	PRIO    0
+	BYTE		PAN     c_v-64
+	BYTE		VOL     10*MidBoss_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v-64
+	BYTE		VOL     24*MidBoss_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		VOL     24*MidBoss_mvl/mxv
+	BYTE		BEND    c_v+1
+	BYTE		N07     Gn1   v124
+	BYTE	W09
+	BYTE		VOL     39*MidBoss_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v-32
+	BYTE		VOL     44*MidBoss_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v-10
+	BYTE		N24   
+	BYTE	W24
+	BYTE	W03
+	BYTE		VOL     31*MidBoss_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v+27
+	BYTE		VOL     24*MidBoss_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		N17     Dn1 
+	BYTE	W18
+	BYTE		N08   
+	BYTE	W18
+	BYTE		N17   
+	BYTE	W18
+	BYTE		N11   
+	BYTE	W06
+// 001   ----------------------------------------
+	BYTE	W06
+	BYTE		VOL     10*MidBoss_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v-64
+	BYTE		N05     Gn1 
+	BYTE	W07
+	BYTE		VOL     24*MidBoss_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v-64
+	BYTE		VOL     31*MidBoss_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v-18
+	BYTE		N07   
+	BYTE	W08
+	BYTE		VOL     44*MidBoss_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v-37
+	BYTE		VOL     50*MidBoss_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v-21
+	BYTE		N17   
+	BYTE	W03
+MidBoss_2_B1:
+	BYTE	W15
+	BYTE		VOL     39*MidBoss_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+0
+	BYTE		VOL     31*MidBoss_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v-18
+	BYTE		N17     Gn1   v124
+	BYTE	W18
+	BYTE		N17   
+	BYTE	W18
+	BYTE		N17   
+	BYTE	W18
+	BYTE		N17   
+	BYTE	W03
+// 002   ----------------------------------------
+	BYTE	W15
+	BYTE		VOL     24*MidBoss_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		VOL     10*MidBoss_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v-64
+	BYTE		N05   
+	BYTE	W07
+	BYTE		VOL     24*MidBoss_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v-64
+	BYTE		VOL     31*MidBoss_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v-18
+	BYTE		N05   
+	BYTE	W07
+	BYTE		VOL     44*MidBoss_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v-37
+	BYTE		VOL     50*MidBoss_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v-21
+	BYTE		N12   
+	BYTE	W13
+	BYTE		VOL     31*MidBoss_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v+27
+	BYTE		VOL     24*MidBoss_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		N17     Dn1 
+	BYTE	W18
+	BYTE		N17   
+	BYTE	W18
+	BYTE		N17   
+	BYTE	W18
+// 003   ----------------------------------------
+	BYTE	W01
+	BYTE		N17   
+	BYTE	W18
+	BYTE		N11   
+	BYTE	W12
+	BYTE		N05     Gn1 
+	BYTE	W06
+	BYTE		VOL     31*MidBoss_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v-18
+	BYTE		N07   
+	BYTE	W09
+	BYTE		VOL     44*MidBoss_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v-37
+	BYTE		VOL     50*MidBoss_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v-21
+	BYTE		N17   
+	BYTE	W18
+	BYTE		VOL     39*MidBoss_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+0
+	BYTE		VOL     31*MidBoss_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v-18
+	BYTE		N17   
+	BYTE	W18
+	BYTE		N17   
+	BYTE	W14
+// 004   ----------------------------------------
+	BYTE	W04
+	BYTE		N17   
+	BYTE	W18
+	BYTE		N17   
+	BYTE	W18
+	BYTE		VOL     24*MidBoss_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		VOL     10*MidBoss_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v-64
+	BYTE		N05   
+	BYTE	W07
+	BYTE		VOL     24*MidBoss_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v-64
+	BYTE		VOL     31*MidBoss_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v-18
+	BYTE		N05   
+	BYTE	W06
+	BYTE		VOL     44*MidBoss_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v-37
+	BYTE		VOL     50*MidBoss_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v-21
+	BYTE		N12   
+	BYTE	W14
+	BYTE		VOL     31*MidBoss_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v+27
+	BYTE		VOL     24*MidBoss_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		N17     Dn1 
+	BYTE	W18
+	BYTE		VOL     31*MidBoss_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v-18
+	BYTE		N17   
+	BYTE	W11
+// 005   ----------------------------------------
+	BYTE	W07
+	BYTE		VOL     39*MidBoss_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v-32
+	BYTE		VOL     44*MidBoss_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v-10
+	BYTE		N07   
+	BYTE	W18
+	BYTE		VOL     31*MidBoss_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v+27
+	BYTE		VOL     24*MidBoss_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		N17   
+	BYTE	W18
+	BYTE		N11   
+	BYTE	W12
+	BYTE		N05     Gn1 
+	BYTE	W07
+	BYTE		VOL     31*MidBoss_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v-18
+	BYTE		N07   
+	BYTE	W08
+	BYTE		VOL     44*MidBoss_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v-37
+	BYTE		VOL     50*MidBoss_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v-21
+	BYTE		N17   
+	BYTE	W18
+	BYTE		VOL     39*MidBoss_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+0
+	BYTE		N17   
+	BYTE	W08
+// 006   ----------------------------------------
+	BYTE	W10
+	BYTE		N17   
+	BYTE	W18
+	BYTE		VOL     31*MidBoss_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v+27
+	BYTE		VOL     24*MidBoss_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		N05   
+	BYTE	W07
+	BYTE		VOL     31*MidBoss_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v-18
+	BYTE		N05   
+	BYTE	W07
+	BYTE		VOL     44*MidBoss_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v-37
+	BYTE		VOL     54*MidBoss_mvl/mxv
+	BYTE	PRIO    31
+	BYTE		PAN     c_v-7
+	BYTE		N12   
+	BYTE	W13
+	BYTE		VOL     44*MidBoss_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v+16
+	BYTE		VOL     31*MidBoss_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v-18
+	BYTE		N17     Dn1 
+	BYTE	W18
+	BYTE		N17   
+	BYTE	W19
+	BYTE		N11   
+	BYTE	W04
+// 007   ----------------------------------------
+	BYTE	W07
+	BYTE		VOL     24*MidBoss_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE	W01
+	BYTE		N05     Gn1 
+	BYTE	W06
+	BYTE		VOL     31*MidBoss_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v-18
+	BYTE		N11   
+	BYTE	W13
+	BYTE		VOICE   56
+	BYTE		VOL     10*MidBoss_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v+63
+	BYTE		BEND    c_v+0
+	BYTE		N08     Ds3   v088
+	BYTE	W09
+	BYTE		N08   
+	BYTE	W09
+	BYTE		VOL     24*MidBoss_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		VOL     31*MidBoss_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v+27
+	BYTE		N08     Gn3 
+	BYTE	W09
+	BYTE		N08   
+	BYTE	W09
+	BYTE		VOL     24*MidBoss_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+63
+	BYTE		VOL     10*MidBoss_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v+63
+	BYTE		N08     Ds3 
+	BYTE	W09
+	BYTE		N08   
+	BYTE	W09
+	BYTE		VOL     24*MidBoss_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		VOL     31*MidBoss_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v+27
+	BYTE		N08     Gn3 
+	BYTE	W09
+	BYTE		N08   
+	BYTE	W06
+// 008   ----------------------------------------
+	BYTE	W03
+	BYTE		VOL     24*MidBoss_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+63
+	BYTE		VOL     10*MidBoss_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v+63
+	BYTE		N08     Ds4 
+	BYTE	W09
+	BYTE		VOL     24*MidBoss_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		VOL     31*MidBoss_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v+27
+	BYTE		N08     Cn4 
+	BYTE	W09
+	BYTE		        Gn3 
+	BYTE	W09
+	BYTE		VOL     24*MidBoss_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+63
+	BYTE		VOL     10*MidBoss_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v+63
+	BYTE		N08     Ds3 
+	BYTE	W09
+	BYTE		N08   
+	BYTE	W09
+	BYTE		VOL     24*MidBoss_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		VOL     31*MidBoss_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v+27
+	BYTE		N08     Gn3 
+	BYTE	W09
+	BYTE		VOL     24*MidBoss_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+63
+	BYTE		VOL     10*MidBoss_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v+63
+	BYTE		N08     Bn3 
+	BYTE	W09
+	BYTE		        Ds4 
+	BYTE	W10
+	BYTE		N08   
+	BYTE	W09
+	BYTE		        Cn4 
+	BYTE	W09
+	BYTE		        Fs3 
+	BYTE	W02
+// 009   ----------------------------------------
+	BYTE	W07
+	BYTE		N06     Dn3 
+	BYTE	W07
+	BYTE		N05     As2 
+	BYTE	W06
+	BYTE		        Gn2 
+	BYTE	W06
+	BYTE		BEND    c_v-1
+	BYTE		N28     Ds2 
+	BYTE	W30
+	BYTE		VOICE   47
+	BYTE		BEND    c_v+0
+	BYTE		N17     Dn0   v124
+	BYTE	W18
+	BYTE		N17   
+	BYTE	W18
+	BYTE		VOL     24*MidBoss_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		VOL     31*MidBoss_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v+27
+	BYTE		N17   
+	BYTE	W04
+// 010   ----------------------------------------
+	BYTE	W14
+	BYTE		VOL     39*MidBoss_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+32
+	BYTE		N08   
+	BYTE	W18
+	BYTE		VOL     24*MidBoss_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		BEND    c_v+1
+	BYTE		N17     Dn1 
+	BYTE	W18
+	BYTE		N11   
+	BYTE	W12
+	BYTE		VOL     10*MidBoss_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v-64
+	BYTE		N05     Gn1 
+	BYTE	W07
+	BYTE		VOL     24*MidBoss_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v-64
+	BYTE		VOL     31*MidBoss_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v-18
+	BYTE		N07   
+	BYTE	W08
+	BYTE		VOL     44*MidBoss_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v-37
+	BYTE		VOL     50*MidBoss_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v-21
+	BYTE	W01
+	BYTE	GoTo
+	 POIN2	MidBoss_2_B1
+MidBoss_2_B2:
+	BYTE		N17     Gn1   v124
+	BYTE	W17
+	BYTE		VOL     39*MidBoss_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+0
+	BYTE		VOL     31*MidBoss_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v-18
+	BYTE	W01
+// 011   ----------------------------------------
+	BYTE		N17   
+	BYTE	W18
+	BYTE		N17   
+	BYTE	W18
+	BYTE		N07   
+	BYTE	W06
+	BYTE	W01
+	BYTE	FINE
+
+//**************** Track 3 (Midi-Chn.4) ****************//
+
+MidBoss_3:
+	BYTE	KEYSH   MidBoss_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   57
+	BYTE		MODT    0
+	BYTE		LFOS    44
+	BYTE		BENDR   12
+	BYTE	W09
+	BYTE		VOL     31*MidBoss_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v-18
+	BYTE		VOL     31*MidBoss_mvl/mxv
+	BYTE		BEND    c_v+0
+	BYTE		N52     Gn1   v088
+	BYTE	W84
+	BYTE	W03
+// 001   ----------------------------------------
+	BYTE	W24
+MidBoss_3_B1:
+	BYTE		VOICE   57
+	BYTE		PAN     c_v-18
+	BYTE		VOL     31*MidBoss_mvl/mxv
+	BYTE	W11
+	BYTE		VOICE   48
+	BYTE		VOL     24*MidBoss_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		N02     As2   v088
+	BYTE	W03
+	BYTE		VOL     39*MidBoss_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v-32
+	BYTE		VOL     44*MidBoss_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v-10
+	BYTE		N44     Gn2 
+	BYTE	W48
+	BYTE	W03
+	BYTE		VOL     31*MidBoss_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v+27
+	BYTE		VOL     24*MidBoss_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		N02     As3 
+	BYTE	W03
+	BYTE		VOL     31*MidBoss_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v-18
+	BYTE		N36     Gn3 
+	BYTE	W04
+// 002   ----------------------------------------
+	BYTE	W48
+	BYTE		N02     Dn3 
+	BYTE	W03
+	BYTE		VOL     24*MidBoss_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		N40     As2 
+	BYTE	W44
+	BYTE	W01
+// 003   ----------------------------------------
+	BYTE	W06
+	BYTE		N02     Dn4 
+	BYTE	W03
+	BYTE		VOL     10*MidBoss_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v+63
+	BYTE		VOL     0*MidBoss_mvl/mxv
+	BYTE	PRIO    0
+	BYTE		PAN     c_v-64
+	BYTE		N40     As3 
+	BYTE	W84
+	BYTE	W03
+// 004   ----------------------------------------
+	BYTE	W96
+// 005   ----------------------------------------
+	BYTE	W68
+	BYTE		N28     An2 
+	BYTE	W02
+	BYTE		VOICE   60
+	BYTE		VOL     24*MidBoss_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v-64
+	BYTE		VOL     39*MidBoss_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+0
+	BYTE	W24
+	BYTE	W02
+// 006   ----------------------------------------
+	BYTE	W08
+	BYTE		N28     Cn3 
+	BYTE	W01
+	BYTE		VOL     31*MidBoss_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v-18
+	BYTE	W32
+	BYTE	W03
+	BYTE		N28     As2 
+	BYTE	W02
+	BYTE		VOL     39*MidBoss_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+0
+	BYTE	W32
+	BYTE	W03
+	BYTE		N28     Ds3 
+	BYTE	W01
+	BYTE		VOL     31*MidBoss_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v-18
+	BYTE	W14
+// 007   ----------------------------------------
+	BYTE	W21
+	BYTE		N42     Dn3 
+	BYTE	W56
+	BYTE		N08     An2 
+	BYTE	W17
+	BYTE		N28     As2 
+	BYTE	W02
+// 008   ----------------------------------------
+	BYTE	W32
+	BYTE	W03
+	BYTE		        Ds3 
+	BYTE	W01
+	BYTE		VOL     24*MidBoss_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE	W36
+	BYTE		VOL     31*MidBoss_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v-18
+	BYTE		N84     Dn3 
+	BYTE	W17
+	BYTE		VOL     39*MidBoss_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+0
+	BYTE	W07
+// 009   ----------------------------------------
+	BYTE	W01
+	BYTE		VOL     44*MidBoss_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v-10
+	BYTE	W92
+	BYTE	W03
+// 010   ----------------------------------------
+	BYTE	W78
+	BYTE	GoTo
+	 POIN2	MidBoss_3_B1
+MidBoss_3_B2:
+	BYTE	W14
+	BYTE		VOICE   48
+	BYTE		VOL     31*MidBoss_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v+27
+	BYTE		VOL     24*MidBoss_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		N02     As2   v088
+	BYTE	W03
+	BYTE		VOL     39*MidBoss_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v-32
+	BYTE		VOL     44*MidBoss_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v-10
+	BYTE		N42     Gn2 
+	BYTE	W01
+// 011   ----------------------------------------
+	BYTE	W42
+	BYTE		VOL     31*MidBoss_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v+27
+	BYTE		VOL     24*MidBoss_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE	FINE
+
+//**************** Track 4 (Midi-Chn.5) ****************//
+
+MidBoss_4:
+	BYTE	KEYSH   MidBoss_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   57
+	BYTE		MODT    0
+	BYTE		LFOS    44
+	BYTE		BENDR   12
+	BYTE	W10
+	BYTE		VOL     65*MidBoss_mvl/mxv
+	BYTE	PRIO    121
+	BYTE		PAN     c_v+12
+	BYTE		VOL     65*MidBoss_mvl/mxv
+	BYTE		BEND    c_v+0
+	BYTE		TIE     Fn2   v088
+	BYTE	W84
+	BYTE	W02
+// 001   ----------------------------------------
+	BYTE	W20
+	BYTE		EOT   
+	BYTE	W04
+MidBoss_4_B1:
+	BYTE		VOICE   57
+	BYTE		PAN     c_v+12
+	BYTE		VOL     65*MidBoss_mvl/mxv
+	BYTE		BEND    c_v+0
+	BYTE	W11
+	BYTE		VOICE   48
+	BYTE		VOL     54*MidBoss_mvl/mxv
+	BYTE	PRIO    31
+	BYTE		PAN     c_v+48
+	BYTE		VOL     24*MidBoss_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		BEND    c_v+0
+	BYTE		N02     An2   v088
+	BYTE	W03
+	BYTE		VOL     31*MidBoss_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v+27
+	BYTE		N01     Cn3 
+	BYTE	W01
+	BYTE		VOL     39*MidBoss_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+0
+	BYTE		VOL     44*MidBoss_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v+16
+	BYTE		N42     Dn3 
+	BYTE	W48
+	BYTE	W02
+	BYTE		VOL     39*MidBoss_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+32
+	BYTE		VOL     31*MidBoss_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v+27
+	BYTE		N02     An3 
+	BYTE	W03
+	BYTE		VOL     39*MidBoss_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+0
+	BYTE		VOL     44*MidBoss_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v+16
+	BYTE		N01     Cn4 
+	BYTE	W01
+	BYTE		N40     Dn4 
+	BYTE	W03
+// 002   ----------------------------------------
+	BYTE	W44
+	BYTE	W03
+	BYTE		VOL     39*MidBoss_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+32
+	BYTE		VOL     24*MidBoss_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		N02     Cn3 
+	BYTE	W03
+	BYTE		N01     Ds3 
+	BYTE	W01
+	BYTE		VOL     31*MidBoss_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v-18
+	BYTE		VOL     39*MidBoss_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+0
+	BYTE		N32     Fs3 
+	BYTE	W44
+	BYTE	W01
+// 003   ----------------------------------------
+	BYTE	W05
+	BYTE		VOL     31*MidBoss_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v+27
+	BYTE		VOL     24*MidBoss_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		N02     Cn4 
+	BYTE	W03
+	BYTE		N01     Ds4 
+	BYTE	W01
+	BYTE		VOL     31*MidBoss_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v+27
+	BYTE	W01
+	BYTE		N32     Fs4 
+	BYTE	W42
+	BYTE		VOICE   57
+	BYTE		VOL     24*MidBoss_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+63
+	BYTE		VOL     0*MidBoss_mvl/mxv
+	BYTE	PRIO    0
+	BYTE		PAN     c_v-64
+	BYTE		BEND    c_v+0
+	BYTE		N08     Bn3 
+	BYTE	W09
+	BYTE		N17   
+	BYTE	W18
+	BYTE		N08     An2 
+	BYTE	W09
+	BYTE		N17   
+	BYTE	W08
+// 004   ----------------------------------------
+	BYTE	W10
+	BYTE		N08     Bn3 
+	BYTE	W09
+	BYTE		N17   
+	BYTE	W18
+	BYTE		N08     As2 
+	BYTE	W09
+	BYTE		N17   
+	BYTE	W18
+	BYTE		N08     Bn3 
+	BYTE	W09
+	BYTE		        As2 
+	BYTE	W09
+	BYTE		        Bn3 
+	BYTE	W09
+	BYTE		        As2 
+	BYTE	W05
+// 005   ----------------------------------------
+	BYTE	W04
+	BYTE		        Bn3 
+	BYTE	W09
+	BYTE		        As2 
+	BYTE	W09
+	BYTE		        Bn3 
+	BYTE	W09
+	BYTE		        As2 
+	BYTE	W09
+	BYTE		        Bn3 
+	BYTE	W09
+	BYTE		        As2 
+	BYTE	W09
+	BYTE		VOL     10*MidBoss_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v+63
+	BYTE		N10     Bn3 
+	BYTE	W09
+	BYTE		N07     As2 
+	BYTE	W04
+	BYTE		VOICE   60
+	BYTE		VOL     31*MidBoss_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v-18
+	BYTE		VOL     50*MidBoss_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v+21
+	BYTE		BEND    c_v+0
+	BYTE	W01
+	BYTE		N24     En3 
+	BYTE	W24
+// 006   ----------------------------------------
+	BYTE	W10
+	BYTE		N28     Gn3 
+	BYTE	W01
+	BYTE		VOL     44*MidBoss_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v+42
+	BYTE		VOL     31*MidBoss_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v+27
+	BYTE	W36
+	BYTE		VOL     39*MidBoss_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+0
+	BYTE		VOL     44*MidBoss_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v+16
+	BYTE	W01
+	BYTE		N28     Fn3 
+	BYTE	W32
+	BYTE	W02
+	BYTE		        As3 
+	BYTE	W02
+	BYTE		VOL     39*MidBoss_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+32
+	BYTE		VOL     31*MidBoss_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v+27
+	BYTE	W12
+// 007   ----------------------------------------
+	BYTE	W24
+	BYTE		VOL     39*MidBoss_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+0
+	BYTE		VOL     44*MidBoss_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v+16
+	BYTE		N42     An3 
+	BYTE	W54
+	BYTE		N08     En3 
+	BYTE	W02
+	BYTE		VOL     39*MidBoss_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+32
+	BYTE		VOL     31*MidBoss_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v+27
+	BYTE	W16
+// 008   ----------------------------------------
+	BYTE		N28     Fn3 
+	BYTE	W36
+	BYTE		        As3 
+	BYTE	W36
+	BYTE		N88     An3 
+	BYTE	W01
+	BYTE		VOL     39*MidBoss_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+0
+	BYTE		VOL     44*MidBoss_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v+16
+	BYTE	W23
+// 009   ----------------------------------------
+	BYTE	W32
+	BYTE	W01
+	BYTE		VOL     50*MidBoss_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v+21
+	BYTE	W15
+	BYTE		VOL     54*MidBoss_mvl/mxv
+	BYTE	PRIO    31
+	BYTE		PAN     c_v+11
+	BYTE	W48
+// 010   ----------------------------------------
+	BYTE	W78
+	BYTE	GoTo
+	 POIN2	MidBoss_4_B1
+MidBoss_4_B2:
+	BYTE	W13
+	BYTE		VOICE   48
+	BYTE		VOL     44*MidBoss_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v+42
+	BYTE		VOL     24*MidBoss_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		N02     An2   v088
+	BYTE	W03
+	BYTE		VOL     31*MidBoss_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v+27
+	BYTE		N01     Cn3 
+	BYTE	W02
+// 011   ----------------------------------------
+	BYTE		VOL     39*MidBoss_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+0
+	BYTE		VOL     44*MidBoss_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v+16
+	BYTE		N42     Dn3 
+	BYTE	W42
+	BYTE		VOL     39*MidBoss_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+32
+	BYTE		VOL     31*MidBoss_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v+27
+	BYTE		VOL     39*MidBoss_mvl/mxv
+	BYTE	PRIO    32
+	BYTE	FINE
+
+//**************** Track 5 (Midi-Chn.6) ****************//
+
+MidBoss_5:
+	BYTE	KEYSH   MidBoss_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   57
+	BYTE		MODT    0
+	BYTE		LFOS    44
+	BYTE		BENDR   12
+	BYTE	W10
+	BYTE		VOL     59*MidBoss_mvl/mxv
+	BYTE	PRIO    39
+	BYTE		PAN     c_v+0
+	BYTE		VOL     59*MidBoss_mvl/mxv
+	BYTE		BEND    c_v+0
+	BYTE		N48     Dn3   v096
+	BYTE	W84
+	BYTE	W02
+// 001   ----------------------------------------
+	BYTE	W17
+	BYTE		VOL     50*MidBoss_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v+21
+	BYTE		VOL     39*MidBoss_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+0
+	BYTE		N52     Gn2 
+	BYTE	W07
+MidBoss_5_B1:
+	BYTE		PAN     c_v+0
+	BYTE	W44
+	BYTE	W03
+	BYTE		N52     Gn3   v096
+	BYTE	W24
+	BYTE	W01
+// 002   ----------------------------------------
+	BYTE	W28
+	BYTE	W01
+	BYTE		VOL     31*MidBoss_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v+27
+	BYTE		VOL     24*MidBoss_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		N48     As2 
+	BYTE	W52
+	BYTE		VOL     10*MidBoss_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v+63
+	BYTE		VOL     0*MidBoss_mvl/mxv
+	BYTE	PRIO    0
+	BYTE		PAN     c_v-64
+	BYTE		N56     As3 
+	BYTE	W15
+// 003   ----------------------------------------
+	BYTE	W44
+	BYTE		N08     Cs4 
+	BYTE	W02
+	BYTE		VOL     10*MidBoss_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v-64
+	BYTE		VOL     24*MidBoss_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE	W07
+	BYTE		N17   
+	BYTE	W02
+	BYTE		VOL     31*MidBoss_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v-18
+	BYTE		VOL     39*MidBoss_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+0
+	BYTE	W18
+	BYTE		N08     Gn2 
+	BYTE	W09
+	BYTE		N17   
+	BYTE	W14
+// 004   ----------------------------------------
+	BYTE	W02
+	BYTE		N08     Cs4 
+	BYTE	W09
+	BYTE		N17   
+	BYTE	W20
+	BYTE		VOL     31*MidBoss_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v+27
+	BYTE		VOL     24*MidBoss_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		N08     An2 
+	BYTE	W09
+	BYTE		VOL     31*MidBoss_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v-18
+	BYTE		VOL     39*MidBoss_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+0
+	BYTE		N17   
+	BYTE	W16
+	BYTE		N08     Cs4 
+	BYTE	W02
+	BYTE		VOL     24*MidBoss_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+63
+	BYTE		VOL     0*MidBoss_mvl/mxv
+	BYTE	PRIO    0
+	BYTE		PAN     c_v-64
+	BYTE	W09
+	BYTE		N08     An2 
+	BYTE	W07
+	BYTE		        Cs4 
+	BYTE	W02
+	BYTE		VOL     10*MidBoss_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v-64
+	BYTE		VOL     24*MidBoss_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE	W09
+	BYTE		VOL     10*MidBoss_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v+63
+	BYTE		VOL     0*MidBoss_mvl/mxv
+	BYTE	PRIO    0
+	BYTE		PAN     c_v-64
+	BYTE		N08     An2 
+	BYTE	W07
+	BYTE		        Cs4 
+	BYTE	W02
+	BYTE		VOL     10*MidBoss_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v-64
+	BYTE		VOL     24*MidBoss_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE	W02
+// 005   ----------------------------------------
+	BYTE	W07
+	BYTE		VOL     10*MidBoss_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v+63
+	BYTE		VOL     0*MidBoss_mvl/mxv
+	BYTE	PRIO    0
+	BYTE		PAN     c_v-64
+	BYTE		N08     An2 
+	BYTE	W08
+	BYTE		        Cs4 
+	BYTE	W01
+	BYTE		VOL     10*MidBoss_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v-64
+	BYTE		VOL     24*MidBoss_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE	W09
+	BYTE		N08     An2 
+	BYTE	W08
+	BYTE		        Cs4 
+	BYTE	W01
+	BYTE		VOL     31*MidBoss_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v-18
+	BYTE		VOL     39*MidBoss_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+0
+	BYTE	W09
+	BYTE		N08     An2 
+	BYTE	W08
+	BYTE		N10     Cs4 
+	BYTE	W01
+	BYTE		VOL     44*MidBoss_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v-10
+	BYTE		VOL     50*MidBoss_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v+0
+	BYTE	W09
+	BYTE		VOL     44*MidBoss_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v+16
+	BYTE		VOL     39*MidBoss_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+0
+	BYTE		N08     An2 
+	BYTE	W32
+	BYTE	W03
+// 006   ----------------------------------------
+	BYTE	W96
+// 007   ----------------------------------------
+	BYTE	W23
+	BYTE		VOICE   56
+	BYTE		VOL     24*MidBoss_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+63
+	BYTE		VOL     10*MidBoss_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v+63
+	BYTE		BEND    c_v+0
+	BYTE		N08     Dn3 
+	BYTE	W09
+	BYTE		VOL     24*MidBoss_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		VOL     31*MidBoss_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v+27
+	BYTE		N08   
+	BYTE	W09
+	BYTE		VOL     24*MidBoss_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+63
+	BYTE		VOL     10*MidBoss_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v+63
+	BYTE		N08     Fs3 
+	BYTE	W09
+	BYTE		N08   
+	BYTE	W09
+	BYTE		VOL     24*MidBoss_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		VOL     31*MidBoss_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v+27
+	BYTE		N08     Dn3 
+	BYTE	W09
+	BYTE		N08   
+	BYTE	W09
+	BYTE		VOL     24*MidBoss_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+63
+	BYTE		VOL     10*MidBoss_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v+63
+	BYTE		N08     Fs3 
+	BYTE	W09
+	BYTE		N08   
+	BYTE	W10
+// 008   ----------------------------------------
+	BYTE		N07     As3 
+	BYTE	W08
+	BYTE		N08     Gn3 
+	BYTE	W09
+	BYTE		        Dn3 
+	BYTE	W09
+	BYTE		        As2 
+	BYTE	W09
+	BYTE		N08   
+	BYTE	W09
+	BYTE		        Dn3 
+	BYTE	W09
+	BYTE		        Fs3 
+	BYTE	W09
+	BYTE		VOL     24*MidBoss_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		VOL     31*MidBoss_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v+27
+	BYTE		N08     As3 
+	BYTE	W09
+	BYTE		VOL     24*MidBoss_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+63
+	BYTE		VOL     10*MidBoss_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v+63
+	BYTE	W01
+	BYTE		N07     Dn4 
+	BYTE	W08
+	BYTE		N08     As3 
+	BYTE	W09
+	BYTE		        Fn3 
+	BYTE	W07
+// 009   ----------------------------------------
+	BYTE	W02
+	BYTE		        Bn2 
+	BYTE	W09
+	BYTE		N05     Cn3 
+	BYTE	W06
+	BYTE		VOL     24*MidBoss_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		VOL     31*MidBoss_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v+27
+	BYTE		N05     An2 
+	BYTE	W06
+	BYTE		        Fs2 
+	BYTE	W06
+	BYTE		VOL     24*MidBoss_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+63
+	BYTE		VOL     10*MidBoss_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v+63
+	BYTE		BEND    c_v-1
+	BYTE		N88     Dn2 
+	BYTE	W66
+	BYTE	W01
+// 010   ----------------------------------------
+	BYTE	W72
+	BYTE	W01
+	BYTE		VOICE   57
+	BYTE		VOL     24*MidBoss_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		VOL     39*MidBoss_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+32
+	BYTE		BEND    c_v+0
+	BYTE		N52     Gn2 
+	BYTE	W05
+	BYTE	GoTo
+	 POIN2	MidBoss_5_B1
+MidBoss_5_B2:
+	BYTE	W18
+// 011   ----------------------------------------
+	BYTE	W30
+	BYTE	W01
+	BYTE		VOL     31*MidBoss_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v+27
+	BYTE		N12     Gn3   v096
+	BYTE	W11
+	BYTE	W01
+	BYTE	FINE
+
+//**************** Track 6 (Midi-Chn.7) ****************//
+
+MidBoss_6:
+	BYTE	KEYSH   MidBoss_key+0
+// 000   ----------------------------------------
+	BYTE		MODT    0
+	BYTE		LFOS    44
+	BYTE		BENDR   12
+	BYTE	W10
+	BYTE		VOICE   57
+	BYTE		VOL     59*MidBoss_mvl/mxv
+	BYTE	PRIO    39
+	BYTE		PAN     c_v+0
+	BYTE		VOL     59*MidBoss_mvl/mxv
+	BYTE		BEND    c_v+0
+	BYTE		N52     Gs3   v096
+	BYTE	W84
+	BYTE	W02
+// 001   ----------------------------------------
+	BYTE	W17
+	BYTE		VOL     44*MidBoss_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v+42
+	BYTE		VOL     24*MidBoss_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		N01     An2 
+	BYTE	W02
+	BYTE		VOL     31*MidBoss_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v-18
+	BYTE		VOL     39*MidBoss_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+0
+	BYTE		N01     Cn3 
+	BYTE	W05
+MidBoss_6_B1:
+	BYTE		PAN     c_v+0
+	BYTE		VOL     39*MidBoss_mvl/mxv
+	BYTE	W44
+	BYTE	W03
+	BYTE		        31*MidBoss_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v+27
+	BYTE		VOL     24*MidBoss_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		N01     An3   v096
+	BYTE	W02
+	BYTE		VOL     31*MidBoss_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v-18
+	BYTE		VOL     39*MidBoss_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+0
+	BYTE		N01     Cn4 
+	BYTE	W23
+// 002   ----------------------------------------
+	BYTE	W30
+	BYTE		VOL     31*MidBoss_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v+27
+	BYTE		VOL     24*MidBoss_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		N01     Cn3 
+	BYTE	W01
+	BYTE		        Ds3 
+	BYTE	W52
+	BYTE	W01
+	BYTE		        Cn4 
+	BYTE	W01
+	BYTE		        Ds4 
+	BYTE	W11
+// 003   ----------------------------------------
+	BYTE	W48
+	BYTE		N02     Ds4   v072
+	BYTE	W07
+	BYTE		VOL     31*MidBoss_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v-18
+	BYTE		VOL     39*MidBoss_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+0
+	BYTE	W01
+	BYTE		N05   
+	BYTE	W17
+	BYTE		VOL     31*MidBoss_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v+27
+	BYTE		VOL     24*MidBoss_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		N02     Gs2   v096
+	BYTE	W09
+	BYTE		VOL     31*MidBoss_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v-18
+	BYTE		VOL     39*MidBoss_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+0
+	BYTE		N05   
+	BYTE	W14
+// 004   ----------------------------------------
+	BYTE	W04
+	BYTE		VOL     31*MidBoss_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v+27
+	BYTE		VOL     24*MidBoss_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE	W02
+	BYTE		N02     Ds4   v072
+	BYTE	W07
+	BYTE		VOL     31*MidBoss_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v-18
+	BYTE		VOL     39*MidBoss_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+0
+	BYTE	W02
+	BYTE		N05   
+	BYTE	W16
+	BYTE		VOL     31*MidBoss_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v+27
+	BYTE		VOL     24*MidBoss_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		N02     As2   v096
+	BYTE	W09
+	BYTE		N05   
+	BYTE	W18
+	BYTE		VOL     10*MidBoss_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v+63
+	BYTE		VOL     0*MidBoss_mvl/mxv
+	BYTE	PRIO    0
+	BYTE		PAN     c_v-64
+	BYTE	W02
+	BYTE		N03     Ds4   v072
+	BYTE	W07
+	BYTE		        As2   v096
+	BYTE	W09
+	BYTE		VOL     10*MidBoss_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v-64
+	BYTE		VOL     24*MidBoss_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE	W02
+	BYTE		N03     Ds4   v072
+	BYTE	W07
+	BYTE		        As2   v096
+	BYTE	W11
+// 005   ----------------------------------------
+	BYTE		        Ds4   v072
+	BYTE	W07
+	BYTE		        As2   v096
+	BYTE	W11
+	BYTE		        Ds4   v072
+	BYTE	W07
+	BYTE		        As2   v096
+	BYTE	W09
+	BYTE		VOL     31*MidBoss_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v-18
+	BYTE		VOL     39*MidBoss_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+0
+	BYTE	W02
+	BYTE		N03     Ds4   v072
+	BYTE	W07
+	BYTE		        As2   v096
+	BYTE	W11
+	BYTE		N05     Ds4   v072
+	BYTE	W07
+	BYTE		VOL     44*MidBoss_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v-10
+	BYTE		VOL     50*MidBoss_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v+0
+	BYTE		N05     As2   v096
+	BYTE	W14
+	BYTE		VOL     39*MidBoss_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+32
+	BYTE		VOL     24*MidBoss_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		N08     Ds2 
+	BYTE	W09
+	BYTE		N08   
+	BYTE	W09
+	BYTE		VOL     31*MidBoss_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v-18
+	BYTE		N08     Gn2 
+	BYTE	W03
+// 006   ----------------------------------------
+	BYTE	W06
+	BYTE		N08   
+	BYTE	W09
+	BYTE		VOL     24*MidBoss_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		VOL     10*MidBoss_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v-64
+	BYTE		N08     Ds2 
+	BYTE	W09
+	BYTE		N08   
+	BYTE	W09
+	BYTE		VOL     24*MidBoss_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v-64
+	BYTE		VOL     31*MidBoss_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v-18
+	BYTE		N08     Gn2 
+	BYTE	W09
+	BYTE		N08   
+	BYTE	W09
+	BYTE		VOL     24*MidBoss_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		VOL     10*MidBoss_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v-64
+	BYTE		N08     Ds2 
+	BYTE	W09
+	BYTE		N08   
+	BYTE	W09
+	BYTE		VOL     24*MidBoss_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v-64
+	BYTE		VOL     31*MidBoss_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v-18
+	BYTE		N08     Gn2 
+	BYTE	W09
+	BYTE		N08   
+	BYTE	W09
+	BYTE		VOL     24*MidBoss_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		VOL     10*MidBoss_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v-64
+	BYTE		N08     Ds2 
+	BYTE	W09
+// 007   ----------------------------------------
+	BYTE		N08   
+	BYTE	W09
+	BYTE		VOL     24*MidBoss_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v-64
+	BYTE		VOL     31*MidBoss_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v-18
+	BYTE		N08     Gn2 
+	BYTE	W09
+	BYTE		N08   
+	BYTE	W09
+	BYTE		VOL     24*MidBoss_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		N08     Gs2 
+	BYTE	W09
+	BYTE		N08   
+	BYTE	W09
+	BYTE		VOL     31*MidBoss_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v-18
+	BYTE		N08     Dn3 
+	BYTE	W09
+	BYTE		N08   
+	BYTE	W09
+	BYTE		VOL     24*MidBoss_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		VOL     10*MidBoss_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v-64
+	BYTE		N08     Gs2 
+	BYTE	W09
+	BYTE		N08   
+	BYTE	W09
+	BYTE		VOL     24*MidBoss_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v-64
+	BYTE		VOL     31*MidBoss_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v-18
+	BYTE		N08     Dn3 
+	BYTE	W09
+	BYTE		N08   
+	BYTE	W06
+// 008   ----------------------------------------
+	BYTE	W03
+	BYTE		VOL     24*MidBoss_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		N08     Gn3 
+	BYTE	W09
+	BYTE		        En3 
+	BYTE	W09
+	BYTE		        Cn3 
+	BYTE	W09
+	BYTE		VOL     31*MidBoss_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v-18
+	BYTE		N08     Gn2 
+	BYTE	W09
+	BYTE		N08   
+	BYTE	W09
+	BYTE		        Cn3 
+	BYTE	W09
+	BYTE		VOL     24*MidBoss_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		N08     En3 
+	BYTE	W09
+	BYTE		        Gn3 
+	BYTE	W10
+	BYTE		        Gs3 
+	BYTE	W09
+	BYTE		        Fn3 
+	BYTE	W09
+	BYTE		        Bn2 
+	BYTE	W02
+// 009   ----------------------------------------
+	BYTE	W07
+	BYTE		N06     Gn2 
+	BYTE	W07
+	BYTE		N05     Ds2 
+	BYTE	W06
+	BYTE		BEND    c_v+0
+	BYTE		N05     Cn2 
+	BYTE	W06
+	BYTE		N92     Gs1 
+	BYTE	W68
+	BYTE	W02
+// 010   ----------------------------------------
+	BYTE	W72
+	BYTE	W02
+	BYTE		BEND    c_v+0
+	BYTE		N01     An2 
+	BYTE	W01
+	BYTE		VOL     31*MidBoss_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v-18
+	BYTE		N01     Cn3 
+	BYTE	W03
+	BYTE	GoTo
+	 POIN2	MidBoss_6_B1
+MidBoss_6_B2:
+	BYTE	W18
+// 011   ----------------------------------------
+	BYTE	W32
+	BYTE		N01     An3   v096
+	BYTE	W01
+	BYTE		        Cn4 
+	BYTE	W09
+	BYTE	FINE
+
+//**************** Track 7 (Midi-Chn.8) ****************//
+
+MidBoss_7:
+	BYTE	KEYSH   MidBoss_key+0
+// 000   ----------------------------------------
+	BYTE		MODT    0
+	BYTE		LFOS    44
+	BYTE		BENDR   12
+	BYTE	W09
+	BYTE		VOICE   57
+	BYTE		VOL     59*MidBoss_mvl/mxv
+	BYTE	PRIO    39
+	BYTE		PAN     c_v+0
+	BYTE		VOL     59*MidBoss_mvl/mxv
+	BYTE		BEND    c_v+0
+	BYTE		N52     Bn3   v096
+	BYTE	W84
+	BYTE	W03
+// 001   ----------------------------------------
+	BYTE	W18
+	BYTE		VOL     44*MidBoss_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v+42
+	BYTE		VOL     24*MidBoss_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		N02     As2 
+	BYTE	W03
+	BYTE		VOL     31*MidBoss_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v-18
+	BYTE		VOL     39*MidBoss_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+0
+	BYTE		N48     Dn3 
+	BYTE	W03
+MidBoss_7_B1:
+	BYTE		VOL     39*MidBoss_mvl/mxv
+	BYTE	W48
+	BYTE		        31*MidBoss_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v+27
+	BYTE		VOL     24*MidBoss_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		N02     As3   v096
+	BYTE	W03
+	BYTE		VOL     31*MidBoss_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v-18
+	BYTE		VOL     39*MidBoss_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+0
+	BYTE		N48     Dn4 
+	BYTE	W21
+// 002   ----------------------------------------
+	BYTE	W30
+	BYTE		VOL     31*MidBoss_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v+27
+	BYTE		VOL     24*MidBoss_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		N02     Dn3 
+	BYTE	W03
+	BYTE		VOL     31*MidBoss_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v-18
+	BYTE		VOL     39*MidBoss_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+0
+	BYTE		N48     Fs3 
+	BYTE	W48
+	BYTE	W03
+	BYTE		VOL     31*MidBoss_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v+27
+	BYTE		VOL     24*MidBoss_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		N02     Dn4 
+	BYTE	W03
+	BYTE		VOL     31*MidBoss_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v-18
+	BYTE	W01
+	BYTE		VOL     39*MidBoss_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+0
+	BYTE		N36     Fs4 
+	BYTE	W08
+// 003   ----------------------------------------
+	BYTE	W44
+	BYTE	W02
+	BYTE		VOL     31*MidBoss_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v+27
+	BYTE		VOL     24*MidBoss_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE	W02
+	BYTE		N03     Fn4   v048
+	BYTE	W07
+	BYTE		VOL     31*MidBoss_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v-18
+	BYTE		VOL     39*MidBoss_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+0
+	BYTE	W01
+	BYTE		N06   
+	BYTE	W17
+	BYTE		VOL     31*MidBoss_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v+27
+	BYTE		VOL     24*MidBoss_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		N03     Bn2   v096
+	BYTE	W09
+	BYTE		N05   
+	BYTE	W01
+	BYTE		VOL     31*MidBoss_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v-18
+	BYTE		VOL     39*MidBoss_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+0
+	BYTE	W13
+// 004   ----------------------------------------
+	BYTE	W05
+	BYTE		N03     Fn4   v048
+	BYTE	W09
+	BYTE		N05   
+	BYTE	W17
+	BYTE		N03     Cs3   v096
+	BYTE	W01
+	BYTE		VOL     31*MidBoss_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v+27
+	BYTE		VOL     24*MidBoss_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE	W09
+	BYTE		VOL     31*MidBoss_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v-18
+	BYTE		VOL     39*MidBoss_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+0
+	BYTE		N05   
+	BYTE	W18
+	BYTE		VOL     24*MidBoss_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+63
+	BYTE		VOL     0*MidBoss_mvl/mxv
+	BYTE	PRIO    0
+	BYTE		PAN     c_v-64
+	BYTE		N03     Fn4   v048
+	BYTE	W09
+	BYTE		        Cs3   v096
+	BYTE	W09
+	BYTE		VOL     10*MidBoss_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v-64
+	BYTE		VOL     24*MidBoss_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		N03     Fn4   v048
+	BYTE	W09
+	BYTE		        Cs3   v096
+	BYTE	W10
+// 005   ----------------------------------------
+	BYTE		        Fn4   v048
+	BYTE	W08
+	BYTE		        Cs3   v096
+	BYTE	W09
+	BYTE		        Fn4   v048
+	BYTE	W09
+	BYTE		        Cs3   v096
+	BYTE	W09
+	BYTE		VOL     31*MidBoss_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v-18
+	BYTE		VOL     39*MidBoss_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+0
+	BYTE		N03     Fn4   v048
+	BYTE	W09
+	BYTE		        Cs3   v096
+	BYTE	W09
+	BYTE		N05     Fn4   v048
+	BYTE	W09
+	BYTE		VOL     44*MidBoss_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v-10
+	BYTE		VOL     50*MidBoss_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v+0
+	BYTE		N05     Cs3   v096
+	BYTE	W09
+	BYTE		VOL     39*MidBoss_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+32
+	BYTE		VOL     24*MidBoss_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		BEND    c_v+0
+	BYTE		N08     Dn2 
+	BYTE	W09
+	BYTE		VOL     31*MidBoss_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v-18
+	BYTE		N08   
+	BYTE	W09
+	BYTE		VOL     24*MidBoss_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		VOL     10*MidBoss_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v-64
+	BYTE		N08     Fs2 
+	BYTE	W07
+// 006   ----------------------------------------
+	BYTE	W02
+	BYTE		VOL     24*MidBoss_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		N08   
+	BYTE	W09
+	BYTE		VOL     31*MidBoss_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v-18
+	BYTE		N08     Dn2 
+	BYTE	W09
+	BYTE		N08   
+	BYTE	W09
+	BYTE		VOL     24*MidBoss_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		N08     Fs2 
+	BYTE	W09
+	BYTE		VOL     10*MidBoss_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v-64
+	BYTE		N08   
+	BYTE	W09
+	BYTE		VOL     24*MidBoss_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v-64
+	BYTE		VOL     31*MidBoss_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v-18
+	BYTE		N08     Dn2 
+	BYTE	W09
+	BYTE		N08   
+	BYTE	W09
+	BYTE		VOL     24*MidBoss_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		VOL     10*MidBoss_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v-64
+	BYTE		N08     Fs2 
+	BYTE	W09
+	BYTE		VOL     24*MidBoss_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		N08   
+	BYTE	W09
+	BYTE		VOL     31*MidBoss_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v-18
+	BYTE		N08     Dn2 
+	BYTE	W09
+	BYTE		N08   
+	BYTE	W04
+// 007   ----------------------------------------
+	BYTE	W05
+	BYTE		VOL     24*MidBoss_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		N08     Fs2 
+	BYTE	W09
+	BYTE		VOL     10*MidBoss_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v-64
+	BYTE		N08   
+	BYTE	W09
+	BYTE		VOL     24*MidBoss_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		BEND    c_v+0
+	BYTE		N08     Gn2 
+	BYTE	W09
+	BYTE		VOL     31*MidBoss_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v-18
+	BYTE		N08   
+	BYTE	W09
+	BYTE		VOL     24*MidBoss_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		VOL     10*MidBoss_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v-64
+	BYTE		N08     Cs3 
+	BYTE	W09
+	BYTE		VOL     24*MidBoss_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		N08   
+	BYTE	W09
+	BYTE		VOL     31*MidBoss_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v-18
+	BYTE		N08     Gn2 
+	BYTE	W09
+	BYTE		N08   
+	BYTE	W09
+	BYTE		VOL     24*MidBoss_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		N08     Cs3 
+	BYTE	W09
+	BYTE		VOL     10*MidBoss_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v-64
+	BYTE		N08   
+	BYTE	W10
+// 008   ----------------------------------------
+	BYTE		VOL     24*MidBoss_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		N08     Fs3 
+	BYTE	W08
+	BYTE		        Ds3 
+	BYTE	W10
+	BYTE		VOL     31*MidBoss_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v-18
+	BYTE		N08     Bn2 
+	BYTE	W09
+	BYTE		VOL     24*MidBoss_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		VOL     10*MidBoss_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v-64
+	BYTE		BEND    c_v+0
+	BYTE		N08     Fs2 
+	BYTE	W09
+	BYTE		VOL     24*MidBoss_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		N08   
+	BYTE	W09
+	BYTE		VOL     31*MidBoss_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v-18
+	BYTE		BEND    c_v+0
+	BYTE		N08     Bn2 
+	BYTE	W09
+	BYTE		VOL     24*MidBoss_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		VOL     10*MidBoss_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v-64
+	BYTE		N08     Ds3 
+	BYTE	W09
+	BYTE		        Fs3 
+	BYTE	W09
+	BYTE		VOL     24*MidBoss_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		N08     Bn3 
+	BYTE	W09
+	BYTE		        Gn3 
+	BYTE	W09
+	BYTE		VOL     10*MidBoss_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v-64
+	BYTE		N08     Dn3 
+	BYTE	W06
+// 009   ----------------------------------------
+	BYTE	W03
+	BYTE		        Gs2 
+	BYTE	W09
+	BYTE		N05     Fn2 
+	BYTE	W06
+	BYTE		VOL     24*MidBoss_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		BEND    c_v+0
+	BYTE		N05     Dn2 
+	BYTE	W06
+	BYTE		        Bn1 
+	BYTE	W06
+	BYTE		TIE     Gn1 
+	BYTE	W66
+// 010   ----------------------------------------
+	BYTE	W72
+	BYTE	W01
+	BYTE		EOT   
+	BYTE	W01
+	BYTE		BEND    c_v+0
+	BYTE		N02     As2 
+	BYTE	W04
+	BYTE	GoTo
+	 POIN2	MidBoss_7_B1
+MidBoss_7_B2:
+	BYTE		VOL     39*MidBoss_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v-32
+	BYTE		VOL     44*MidBoss_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v-10
+	BYTE		N48     Dn3   v096
+	BYTE	W18
+// 011   ----------------------------------------
+	BYTE	W32
+	BYTE	W01
+	BYTE		VOL     31*MidBoss_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v+27
+	BYTE		VOL     24*MidBoss_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		N02     As3 
+	BYTE	W03
+	BYTE		VOL     31*MidBoss_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v-18
+	BYTE		VOL     39*MidBoss_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+0
+	BYTE	W06
+	BYTE	FINE
+
+//******************************************************//
+	ALIGN 4
+
+MidBoss:
+	BYTE	7	// NumTrks
+	BYTE	0	// NumBlks
+	BYTE	MidBoss_pri	// Priority
+	BYTE	MidBoss_rev	// Reverb.
+
+	POIN2	MidBoss_grp
+
+	POIN2	MidBoss_1
+	POIN2	MidBoss_2
+	POIN2	MidBoss_3
+	POIN2	MidBoss_4
+	POIN2	MidBoss_5
+	POIN2	MidBoss_6
+	POIN2	MidBoss_7
+
+	

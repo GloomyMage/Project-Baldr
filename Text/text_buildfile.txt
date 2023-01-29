@@ -928,6 +928,8 @@ a skill when used.[X]
 
 #include "ClassDescs.txt"
 
+#include "DeathQuotes.txt"
+
 # 0x8D1
 Welcome to the arena.[A][NL]
 I see you're back.[A][2NL]

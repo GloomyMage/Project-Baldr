@@ -37,7 +37,46 @@
 SongTable(0x9,FE04Field,1)
 #include "songs/FE4Prologue.event"
 }
-
+{
+SongTable(0x19,FE04Attack,0)
+#include "songs/Attack.event"
+}
+{
+SongTable(0x1A,FE04Defend,0)
+#include "songs/Defense.event"
+}
+{
+SongTable(0x13,VerdanePhase,1)
+#include "songs/Verdane.event"
+}
+{
+SongTable(0x26,Crisis,1)
+#include "songs/Crisis.event"
+}
+{
+SongTable(0x2D,EmperorArvis,1)
+#include "songs/ThemeArvis.event"
+}
+{
+SongTable(0x1B,MidBoss,0)
+#include "songs/MidBoss.event"
+}
+{
+SongTable(0x31,Victory1FE4,1)
+#include "songs/Victory1.event"
+}
+{
+SongTable(0x32,FE5MinorV,1)
+#include "songs/VictoryMinorFE05.event"
+}
+{
+SongTable(0x25,Enemy1,1)
+#include "songs/EnemyMessage1.event"
+}
+{
+SongTable(0x10,VictoryNear,1)
+#include "songs/NearVictory.event"
+}
 //installation of ipatix's sound mixer. Essential if you want to use GS synths; also makes most music sound better by reducing background noise.
 
 PUSH

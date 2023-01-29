@@ -1,0 +1,50 @@
+##SigurdDeath
+[OpenMidRight][LoadSigurd]
+Urgh... Everyone...[N]
+I'm sorry...[A][X]
+
+##AlecDeath
+[OpenMidRight][LoadAlec]
+Gah... Got unlucky...[A][N]
+Lord Sigurd... good luck[N]
+out there...[A][X]
+
+##NoishDeath
+[OpenMidRight][LoadNoish]
+Lord Sigurd... My apologies...[N]
+Take care of yourself[A][X]
+
+##ArdenDeath
+[OpenMidRight][LoadArden]
+Lord Sigurd...My life was[N]
+yours from day one.[A][N]
+I regret nothing...[A][X]
+
+##AzelDeath
+[OpenMidRight][LoadAzel]
+Lord Sigurd...[A][N]
+The rest... is up to[N]
+you...[A][X]
+
+##LexDeath
+[OpenMidRight][LoadLex]
+I...I'm so pathetic, huh?[N]
+Sigurd, please...[A][N]
+just let me go in peace...[A][X]
+
+##QuanDeath
+[OpenMidRight][LoadQuan]
+oops[A][X]
+
+##EthlynDeath
+[OpenMidRight][LoadEthlyn]
+oops[A][X]
+
+##FinnDeath1
+[OpenMidRight][LoadFinn]
+oops[A][X]
+
+##MidirDeath
+[OpenMidRight][LoadMidir]
+Urgh...[N]
+Milady, I...[A][X]

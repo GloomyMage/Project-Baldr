@@ -7,5 +7,5 @@ POIN DefendingIDList
 
 ALIGN 4
 DefendingIDList:
-BYTE StrongRiposteID PatienceID PursuitID ChivalryID PragmaticID
+BYTE StrongRiposteID PatienceID 255 ChivalryID PragmaticID
 ALIGN 4
