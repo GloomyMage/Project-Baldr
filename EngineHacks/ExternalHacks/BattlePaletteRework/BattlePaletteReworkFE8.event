@@ -238,7 +238,7 @@ BYTE $00 $00 $00 $00 $00 $00 $00 $00
 ALIGN 4
 
 WarriorPaletteList:
-PaletteAssociationEntry(Garcia, $63)
+PaletteAssociationEntry(Munnir, $23)
 PaletteAssociationEntry(Ross, $64)
 PaletteAssociationEntry(Binks, $65)
 PaletteAssociationEntry(Gheb, $6A)

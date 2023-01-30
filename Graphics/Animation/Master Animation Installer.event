@@ -135,6 +135,10 @@
 #include "HalberdierM(TBA)\Unarmed Installer.event"
 }
 {
+#include "Quan\Lance Installer.event"
+#include "Quan\Unarmed Installer.event"
+}
+{
 #include "DarkM(Temp)\Magic Installer.event"
 }
 {
@@ -202,7 +206,13 @@ SigurdAnims:
 SwordAnim(0x3)
 LanceAnim(0xC2)
 UnarmedAnim(0x4)
-EndAnim  
+EndAnim 
+
+ALIGN 4
+QuanAnims:
+LanceAnim(0xB1)
+UnarmedAnim(0xB2)
+EndAnim 
 
 ALIGN 4
 JamkeProAnims:

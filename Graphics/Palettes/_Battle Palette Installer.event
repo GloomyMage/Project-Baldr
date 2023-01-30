@@ -31,7 +31,9 @@ FILL 0xFF * 0x07 // Allocate 0xFF entries for the CharClassTable.
 #define SetPaletteFuller(Character,UnpromotedPalette,UnpromotedClass,UnpromotedPalette2,UnpromotedClass2,FirstPromotionPalette,FirstPromotionClass,SecondPromotionPalette,SecondPromotionClass,ThirdPromotionPalette,ThirdPromotionClass,FourthPromotionPalette,FourthPromotionClass) "setCharPalette(Character,0x00,UnpromotedPalette,UnpromotedPalette2,FirstPromotionPalette,SecondPromotionPalette,ThirdPromotionPalette,FourthPromotionPalette) ; setCharClass(Character,0x00,UnpromotedClass,UnpromotedClass2,FirstPromotionClass,SecondPromotionClass,ThirdPromotionClass,FourthPromotionClass)"
 
 #define DiMaggioPaletteID 0x20
+#define MunnirPaletteID 0x23
 
+setPalette(MunnirPaletteID,MunnirPalette)
 setPalette(DiMaggioPaletteID,DiMaggioPalette)
 
 SetPaletteFull(DiMaggio,DiMaggioPaletteID,Brigand,0x0,0x0,0x0,0x0)
@@ -39,6 +41,10 @@ SetPaletteFull(DiMaggio,DiMaggioPaletteID,Brigand,0x0,0x0,0x0,0x0)
 ALIGN 4
 DiMaggioPalette:
 #incbin "DiMaggio.dmp"
+
+ALIGN 4
+MunnirPalette:
+#incbin "Munnir.dmp"
 
 PUSH
 ORG $59BFC
