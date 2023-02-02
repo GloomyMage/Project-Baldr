@@ -1,0 +1,15 @@
+Flags
+01:Dimaggio Battle
+3:Seize
+8:AlecEthlyn
+9:ArvisSpawn
+A:Evans Spawning
+B:Cliff Brigands
+C:Village1
+D:Village2
+E:Village3
+F:Village4
+10:Village5
+11:Gerrard battle
+12:SigurdEthlyn
+13:Seize Jungby

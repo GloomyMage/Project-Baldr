@@ -65,6 +65,7 @@ class FeMapChange:
         self.y      = 0
         self.width  = 0
         self.height = 0
+        self.flagID = 0
 
         self.tiles  = []
         self.name   = ""
@@ -93,6 +94,9 @@ class FeMapChange:
 
                 except ValueError:
                     result.number = int(p.value)
+            
+            elif p.name.upper() == 'FLAGID':
+                result.flagID = p.value
 
         return result
 
@@ -303,12 +307,13 @@ def process(tmxFilename, eventFilename, dmpFilename, boolAddHeader):
             f.write("\nALIGN 4\nMapChangesData:\n")
 
             for mapChange in feMap.mapChanges:
-                f.write('  TileMap({}, {}, {}, {}, {}, {})\n'.format(
+                f.write('  TileMap({}, {}, {}, {}, {}, {}, {})\n'.format(
                     mapChange.number,
                     mapChange.x,
                     mapChange.y,
                     mapChange.width,
                     mapChange.height,
+                    mapChange.flagID,
                     mapChange.name))
 
             f.write('  TileMapEnd\n')

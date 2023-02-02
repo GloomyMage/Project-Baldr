@@ -66,7 +66,7 @@ LexPortrait:
 #incbin "Lex_frames.dmp"
 #incbin "Lex_palette.dmp"
 #incbin "Lex_minimug.dmp"
-setMugEntry(0x9,LexPortrait,2,4,2,2)
+setMugEntry(0x9,LexPortrait,2,5,3,3)
 
 ALIGN 4
 Quan_Mug:
@@ -263,6 +263,14 @@ CallistaPortrait:
 #incbin "Callista_palette.dmp"
 #incbin "Callista_minimug.dmp"
 setMugEntry(0xFF,CallistaPortrait,4,6,4,4)
+
+ALIGN 4
+ClaudPortrait:
+#incbin "Claud_mug.dmp"
+#incbin "Claud_frames.dmp"
+#incbin "Claud_palette.dmp"
+#incbin "Claud_minimug.dmp"
+setMugEntry(0x22,ClaudPortrait,2,5,3,3)
 
 ALIGN 4
 TailtiuPortrait:

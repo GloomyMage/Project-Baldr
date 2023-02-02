@@ -1417,6 +1417,7 @@
    <property name="Width" value ="1"/>
    <property name="X" value ="18"/>
    <property name="Y" value ="7"/>
+   <property name="FlagID" value ="0x14"/>
   </properties>
   <data>
   <tile gid="0"/>
@@ -12641,6 +12642,7 @@
    <property name="Width" value ="1"/>
    <property name="X" value ="24"/>
    <property name="Y" value ="1"/>
+   <property name="FlagID" value ="0x16"/>
   </properties>
   <data>
   <tile gid="0"/>
@@ -23865,6 +23867,7 @@
    <property name="Width" value ="1"/>
    <property name="X" value ="24"/>
    <property name="Y" value ="21"/>
+   <property name="FlagID" value ="0x15"/>
   </properties>
   <data>
   <tile gid="0"/>
@@ -35089,6 +35092,7 @@
    <property name="Width" value ="1"/>
    <property name="X" value ="35"/>
    <property name="Y" value ="1"/>
+   <property name="FlagID" value ="0x17"/>
   </properties>
   <data>
   <tile gid="0"/>
@@ -46313,6 +46317,7 @@
    <property name="Width" value ="1"/>
    <property name="X" value ="45"/>
    <property name="Y" value ="1"/>
+   <property name="FlagID" value ="0x18"/>
   </properties>
   <data>
   <tile gid="0"/>
