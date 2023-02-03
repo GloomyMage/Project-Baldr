@@ -1,2552 +1,10697 @@
-        .include "MPlayDef.s"
+	.include "MPlayDef.s"
 
-        .equ    crisis_1_grp, voicegroup000
-        .equ    crisis_1_pri, 0
-        .equ    crisis_1_rev, 0
-        .equ    crisis_1_key, 0
+	.equ	feb20230202231013_grp, voicegroup000
+	.equ	feb20230202231013_pri, 0
+	.equ	feb20230202231013_rev, 0
+	.equ	feb20230202231013_mvl, 127
+	.equ	feb20230202231013_key, 0
+	.equ	feb20230202231013_tbs, 1
+	.equ	feb20230202231013_exg, 0
+	.equ	feb20230202231013_cmp, 1
 
-        .section .rodata
-        .global crisis_1
-        .align  2
+	.section .rodata
+	.global	feb20230202231013
+	.align	2
 
-@****************** Track 0 (Midi-Chn.0) ******************@
+@**************** Track 1 (Midi-Chn.3) ****************@
 
-crisis_1_0:
-        .byte   KEYSH , crisis_1_key+0
+feb20230202231013_1:
+	.byte	KEYSH , feb20230202231013_key+0
 @ 000   ----------------------------------------
-        .byte   TEMPO , 152/2
-crisis_1_0_LOOP:
-        .byte           VOICE , 33
-        .byte           VOL   , 127
-        .byte           PAN   , c_v+19
-        .byte           N06   , Gn2 , v089
-        .byte   W12
-        .byte                   Gn2
-        .byte   W12
-        .byte                   Gn2
-        .byte   W12
-        .byte                   Gn2
-        .byte   W12
-        .byte                   Gn2
-        .byte   W12
-        .byte                   Gn2
-        .byte   W12
+	.byte	TEMPO , 125*feb20230202231013_tbs/2
+	.byte		VOICE , 32
+	.byte		MODT  , 0
+	.byte		LFOS  , 44
+	.byte		MODT  , 0
+	.byte		LFOS  , 44
+	.byte		BENDR , 12
+	.byte		VOL   , 31*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v-7
+	.byte	W05
+	.byte		VOL   , 27*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v+0
+	.byte		VOL   , 27*feb20230202231013_mvl/mxv
+	.byte		BEND  , c_v+0
+	.byte		N08   , Gn0 , v127
+	.byte	W09
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W02
 @ 001   ----------------------------------------
-crisis_1_0_1:
-        .byte           N06   , Gn2 , v089
-        .byte   W12
-        .byte                   Gn2
-        .byte   W12
-        .byte                   Gn2
-        .byte   W12
-        .byte                   Gn2
-        .byte   W12
-        .byte                   Gn2
-        .byte   W12
-        .byte                   Gn2
-        .byte   W12
-        .byte   PEND
+	.byte	W07
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W09
 @ 002   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_0_1
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v-16
+	.byte		VOL   , 42*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v+0
+	.byte		N08   , Ds0 
+	.byte	W10
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+16
+	.byte		VOL   , 27*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v-16
+	.byte		VOL   , 42*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W06
 @ 003   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_0_1
+	.byte	W03
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+16
+	.byte		VOL   , 27*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v-16
+	.byte		VOL   , 42*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+16
+	.byte		VOL   , 27*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v-16
+	.byte		VOL   , 42*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+16
+	.byte		VOL   , 27*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v-16
+	.byte		VOL   , 42*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+16
+	.byte		VOL   , 27*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W03
 @ 004   ----------------------------------------
-crisis_1_0_4:
-        .byte           N06   , En2 , v089
-        .byte   W12
-        .byte                   En2
-        .byte   W12
-        .byte                   En2
-        .byte   W12
-        .byte                   En2
-        .byte   W12
-        .byte                   En2
-        .byte   W12
-        .byte                   En2
-        .byte   W12
-        .byte   PEND
+	.byte	W06
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v-16
+	.byte		VOL   , 42*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+16
+	.byte		VOL   , 27*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v-16
+	.byte		VOL   , 42*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+16
+	.byte		VOL   , 27*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v-16
+	.byte		VOL   , 42*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+16
+	.byte		VOL   , 27*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v+0
+	.byte		N09   
+	.byte	W09
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v-16
+	.byte		VOL   , 42*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v+0
+	.byte	W01
 @ 005   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_0_4
+	.byte		N08   , Cn0 
+	.byte	W09
+	.byte		VOL   , 37*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v+8
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 37*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v-5
+	.byte		VOL   , 42*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 37*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v+8
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 37*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v-5
+	.byte		VOL   , 42*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 37*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v+8
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W07
 @ 006   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_0_4
+	.byte	W02
+	.byte		VOL   , 37*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v-5
+	.byte		VOL   , 42*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v+0
+	.byte	W01
+	.byte		N08   
+	.byte	W09
+	.byte		VOL   , 37*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v+8
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 37*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v-5
+	.byte		VOL   , 42*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 37*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v+8
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 37*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v-5
+	.byte		VOL   , 42*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 37*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v+8
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 37*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v-5
+	.byte		VOL   , 42*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 37*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v+8
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W04
 @ 007   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_0_4
+	.byte	W05
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 37*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v-5
+	.byte		VOL   , 42*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 37*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v+8
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 31*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v+11
+	.byte		VOL   , 27*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v+0
+	.byte		N08   , Dn0 
+	.byte	W10
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W01
 @ 008   ----------------------------------------
-crisis_1_0_8:
-        .byte           N06   , Cn2 , v089
-        .byte   W12
-        .byte                   Cn2
-        .byte   W12
-        .byte                   Cn2
-        .byte   W12
-        .byte                   Cn2
-        .byte   W12
-        .byte                   Cn2
-        .byte   W12
-        .byte                   Cn2
-        .byte   W12
-        .byte   PEND
+feb20230202231013_1_008:
+	.byte	W08
+	.byte		N08   , Dn0 , v127
+	.byte	W10
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W08
+	.byte	PEND
 @ 009   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_0_8
+	.byte	W02
+	.byte		N08   
+	.byte	W09
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W10
+	.byte		        Gn0 
+	.byte	W05
 @ 010   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_0_8
+	.byte	W05
+	.byte		N08   
+	.byte	W09
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W02
 @ 011   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_0_8
+	.byte	W08
+	.byte		N08   
+	.byte	W09
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W09
 @ 012   ----------------------------------------
-crisis_1_0_12:
-        .byte           N06   , Ds2 , v089
-        .byte   W12
-        .byte                   Ds2
-        .byte   W12
-        .byte                   Ds2
-        .byte   W12
-        .byte                   Ds2
-        .byte   W12
-        .byte                   Ds2
-        .byte   W12
-        .byte                   Ds2
-        .byte   W12
-        .byte   PEND
+	.byte	W01
+	.byte		N08   
+	.byte	W09
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v-16
+	.byte		VOL   , 42*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v+0
+	.byte		N08   , Ds0 
+	.byte	W10
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+16
+	.byte		VOL   , 27*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v-16
+	.byte		VOL   , 42*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+16
+	.byte		VOL   , 27*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W06
 @ 013   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_0_12
+	.byte	W03
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v-16
+	.byte		VOL   , 42*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v+0
+	.byte	W01
+	.byte		N08   
+	.byte	W09
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+16
+	.byte		VOL   , 27*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v-16
+	.byte		VOL   , 42*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+16
+	.byte		VOL   , 27*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v-16
+	.byte		VOL   , 42*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+16
+	.byte		VOL   , 27*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W03
 @ 014   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_0_12
+	.byte	W06
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v-16
+	.byte		VOL   , 42*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v+0
+	.byte	W01
+	.byte		N08   
+	.byte	W09
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+16
+	.byte		VOL   , 27*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v-16
+	.byte		VOL   , 42*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+16
+	.byte		VOL   , 27*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v-16
+	.byte		VOL   , 42*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+16
+	.byte		VOL   , 27*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v-16
+	.byte		VOL   , 42*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v+0
+	.byte		N08   , Cn0 
+	.byte	W09
+	.byte		VOL   , 37*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v+8
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W01
 @ 015   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_0_12
+	.byte	W09
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 37*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v-5
+	.byte		VOL   , 42*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 37*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v+8
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 37*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v-5
+	.byte		VOL   , 42*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 37*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v+8
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 37*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v-5
+	.byte		VOL   , 42*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W07
 @ 016   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_0_1
+	.byte	W02
+	.byte		VOL   , 37*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v+8
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 37*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v-5
+	.byte		VOL   , 42*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 37*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v+8
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 37*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v-5
+	.byte		VOL   , 42*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 37*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v+8
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 37*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v-5
+	.byte		VOL   , 42*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 37*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v+8
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W04
 @ 017   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_0_1
+	.byte	W05
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 37*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v-5
+	.byte		VOL   , 42*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 37*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v+8
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 31*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v+11
+	.byte		VOL   , 27*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v+0
+	.byte		N08   , Dn0 
+	.byte	W10
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W09
+	.byte		N08   
+	.byte	W02
 @ 018   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_0_1
+	.byte	PATT
+	 .word	feb20230202231013_1_008
 @ 019   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_0_1
+	.byte	W02
+	.byte		N08   , Dn0 , v127
+	.byte	W09
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 31*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v-7
+	.byte		VOL   , 27*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v-21
+	.byte		N08   , Gn0 
+	.byte	W10
+	.byte		N08   
+	.byte	W05
 @ 020   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_0_4
+	.byte	W05
+	.byte		N08   
+	.byte	W09
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W10
+	.byte		N09   
+	.byte	W10
+	.byte		N09   
+	.byte	W10
+	.byte		N09   
+	.byte	W11
+	.byte		N09   
+	.byte	W01
 @ 021   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_0_4
+	.byte	W06
+feb20230202231013_1_B1:
+	.byte		PAN   , c_v-21
+	.byte		VOL   , 27*feb20230202231013_mvl/mxv
+	.byte		PAN   , c_v-21
+	.byte		VOL   , 27*feb20230202231013_mvl/mxv
+	.byte	W03
+	.byte		        31*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v-26
+	.byte		N56   , Fs0 , v127
+	.byte	W68
+	.byte	W01
+	.byte		VOL   , 18*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 32
+	.byte		PAN   , c_v+0
+	.byte		VOL   , 12*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 109
+	.byte		PAN   , c_v-18
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 18*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 32
+	.byte		PAN   , c_v-32
+	.byte		N08   
+	.byte	W08
 @ 022   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_0_4
+	.byte	W02
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 22*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 84
+	.byte		PAN   , c_v-37
+	.byte		VOL   , 27*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v-21
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 31*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v-26
+	.byte		N56   , Fn0 
+	.byte	W64
 @ 023   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_0_4
+	.byte	W05
+	.byte		VOL   , 18*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 32
+	.byte		PAN   , c_v+0
+	.byte		VOL   , 12*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 109
+	.byte		PAN   , c_v-18
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 18*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 32
+	.byte		PAN   , c_v-32
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W09
+	.byte		VOL   , 22*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 84
+	.byte		PAN   , c_v-37
+	.byte		VOL   , 27*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v-21
+	.byte	W01
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W09
+	.byte		VOL   , 31*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v-26
+	.byte		N09   , En0 
+	.byte	W10
+	.byte		VOL   , 27*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v-21
+	.byte	W01
+	.byte		N09   
+	.byte	W10
+	.byte		N09   
+	.byte	W10
+	.byte		N09   
+	.byte	W10
+	.byte		N09   
+	.byte	W01
 @ 024   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_0_8
+	.byte	W09
+	.byte		N09   
+	.byte	W11
+	.byte		VOL   , 31*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v-26
+	.byte		N09   
+	.byte	W10
+	.byte		VOL   , 27*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v-21
+	.byte		N09   
+	.byte	W10
+	.byte		N09   
+	.byte	W10
+	.byte		N09   
+	.byte	W11
+	.byte		N09   
+	.byte	W10
+	.byte		N09   
+	.byte	W11
+	.byte		VOL   , 22*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 84
+	.byte		PAN   , c_v-10
+	.byte		VOL   , 18*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 32
+	.byte		PAN   , c_v-32
+	.byte		N08   , Dn0 
+	.byte	W09
+	.byte		N08   
+	.byte	W05
 @ 025   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_0_8
+	.byte	W05
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 12*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 109
+	.byte		PAN   , c_v-18
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 22*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 84
+	.byte		PAN   , c_v-37
+	.byte		VOL   , 27*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v-21
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 22*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 84
+	.byte		PAN   , c_v-10
+	.byte		VOL   , 18*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 32
+	.byte		PAN   , c_v-32
+	.byte		N08   
+	.byte	W09
+	.byte		VOL   , 22*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 84
+	.byte		PAN   , c_v-37
+	.byte		VOL   , 27*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v-21
+	.byte	W01
+	.byte		N08   
+	.byte	W09
+	.byte		VOL   , 31*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v-26
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W02
 @ 026   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_0_8
+	.byte	W08
+	.byte		N08   
+	.byte	W05
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v-16
+	.byte	W03
+	.byte		VOL   , 37*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v-20
+	.byte	W02
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v-16
+	.byte		VOL   , 31*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v-26
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v-32
+	.byte		VOL   , 37*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v-20
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v-16
+	.byte		VOL   , 31*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v-26
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 27*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v-21
+	.byte		N08   
+	.byte	W09
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v-32
+	.byte		VOL   , 37*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v-20
+	.byte	W01
+	.byte		N08   
+	.byte	W09
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v-16
+	.byte		VOL   , 31*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v-26
+	.byte		N08   
+	.byte	W09
 @ 027   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_0_8
+	.byte	W01
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v-32
+	.byte		VOL   , 37*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v-20
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 31*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v-7
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+0
+	.byte		N08   , Gn0 
+	.byte	W10
+	.byte		VOL   , 31*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v+11
+	.byte		VOL   , 27*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W09
+	.byte		VOL   , 31*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v-7
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+0
+	.byte	W01
+	.byte		N08   
+	.byte	W09
+	.byte		VOL   , 31*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v+11
+	.byte		VOL   , 27*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 31*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v-7
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W06
 @ 028   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_0_12
+	.byte	W04
+	.byte		VOL   , 31*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v+11
+	.byte		VOL   , 27*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 31*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v-7
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 31*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v+11
+	.byte		VOL   , 27*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 31*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v-7
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 31*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v+11
+	.byte		VOL   , 27*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W09
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 31*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v-7
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W03
 @ 029   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_0_12
+	.byte	W07
+	.byte		VOL   , 31*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v+11
+	.byte		VOL   , 27*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 31*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v-7
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 31*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v+11
+	.byte		VOL   , 27*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 31*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v-7
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 31*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v+11
+	.byte		VOL   , 27*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W09
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v-16
+	.byte		VOL   , 42*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v+0
+	.byte		N08   , Ds0 
+	.byte	W10
+	.byte		VOL   , 37*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v+8
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W10
 @ 030   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_0_12
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 37*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v-5
+	.byte		VOL   , 42*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 37*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v+8
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 37*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v-5
+	.byte		VOL   , 42*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 37*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v+8
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W09
+	.byte		VOL   , 37*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v-5
+	.byte		VOL   , 42*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 37*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v+8
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W07
 @ 031   ----------------------------------------
-crisis_1_0_31:
-        .byte           N06   , Ds2 , v089
-        .byte   W12
-        .byte                   Ds2
-        .byte   W12
-        .byte                   Ds2
-        .byte   W12
-        .byte                   Ds2
-        .byte   W12
-        .byte                   Ds2
-        .byte   W12
-        .byte           N12
-        .byte   W12
-        .byte   PEND
+	.byte	W03
+	.byte		VOL   , 37*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v-5
+	.byte		VOL   , 42*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 37*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v+8
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 37*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v-5
+	.byte		VOL   , 42*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 37*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v+8
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 37*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v-5
+	.byte		VOL   , 42*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W09
+	.byte		VOL   , 37*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v+8
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W04
 @ 032   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_0_1
+	.byte	W06
+	.byte		VOL   , 37*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v-5
+	.byte		VOL   , 42*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 37*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v+8
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 42*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v-12
+	.byte		VOL   , 49*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 74
+	.byte		PAN   , c_v+0
+	.byte		N08   , Cn0 
+	.byte	W10
+	.byte		VOL   , 42*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v+12
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 42*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v-12
+	.byte		VOL   , 49*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 74
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W09
+	.byte		VOL   , 42*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v+12
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 42*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v-12
+	.byte		VOL   , 49*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 74
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 42*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v+12
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W01
 @ 033   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_0_1
+	.byte	W09
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 42*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v-12
+	.byte		VOL   , 49*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 74
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 42*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v+12
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 42*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v-12
+	.byte		VOL   , 49*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 74
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 42*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v+12
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W09
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 42*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v-12
+	.byte		VOL   , 49*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 74
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W08
 @ 034   ----------------------------------------
-        .byte           N72   , Fs2 , v127
-        .byte   W72
+	.byte	W02
+	.byte		VOL   , 42*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v+12
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 42*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v-12
+	.byte		VOL   , 49*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 74
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 42*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v+12
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 42*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v-12
+	.byte		VOL   , 49*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 74
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 42*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v+12
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+0
+	.byte		N09   
+	.byte	W10
+	.byte		N08   , Dn0 
+	.byte	W09
+	.byte		VOL   , 31*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v+11
+	.byte		VOL   , 27*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W05
 @ 035   ----------------------------------------
-        .byte           N06   , Fs2 , v076
-        .byte   W12
-        .byte                   Fs2
-        .byte   W12
-        .byte                   Fs2
-        .byte   W12
-        .byte                   Fs2
-        .byte   W12
-        .byte                   Fs2
-        .byte   W12
-        .byte                   Fs2
-        .byte   W12
+	.byte	W05
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 31*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v-7
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 31*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v+11
+	.byte		VOL   , 27*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 31*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v-7
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 31*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v+11
+	.byte		VOL   , 27*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W09
+	.byte		VOL   , 31*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v-7
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 31*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v+11
+	.byte		VOL   , 27*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 31*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v-7
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W02
 @ 036   ----------------------------------------
-        .byte           N72   , Fn2 , v127
-        .byte   W72
+	.byte	W08
+	.byte		VOL   , 31*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v+11
+	.byte		VOL   , 27*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 31*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v-7
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 31*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v+11
+	.byte		VOL   , 27*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 31*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v-7
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W09
+	.byte		VOL   , 31*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v+11
+	.byte		VOL   , 27*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v+0
+	.byte	W01
+	.byte		N08   
+	.byte	W09
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W09
 @ 037   ----------------------------------------
-crisis_1_0_37:
-        .byte   W12
-        .byte           N06   , Fn2 , v089
-        .byte   W12
-        .byte                   Fn2
-        .byte   W12
-        .byte                   Fn2
-        .byte   W12
-        .byte                   Fn2
-        .byte   W12
-        .byte                   Fn2
-        .byte   W12
-        .byte   PEND
+	.byte	W01
+	.byte		VOL   , 31*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v-7
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 31*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v+11
+	.byte		VOL   , 27*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 31*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v-7
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+0
+	.byte		N08   , Gn0 
+	.byte	W10
+	.byte		VOL   , 31*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v+11
+	.byte		VOL   , 27*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 31*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v-7
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W09
+	.byte		VOL   , 31*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v+11
+	.byte		VOL   , 27*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v+0
+	.byte	W01
+	.byte		N08   
+	.byte	W09
+	.byte		VOL   , 31*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v-7
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+0
+	.byte	W01
+	.byte		N08   
+	.byte	W09
+	.byte		VOL   , 31*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v+11
+	.byte		VOL   , 27*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W06
 @ 038   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_0_4
+	.byte	W04
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 31*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v-7
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 31*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v+11
+	.byte		VOL   , 27*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 31*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v-7
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 31*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v+11
+	.byte		VOL   , 27*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W09
+	.byte		VOL   , 31*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v-7
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 31*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v+11
+	.byte		VOL   , 27*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W03
 @ 039   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_0_4
+	.byte	W07
+	.byte		VOL   , 31*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v-7
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 31*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v+11
+	.byte		VOL   , 27*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 31*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v-7
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 31*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v+11
+	.byte		VOL   , 27*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v-16
+	.byte		VOL   , 42*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v+0
+	.byte		N08   , Ds0 
+	.byte	W09
+	.byte		VOL   , 37*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v+8
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W10
 @ 040   ----------------------------------------
-crisis_1_0_40:
-        .byte           N06   , Dn2 , v089
-        .byte   W12
-        .byte                   Dn2
-        .byte   W12
-        .byte                   Dn2
-        .byte   W12
-        .byte                   Dn2
-        .byte   W12
-        .byte                   Dn2
-        .byte   W12
-        .byte                   Dn2
-        .byte   W12
-        .byte   PEND
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 37*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v-5
+	.byte		VOL   , 42*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 37*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v+8
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 37*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v-5
+	.byte		VOL   , 42*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 37*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v+8
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 37*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v-5
+	.byte		VOL   , 42*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W09
+	.byte		VOL   , 37*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v+8
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 37*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v-5
+	.byte		VOL   , 42*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W07
 @ 041   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_0_40
+	.byte	W03
+	.byte		VOL   , 37*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v+8
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 37*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v-5
+	.byte		VOL   , 42*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 37*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v+8
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 37*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v-5
+	.byte		VOL   , 42*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W09
+	.byte		VOL   , 37*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v+8
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+0
+	.byte	W01
+	.byte		N08   
+	.byte	W09
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 37*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v-5
+	.byte		VOL   , 42*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W04
 @ 042   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_0_40
+	.byte	W06
+	.byte		VOL   , 37*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v+8
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 42*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v-12
+	.byte		VOL   , 49*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 74
+	.byte		PAN   , c_v+0
+	.byte		N08   , Cn0 
+	.byte	W10
+	.byte		VOL   , 42*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v+12
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 42*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v-12
+	.byte		VOL   , 49*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 74
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W09
+	.byte		VOL   , 42*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v+12
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 42*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v-12
+	.byte		VOL   , 49*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 74
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 42*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v+12
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W01
 @ 043   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_0_40
+	.byte	W09
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 42*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v-12
+	.byte		VOL   , 49*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 74
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 42*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v+12
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 42*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v-12
+	.byte		VOL   , 49*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 74
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 42*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v+12
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W09
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 42*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v-12
+	.byte		VOL   , 49*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 74
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 42*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v+12
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W08
 @ 044   ----------------------------------------
-        .byte           N06   , Gn2 , v089
-        .byte   GOTO
-         .word  crisis_1_0_LOOP
-        .byte   W12
-        .byte                   Gn2
-        .byte   W12
-        .byte                   Gn2
-        .byte   W12
-        .byte                   Gn2
-        .byte   W12
-        .byte                   Gn2
-        .byte   W12
-        .byte                   Gn2
-        .byte   W12
+	.byte	W02
+	.byte		VOL   , 42*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v-12
+	.byte		VOL   , 49*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 74
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 42*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v+12
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W10
+	.byte		N09   
+	.byte	W10
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 42*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v-12
+	.byte		VOL   , 49*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 74
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 42*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v+12
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W10
+	.byte		        Dn0 
+	.byte	W09
+	.byte		VOL   , 31*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v+11
+	.byte		VOL   , 27*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W05
 @ 045   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_0_1
+	.byte	W05
+	.byte		VOL   , 31*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v-7
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 31*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v+11
+	.byte		VOL   , 27*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 31*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v-7
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 31*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v+11
+	.byte		VOL   , 27*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W09
+	.byte		VOL   , 31*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v-7
+	.byte	W01
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W09
+	.byte		VOL   , 31*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v+11
+	.byte		VOL   , 27*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 31*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v-7
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 31*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v+11
+	.byte		VOL   , 27*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W02
 @ 046   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_0_1
+	.byte	W08
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 31*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v-7
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 31*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v+11
+	.byte		VOL   , 27*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 31*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v-7
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 31*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v+11
+	.byte		VOL   , 27*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W09
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 31*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v-7
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W09
 @ 047   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_0_1
+	.byte	W01
+	.byte		VOL   , 31*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v+11
+	.byte		VOL   , 27*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 31*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v-7
+	.byte		VOL   , 27*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v-21
+	.byte	W01
+	.byte		N08   , Gn0 
+	.byte	W09
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 31*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v-26
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 27*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v-21
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W09
+	.byte		VOL   , 31*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v-26
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 27*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v-21
+	.byte		N09   
+	.byte	W06
 @ 048   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_0_4
-@ 049   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_0_4
-@ 050   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_0_4
-@ 051   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_0_4
-@ 052   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_0_8
-@ 053   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_0_8
-@ 054   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_0_8
-@ 055   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_0_8
-@ 056   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_0_12
-@ 057   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_0_12
-@ 058   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_0_12
-@ 059   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_0_12
-@ 060   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_0_1
-@ 061   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_0_1
-@ 062   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_0_1
-@ 063   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_0_1
-@ 064   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_0_4
-@ 065   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_0_4
-@ 066   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_0_4
-@ 067   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_0_4
-@ 068   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_0_8
-@ 069   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_0_8
-@ 070   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_0_8
-@ 071   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_0_8
-@ 072   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_0_12
-@ 073   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_0_12
-@ 074   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_0_12
-@ 075   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_0_31
-@ 076   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_0_1
-@ 077   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_0_1
-@ 078   ----------------------------------------
-        .byte           N72   , Fs2 , v127
-        .byte   W72
-@ 079   ----------------------------------------
-        .byte           N06   , Fs2 , v089
-        .byte   W12
-        .byte                   Fs2
-        .byte   W12
-        .byte                   Fs2
-        .byte   W12
-        .byte                   Fs2
-        .byte   W12
-        .byte                   Fs2
-        .byte   W12
-        .byte                   Fs2
-        .byte   W12
-@ 080   ----------------------------------------
-        .byte           N72   , Fn2 , v127
-        .byte   W72
-@ 081   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_0_37
-@ 082   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_0_4
-@ 083   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_0_4
-@ 084   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_0_40
-@ 085   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_0_40
-@ 086   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_0_40
-@ 087   ----------------------------------------
-        .byte           N06   , Dn2 , v089
-        .byte   W12
-        .byte                   Dn2
-        .byte   W12
-        .byte                   Dn2
-        .byte   W12
-        .byte                   Dn2
-        .byte   W12
-        .byte                   Dn2
-        .byte   W12
-        .byte           N12
-        .byte   W12
-@ 088   ----------------------------------------
-        .byte   FINE
+	.byte	W05
+	.byte		N09   
+	.byte	W10
+	.byte		N09   
+	.byte	W10
+	.byte		N09   
+	.byte	W10
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v-32
+	.byte		VOL   , 37*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v-20
+	.byte	W01
+	.byte	GOTO
+	 .word	feb20230202231013_1_B1
+feb20230202231013_1_B2:
+	.byte	FINE
 
-@****************** Track 1 (Midi-Chn.1) ******************@
+@**************** Track 2 (Midi-Chn.4) ****************@
 
-crisis_1_1:
-        .byte   KEYSH , crisis_1_key+0
+feb20230202231013_2:
+	.byte	KEYSH , feb20230202231013_key+0
 @ 000   ----------------------------------------
-crisis_1_1_LOOP:
-        .byte           VOICE , 48
-        .byte           VOL   , 127
-        .byte           PAN   , c_v+45
-        .byte           N06   , Dn3 , v089
-        .byte           N06   , Fn3
-        .byte   W12
-        .byte                   Cn3
-        .byte           N06   , En3
-        .byte   W12
-        .byte                   As2
-        .byte           N06   , Dn3
-        .byte   W12
-        .byte                   An2
-        .byte           N06   , Cn3
-        .byte   W12
-        .byte                   As2
-        .byte           N06   , Dn3
-        .byte   W12
-        .byte                   Gn2
-        .byte           N06   , Cn3
-        .byte   W12
+	.byte		VOICE , 48
+	.byte		MODT  , 0
+	.byte		LFOS  , 44
+	.byte		MODT  , 0
+	.byte		LFOS  , 44
+	.byte		BENDR , 12
+	.byte		VOL   , 4*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 125
+	.byte		PAN   , c_v+63
+	.byte	W05
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v-42
+	.byte		VOL   , 39*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v-26
+	.byte		VOL   , 39*feb20230202231013_mvl/mxv
+	.byte		BEND  , c_v+0
+	.byte		N08   , Dn3 , v088
+	.byte	W10
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v-32
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v-20
+	.byte		N09   , Cn3 
+	.byte	W10
+	.byte		        As2 
+	.byte	W10
+	.byte		        An2 
+	.byte	W10
+	.byte		        As2 
+	.byte	W10
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v-16
+	.byte		VOL   , 39*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v-26
+	.byte		N09   , Gn2 
+	.byte	W10
+	.byte		        Dn3 
+	.byte	W09
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v-32
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v-20
+	.byte		N09   , Cn3 
+	.byte	W10
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v-16
+	.byte		VOL   , 39*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v-26
+	.byte		N09   , As2 
+	.byte	W10
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v-32
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v-20
+	.byte		N08   , An2 
+	.byte	W02
 @ 001   ----------------------------------------
-crisis_1_1_1:
-        .byte           N06   , Dn3 , v089
-        .byte           N06   , An3
-        .byte   W12
-        .byte                   Cn3
-        .byte           N06   , Gn3
-        .byte   W12
-        .byte                   As2
-        .byte           N06   , Fn3
-        .byte   W12
-        .byte                   An2
-        .byte           N06   , En3
-        .byte   W12
-        .byte                   As2
-        .byte           N06   , Fn3
-        .byte   W12
-        .byte                   Gn2
-        .byte           N06   , Dn3
-        .byte   W12
-        .byte   PEND
+	.byte	W08
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v-16
+	.byte		VOL   , 39*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v-26
+	.byte		N08   , As2 
+	.byte	W10
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v-32
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v-20
+	.byte		N09   , Gn2 
+	.byte	W10
+	.byte		        Dn3 
+	.byte	W10
+	.byte		VOL   , 52*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v-25
+	.byte		N09   , Cn3 
+	.byte	W10
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v-20
+	.byte		N09   , As2 
+	.byte	W10
+	.byte		        An2 
+	.byte	W10
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v-16
+	.byte		VOL   , 39*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v-26
+	.byte		N08   , As2 
+	.byte	W09
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v-32
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v-20
+	.byte		N09   , Gn2 
+	.byte	W10
+	.byte		N08   , Dn3 
+	.byte	W09
 @ 002   ----------------------------------------
-crisis_1_1_2:
-        .byte           N06   , Dn3 , v089
-        .byte           N06   , Cn4
-        .byte   W12
-        .byte                   Cn3
-        .byte           N06   , As3
-        .byte   W12
-        .byte                   As2
-        .byte           N06   , An3
-        .byte   W12
-        .byte                   An2
-        .byte           N06   , Gn3
-        .byte   W12
-        .byte                   As2
-        .byte           N06   , An3
-        .byte   W12
-        .byte                   Gn2
-        .byte           N06   , Fn3
-        .byte   W12
-        .byte   PEND
+	.byte	W01
+	.byte		        Cn3 
+	.byte	W10
+	.byte		        As2 
+	.byte	W10
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v-16
+	.byte		VOL   , 39*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v-26
+	.byte		N09   , An2 
+	.byte	W10
+	.byte		        As2 
+	.byte	W10
+	.byte		N08   , Gn2 
+	.byte	W10
+	.byte		        Dn3 
+	.byte	W10
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v-32
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v-20
+	.byte		N09   , Cn3 
+	.byte	W10
+	.byte		        As2 
+	.byte	W09
+	.byte		        An2 
+	.byte	W10
+	.byte		        As2 
+	.byte	W06
 @ 003   ----------------------------------------
-crisis_1_1_3:
-        .byte           N06   , Dn3 , v089
-        .byte           N48   , En4
-        .byte   W12
-        .byte           N06   , Cn3
-        .byte   W12
-        .byte                   As2
-        .byte   W12
-        .byte                   An2
-        .byte   W12
-        .byte                   As2
-        .byte           N06   , Dn4
-        .byte   W06
-        .byte                   Cn4
-        .byte   W06
-        .byte                   Gn2
-        .byte           N06   , As3
-        .byte   W06
-        .byte                   An3
-        .byte   W06
-        .byte   PEND
+	.byte	W04
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v-16
+	.byte		VOL   , 39*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v-26
+	.byte		N09   , Gn2 
+	.byte	W10
+	.byte		        Dn3 
+	.byte	W10
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v-32
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v-20
+	.byte		N08   , Cn3 
+	.byte	W10
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v-16
+	.byte		VOL   , 39*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v-26
+	.byte		N08   , As2 
+	.byte	W10
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v-32
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v-20
+	.byte		N08   , An2 
+	.byte	W10
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v-16
+	.byte		VOL   , 39*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v-26
+	.byte		N08   , As2 
+	.byte	W10
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v-32
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v-20
+	.byte		N09   , Gn2 
+	.byte	W10
+	.byte		        Dn3 
+	.byte	W09
+	.byte		VOL   , 52*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v-25
+	.byte		N09   , Cn3 
+	.byte	W10
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v-20
+	.byte		N08   , As2 
+	.byte	W03
 @ 004   ----------------------------------------
-crisis_1_1_4:
-        .byte           N06   , Dn3 , v089
-        .byte           TIE   , Gn3
-        .byte   W12
-        .byte           N06   , Cn3
-        .byte   W12
-        .byte                   As2
-        .byte   W12
-        .byte                   An2
-        .byte   W12
-        .byte                   As2
-        .byte   W12
-        .byte                   Gn2
-        .byte   W12
-        .byte   PEND
+	.byte	W07
+	.byte		        An2 
+	.byte	W10
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v-16
+	.byte		VOL   , 39*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v-26
+	.byte		N08   , As2 
+	.byte	W10
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v-32
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v-20
+	.byte		N08   , Gn2 
+	.byte	W10
+	.byte		N09   , Dn3 
+	.byte	W10
+	.byte		        Cn3 
+	.byte	W10
+	.byte		        As2 
+	.byte	W10
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v-16
+	.byte		VOL   , 39*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v-26
+	.byte		N09   , An2 
+	.byte	W10
+	.byte		N08   , As2 
+	.byte	W09
+	.byte		N09   , Gn2 
+	.byte	W10
 @ 005   ----------------------------------------
-crisis_1_1_5:
-        .byte           N06   , Dn3 , v089
-        .byte   W12
-        .byte                   Cn3
-        .byte   W12
-        .byte                   As2
-        .byte   W12
-        .byte                   An2
-        .byte   W12
-        .byte                   As2
-        .byte   W12
-        .byte                   Gn2
-        .byte   W12
-        .byte   PEND
+	.byte		N08   , Dn3 
+	.byte	W10
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v-32
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v-20
+	.byte		N09   , Cn3 
+	.byte	W10
+	.byte		N08   , As2 
+	.byte	W10
+	.byte		        An2 
+	.byte	W10
+	.byte		        As2 
+	.byte	W10
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v-16
+	.byte		VOL   , 39*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v-26
+	.byte		N09   , Gn2 
+	.byte	W10
+	.byte		N08   , Dn3 
+	.byte	W10
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v-32
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v-20
+	.byte		N09   , Cn3 
+	.byte	W09
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v-16
+	.byte		VOL   , 39*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v-26
+	.byte		N09   , As2 
+	.byte	W10
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v-32
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v-20
+	.byte		N09   , An2 
+	.byte	W07
 @ 006   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_1_5
+	.byte	W03
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v-16
+	.byte		VOL   , 39*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v-26
+	.byte		N08   , As2 
+	.byte	W10
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v-32
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v-20
+	.byte		N09   , Gn2 
+	.byte	W10
+	.byte		N08   , Dn3 
+	.byte	W10
+	.byte		VOL   , 52*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v-25
+	.byte		N08   , Cn3 
+	.byte	W10
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v-20
+	.byte		N09   , As2 
+	.byte	W10
+	.byte		        An2 
+	.byte	W10
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v-16
+	.byte		VOL   , 39*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v-26
+	.byte		N08   , As2 
+	.byte	W10
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v-32
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v-20
+	.byte		N08   , Gn2 
+	.byte	W10
+	.byte		        Dn3 
+	.byte	W09
+	.byte		N09   , Cn3 
+	.byte	W04
 @ 007   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_1_5
+	.byte	W06
+	.byte		        As2 
+	.byte	W10
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v-16
+	.byte		VOL   , 39*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v-26
+	.byte		N09   , An2 
+	.byte	W10
+	.byte		N08   , As2 
+	.byte	W10
+	.byte		        Gn2 
+	.byte	W10
+	.byte		        Dn3 
+	.byte	W10
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v-32
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v-20
+	.byte		N09   , Cn3 
+	.byte	W10
+	.byte		        As2 
+	.byte	W10
+	.byte		        An2 
+	.byte	W09
+	.byte		        As2 
+	.byte	W10
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v-16
+	.byte		VOL   , 39*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v-26
+	.byte		N09   , Gn2 
+	.byte	W01
 @ 008   ----------------------------------------
-crisis_1_1_8:
-        .byte           EOT   , Gn3
-        .byte           N06   , Dn3 , v089
-        .byte   W12
-        .byte                   Cn3
-        .byte   W12
-        .byte                   As2
-        .byte   W12
-        .byte                   An2
-        .byte   W12
-        .byte                   As2
-        .byte   W12
-        .byte                   Gn2
-        .byte   W12
-        .byte   PEND
+	.byte	W09
+	.byte		N08   , Dn3 
+	.byte	W10
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v-32
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v-20
+	.byte		N09   , Cn3 
+	.byte	W10
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v-16
+	.byte		VOL   , 39*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v-26
+	.byte		N09   , As2 
+	.byte	W10
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v-32
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v-20
+	.byte		N08   , An2 
+	.byte	W10
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v-16
+	.byte		VOL   , 39*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v-26
+	.byte		N08   , As2 
+	.byte	W10
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v-32
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v-20
+	.byte		N09   , Gn2 
+	.byte	W10
+	.byte		        Dn3 
+	.byte	W09
+	.byte		VOL   , 52*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v-25
+	.byte		N09   , Cn3 
+	.byte	W10
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v-20
+	.byte		N09   , As2 
+	.byte	W08
 @ 009   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_1_5
+	.byte	W02
+	.byte		        An2 
+	.byte	W10
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v-16
+	.byte		VOL   , 39*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v-26
+	.byte		N08   , As2 
+	.byte	W10
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v-32
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v-20
+	.byte		N09   , Gn2 
+	.byte	W10
+	.byte		        Dn3 
+	.byte	W10
+	.byte		        Cn3 
+	.byte	W10
+	.byte		N08   , As2 
+	.byte	W10
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v-16
+	.byte		VOL   , 39*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v-26
+	.byte		N08   , An2 
+	.byte	W10
+	.byte		        As2 
+	.byte	W10
+	.byte		N09   , Gn2 
+	.byte	W09
+	.byte		BEND  , c_v+0
+	.byte		N08   , Dn3 
+	.byte	W05
 @ 010   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_1_5
+	.byte	W05
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v-32
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v-20
+	.byte		N09   , Cn3 
+	.byte	W10
+	.byte		        As2 
+	.byte	W10
+	.byte		        An2 
+	.byte	W10
+	.byte		        As2 
+	.byte	W10
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v-16
+	.byte		VOL   , 39*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v-26
+	.byte		N09   , Gn2 
+	.byte	W10
+	.byte		N08   , Dn3 
+	.byte	W10
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v-32
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v-20
+	.byte		N08   , Cn3 
+	.byte	W09
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v-16
+	.byte		VOL   , 39*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v-26
+	.byte	W01
+	.byte		N09   , As2 
+	.byte	W09
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v-32
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v-20
+	.byte		N09   , An2 
+	.byte	W10
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v-16
+	.byte		VOL   , 39*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v-26
+	.byte		N09   , As2 
+	.byte	W02
 @ 011   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_1_5
+	.byte	W08
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v-32
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v-20
+	.byte		N09   , Gn2 
+	.byte	W10
+	.byte		        Dn3 
+	.byte	W10
+	.byte		VOL   , 52*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v-25
+	.byte		N08   , Cn3 
+	.byte	W10
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v-20
+	.byte		N09   , As2 
+	.byte	W10
+	.byte		        An2 
+	.byte	W10
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v-16
+	.byte		VOL   , 39*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v-26
+	.byte		N08   , As2 
+	.byte	W10
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v-32
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v-20
+	.byte		N08   , Gn2 
+	.byte	W10
+	.byte		N09   , Dn3 
+	.byte	W09
+	.byte		        Cn3 
+	.byte	W09
 @ 012   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_1_5
+	.byte	W01
+	.byte		        As2 
+	.byte	W10
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v-16
+	.byte		VOL   , 39*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v-26
+	.byte		N09   , An2 
+	.byte	W10
+	.byte		        As2 
+	.byte	W10
+	.byte		        Gn2 
+	.byte	W10
+	.byte		        Dn3 
+	.byte	W10
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v-32
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v-20
+	.byte		N09   , Cn3 
+	.byte	W10
+	.byte		        As2 
+	.byte	W10
+	.byte		N08   , An2 
+	.byte	W10
+	.byte		        As2 
+	.byte	W09
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v-16
+	.byte		VOL   , 39*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v-26
+	.byte		N09   , Gn2 
+	.byte	W06
 @ 013   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_1_5
+	.byte	W04
+	.byte		        Dn3 
+	.byte	W10
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v-32
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v-20
+	.byte		N09   , Cn3 
+	.byte	W10
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v-16
+	.byte		VOL   , 39*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v-26
+	.byte		N09   , As2 
+	.byte	W10
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v-32
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v-20
+	.byte		N09   , An2 
+	.byte	W10
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v-16
+	.byte		VOL   , 39*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v-26
+	.byte		N09   , As2 
+	.byte	W10
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v-32
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v-20
+	.byte		N08   , Gn2 
+	.byte	W10
+	.byte		        Dn3 
+	.byte	W10
+	.byte		VOL   , 52*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v-25
+	.byte		N08   , Cn3 
+	.byte	W09
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v-20
+	.byte		N08   , As2 
+	.byte	W10
+	.byte		N09   , An2 
+	.byte	W03
 @ 014   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_1_5
+	.byte	W07
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v-16
+	.byte		VOL   , 39*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v-26
+	.byte		N09   , As2 
+	.byte	W10
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v-32
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v-20
+	.byte		N09   , Gn2 
+	.byte	W10
+	.byte		        Dn3 
+	.byte	W10
+	.byte		        Cn3 
+	.byte	W10
+	.byte		N08   , As2 
+	.byte	W10
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v-16
+	.byte		VOL   , 39*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v-26
+	.byte		N09   , An2 
+	.byte	W10
+	.byte		        As2 
+	.byte	W10
+	.byte		N08   , Gn2 
+	.byte	W10
+	.byte		        Dn3 
+	.byte	W09
 @ 015   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_1_5
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v-32
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v-20
+	.byte		N09   , Cn3 
+	.byte	W10
+	.byte		        As2 
+	.byte	W10
+	.byte		        An2 
+	.byte	W10
+	.byte		N08   , As2 
+	.byte	W10
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v-16
+	.byte		VOL   , 39*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v-26
+	.byte		N08   , Gn2 
+	.byte	W10
+	.byte		        Dn3 
+	.byte	W10
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v-32
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v-20
+	.byte		N09   , Cn3 
+	.byte	W09
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v-16
+	.byte		VOL   , 39*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v-26
+	.byte	W01
+	.byte		N09   , As2 
+	.byte	W09
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v-32
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v-20
+	.byte		N09   , An2 
+	.byte	W10
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v-16
+	.byte		VOL   , 39*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v-26
+	.byte		N08   , As2 
+	.byte	W07
 @ 016   ----------------------------------------
-crisis_1_1_16:
-        .byte           N06   , Dn3 , v089
-        .byte           N06   , Fn3
-        .byte   W12
-        .byte                   Cn3
-        .byte           N06   , En3
-        .byte   W12
-        .byte                   As2
-        .byte           N06   , Dn3
-        .byte   W12
-        .byte                   An2
-        .byte           N06   , Cn3
-        .byte   W12
-        .byte                   As2
-        .byte           N06   , Dn3
-        .byte   W12
-        .byte                   Gn2
-        .byte           N06   , Cn3
-        .byte   W12
-        .byte   PEND
+	.byte	W03
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v-32
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v-20
+	.byte		N08   , Gn2 
+	.byte	W10
+	.byte		        Dn3 
+	.byte	W10
+	.byte		VOL   , 52*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v-25
+	.byte		N09   , Cn3 
+	.byte	W10
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v-20
+	.byte		N09   , As2 
+	.byte	W10
+	.byte		        An2 
+	.byte	W10
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v-16
+	.byte		VOL   , 39*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v-26
+	.byte		N09   , As2 
+	.byte	W10
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v-32
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v-20
+	.byte		N09   , Gn2 
+	.byte	W10
+	.byte		N08   , Dn3 
+	.byte	W09
+	.byte		N09   , Cn3 
+	.byte	W10
+	.byte		N08   , As2 
+	.byte	W04
 @ 017   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_1_1
+	.byte	W06
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v-16
+	.byte		VOL   , 39*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v-26
+	.byte		N08   , An2 
+	.byte	W10
+	.byte		        As2 
+	.byte	W10
+	.byte		N09   , Gn2 
+	.byte	W10
+	.byte		        Dn3 
+	.byte	W10
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v-32
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v-20
+	.byte		N09   , Cn3 
+	.byte	W10
+	.byte		        As2 
+	.byte	W10
+	.byte		N08   , An2 
+	.byte	W10
+	.byte		        As2 
+	.byte	W09
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v-16
+	.byte		VOL   , 39*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v-26
+	.byte		N08   , Gn2 
+	.byte	W10
+	.byte		        Dn3 
+	.byte	W01
 @ 018   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_1_2
+	.byte	W09
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v-32
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v-20
+	.byte		N08   , Cn3 
+	.byte	W10
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v-16
+	.byte		VOL   , 39*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v-26
+	.byte		N09   , As2 
+	.byte	W10
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v-32
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v-20
+	.byte		N09   , An2 
+	.byte	W10
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v-16
+	.byte		VOL   , 39*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v-26
+	.byte		N08   , As2 
+	.byte	W10
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v-32
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v-20
+	.byte		N08   , Gn2 
+	.byte	W10
+	.byte		        Dn3 
+	.byte	W09
+	.byte		VOL   , 52*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v-25
+	.byte	W01
+	.byte		N09   , Cn3 
+	.byte	W09
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v-20
+	.byte		N09   , As2 
+	.byte	W10
+	.byte		        An2 
+	.byte	W08
 @ 019   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_1_3
+	.byte	W02
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v-16
+	.byte		VOL   , 39*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v-26
+	.byte		N08   , As2 
+	.byte	W10
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v-32
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v-20
+	.byte		N08   , Gn2 
+	.byte	W10
+	.byte		        Dn3 
+	.byte	W10
+	.byte		        Cn3 
+	.byte	W10
+	.byte		        As2 
+	.byte	W10
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v-16
+	.byte		VOL   , 39*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v-26
+	.byte		N08   , An2 
+	.byte	W10
+	.byte		N09   , As2 
+	.byte	W10
+	.byte		        Gn2 
+	.byte	W09
+	.byte		VOICE , 49
+	.byte		VOL   , 16*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 109
+	.byte		PAN   , c_v+27
+	.byte		VOL   , 24*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 32
+	.byte		PAN   , c_v+32
+	.byte		VOL   , 23*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 32
+	.byte		PAN   , c_v+32
+	.byte		BEND  , c_v+0
+	.byte		TIE   , Gn1 
+	.byte	W01
+	.byte		VOL   , 26*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 84
+	.byte		PAN   , c_v+16
+	.byte	W14
 @ 020   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_1_4
+	.byte	W06
+	.byte		VOL   , 23*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 32
+	.byte		PAN   , c_v+0
+	.byte	W02
+	.byte		VOL   , 26*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 84
+	.byte		PAN   , c_v-10
+	.byte	W20
+	.byte		VOL   , 23*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 32
+	.byte		PAN   , c_v-32
+	.byte	W13
+	.byte		VOL   , 26*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 84
+	.byte		PAN   , c_v-37
+	.byte	W04
+	.byte		VOL   , 23*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 32
+	.byte		PAN   , c_v-32
+	.byte	W12
+	.byte		VOL   , 26*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 84
+	.byte		PAN   , c_v-10
+	.byte	W21
+	.byte		VOL   , 23*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 32
+	.byte		PAN   , c_v+0
+	.byte	W02
+	.byte		VOL   , 26*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 84
+	.byte		PAN   , c_v+16
+	.byte	W16
 @ 021   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_1_5
+	.byte	W04
+	.byte		VOL   , 23*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 32
+	.byte		PAN   , c_v+32
+	.byte	W02
+feb20230202231013_2_B1:
+	.byte		PAN   , c_v+32
+	.byte		VOL   , 23*feb20230202231013_mvl/mxv
+	.byte		PAN   , c_v+32
+	.byte		VOL   , 23*feb20230202231013_mvl/mxv
+	.byte	W01
+	.byte		EOT   , Gn1 
+	.byte	W02
+	.byte		VOL   , 26*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 84
+	.byte		PAN   , c_v+16
+	.byte		VOL   , 32*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v+21
+	.byte		N68   , Fs1 , v088
+	.byte	W11
+	.byte		VOL   , 26*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 84
+	.byte		PAN   , c_v+16
+	.byte	W03
+	.byte		VOL   , 32*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v+0
+	.byte	W17
+	.byte		VOL   , 26*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 84
+	.byte		PAN   , c_v-10
+	.byte	W03
+	.byte		VOL   , 32*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v-21
+	.byte	W17
+	.byte		VOL   , 26*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 84
+	.byte		PAN   , c_v-37
+	.byte	W14
+	.byte		VOL   , 32*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v-21
+	.byte	W04
+	.byte		VOL   , 23*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 32
+	.byte		PAN   , c_v+0
+	.byte		VOL   , 15*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 109
+	.byte		PAN   , c_v-18
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W08
 @ 022   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_1_5
+	.byte	W02
+	.byte		VOL   , 23*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 32
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 26*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 84
+	.byte		PAN   , c_v+16
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 32*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v+21
+	.byte		N08   
+	.byte	W10
+	.byte		N68   , Fn1 
+	.byte	W10
+	.byte		VOL   , 36*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v+11
+	.byte	W07
+	.byte		VOL   , 32*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v+0
+	.byte	W11
+	.byte		VOL   , 36*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v-7
+	.byte	W06
+	.byte		VOL   , 32*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v-21
+	.byte	W20
+	.byte		VOL   , 26*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 84
+	.byte		PAN   , c_v-37
+	.byte	W02
+	.byte		VOL   , 32*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v-42
+	.byte	W04
+	.byte		VOL   , 26*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 84
+	.byte		PAN   , c_v-37
+	.byte	W01
+	.byte		VOL   , 32*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v-21
+	.byte	W03
 @ 023   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_1_5
+	.byte	W05
+	.byte		VOL   , 23*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 32
+	.byte		PAN   , c_v+0
+	.byte		VOL   , 15*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 109
+	.byte		PAN   , c_v-18
+	.byte		N08   
+	.byte	W10
+	.byte		N08   
+	.byte	W10
+	.byte		VOL   , 23*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 32
+	.byte		PAN   , c_v+0
+	.byte		N08   
+	.byte	W09
+	.byte		VOL   , 26*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 84
+	.byte		PAN   , c_v+16
+	.byte	W01
+	.byte		N08   
+	.byte	W09
+	.byte		VOL   , 32*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v+21
+	.byte	W01
+	.byte		N08   
+	.byte	W09
+	.byte		TIE   , En1 
+	.byte	W11
+	.byte		VOL   , 36*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v+11
+	.byte	W07
+	.byte		VOL   , 32*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v+0
+	.byte	W11
+	.byte		VOL   , 36*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v-7
+	.byte	W07
+	.byte		VOL   , 32*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v-21
+	.byte	W06
 @ 024   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_1_8
+	.byte	W15
+	.byte		VOL   , 26*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 84
+	.byte		PAN   , c_v-37
+	.byte	W01
+	.byte		VOL   , 32*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v-42
+	.byte	W05
+	.byte		VOL   , 26*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 84
+	.byte		PAN   , c_v-37
+	.byte	W01
+	.byte		VOL   , 32*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v-21
+	.byte	W21
+	.byte		VOL   , 36*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v-7
+	.byte	W06
+	.byte		VOL   , 32*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v+0
+	.byte	W12
+	.byte		VOL   , 36*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v+11
+	.byte	W06
+	.byte		VOL   , 32*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v+21
+	.byte	W12
+	.byte		EOT   
+	.byte	W03
+	.byte		VOL   , 26*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 84
+	.byte		PAN   , c_v+42
+	.byte		VOL   , 23*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 32
+	.byte		PAN   , c_v+32
+	.byte		TIE   , Dn1 
+	.byte	W04
+	.byte		VOL   , 15*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 109
+	.byte		PAN   , c_v+27
+	.byte	W06
+	.byte		VOL   , 23*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 32
+	.byte		PAN   , c_v+0
+	.byte	W04
 @ 025   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_1_5
+	.byte	W20
+	.byte		VOL   , 15*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 109
+	.byte		PAN   , c_v-18
+	.byte	W06
+	.byte		VOL   , 23*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 32
+	.byte		PAN   , c_v-32
+	.byte	W36
+	.byte		VOL   , 26*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 84
+	.byte		PAN   , c_v-10
+	.byte	W16
+	.byte		VOL   , 32*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v+0
+	.byte	W04
+	.byte		VOL   , 26*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 84
+	.byte		PAN   , c_v+16
+	.byte	W10
+	.byte		VOL   , 32*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v+21
+	.byte	W04
 @ 026   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_1_5
+	.byte	W16
+	.byte		VOL   , 36*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v+11
+	.byte	W14
+	.byte		VOL   , 42*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+0
+	.byte	W01
+	.byte		VOL   , 36*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v-7
+	.byte	W16
+	.byte		VOL   , 32*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v-21
+	.byte	W03
+	.byte		VOL   , 36*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v-26
+	.byte	W32
+	.byte		VOL   , 32*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v-21
+	.byte	W03
+	.byte		VOL   , 36*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v-7
+	.byte	W11
 @ 027   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_1_5
+	.byte	W05
+	.byte		VOL   , 42*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+0
+	.byte	W02
+	.byte		VOL   , 36*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v+11
+	.byte	W16
+	.byte		VOL   , 32*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v+21
+	.byte	W02
+	.byte		VOL   , 36*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v+30
+	.byte	W05
+	.byte		EOT   
+	.byte	W02
+	.byte		VOICE , 48
+	.byte		VOL   , 52*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 115
+	.byte		PAN   , c_v-4
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v-20
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v-20
+	.byte		N08   , Dn3 
+	.byte	W10
+	.byte		N09   , Cn3 
+	.byte	W09
+	.byte		VOL   , 52*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v-25
+	.byte		N09   , As2 
+	.byte	W10
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v-20
+	.byte		N09   , An2 
+	.byte	W10
+	.byte		N08   , As2 
+	.byte	W10
+	.byte		N09   , Gn2 
+	.byte	W10
+	.byte		N08   , Dn3 
+	.byte	W05
 @ 028   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_1_5
+	.byte	W05
+	.byte		N09   , Cn3 
+	.byte	W10
+	.byte		        As2 
+	.byte	W10
+	.byte		        An2 
+	.byte	W10
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v-16
+	.byte		VOL   , 39*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v-26
+	.byte		N09   , As2 
+	.byte	W09
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v-34
+	.byte		VOL   , 52*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v-25
+	.byte	W01
+	.byte		N09   , Gn2 
+	.byte	W09
+	.byte		        Dn3 
+	.byte	W10
+	.byte		VOL   , 55*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 115
+	.byte		PAN   , c_v-28
+	.byte		VOL   , 60*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 74
+	.byte		PAN   , c_v-21
+	.byte		N09   , Cn3 
+	.byte	W10
+	.byte		VOL   , 55*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 115
+	.byte		PAN   , c_v-16
+	.byte		VOL   , 52*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v-25
+	.byte		N08   , As2 
+	.byte	W10
+	.byte		        An2 
+	.byte	W10
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v-20
+	.byte		N09   , As2 
+	.byte	W02
 @ 029   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_1_5
+	.byte	W08
+	.byte		        Gn2 
+	.byte	W10
+	.byte		VOL   , 52*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v-25
+	.byte		N09   , Dn3 
+	.byte	W10
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v-20
+	.byte		N09   , Cn3 
+	.byte	W10
+	.byte		        As2 
+	.byte	W09
+	.byte		        An2 
+	.byte	W10
+	.byte		        As2 
+	.byte	W10
+	.byte		N08   , Gn2 
+	.byte	W10
+	.byte		        Dn3 
+	.byte	W10
+	.byte		        Cn3 
+	.byte	W09
 @ 030   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_1_5
+	.byte	W01
+	.byte		VOL   , 52*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v-25
+	.byte		N09   , As2 
+	.byte	W10
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v-20
+	.byte		N09   , An2 
+	.byte	W10
+	.byte		        As2 
+	.byte	W10
+	.byte		        Gn2 
+	.byte	W10
+	.byte		        Dn3 
+	.byte	W10
+	.byte		N08   , Cn3 
+	.byte	W09
+	.byte		        As2 
+	.byte	W10
+	.byte		        An2 
+	.byte	W10
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v-16
+	.byte		VOL   , 39*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v-26
+	.byte		N09   , As2 
+	.byte	W10
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v-34
+	.byte		VOL   , 52*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v-25
+	.byte		N08   , Gn2 
+	.byte	W06
 @ 031   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_1_5
+	.byte	W04
+	.byte		N09   , Dn3 
+	.byte	W10
+	.byte		VOL   , 55*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 115
+	.byte		PAN   , c_v-28
+	.byte		VOL   , 60*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 74
+	.byte		PAN   , c_v-21
+	.byte		N09   , Cn3 
+	.byte	W10
+	.byte		VOL   , 55*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 115
+	.byte		PAN   , c_v-16
+	.byte		VOL   , 52*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v-25
+	.byte		N08   , As2 
+	.byte	W10
+	.byte		N09   , An2 
+	.byte	W10
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v-20
+	.byte		N09   , As2 
+	.byte	W09
+	.byte		        Gn2 
+	.byte	W10
+	.byte		VOL   , 52*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v-25
+	.byte		N09   , Dn3 
+	.byte	W10
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v-20
+	.byte		N09   , Cn3 
+	.byte	W10
+	.byte		        As2 
+	.byte	W10
+	.byte		N08   , An2 
+	.byte	W03
 @ 032   ----------------------------------------
-        .byte   W72
+	.byte	W07
+	.byte		        As2 
+	.byte	W10
+	.byte		N09   , Gn2 
+	.byte	W10
+	.byte		N08   , Dn3 
+	.byte	W10
+	.byte		N09   , Cn3 
+	.byte	W09
+	.byte		VOL   , 52*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v-25
+	.byte	W01
+	.byte		N09   , As2 
+	.byte	W09
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v-20
+	.byte		N09   , An2 
+	.byte	W10
+	.byte		        As2 
+	.byte	W10
+	.byte		        Gn2 
+	.byte	W10
+	.byte		N08   , Dn3 
+	.byte	W10
 @ 033   ----------------------------------------
-        .byte   W72
+	.byte		        Cn3 
+	.byte	W10
+	.byte		        As2 
+	.byte	W10
+	.byte		N09   , An2 
+	.byte	W10
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v-16
+	.byte		VOL   , 39*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v-26
+	.byte		N09   , As2 
+	.byte	W10
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v-34
+	.byte		VOL   , 52*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v-25
+	.byte		N09   , Gn2 
+	.byte	W10
+	.byte		N08   , Dn3 
+	.byte	W09
+	.byte		VOL   , 55*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 115
+	.byte		PAN   , c_v-28
+	.byte		VOL   , 60*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 74
+	.byte		PAN   , c_v-21
+	.byte		N09   , Cn3 
+	.byte	W10
+	.byte		VOL   , 55*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 115
+	.byte		PAN   , c_v-16
+	.byte		VOL   , 52*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v-25
+	.byte		N09   , As2 
+	.byte	W10
+	.byte		        An2 
+	.byte	W10
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v-20
+	.byte		N08   , As2 
+	.byte	W07
 @ 034   ----------------------------------------
-crisis_1_1_34:
-        .byte           N03   , Dn5 , v089
-        .byte   W06
-        .byte                   Ds5
-        .byte   W06
-        .byte                   Dn5
-        .byte   W06
-        .byte                   Cn5
-        .byte   W06
-        .byte                   As4
-        .byte   W06
-        .byte                   Cn5
-        .byte   W06
-        .byte                   As4
-        .byte   W06
-        .byte                   An4
-        .byte   W06
-        .byte                   Gn4
-        .byte   W06
-        .byte                   An4
-        .byte   W06
-        .byte                   Gn4
-        .byte   W06
-        .byte                   Fn4
-        .byte   W06
-        .byte   PEND
+	.byte	W03
+	.byte		N09   , Gn2 
+	.byte	W10
+	.byte		VOL   , 52*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v-25
+	.byte		N08   , Dn3 
+	.byte	W10
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v-20
+	.byte		N09   , Cn3 
+	.byte	W10
+	.byte		        As2 
+	.byte	W10
+	.byte		        An2 
+	.byte	W10
+	.byte		N08   , As2 
+	.byte	W09
+	.byte		N09   , Gn2 
+	.byte	W10
+	.byte		N08   , Dn3 
+	.byte	W10
+	.byte		N09   , Cn3 
+	.byte	W10
+	.byte		VOL   , 52*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v-25
+	.byte		N09   , As2 
+	.byte	W04
 @ 035   ----------------------------------------
-crisis_1_1_35:
-        .byte           N03   , Ds4 , v089
-        .byte   W06
-        .byte                   Fn4
-        .byte   W06
-        .byte                   Ds4
-        .byte   W06
-        .byte                   Dn4
-        .byte   W06
-        .byte                   Cn4
-        .byte   W06
-        .byte                   Dn4
-        .byte   W06
-        .byte                   Cn4
-        .byte   W06
-        .byte                   As3
-        .byte   W06
-        .byte                   An3
-        .byte   W06
-        .byte                   As3
-        .byte   W06
-        .byte                   An3
-        .byte   W06
-        .byte                   Gn3
-        .byte   W06
-        .byte   PEND
+	.byte	W06
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v-20
+	.byte		N09   , An2 
+	.byte	W10
+	.byte		N08   , As2 
+	.byte	W10
+	.byte		        Gn2 
+	.byte	W10
+	.byte		        Dn3 
+	.byte	W10
+	.byte		N09   , Cn3 
+	.byte	W09
+	.byte		        As2 
+	.byte	W10
+	.byte		        An2 
+	.byte	W10
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v-16
+	.byte		VOL   , 39*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v-26
+	.byte		N09   , As2 
+	.byte	W10
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v-34
+	.byte		VOL   , 52*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v-25
+	.byte		N08   , Gn2 
+	.byte	W10
+	.byte		N09   , Dn3 
+	.byte	W01
 @ 036   ----------------------------------------
-crisis_1_1_36:
-        .byte           N03   , Gn5 , v089
-        .byte   W06
-        .byte                   Gs5
-        .byte   W06
-        .byte                   Gn5
-        .byte   W06
-        .byte                   Fn5
-        .byte   W06
-        .byte                   Ds5
-        .byte   W06
-        .byte                   Fn5
-        .byte   W06
-        .byte                   Ds5
-        .byte   W06
-        .byte                   Dn5
-        .byte   W06
-        .byte                   Cn5
-        .byte   W06
-        .byte                   Dn5
-        .byte   W06
-        .byte                   Cn5
-        .byte   W06
-        .byte                   As4
-        .byte   W06
-        .byte   PEND
+	.byte	W09
+	.byte		VOL   , 55*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 115
+	.byte		PAN   , c_v-28
+	.byte		VOL   , 60*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 74
+	.byte		PAN   , c_v-21
+	.byte		N09   , Cn3 
+	.byte	W10
+	.byte		VOL   , 55*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 115
+	.byte		PAN   , c_v-16
+	.byte		VOL   , 52*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v-25
+	.byte		N08   , As2 
+	.byte	W10
+	.byte		        An2 
+	.byte	W10
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v-20
+	.byte		N08   , As2 
+	.byte	W10
+	.byte		N09   , Gn2 
+	.byte	W09
+	.byte		VOL   , 52*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v-25
+	.byte		N09   , Dn3 
+	.byte	W10
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v-20
+	.byte		N08   , Cn3 
+	.byte	W10
+	.byte		        As2 
+	.byte	W10
+	.byte		        An2 
+	.byte	W08
 @ 037   ----------------------------------------
-crisis_1_1_37:
-        .byte           N03   , Gs4 , v089
-        .byte   W06
-        .byte                   As4
-        .byte   W06
-        .byte                   Gs4
-        .byte   W06
-        .byte                   Gn4
-        .byte   W06
-        .byte                   Fn4
-        .byte   W06
-        .byte                   Gn4
-        .byte   W06
-        .byte                   Fn4
-        .byte   W06
-        .byte                   Ds4
-        .byte   W06
-        .byte                   Dn4
-        .byte   W06
-        .byte                   Ds4
-        .byte   W06
-        .byte                   Dn4
-        .byte   W06
-        .byte           N06   , Cn4
-        .byte   W06
-        .byte   PEND
+	.byte	W02
+	.byte		        As2 
+	.byte	W10
+	.byte		N09   , Gn2 
+	.byte	W10
+	.byte		BEND  , c_v+0
+	.byte		N09   , Dn3 
+	.byte	W10
+	.byte		        Cn3 
+	.byte	W10
+	.byte		VOL   , 52*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v-25
+	.byte		N09   , As2 
+	.byte	W09
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v-20
+	.byte		N09   , An2 
+	.byte	W10
+	.byte		        As2 
+	.byte	W10
+	.byte		        Gn2 
+	.byte	W10
+	.byte		        Dn3 
+	.byte	W10
+	.byte		        Cn3 
+	.byte	W05
 @ 038   ----------------------------------------
-        .byte   W72
+	.byte	W05
+	.byte		        As2 
+	.byte	W10
+	.byte		        An2 
+	.byte	W10
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v-16
+	.byte		VOL   , 39*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v-26
+	.byte		N08   , As2 
+	.byte	W10
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v-34
+	.byte		VOL   , 52*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v-25
+	.byte		N08   , Gn2 
+	.byte	W10
+	.byte		        Dn3 
+	.byte	W09
+	.byte		VOL   , 55*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 115
+	.byte		PAN   , c_v-28
+	.byte		VOL   , 60*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 74
+	.byte		PAN   , c_v-21
+	.byte		N09   , Cn3 
+	.byte	W10
+	.byte		VOL   , 55*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 115
+	.byte		PAN   , c_v-16
+	.byte		VOL   , 52*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v-25
+	.byte		N09   , As2 
+	.byte	W10
+	.byte		        An2 
+	.byte	W10
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v-20
+	.byte		N09   , As2 
+	.byte	W10
+	.byte		        Gn2 
+	.byte	W02
 @ 039   ----------------------------------------
-        .byte   W72
+	.byte	W08
+	.byte		VOL   , 52*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v-25
+	.byte		N08   , Dn3 
+	.byte	W10
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v-20
+	.byte		N09   , Cn3 
+	.byte	W10
+	.byte		        As2 
+	.byte	W10
+	.byte		N08   , An2 
+	.byte	W10
+	.byte		        As2 
+	.byte	W09
+	.byte		N09   , Gn2 
+	.byte	W10
+	.byte		        Dn3 
+	.byte	W10
+	.byte		        Cn3 
+	.byte	W10
+	.byte		VOL   , 52*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v-25
+	.byte		N08   , As2 
+	.byte	W09
 @ 040   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_1_5
+	.byte	W01
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v-20
+	.byte		N08   , An2 
+	.byte	W10
+	.byte		N09   , As2 
+	.byte	W10
+	.byte		        Gn2 
+	.byte	W10
+	.byte		        Dn3 
+	.byte	W10
+	.byte		        Cn3 
+	.byte	W10
+	.byte		N08   , As2 
+	.byte	W09
+	.byte		N09   , An2 
+	.byte	W10
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v-16
+	.byte		VOL   , 39*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v-26
+	.byte		N08   , As2 
+	.byte	W10
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v-34
+	.byte		VOL   , 52*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v-25
+	.byte		N09   , Gn2 
+	.byte	W10
+	.byte		        Dn3 
+	.byte	W06
 @ 041   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_1_5
+	.byte	W04
+	.byte		VOL   , 55*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 115
+	.byte		PAN   , c_v-28
+	.byte		VOL   , 60*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 74
+	.byte		PAN   , c_v-21
+	.byte		N09   , Cn3 
+	.byte	W10
+	.byte		VOL   , 55*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 115
+	.byte		PAN   , c_v-16
+	.byte		VOL   , 52*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v-25
+	.byte		N09   , As2 
+	.byte	W10
+	.byte		        An2 
+	.byte	W10
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v-20
+	.byte		N09   , As2 
+	.byte	W09
+	.byte		        Gn2 
+	.byte	W10
+	.byte		VOL   , 52*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v-25
+	.byte		N08   , Dn3 
+	.byte	W10
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v-20
+	.byte		N08   , Cn3 
+	.byte	W10
+	.byte		N09   , As2 
+	.byte	W10
+	.byte		        An2 
+	.byte	W10
+	.byte		N08   , As2 
+	.byte	W03
 @ 042   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_1_5
+	.byte	W07
+	.byte		N09   , Gn2 
+	.byte	W10
+	.byte		N08   , Dn3 
+	.byte	W10
+	.byte		N09   , Cn3 
+	.byte	W10
+	.byte		VOL   , 52*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v-25
+	.byte		N09   , As2 
+	.byte	W09
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v-20
+	.byte		N09   , An2 
+	.byte	W11
+	.byte		N08   , As2 
+	.byte	W09
+	.byte		        Gn2 
+	.byte	W10
+	.byte		N09   , Dn3 
+	.byte	W10
+	.byte		        Cn3 
+	.byte	W10
 @ 043   ----------------------------------------
-crisis_1_1_43:
-        .byte           N06   , Dn3 , v089
-        .byte   W12
-        .byte                   Cn3
-        .byte   W12
-        .byte                   As2
-        .byte   W12
-        .byte                   An2
-        .byte   W12
-        .byte                   As2
-        .byte   W12
-        .byte           N12   , Gn2
-        .byte   W12
-        .byte   PEND
+	.byte		        As2 
+	.byte	W10
+	.byte		        An2 
+	.byte	W10
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v-16
+	.byte		VOL   , 39*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v-26
+	.byte		N08   , As2 
+	.byte	W10
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v-34
+	.byte		VOL   , 52*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v-25
+	.byte		N08   , Gn2 
+	.byte	W10
+	.byte		        Dn3 
+	.byte	W09
+	.byte		VOL   , 55*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 115
+	.byte		PAN   , c_v-28
+	.byte		VOL   , 60*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 74
+	.byte		PAN   , c_v-21
+	.byte		N09   , Cn3 
+	.byte	W10
+	.byte		VOL   , 55*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 115
+	.byte		PAN   , c_v-16
+	.byte		VOL   , 52*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v-25
+	.byte		N09   , As2 
+	.byte	W10
+	.byte		N08   , An2 
+	.byte	W10
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v-20
+	.byte		N09   , As2 
+	.byte	W10
+	.byte		N08   , Gn2 
+	.byte	W07
 @ 044   ----------------------------------------
-        .byte           N06   , Dn3
-        .byte           N06   , Fn3
-        .byte   GOTO
-         .word  crisis_1_1_LOOP
-        .byte   W12
-        .byte                   Cn3
-        .byte           N06   , En3
-        .byte   W12
-        .byte                   As2
-        .byte           N06   , Dn3
-        .byte   W12
-        .byte                   An2
-        .byte           N06   , Cn3
-        .byte   W12
-        .byte                   As2
-        .byte           N06   , Dn3
-        .byte   W12
-        .byte                   Gn2
-        .byte           N06   , Cn3
-        .byte   W12
+	.byte	W03
+	.byte		VOL   , 52*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v-25
+	.byte		N08   , Dn3 
+	.byte	W10
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v-20
+	.byte		N09   , Cn3 
+	.byte	W10
+	.byte		        As2 
+	.byte	W10
+	.byte		        An2 
+	.byte	W10
+	.byte		        As2 
+	.byte	W09
+	.byte		        Gn2 
+	.byte	W10
+	.byte		        Dn3 
+	.byte	W10
+	.byte		N08   , Cn3 
+	.byte	W10
+	.byte		VOL   , 52*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v-25
+	.byte		N08   , As2 
+	.byte	W10
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v-20
+	.byte		N09   , An2 
+	.byte	W04
 @ 045   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_1_1
+	.byte	W06
+	.byte		N08   , As2 
+	.byte	W10
+	.byte		N09   , Gn2 
+	.byte	W10
+	.byte		        Dn3 
+	.byte	W10
+	.byte		        Cn3 
+	.byte	W09
+	.byte		        As2 
+	.byte	W10
+	.byte		        An2 
+	.byte	W10
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v-16
+	.byte		VOL   , 39*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v-26
+	.byte		N08   , As2 
+	.byte	W10
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v-34
+	.byte		VOL   , 52*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v-25
+	.byte		N08   , Gn2 
+	.byte	W10
+	.byte		        Dn3 
+	.byte	W10
+	.byte		VOL   , 55*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 115
+	.byte		PAN   , c_v-28
+	.byte		VOL   , 60*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 74
+	.byte		PAN   , c_v-21
+	.byte		N09   , Cn3 
+	.byte	W01
 @ 046   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_1_2
+	.byte	W09
+	.byte		VOL   , 55*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 115
+	.byte		PAN   , c_v-16
+	.byte		VOL   , 52*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v-25
+	.byte		N09   , As2 
+	.byte	W10
+	.byte		        An2 
+	.byte	W10
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v-20
+	.byte		N08   , As2 
+	.byte	W10
+	.byte		        Gn2 
+	.byte	W09
+	.byte		VOL   , 52*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v-25
+	.byte	W01
+	.byte		N08   , Dn3 
+	.byte	W09
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v-20
+	.byte		N08   , Cn3 
+	.byte	W10
+	.byte		        As2 
+	.byte	W10
+	.byte		N09   , An2 
+	.byte	W10
+	.byte		N08   , As2 
+	.byte	W08
 @ 047   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_1_3
+	.byte	W02
+	.byte		N09   , Gn2 
+	.byte	W09
+	.byte		VOL   , 29*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 84
+	.byte		PAN   , c_v+16
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v+21
+	.byte		BEND  , c_v-50
+	.byte	W01
+	.byte		VOICE , 49
+	.byte		VOL   , 32*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v+21
+	.byte		BEND  , c_v+0
+	.byte		TIE   , Gn1 
+	.byte	W03
+	.byte		VOL   , 26*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 84
+	.byte		PAN   , c_v+16
+	.byte	W13
+	.byte		VOL   , 32*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v+0
+	.byte	W11
+	.byte		VOL   , 26*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 84
+	.byte		PAN   , c_v-10
+	.byte	W13
+	.byte		VOL   , 32*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v-21
+	.byte	W07
+	.byte		VOL   , 26*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 84
+	.byte		PAN   , c_v-37
+	.byte	W20
+	.byte		VOL   , 32*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v-21
+	.byte	W07
+	.byte		VOL   , 26*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 84
+	.byte		PAN   , c_v-10
+	.byte	W10
 @ 048   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_1_4
-@ 049   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_1_5
-@ 050   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_1_5
-@ 051   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_1_5
-@ 052   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_1_8
-@ 053   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_1_5
-@ 054   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_1_5
-@ 055   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_1_5
-@ 056   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_1_5
-@ 057   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_1_5
-@ 058   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_1_5
-@ 059   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_1_5
-@ 060   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_1_16
-@ 061   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_1_1
-@ 062   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_1_2
-@ 063   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_1_3
-@ 064   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_1_4
-@ 065   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_1_5
-@ 066   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_1_5
-@ 067   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_1_5
-@ 068   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_1_8
-@ 069   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_1_5
-@ 070   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_1_5
-@ 071   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_1_5
-@ 072   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_1_5
-@ 073   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_1_5
-@ 074   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_1_5
-@ 075   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_1_5
-@ 076   ----------------------------------------
-        .byte   W72
-@ 077   ----------------------------------------
-        .byte   W72
-@ 078   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_1_34
-@ 079   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_1_35
-@ 080   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_1_36
-@ 081   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_1_37
-@ 082   ----------------------------------------
-        .byte   W72
-@ 083   ----------------------------------------
-        .byte   W72
-@ 084   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_1_5
-@ 085   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_1_5
-@ 086   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_1_5
-@ 087   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_1_43
-@ 088   ----------------------------------------
-        .byte   FINE
+	.byte	W04
+	.byte		VOL   , 32*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v+0
+	.byte	W11
+	.byte		VOL   , 26*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 84
+	.byte		PAN   , c_v+16
+	.byte	W13
+	.byte		VOL   , 32*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v+21
+	.byte	W06
+	.byte		EOT   
+	.byte	W02
+	.byte	GOTO
+	 .word	feb20230202231013_2_B1
+feb20230202231013_2_B2:
+	.byte	W07
+	.byte		VOL   , 36*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v+11
+	.byte	W12
+	.byte		VOL   , 32*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v+0
+	.byte	W05
+	.byte		VOL   , 36*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v-7
+	.byte	W12
+	.byte		VOL   , 32*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v-21
+	.byte	W13
+	.byte		VOL   , 36*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v-26
+	.byte	FINE
 
-@****************** Track 2 (Midi-Chn.2) ******************@
+@**************** Track 3 (Midi-Chn.5) ****************@
 
-crisis_1_2:
-        .byte   KEYSH , crisis_1_key+0
+feb20230202231013_3:
+	.byte	KEYSH , feb20230202231013_key+0
 @ 000   ----------------------------------------
-crisis_1_2_LOOP:
-        .byte           VOICE , 57
-        .byte           VOL   , 122
-        .byte           PAN   , c_v-13
-        .byte   W72
+	.byte		VOICE , 66
+	.byte		MODT  , 0
+	.byte		LFOS  , 44
+	.byte		MODT  , 0
+	.byte		LFOS  , 44
+	.byte		BENDR , 12
+	.byte		VOL   , 29*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 84
+	.byte		PAN   , c_v+16
+	.byte	W96
 @ 001   ----------------------------------------
-crisis_1_2_1:
-        .byte   W48
-        .byte           N06   , Dn3 , v089
-        .byte           N06   , Gn3
-        .byte   W12
-        .byte                   Gn2
-        .byte           N06   , Dn3
-        .byte   W12
-        .byte   PEND
+	.byte	W08
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v+0
+	.byte		VOL   , 29*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 84
+	.byte		PAN   , c_v-10
+	.byte		VOL   , 22*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 84
+	.byte		PAN   , c_v-10
+	.byte		VOL   , 22*feb20230202231013_mvl/mxv
+	.byte		BEND  , c_v+0
+	.byte		N08   , Dn4 , v088
+	.byte	W10
+	.byte		N09   , Gn3 
+	.byte	W10
+	.byte		VOL   , 18*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 32
+	.byte		PAN   , c_v+0
+	.byte		VOL   , 12*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 109
+	.byte		PAN   , c_v-18
+	.byte		N56   , As3 
+	.byte	W24
+	.byte	W02
+	.byte		VOL   , 18*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 32
+	.byte		PAN   , c_v+0
+	.byte	W04
+	.byte		VOL   , 22*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 84
+	.byte		PAN   , c_v-10
+	.byte	W28
+	.byte	W01
+	.byte		VOL   , 27*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v-21
+	.byte		VOL   , 31*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v-7
+	.byte		N56   , Bn3 
+	.byte	W09
 @ 002   ----------------------------------------
-crisis_1_2_2:
-        .byte           N72   , As2 , v089
-        .byte           N72   , Fn3
-        .byte   W72
-        .byte   PEND
+	.byte	W68
+	.byte	W03
+	.byte		VOL   , 27*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v+0
+	.byte		VOL   , 22*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 84
+	.byte		PAN   , c_v-10
+	.byte		N09   , Dn4 
+	.byte	W09
+	.byte		        Gn3 
+	.byte	W10
+	.byte		N36   , As3 
+	.byte	W06
 @ 003   ----------------------------------------
-crisis_1_2_3:
-        .byte           N12   , Bn2 , v089
-        .byte           N12   , Gn3
-        .byte   W72
-        .byte   PEND
+	.byte	W32
+	.byte	W02
+	.byte		N08   , Dn4 
+	.byte	W10
+	.byte		N09   , As3 
+	.byte	W10
+	.byte		N36   
+	.byte	W36
+	.byte	W03
+	.byte		N09   , Dn4 
+	.byte	W03
 @ 004   ----------------------------------------
-crisis_1_2_4:
-        .byte   W24
-        .byte           N06   , Dn3 , v089
-        .byte           N06   , Gn3
-        .byte   W12
-        .byte                   Gn2
-        .byte           N06   , Dn3
-        .byte   W12
-        .byte           N24   , As2
-        .byte           N24   , Fn3
-        .byte   W24
-        .byte   PEND
+	.byte	W07
+	.byte		N08   , Gn3 
+	.byte	W10
+	.byte		N36   , As3 
+	.byte	W40
+	.byte		N09   , Dn4 
+	.byte	W10
+	.byte		        As3 
+	.byte	W10
+	.byte		N18   
+	.byte	W19
 @ 005   ----------------------------------------
-crisis_1_2_5:
-        .byte   W24
-        .byte           N06   , Dn3 , v089
-        .byte           N06   , Gn3
-        .byte   W12
-        .byte                   As2
-        .byte           N06   , Dn3
-        .byte   W12
-        .byte           N24   , As2
-        .byte           N24   , Fn3
-        .byte   W24
-        .byte   PEND
+	.byte	W08
+	.byte		VOICE , 48
+	.byte		VOL   , 8*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 33
+	.byte		PAN   , c_v+63
+	.byte		VOL   , 0*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 0
+	.byte		PAN   , c_v-64
+	.byte		VOL   , 0*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 0
+	.byte		PAN   , c_v-64
+	.byte		N36   , Dn3 
+	.byte	W36
+	.byte	W03
+	.byte		N09   , Cn3 
+	.byte	W10
+	.byte		        Gn3 
+	.byte	W10
+	.byte		N36   , Dn3 
+	.byte	W28
+	.byte	W01
 @ 006   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_2_4
+	.byte	W11
+	.byte		N08   , Cn3 
+	.byte	W10
+	.byte		        Gn3 
+	.byte	W09
+	.byte		N36   , Dn3 
+	.byte	W40
+	.byte		N08   , Cn3 
+	.byte	W10
+	.byte		        Gn3 
+	.byte	W10
+	.byte		N36   , Dn3 
+	.byte	W06
 @ 007   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_2_5
+	.byte	W32
+	.byte	W01
+	.byte		N18   , Cn3 
+	.byte	W20
+	.byte		N36   , Dn3 
+	.byte	W40
+	.byte		N09   , Cn3 
+	.byte	W03
 @ 008   ----------------------------------------
-        .byte   W72
+	.byte	W07
+	.byte		        Gn3 
+	.byte	W10
+	.byte		N36   , Dn3 
+	.byte	W36
+	.byte	W03
+	.byte		N08   , Cn3 
+	.byte	W10
+	.byte		N09   , Gn3 
+	.byte	W10
+	.byte		N36   , Dn3 
+	.byte	W20
 @ 009   ----------------------------------------
-        .byte   W72
+	.byte	W20
+	.byte		N08   , Cn3 
+	.byte	W10
+	.byte		        Gn3 
+	.byte	W09
+	.byte		        An3 
+	.byte	W10
+	.byte		N09   , Gn3 
+	.byte	W10
+	.byte		        Fs3 
+	.byte	W10
+	.byte		        Dn3 
+	.byte	W10
+	.byte		N08   , Cn3 
+	.byte	W10
+	.byte		N60   , An2 
+	.byte	W07
 @ 010   ----------------------------------------
-        .byte   W72
+	.byte	W92
+	.byte	W02
+	.byte		VOICE , 66
+	.byte		VOL   , 16*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 109
+	.byte		PAN   , c_v-64
+	.byte		VOL   , 29*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 84
+	.byte		PAN   , c_v-10
+	.byte		VOL   , 22*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 84
+	.byte		PAN   , c_v-10
+	.byte		N09   , Dn4 
+	.byte	W02
 @ 011   ----------------------------------------
-        .byte   W72
+	.byte	W08
+	.byte		        Gn3 
+	.byte	W10
+	.byte		VOL   , 18*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 32
+	.byte		PAN   , c_v+0
+	.byte		VOL   , 12*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 109
+	.byte		PAN   , c_v-18
+	.byte		N56   , As3 
+	.byte	W24
+	.byte	W02
+	.byte		VOL   , 18*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 32
+	.byte		PAN   , c_v+0
+	.byte	W04
+	.byte		VOL   , 22*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 84
+	.byte		PAN   , c_v-10
+	.byte	W30
+	.byte		VOL   , 27*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v-21
+	.byte		VOL   , 31*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v-7
+	.byte		N56   , Bn3 
+	.byte	W18
 @ 012   ----------------------------------------
-        .byte   W72
+	.byte	W60
+	.byte	W01
+	.byte		VOL   , 27*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v+0
+	.byte		VOL   , 22*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 84
+	.byte		PAN   , c_v-10
+	.byte		N09   , Dn4 
+	.byte	W10
+	.byte		N08   , Gn3 
+	.byte	W10
+	.byte		N36   , As3 
+	.byte	W15
 @ 013   ----------------------------------------
-        .byte   W72
+	.byte	W24
+	.byte		N09   , Dn4 
+	.byte	W10
+	.byte		        As3 
+	.byte	W10
+	.byte		N36   
+	.byte	W36
+	.byte	W03
+	.byte		N08   , Dn4 
+	.byte	W10
+	.byte		N09   , Gn3 
+	.byte	W03
 @ 014   ----------------------------------------
-        .byte   W72
+	.byte	W07
+	.byte		N36   , As3 
+	.byte	W40
+	.byte		N08   , Dn4 
+	.byte	W10
+	.byte		N09   , As3 
+	.byte	W10
+	.byte		N18   
+	.byte	W24
+	.byte	W03
+	.byte		VOICE , 48
+	.byte		VOL   , 8*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 33
+	.byte		PAN   , c_v+63
+	.byte		VOL   , 0*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 0
+	.byte		PAN   , c_v-64
+	.byte		VOL   , 0*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 0
+	.byte		PAN   , c_v-64
+	.byte		N36   , Dn3 
+	.byte	W02
 @ 015   ----------------------------------------
-        .byte   W72
+	.byte	W36
+	.byte	W01
+	.byte		N08   , Cn3 
+	.byte	W10
+	.byte		        Gn3 
+	.byte	W10
+	.byte		N36   , Dn3 
+	.byte	W36
+	.byte	W03
 @ 016   ----------------------------------------
-        .byte   W72
+	.byte	W01
+	.byte		N09   , Cn3 
+	.byte	W10
+	.byte		        Gn3 
+	.byte	W10
+	.byte		N36   , Dn3 
+	.byte	W36
+	.byte	W03
+	.byte		N08   , Cn3 
+	.byte	W10
+	.byte		        Gn3 
+	.byte	W10
+	.byte		N36   , Dn3 
+	.byte	W16
 @ 017   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_2_1
+	.byte	W24
+	.byte		N18   , Cn3 
+	.byte	W19
+	.byte		N36   , Dn3 
+	.byte	W40
+	.byte		N08   , Cn3 
+	.byte	W10
+	.byte		        Gn3 
+	.byte	W03
 @ 018   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_2_2
+	.byte	W07
+	.byte		N36   , Dn3 
+	.byte	W36
+	.byte	W03
+	.byte		N09   , Cn3 
+	.byte	W10
+	.byte		        Gn3 
+	.byte	W10
+	.byte		N36   , Dn3 
+	.byte	W30
 @ 019   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_2_3
+	.byte	W10
+	.byte		N09   , Cn3 
+	.byte	W10
+	.byte		        Gn3 
+	.byte	W09
+	.byte		        An3 
+	.byte	W10
+	.byte		N08   , Gn3 
+	.byte	W10
+	.byte		        Fs3 
+	.byte	W10
+	.byte		        Dn3 
+	.byte	W10
+	.byte		        Cn3 
+	.byte	W10
+	.byte		N21   , An2 
+	.byte	W17
 @ 020   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_2_4
+	.byte	W05
+	.byte		VOICE , 49
+	.byte		VOL   , 12*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 33
+	.byte		PAN   , c_v-64
+	.byte		VOL   , 16*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 109
+	.byte		PAN   , c_v-18
+	.byte		VOL   , 15*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 109
+	.byte		PAN   , c_v-18
+	.byte		BEND  , c_v+0
+	.byte		N18   , As2 
+	.byte	W20
+	.byte		N18   
+	.byte	W20
+	.byte		        Cs3 
+	.byte	W20
+	.byte		VOL   , 23*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 32
+	.byte		PAN   , c_v-32
+	.byte		VOL   , 26*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 84
+	.byte		PAN   , c_v-10
+	.byte		N19   , En3 
+	.byte	W20
+	.byte		        Gn3 
+	.byte	W11
 @ 021   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_2_5
+	.byte	W06
+feb20230202231013_3_B1:
+	.byte	W04
+	.byte		VOL   , 23*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 32
+	.byte		PAN   , c_v+0
+	.byte		VOL   , 15*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 109
+	.byte		PAN   , c_v-18
+	.byte		TIE   , An3 , v088
+	.byte	W68
+	.byte	W02
+	.byte		VOL   , 23*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 32
+	.byte		PAN   , c_v+0
+	.byte	W03
+	.byte		VOL   , 26*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 84
+	.byte		PAN   , c_v-10
+	.byte	W13
 @ 022   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_2_4
+	.byte	W05
+	.byte		VOL   , 32*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v-21
+	.byte	W24
+	.byte	W02
+	.byte		EOT   
+	.byte	W01
+	.byte		VOL   , 15*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 109
+	.byte		PAN   , c_v+27
+	.byte		VOL   , 11*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 33
+	.byte		PAN   , c_v+0
+	.byte		TIE   , Gs3 
+	.byte	W60
+	.byte	W02
+	.byte		VOL   , 15*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 109
+	.byte		PAN   , c_v-18
+	.byte	W02
 @ 023   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_2_5
+	.byte	W16
+	.byte		VOL   , 23*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 32
+	.byte		PAN   , c_v+0
+	.byte	W04
+	.byte		VOL   , 26*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 84
+	.byte		PAN   , c_v-10
+	.byte	W32
+	.byte	W01
+	.byte		EOT   
+	.byte	W23
+	.byte		N19   , Ds4 
+	.byte	W20
 @ 024   ----------------------------------------
-        .byte   W72
+	.byte		        Cn4 
+	.byte	W21
+	.byte		        Cs4 
+	.byte	W20
+	.byte		        Gs3 
+	.byte	W20
+	.byte		N20   , As3 
+	.byte	W21
+	.byte		VOL   , 15*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 109
+	.byte		PAN   , c_v+27
+	.byte		VOL   , 3*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 125
+	.byte		PAN   , c_v-64
+	.byte		TIE   , Cn4 
+	.byte	W14
 @ 025   ----------------------------------------
-        .byte   W72
+	.byte	W84
+	.byte	W03
+	.byte		VOL   , 11*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 33
+	.byte		PAN   , c_v+0
+	.byte	W09
 @ 026   ----------------------------------------
-        .byte   W72
+	.byte	W07
+	.byte		EOT   
+	.byte	W02
+	.byte		TIE   
+	.byte	W78
+	.byte		VOL   , 15*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 109
+	.byte		PAN   , c_v-18
+	.byte	W09
 @ 027   ----------------------------------------
-        .byte   W72
+	.byte	W90
+	.byte		EOT   
+	.byte	W06
 @ 028   ----------------------------------------
-        .byte   W72
+	.byte	W32
+	.byte	W03
+	.byte		VOICE , 66
+	.byte		VOL   , 23*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 32
+	.byte		PAN   , c_v-32
+	.byte		VOL   , 26*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 84
+	.byte		PAN   , c_v-10
+	.byte		VOL   , 22*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 84
+	.byte		PAN   , c_v-10
+	.byte		BEND  , c_v+0
+	.byte		N09   , Dn4 
+	.byte	W10
+	.byte		        Gn3 
+	.byte	W09
+	.byte		VOL   , 18*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 32
+	.byte		PAN   , c_v+0
+	.byte		VOL   , 12*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 109
+	.byte		PAN   , c_v-18
+	.byte		N56   , As3 
+	.byte	W18
+	.byte		VOL   , 18*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 32
+	.byte		PAN   , c_v+0
+	.byte	W05
+	.byte		VOL   , 22*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 84
+	.byte		PAN   , c_v-10
+	.byte	W19
 @ 029   ----------------------------------------
-        .byte   W72
+	.byte	W09
+	.byte		VOL   , 27*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v-21
+	.byte	W09
+	.byte		VOL   , 31*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v-7
+	.byte		N56   , Bn3 
+	.byte	W01
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v-16
+	.byte	W76
+	.byte	W01
 @ 030   ----------------------------------------
-        .byte   W72
+	.byte	W01
+	.byte		VOL   , 27*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v+0
+	.byte		VOL   , 22*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 84
+	.byte		PAN   , c_v-10
+	.byte		N09   , Dn4 
+	.byte	W10
+	.byte		        Gn3 
+	.byte	W10
+	.byte		N36   , As3 
+	.byte	W36
+	.byte	W03
+	.byte		N08   , Dn4 
+	.byte	W10
+	.byte		        As3 
+	.byte	W10
+	.byte		N36   
+	.byte	W16
 @ 031   ----------------------------------------
-        .byte   W72
+	.byte	W24
+	.byte		N08   , Dn4 
+	.byte	W10
+	.byte		N09   , Gn3 
+	.byte	W10
+	.byte		N36   , As3 
+	.byte	W36
+	.byte	W03
+	.byte		N09   , Dn4 
+	.byte	W10
+	.byte		N08   , As3 
+	.byte	W03
 @ 032   ----------------------------------------
-        .byte   W72
+	.byte	W07
+	.byte		N18   
+	.byte	W24
+	.byte	W03
+	.byte		VOICE , 48
+	.byte		VOL   , 12*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 109
+	.byte		PAN   , c_v+27
+	.byte		VOL   , 2*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 125
+	.byte		PAN   , c_v-64
+	.byte		VOL   , 4*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 125
+	.byte		PAN   , c_v-64
+	.byte		N36   , Dn3 
+	.byte	W40
+	.byte		VOL   , 0*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 0
+	.byte		PAN   , c_v-64
+	.byte		N08   , Cn3 
+	.byte	W10
+	.byte		        Gn3 
+	.byte	W10
+	.byte		VOL   , 4*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 125
+	.byte		PAN   , c_v-64
+	.byte		N36   , Dn3 
+	.byte	W02
 @ 033   ----------------------------------------
-        .byte   W72
+	.byte	W36
+	.byte	W01
+	.byte		VOL   , 0*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 0
+	.byte		PAN   , c_v-64
+	.byte		N09   , Cn3 
+	.byte	W10
+	.byte		        Gn3 
+	.byte	W10
+	.byte		VOL   , 4*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 125
+	.byte		PAN   , c_v-64
+	.byte		N36   , Dn3 
+	.byte	W36
+	.byte	W03
 @ 034   ----------------------------------------
-        .byte   W72
+	.byte		VOL   , 0*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 0
+	.byte		PAN   , c_v-64
+	.byte	W01
+	.byte		N08   , Cn3 
+	.byte	W09
+	.byte		        Gn3 
+	.byte	W10
+	.byte		VOL   , 4*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 125
+	.byte		PAN   , c_v-64
+	.byte		N36   , Dn3 
+	.byte	W40
+	.byte		VOL   , 0*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 0
+	.byte		PAN   , c_v-64
+	.byte		N18   , Cn3 
+	.byte	W20
+	.byte		VOL   , 4*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 125
+	.byte		PAN   , c_v-64
+	.byte		N36   , Dn3 
+	.byte	W16
 @ 035   ----------------------------------------
-        .byte   W72
+	.byte	W23
+	.byte		VOL   , 0*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 0
+	.byte		PAN   , c_v-64
+	.byte		N09   , Cn3 
+	.byte	W10
+	.byte		N08   , Gn3 
+	.byte	W10
+	.byte		VOL   , 4*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 125
+	.byte		PAN   , c_v-64
+	.byte		N36   , Dn3 
+	.byte	W40
+	.byte		VOL   , 0*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 0
+	.byte		PAN   , c_v-64
+	.byte		N09   , Cn3 
+	.byte	W10
+	.byte		N08   , Gn3 
+	.byte	W03
 @ 036   ----------------------------------------
-        .byte   W72
+	.byte	W06
+	.byte		VOL   , 4*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 125
+	.byte		PAN   , c_v-64
+	.byte		N36   , Dn3 
+	.byte	W40
+	.byte		VOL   , 0*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 0
+	.byte		PAN   , c_v-64
+	.byte		N08   , Cn3 
+	.byte	W10
+	.byte		N09   , Gn3 
+	.byte	W10
+	.byte		        An3 
+	.byte	W10
+	.byte		        Gn3 
+	.byte	W10
+	.byte		        Fs3 
+	.byte	W10
 @ 037   ----------------------------------------
-        .byte   W72
+	.byte		N08   , Dn3 
+	.byte	W09
+	.byte		        Cn3 
+	.byte	W10
+	.byte		N60   , An2 
+	.byte	W76
+	.byte	W01
 @ 038   ----------------------------------------
-        .byte   W72
+	.byte	W24
+	.byte	W01
+	.byte		VOICE , 66
+	.byte		VOL   , 16*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 109
+	.byte		PAN   , c_v-64
+	.byte		VOL   , 29*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 84
+	.byte		PAN   , c_v-10
+	.byte		VOL   , 22*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 84
+	.byte		PAN   , c_v-10
+	.byte		N09   , Dn4 
+	.byte	W10
+	.byte		N08   , Gn3 
+	.byte	W10
+	.byte		VOL   , 18*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 32
+	.byte		PAN   , c_v+0
+	.byte		VOL   , 12*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 109
+	.byte		PAN   , c_v-18
+	.byte		N56   , As3 
+	.byte	W17
+	.byte		VOL   , 18*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 32
+	.byte		PAN   , c_v+0
+	.byte	W05
+	.byte		VOL   , 22*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 84
+	.byte		PAN   , c_v-10
+	.byte	W28
+	.byte	W01
 @ 039   ----------------------------------------
-        .byte   W72
+	.byte		VOL   , 27*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v-21
+	.byte	W08
+	.byte		VOL   , 31*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v-7
+	.byte		N56   , Bn3 
+	.byte	W01
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v-16
+	.byte	W78
+	.byte		VOL   , 27*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v+0
+	.byte		VOL   , 22*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 84
+	.byte		PAN   , c_v-10
+	.byte		N09   , Dn4 
+	.byte	W09
 @ 040   ----------------------------------------
-        .byte   W72
+	.byte	W01
+	.byte		N08   , Gn3 
+	.byte	W10
+	.byte		N36   , As3 
+	.byte	W40
+	.byte		N08   , Dn4 
+	.byte	W09
+	.byte		N09   , As3 
+	.byte	W10
+	.byte		N36   
+	.byte	W24
+	.byte	W02
 @ 041   ----------------------------------------
-        .byte   W72
+	.byte	W14
+	.byte		N09   , Dn4 
+	.byte	W10
+	.byte		        Gn3 
+	.byte	W10
+	.byte		N36   , As3 
+	.byte	W36
+	.byte	W03
+	.byte		N09   , Dn4 
+	.byte	W10
+	.byte		        As3 
+	.byte	W10
+	.byte		N18   
+	.byte	W03
 @ 042   ----------------------------------------
-        .byte   W72
+	.byte	W24
+	.byte		VOICE , 48
+	.byte		VOL   , 12*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 109
+	.byte		PAN   , c_v+27
+	.byte		VOL   , 2*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 125
+	.byte		PAN   , c_v-64
+	.byte		VOL   , 4*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 125
+	.byte		PAN   , c_v-64
+	.byte		N36   , Dn3 
+	.byte	W40
+	.byte		VOL   , 0*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 0
+	.byte		PAN   , c_v-64
+	.byte		N08   , Cn3 
+	.byte	W10
+	.byte		        Gn3 
+	.byte	W10
+	.byte		VOL   , 4*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 125
+	.byte		PAN   , c_v-64
+	.byte		N36   , Dn3 
+	.byte	W12
 @ 043   ----------------------------------------
-        .byte   W72
+	.byte	W24
+	.byte	W03
+	.byte		VOL   , 0*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 0
+	.byte		PAN   , c_v-64
+	.byte		N09   , Cn3 
+	.byte	W10
+	.byte		N08   , Gn3 
+	.byte	W10
+	.byte		VOL   , 4*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 125
+	.byte		PAN   , c_v-64
+	.byte		N36   , Dn3 
+	.byte	W40
+	.byte		VOL   , 0*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 0
+	.byte		PAN   , c_v-64
+	.byte		N09   , Cn3 
+	.byte	W09
 @ 044   ----------------------------------------
-        .byte   GOTO
-         .word  crisis_1_2_LOOP
-        .byte   W72
+	.byte		        Gn3 
+	.byte	W10
+	.byte		VOL   , 4*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 125
+	.byte		PAN   , c_v-64
+	.byte		N36   , Dn3 
+	.byte	W40
+	.byte		VOL   , 0*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 0
+	.byte		PAN   , c_v-64
+	.byte		N18   , Cn3 
+	.byte	W20
+	.byte		VOL   , 4*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 125
+	.byte		PAN   , c_v-64
+	.byte		N36   , Dn3 
+	.byte	W24
+	.byte	W02
 @ 045   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_2_1
+	.byte	W13
+	.byte		VOL   , 0*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 0
+	.byte		PAN   , c_v-64
+	.byte		N08   , Cn3 
+	.byte	W10
+	.byte		        Gn3 
+	.byte	W10
+	.byte		VOL   , 4*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 125
+	.byte		PAN   , c_v-64
+	.byte		N36   , Dn3 
+	.byte	W40
+	.byte		VOL   , 0*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 0
+	.byte		PAN   , c_v-64
+	.byte		N08   , Cn3 
+	.byte	W10
+	.byte		        Gn3 
+	.byte	W09
+	.byte		VOL   , 4*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 125
+	.byte		PAN   , c_v-64
+	.byte	W01
+	.byte		N36   , Dn3 
+	.byte	W03
 @ 046   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_2_2
+	.byte	W36
+	.byte		VOL   , 0*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 0
+	.byte		PAN   , c_v-64
+	.byte		N09   , Cn3 
+	.byte	W10
+	.byte		        Gn3 
+	.byte	W10
+	.byte		N08   , An3 
+	.byte	W10
+	.byte		        Gn3 
+	.byte	W10
+	.byte		        Fs3 
+	.byte	W10
+	.byte		        Dn3 
+	.byte	W10
 @ 047   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_2_3
+	.byte		        Cn3 
+	.byte	W09
+	.byte		N21   , An2 
+	.byte	W23
+	.byte		VOICE , 49
+	.byte		VOL   , 16*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 109
+	.byte		PAN   , c_v-64
+	.byte		VOL   , 29*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 84
+	.byte		PAN   , c_v-10
+	.byte		VOL   , 26*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 84
+	.byte		PAN   , c_v-10
+	.byte		BEND  , c_v+0
+	.byte		N18   , As2 
+	.byte	W19
+	.byte		N18   
+	.byte	W20
+	.byte		        Cs3 
+	.byte	W20
+	.byte		N19   , En3 
+	.byte	W05
 @ 048   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_2_4
-@ 049   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_2_5
-@ 050   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_2_4
-@ 051   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_2_5
-@ 052   ----------------------------------------
-        .byte   W72
-@ 053   ----------------------------------------
-        .byte   W72
-@ 054   ----------------------------------------
-        .byte   W72
-@ 055   ----------------------------------------
-        .byte   W72
-@ 056   ----------------------------------------
-        .byte   W72
-@ 057   ----------------------------------------
-        .byte   W72
-@ 058   ----------------------------------------
-        .byte   W72
-@ 059   ----------------------------------------
-        .byte   W72
-@ 060   ----------------------------------------
-        .byte   W72
-@ 061   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_2_1
-@ 062   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_2_2
-@ 063   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_2_3
-@ 064   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_2_4
-@ 065   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_2_5
-@ 066   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_2_4
-@ 067   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_2_5
-@ 068   ----------------------------------------
-        .byte   W72
-@ 069   ----------------------------------------
-        .byte   W72
-@ 070   ----------------------------------------
-        .byte   W72
-@ 071   ----------------------------------------
-        .byte   W72
-@ 072   ----------------------------------------
-        .byte   W72
-@ 073   ----------------------------------------
-        .byte   W72
-@ 074   ----------------------------------------
-        .byte   W72
-@ 075   ----------------------------------------
-        .byte   W72
-@ 076   ----------------------------------------
-        .byte   W72
-@ 077   ----------------------------------------
-        .byte   W72
-@ 078   ----------------------------------------
-        .byte   W72
-@ 079   ----------------------------------------
-        .byte   W72
-@ 080   ----------------------------------------
-        .byte   W72
-@ 081   ----------------------------------------
-        .byte   W72
-@ 082   ----------------------------------------
-        .byte   W72
-@ 083   ----------------------------------------
-        .byte   W72
-@ 084   ----------------------------------------
-        .byte   W72
-@ 085   ----------------------------------------
-        .byte   W72
-@ 086   ----------------------------------------
-        .byte   W72
-@ 087   ----------------------------------------
-        .byte   W72
-@ 088   ----------------------------------------
-        .byte   FINE
+	.byte	W16
+	.byte		        Gn3 
+	.byte	W20
+	.byte	GOTO
+	 .word	feb20230202231013_3_B1
+feb20230202231013_3_B2:
+	.byte		VOL   , 23*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 32
+	.byte		PAN   , c_v+0
+	.byte		VOL   , 15*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 109
+	.byte		PAN   , c_v-18
+	.byte	FINE
 
-@****************** Track 3 (Midi-Chn.3) ******************@
+@**************** Track 4 (Midi-Chn.6) ****************@
 
-crisis_1_3:
-        .byte   KEYSH , crisis_1_key+0
+feb20230202231013_4:
+	.byte	KEYSH , feb20230202231013_key+0
 @ 000   ----------------------------------------
-crisis_1_3_LOOP:
-        .byte           VOICE , 48
-        .byte           VOL   , 114
-        .byte           PAN   , c_v-35
-        .byte   W72
+	.byte		VOICE , 66
+	.byte		MODT  , 0
+	.byte		LFOS  , 44
+	.byte		MODT  , 0
+	.byte		LFOS  , 44
+	.byte		BENDR , 12
+	.byte		VOL   , 0*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 0
+	.byte		PAN   , c_v-64
+	.byte	W96
 @ 001   ----------------------------------------
-        .byte   W72
+	.byte	W07
+	.byte		VOL   , 16*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 109
+	.byte		PAN   , c_v-64
+	.byte		VOL   , 39*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v+11
+	.byte		VOL   , 31*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v+11
+	.byte		VOL   , 31*feb20230202231013_mvl/mxv
+	.byte		BEND  , c_v+0
+	.byte		N08   , Gn4 , v088
+	.byte	W10
+	.byte		        Dn4 
+	.byte	W10
+	.byte		VOL   , 27*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v+21
+	.byte		VOL   , 18*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 32
+	.byte		PAN   , c_v+0
+	.byte		N56   , Fn4 
+	.byte	W07
+	.byte		VOL   , 22*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 84
+	.byte		PAN   , c_v+16
+	.byte	W30
+	.byte	W01
+	.byte		VOL   , 27*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v+21
+	.byte	W08
+	.byte		VOL   , 31*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v+11
+	.byte	W14
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+16
+	.byte		N56   , Gn4 
+	.byte	W02
+	.byte		VOL   , 37*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v+8
+	.byte	W07
 @ 002   ----------------------------------------
-        .byte   W72
+	.byte	W68
+	.byte	W02
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+16
+	.byte		VOL   , 31*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v+11
+	.byte		N08   
+	.byte	W10
+	.byte		        Dn4 
+	.byte	W10
+	.byte		N36   , Fn4 
+	.byte	W06
 @ 003   ----------------------------------------
-        .byte   W72
+	.byte	W32
+	.byte	W01
+	.byte		N08   , Gn4 
+	.byte	W10
+	.byte		        Dn4 
+	.byte	W10
+	.byte		N36   , Fn4 
+	.byte	W40
+	.byte		N08   , Gn4 
+	.byte	W03
 @ 004   ----------------------------------------
-        .byte   W72
+	.byte	W06
+	.byte		        Dn4 
+	.byte	W10
+	.byte		N36   , Fn4 
+	.byte	W40
+	.byte		N08   , Gn4 
+	.byte	W10
+	.byte		        Dn4 
+	.byte	W10
+	.byte		N18   , Fn4 
+	.byte	W20
 @ 005   ----------------------------------------
-        .byte   W72
+	.byte		VOICE , 48
+	.byte		VOL   , 22*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 84
+	.byte		PAN   , c_v+42
+	.byte		VOL   , 12*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 109
+	.byte		PAN   , c_v+27
+	.byte		VOL   , 16*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 109
+	.byte		PAN   , c_v+27
+	.byte		N36   , Dn4 
+	.byte	W40
+	.byte		VOL   , 12*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 33
+	.byte		PAN   , c_v+0
+	.byte		N08   , Cn4 
+	.byte	W10
+	.byte		N09   , Gn4 
+	.byte	W10
+	.byte		VOL   , 16*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 109
+	.byte		PAN   , c_v+27
+	.byte		N36   , Dn4 
+	.byte	W36
 @ 006   ----------------------------------------
-        .byte   W72
+	.byte	W03
+	.byte		VOL   , 12*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 33
+	.byte		PAN   , c_v+0
+	.byte		N08   , Cn4 
+	.byte	W10
+	.byte		N09   , Gn4 
+	.byte	W10
+	.byte		VOL   , 16*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 109
+	.byte		PAN   , c_v+27
+	.byte		N36   , Dn4 
+	.byte	W40
+	.byte		VOL   , 12*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 33
+	.byte		PAN   , c_v+0
+	.byte		N09   , Cn4 
+	.byte	W10
+	.byte		N08   , Gn4 
+	.byte	W09
+	.byte		VOL   , 16*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 109
+	.byte		PAN   , c_v+27
+	.byte	W01
+	.byte		N36   , Dn4 
+	.byte	W13
 @ 007   ----------------------------------------
-        .byte   W72
+	.byte	W24
+	.byte	W02
+	.byte		VOL   , 12*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 33
+	.byte		PAN   , c_v+0
+	.byte		N18   , Cn4 
+	.byte	W20
+	.byte		VOL   , 16*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 109
+	.byte		PAN   , c_v+27
+	.byte		N36   , Dn4 
+	.byte	W36
+	.byte	W03
+	.byte		VOL   , 12*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 33
+	.byte		PAN   , c_v+0
+	.byte		N09   , Cn4 
+	.byte	W10
+	.byte		        Gn4 
+	.byte	W01
 @ 008   ----------------------------------------
-crisis_1_3_8:
-        .byte           N48   , Dn3 , v089
-        .byte           N48   , Dn4
-        .byte   W48
-        .byte           N12   , Cn3
-        .byte           N12   , Cn4
-        .byte   W12
-        .byte                   Gn3
-        .byte           N12   , Gn4
-        .byte   W12
-        .byte   PEND
+	.byte	W09
+	.byte		VOL   , 16*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 109
+	.byte		PAN   , c_v+27
+	.byte		N36   , Dn4 
+	.byte	W40
+	.byte		VOL   , 12*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 33
+	.byte		PAN   , c_v+0
+	.byte		N08   , Cn4 
+	.byte	W10
+	.byte		N09   , Gn4 
+	.byte	W10
+	.byte		VOL   , 16*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 109
+	.byte		PAN   , c_v+27
+	.byte		N36   , Dn4 
+	.byte	W24
+	.byte	W03
 @ 009   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_3_8
+	.byte	W12
+	.byte		VOL   , 12*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 33
+	.byte		PAN   , c_v+0
+	.byte		N08   , Cn4 
+	.byte	W10
+	.byte		N09   , Gn4 
+	.byte	W10
+	.byte		        An4 
+	.byte	W10
+	.byte		        Gn4 
+	.byte	W10
+	.byte		N08   , Fs4 
+	.byte	W10
+	.byte		N09   , Dn4 
+	.byte	W10
+	.byte		N08   , Cn4 
+	.byte	W09
+	.byte		VOL   , 16*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 109
+	.byte		PAN   , c_v-18
+	.byte		VOL   , 24*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 32
+	.byte		PAN   , c_v+0
+	.byte	W01
+	.byte		N08   , An3 
+	.byte	W14
 @ 010   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_3_8
+	.byte	W92
+	.byte	W02
+	.byte		VOICE , 49
+	.byte		VOL   , 29*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 84
+	.byte		PAN   , c_v-10
+	.byte		VOL   , 39*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v+11
+	.byte		VOL   , 31*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v+11
+	.byte		N08   , Gn4 
+	.byte	W02
 @ 011   ----------------------------------------
-crisis_1_3_11:
-        .byte           N48   , Dn3 , v089
-        .byte           N48   , Dn4
-        .byte   W48
-        .byte           N24   , Cn3
-        .byte           N24   , Cn4
-        .byte   W24
-        .byte   PEND
+	.byte	W08
+	.byte		        Dn4 
+	.byte	W09
+	.byte		VOL   , 27*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v+21
+	.byte		VOL   , 18*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 32
+	.byte		PAN   , c_v+0
+	.byte		N56   , Fn4 
+	.byte	W07
+	.byte		VOL   , 22*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 84
+	.byte		PAN   , c_v+16
+	.byte	W30
+	.byte	W01
+	.byte		VOL   , 27*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v+21
+	.byte	W08
+	.byte		VOL   , 31*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v+11
+	.byte	W14
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+16
+	.byte		N56   , Gn4 
+	.byte	W02
+	.byte		VOL   , 37*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v+8
+	.byte	W17
 @ 012   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_3_8
+	.byte	W60
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+16
+	.byte		VOL   , 31*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v+11
+	.byte		N08   
+	.byte	W10
+	.byte		        Dn4 
+	.byte	W10
+	.byte		N36   , Fn4 
+	.byte	W16
 @ 013   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_3_8
+	.byte	W23
+	.byte		N08   , Gn4 
+	.byte	W10
+	.byte		        Dn4 
+	.byte	W10
+	.byte		N36   , Fn4 
+	.byte	W40
+	.byte		N08   , Gn4 
+	.byte	W10
+	.byte		        Dn4 
+	.byte	W03
 @ 014   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_3_8
+	.byte	W07
+	.byte		N36   , Fn4 
+	.byte	W36
+	.byte	W03
+	.byte		N08   , Gn4 
+	.byte	W10
+	.byte		        Dn4 
+	.byte	W10
+	.byte		N18   , Fn4 
+	.byte	W21
+	.byte		VOICE , 48
+	.byte		VOL   , 22*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 84
+	.byte		PAN   , c_v+42
+	.byte		VOL   , 12*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 109
+	.byte		PAN   , c_v+27
+	.byte		VOL   , 16*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 109
+	.byte		PAN   , c_v+27
+	.byte		N36   , Dn4 
+	.byte	W09
 @ 015   ----------------------------------------
-crisis_1_3_15:
-        .byte           N12   , An3 , v089
-        .byte           N12   , An4
-        .byte   W12
-        .byte                   Gn3
-        .byte           N12   , Gn4
-        .byte   W12
-        .byte                   Fs3
-        .byte           N12   , Fs4
-        .byte   W12
-        .byte                   Dn3
-        .byte           N12   , Dn4
-        .byte   W12
-        .byte                   Cn3
-        .byte           N12   , Cn4
-        .byte   W12
-        .byte                   An2
-        .byte           N12   , An3
-        .byte   W12
-        .byte   PEND
+	.byte	W30
+	.byte		VOL   , 12*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 33
+	.byte		PAN   , c_v+0
+	.byte		N08   , Cn4 
+	.byte	W10
+	.byte		        Gn4 
+	.byte	W10
+	.byte		VOL   , 16*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 109
+	.byte		PAN   , c_v+27
+	.byte		N36   , Dn4 
+	.byte	W36
+	.byte	W03
+	.byte		VOL   , 12*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 33
+	.byte		PAN   , c_v+0
+	.byte		N08   , Cn4 
+	.byte	W07
 @ 016   ----------------------------------------
-        .byte   W72
+	.byte	W03
+	.byte		N09   , Gn4 
+	.byte	W10
+	.byte		VOL   , 16*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 109
+	.byte		PAN   , c_v+27
+	.byte		N36   , Dn4 
+	.byte	W40
+	.byte		VOL   , 12*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 33
+	.byte		PAN   , c_v+0
+	.byte		N09   , Cn4 
+	.byte	W10
+	.byte		        Gn4 
+	.byte	W10
+	.byte		VOL   , 16*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 109
+	.byte		PAN   , c_v+27
+	.byte		N36   , Dn4 
+	.byte	W23
 @ 017   ----------------------------------------
-        .byte   W72
+	.byte	W16
+	.byte		VOL   , 12*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 33
+	.byte		PAN   , c_v+0
+	.byte		N18   , Cn4 
+	.byte	W20
+	.byte		VOL   , 16*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 109
+	.byte		PAN   , c_v+27
+	.byte		N36   , Dn4 
+	.byte	W36
+	.byte	W03
+	.byte		VOL   , 12*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 33
+	.byte		PAN   , c_v+0
+	.byte	W01
+	.byte		N08   , Cn4 
+	.byte	W09
+	.byte		        Gn4 
+	.byte	W10
+	.byte		VOL   , 16*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 109
+	.byte		PAN   , c_v+27
+	.byte		N36   , Dn4 
+	.byte	W01
 @ 018   ----------------------------------------
-        .byte   W72
+	.byte	W36
+	.byte	W03
+	.byte		VOL   , 12*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 33
+	.byte		PAN   , c_v+0
+	.byte		N09   , Cn4 
+	.byte	W10
+	.byte		N08   , Gn4 
+	.byte	W10
+	.byte		VOL   , 16*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 109
+	.byte		PAN   , c_v+27
+	.byte		N36   , Dn4 
+	.byte	W36
+	.byte	W01
 @ 019   ----------------------------------------
-        .byte   W72
+	.byte	W02
+	.byte		VOL   , 12*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 33
+	.byte		PAN   , c_v+0
+	.byte		N08   , Cn4 
+	.byte	W10
+	.byte		        Gn4 
+	.byte	W10
+	.byte		N09   , An4 
+	.byte	W10
+	.byte		N08   , Gn4 
+	.byte	W10
+	.byte		N09   , Fs4 
+	.byte	W10
+	.byte		N08   , Dn4 
+	.byte	W10
+	.byte		N09   , Cn4 
+	.byte	W10
+	.byte		VOL   , 16*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 109
+	.byte		PAN   , c_v-18
+	.byte		VOL   , 24*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 32
+	.byte		PAN   , c_v+0
+	.byte		N08   , An3 
+	.byte	W24
 @ 020   ----------------------------------------
-        .byte   W72
+	.byte	W04
+	.byte		VOL   , 29*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 84
+	.byte		PAN   , c_v-10
+	.byte		VOL   , 39*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v+11
+	.byte	W01
+	.byte		VOICE , 49
+	.byte		VOL   , 36*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v+11
+	.byte		BEND  , c_v+0
+	.byte		N18   , Dn3 
+	.byte	W19
+	.byte		VOL   , 32*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v+21
+	.byte		VOL   , 26*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 84
+	.byte		PAN   , c_v+16
+	.byte		N18   , Cs3 
+	.byte	W20
+	.byte		        En3 
+	.byte	W20
+	.byte		VOL   , 32*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v+0
+	.byte		VOL   , 36*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v+11
+	.byte		N19   , Gn3 
+	.byte	W20
+	.byte		VOL   , 42*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+16
+	.byte		N19   , As3 
+	.byte	W12
 @ 021   ----------------------------------------
-        .byte   W72
+	.byte	W06
+feb20230202231013_4_B1:
+	.byte		VOICE , 49
+	.byte		PAN   , c_v+16
+	.byte		VOL   , 42*feb20230202231013_mvl/mxv
+	.byte		PAN   , c_v+16
+	.byte		VOL   , 42*feb20230202231013_mvl/mxv
+	.byte	W03
+	.byte		        32*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v+42
+	.byte		VOL   , 15*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 109
+	.byte		PAN   , c_v+27
+	.byte		TIE   , Dn4 , v088
+	.byte	W68
+	.byte	W03
+	.byte		VOL   , 23*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 32
+	.byte		PAN   , c_v+0
+	.byte	W02
+	.byte		VOL   , 26*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 84
+	.byte		PAN   , c_v+16
+	.byte	W14
 @ 022   ----------------------------------------
-        .byte   W72
+	.byte	W04
+	.byte		VOL   , 32*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v+21
+	.byte	W24
+	.byte	W02
+	.byte		EOT   
+	.byte	W02
+	.byte		VOL   , 26*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 84
+	.byte		PAN   , c_v+42
+	.byte		VOL   , 11*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 33
+	.byte		PAN   , c_v+0
+	.byte		TIE   
+	.byte	W60
+	.byte	W01
+	.byte		VOL   , 15*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 109
+	.byte		PAN   , c_v+27
+	.byte	W03
 @ 023   ----------------------------------------
-        .byte   W72
+	.byte	W15
+	.byte		VOL   , 23*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 32
+	.byte		PAN   , c_v+0
+	.byte	W04
+	.byte		VOL   , 26*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 84
+	.byte		PAN   , c_v+16
+	.byte	W32
+	.byte	W02
+	.byte		EOT   
+	.byte	W21
+	.byte		N19   , As4 
+	.byte	W20
+	.byte		        Gn4 
+	.byte	W02
 @ 024   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_3_8
+	.byte	W19
+	.byte		        Gs4 
+	.byte	W20
+	.byte		        Ds4 
+	.byte	W21
+	.byte		N20   , Fn4 
+	.byte	W22
+	.byte		VOL   , 15*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 109
+	.byte		PAN   , c_v+63
+	.byte		VOL   , 3*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 125
+	.byte		PAN   , c_v+63
+	.byte		TIE   , Gn4 
+	.byte	W14
 @ 025   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_3_8
+	.byte	W54
+	.byte		VOL   , 11*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 33
+	.byte		PAN   , c_v+0
+	.byte	W42
 @ 026   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_3_8
+	.byte	W07
+	.byte		EOT   
+	.byte	W01
+	.byte		VOL   , 3*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 125
+	.byte		PAN   , c_v+63
+	.byte		TIE   , An4 
+	.byte	W60
+	.byte	W02
+	.byte		VOL   , 11*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 33
+	.byte		PAN   , c_v+0
+	.byte	W24
+	.byte	W02
 @ 027   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_3_11
+	.byte	W28
+	.byte	W01
+	.byte		EOT   
+	.byte	W66
+	.byte	W01
 @ 028   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_3_8
+	.byte	W24
+	.byte		VOICE , 66
+	.byte	W10
+	.byte		VOL   , 23*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 32
+	.byte		PAN   , c_v-32
+	.byte		VOL   , 36*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v+11
+	.byte		VOL   , 31*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v+11
+	.byte		BEND  , c_v+0
+	.byte		N08   , Gn4 
+	.byte	W10
+	.byte		        Dn4 
+	.byte	W10
+	.byte		VOL   , 27*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v+21
+	.byte		VOL   , 22*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 84
+	.byte		PAN   , c_v+16
+	.byte		N56   , Fn4 
+	.byte	W28
+	.byte		VOL   , 27*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v+21
+	.byte	W07
+	.byte		VOL   , 31*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v+11
+	.byte	W07
 @ 029   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_3_8
+	.byte	W12
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+16
+	.byte	W05
+	.byte		VOL   , 37*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v+8
+	.byte		VOL   , 42*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v+12
+	.byte		N56   , Gn4 
+	.byte	W78
+	.byte	W01
 @ 030   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_3_8
+	.byte		VOL   , 37*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v+23
+	.byte		VOL   , 31*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v+11
+	.byte		N08   
+	.byte	W10
+	.byte		        Dn4 
+	.byte	W10
+	.byte		N36   , Fn4 
+	.byte	W40
+	.byte		N08   , Gn4 
+	.byte	W10
+	.byte		        Dn4 
+	.byte	W09
+	.byte		N36   , Fn4 
+	.byte	W17
 @ 031   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_3_15
+	.byte	W23
+	.byte		N08   , Gn4 
+	.byte	W10
+	.byte		        Dn4 
+	.byte	W10
+	.byte		N36   , Fn4 
+	.byte	W36
+	.byte	W03
+	.byte		N08   , Gn4 
+	.byte	W10
+	.byte		        Dn4 
+	.byte	W04
 @ 032   ----------------------------------------
-        .byte   W72
+	.byte	W06
+	.byte		N18   , Fn4 
+	.byte	W21
+	.byte		VOICE , 48
+	.byte		VOL   , 22*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 84
+	.byte		PAN   , c_v+42
+	.byte		VOL   , 12*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 109
+	.byte		PAN   , c_v+27
+	.byte		VOL   , 16*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 109
+	.byte		PAN   , c_v+27
+	.byte		N36   , Dn4 
+	.byte	W36
+	.byte	W03
+	.byte		VOL   , 12*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 33
+	.byte		PAN   , c_v+0
+	.byte		N09   , Cn4 
+	.byte	W10
+	.byte		        Gn4 
+	.byte	W10
+	.byte		VOL   , 16*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 109
+	.byte		PAN   , c_v+27
+	.byte		N36   , Dn4 
+	.byte	W10
 @ 033   ----------------------------------------
-        .byte   W72
+	.byte	W30
+	.byte		VOL   , 12*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 33
+	.byte		PAN   , c_v+0
+	.byte		N09   , Cn4 
+	.byte	W10
+	.byte		        Gn4 
+	.byte	W10
+	.byte		VOL   , 16*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 109
+	.byte		PAN   , c_v+27
+	.byte		N36   , Dn4 
+	.byte	W36
+	.byte	W03
+	.byte		VOL   , 12*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 33
+	.byte		PAN   , c_v+0
+	.byte		N08   , Cn4 
+	.byte	W07
 @ 034   ----------------------------------------
-        .byte   W72
+	.byte	W03
+	.byte		N09   , Gn4 
+	.byte	W10
+	.byte		VOL   , 16*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 109
+	.byte		PAN   , c_v+27
+	.byte		N36   , Dn4 
+	.byte	W36
+	.byte	W03
+	.byte		VOL   , 12*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 33
+	.byte		PAN   , c_v+0
+	.byte	W01
+	.byte		N18   , Cn4 
+	.byte	W19
+	.byte		VOL   , 16*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 109
+	.byte		PAN   , c_v+27
+	.byte		N36   , Dn4 
+	.byte	W24
 @ 035   ----------------------------------------
-        .byte   W72
+	.byte	W16
+	.byte		VOL   , 12*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 33
+	.byte		PAN   , c_v+0
+	.byte		N08   , Cn4 
+	.byte	W10
+	.byte		        Gn4 
+	.byte	W10
+	.byte		VOL   , 16*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 109
+	.byte		PAN   , c_v+27
+	.byte		N36   , Dn4 
+	.byte	W36
+	.byte	W03
+	.byte		VOL   , 12*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 33
+	.byte		PAN   , c_v+0
+	.byte		N09   , Cn4 
+	.byte	W10
+	.byte		        Gn4 
+	.byte	W10
+	.byte		VOL   , 16*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 109
+	.byte		PAN   , c_v+27
+	.byte		N36   , Dn4 
+	.byte	W01
 @ 036   ----------------------------------------
-        .byte   W72
+	.byte	W36
+	.byte	W03
+	.byte		VOL   , 12*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 33
+	.byte		PAN   , c_v+0
+	.byte		N08   , Cn4 
+	.byte	W10
+	.byte		N09   , Gn4 
+	.byte	W09
+	.byte		        An4 
+	.byte	W10
+	.byte		        Gn4 
+	.byte	W10
+	.byte		N08   , Fs4 
+	.byte	W10
+	.byte		        Dn4 
+	.byte	W08
 @ 037   ----------------------------------------
-        .byte   W72
+	.byte	W02
+	.byte		        Cn4 
+	.byte	W10
+	.byte		VOL   , 16*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 109
+	.byte		PAN   , c_v-18
+	.byte		VOL   , 29*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 84
+	.byte		PAN   , c_v+16
+	.byte		N08   , An3 
+	.byte	W84
 @ 038   ----------------------------------------
-        .byte   W72
+	.byte	W24
+	.byte		VOICE , 49
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v+0
+	.byte		VOL   , 39*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v+11
+	.byte		VOL   , 31*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v+11
+	.byte		N08   , Gn4 
+	.byte	W10
+	.byte		        Dn4 
+	.byte	W10
+	.byte		VOL   , 27*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v+21
+	.byte		VOL   , 22*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 84
+	.byte		PAN   , c_v+16
+	.byte		N56   , Fn4 
+	.byte	W28
+	.byte		VOL   , 27*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v+21
+	.byte	W07
+	.byte		VOL   , 31*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v+11
+	.byte	W17
 @ 039   ----------------------------------------
-        .byte   W72
+	.byte	W02
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+16
+	.byte	W05
+	.byte		VOL   , 37*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v+8
+	.byte		VOL   , 42*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v+12
+	.byte		N56   , Gn4 
+	.byte	W78
+	.byte	W01
+	.byte		VOL   , 37*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v+23
+	.byte		VOL   , 31*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v+11
+	.byte		N08   
+	.byte	W10
 @ 040   ----------------------------------------
-        .byte   W72
+	.byte		        Dn4 
+	.byte	W10
+	.byte		N36   , Fn4 
+	.byte	W40
+	.byte		N08   , Gn4 
+	.byte	W10
+	.byte		        Dn4 
+	.byte	W10
+	.byte		N36   , Fn4 
+	.byte	W24
+	.byte	W02
 @ 041   ----------------------------------------
-        .byte   W72
+	.byte	W13
+	.byte		N08   , Gn4 
+	.byte	W10
+	.byte		        Dn4 
+	.byte	W10
+	.byte		N36   , Fn4 
+	.byte	W36
+	.byte	W03
+	.byte		N08   , Gn4 
+	.byte	W10
+	.byte		        Dn4 
+	.byte	W10
+	.byte		N18   , Fn4 
+	.byte	W04
 @ 042   ----------------------------------------
-        .byte   W72
+	.byte	W17
+	.byte		VOICE , 48
+	.byte		VOL   , 22*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 84
+	.byte		PAN   , c_v+42
+	.byte		VOL   , 12*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 109
+	.byte		PAN   , c_v+27
+	.byte		VOL   , 16*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 109
+	.byte		PAN   , c_v+27
+	.byte		N36   , Dn4 
+	.byte	W36
+	.byte	W03
+	.byte		VOL   , 12*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 33
+	.byte		PAN   , c_v+0
+	.byte	W01
+	.byte		N08   , Cn4 
+	.byte	W09
+	.byte		        Gn4 
+	.byte	W10
+	.byte		VOL   , 16*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 109
+	.byte		PAN   , c_v+27
+	.byte		N36   , Dn4 
+	.byte	W20
 @ 043   ----------------------------------------
-        .byte   W72
+	.byte	W20
+	.byte		VOL   , 12*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 33
+	.byte		PAN   , c_v+0
+	.byte		N09   , Cn4 
+	.byte	W10
+	.byte		N08   , Gn4 
+	.byte	W10
+	.byte		VOL   , 16*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 109
+	.byte		PAN   , c_v+27
+	.byte		N36   , Dn4 
+	.byte	W36
+	.byte	W03
+	.byte		VOL   , 12*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 33
+	.byte		PAN   , c_v+0
+	.byte		N09   , Cn4 
+	.byte	W10
+	.byte		        Gn4 
+	.byte	W07
 @ 044   ----------------------------------------
-        .byte   GOTO
-         .word  crisis_1_3_LOOP
-        .byte   W72
+	.byte	W03
+	.byte		VOL   , 16*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 109
+	.byte		PAN   , c_v+27
+	.byte		N36   , Dn4 
+	.byte	W40
+	.byte		VOL   , 12*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 33
+	.byte		PAN   , c_v+0
+	.byte		N18   , Cn4 
+	.byte	W19
+	.byte		VOL   , 16*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 109
+	.byte		PAN   , c_v+27
+	.byte		N36   , Dn4 
+	.byte	W32
+	.byte	W02
 @ 045   ----------------------------------------
-        .byte   W72
+	.byte	W06
+	.byte		VOL   , 12*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 33
+	.byte		PAN   , c_v+0
+	.byte		N08   , Cn4 
+	.byte	W10
+	.byte		N09   , Gn4 
+	.byte	W10
+	.byte		VOL   , 16*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 109
+	.byte		PAN   , c_v+27
+	.byte		N36   , Dn4 
+	.byte	W36
+	.byte	W03
+	.byte		VOL   , 12*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 33
+	.byte		PAN   , c_v+0
+	.byte		N08   , Cn4 
+	.byte	W10
+	.byte		        Gn4 
+	.byte	W10
+	.byte		VOL   , 16*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 109
+	.byte		PAN   , c_v+27
+	.byte		N36   , Dn4 
+	.byte	W11
 @ 046   ----------------------------------------
-        .byte   W72
+	.byte	W28
+	.byte	W01
+	.byte		VOL   , 12*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 33
+	.byte		PAN   , c_v+0
+	.byte		N09   , Cn4 
+	.byte	W10
+	.byte		N08   , Gn4 
+	.byte	W10
+	.byte		        An4 
+	.byte	W09
+	.byte		        Gn4 
+	.byte	W10
+	.byte		        Fs4 
+	.byte	W10
+	.byte		N09   , Dn4 
+	.byte	W10
+	.byte		N08   , Cn4 
+	.byte	W08
 @ 047   ----------------------------------------
-        .byte   W72
+	.byte	W02
+	.byte		VOL   , 16*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 109
+	.byte		PAN   , c_v-18
+	.byte		VOL   , 29*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 84
+	.byte		PAN   , c_v+16
+	.byte		N08   , An3 
+	.byte	W28
+	.byte	W01
+	.byte		VOICE , 51
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v+0
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+16
+	.byte		VOL   , 42*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+16
+	.byte		BEND  , c_v+0
+	.byte		N18   , Dn3 
+	.byte	W20
+	.byte		VOL   , 36*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v+11
+	.byte		N18   , Cs3 
+	.byte	W20
+	.byte		        En3 
+	.byte	W19
+	.byte		N19   , Gn3 
+	.byte	W06
 @ 048   ----------------------------------------
-        .byte   W72
-@ 049   ----------------------------------------
-        .byte   W72
-@ 050   ----------------------------------------
-        .byte   W72
-@ 051   ----------------------------------------
-        .byte   W72
-@ 052   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_3_8
-@ 053   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_3_8
-@ 054   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_3_8
-@ 055   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_3_11
-@ 056   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_3_8
-@ 057   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_3_8
-@ 058   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_3_8
-@ 059   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_3_15
-@ 060   ----------------------------------------
-        .byte   W72
-@ 061   ----------------------------------------
-        .byte   W72
-@ 062   ----------------------------------------
-        .byte   W72
-@ 063   ----------------------------------------
-        .byte   W72
-@ 064   ----------------------------------------
-        .byte   W72
-@ 065   ----------------------------------------
-        .byte   W72
-@ 066   ----------------------------------------
-        .byte   W72
-@ 067   ----------------------------------------
-        .byte   W72
-@ 068   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_3_8
-@ 069   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_3_8
-@ 070   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_3_8
-@ 071   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_3_11
-@ 072   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_3_8
-@ 073   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_3_8
-@ 074   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_3_8
-@ 075   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_3_15
-@ 076   ----------------------------------------
-        .byte   W72
-@ 077   ----------------------------------------
-        .byte   W72
-@ 078   ----------------------------------------
-        .byte   W72
-@ 079   ----------------------------------------
-        .byte   W72
-@ 080   ----------------------------------------
-        .byte   W72
-@ 081   ----------------------------------------
-        .byte   W72
-@ 082   ----------------------------------------
-        .byte   W72
-@ 083   ----------------------------------------
-        .byte   W72
-@ 084   ----------------------------------------
-        .byte   W72
-@ 085   ----------------------------------------
-        .byte   W72
-@ 086   ----------------------------------------
-        .byte   W72
-@ 087   ----------------------------------------
-        .byte   W72
-@ 088   ----------------------------------------
-        .byte   FINE
+	.byte	W15
+	.byte		VOL   , 42*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+16
+	.byte		N19   , As3 
+	.byte	W20
+	.byte		VOL   , 32*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v+42
+	.byte		VOL   , 15*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 109
+	.byte		PAN   , c_v+27
+	.byte	W01
+	.byte	GOTO
+	 .word	feb20230202231013_4_B1
+feb20230202231013_4_B2:
+	.byte	FINE
 
-@****************** Track 4 (Midi-Chn.4) ******************@
+@**************** Track 5 (Midi-Chn.7) ****************@
 
-crisis_1_4:
-        .byte   KEYSH , crisis_1_key+0
+feb20230202231013_5:
+	.byte	KEYSH , feb20230202231013_key+0
 @ 000   ----------------------------------------
-crisis_1_4_LOOP:
-        .byte           VOICE , 52
-        .byte           VOL   , 108
-        .byte   W72
+	.byte		VOICE , 48
+	.byte		MODT  , 0
+	.byte		LFOS  , 44
+	.byte		MODT  , 0
+	.byte		LFOS  , 44
+	.byte		BENDR , 12
+	.byte		VOL   , 4*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 125
+	.byte		PAN   , c_v+63
+	.byte	W13
+	.byte		VOL   , 4*feb20230202231013_mvl/mxv
+	.byte		BEND  , c_v+0
+	.byte		N08   , Fn3 , v088
+	.byte	W10
+	.byte		N09   , En3 
+	.byte	W09
+	.byte		        Dn3 
+	.byte	W10
+	.byte		N08   , Cn3 
+	.byte	W10
+	.byte		N09   , Dn3 
+	.byte	W10
+	.byte		N08   , As2 
+	.byte	W10
+	.byte		        An3 
+	.byte	W10
+	.byte		BEND  , c_v+0
+	.byte		N09   , Gn3 
+	.byte	W10
+	.byte		BEND  , c_v+0
+	.byte		N09   , Fn3 
+	.byte	W04
 @ 001   ----------------------------------------
-        .byte   W72
+	.byte	W06
+	.byte		VOL   , 0*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 0
+	.byte		PAN   , c_v-64
+	.byte		N09   , En3 
+	.byte	W10
+	.byte		        Fn3 
+	.byte	W10
+	.byte		VOL   , 4*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 125
+	.byte		PAN   , c_v+63
+	.byte		N08   , Dn3 
+	.byte	W09
+	.byte		        Cn4 
+	.byte	W10
+	.byte		BEND  , c_v+0
+	.byte		N08   , As3 
+	.byte	W10
+	.byte		VOL   , 0*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 0
+	.byte		PAN   , c_v-64
+	.byte		BEND  , c_v+0
+	.byte		N08   , An3 
+	.byte	W10
+	.byte		BEND  , c_v+0
+	.byte		N08   , Gn3 
+	.byte	W10
+	.byte		VOL   , 4*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 125
+	.byte		PAN   , c_v+63
+	.byte		BEND  , c_v+0
+	.byte		N08   , An3 
+	.byte	W10
+	.byte		        Fn3 
+	.byte	W10
+	.byte		N36   , En4 
+	.byte	W01
 @ 002   ----------------------------------------
-        .byte   W72
+	.byte	W36
+	.byte	W02
+	.byte		N04   , Dn4 
+	.byte	W05
+	.byte		        Cn4 
+	.byte	W05
+	.byte		VOL   , 0*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 0
+	.byte		PAN   , c_v-64
+	.byte		BEND  , c_v+0
+	.byte		N04   , As3 
+	.byte	W05
+	.byte		VOL   , 4*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 125
+	.byte		PAN   , c_v+63
+	.byte		BEND  , c_v+0
+	.byte		N04   , An3 
+	.byte	W05
+	.byte		N60   , Gn2 
+	.byte	W36
+	.byte	W02
 @ 003   ----------------------------------------
-        .byte   W72
+	.byte	W24
+	.byte		VOL   , 12*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 33
+	.byte		PAN   , c_v+0
+	.byte		VOL   , 24*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 32
+	.byte		PAN   , c_v+32
+	.byte		N09   , An3 
+	.byte	W10
+	.byte		        Cn4 
+	.byte	W10
+	.byte		BEND  , c_v+0
+	.byte		N09   , As3 
+	.byte	W10
+	.byte		BEND  , c_v+0
+	.byte		N08   , An3 
+	.byte	W10
+	.byte		BEND  , c_v+0
+	.byte		N09   , Gn3 
+	.byte	W10
+	.byte		VOL   , 29*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 84
+	.byte		PAN   , c_v+16
+	.byte		VOL   , 39*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v+30
+	.byte		BEND  , c_v+0
+	.byte		TIE   , Fn3 
+	.byte	W22
 @ 004   ----------------------------------------
-        .byte   W72
+	.byte	W90
+	.byte		EOT   
+	.byte	W06
 @ 005   ----------------------------------------
-        .byte   W72
+	.byte	W12
+	.byte		VOL   , 29*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 84
+	.byte		PAN   , c_v+63
+	.byte		VOL   , 4*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 125
+	.byte		PAN   , c_v+63
+	.byte		N36   , Dn3 
+	.byte	W36
+	.byte	W03
+	.byte		N09   , Cn3 
+	.byte	W10
+	.byte		BEND  , c_v+0
+	.byte		N09   , Gn3 
+	.byte	W10
+	.byte		BEND  , c_v+0
+	.byte		N36   , Dn3 
+	.byte	W24
+	.byte	W01
 @ 006   ----------------------------------------
-        .byte   W72
+	.byte	W15
+	.byte		N08   , Cn3 
+	.byte	W10
+	.byte		BEND  , c_v+0
+	.byte		N09   , Gn3 
+	.byte	W10
+	.byte		BEND  , c_v+0
+	.byte		N36   , Dn3 
+	.byte	W36
+	.byte	W03
+	.byte		N09   , Cn3 
+	.byte	W10
+	.byte		BEND  , c_v+0
+	.byte		N08   , Gn3 
+	.byte	W10
+	.byte		BEND  , c_v+0
+	.byte		N36   , Dn3 
+	.byte	W02
 @ 007   ----------------------------------------
-        .byte   W72
+	.byte	W36
+	.byte	W02
+	.byte		N18   , Cn3 
+	.byte	W19
+	.byte		N36   , Dn3 
+	.byte	W36
+	.byte	W03
 @ 008   ----------------------------------------
-        .byte   W72
+	.byte	W01
+	.byte		N08   , Cn3 
+	.byte	W10
+	.byte		BEND  , c_v+0
+	.byte		N09   , Gn3 
+	.byte	W10
+	.byte		BEND  , c_v+0
+	.byte		N36   , Dn3 
+	.byte	W36
+	.byte	W03
+	.byte		N08   , Cn3 
+	.byte	W10
+	.byte		BEND  , c_v+0
+	.byte		N09   , Gn3 
+	.byte	W10
+	.byte		BEND  , c_v+0
+	.byte		N36   , Dn3 
+	.byte	W16
 @ 009   ----------------------------------------
-        .byte   W72
+	.byte	W24
+	.byte		N08   , Cn3 
+	.byte	W10
+	.byte		BEND  , c_v+0
+	.byte		N08   , Gn3 
+	.byte	W09
+	.byte		BEND  , c_v+0
+	.byte		N09   , An3 
+	.byte	W10
+	.byte		BEND  , c_v+0
+	.byte		N09   , Gn3 
+	.byte	W10
+	.byte		BEND  , c_v+0
+	.byte		N09   , Fs3 
+	.byte	W10
+	.byte		        Dn3 
+	.byte	W10
+	.byte		N14   , Cn3 
+	.byte	W13
 @ 010   ----------------------------------------
-        .byte   W72
+	.byte	W03
+	.byte		N08   , Fn3 
+	.byte	W10
+	.byte		N09   , En3 
+	.byte	W10
+	.byte		N08   , Dn3 
+	.byte	W09
+	.byte		        Cn3 
+	.byte	W10
+	.byte		N09   , Dn3 
+	.byte	W10
+	.byte		        As2 
+	.byte	W10
+	.byte		        An3 
+	.byte	W10
+	.byte		BEND  , c_v+0
+	.byte		N09   , Gn3 
+	.byte	W10
+	.byte		BEND  , c_v+0
+	.byte		N08   , Fn3 
+	.byte	W10
+	.byte		VOL   , 0*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 0
+	.byte		PAN   , c_v-64
+	.byte		N08   , En3 
+	.byte	W04
 @ 011   ----------------------------------------
-        .byte   W72
+	.byte	W06
+	.byte		N09   , Fn3 
+	.byte	W10
+	.byte		VOL   , 4*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 125
+	.byte		PAN   , c_v+63
+	.byte		N09   , Dn3 
+	.byte	W10
+	.byte		N08   , Cn4 
+	.byte	W09
+	.byte		BEND  , c_v+0
+	.byte		N08   , As3 
+	.byte	W10
+	.byte		VOL   , 0*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 0
+	.byte		PAN   , c_v-64
+	.byte		BEND  , c_v+0
+	.byte		N08   , An3 
+	.byte	W10
+	.byte		BEND  , c_v+0
+	.byte		N09   , Gn3 
+	.byte	W10
+	.byte		VOL   , 4*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 125
+	.byte		PAN   , c_v+63
+	.byte		BEND  , c_v+0
+	.byte		N08   , An3 
+	.byte	W10
+	.byte		        Fn3 
+	.byte	W10
+	.byte		N36   , En4 
+	.byte	W11
 @ 012   ----------------------------------------
-        .byte   W72
+	.byte	W28
+	.byte		N04   , Dn4 
+	.byte	W05
+	.byte		        Cn4 
+	.byte	W05
+	.byte		VOL   , 0*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 0
+	.byte		PAN   , c_v-64
+	.byte		BEND  , c_v+0
+	.byte		N04   , As3 
+	.byte	W05
+	.byte		VOL   , 4*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 125
+	.byte		PAN   , c_v+63
+	.byte		BEND  , c_v+0
+	.byte		N03   , An3 
+	.byte	W05
+	.byte		N60   , Gn2 
+	.byte	W48
 @ 013   ----------------------------------------
-        .byte   W72
+	.byte	W14
+	.byte		VOL   , 12*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 33
+	.byte		PAN   , c_v+0
+	.byte		VOL   , 24*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 32
+	.byte		PAN   , c_v+32
+	.byte		N09   , An3 
+	.byte	W10
+	.byte		        Cn4 
+	.byte	W10
+	.byte		BEND  , c_v+0
+	.byte		N09   , As3 
+	.byte	W10
+	.byte		BEND  , c_v+0
+	.byte		N09   , An3 
+	.byte	W10
+	.byte		BEND  , c_v+0
+	.byte		N09   , Gn3 
+	.byte	W10
+	.byte		VOL   , 29*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 84
+	.byte		PAN   , c_v+16
+	.byte		VOL   , 39*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v+30
+	.byte		BEND  , c_v+0
+	.byte		TIE   , Fn3 
+	.byte	W32
 @ 014   ----------------------------------------
-        .byte   W72
+	.byte	W80
+	.byte		EOT   
+	.byte	W16
 @ 015   ----------------------------------------
-        .byte   W72
+	.byte	W02
+	.byte		VOL   , 29*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 84
+	.byte		PAN   , c_v+63
+	.byte		VOL   , 4*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 125
+	.byte		PAN   , c_v+63
+	.byte		N36   , Dn3 
+	.byte	W40
+	.byte		N08   , Cn3 
+	.byte	W09
+	.byte		BEND  , c_v+0
+	.byte		N09   , Gn3 
+	.byte	W10
+	.byte		BEND  , c_v+0
+	.byte		N36   , Dn3 
+	.byte	W32
+	.byte	W03
 @ 016   ----------------------------------------
-        .byte   W72
+	.byte	W05
+	.byte		N09   , Cn3 
+	.byte	W10
+	.byte		BEND  , c_v+0
+	.byte		N09   , Gn3 
+	.byte	W10
+	.byte		BEND  , c_v+0
+	.byte		N36   , Dn3 
+	.byte	W36
+	.byte	W03
+	.byte		N09   , Cn3 
+	.byte	W10
+	.byte		BEND  , c_v+0
+	.byte		N09   , Gn3 
+	.byte	W10
+	.byte		BEND  , c_v+0
+	.byte		N36   , Dn3 
+	.byte	W12
 @ 017   ----------------------------------------
-        .byte   W72
+	.byte	W28
+	.byte		N18   , Cn3 
+	.byte	W19
+	.byte		N36   , Dn3 
+	.byte	W40
+	.byte		N09   , Cn3 
+	.byte	W09
 @ 018   ----------------------------------------
-        .byte   W72
+	.byte	W01
+	.byte		BEND  , c_v+0
+	.byte		N08   , Gn3 
+	.byte	W10
+	.byte		BEND  , c_v+0
+	.byte		N36   , Dn3 
+	.byte	W36
+	.byte	W03
+	.byte		N08   , Cn3 
+	.byte	W10
+	.byte		BEND  , c_v+0
+	.byte		N08   , Gn3 
+	.byte	W10
+	.byte		BEND  , c_v+0
+	.byte		N36   , Dn3 
+	.byte	W24
+	.byte	W02
 @ 019   ----------------------------------------
-        .byte   W72
+	.byte	W14
+	.byte		N09   , Cn3 
+	.byte	W10
+	.byte		BEND  , c_v+0
+	.byte		N09   , Gn3 
+	.byte	W10
+	.byte		BEND  , c_v+0
+	.byte		N09   , An3 
+	.byte	W09
+	.byte		BEND  , c_v+0
+	.byte		N09   , Gn3 
+	.byte	W10
+	.byte		BEND  , c_v+0
+	.byte		N09   , Fs3 
+	.byte	W10
+	.byte		N08   , Dn3 
+	.byte	W10
+	.byte		N14   , Cn3 
+	.byte	W23
 @ 020   ----------------------------------------
-        .byte   W72
+	.byte	W13
+	.byte		VOICE , 49
+	.byte		VOL   , 12*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 33
+	.byte		PAN   , c_v+0
+	.byte		VOL   , 4*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 125
+	.byte		PAN   , c_v-64
+	.byte		VOL   , 3*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 125
+	.byte		PAN   , c_v-64
+	.byte		BEND  , c_v+0
+	.byte		N17   , Dn3 
+	.byte	W19
+	.byte		        Cs3 
+	.byte	W20
+	.byte		        En3 
+	.byte	W20
+	.byte		        Gn3 
+	.byte	W21
+	.byte		VOL   , 0*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 0
+	.byte		PAN   , c_v-64
+	.byte		N17   , As3 
+	.byte	W03
 @ 021   ----------------------------------------
-        .byte   W72
+	.byte	W06
+feb20230202231013_5_B1:
+	.byte	W11
+	.byte		VOICE , 48
+	.byte		VOL   , 0*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 0
+	.byte		PAN   , c_v-64
+	.byte		N04   , Dn5 , v088
+	.byte	W05
+	.byte		BEND  , c_v+0
+	.byte		N04   , Ds5 
+	.byte	W05
+	.byte		BEND  , c_v+0
+	.byte		N04   , Dn5 
+	.byte	W05
+	.byte		        Cn5 
+	.byte	W05
+	.byte		N03   , As4 
+	.byte	W05
+	.byte		N04   , Cn5 
+	.byte	W05
+	.byte		        As4 
+	.byte	W05
+	.byte		        An4 
+	.byte	W05
+	.byte		        Gn4 
+	.byte	W05
+	.byte		N03   , An4 
+	.byte	W04
+	.byte		N04   , Gn4 
+	.byte	W05
+	.byte		N03   , Fs4 
+	.byte	W05
+	.byte		BEND  , c_v+0
+	.byte		N03   , Dn4 
+	.byte	W05
+	.byte		        Ds4 
+	.byte	W05
+	.byte		N04   , Dn4 
+	.byte	W05
+	.byte		        Cn4 
+	.byte	W05
 @ 022   ----------------------------------------
-        .byte   W72
+	.byte		BEND  , c_v+0
+	.byte		N04   , As3 
+	.byte	W05
+	.byte		BEND  , c_v+0
+	.byte		N04   , Cn4 
+	.byte	W05
+	.byte		BEND  , c_v+0
+	.byte		N04   , As3 
+	.byte	W05
+	.byte		BEND  , c_v+0
+	.byte		N04   , An3 
+	.byte	W05
+	.byte		BEND  , c_v+0
+	.byte		N04   , Gn3 
+	.byte	W05
+	.byte		BEND  , c_v+0
+	.byte		N04   , An3 
+	.byte	W05
+	.byte		BEND  , c_v+0
+	.byte		N03   , Gn3 
+	.byte	W05
+	.byte		BEND  , c_v+0
+	.byte		N04   , Fs3 
+	.byte	W05
+	.byte		BEND  , c_v+0
+	.byte		N04   , Gn5 
+	.byte	W05
+	.byte		        Gs5 
+	.byte	W05
+	.byte		        Gn5 
+	.byte	W05
+	.byte		N03   , Fn5 
+	.byte	W05
+	.byte		BEND  , c_v+0
+	.byte		N04   , Ds5 
+	.byte	W04
+	.byte		BEND  , c_v+0
+	.byte		N04   , Fn5 
+	.byte	W05
+	.byte		BEND  , c_v+0
+	.byte		N04   , Ds5 
+	.byte	W05
+	.byte		BEND  , c_v+0
+	.byte		N04   , Dn5 
+	.byte	W05
+	.byte		        Cn5 
+	.byte	W05
+	.byte		        Dn5 
+	.byte	W05
+	.byte		        Cn5 
+	.byte	W05
+	.byte		N03   , Bn4 
+	.byte	W02
 @ 023   ----------------------------------------
-        .byte   W72
+	.byte	W03
+	.byte		        Gn4 
+	.byte	W05
+	.byte		N04   , Gs4 
+	.byte	W05
+	.byte		N03   , Gn4 
+	.byte	W05
+	.byte		BEND  , c_v+0
+	.byte		N04   , Fn4 
+	.byte	W05
+	.byte		N03   , Ds4 
+	.byte	W05
+	.byte		N04   , Fn4 
+	.byte	W05
+	.byte		        Ds4 
+	.byte	W05
+	.byte		N03   , Dn4 
+	.byte	W05
+	.byte		N04   , Cn4 
+	.byte	W05
+	.byte		N03   , Dn4 
+	.byte	W05
+	.byte		N04   , Cn4 
+	.byte	W05
+	.byte		        Bn3 
+	.byte	W18
+	.byte		VOICE , 49
+	.byte		VOL   , 16*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 109
+	.byte		PAN   , c_v-64
+	.byte		VOL   , 24*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 32
+	.byte		PAN   , c_v-32
+	.byte		VOL   , 23*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 32
+	.byte		PAN   , c_v-32
+	.byte		BEND  , c_v+0
+	.byte		N19   , Ds3 
+	.byte	W20
 @ 024   ----------------------------------------
-        .byte   W72
+	.byte		        Cn3 
+	.byte	W21
+	.byte		        Cs3 
+	.byte	W20
+	.byte		        Gs2 
+	.byte	W20
+	.byte		        As2 
+	.byte	W28
+	.byte	W01
+	.byte		VOICE , 48
+	.byte		VOL   , 3*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 125
+	.byte		PAN   , c_v+63
+	.byte		VOL   , 0*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 0
+	.byte		PAN   , c_v-64
+	.byte		VOL   , 0*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 0
+	.byte		PAN   , c_v-64
+	.byte		BEND  , c_v+0
+	.byte		N08   , Dn2 
+	.byte	W06
 @ 025   ----------------------------------------
-        .byte   W72
+	.byte	W03
+	.byte		BEND  , c_v-1
+	.byte		N09   , Cn2 
+	.byte	W10
+	.byte		VOL   , 4*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 125
+	.byte		PAN   , c_v-64
+	.byte		BEND  , c_v+0
+	.byte		N09   , As1 
+	.byte	W10
+	.byte		VOL   , 0*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 0
+	.byte		PAN   , c_v-64
+	.byte		N08   , An1 
+	.byte	W10
+	.byte		        As1 
+	.byte	W10
+	.byte		        Gn1 
+	.byte	W10
+	.byte		        Dn2 
+	.byte	W10
+	.byte		VOL   , 4*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 125
+	.byte		PAN   , c_v-64
+	.byte		BEND  , c_v-1
+	.byte		N08   , Cn2 
+	.byte	W10
+	.byte		BEND  , c_v+0
+	.byte		N08   , As1 
+	.byte	W10
+	.byte		        An1 
+	.byte	W10
+	.byte		        As1 
+	.byte	W03
 @ 026   ----------------------------------------
-        .byte   W72
+	.byte	W07
+	.byte		        Gn1 
+	.byte	W09
+	.byte		        Dn2 
+	.byte	W10
+	.byte		BEND  , c_v-1
+	.byte		N08   , Cn2 
+	.byte	W10
+	.byte		BEND  , c_v+0
+	.byte		N08   , As1 
+	.byte	W10
+	.byte		        An1 
+	.byte	W10
+	.byte		        As1 
+	.byte	W10
+	.byte		N09   , Gn1 
+	.byte	W10
+	.byte		N08   , Dn2 
+	.byte	W10
+	.byte		BEND  , c_v-1
+	.byte		N08   , Cn2 
+	.byte	W10
 @ 027   ----------------------------------------
-        .byte   W72
+	.byte		BEND  , c_v+0
+	.byte		N09   , As1 
+	.byte	W09
+	.byte		        An1 
+	.byte	W10
+	.byte		        As1 
+	.byte	W10
+	.byte		        Gn1 
+	.byte	W10
+	.byte		VOL   , 0*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 0
+	.byte		PAN   , c_v-64
+	.byte		VOL   , 4*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 125
+	.byte		PAN   , c_v+63
+	.byte		N08   , Fn3 
+	.byte	W10
+	.byte		        En3 
+	.byte	W10
+	.byte		        Dn3 
+	.byte	W10
+	.byte		N09   , Cn3 
+	.byte	W10
+	.byte		N08   , Dn3 
+	.byte	W10
+	.byte		        As2 
+	.byte	W07
 @ 028   ----------------------------------------
-        .byte   W72
+	.byte	W02
+	.byte		N09   , An3 
+	.byte	W10
+	.byte		BEND  , c_v+0
+	.byte		N09   , Gn3 
+	.byte	W10
+	.byte		BEND  , c_v+0
+	.byte		N09   , Fn3 
+	.byte	W10
+	.byte		N08   , En3 
+	.byte	W10
+	.byte		        Fn3 
+	.byte	W10
+	.byte		        Dn3 
+	.byte	W10
+	.byte		        Cn4 
+	.byte	W10
+	.byte		BEND  , c_v+0
+	.byte		N08   , As3 
+	.byte	W10
+	.byte		BEND  , c_v+0
+	.byte		N08   , An3 
+	.byte	W10
+	.byte		BEND  , c_v+0
+	.byte		N09   , Gn3 
+	.byte	W04
 @ 029   ----------------------------------------
-        .byte   W72
+	.byte	W05
+	.byte		BEND  , c_v+0
+	.byte		N09   , An3 
+	.byte	W10
+	.byte		N08   , Fn3 
+	.byte	W10
+	.byte		N36   , En4 
+	.byte	W40
+	.byte		N04   , Dn4 
+	.byte	W05
+	.byte		        Cn4 
+	.byte	W05
+	.byte		BEND  , c_v+0
+	.byte		N04   , As3 
+	.byte	W05
+	.byte		BEND  , c_v+0
+	.byte		N04   , An3 
+	.byte	W05
+	.byte		N60   , Gn2 
+	.byte	W11
 @ 030   ----------------------------------------
-        .byte   W72
+	.byte	W48
+	.byte	W02
+	.byte		VOL   , 12*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 33
+	.byte		PAN   , c_v+0
+	.byte		VOL   , 24*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 32
+	.byte		PAN   , c_v+32
+	.byte	W01
+	.byte		N09   , An3 
+	.byte	W09
+	.byte		VOL   , 29*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 84
+	.byte		PAN   , c_v+16
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v+21
+	.byte		N09   , Cn4 
+	.byte	W10
+	.byte		VOL   , 29*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 84
+	.byte		PAN   , c_v+42
+	.byte		VOL   , 24*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 32
+	.byte		PAN   , c_v+32
+	.byte		BEND  , c_v+0
+	.byte		N09   , As3 
+	.byte	W10
+	.byte		VOL   , 29*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 84
+	.byte		PAN   , c_v+16
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v+21
+	.byte		BEND  , c_v+0
+	.byte		N09   , An3 
+	.byte	W10
+	.byte		BEND  , c_v+0
+	.byte		N08   , Gn3 
+	.byte	W06
 @ 031   ----------------------------------------
-        .byte   W72
+	.byte	W04
+	.byte		VOL   , 39*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v+11
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v+23
+	.byte		BEND  , c_v+0
+	.byte		TIE   , Fn3 
+	.byte	W92
 @ 032   ----------------------------------------
-        .byte           TIE   , Gn1 , v089
-        .byte   W72
+	.byte	W20
+	.byte		EOT   
+	.byte	W18
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v+63
+	.byte		VOL   , 4*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 125
+	.byte		PAN   , c_v+63
+	.byte		N36   , Dn3 
+	.byte	W40
+	.byte		N09   , Cn3 
+	.byte	W10
+	.byte		BEND  , c_v+0
+	.byte		N09   , Gn3 
+	.byte	W08
 @ 033   ----------------------------------------
-        .byte   W72
+	.byte	W02
+	.byte		BEND  , c_v+0
+	.byte		N36   , Dn3 
+	.byte	W36
+	.byte	W03
+	.byte		N08   , Cn3 
+	.byte	W10
+	.byte		BEND  , c_v+0
+	.byte		N08   , Gn3 
+	.byte	W10
+	.byte		BEND  , c_v+0
+	.byte		N36   , Dn3 
+	.byte	W32
+	.byte	W03
 @ 034   ----------------------------------------
-crisis_1_4_34:
-        .byte           EOT   , Gn1
-        .byte           N60   , Fs1 , v089
-        .byte   W72
-        .byte   PEND
+	.byte	W05
+	.byte		N08   , Cn3 
+	.byte	W09
+	.byte		BEND  , c_v+0
+	.byte		N09   , Gn3 
+	.byte	W10
+	.byte		BEND  , c_v+0
+	.byte		N36   , Dn3 
+	.byte	W40
+	.byte		N18   , Cn3 
+	.byte	W20
+	.byte		N36   , Dn3 
+	.byte	W12
 @ 035   ----------------------------------------
-crisis_1_4_35:
-        .byte           N06   , Fs1 , v089
-        .byte   W12
-        .byte                   Fs1
-        .byte   W12
-        .byte                   Fs1
-        .byte   W12
-        .byte                   Fs1
-        .byte   W12
-        .byte                   Fs1
-        .byte   W12
-        .byte                   Fs1
-        .byte   W12
-        .byte   PEND
+	.byte	W24
+	.byte	W03
+	.byte		N09   , Cn3 
+	.byte	W10
+	.byte		BEND  , c_v+0
+	.byte		N09   , Gn3 
+	.byte	W10
+	.byte		BEND  , c_v+0
+	.byte		N36   , Dn3 
+	.byte	W40
+	.byte		N09   , Cn3 
+	.byte	W09
 @ 036   ----------------------------------------
-        .byte           N72   , Fn1
-        .byte   W72
+	.byte	W01
+	.byte		BEND  , c_v+0
+	.byte		N09   , Gn3 
+	.byte	W10
+	.byte		BEND  , c_v+0
+	.byte		N36   , Dn3 
+	.byte	W36
+	.byte	W03
+	.byte		N08   , Cn3 
+	.byte	W10
+	.byte		BEND  , c_v+0
+	.byte		N08   , Gn3 
+	.byte	W10
+	.byte		BEND  , c_v+0
+	.byte		N08   , An3 
+	.byte	W10
+	.byte		BEND  , c_v+0
+	.byte		N08   , Gn3 
+	.byte	W10
+	.byte		BEND  , c_v+0
+	.byte		N09   , Fs3 
+	.byte	W06
 @ 037   ----------------------------------------
-crisis_1_4_37:
-        .byte           N06   , Fn1 , v089
-        .byte   W12
-        .byte                   Fn1
-        .byte   W12
-        .byte                   Fn1
-        .byte   W12
-        .byte                   Fn1
-        .byte   W12
-        .byte                   Fn1
-        .byte   W12
-        .byte                   Fn1
-        .byte   W12
-        .byte   PEND
+	.byte	W04
+	.byte		        Dn3 
+	.byte	W10
+	.byte		N14   , Cn3 
+	.byte	W15
+	.byte		N09   , Fn3 
+	.byte	W10
+	.byte		N08   , En3 
+	.byte	W10
+	.byte		N09   , Dn3 
+	.byte	W10
+	.byte		        Cn3 
+	.byte	W10
+	.byte		        Dn3 
+	.byte	W10
+	.byte		        As2 
+	.byte	W10
+	.byte		N08   , An3 
+	.byte	W07
 @ 038   ----------------------------------------
-        .byte           TIE   , En1
-        .byte   W72
+	.byte	W02
+	.byte		BEND  , c_v+0
+	.byte		N08   , Gn3 
+	.byte	W10
+	.byte		BEND  , c_v+0
+	.byte		N08   , Fn3 
+	.byte	W10
+	.byte		N09   , En3 
+	.byte	W10
+	.byte		        Fn3 
+	.byte	W10
+	.byte		        Dn3 
+	.byte	W10
+	.byte		        Cn4 
+	.byte	W10
+	.byte		BEND  , c_v+0
+	.byte		N09   , As3 
+	.byte	W10
+	.byte		BEND  , c_v+0
+	.byte		N08   , An3 
+	.byte	W10
+	.byte		BEND  , c_v+0
+	.byte		N08   , Gn3 
+	.byte	W10
+	.byte		BEND  , c_v+0
+	.byte		N08   , An3 
+	.byte	W04
 @ 039   ----------------------------------------
-        .byte   W72
+	.byte	W05
+	.byte		        Fn3 
+	.byte	W10
+	.byte		N36   , En4 
+	.byte	W40
+	.byte		N04   , Dn4 
+	.byte	W05
+	.byte		        Cn4 
+	.byte	W05
+	.byte		BEND  , c_v+0
+	.byte		N03   , As3 
+	.byte	W05
+	.byte		BEND  , c_v+0
+	.byte		N03   , An3 
+	.byte	W05
+	.byte		N60   , Gn2 
+	.byte	W21
 @ 040   ----------------------------------------
-crisis_1_4_40:
-        .byte           EOT   , En1
-        .byte           TIE   , Dn1 , v089
-        .byte   W72
-        .byte   PEND
+	.byte	W40
+	.byte	W01
+	.byte		VOL   , 12*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 33
+	.byte		PAN   , c_v+0
+	.byte		VOL   , 24*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 32
+	.byte		PAN   , c_v+32
+	.byte		N09   , An3 
+	.byte	W10
+	.byte		VOL   , 29*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 84
+	.byte		PAN   , c_v+16
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v+21
+	.byte		N08   , Cn4 
+	.byte	W09
+	.byte		VOL   , 29*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 84
+	.byte		PAN   , c_v+42
+	.byte		VOL   , 24*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 32
+	.byte		PAN   , c_v+32
+	.byte		BEND  , c_v+0
+	.byte		N09   , As3 
+	.byte	W10
+	.byte		VOL   , 29*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 84
+	.byte		PAN   , c_v+16
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v+21
+	.byte		BEND  , c_v+0
+	.byte		N09   , An3 
+	.byte	W10
+	.byte		BEND  , c_v+0
+	.byte		N09   , Gn3 
+	.byte	W10
+	.byte		VOL   , 39*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v+11
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v+23
+	.byte		BEND  , c_v+0
+	.byte		TIE   , Fn3 
+	.byte	W06
 @ 041   ----------------------------------------
-        .byte   W72
+	.byte	W96
 @ 042   ----------------------------------------
-        .byte   W72
+	.byte	W10
+	.byte		EOT   
+	.byte	W18
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v+63
+	.byte		VOL   , 4*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 125
+	.byte		PAN   , c_v+63
+	.byte		N36   , Dn3 
+	.byte	W40
+	.byte		N08   , Cn3 
+	.byte	W10
+	.byte		BEND  , c_v+0
+	.byte		N08   , Gn3 
+	.byte	W10
+	.byte		BEND  , c_v+0
+	.byte		N36   , Dn3 
+	.byte	W08
 @ 043   ----------------------------------------
-        .byte   W72
+	.byte	W30
+	.byte	W01
+	.byte		N09   , Cn3 
+	.byte	W10
+	.byte		BEND  , c_v+0
+	.byte		N09   , Gn3 
+	.byte	W10
+	.byte		BEND  , c_v+0
+	.byte		N36   , Dn3 
+	.byte	W40
+	.byte		N09   , Cn3 
+	.byte	W05
 @ 044   ----------------------------------------
-        .byte           EOT
-        .byte   GOTO
-         .word  crisis_1_4_LOOP
-        .byte   W72
+	.byte	W05
+	.byte		BEND  , c_v+0
+	.byte		N09   , Gn3 
+	.byte	W09
+	.byte		BEND  , c_v+0
+	.byte		N36   , Dn3 
+	.byte	W40
+	.byte		N18   , Cn3 
+	.byte	W20
+	.byte		N36   , Dn3 
+	.byte	W22
 @ 045   ----------------------------------------
-        .byte   W72
+	.byte	W17
+	.byte		N08   , Cn3 
+	.byte	W10
+	.byte		BEND  , c_v+0
+	.byte		N08   , Gn3 
+	.byte	W10
+	.byte		BEND  , c_v+0
+	.byte		N36   , Dn3 
+	.byte	W40
+	.byte		N09   , Cn3 
+	.byte	W10
+	.byte		BEND  , c_v+0
+	.byte		N08   , Gn3 
+	.byte	W09
 @ 046   ----------------------------------------
-        .byte   W72
+	.byte	W01
+	.byte		BEND  , c_v+0
+	.byte		N36   , Dn3 
+	.byte	W36
+	.byte	W03
+	.byte		N08   , Cn3 
+	.byte	W10
+	.byte		BEND  , c_v+0
+	.byte		N09   , Gn3 
+	.byte	W10
+	.byte		BEND  , c_v+0
+	.byte		N09   , An3 
+	.byte	W10
+	.byte		BEND  , c_v+0
+	.byte		N08   , Gn3 
+	.byte	W10
+	.byte		BEND  , c_v+0
+	.byte		N08   , Fs3 
+	.byte	W10
+	.byte		N09   , Dn3 
+	.byte	W06
 @ 047   ----------------------------------------
-        .byte   W72
+	.byte	W04
+	.byte		N14   , Cn3 
+	.byte	W32
+	.byte	W03
+	.byte		VOICE , 49
+	.byte		VOL   , 12*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 33
+	.byte		PAN   , c_v+0
+	.byte		VOL   , 4*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 125
+	.byte		PAN   , c_v-64
+	.byte		VOL   , 3*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 125
+	.byte		PAN   , c_v-64
+	.byte		BEND  , c_v+0
+	.byte		N17   , Dn3 
+	.byte	W20
+	.byte		        Cs3 
+	.byte	W20
+	.byte		        En3 
+	.byte	W17
 @ 048   ----------------------------------------
-        .byte   W72
-@ 049   ----------------------------------------
-        .byte   W72
-@ 050   ----------------------------------------
-        .byte   W72
-@ 051   ----------------------------------------
-        .byte   W72
-@ 052   ----------------------------------------
-        .byte   W72
-@ 053   ----------------------------------------
-        .byte   W72
-@ 054   ----------------------------------------
-        .byte   W72
-@ 055   ----------------------------------------
-        .byte   W72
-@ 056   ----------------------------------------
-        .byte   W72
-@ 057   ----------------------------------------
-        .byte   W72
-@ 058   ----------------------------------------
-        .byte   W72
-@ 059   ----------------------------------------
-        .byte   W72
-@ 060   ----------------------------------------
-        .byte   W72
-@ 061   ----------------------------------------
-        .byte   W72
-@ 062   ----------------------------------------
-        .byte   W72
-@ 063   ----------------------------------------
-        .byte   W72
-@ 064   ----------------------------------------
-        .byte   W72
-@ 065   ----------------------------------------
-        .byte   W72
-@ 066   ----------------------------------------
-        .byte   W72
-@ 067   ----------------------------------------
-        .byte   W72
-@ 068   ----------------------------------------
-        .byte   W72
-@ 069   ----------------------------------------
-        .byte   W72
-@ 070   ----------------------------------------
-        .byte   W72
-@ 071   ----------------------------------------
-        .byte   W72
-@ 072   ----------------------------------------
-        .byte   W72
-@ 073   ----------------------------------------
-        .byte   W72
-@ 074   ----------------------------------------
-        .byte   W72
-@ 075   ----------------------------------------
-        .byte   W72
-@ 076   ----------------------------------------
-        .byte           TIE   , Gn1
-        .byte   W72
-@ 077   ----------------------------------------
-        .byte   W72
-@ 078   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_4_34
-@ 079   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_4_35
-@ 080   ----------------------------------------
-        .byte           N72   , Fn1 , v089
-        .byte   W72
-@ 081   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_4_37
-@ 082   ----------------------------------------
-        .byte           TIE   , En1 , v089
-        .byte   W72
-@ 083   ----------------------------------------
-        .byte   W72
-@ 084   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_4_40
-@ 085   ----------------------------------------
-        .byte   W72
-@ 086   ----------------------------------------
-        .byte   W72
-@ 087   ----------------------------------------
-        .byte   W72
-@ 088   ----------------------------------------
-        .byte           EOT   , Dn1
-        .byte   FINE
+	.byte	W03
+	.byte		        Gn3 
+	.byte	W20
+	.byte		VOL   , 0*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 0
+	.byte		PAN   , c_v-64
+	.byte		N17   , As3 
+	.byte	W13
+	.byte	GOTO
+	 .word	feb20230202231013_5_B1
+feb20230202231013_5_B2:
+	.byte	W07
+	.byte		VOICE , 48
+	.byte		VOL   , 0*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 0
+	.byte		PAN   , c_v-64
+	.byte		N04   , Dn5 , v088
+	.byte	W05
+	.byte		BEND  , c_v+0
+	.byte		N03   , Ds5 
+	.byte	W05
+	.byte		BEND  , c_v+0
+	.byte		N04   , Dn5 
+	.byte	W05
+	.byte		        Cn5 
+	.byte	W05
+	.byte		N03   , As4 
+	.byte	W05
+	.byte		N04   , Cn5 
+	.byte	W05
+	.byte		N03   , As4 
+	.byte	W05
+	.byte		N04   , An4 
+	.byte	W05
+	.byte		N03   , Gn4 
+	.byte	W04
+	.byte	FINE
 
-@****************** Track 5 (Midi-Chn.5) ******************@
+@**************** Track 6 (Midi-Chn.8) ****************@
 
-crisis_1_5:
-        .byte   KEYSH , crisis_1_key+0
+feb20230202231013_6:
+	.byte	KEYSH , feb20230202231013_key+0
 @ 000   ----------------------------------------
-crisis_1_5_LOOP:
-        .byte           VOICE , 48
-        .byte           PAN   , c_v+25
-        .byte           VOL   , 120
-        .byte   W72
+	.byte		VOICE , 48
+	.byte		MODT  , 0
+	.byte		LFOS  , 44
+	.byte		MODT  , 0
+	.byte		LFOS  , 44
+	.byte		BENDR , 12
+	.byte		VOL   , 16*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 109
+	.byte		PAN   , c_v+27
+	.byte	W05
+	.byte		VOL   , 29*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 84
+	.byte		PAN   , c_v-10
+	.byte		VOL   , 39*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v+11
+	.byte		VOL   , 39*feb20230202231013_mvl/mxv
+	.byte		BEND  , c_v+0
+	.byte		N08   , Fn3 , v088
+	.byte	W09
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v+21
+	.byte		VOL   , 29*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 84
+	.byte		PAN   , c_v+16
+	.byte		N08   , En3 
+	.byte	W10
+	.byte		        Dn3 
+	.byte	W10
+	.byte		        Cn3 
+	.byte	W10
+	.byte		        Dn3 
+	.byte	W10
+	.byte		VOL   , 39*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v-7
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v+8
+	.byte		N08   , As2 
+	.byte	W10
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+16
+	.byte		VOL   , 39*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v+11
+	.byte		N08   , An3 
+	.byte	W10
+	.byte		BEND  , c_v+0
+	.byte		N08   , Gn3 
+	.byte	W10
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v+21
+	.byte		VOL   , 29*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 84
+	.byte		PAN   , c_v+16
+	.byte		BEND  , c_v+0
+	.byte		N08   , Fn3 
+	.byte	W10
+	.byte		        En3 
+	.byte	W02
 @ 001   ----------------------------------------
-        .byte   W72
+	.byte	W07
+	.byte		        Fn3 
+	.byte	W10
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v+0
+	.byte		VOL   , 39*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v+11
+	.byte		N08   , Dn3 
+	.byte	W10
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+0
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v+8
+	.byte		N08   , Cn4 
+	.byte	W10
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+16
+	.byte		VOL   , 39*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v+11
+	.byte		BEND  , c_v+0
+	.byte		N08   , As3 
+	.byte	W10
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v+21
+	.byte		VOL   , 29*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 84
+	.byte		PAN   , c_v+16
+	.byte		BEND  , c_v+0
+	.byte		N08   , An3 
+	.byte	W10
+	.byte		BEND  , c_v+0
+	.byte		N08   , Gn3 
+	.byte	W10
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v+0
+	.byte		VOL   , 39*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v+11
+	.byte		BEND  , c_v+0
+	.byte		N08   , An3 
+	.byte	W10
+	.byte		        Fn3 
+	.byte	W10
+	.byte		N36   , En4 
+	.byte	W09
 @ 002   ----------------------------------------
-        .byte   W72
+	.byte	W30
+	.byte	W01
+	.byte		N03   , Dn4 
+	.byte	W05
+	.byte		N04   , Cn4 
+	.byte	W05
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v+21
+	.byte		VOL   , 29*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 84
+	.byte		PAN   , c_v+16
+	.byte		BEND  , c_v+0
+	.byte		N03   , As3 
+	.byte	W05
+	.byte		BEND  , c_v+0
+	.byte		N04   , An3 
+	.byte	W05
+	.byte		BEND  , c_v+0
+	.byte		TIE   , Gn3 
+	.byte	W44
+	.byte	W01
 @ 003   ----------------------------------------
-        .byte   W72
+	.byte	W96
 @ 004   ----------------------------------------
-        .byte   W72
+	.byte	W92
+	.byte	W03
+	.byte		EOT   
+	.byte	W01
 @ 005   ----------------------------------------
-        .byte   W72
+	.byte		VOL   , 39*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v-7
+	.byte		VOL   , 52*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v+12
+	.byte		BEND  , c_v+0
+	.byte		N36   , Dn3 
+	.byte	W40
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v+23
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+16
+	.byte		N08   , Cn3 
+	.byte	W10
+	.byte		BEND  , c_v+0
+	.byte		N09   , Gn3 
+	.byte	W10
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v+8
+	.byte		VOL   , 52*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v+12
+	.byte		BEND  , c_v+0
+	.byte		N36   , Dn3 
+	.byte	W36
 @ 006   ----------------------------------------
-        .byte   W72
+	.byte	W03
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v+23
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+16
+	.byte		N08   , Cn3 
+	.byte	W10
+	.byte		BEND  , c_v+0
+	.byte		N09   , Gn3 
+	.byte	W10
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v+8
+	.byte		VOL   , 52*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v+12
+	.byte		BEND  , c_v+0
+	.byte		N36   , Dn3 
+	.byte	W40
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v+23
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+16
+	.byte		N09   , Cn3 
+	.byte	W10
+	.byte		BEND  , c_v+0
+	.byte		N08   , Gn3 
+	.byte	W09
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v+8
+	.byte		VOL   , 52*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v+12
+	.byte	W01
+	.byte		BEND  , c_v+0
+	.byte		N36   , Dn3 
+	.byte	W13
 @ 007   ----------------------------------------
-        .byte   W72
+	.byte	W24
+	.byte	W02
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v+23
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+16
+	.byte		N18   , Cn3 
+	.byte	W20
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v+8
+	.byte		VOL   , 52*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v+12
+	.byte		N36   , Dn3 
+	.byte	W36
+	.byte	W03
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v+23
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+16
+	.byte		N09   , Cn3 
+	.byte	W10
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v+8
+	.byte		VOL   , 52*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v+12
+	.byte		BEND  , c_v+0
+	.byte		N09   , Gn3 
+	.byte	W01
 @ 008   ----------------------------------------
-        .byte   W72
+	.byte	W09
+	.byte		BEND  , c_v+0
+	.byte		N36   , Dn3 
+	.byte	W40
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v+23
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+16
+	.byte		N08   , Cn3 
+	.byte	W10
+	.byte		BEND  , c_v+0
+	.byte		N09   , Gn3 
+	.byte	W10
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v+8
+	.byte		VOL   , 52*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v+12
+	.byte		BEND  , c_v+0
+	.byte		N36   , Dn3 
+	.byte	W24
+	.byte	W03
 @ 009   ----------------------------------------
-        .byte   W72
+	.byte	W12
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v+23
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+16
+	.byte		N08   , Cn3 
+	.byte	W10
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v+8
+	.byte		BEND  , c_v+0
+	.byte		N09   , Gn3 
+	.byte	W10
+	.byte		BEND  , c_v+0
+	.byte		N09   , An3 
+	.byte	W10
+	.byte		BEND  , c_v+0
+	.byte		N09   , Gn3 
+	.byte	W10
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+16
+	.byte		BEND  , c_v+0
+	.byte		N08   , Fs3 
+	.byte	W10
+	.byte		N09   , Dn3 
+	.byte	W10
+	.byte		VOL   , 39*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v+11
+	.byte		N09   , Cn3 
+	.byte	W10
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+0
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v+8
+	.byte		N09   , An2 
+	.byte	W09
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+16
+	.byte		VOL   , 39*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v+11
+	.byte		BEND  , c_v+0
+	.byte		N08   , Fn3 
+	.byte	W05
 @ 010   ----------------------------------------
-        .byte   W72
+	.byte	W05
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v+21
+	.byte		VOL   , 29*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 84
+	.byte		PAN   , c_v+16
+	.byte		N08   , En3 
+	.byte	W09
+	.byte		        Dn3 
+	.byte	W10
+	.byte		        Cn3 
+	.byte	W10
+	.byte		        Dn3 
+	.byte	W10
+	.byte		VOL   , 39*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v-7
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v+8
+	.byte		N08   , As2 
+	.byte	W10
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+16
+	.byte		VOL   , 39*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v+11
+	.byte		N08   , An3 
+	.byte	W10
+	.byte		BEND  , c_v+0
+	.byte		N08   , Gn3 
+	.byte	W10
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v+21
+	.byte		VOL   , 29*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 84
+	.byte		PAN   , c_v+16
+	.byte		BEND  , c_v+0
+	.byte		N08   , Fn3 
+	.byte	W10
+	.byte		        En3 
+	.byte	W10
+	.byte		        Fn3 
+	.byte	W02
 @ 011   ----------------------------------------
-        .byte   W72
+	.byte	W08
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v+0
+	.byte		VOL   , 39*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v+11
+	.byte		N08   , Dn3 
+	.byte	W09
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+0
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v+8
+	.byte		N08   , Cn4 
+	.byte	W10
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+16
+	.byte		VOL   , 39*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v+11
+	.byte		BEND  , c_v+0
+	.byte		N08   , As3 
+	.byte	W10
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v+21
+	.byte		VOL   , 29*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 84
+	.byte		PAN   , c_v+16
+	.byte		BEND  , c_v+0
+	.byte		N08   , An3 
+	.byte	W10
+	.byte		BEND  , c_v+0
+	.byte		N08   , Gn3 
+	.byte	W10
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v+0
+	.byte		VOL   , 39*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v+11
+	.byte		BEND  , c_v+0
+	.byte		N08   , An3 
+	.byte	W10
+	.byte		        Fn3 
+	.byte	W10
+	.byte		N36   , En4 
+	.byte	W19
 @ 012   ----------------------------------------
-        .byte   W72
+	.byte	W21
+	.byte		N04   , Dn4 
+	.byte	W05
+	.byte		        Cn4 
+	.byte	W05
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v+21
+	.byte		VOL   , 29*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 84
+	.byte		PAN   , c_v+16
+	.byte		BEND  , c_v+0
+	.byte		N04   , As3 
+	.byte	W05
+	.byte		BEND  , c_v+0
+	.byte		N04   , An3 
+	.byte	W05
+	.byte		BEND  , c_v+0
+	.byte		TIE   , Gn3 
+	.byte	W54
+	.byte	W01
 @ 013   ----------------------------------------
-        .byte   W72
+	.byte	W96
 @ 014   ----------------------------------------
-        .byte   W72
+	.byte	W84
+	.byte	W01
+	.byte		EOT   
+	.byte	W02
+	.byte		VOL   , 39*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v-7
+	.byte		VOL   , 52*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v+12
+	.byte		BEND  , c_v+0
+	.byte		N36   , Dn3 
+	.byte	W09
 @ 015   ----------------------------------------
-        .byte   W72
+feb20230202231013_6_015:
+	.byte	W30
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v+23
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+16
+	.byte		N09   , Cn3 , v088
+	.byte	W10
+	.byte		BEND  , c_v+0
+	.byte		N09   , Gn3 
+	.byte	W10
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v+8
+	.byte		VOL   , 52*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v+12
+	.byte		BEND  , c_v+0
+	.byte		N36   , Dn3 
+	.byte	W36
+	.byte	W03
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v+23
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+16
+	.byte		N08   , Cn3 
+	.byte	W07
+	.byte	PEND
 @ 016   ----------------------------------------
-        .byte   W72
+	.byte	W03
+	.byte		BEND  , c_v+0
+	.byte		N09   , Gn3 
+	.byte	W10
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v+8
+	.byte		VOL   , 52*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v+12
+	.byte		BEND  , c_v+0
+	.byte		N36   , Dn3 
+	.byte	W40
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v+23
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+16
+	.byte		N09   , Cn3 
+	.byte	W10
+	.byte		BEND  , c_v+0
+	.byte		N09   , Gn3 
+	.byte	W10
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v+8
+	.byte		VOL   , 52*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v+12
+	.byte		BEND  , c_v+0
+	.byte		N36   , Dn3 
+	.byte	W23
 @ 017   ----------------------------------------
-        .byte   W72
+	.byte	W16
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v+23
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+16
+	.byte		N18   , Cn3 
+	.byte	W20
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v+8
+	.byte		VOL   , 52*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v+12
+	.byte		N36   , Dn3 
+	.byte	W40
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v+23
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+16
+	.byte		N09   , Cn3 
+	.byte	W09
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v+8
+	.byte		VOL   , 52*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v+12
+	.byte		BEND  , c_v+0
+	.byte		N08   , Gn3 
+	.byte	W10
+	.byte		BEND  , c_v+0
+	.byte		N36   , Dn3 
+	.byte	W01
 @ 018   ----------------------------------------
-        .byte   W72
+	.byte	W36
+	.byte	W03
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v+23
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+16
+	.byte		N09   , Cn3 
+	.byte	W10
+	.byte		BEND  , c_v+0
+	.byte		N09   , Gn3 
+	.byte	W10
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v+8
+	.byte		VOL   , 52*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v+12
+	.byte		BEND  , c_v+0
+	.byte		N36   , Dn3 
+	.byte	W36
+	.byte	W01
 @ 019   ----------------------------------------
-        .byte   W72
+	.byte	W02
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v+23
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+16
+	.byte		N08   , Cn3 
+	.byte	W10
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v+8
+	.byte		BEND  , c_v+0
+	.byte		N08   , Gn3 
+	.byte	W10
+	.byte		BEND  , c_v+0
+	.byte		N09   , An3 
+	.byte	W10
+	.byte		BEND  , c_v+0
+	.byte		N09   , Gn3 
+	.byte	W10
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+16
+	.byte		BEND  , c_v+0
+	.byte		N09   , Fs3 
+	.byte	W10
+	.byte		N08   , Dn3 
+	.byte	W10
+	.byte		VOL   , 39*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v+11
+	.byte		N09   , Cn3 
+	.byte	W10
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+0
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v+8
+	.byte		N09   , An2 
+	.byte	W09
+	.byte		VOL   , 52*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v+0
+	.byte		VOL   , 39*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v-26
+	.byte		BEND  , c_v+0
+	.byte		N08   , Dn3 
+	.byte	W10
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v-32
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v-20
+	.byte		N08   , Cn3 
+	.byte	W05
 @ 020   ----------------------------------------
-        .byte   W72
+	.byte	W05
+	.byte		        As2 
+	.byte	W09
+	.byte		        An2 
+	.byte	W10
+	.byte		        As2 
+	.byte	W10
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v-16
+	.byte		VOL   , 39*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v-26
+	.byte		N08   , Gn2 
+	.byte	W10
+	.byte		        Dn3 
+	.byte	W10
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v-32
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v-20
+	.byte		N08   , Cn3 
+	.byte	W10
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v-16
+	.byte		VOL   , 39*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v-26
+	.byte		N09   , As2 
+	.byte	W10
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v-32
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v-20
+	.byte		N09   , An2 
+	.byte	W10
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v-16
+	.byte		VOL   , 39*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v-26
+	.byte		N09   , As2 
+	.byte	W11
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v-32
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v-20
+	.byte		N09   , Gn2 
+	.byte	W01
 @ 021   ----------------------------------------
-        .byte   W72
+	.byte	W06
+feb20230202231013_6_B1:
+	.byte		PAN   , c_v-20
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte		PAN   , c_v-20
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte		BEND  , c_v+0
+	.byte	W03
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v+0
+	.byte		VOL   , 24*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 32
+	.byte		PAN   , c_v-32
+	.byte		BEND  , c_v+0
+	.byte		N03   , Dn5 , v088
+	.byte	W05
+	.byte		BEND  , c_v+0
+	.byte		N04   , Ds5 
+	.byte	W05
+	.byte		BEND  , c_v+0
+	.byte		N04   , Dn5 
+	.byte	W05
+	.byte		N03   , Cn5 
+	.byte	W05
+	.byte		N04   , As4 
+	.byte	W04
+	.byte		        Cn5 
+	.byte	W06
+	.byte		N03   , As4 
+	.byte	W04
+	.byte		N04   , An4 
+	.byte	W05
+	.byte		        Gn4 
+	.byte	W05
+	.byte		        An4 
+	.byte	W05
+	.byte		N03   , Gn4 
+	.byte	W05
+	.byte		N04   , Fs4 
+	.byte	W05
+	.byte		BEND  , c_v+0
+	.byte		N03   , Dn4 
+	.byte	W05
+	.byte		N04   , Ds4 
+	.byte	W05
+	.byte		N03   , Dn4 
+	.byte	W05
+	.byte		        Cn4 
+	.byte	W05
+	.byte		BEND  , c_v+0
+	.byte		N03   , As3 
+	.byte	W05
+	.byte		BEND  , c_v+0
+	.byte		N03   , Cn4 
+	.byte	W03
 @ 022   ----------------------------------------
-        .byte   W72
+	.byte	W02
+	.byte		BEND  , c_v+0
+	.byte		N03   , As3 
+	.byte	W05
+	.byte		BEND  , c_v+0
+	.byte		N03   , An3 
+	.byte	W05
+	.byte		BEND  , c_v+0
+	.byte		N04   , Gn3 
+	.byte	W05
+	.byte		BEND  , c_v+0
+	.byte		N04   , An3 
+	.byte	W05
+	.byte		BEND  , c_v+0
+	.byte		N04   , Gn3 
+	.byte	W05
+	.byte		BEND  , c_v+0
+	.byte		N04   , Fs3 
+	.byte	W05
+	.byte		BEND  , c_v+0
+	.byte		N03   , Gn5 
+	.byte	W04
+	.byte		N04   , Gs5 
+	.byte	W05
+	.byte		N03   , Gn5 
+	.byte	W05
+	.byte		        Fn5 
+	.byte	W05
+	.byte		BEND  , c_v+0
+	.byte		N03   , Ds5 
+	.byte	W05
+	.byte		BEND  , c_v+0
+	.byte		N04   , Fn5 
+	.byte	W05
+	.byte		BEND  , c_v+0
+	.byte		N03   , Ds5 
+	.byte	W05
+	.byte		BEND  , c_v+0
+	.byte		N04   , Dn5 
+	.byte	W05
+	.byte		N03   , Cn5 
+	.byte	W05
+	.byte		N04   , Dn5 
+	.byte	W05
+	.byte		N03   , Cn5 
+	.byte	W05
+	.byte		        Bn4 
+	.byte	W05
+	.byte		        Gn4 
+	.byte	W05
 @ 023   ----------------------------------------
-        .byte   W72
+	.byte		N04   , Gs4 
+	.byte	W05
+	.byte		N03   , Gn4 
+	.byte	W05
+	.byte		BEND  , c_v+0
+	.byte		N03   , Fn4 
+	.byte	W05
+	.byte		        Ds4 
+	.byte	W05
+	.byte		N04   , Fn4 
+	.byte	W05
+	.byte		N03   , Ds4 
+	.byte	W05
+	.byte		        Dn4 
+	.byte	W05
+	.byte		N04   , Cn4 
+	.byte	W04
+	.byte		        Dn4 
+	.byte	W06
+	.byte		N03   , Cn4 
+	.byte	W04
+	.byte		N04   , Bn3 
+	.byte	W32
+	.byte	W02
+	.byte		VOICE , 49
+	.byte		VOL   , 4*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 125
+	.byte		PAN   , c_v+63
+	.byte		VOL   , 0*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 0
+	.byte		PAN   , c_v-64
+	.byte		VOL   , 0*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 0
+	.byte		PAN   , c_v-64
+	.byte		BEND  , c_v+0
+	.byte		N19   , As4 
+	.byte	W13
 @ 024   ----------------------------------------
-        .byte   W72
+	.byte	W08
+	.byte		        Gn4 
+	.byte	W20
+	.byte		        Gs4 
+	.byte	W21
+	.byte		BEND  , c_v+0
+	.byte		N19   , Ds4 
+	.byte	W20
+	.byte		N11   , Fn4 
+	.byte	W13
+	.byte		VOL   , 15*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 109
+	.byte		PAN   , c_v-64
+	.byte		VOL   , 23*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 32
+	.byte		PAN   , c_v-32
+	.byte		N08   , Dn3 
+	.byte	W09
+	.byte		VOL   , 26*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 84
+	.byte		PAN   , c_v-37
+	.byte		VOL   , 32*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v-21
+	.byte		N08   , Cn3 
+	.byte	W05
 @ 025   ----------------------------------------
-        .byte   W72
+	.byte	W05
+	.byte		        As2 
+	.byte	W10
+	.byte		        An2 
+	.byte	W10
+	.byte		        As2 
+	.byte	W10
+	.byte		VOL   , 26*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 84
+	.byte		PAN   , c_v-10
+	.byte		VOL   , 23*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 32
+	.byte		PAN   , c_v-32
+	.byte		N08   , Gn2 
+	.byte	W10
+	.byte		VOICE , 48
+	.byte		VOL   , 24*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 32
+	.byte		PAN   , c_v-32
+	.byte		BEND  , c_v+0
+	.byte		N08   , Dn3 
+	.byte	W06
+	.byte		VOL   , 29*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 84
+	.byte		PAN   , c_v-37
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v-21
+	.byte	W04
+	.byte		N08   , Cn3 
+	.byte	W10
+	.byte		        As2 
+	.byte	W10
+	.byte		        An2 
+	.byte	W04
+	.byte		VOL   , 39*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v-26
+	.byte	W05
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v-21
+	.byte		N08   , As2 
+	.byte	W10
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v-32
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v-20
+	.byte		N08   , Gn2 
+	.byte	W02
 @ 026   ----------------------------------------
-        .byte   W72
+	.byte	W08
+	.byte		        Dn3 
+	.byte	W10
+	.byte		VOL   , 52*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v-25
+	.byte		N08   , Cn3 
+	.byte	W05
+	.byte		VOL   , 55*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 115
+	.byte		PAN   , c_v-16
+	.byte	W03
+	.byte		VOL   , 60*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 74
+	.byte		PAN   , c_v-21
+	.byte	W02
+	.byte		VOL   , 55*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 115
+	.byte		PAN   , c_v-16
+	.byte		VOL   , 52*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v-25
+	.byte		N08   , As2 
+	.byte	W10
+	.byte		        An2 
+	.byte	W10
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v-20
+	.byte		N08   , As2 
+	.byte	W10
+	.byte		        Gn2 
+	.byte	W10
+	.byte		VOL   , 52*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v-25
+	.byte		N08   , Dn3 
+	.byte	W10
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v-20
+	.byte		N08   , Cn3 
+	.byte	W09
+	.byte		        As2 
+	.byte	W09
 @ 027   ----------------------------------------
-        .byte   W72
+	.byte	W01
+	.byte		        An2 
+	.byte	W10
+	.byte		        As2 
+	.byte	W10
+	.byte		        Gn2 
+	.byte	W10
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v+0
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+16
+	.byte		N08   , Fn3 
+	.byte	W10
+	.byte		VOL   , 39*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v+30
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v+21
+	.byte		N08   , En3 
+	.byte	W10
+	.byte		        Dn3 
+	.byte	W10
+	.byte		        Cn3 
+	.byte	W10
+	.byte		        Dn3 
+	.byte	W09
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+0
+	.byte		VOL   , 52*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v+12
+	.byte		N08   , As2 
+	.byte	W10
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v+23
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+16
+	.byte		N08   , An3 
+	.byte	W06
 @ 028   ----------------------------------------
-        .byte   W72
+	.byte	W04
+	.byte		BEND  , c_v+0
+	.byte		N08   , Gn3 
+	.byte	W10
+	.byte		VOL   , 39*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v+30
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v+21
+	.byte		BEND  , c_v+0
+	.byte		N08   , Fn3 
+	.byte	W10
+	.byte		VOL   , 29*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 84
+	.byte		PAN   , c_v+16
+	.byte		N08   , En3 
+	.byte	W10
+	.byte		        Fn3 
+	.byte	W10
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v+0
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+16
+	.byte		N08   , Dn3 
+	.byte	W10
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v+8
+	.byte		VOL   , 52*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v+12
+	.byte		N08   , Cn4 
+	.byte	W10
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v+23
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+16
+	.byte		BEND  , c_v+0
+	.byte		N08   , As3 
+	.byte	W09
+	.byte		VOL   , 39*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v+30
+	.byte		VOL   , 29*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 84
+	.byte		PAN   , c_v+16
+	.byte	W01
+	.byte		BEND  , c_v+0
+	.byte		N08   , An3 
+	.byte	W09
+	.byte		BEND  , c_v+0
+	.byte		N08   , Gn3 
+	.byte	W10
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v+0
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+16
+	.byte		BEND  , c_v+0
+	.byte		N08   , An3 
+	.byte	W03
 @ 029   ----------------------------------------
-        .byte   W72
+	.byte	W07
+	.byte		VOL   , 39*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v+11
+	.byte		N08   , Fn3 
+	.byte	W10
+	.byte		N36   , En4 
+	.byte	W40
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+16
+	.byte		N04   , Dn4 
+	.byte	W05
+	.byte		        Cn4 
+	.byte	W05
+	.byte		VOL   , 39*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v+30
+	.byte		VOL   , 29*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 84
+	.byte		PAN   , c_v+16
+	.byte		BEND  , c_v+0
+	.byte		N04   , As3 
+	.byte	W05
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v+21
+	.byte		BEND  , c_v+0
+	.byte		N04   , An3 
+	.byte	W05
+	.byte		VOL   , 29*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 84
+	.byte		PAN   , c_v+16
+	.byte		BEND  , c_v+0
+	.byte		TIE   , Gn3 
+	.byte	W19
 @ 030   ----------------------------------------
-        .byte   W72
+	.byte	W96
 @ 031   ----------------------------------------
-        .byte   W72
+	.byte	W96
 @ 032   ----------------------------------------
-crisis_1_5_32:
-        .byte   W24
-        .byte           N12   , As2 , v089
-        .byte   W24
-        .byte                   As2
-        .byte   W24
-        .byte   PEND
+	.byte	W24
+	.byte	W01
+	.byte		EOT   
+	.byte	W02
+	.byte		VOL   , 39*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v-7
+	.byte		VOL   , 52*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v+12
+	.byte		BEND  , c_v+0
+	.byte		N36   , Dn3 
+	.byte	W36
+	.byte	W03
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v+23
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+16
+	.byte		N09   , Cn3 
+	.byte	W10
+	.byte		BEND  , c_v+0
+	.byte		N09   , Gn3 
+	.byte	W10
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v+8
+	.byte		VOL   , 52*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v+12
+	.byte		BEND  , c_v+0
+	.byte		N36   , Dn3 
+	.byte	W10
 @ 033   ----------------------------------------
-crisis_1_5_33:
-        .byte           N06   , As2 , v089
-        .byte   W24
-        .byte           N12   , En3
-        .byte   W24
-        .byte                   Gn3
-        .byte   W24
-        .byte   PEND
+	.byte	PATT
+	 .word	feb20230202231013_6_015
 @ 034   ----------------------------------------
-        .byte           TIE   , An3
-        .byte   W72
+	.byte	W03
+	.byte		BEND  , c_v+0
+	.byte		N09   , Gn3 , v088
+	.byte	W10
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v+8
+	.byte		VOL   , 52*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v+12
+	.byte		BEND  , c_v+0
+	.byte		N36   , Dn3 
+	.byte	W40
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v+23
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+16
+	.byte		N18   , Cn3 
+	.byte	W19
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v+8
+	.byte		VOL   , 52*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v+12
+	.byte		N36   , Dn3 
+	.byte	W24
 @ 035   ----------------------------------------
-        .byte   W72
+	.byte	W16
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v+23
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+16
+	.byte		N08   , Cn3 
+	.byte	W10
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v+8
+	.byte		VOL   , 52*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v+12
+	.byte		BEND  , c_v+0
+	.byte		N08   , Gn3 
+	.byte	W10
+	.byte		BEND  , c_v+0
+	.byte		N36   , Dn3 
+	.byte	W36
+	.byte	W03
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v+23
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+16
+	.byte		N09   , Cn3 
+	.byte	W10
+	.byte		BEND  , c_v+0
+	.byte		N09   , Gn3 
+	.byte	W10
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v+8
+	.byte		VOL   , 52*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v+12
+	.byte		BEND  , c_v+0
+	.byte		N36   , Dn3 
+	.byte	W01
 @ 036   ----------------------------------------
-crisis_1_5_36:
-        .byte           EOT   , An3
-        .byte           TIE   , Gs3 , v089
-        .byte   W72
-        .byte   PEND
+	.byte	W36
+	.byte	W03
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v+23
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+16
+	.byte		N08   , Cn3 
+	.byte	W10
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v+8
+	.byte		VOL   , 52*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v+12
+	.byte		BEND  , c_v+0
+	.byte		N09   , Gn3 
+	.byte	W09
+	.byte		BEND  , c_v+0
+	.byte		N09   , An3 
+	.byte	W10
+	.byte		BEND  , c_v+0
+	.byte		N09   , Gn3 
+	.byte	W10
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v+23
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+16
+	.byte		BEND  , c_v+0
+	.byte		N09   , Fs3 
+	.byte	W10
+	.byte		        Dn3 
+	.byte	W08
 @ 037   ----------------------------------------
-        .byte   W72
+	.byte	W02
+	.byte		N08   , Cn3 
+	.byte	W10
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v+8
+	.byte		VOL   , 52*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v+12
+	.byte		N09   , An2 
+	.byte	W09
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v+23
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+16
+	.byte		BEND  , c_v+0
+	.byte		N08   , Fn3 
+	.byte	W10
+	.byte		VOL   , 39*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v+30
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v+21
+	.byte		N09   , En3 
+	.byte	W10
+	.byte		N08   , Dn3 
+	.byte	W10
+	.byte		        Cn3 
+	.byte	W10
+	.byte		        Dn3 
+	.byte	W10
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+0
+	.byte		VOL   , 52*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v+12
+	.byte		N08   , As2 
+	.byte	W10
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v+23
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+16
+	.byte		N08   , An3 
+	.byte	W09
+	.byte		BEND  , c_v+0
+	.byte		N08   , Gn3 
+	.byte	W06
 @ 038   ----------------------------------------
-crisis_1_5_38:
-        .byte           EOT   , Gs3
-        .byte   W24
-        .byte           N12   , Ds4 , v089
-        .byte   W24
-        .byte                   Cn4
-        .byte   W24
-        .byte   PEND
+	.byte	W04
+	.byte		VOL   , 39*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v+30
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v+21
+	.byte		BEND  , c_v+0
+	.byte		N08   , Fn3 
+	.byte	W10
+	.byte		VOL   , 29*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 84
+	.byte		PAN   , c_v+16
+	.byte		N08   , En3 
+	.byte	W10
+	.byte		        Fn3 
+	.byte	W10
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v+0
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+16
+	.byte		N08   , Dn3 
+	.byte	W10
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v+8
+	.byte		VOL   , 52*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v+12
+	.byte		N08   , Cn4 
+	.byte	W10
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v+23
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+16
+	.byte		BEND  , c_v+0
+	.byte		N08   , As3 
+	.byte	W10
+	.byte		VOL   , 39*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v+30
+	.byte		VOL   , 29*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 84
+	.byte		PAN   , c_v+16
+	.byte		BEND  , c_v+0
+	.byte		N08   , An3 
+	.byte	W10
+	.byte		BEND  , c_v+0
+	.byte		N08   , Gn3 
+	.byte	W09
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v+0
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+16
+	.byte		BEND  , c_v+0
+	.byte		N08   , An3 
+	.byte	W10
+	.byte		VOL   , 39*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v+11
+	.byte		N08   , Fn3 
+	.byte	W03
 @ 039   ----------------------------------------
-crisis_1_5_39:
-        .byte           N12   , Cs4 , v089
-        .byte   W24
-        .byte                   An3
-        .byte   W24
-        .byte                   As3
-        .byte   W24
-        .byte   PEND
+	.byte	W07
+	.byte		N36   , En4 
+	.byte	W40
+	.byte	W01
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+16
+	.byte		N04   , Dn4 
+	.byte	W04
+	.byte		        Cn4 
+	.byte	W05
+	.byte		VOL   , 39*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v+30
+	.byte		VOL   , 29*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 84
+	.byte		PAN   , c_v+16
+	.byte		BEND  , c_v+0
+	.byte		N04   , As3 
+	.byte	W05
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v+21
+	.byte		BEND  , c_v+0
+	.byte		N04   , An3 
+	.byte	W05
+	.byte		VOL   , 29*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 84
+	.byte		PAN   , c_v+16
+	.byte		BEND  , c_v+0
+	.byte		TIE   , Gn3 
+	.byte	W28
+	.byte	W01
 @ 040   ----------------------------------------
-        .byte           TIE   , Cn4
-        .byte   W72
+	.byte	W96
 @ 041   ----------------------------------------
-        .byte   W72
+	.byte	W96
 @ 042   ----------------------------------------
-        .byte                   An3
-        .byte   W72
+	.byte	W15
+	.byte		EOT   
+	.byte	W02
+	.byte		VOL   , 39*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v-7
+	.byte		VOL   , 52*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v+12
+	.byte		BEND  , c_v+0
+	.byte		N36   , Dn3 
+	.byte	W40
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v+23
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+16
+	.byte		N08   , Cn3 
+	.byte	W09
+	.byte		BEND  , c_v+0
+	.byte		N08   , Gn3 
+	.byte	W10
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v+8
+	.byte		VOL   , 52*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v+12
+	.byte		BEND  , c_v+0
+	.byte		N36   , Dn3 
+	.byte	W20
 @ 043   ----------------------------------------
-        .byte   W72
+	.byte	W20
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v+23
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+16
+	.byte		N09   , Cn3 
+	.byte	W10
+	.byte		BEND  , c_v+0
+	.byte		N09   , Gn3 
+	.byte	W10
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v+8
+	.byte		VOL   , 52*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v+12
+	.byte		BEND  , c_v+0
+	.byte		N36   , Dn3 
+	.byte	W36
+	.byte	W03
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v+23
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+16
+	.byte		N09   , Cn3 
+	.byte	W10
+	.byte		BEND  , c_v+0
+	.byte		N09   , Gn3 
+	.byte	W07
 @ 044   ----------------------------------------
-        .byte           EOT
-        .byte           EOT   , Cn4
-        .byte   GOTO
-         .word  crisis_1_5_LOOP
-        .byte   W72
+	.byte	W03
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v+8
+	.byte		VOL   , 52*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v+12
+	.byte		BEND  , c_v+0
+	.byte		N36   , Dn3 
+	.byte	W40
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v+23
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+16
+	.byte		N18   , Cn3 
+	.byte	W19
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v+8
+	.byte		VOL   , 52*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v+12
+	.byte		N36   , Dn3 
+	.byte	W32
+	.byte	W02
 @ 045   ----------------------------------------
-        .byte   W72
+	.byte	W06
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v+23
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+16
+	.byte		N08   , Cn3 
+	.byte	W10
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v+8
+	.byte		VOL   , 52*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v+12
+	.byte		BEND  , c_v+0
+	.byte		N09   , Gn3 
+	.byte	W10
+	.byte		BEND  , c_v+0
+	.byte		N36   , Dn3 
+	.byte	W36
+	.byte	W03
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v+23
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+16
+	.byte		N09   , Cn3 
+	.byte	W10
+	.byte		BEND  , c_v+0
+	.byte		N08   , Gn3 
+	.byte	W10
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v+8
+	.byte		VOL   , 52*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v+12
+	.byte		BEND  , c_v+0
+	.byte		N36   , Dn3 
+	.byte	W11
 @ 046   ----------------------------------------
-        .byte   W72
+	.byte	W28
+	.byte	W01
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v+23
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+16
+	.byte		N09   , Cn3 
+	.byte	W10
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v+8
+	.byte		VOL   , 52*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v+12
+	.byte		BEND  , c_v+0
+	.byte		N09   , Gn3 
+	.byte	W10
+	.byte		BEND  , c_v+0
+	.byte		N09   , An3 
+	.byte	W09
+	.byte		BEND  , c_v+0
+	.byte		N08   , Gn3 
+	.byte	W10
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v+23
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v+16
+	.byte		BEND  , c_v+0
+	.byte		N08   , Fs3 
+	.byte	W10
+	.byte		N09   , Dn3 
+	.byte	W10
+	.byte		N08   , Cn3 
+	.byte	W08
 @ 047   ----------------------------------------
-        .byte   W72
+	.byte	W02
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v+8
+	.byte		VOL   , 52*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v+12
+	.byte		N09   , An2 
+	.byte	W09
+	.byte		BEND  , c_v+26
+	.byte	W01
+	.byte		VOL   , 60*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 74
+	.byte		PAN   , c_v+0
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v-20
+	.byte		BEND  , c_v+0
+	.byte		N08   , Dn3 
+	.byte	W09
+	.byte		        Cn3 
+	.byte	W10
+	.byte		VOL   , 52*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v-25
+	.byte		N08   , As2 
+	.byte	W10
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v-20
+	.byte		N08   , An2 
+	.byte	W10
+	.byte		        As2 
+	.byte	W10
+	.byte		        Gn2 
+	.byte	W10
+	.byte		        Dn3 
+	.byte	W09
+	.byte		        Cn3 
+	.byte	W10
+	.byte		N09   , As2 
+	.byte	W06
 @ 048   ----------------------------------------
-        .byte   W72
-@ 049   ----------------------------------------
-        .byte   W72
-@ 050   ----------------------------------------
-        .byte   W72
-@ 051   ----------------------------------------
-        .byte   W72
-@ 052   ----------------------------------------
-        .byte   W72
-@ 053   ----------------------------------------
-        .byte   W72
-@ 054   ----------------------------------------
-        .byte   W72
-@ 055   ----------------------------------------
-        .byte   W72
-@ 056   ----------------------------------------
-        .byte   W72
-@ 057   ----------------------------------------
-        .byte   W72
-@ 058   ----------------------------------------
-        .byte   W72
-@ 059   ----------------------------------------
-        .byte   W72
-@ 060   ----------------------------------------
-        .byte   W72
-@ 061   ----------------------------------------
-        .byte   W72
-@ 062   ----------------------------------------
-        .byte   W72
-@ 063   ----------------------------------------
-        .byte   W72
-@ 064   ----------------------------------------
-        .byte   W72
-@ 065   ----------------------------------------
-        .byte   W72
-@ 066   ----------------------------------------
-        .byte   W72
-@ 067   ----------------------------------------
-        .byte   W72
-@ 068   ----------------------------------------
-        .byte   W72
-@ 069   ----------------------------------------
-        .byte   W72
-@ 070   ----------------------------------------
-        .byte   W72
-@ 071   ----------------------------------------
-        .byte   W72
-@ 072   ----------------------------------------
-        .byte   W72
-@ 073   ----------------------------------------
-        .byte   W72
-@ 074   ----------------------------------------
-        .byte   W72
-@ 075   ----------------------------------------
-        .byte   W72
-@ 076   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_5_32
-@ 077   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_5_33
-@ 078   ----------------------------------------
-        .byte           TIE   , An3 , v089
-        .byte   W72
-@ 079   ----------------------------------------
-        .byte   W72
-@ 080   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_5_36
-@ 081   ----------------------------------------
-        .byte   W72
-@ 082   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_5_38
-@ 083   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_5_39
-@ 084   ----------------------------------------
-        .byte           TIE   , Cn4 , v089
-        .byte   W72
-@ 085   ----------------------------------------
-        .byte   W72
-@ 086   ----------------------------------------
-        .byte                   An3
-        .byte   W72
-@ 087   ----------------------------------------
-        .byte   W72
-@ 088   ----------------------------------------
-        .byte           EOT
-        .byte           EOT   , Cn4
-        .byte   FINE
+	.byte	W05
+	.byte		        An2 
+	.byte	W10
+	.byte		VOL   , 45*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 39
+	.byte		PAN   , c_v-16
+	.byte		VOL   , 39*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 31
+	.byte		PAN   , c_v-26
+	.byte		N09   , As2 
+	.byte	W10
+	.byte		VOL   , 47*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 91
+	.byte		PAN   , c_v-34
+	.byte		VOL   , 52*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 121
+	.byte		PAN   , c_v-25
+	.byte		N09   , Gn2 
+	.byte	W10
+	.byte		VOL   , 35*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 17
+	.byte		PAN   , c_v+0
+	.byte		VOL   , 24*feb20230202231013_mvl/mxv
+	.byte	PRIO  , 32
+	.byte		PAN   , c_v-32
+	.byte		BEND  , c_v+0
+	.byte		N03   , Dn5 
+	.byte	W01
+	.byte	GOTO
+	 .word	feb20230202231013_6_B1
+feb20230202231013_6_B2:
+	.byte	W04
+	.byte		BEND  , c_v+0
+	.byte		N04   , Ds5 , v088
+	.byte	W05
+	.byte		BEND  , c_v+0
+	.byte		N03   , Dn5 
+	.byte	W05
+	.byte		        Cn5 
+	.byte	W05
+	.byte		        As4 
+	.byte	W05
+	.byte		        Cn5 
+	.byte	W05
+	.byte		        As4 
+	.byte	W05
+	.byte		        An4 
+	.byte	W05
+	.byte		N04   , Gn4 
+	.byte	W05
+	.byte		        An4 
+	.byte	W05
+	.byte		        Gn4 
+	.byte	W04
+	.byte	FINE
 
-@****************** Track 6 (Midi-Chn.6) ******************@
+@**************** Track 7 (Midi-Chn.10) ****************@
 
-crisis_1_6:
-        .byte   KEYSH , crisis_1_key+0
+feb20230202231013_7:
+	.byte		VOL   , 127*feb20230202231013_mvl/mxv
+	.byte	KEYSH , feb20230202231013_key+0
 @ 000   ----------------------------------------
-crisis_1_6_LOOP:
-        .byte           VOICE , 48
-        .byte           VOL   , 120
-        .byte           PAN   , c_v-26
-        .byte   W72
+	.byte		VOICE , 127
+	.byte		MODT  , 0
+	.byte		LFOS  , 44
+	.byte		MODT  , 0
+	.byte		LFOS  , 44
+	.byte	W05
+	.byte		N09   , Gn1 , v016
+	.byte	W09
+	.byte		N04   
+	.byte	W05
+	.byte		N05   
+	.byte	W05
+	.byte		N09   
+	.byte	W10
+	.byte		N04   
+	.byte	W05
+	.byte		N05   
+	.byte	W05
+	.byte		N09   
+	.byte	W10
+	.byte		N09   
+	.byte	W10
+	.byte		N09   
+	.byte	W10
+	.byte		N04   
+	.byte	W05
+	.byte		N05   
+	.byte	W05
+	.byte		N09   
+	.byte	W10
+	.byte		N04   
+	.byte	W02
 @ 001   ----------------------------------------
-        .byte   W72
+	.byte	W02
+	.byte		N05   
+	.byte	W05
+	.byte		N09   
+	.byte	W10
+	.byte		N10   
+	.byte	W10
+	.byte		N09   
+	.byte	W10
+	.byte		N04   
+	.byte	W05
+	.byte		N05   
+	.byte	W05
+	.byte		N09   
+	.byte	W10
+	.byte		N04   
+	.byte	W05
+	.byte		N05   
+	.byte	W05
+	.byte		N09   
+	.byte	W10
+	.byte		N10   
+	.byte	W10
+	.byte		N09   
+	.byte	W09
 @ 002   ----------------------------------------
-        .byte   W72
+	.byte		N05   
+	.byte	W05
+	.byte		N04   
+	.byte	W05
+	.byte		N09   
+	.byte	W10
+	.byte		N05   
+	.byte	W05
+	.byte		N05   
+	.byte	W05
+	.byte		N09   
+	.byte	W10
+	.byte		N28   
+	.byte	W10
+	.byte		N09   , Dn1 , v036
+	.byte	W10
+	.byte		N19   
+	.byte	W10
+	.byte		        Gn1 , v016
+	.byte	W10
+	.byte		        Dn1 , v036
+	.byte	W10
+	.byte		        Gn1 , v016
+	.byte	W06
 @ 003   ----------------------------------------
-        .byte   W72
+	.byte	W03
+	.byte		N28   , Dn1 , v036
+	.byte	W10
+	.byte		N09   , Gn1 , v016
+	.byte	W10
+	.byte		N05   
+	.byte	W05
+	.byte		N14   
+	.byte	W05
+	.byte		N19   , Dn1 , v036
+	.byte	W10
+	.byte		N04   , Gn1 , v016
+	.byte	W05
+	.byte		N14   
+	.byte	W05
+	.byte		N36   , Dn1 , v036
+	.byte	W10
+	.byte		N09   , Gn1 , v016
+	.byte	W10
+	.byte		N09   
+	.byte	W10
+	.byte		N05   
+	.byte	W05
+	.byte		N14   
+	.byte	W05
+	.byte		N19   , Dn1 , v036
+	.byte	W03
 @ 004   ----------------------------------------
-        .byte   W72
+	.byte	W06
+	.byte		N04   , Gn1 , v016
+	.byte	W05
+	.byte		N14   
+	.byte	W05
+	.byte		N48   , Dn1 , v036
+	.byte	W10
+	.byte		N09   , Gn1 , v016
+	.byte	W10
+	.byte		N09   
+	.byte	W10
+	.byte		N04   
+	.byte	W05
+	.byte		N05   
+	.byte	W05
+	.byte		N14   
+	.byte	W10
+	.byte		N09   , Dn1 , v036
+	.byte	W05
+	.byte		N24   , Gn1 , v016
+	.byte	W05
+	.byte		N04   , Dn1 , v036
+	.byte	W05
+	.byte		N10   
+	.byte	W10
+	.byte		TIE   
+	.byte	W05
 @ 005   ----------------------------------------
-        .byte   W72
+	.byte		N09   , Gn1 , v016
+	.byte	W09
+	.byte		N04   
+	.byte	W05
+	.byte		N04   
+	.byte	W05
+	.byte		N09   
+	.byte	W10
+	.byte		N05   
+	.byte	W05
+	.byte		N04   
+	.byte	W05
+	.byte		N10   
+	.byte	W10
+	.byte		N09   
+	.byte	W10
+	.byte		N09   
+	.byte	W10
+	.byte		N04   
+	.byte	W05
+	.byte		N05   
+	.byte	W05
+	.byte		N09   
+	.byte	W10
+	.byte		N04   
+	.byte	W04
+	.byte		N05   
+	.byte	W03
 @ 006   ----------------------------------------
-        .byte   W72
+	.byte	W03
+	.byte		N09   
+	.byte	W09
+	.byte		N09   
+	.byte	W10
+	.byte		N09   
+	.byte	W10
+	.byte		N05   
+	.byte	W05
+	.byte		N04   
+	.byte	W05
+	.byte		N10   
+	.byte	W10
+	.byte		N04   
+	.byte	W05
+	.byte		N05   
+	.byte	W05
+	.byte		N09   
+	.byte	W10
+	.byte		N09   
+	.byte	W10
+	.byte		N09   
+	.byte	W10
+	.byte		N04   
+	.byte	W04
 @ 007   ----------------------------------------
-        .byte   W72
+	.byte		N05   
+	.byte	W05
+	.byte		N09   
+	.byte	W10
+	.byte		N05   
+	.byte	W05
+	.byte		N04   
+	.byte	W05
+	.byte		N09   
+	.byte	W10
+	.byte		N09   
+	.byte	W10
+	.byte		N09   
+	.byte	W10
+	.byte		N04   
+	.byte	W05
+	.byte		N14   
+	.byte	W05
+	.byte		EOT   , Dn1 
+	.byte		N19   , Dn1 , v036
+	.byte	W10
+	.byte		N04   , Gn1 , v016
+	.byte	W05
+	.byte		N14   
+	.byte	W05
+	.byte		N48   , Dn1 , v036
+	.byte	W10
+	.byte		N09   , Gn1 , v016
+	.byte	W01
 @ 008   ----------------------------------------
-        .byte   W72
+	.byte	W08
+	.byte		N09   
+	.byte	W10
+	.byte		N04   
+	.byte	W05
+	.byte		N04   
+	.byte	W05
+	.byte		N14   
+	.byte	W10
+	.byte		N19   , Dn1 , v036
+	.byte	W05
+	.byte		N04   , Gn1 , v016
+	.byte	W05
+	.byte		N19   
+	.byte	W10
+	.byte		N28   , Dn1 , v036
+	.byte	W10
+	.byte		N09   , Gn1 , v016
+	.byte	W10
+	.byte		N04   
+	.byte	W05
+	.byte		N15   
+	.byte	W05
+	.byte		N19   , Dn1 , v036
+	.byte	W08
 @ 009   ----------------------------------------
-        .byte   W72
+	.byte	W02
+	.byte		N04   , Gn1 , v016
+	.byte	W04
+	.byte		N14   
+	.byte	W05
+	.byte		N36   , Dn1 , v036
+	.byte	W10
+	.byte		N09   , Gn1 , v016
+	.byte	W10
+	.byte		N09   
+	.byte	W10
+	.byte		N05   
+	.byte	W05
+	.byte		N14   
+	.byte	W05
+	.byte		N19   , Dn1 , v036
+	.byte	W10
+	.byte		N05   , Gn1 , v016
+	.byte	W05
+	.byte		N14   
+	.byte	W05
+	.byte		N04   , Dn1 , v036
+	.byte	W05
+	.byte		N09   
+	.byte	W05
+	.byte		N10   , Gn1 , v016
+	.byte	W05
+	.byte		TIE   , Dn1 , v036
+	.byte	W05
+	.byte		N09   , Gn1 , v016
+	.byte	W05
 @ 010   ----------------------------------------
-        .byte   W72
+	.byte	W05
+	.byte		N04   
+	.byte	W04
+	.byte		N05   
+	.byte	W05
+	.byte		N09   
+	.byte	W10
+	.byte		N04   
+	.byte	W05
+	.byte		N04   
+	.byte	W05
+	.byte		N09   
+	.byte	W10
+	.byte		N10   
+	.byte	W10
+	.byte		N09   
+	.byte	W10
+	.byte		N04   
+	.byte	W05
+	.byte		N05   
+	.byte	W05
+	.byte		N10   
+	.byte	W10
+	.byte		N04   
+	.byte	W05
+	.byte		N05   
+	.byte	W05
+	.byte		N09   
+	.byte	W02
 @ 011   ----------------------------------------
-        .byte   W72
+	.byte	W08
+	.byte		N09   
+	.byte	W09
+	.byte		N09   
+	.byte	W10
+	.byte		N04   
+	.byte	W05
+	.byte		N04   
+	.byte	W05
+	.byte		N09   
+	.byte	W10
+	.byte		N05   
+	.byte	W05
+	.byte		N04   
+	.byte	W05
+	.byte		N09   
+	.byte	W10
+	.byte		N09   
+	.byte	W10
+	.byte		N09   
+	.byte	W10
+	.byte		N04   
+	.byte	W04
+	.byte		N05   
+	.byte	W05
 @ 012   ----------------------------------------
-        .byte   W72
+	.byte	W01
+	.byte		N09   
+	.byte	W09
+	.byte		N04   
+	.byte	W05
+	.byte		N05   
+	.byte	W05
+	.byte		N09   
+	.byte	W10
+	.byte		N28   
+	.byte	W10
+	.byte		EOT   , Dn1 
+	.byte		N09   , Dn1 , v036
+	.byte	W10
+	.byte		N19   
+	.byte	W10
+	.byte		        Gn1 , v016
+	.byte	W10
+	.byte		        Dn1 , v036
+	.byte	W10
+	.byte		        Gn1 , v016
+	.byte	W10
+	.byte		N28   , Dn1 , v036
+	.byte	W06
 @ 013   ----------------------------------------
-        .byte   W72
+	.byte	W04
+	.byte		N09   , Gn1 , v016
+	.byte	W09
+	.byte		N04   
+	.byte	W05
+	.byte		N14   
+	.byte	W05
+	.byte		N19   , Dn1 , v036
+	.byte	W10
+	.byte		N04   , Gn1 , v016
+	.byte	W05
+	.byte		N14   
+	.byte	W05
+	.byte		N36   , Dn1 , v036
+	.byte	W10
+	.byte		N09   , Gn1 , v016
+	.byte	W10
+	.byte		N09   
+	.byte	W10
+	.byte		N04   
+	.byte	W05
+	.byte		N14   
+	.byte	W05
+	.byte		N19   , Dn1 , v036
+	.byte	W10
+	.byte		N04   , Gn1 , v016
+	.byte	W03
 @ 014   ----------------------------------------
-        .byte   W72
+	.byte	W01
+	.byte		N14   
+	.byte	W06
+	.byte		N48   , Dn1 , v036
+	.byte	W09
+	.byte		N09   , Gn1 , v016
+	.byte	W10
+	.byte		N09   
+	.byte	W10
+	.byte		N04   
+	.byte	W05
+	.byte		N05   
+	.byte	W05
+	.byte		N14   
+	.byte	W10
+	.byte		N09   , Dn1 , v036
+	.byte	W05
+	.byte		N24   , Gn1 , v016
+	.byte	W05
+	.byte		N04   , Dn1 , v036
+	.byte	W05
+	.byte		N09   
+	.byte	W10
+	.byte		TIE   
+	.byte	W05
+	.byte		N09   , Gn1 , v016
+	.byte	W09
+	.byte		N05   
+	.byte	W01
 @ 015   ----------------------------------------
-        .byte   W72
+	.byte	W04
+	.byte		N05   
+	.byte	W05
+	.byte		N09   
+	.byte	W10
+	.byte		N04   
+	.byte	W05
+	.byte		N05   
+	.byte	W05
+	.byte		N09   
+	.byte	W10
+	.byte		N09   
+	.byte	W10
+	.byte		N09   
+	.byte	W10
+	.byte		N05   
+	.byte	W05
+	.byte		N04   
+	.byte	W05
+	.byte		N09   
+	.byte	W10
+	.byte		N05   
+	.byte	W05
+	.byte		N04   
+	.byte	W05
+	.byte		N09   
+	.byte	W07
 @ 016   ----------------------------------------
-        .byte   W72
+	.byte	W02
+	.byte		N10   
+	.byte	W10
+	.byte		N09   
+	.byte	W10
+	.byte		N04   
+	.byte	W05
+	.byte		N05   
+	.byte	W05
+	.byte		N09   
+	.byte	W10
+	.byte		N04   
+	.byte	W05
+	.byte		N05   
+	.byte	W05
+	.byte		N09   
+	.byte	W10
+	.byte		N09   
+	.byte	W10
+	.byte		N09   
+	.byte	W10
+	.byte		N04   
+	.byte	W05
+	.byte		N05   
+	.byte	W05
+	.byte		N09   
+	.byte	W04
 @ 017   ----------------------------------------
-        .byte   W72
+	.byte	W05
+	.byte		N04   
+	.byte	W05
+	.byte		N05   
+	.byte	W05
+	.byte		N09   
+	.byte	W10
+	.byte		N09   
+	.byte	W10
+	.byte		N09   
+	.byte	W10
+	.byte		N04   
+	.byte	W05
+	.byte		N14   
+	.byte	W05
+	.byte		EOT   , Dn1 
+	.byte		N19   , Dn1 , v036
+	.byte	W10
+	.byte		N04   , Gn1 , v016
+	.byte	W05
+	.byte		N14   
+	.byte	W05
+	.byte		N48   , Dn1 , v036
+	.byte	W10
+	.byte		N09   , Gn1 , v016
+	.byte	W09
+	.byte		N09   
+	.byte	W02
 @ 018   ----------------------------------------
-        .byte   W72
+	.byte	W08
+	.byte		N05   
+	.byte	W05
+	.byte		N04   
+	.byte	W05
+	.byte		N14   
+	.byte	W10
+	.byte		N19   , Dn1 , v036
+	.byte	W05
+	.byte		N05   , Gn1 , v016
+	.byte	W05
+	.byte		N19   
+	.byte	W10
+	.byte		N28   , Dn1 , v036
+	.byte	W10
+	.byte		N09   , Gn1 , v016
+	.byte	W10
+	.byte		N04   
+	.byte	W05
+	.byte		N14   
+	.byte	W05
+	.byte		N19   , Dn1 , v036
+	.byte	W10
+	.byte		N05   , Gn1 , v016
+	.byte	W05
+	.byte		N14   
+	.byte	W03
 @ 019   ----------------------------------------
-        .byte   W72
+	.byte	W02
+	.byte		N36   , Dn1 , v036
+	.byte	W09
+	.byte		N09   , Gn1 , v016
+	.byte	W10
+	.byte		N10   
+	.byte	W10
+	.byte		N04   
+	.byte	W05
+	.byte		N15   
+	.byte	W05
+	.byte		N19   , Dn1 , v036
+	.byte	W10
+	.byte		N04   , Gn1 , v016
+	.byte	W05
+	.byte		N14   
+	.byte	W05
+	.byte		N04   , Dn1 , v036
+	.byte	W05
+	.byte		N09   
+	.byte	W05
+	.byte		N10   , Gn1 , v016
+	.byte	W05
+	.byte		TIE   , Dn1 , v036
+	.byte	W05
+	.byte		N09   , Gn1 , v016
+	.byte	W10
+	.byte		N05   
+	.byte	W05
 @ 020   ----------------------------------------
-        .byte   W72
+	.byte		N05   
+	.byte	W05
+	.byte		N09   
+	.byte	W09
+	.byte		N04   
+	.byte	W05
+	.byte		N05   
+	.byte	W05
+	.byte		N09   
+	.byte	W10
+	.byte		N10   
+	.byte	W10
+	.byte		N09   
+	.byte	W10
+	.byte		N04   
+	.byte	W05
+	.byte		N05   
+	.byte	W05
+	.byte		N10   
+	.byte	W10
+	.byte		N05   
+	.byte	W05
+	.byte		N05   
+	.byte	W05
+	.byte		N10   
+	.byte	W11
+	.byte		N10   
+	.byte	W01
 @ 021   ----------------------------------------
-        .byte   W72
+	.byte	W06
+feb20230202231013_7_B1:
+	.byte	W03
+	.byte		N09   , Gn1 , v016
+	.byte	W10
+	.byte		N05   
+	.byte	W05
+	.byte		N04   
+	.byte	W05
+	.byte		N10   
+	.byte	W10
+	.byte		N04   
+	.byte	W04
+	.byte		N05   
+	.byte	W05
+	.byte		N10   
+	.byte	W10
+	.byte		N09   
+	.byte	W10
+	.byte		N10   
+	.byte	W10
+	.byte		N04   
+	.byte	W05
+	.byte		N05   
+	.byte	W05
+	.byte		N09   
+	.byte	W08
 @ 022   ----------------------------------------
-        .byte   W72
+	.byte	W02
+	.byte		N04   
+	.byte	W05
+	.byte		N04   
+	.byte	W05
+	.byte		N09   
+	.byte	W10
+	.byte		N10   
+	.byte	W10
+	.byte		N09   
+	.byte	W09
+	.byte		N04   
+	.byte	W05
+	.byte		N05   
+	.byte	W05
+	.byte		N09   
+	.byte	W10
+	.byte		N04   
+	.byte	W05
+	.byte		N05   
+	.byte	W05
+	.byte		N09   
+	.byte	W10
+	.byte		N09   
+	.byte	W10
+	.byte		N10   
+	.byte	W05
 @ 023   ----------------------------------------
-        .byte   W72
+	.byte	W05
+	.byte		N04   
+	.byte	W05
+	.byte		N05   
+	.byte	W05
+	.byte		N09   
+	.byte	W10
+	.byte		N05   
+	.byte	W05
+	.byte		N04   
+	.byte	W05
+	.byte		N10   
+	.byte	W10
+	.byte		N09   
+	.byte	W09
+	.byte		N10   
+	.byte	W11
+	.byte		N05   
+	.byte	W05
+	.byte		N05   
+	.byte	W05
+	.byte		N10   
+	.byte	W10
+	.byte		N05   
+	.byte	W05
+	.byte		N05   
+	.byte	W05
+	.byte		N10   
+	.byte	W01
 @ 024   ----------------------------------------
-        .byte   W72
+	.byte	W09
+	.byte		N10   
+	.byte	W11
+	.byte		N10   
+	.byte	W10
+	.byte		N05   
+	.byte	W05
+	.byte		N05   
+	.byte	W05
+	.byte		N10   
+	.byte	W10
+	.byte		N05   
+	.byte	W05
+	.byte		N05   
+	.byte	W06
+	.byte		N10   
+	.byte	W10
+	.byte		N10   
+	.byte	W11
+	.byte		N09   
+	.byte	W09
+	.byte		N04   
+	.byte	W05
 @ 025   ----------------------------------------
-        .byte   W72
+	.byte		N05   
+	.byte	W05
+	.byte		N09   
+	.byte	W10
+	.byte		N04   
+	.byte	W05
+	.byte		N05   
+	.byte	W05
+	.byte		N09   
+	.byte	W10
+	.byte		N10   
+	.byte	W10
+	.byte		N09   
+	.byte	W10
+	.byte		N04   
+	.byte	W05
+	.byte		N05   
+	.byte	W05
+	.byte		N09   
+	.byte	W10
+	.byte		N04   
+	.byte	W04
+	.byte		N05   
+	.byte	W05
+	.byte		N10   
+	.byte	W10
+	.byte		N09   
+	.byte	W02
 @ 026   ----------------------------------------
-        .byte   W72
+	.byte	W08
+	.byte		N09   
+	.byte	W10
+	.byte		N04   
+	.byte	W05
+	.byte		N05   
+	.byte	W05
+	.byte		N09   
+	.byte	W10
+	.byte		N04   
+	.byte	W05
+	.byte		N05   
+	.byte	W05
+	.byte		N09   
+	.byte	W10
+	.byte		N10   
+	.byte	W10
+	.byte		N09   
+	.byte	W10
+	.byte		N04   
+	.byte	W04
+	.byte		N05   
+	.byte	W05
+	.byte		N09   
+	.byte	W09
 @ 027   ----------------------------------------
-        .byte   W72
+	.byte	W01
+	.byte		N04   
+	.byte	W05
+	.byte		N05   
+	.byte	W05
+	.byte		N19   
+	.byte	W10
+	.byte		EOT   , Dn1 
+	.byte		TIE   , Dn1 , v036
+	.byte	W10
+	.byte		N09   , Gn1 , v016
+	.byte	W10
+	.byte		N04   
+	.byte	W05
+	.byte		N05   
+	.byte	W05
+	.byte		N09   
+	.byte	W10
+	.byte		N04   
+	.byte	W05
+	.byte		N05   
+	.byte	W05
+	.byte		N09   
+	.byte	W09
+	.byte		N10   
+	.byte	W10
+	.byte		N09   
+	.byte	W06
 @ 028   ----------------------------------------
-        .byte   W72
+	.byte	W04
+	.byte		N04   
+	.byte	W05
+	.byte		N05   
+	.byte	W05
+	.byte		N09   
+	.byte	W10
+	.byte		N04   
+	.byte	W05
+	.byte		N05   
+	.byte	W05
+	.byte		N09   
+	.byte	W10
+	.byte		N09   
+	.byte	W10
+	.byte		N09   
+	.byte	W10
+	.byte		N04   
+	.byte	W05
+	.byte		N05   
+	.byte	W05
+	.byte		N09   
+	.byte	W09
+	.byte		N05   
+	.byte	W05
+	.byte		N04   
+	.byte	W05
+	.byte		N10   
+	.byte	W03
 @ 029   ----------------------------------------
-        .byte   W72
+	.byte	W07
+	.byte		N09   
+	.byte	W10
+	.byte		N09   
+	.byte	W10
+	.byte		N04   
+	.byte	W05
+	.byte		N05   
+	.byte	W05
+	.byte		N09   
+	.byte	W10
+	.byte		N05   
+	.byte	W05
+	.byte		N04   
+	.byte	W05
+	.byte		N09   
+	.byte	W10
+	.byte		N28   
+	.byte	W09
+	.byte		EOT   , Dn1 
+	.byte		N09   , Dn1 , v036
+	.byte	W10
+	.byte		N19   
+	.byte	W10
 @ 030   ----------------------------------------
-        .byte   W72
+	.byte		        Gn1 , v016
+	.byte	W10
+	.byte		        Dn1 , v036
+	.byte	W10
+	.byte		        Gn1 , v016
+	.byte	W10
+	.byte		N28   , Dn1 , v036
+	.byte	W10
+	.byte		N09   , Gn1 , v016
+	.byte	W10
+	.byte		N04   
+	.byte	W05
+	.byte		N15   
+	.byte	W05
+	.byte		N19   , Dn1 , v036
+	.byte	W10
+	.byte		N04   , Gn1 , v016
+	.byte	W04
+	.byte		N14   
+	.byte	W05
+	.byte		N36   , Dn1 , v036
+	.byte	W10
+	.byte		N09   , Gn1 , v016
+	.byte	W07
 @ 031   ----------------------------------------
-        .byte   W72
+	.byte	W03
+	.byte		N10   
+	.byte	W10
+	.byte		N04   
+	.byte	W05
+	.byte		N14   
+	.byte	W05
+	.byte		N19   , Dn1 , v036
+	.byte	W10
+	.byte		N04   , Gn1 , v016
+	.byte	W05
+	.byte		N15   
+	.byte	W05
+	.byte		N48   , Dn1 , v036
+	.byte	W10
+	.byte		N09   , Gn1 , v016
+	.byte	W10
+	.byte		N09   
+	.byte	W09
+	.byte		N05   
+	.byte	W05
+	.byte		N04   
+	.byte	W05
+	.byte		N14   
+	.byte	W10
+	.byte		N09   , Dn1 , v036
+	.byte	W04
 @ 032   ----------------------------------------
-crisis_1_6_32:
-        .byte   W24
-        .byte           N12   , Dn3 , v089
-        .byte   W24
-        .byte                   Cs3
-        .byte   W24
-        .byte   PEND
+	.byte	W01
+	.byte		N24   , Gn1 , v016
+	.byte	W05
+	.byte		N04   , Dn1 , v036
+	.byte	W05
+	.byte		N09   
+	.byte	W10
+	.byte		TIE   
+	.byte	W05
+	.byte		N09   , Gn1 , v016
+	.byte	W10
+	.byte		N04   
+	.byte	W05
+	.byte		N05   
+	.byte	W05
+	.byte		N09   
+	.byte	W10
+	.byte		N04   
+	.byte	W05
+	.byte		N05   
+	.byte	W05
+	.byte		N09   
+	.byte	W09
+	.byte		N09   
+	.byte	W10
+	.byte		N09   
+	.byte	W10
+	.byte		N04   
+	.byte	W01
 @ 033   ----------------------------------------
-crisis_1_6_33:
-        .byte           N12   , En3 , v089
-        .byte   W24
-        .byte                   Gn3
-        .byte   W24
-        .byte                   As3
-        .byte   W24
-        .byte   PEND
+	.byte	W04
+	.byte		N04   
+	.byte	W05
+	.byte		N09   
+	.byte	W10
+	.byte		N05   
+	.byte	W05
+	.byte		N05   
+	.byte	W05
+	.byte		N09   
+	.byte	W10
+	.byte		N09   
+	.byte	W10
+	.byte		N09   
+	.byte	W10
+	.byte		N04   
+	.byte	W04
+	.byte		N05   
+	.byte	W06
+	.byte		N09   
+	.byte	W09
+	.byte		N04   
+	.byte	W05
+	.byte		N05   
+	.byte	W05
+	.byte		N09   
+	.byte	W08
 @ 034   ----------------------------------------
-        .byte           TIE   , Dn4
-        .byte   W72
+	.byte	W02
+	.byte		N09   
+	.byte	W10
+	.byte		N09   
+	.byte	W10
+	.byte		N05   
+	.byte	W05
+	.byte		N05   
+	.byte	W05
+	.byte		N09   
+	.byte	W10
+	.byte		N04   
+	.byte	W05
+	.byte		N05   
+	.byte	W05
+	.byte		N09   
+	.byte	W10
+	.byte		N10   
+	.byte	W10
+	.byte		N09   
+	.byte	W09
+	.byte		N05   
+	.byte	W05
+	.byte		N14   
+	.byte	W05
+	.byte		EOT   , Dn1 
+	.byte		N19   , Dn1 , v036
+	.byte	W05
 @ 035   ----------------------------------------
-        .byte   W72
+	.byte	W05
+	.byte		N05   , Gn1 , v016
+	.byte	W05
+	.byte		N14   
+	.byte	W05
+	.byte		N48   , Dn1 , v036
+	.byte	W10
+	.byte		N09   , Gn1 , v016
+	.byte	W10
+	.byte		N09   
+	.byte	W10
+	.byte		N04   
+	.byte	W05
+	.byte		N05   
+	.byte	W05
+	.byte		N14   
+	.byte	W10
+	.byte		N19   , Dn1 , v036
+	.byte	W04
+	.byte		N05   , Gn1 , v016
+	.byte	W05
+	.byte		N19   
+	.byte	W10
+	.byte		N28   , Dn1 , v036
+	.byte	W10
+	.byte		N09   , Gn1 , v016
+	.byte	W02
 @ 036   ----------------------------------------
-        .byte   W72
+	.byte	W08
+	.byte		N04   
+	.byte	W05
+	.byte		N14   
+	.byte	W05
+	.byte		N19   , Dn1 , v036
+	.byte	W10
+	.byte		N05   , Gn1 , v016
+	.byte	W05
+	.byte		N14   
+	.byte	W05
+	.byte		N36   , Dn1 , v036
+	.byte	W10
+	.byte		N09   , Gn1 , v016
+	.byte	W10
+	.byte		N09   
+	.byte	W10
+	.byte		N04   
+	.byte	W04
+	.byte		N15   
+	.byte	W05
+	.byte		N19   , Dn1 , v036
+	.byte	W10
+	.byte		N04   , Gn1 , v016
+	.byte	W05
+	.byte		N14   
+	.byte	W04
 @ 037   ----------------------------------------
-        .byte   W72
+	.byte	W01
+	.byte		N04   , Dn1 , v036
+	.byte	W05
+	.byte		N09   
+	.byte	W05
+	.byte		N10   , Gn1 , v016
+	.byte	W05
+	.byte		TIE   , Dn1 , v036
+	.byte	W05
+	.byte		N09   , Gn1 , v016
+	.byte	W10
+	.byte		N05   
+	.byte	W05
+	.byte		N05   
+	.byte	W05
+	.byte		N09   
+	.byte	W10
+	.byte		N04   
+	.byte	W05
+	.byte		N05   
+	.byte	W05
+	.byte		N09   
+	.byte	W10
+	.byte		N10   
+	.byte	W10
+	.byte		N09   
+	.byte	W09
+	.byte		N04   
+	.byte	W05
+	.byte		N05   
+	.byte	W01
 @ 038   ----------------------------------------
-crisis_1_6_38:
-        .byte           EOT   , Dn4
-        .byte   W24
-        .byte           N12   , As4 , v089
-        .byte   W24
-        .byte                   Gn4
-        .byte   W24
-        .byte   PEND
+	.byte	W04
+	.byte		N09   
+	.byte	W10
+	.byte		N04   
+	.byte	W05
+	.byte		N05   
+	.byte	W05
+	.byte		N09   
+	.byte	W10
+	.byte		N09   
+	.byte	W10
+	.byte		N09   
+	.byte	W10
+	.byte		N04   
+	.byte	W05
+	.byte		N05   
+	.byte	W05
+	.byte		N09   
+	.byte	W10
+	.byte		N04   
+	.byte	W04
+	.byte		N05   
+	.byte	W05
+	.byte		N09   
+	.byte	W10
+	.byte		N09   
+	.byte	W03
 @ 039   ----------------------------------------
-crisis_1_6_39:
-        .byte           N12   , Gs4 , v089
-        .byte   W24
-        .byte                   Ds4
-        .byte   W24
-        .byte                   Fn4
-        .byte   W24
-        .byte   PEND
+	.byte	W07
+	.byte		N09   
+	.byte	W10
+	.byte		N04   
+	.byte	W05
+	.byte		N05   
+	.byte	W05
+	.byte		N09   
+	.byte	W10
+	.byte		N04   
+	.byte	W05
+	.byte		N04   
+	.byte	W05
+	.byte		N09   
+	.byte	W10
+	.byte		N28   
+	.byte	W09
+	.byte		EOT   , Dn1 
+	.byte	W01
+	.byte		N09   , Dn1 , v036
+	.byte	W09
+	.byte		N19   
+	.byte	W10
+	.byte		        Gn1 , v016
+	.byte	W10
 @ 040   ----------------------------------------
-        .byte           TIE   , Gn4
-        .byte   W72
+	.byte		        Dn1 , v036
+	.byte	W10
+	.byte		        Gn1 , v016
+	.byte	W10
+	.byte		N28   , Dn1 , v036
+	.byte	W10
+	.byte		N09   , Gn1 , v016
+	.byte	W10
+	.byte		N05   
+	.byte	W05
+	.byte		N14   
+	.byte	W05
+	.byte		N19   , Dn1 , v036
+	.byte	W10
+	.byte		N04   , Gn1 , v016
+	.byte	W05
+	.byte		N14   
+	.byte	W05
+	.byte		N36   , Dn1 , v036
+	.byte	W09
+	.byte		N09   , Gn1 , v016
+	.byte	W10
+	.byte		N09   
+	.byte	W07
 @ 041   ----------------------------------------
-        .byte   W72
+	.byte	W03
+	.byte		N04   
+	.byte	W05
+	.byte		N15   
+	.byte	W05
+	.byte		N19   , Dn1 , v036
+	.byte	W10
+	.byte		N04   , Gn1 , v016
+	.byte	W05
+	.byte		N14   
+	.byte	W05
+	.byte		N48   , Dn1 , v036
+	.byte	W10
+	.byte		N09   , Gn1 , v016
+	.byte	W10
+	.byte		N09   
+	.byte	W10
+	.byte		N04   
+	.byte	W04
+	.byte		N05   
+	.byte	W05
+	.byte		N14   
+	.byte	W10
+	.byte		N09   , Dn1 , v036
+	.byte	W05
+	.byte		N24   , Gn1 , v016
+	.byte	W05
+	.byte		N04   , Dn1 , v036
+	.byte	W04
 @ 042   ----------------------------------------
-crisis_1_6_42:
-        .byte           EOT   , Gn4
-        .byte           TIE   , An4 , v089
-        .byte   W72
-        .byte   PEND
+	.byte	W01
+	.byte		N09   
+	.byte	W10
+	.byte		TIE   
+	.byte	W05
+	.byte		N09   , Gn1 , v016
+	.byte	W10
+	.byte		N04   
+	.byte	W05
+	.byte		N05   
+	.byte	W05
+	.byte		N09   
+	.byte	W10
+	.byte		N04   
+	.byte	W05
+	.byte		N05   
+	.byte	W05
+	.byte		N09   
+	.byte	W09
+	.byte		N09   
+	.byte	W10
+	.byte		N10   
+	.byte	W10
+	.byte		N04   
+	.byte	W05
+	.byte		N05   
+	.byte	W05
+	.byte		N09   
+	.byte	W01
 @ 043   ----------------------------------------
-        .byte   W72
+	.byte	W09
+	.byte		N04   
+	.byte	W05
+	.byte		N05   
+	.byte	W05
+	.byte		N09   
+	.byte	W10
+	.byte		N09   
+	.byte	W10
+	.byte		N09   
+	.byte	W10
+	.byte		N05   
+	.byte	W05
+	.byte		N04   
+	.byte	W05
+	.byte		N09   
+	.byte	W09
+	.byte		N05   
+	.byte	W05
+	.byte		N04   
+	.byte	W05
+	.byte		N10   
+	.byte	W10
+	.byte		N09   
+	.byte	W08
 @ 044   ----------------------------------------
-        .byte           EOT
-        .byte   GOTO
-         .word  crisis_1_6_LOOP
-        .byte   W72
+	.byte	W02
+	.byte		N09   
+	.byte	W10
+	.byte		N04   
+	.byte	W05
+	.byte		N05   
+	.byte	W05
+	.byte		N10   
+	.byte	W10
+	.byte		N04   
+	.byte	W05
+	.byte		N05   
+	.byte	W05
+	.byte		N09   
+	.byte	W10
+	.byte		N09   
+	.byte	W10
+	.byte		N09   
+	.byte	W09
+	.byte		N04   
+	.byte	W05
+	.byte		N14   
+	.byte	W05
+	.byte		EOT   , Dn1 
+	.byte		N19   , Dn1 , v036
+	.byte	W10
+	.byte		N04   , Gn1 , v016
+	.byte	W05
 @ 045   ----------------------------------------
-        .byte   W72
+	.byte		N14   
+	.byte	W05
+	.byte		N48   , Dn1 , v036
+	.byte	W10
+	.byte		N09   , Gn1 , v016
+	.byte	W10
+	.byte		N09   
+	.byte	W10
+	.byte		N04   
+	.byte	W05
+	.byte		N05   
+	.byte	W05
+	.byte		N14   
+	.byte	W10
+	.byte		N19   , Dn1 , v036
+	.byte	W05
+	.byte		N05   , Gn1 , v016
+	.byte	W05
+	.byte		N19   
+	.byte	W09
+	.byte		N28   , Dn1 , v036
+	.byte	W10
+	.byte		N09   , Gn1 , v016
+	.byte	W10
+	.byte		N05   
+	.byte	W02
 @ 046   ----------------------------------------
-        .byte   W72
+	.byte	W03
+	.byte		N14   
+	.byte	W05
+	.byte		N19   , Dn1 , v036
+	.byte	W10
+	.byte		N04   , Gn1 , v016
+	.byte	W05
+	.byte		N14   
+	.byte	W05
+	.byte		N36   , Dn1 , v036
+	.byte	W10
+	.byte		N09   , Gn1 , v016
+	.byte	W10
+	.byte		N09   
+	.byte	W10
+	.byte		N04   
+	.byte	W05
+	.byte		N14   
+	.byte	W04
+	.byte		N19   , Dn1 , v036
+	.byte	W10
+	.byte		N05   , Gn1 , v016
+	.byte	W05
+	.byte		N14   
+	.byte	W05
+	.byte		N05   , Dn1 , v036
+	.byte	W05
+	.byte		N09   
+	.byte	W04
 @ 047   ----------------------------------------
-        .byte   W72
+	.byte	W01
+	.byte		N10   , Gn1 , v016
+	.byte	W11
+	.byte		N09   
+	.byte	W09
+	.byte		N04   
+	.byte	W05
+	.byte		N05   
+	.byte	W05
+	.byte		N09   
+	.byte	W10
+	.byte		N04   
+	.byte	W05
+	.byte		N05   
+	.byte	W05
+	.byte		N09   
+	.byte	W10
+	.byte		N09   
+	.byte	W10
+	.byte		N09   
+	.byte	W09
+	.byte		N04   
+	.byte	W05
+	.byte		N05   
+	.byte	W05
+	.byte		N10   
+	.byte	W06
 @ 048   ----------------------------------------
-        .byte   W72
-@ 049   ----------------------------------------
-        .byte   W72
-@ 050   ----------------------------------------
-        .byte   W72
-@ 051   ----------------------------------------
-        .byte   W72
-@ 052   ----------------------------------------
-        .byte   W72
-@ 053   ----------------------------------------
-        .byte   W72
-@ 054   ----------------------------------------
-        .byte   W72
-@ 055   ----------------------------------------
-        .byte   W72
-@ 056   ----------------------------------------
-        .byte   W72
-@ 057   ----------------------------------------
-        .byte   W72
-@ 058   ----------------------------------------
-        .byte   W72
-@ 059   ----------------------------------------
-        .byte   W72
-@ 060   ----------------------------------------
-        .byte   W72
-@ 061   ----------------------------------------
-        .byte   W72
-@ 062   ----------------------------------------
-        .byte   W72
-@ 063   ----------------------------------------
-        .byte   W72
-@ 064   ----------------------------------------
-        .byte   W72
-@ 065   ----------------------------------------
-        .byte   W72
-@ 066   ----------------------------------------
-        .byte   W72
-@ 067   ----------------------------------------
-        .byte   W72
-@ 068   ----------------------------------------
-        .byte   W72
-@ 069   ----------------------------------------
-        .byte   W72
-@ 070   ----------------------------------------
-        .byte   W72
-@ 071   ----------------------------------------
-        .byte   W72
-@ 072   ----------------------------------------
-        .byte   W72
-@ 073   ----------------------------------------
-        .byte   W72
-@ 074   ----------------------------------------
-        .byte   W72
-@ 075   ----------------------------------------
-        .byte   W72
-@ 076   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_6_32
-@ 077   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_6_33
-@ 078   ----------------------------------------
-        .byte           TIE   , Dn4 , v089
-        .byte   W72
-@ 079   ----------------------------------------
-        .byte   W72
-@ 080   ----------------------------------------
-        .byte   W72
-@ 081   ----------------------------------------
-        .byte   W72
-@ 082   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_6_38
-@ 083   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_6_39
-@ 084   ----------------------------------------
-        .byte           TIE   , Gn4 , v089
-        .byte   W72
-@ 085   ----------------------------------------
-        .byte   W72
-@ 086   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_6_42
-@ 087   ----------------------------------------
-        .byte   W72
-@ 088   ----------------------------------------
-        .byte           EOT   , An4
-        .byte   FINE
+	.byte	W05
+	.byte		N05   
+	.byte	W05
+	.byte		N05   
+	.byte	W05
+	.byte		N10   
+	.byte	W10
+	.byte		N10   
+	.byte	W10
+	.byte		N09   
+	.byte	W01
+	.byte	GOTO
+	 .word	feb20230202231013_7_B1
+feb20230202231013_7_B2:
+	.byte	W09
+	.byte		N05   , Gn1 , v016
+	.byte	W05
+	.byte		N04   
+	.byte	W05
+	.byte		N10   
+	.byte	W10
+	.byte		N04   
+	.byte	W05
+	.byte		N05   
+	.byte	W05
+	.byte		N09   
+	.byte	W10
+	.byte	FINE
 
-@****************** Track 7 (Midi-Chn.7) ******************@
+@******************************************************@
+	.align	2
 
-crisis_1_7:
-        .byte   KEYSH , crisis_1_key+0
-@ 000   ----------------------------------------
-crisis_1_7_LOOP:
-        .byte           VOICE , 121
-        .byte           VOL   , 76
-        .byte           N12   , Cn1 , v089
-        .byte   W12
-        .byte           N06
-        .byte   W06
-        .byte                   Cn1
-        .byte   W06
-        .byte           N12
-        .byte   W12
-        .byte           N06
-        .byte   W06
-        .byte                   Cn1
-        .byte   W06
-        .byte           N12
-        .byte   W12
-        .byte           N06
-        .byte   W12
-@ 001   ----------------------------------------
-crisis_1_7_1:
-        .byte           N12   , Cn1 , v089
-        .byte   W12
-        .byte           N06
-        .byte   W06
-        .byte                   Cn1
-        .byte   W06
-        .byte           N12
-        .byte   W12
-        .byte           N06
-        .byte   W06
-        .byte                   Cn1
-        .byte   W06
-        .byte           N12
-        .byte   W12
-        .byte           N06
-        .byte   W12
-        .byte   PEND
-@ 002   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_7_1
-@ 003   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_7_1
-@ 004   ----------------------------------------
-crisis_1_7_4:
-        .byte           N06   , En1 , v121
-        .byte   W12
-        .byte                   En1
-        .byte   W12
-        .byte           N12   , Cn1 , v089
-        .byte   W12
-        .byte           N06   , En1 , v121
-        .byte   W12
-        .byte           N12   , Cn1 , v089
-        .byte   W12
-        .byte           N06   , En1 , v121
-        .byte   W12
-        .byte   PEND
-@ 005   ----------------------------------------
-crisis_1_7_5:
-        .byte           N12   , Cn1 , v089
-        .byte   W12
-        .byte           N06
-        .byte   W06
-        .byte                   Cn1
-        .byte   W06
-        .byte                   En1 , v121
-        .byte   W12
-        .byte                   Cn1 , v089
-        .byte   W06
-        .byte                   Cn1
-        .byte   W06
-        .byte                   En1 , v121
-        .byte   W12
-        .byte           N12   , Cn1 , v089
-        .byte   W12
-        .byte   PEND
-@ 006   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_7_5
-@ 007   ----------------------------------------
-crisis_1_7_7:
-        .byte           N12   , Cn1 , v089
-        .byte   W12
-        .byte           N06
-        .byte   W06
-        .byte                   Cn1
-        .byte   W06
-        .byte           N12
-        .byte   W12
-        .byte           N03   , En1 , v121
-        .byte   W06
-        .byte           N06   , Cn1 , v089
-        .byte   W06
-        .byte           N03   , En1 , v121
-        .byte   W06
-        .byte                   En1
-        .byte   W12
-        .byte                   En1
-        .byte   W06
-        .byte   PEND
-@ 008   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_7_1
-@ 009   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_7_1
-@ 010   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_7_1
-@ 011   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_7_1
-@ 012   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_7_4
-@ 013   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_7_5
-@ 014   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_7_5
-@ 015   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_7_7
-@ 016   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_7_1
-@ 017   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_7_1
-@ 018   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_7_1
-@ 019   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_7_1
-@ 020   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_7_4
-@ 021   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_7_5
-@ 022   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_7_5
-@ 023   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_7_7
-@ 024   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_7_1
-@ 025   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_7_1
-@ 026   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_7_1
-@ 027   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_7_1
-@ 028   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_7_4
-@ 029   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_7_5
-@ 030   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_7_5
-@ 031   ----------------------------------------
-crisis_1_7_31:
-        .byte           N12   , Cn1 , v089
-        .byte   W12
-        .byte           N06
-        .byte   W06
-        .byte                   Cn1
-        .byte   W06
-        .byte           N12
-        .byte   W12
-        .byte           N03   , En1 , v121
-        .byte   W06
-        .byte           N06   , Cn1 , v089
-        .byte   W06
-        .byte           N03   , En1 , v121
-        .byte   W06
-        .byte                   En1
-        .byte   W12
-        .byte           N06
-        .byte   W06
-        .byte   PEND
-@ 032   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_7_1
-@ 033   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_7_1
-@ 034   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_7_1
-@ 035   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_7_1
-@ 036   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_7_1
-@ 037   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_7_1
-@ 038   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_7_1
-@ 039   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_7_1
-@ 040   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_7_1
-@ 041   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_7_1
-@ 042   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_7_1
-@ 043   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_7_1
-@ 044   ----------------------------------------
-        .byte           N12   , Cn1 , v089
-        .byte   GOTO
-         .word  crisis_1_7_LOOP
-        .byte   W12
-        .byte           N06
-        .byte   W06
-        .byte                   Cn1
-        .byte   W06
-        .byte           N12
-        .byte   W12
-        .byte           N06
-        .byte   W06
-        .byte                   Cn1
-        .byte   W06
-        .byte           N12
-        .byte   W12
-        .byte           N06
-        .byte   W12
-@ 045   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_7_1
-@ 046   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_7_1
-@ 047   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_7_1
-@ 048   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_7_4
-@ 049   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_7_5
-@ 050   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_7_5
-@ 051   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_7_7
-@ 052   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_7_1
-@ 053   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_7_1
-@ 054   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_7_1
-@ 055   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_7_1
-@ 056   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_7_4
-@ 057   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_7_5
-@ 058   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_7_5
-@ 059   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_7_7
-@ 060   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_7_1
-@ 061   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_7_1
-@ 062   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_7_1
-@ 063   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_7_1
-@ 064   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_7_4
-@ 065   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_7_5
-@ 066   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_7_5
-@ 067   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_7_7
-@ 068   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_7_1
-@ 069   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_7_1
-@ 070   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_7_1
-@ 071   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_7_1
-@ 072   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_7_4
-@ 073   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_7_5
-@ 074   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_7_5
-@ 075   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_7_31
-@ 076   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_7_1
-@ 077   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_7_1
-@ 078   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_7_1
-@ 079   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_7_1
-@ 080   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_7_1
-@ 081   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_7_1
-@ 082   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_7_1
-@ 083   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_7_1
-@ 084   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_7_1
-@ 085   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_7_1
-@ 086   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_7_1
-@ 087   ----------------------------------------
-        .byte   PATT
-         .word  crisis_1_7_1
-@ 088   ----------------------------------------
-        .byte   FINE
+feb20230202231013:
+	.byte	7	@ NumTrks
+	.byte	0	@ NumBlks
+	.byte	feb20230202231013_pri	@ Priority
+	.byte	feb20230202231013_rev	@ Reverb.
 
+	.word	feb20230202231013_grp
 
-@********************** End of Song ***********************@
+	.word	feb20230202231013_1
+	.word	feb20230202231013_2
+	.word	feb20230202231013_3
+	.word	feb20230202231013_4
+	.word	feb20230202231013_5
+	.word	feb20230202231013_6
+	.word	feb20230202231013_7
 
-        .align  2
-crisis_1:
-        .byte   8                       @ Num Tracks
-        .byte   0                       @ Unknown
-        .byte   crisis_1_pri            @ Priority
-        .byte   crisis_1_rev            @ Reverb
-
-        .word   crisis_1_grp           
-
-        .word   crisis_1_0
-        .word   crisis_1_1
-        .word   crisis_1_2
-        .word   crisis_1_3
-        .word   crisis_1_4
-        .word   crisis_1_5
-        .word   crisis_1_6
-        .word   crisis_1_7
-
-        .end
+	.end

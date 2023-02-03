@@ -545,6 +545,14 @@ ShannanPortrait:
 setMugEntry(0xB9,ShannanPortrait,2,5,2,3)
 
 ALIGN 4
+ShannamPortrait:
+#incbin "Shannam_mug.dmp"
+#incbin "Shannam_frames.dmp"
+#incbin "Shannam_palette.dmp"
+#incbin "Shannam_minimug.dmp"
+setMugEntry(0xF1,ShannamPortrait,3,5,3,3)
+
+ALIGN 4
 AresPortrait:
 #incbin "Ares_mug.dmp"
 #incbin "Ares_frames.dmp"
@@ -1113,6 +1121,14 @@ BrianPortrait:
 setMugEntry(0xD5,BrianPortrait,3,5,3,3)
 
 ALIGN 4
+VeldPortrait:
+#incbin "Veld_mug.dmp"
+#incbin "Veld_frames.dmp"
+#incbin "Veld_palette.dmp"
+#incbin "Veld_minimug.dmp"
+setMugEntry(0x4E,VeldPortrait,2,5,2,3)
+
+ALIGN 4
 ManfroyPortrait:
 #incbin "Manfroy_mug.dmp"
 #incbin "Manfroy_frames.dmp"
@@ -1362,3 +1378,20 @@ Snevejr_Palette:
 
 setMugEntryExtend(0x4C, Snevejr_Mug, Snevejr_Mini, Snevejr_Palette, Snevejr_Frames, 2, 5, 2, 3, 10, 3, 0, 0)
 
+ALIGN 4
+Henson_Mug:
+#incbin "Henson_mug.dmp"
+
+ALIGN 4
+Henson_Mini:
+#incbin "Henson_minimug.dmp"
+
+ALIGN 4
+Henson_Frames:
+#incbin "Henson_frames.dmp"
+
+ALIGN 4
+Henson_Palette:
+#incbin "Henson_palette.dmp"
+
+setMugEntryExtend(0x4D, Henson_Mug, Henson_Mini, Henson_Palette, Henson_Frames, 2, 5, 2, 3, 0, 2, 0, 1)

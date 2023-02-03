@@ -947,8 +947,8 @@ a run for your money.[A][X]
 [OpenLeft][LoadFace][0x64][0x01][OpenLeft]Do you want to quit?[NL]
 [Yes][X]
 
-#include "Objectives.txt"
-
 # 0x08FF
 [OpenLeft]Next time, choose Resume[NL]
 Chapter to finish this battle.[A][X]
+
+#include "Objectives.txt"
