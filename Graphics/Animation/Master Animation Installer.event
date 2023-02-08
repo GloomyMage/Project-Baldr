@@ -54,6 +54,10 @@
 #include "Holyn\Unarmed Installer.event"
 }
 {
+#include "Midir\Bow Installer.event"
+#include "Midir\Unarmed Installer.event"
+}
+{
 #include "Brigand\Axe Installer.event"
 #include "Brigand\Handaxe Installer.event"
 #include "Brigand\Unarmed Installer.event"
@@ -99,6 +103,10 @@
 #include "PalM(SALVAGED)\Sword Installer.event"
 #include "PalM(SALVAGED)\Lance Installer.event"
 #include "PalM(SALVAGED)\Unarmed Installer.event"
+}
+{
+#include "Knight(SALVAGED)\Sword Installer.event"
+#include "Knight(SALVAGED)\Unarmed Installer.event"
 }
 {
 #include "PalF(SALVAGED)\Sword Installer.event"
@@ -195,13 +203,6 @@
   //#include "my animation Installer.event"
   
 ALIGN 4
-BrigandAnims:
-AxeAnim(0x20)
-HandAxeAnim(0x21)
-UnarmedAnim(0x22)
-EndAnim  
-  
-ALIGN 4
 SigurdAnims:
 SwordAnim(0x3)
 LanceAnim(0xC2)
@@ -215,6 +216,12 @@ UnarmedAnim(0xB2)
 EndAnim 
 
 ALIGN 4
+MidirAnims:
+BowAnim(0xBE)
+UnarmedAnim(0xBD)
+EndAnim
+
+ALIGN 4
 JamkeProAnims:
 BowAnim(0xF5)
 EndAnim  
@@ -223,6 +230,19 @@ ALIGN 4
 HolynAnims:
 SwordAnim(0x53)
 UnarmedAnim(0x57)
+
+ALIGN 4
+ArmorAnims:
+SwordAnim(0x42)
+UnarmedAnim(0x41)
+EndAnim
+
+ALIGN 4
+BrigandAnims:
+AxeAnim(0x20)
+HandAxeAnim(0x21)
+UnarmedAnim(0x22)
+EndAnim  
 
 ALIGN 4
 BardMAnims:

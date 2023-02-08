@@ -42,7 +42,7 @@ ArdenPortrait:
 #incbin "Arden_frames.dmp"
 #incbin "Arden_palette.dmp"
 #incbin "Arden_minimug.dmp"
-setMugEntry(0x7,ArdenPortrait,2,5,2,3)
+setMugEntry(0x7,ArdenPortrait,3,5,3,3)
 
 ALIGN 4
 ArdenPromotedPortrait:
@@ -638,7 +638,7 @@ KinboisPortrait:
 #incbin "Kinbois_frames.dmp"
 #incbin "Kinbois_palette.dmp"
 #incbin "Kinbois_minimug.dmp"
-setMugEntry(0x38,KinboisPortrait,2,5,2,3)
+setMugEntry(0x38,KinboisPortrait,2,5,3,3)
 
 ALIGN 4
 MunnirPortrait:

@@ -483,8 +483,8 @@ EndEvent
 ALIGN 4
 
 PlayerUnits:
-UNIT Sigurd KnightLord Sigurd Level(1,Ally,0) [56,5] 0x0 0x0 0x0 0x1 [SteelSword, IronLance, Tyrfing] NoAI
-UNIT Alec UniCav 0x0 Level(2,Ally,0) [56,5] 0x0 0x0 0x1 REDA55R6 [IronSword, MasterSeal] NoAI
+UNIT Sigurd KnightLord Sigurd Level(1,Ally,0) [56,5] 0x0 0x0 0x0 0x1 [SteelSword, IronLance] NoAI
+UNIT Alec UniCav 0x0 Level(2,Ally,0) [56,5] 0x0 0x0 0x1 REDA55R6 [IronLance] NoAI
 UNIT Noish UniCav 0x0 Level(3,Ally,0) [56,5] 0x0 0x0 0x1 REDA57R6 [SteelSword] NoAI
 UNIT Arden SwdArm 0x0 Level(3,Ally,0) [56,5] 0x0 0x0 0x1 REDA56R7 [IronSword] NoAI
 UNIT //Tells the game that the unit list has ended
@@ -502,14 +502,14 @@ UNIT Edain Cleric Sigurd Level(1,NPC,0) [29,18] 0x0 0x0 0x0 0x1 [IronBow] NoAI
 UNIT
 
 LexCometh:
-UNIT Azel Mage 0x0 Level(1,Ally,0) [40,0] 0x0 0x0 0x1 REDA40R4 [Fire, MasterSeal, 0xE2, Fimbulvetr] NoAI
-UNIT Lex AxeCav 0x0 Level(4,Ally,0) [42,0] 0x0 0x0 0x1 REDA42R4 [IronAxe, MasterSeal] NoAI
+UNIT Azel Mage 0x0 Level(1,Ally,0) [40,0] 0x0 0x0 0x1 REDA40R4 [Fire] NoAI
+UNIT Lex AxeCav 0x0 Level(4,Ally,0) [42,0] 0x0 0x0 0x1 REDA42R4 [IronAxe] NoAI
 UNIT
 
 LensterCavalry:
-UNIT Finn LncCav 0x0 Level(1,Ally,0) [54,10] 0x0 0x0 0x1 REDA49R9 [IronLance, MasterSeal] NoAI
-UNIT Quan DukeKnt 0x0 Level(4,Ally,0) [57,8] 0x0 0x0 0x1 REDA44R9 [SteelLance, Javelin, MasterSeal] NoAI
-UNIT Ethlyn Troub 0x0 Level(1,Ally,0) [57,7] 0x0 0x0 0x1 REDA46R11 [Heal, SlimSword, MasterSeal] NoAI
+UNIT Finn LncCav 0x0 Level(1,Ally,0) [54,10] 0x0 0x0 0x1 REDA49R9 [IronLance] NoAI
+UNIT Quan DukeKnt 0x0 Level(4,Ally,0) [57,8] 0x0 0x0 0x1 REDA44R9 [SteelLance, Javelin] NoAI
+UNIT Ethlyn Troub 0x0 Level(1,Ally,0) [57,7] 0x0 0x0 0x1 REDA46R11 [Heal, SlimSword] NoAI
 UNIT
 
 ArvisCometh:

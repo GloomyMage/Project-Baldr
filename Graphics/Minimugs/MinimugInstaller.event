@@ -20,7 +20,7 @@ GenericMinimugTable:
 FILL 256*8
 
 GenericMinimugEntry(0,$599D34,$599F34)
-GenericMinimugEntry(1,$599B34,$599F54)
+GenericMinimugEntry(1,VerdaneIcon,VerdanePalette)
 GenericMinimugEntry(2,$599734,$599F74)
 GenericMinimugEntry(3,$599734,$599F54)
 GenericMinimugEntry(4,$599D34,$599F54)
@@ -28,6 +28,14 @@ GenericMinimugEntry(5,$599934,$599F74)
 GenericMinimugEntry(6,$599934,$599F54)
 GenericMinimugEntry(7,$599D34,$599F34)
 GenericMinimugEntry(8,BelhallaIcon,BelhallaPalette)
+
+ALIGN 4
+VerdaneIcon:
+#incbin "Verdane.dmp"
+
+ALIGN 4
+VerdanePalette:
+#incbin "VerdanePal.dmp"
 
 ALIGN 4
 BelhallaIcon:

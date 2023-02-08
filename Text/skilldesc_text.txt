@@ -179,7 +179,8 @@ Tomefaire: +4 damage[N]
 when equipping a tome.[X]
 
 ## SD_CritUp
-Crit Boost: +15 critical rate.[X]
+Crit Boost: User can inflict a[N]
+critical hit, doubling Atk.[X]
 
 ## SD_Slayer
 Slayer: Deal effective damage[N]
@@ -468,8 +469,8 @@ Patience: When under[N]
 attack, avoid +10. [X]
 
 ## SD_Pursuit
-Pursuit: When under attack,[N]
-attack speed +2. [X]
+Pursuit: Allows unit to double if[N]
+attack speed is higher than foe's. [X]
 
 ## SD_LightWeight
 Light Weight: When holding three[N]
