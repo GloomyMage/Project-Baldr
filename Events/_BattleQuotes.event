@@ -12,6 +12,8 @@ BattleQuoteTable: // This is in free space
 UnspecifiedBattleConvo(Munnir,0x0,0x0,MunnirRektsMidir)
 UnspecifiedBattleConvo(DiMaggio,0x0,0x1,DiMaggioBattle)
 UnspecifiedBattleConvo(Gerrard,0x0,0x11,GerrardBattle)
+SpecifiedBattleConvo(DiMaggio,Noish,0x0,0x19,NoishandDiMaggioBattle)
+SpecifiedBattleConvo(Noish,DiMaggio,0x0,0x19,NoishandDiMaggioBattle)
 //ch 1
 //ch 2
 //ch 3

@@ -1,0 +1,20 @@
+ALIGN 4
+JugdralFields:
+#incbin "Tilesets/FieldsPalette.dmp"
+
+ALIGN 4
+FieldTiles:
+#incext compress "Tilesets/Field.mapchip_config"
+
+ALIGN 4
+FieldObject:
+#incbin "Tilesets/Field.dmp"
+
+ALIGN 4
+FieldNights:
+#incbin "Tilesets/NightFields.dmp"
+
+EventPointerTable(0x02, JugdralFields)
+EventPointerTable(0x5B, FieldNights)
+EventPointerTable(0x03, FieldTiles)
+EventPointerTable(0x01, FieldObject)

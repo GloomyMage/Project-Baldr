@@ -453,6 +453,22 @@ C'mon, you Grannvale cowards![N]
 Come at me![A][N]
 I'll crush the lot of you!![A][X]
 
+##NoishandDiMaggioBattle
+[OpenMidRight][LoadNoish]
+DiMaggio![A][N][ClearFace][OpenMidLeft][LoadDimaggio]
+Well if it ain't wun of[N]
+them knightly types.[A][N]
+Came to spill our[N] 
+guts, 'ave ya?[A][N][ClearFace][OpenMidRight][LoadNoish]
+Ransacking houses...[N]
+setting villages ablaze...[A][N]
+Mongrels like you[N] 
+ought to know your place.[A][N][ClearFace][OpenMidLeft][LoadDimaggio]
+Lookie here, blueblood-[N]  
+no one tells us what to do,[A][N] 
+'an ain't NOBODY gonna spoil our fun![A][N][ClearFace][OpenMidRight][LoadNoish]
+Die, you unwashed cur![A][X]
+
 ##DiMaggioDeath
 [OpenMidLeft][LoadDimaggio]
 No[ToggleMouthMove]...[ToggleMouthMove]This ain't right[ToggleMouthMove]...[ToggleMouthMove][A][X]
