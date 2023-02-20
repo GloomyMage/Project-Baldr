@@ -33,10 +33,10 @@ Fjalar[X]
 Thrud[X]
 
 # 0x100A
-Ced[X]
+Seti[X]
 
 # 0x100B
-Heim[X]
+Naga[X]
 
 # 0x100C
 Loptous[X]

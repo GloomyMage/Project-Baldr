@@ -230,6 +230,7 @@ ALIGN 4
 HolynAnims:
 SwordAnim(0x53)
 UnarmedAnim(0x57)
+EndAnim
 
 ALIGN 4
 ArmorAnims:
