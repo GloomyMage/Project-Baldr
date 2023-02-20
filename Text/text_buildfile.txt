@@ -50,6 +50,11 @@ Major:[X]
 # 0x100F
 Minor:[X]
 
+# 0x1010
+Mother:[X]
+
+# 0x1011
+Father:[X]
 
 ##Name_Sigurd
 Sigurd[X]
