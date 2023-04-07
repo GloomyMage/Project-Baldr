@@ -71,6 +71,10 @@
 //Author Unknown (Initial Commit)
 #define InspirationID 205
 
+//Divinely Inspiring: Adjacent allies deal +3 damage and receive -1 damage.
+//By Dragz
+#define DivinelyInspiringID 255
+
 //Intimidate: -10 Avoid to all enemies within 2 tiles.
 //Author Unknown (Initial Commit)
 #define IntimidateID 186
@@ -128,6 +132,84 @@
 #define ArmorboostID 156
 #define ArmorBoostID ArmorboostID //Alias\
 
+// Turn Skills
+
+// Rally Chaos: At the start of your turn, perform a random rally. 
+// Author: Vesly 
+#define RallyChaosID 255
+
+//Hoarder's Bane: At the end of your turn, consume a vulnerary from the supply if below full health.
+// Author: Vesly 
+#define HoardersBaneID 255
+
+// Dark Bargain: At the end of your turn, sacrifice extra exp to heal by that much.
+// Author: Vesly 
+#define DarkBargainID 255
+
+#define SoulSapID 255
+
+
+// Buff Skills
+
+//Eternal Vanity: Your buffed stats do not deplete each turn. 
+// Author: Vesly 
+#define EternalVanityID 255
+
+// _ Taker: After attacking and defeating an enemy, gain +4 _. (Max +10) 
+// Author: Vesly 
+#define StrTakerID 255
+#define SklTakerID 255 
+#define SpdTakerID 255 
+#define DefTakerID 255 
+#define ResTakerID 255 
+#define LukTakerID 255 
+#define MagTakerID 255 
+#define MovTakerID 255 
+
+// Hone _ : At the start of your turn, give adjacent allies up to +3 _. 
+// Author: Vesly 
+#define HoneMagID  255 
+#define HoneStrID  255
+#define HoneSklID  255 
+#define HoneSpdID  255 
+#define HoneDefID  255 
+#define HoneResID  255 
+#define HoneLukID  255 
+#define HoneMovID  255 
+
+// _ Oath : At the start of your turn, gain up to +4 _ if adjacent to an ally.
+// Author: Vesly 
+#define MagOathID  255 
+#define StrOathID  255
+#define SklOathID  255 
+#define SpdOathID  255 
+#define DefOathID  255 
+#define ResOathID  255 
+#define LukOathID  255 
+#define MovOathID  255 
+
+// Rouse _ : At the start of your turn, gain up to +4 _ if not adjacent to an ally.
+// Author: Vesly 
+#define RouseMagID 255 
+#define RouseStrID 255
+#define RouseSklID 255 
+#define RouseSpdID 255 
+#define RouseDefID 255 
+#define RouseResID 255 
+#define RouseLukID 255 
+#define RouseMovID 255 
+
+// _ Initiative: Begin the chapter with +7 __. 
+// Author: Vesly 
+#define CleverInitID 255 // Mag
+#define StrongInitID 255 // Str 
+#define DeftInitID 255 // Skl 
+#define QuickInitID 255 // Spd 
+#define LuckyInitID 255 // Luk 
+#define SturdyInitID 255 // Def 
+#define CalmInitID 255 // Res 
+#define NimbleInitID 255 // Mov 
+#define SpectrumInitID 255 // All stats  
 
 
 //Debuff Skills
@@ -310,7 +392,7 @@
 
 //Cultured: If unit attacks next to a unit with Nice Thighs, move again. -50 hit against units with Nice Thighs.
 //By Sme
-#define CulturedID 121
+#define CulturedID 255
 
 //Gridmaster: Movement skills do not end your action.
 //By Sme
@@ -580,11 +662,11 @@
 
 //Thighdeology: If a unit within 3 tiles has Nice Thighs, gain +2 Attack and +20 Hit.
 //By Sme
-#define ThighdeologyID 187
+#define ThighdeologyID 255
 
 //Thotslayer: +15 crit against units with Nice Thighs or Personality.
 //By Sme
-#define ThotslayerID 188
+#define ThotslayerID 255
 
 //Heavy Blade: +4 Damage/-2 Attack Speed when unit’s Con. is bigger than the enemy.
 //By Mikey Seregon
@@ -610,6 +692,29 @@
 //By Mikey Seregon
 #define WaterBoostID 255
 
+//Air Raid: Grants +5 or +15 on a stat when on a tile enemy cannot enter
+//By Jopettajah
+#define AirRaidAtkID 255
+#define AirRaidSpdID 255
+#define AirRaidDefID 255
+#define AirRaidCriID 255
+#define AirRaidHitID 255
+#define AirRaidAvoID 255
+#define AirRaidResID 255
+
+//Chaos Style: AS +3 during combat with a physical weapon against a foe armed with magic or vice versa.
+//By Jopettajah
+#define ChaosStyleID 255
+
+//Dragonskin: Halve damage taken
+//By Jopettajah
+#define DragonSkinID 255
+#define DragonskinID DragonSkinID //Alias
+
+//Stunning Smile: If foe is male, inflicts Avo-20 on that foe during combat.
+//By Jopettajah
+#define StunningSmileID 255
+
 
 //Proc Skills
 
@@ -629,7 +734,27 @@
 //Author Unknown (Initial Commit)
 #define AstraID 15
 
-//Bane: Leave the opponent at 1 HP. (Skill/2 % activation)
+//Astra+: Once you reach +4 AS over your opponent, you get +2 strikes per 2 extra AS, Doubling Threshold is halved
+//By Dood
+#define AstraPlusID 115
+
+//Sol+: Procs while under half health and heals half of damage dealt.
+//By Dood
+#define SolPlusID 116
+
+//Luna+: Ignore half of defense/res when the enemy is at full HP.
+//By Dood
+#define LunaPlusID 121
+
+//Renewal+: Recover all health.
+//By Retina
+#define RenewalPlusID 187
+
+//Accost: 2-20 times for a round to repeat if user's HP is at 25 or higher ([User's AS - Foe's AS] + [User's HP/2])% activation
+//By Contro
+#define AccostID 188
+
+//Bane: Leave the opponent at 1 HP if the attack would kill. (Skill/2 % activation)
 //Author Unknown (Initial Commit)
 #define BaneID 20
 
@@ -660,6 +785,7 @@
 //Countermagic: Reflect magic damage when attacked at 1-2 range.
 //Author Unknown (Initial Commit)
 #define CounterMagicID 19
+#define CountermagicID CounterMagicID //Alias
 
 //Deadeye: Doubles hit rate. Skill% chance to inflict sleep.
 //By Sme
@@ -847,6 +973,12 @@
 #define LullResID 255
 #define LullSpectrumID 155
 
+//Guts:  +5 Str while under any status condition. (Includes dancer rings.) 
+// Author: Vesly 
+#define GutsID 255
+//Strong Constitution: +5 Def/Res while under any status condition. (Includes dancer rings.) 
+// Author: Vesly 
+#define StrongConstitutionID 255
 
 //Unit Menu Skills
 
@@ -1048,6 +1180,9 @@
 //Triangle Attack: Allows this unit to perform a triangle attack with 2 other units who have this skill.
 #define TriangleAttackID 6
 
+// Shrewd Potential: Stat boosters provide +1 more than usual. 
+// Author: Vesly 
+#define ShrewdPotentialID 255
 
 //Biorhythm Skills: Double or halve biorhythm effects.
 //By Sme
@@ -1058,8 +1193,8 @@
 //Display-Only Skills
 
 #define CunningID 4
-#define NiceThighsID 115
-#define PersonalityID 116
+#define NiceThighsID 255
+#define PersonalityID 255
 
 
 //Broken Skills

@@ -50,7 +50,7 @@ INLINE ClassLevelUpSkillTable,Skill Pointer
 0x30 Paladin (F),PaladinFSkillList|IsPointer
 0x31 Free Knight,FreeKnightSkillList|IsPointer
 0x32 Ranger (M),RangerMSkillList|IsPointer
-0x33 Ranger (F),RangerFSkillList|IsPointer
+0x33 Wanderer,WandererSkillList|IsPointer
 0x34 DON'T TOUCH THIS,0x0
 0x35 Lance Knight,LanceKnightSkillList|IsPointer
 0x36 Duke Knight,DukeKnightSkillList|IsPointer

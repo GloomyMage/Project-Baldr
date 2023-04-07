@@ -12,6 +12,7 @@ BYTE 00 00
 ALIGN 4
 
 NaoiseSkillList:
+BYTE 1 CritUpID
 BYTE 00 00
 ALIGN 4
 
@@ -935,8 +936,7 @@ BYTE 1 DesperationID
 BYTE 00 00
 ALIGN 4
 
-RangerFSkillList:
-BYTE 1 DesperationID
+WandererSkillList:
 BYTE 00 00
 ALIGN 4
 

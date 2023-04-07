@@ -1,60 +1,10 @@
 #include "ChapterNames.txt"
 
+#include "ItemNames.txt"
+
+#include "SystemText.txt"
+
 #include "ClassNames.txt"
-
-# 0x1000
-None[X]
-
-# 0x1001
-Baldr[X]
-
-# 0x1002
-Od[X]
-
-# 0x1003
-Hodr[X]
-
-# 0x1004
-Njorun[X]
-
-# 0x1005
-Dainn[X]
-
-# 0x1006
-Nal[X]
-
-# 0x1007
-Ullr[X]
-
-# 0x1008
-Fjalar[X]
-
-# 0x1009
-Thrud[X]
-
-# 0x100A
-Seti[X]
-
-# 0x100B
-Naga[X]
-
-# 0x100C
-Loptous[X]
-
-# 0x100D
-Bragi[X]
-
-# 0x100E
-Major:[X]
-
-# 0x100F
-Minor:[X]
-
-# 0x1010
-Mother:[X]
-
-# 0x1011
-Father:[X]
 
 ##Name_Sigurd
 Sigurd[X]
@@ -377,10 +327,10 @@ Chagall[X]
 Lino[X]
 
 ##Name_Jacobin
-Jacobin [X]
+Jacobin[X]
 
 ##Name_Estrella
-Enemy [X]
+Estrella[X]
 
 ##Name_Othello
 Othello[X]
@@ -803,40 +753,11 @@ Jake[X]
 ##Name_Enemy
 Enemy[X]
 
-# 0x090B
-[OpenMidLeft][LoadFace][0x02][0x01][OpenMidRight][LoadFace][0x47][0x01][OpenMidRight]hi[.][A][ToggleSmile][X]
-
-# 0x0002 textWeaponRankIncreasedTo
- Weapon rank increased to [X]
-
-# 0x0094
-HP Bars[.][X]
-
-# 0x00B2
-Set health bar display[X]
-
-#0x3A LearnedSkillText
-//first text ID in the free block
-Learned  [X]
-
 #include "statscreen_text.txt"
 
 #include "unitmenu_text.txt"
 
-#include "ItemNames.txt"
-
-#0xd4c LikesText
-//first text ID in the free block
-Likes:[X]
-
-#0xd4d DislikesText
-[0x9E]i[0x90]li[0x8A][0x85][0x90]:[X]
-
-#0xd4e HeightText
-Height:[X]
-
-#0xd4f AgeText
-Age:[X]
+#include "skilldesc_text.txt"
 
 ## HouseText
 //first text ID in the free block
@@ -925,8 +846,6 @@ Cost[X]
 A scroll that teaches[N]
 a skill when used.[X]
 
-#include "skilldesc_text.txt"
-
 #include "unitinfo_text.txt"
 
 #include "CharDescs.txt"
@@ -935,25 +854,11 @@ a skill when used.[X]
 
 #include "DeathQuotes.txt"
 
-# 0x8D1
-Welcome to the arena.[A][NL]
-I see you're back.[A][2NL]
-I've lost a lot of gold[NL]
-thanks to you.[A][2NL]
-If you want to continue,[A][2NL]
-we're going to have to[NL]
-change things up.[A][2NL]
-These foes will give you[NL]
-a run for your money.[A][X]
-
 #include "Chapter Text/Prologue.txt"
 
-# 0x08FE
-[OpenLeft][LoadFace][0x64][0x01][OpenLeft]Do you want to quit?[NL]
-[Yes][X]
-
-# 0x08FF
-[OpenLeft]Next time, choose Resume[NL]
-Chapter to finish this battle.[A][X]
 
 #include "Objectives.txt"
+
+#include "ItemDesc.txt"
+#include "WeaponNames.txt"
+#include "ItemUse.txt"

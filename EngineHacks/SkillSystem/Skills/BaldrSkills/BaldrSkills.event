@@ -1,0 +1,35 @@
+#include "Accost/BattleRounds.lyn.event"
+#include "RenewalPlus/RenewalPlus.lyn.event"
+
+ALIGN 4
+AccostIDLink:
+WORD AccostID
+
+ALIGN 4
+RenewalPlusIDLink:
+WORD RenewalPlusID
+
+ALIGN 4
+AstraPlus:
+#incbin "AstraPlus/proc_astra.dmp"
+POIN SkillTester
+WORD AstraPlusID
+
+ALIGN 4
+AstraPlusTwo:
+#incbin "AstraPlus/AstraTwo.dmp"
+POIN SkillTester
+WORD AstraPlusID
+
+ALIGN 4
+SolPlus:
+#incbin "SolPlus/proc_sol.dmp"
+POIN SkillTester
+WORD SolPlusID
+WORD LiquidOozeID
+
+ALIGN 4
+LunaPlus:
+#incbin "LunaPlus/proc_luna.dmp"
+POIN SkillTester
+WORD LunaPlusID

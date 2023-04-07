@@ -142,6 +142,10 @@ Equip: [SwordIcon][X]
 Versatile and highly skilled [N]
 mounted units. Equip: [SwordIcon][BowIcon][X]
 
+##Desc_Wanderer
+Versatile and nimb  [N]
+cavalry units. Equip: [SwordIcon][BowIcon][X]
+
 ##Desc_LncKnt
 Mounted knights wielding lances. [N]
 Equip: [LanceIcon][X]

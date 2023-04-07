@@ -179,7 +179,8 @@
   #ifdef ENABLE_PERSONAL_INFO
   
       #include "pages/mss_page4_runa.lyn.event"
-	  
+	  POIN PersonalDataTable
+	  POIN  HolyBloodGetter
 	ALIGN 4
     PageNumberCheck:
       #include "asm/mss_threepageconditional.lyn.event"

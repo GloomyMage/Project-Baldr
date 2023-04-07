@@ -19,8 +19,8 @@ INLINE ClassSkillTable,Skill
 0x11 Thief (F),StealID
 0x12 Rogue (M),StealID
 0x13 Rogue (F),StealID
-0x14 Assassin (M),LethalityID
-0x15 Assassin (F),LethalityID
+0x14 Assassin (M),StealID|LethalityID
+0x15 Assassin (F),StealID|LethalityID
 0x16 Dancer,DanceID
 0x17 Fighter,0x0
 0x18 Warrior,0x0
@@ -49,16 +49,16 @@ INLINE ClassSkillTable,Skill
 0x2F Walkyrie,CantoPlusID
 0x30 Paladin (F),CantoPlusID
 0x31 Free Knight,CantoPlusID
-0x32 Ranger (M),CantoPlusID
-0x33 Ranger (F),CantoPlusID
+0x32 Ranger,DesperationID|CantoPlusID
+0x33 Wanderer,CantoPlusID
 0x34 DON'T TOUCH THIS,0x0
 0x35 Lance Knight,CantoPlusID
-0x36 Duke Knight,CantoPlusID
+0x36 Duke Knight,CounterMagicID|CantoPlusID
 0x37 Axe Knight,CantoPlusID
-0x38 Great Knight,CantoPlusID
-0x39 Arch Knight (M),CantoPlusID
-0x3A Arch Knight (F),CantoPlusID
-0x3B Bow Knight,CantoPlusID
+0x38 Great Knight,CounterID|CantoPlusID
+0x39 Bow Knight (M),CantoPlusID
+0x3A Bow Knight (F),CantoPlusID
+0x3B Arch Knight,BowRangeUpID|CantoPlusID
 0x3C Sword Armour,0x0
 0x3D Lance Armour,0x0
 0x3E Axe Armour,0x0
@@ -67,7 +67,7 @@ INLINE ClassSkillTable,Skill
 0x41 Sentinel,0x0
 0x42 General,GreatShieldID
 0x43 Baron,GreatShieldID
-0x44 Emperor,GreatShieldID
+0x44 Emperor,CharismaID|GreatShieldID
 0x45 Pegasus Knight,CantoID
 0x46 Falcon Knight,CantoID
 0x47 Harrier,CantoID
@@ -75,8 +75,8 @@ INLINE ClassSkillTable,Skill
 0x49 Wyvern Rider (F),CantoID
 0x4A Wyvern Knight (M),CantoID
 0x4B Wyvern Knight (F),CantoID
-0x4C Wyvern Master (M),CantoID
-0x4D Wyvern Master (F),CantoID
+0x4C Wyvern Master (M),VengeanceID|CantoID
+0x4D Wyvern Master (F),VengeanceID|CantoID
 0x4E Wyvern Lord (M),CantoID
 0x4F Wyvern Lord (F),CantoID
 0x50 Malig Knight,CantoID
@@ -92,7 +92,7 @@ INLINE ClassSkillTable,Skill
 0x5A Mage (F),0x0
 0x5B Mage Knight (M),CantoPlusID
 0x5C Mage Knight (F),CantoPlusID
-0x5D Bard,DanceID
+0x5D Bard,0x0
 0x5E Shaman,0x0
 0x5F Sage (M),0x0
 0x60 Sage (F),0x0

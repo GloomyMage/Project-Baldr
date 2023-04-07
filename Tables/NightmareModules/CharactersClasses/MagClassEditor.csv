@@ -17,8 +17,8 @@ Hero (M),3,10,18,3
 Hero (F),3,10,18,3
 Thief (M),0,10,15,0
 Thief (F),0,10,15,0
-Rogue (M),5,10,18,5
-Rogue (F),5,10,18,5
+Rogue (M),3,10,18,3
+Rogue (F),3,10,18,3
 Assassin (M),0,10,15,0
 Assassin (F),0,10,15,0
 Dancer,0,10,15,0
@@ -36,8 +36,8 @@ Archer (M),0,10,15,0
 Archer (F),0,10,15,0
 Sniper (M),0,10,15,0
 Sniper (F),0,10,15,0
-Adventurer (M),7,20,22,7
-Adventurer (F),7,20,22,7
+Adventurer (M),5,20,18,5
+Adventurer (F),5,20,18,5
 Freeblade,0,10,15,0
 Trueblade,1,10,15,0
 Soldier,0,10,15,0
@@ -46,19 +46,19 @@ Cavalier,0,10,15,0
 Paladin (M),5,10,20,5
 Holy Knight,7,20,22,7
 Troubadour,3,10,18,0
-Valkyrie,8,30,24,5
+Walkyrie,8,30,24,5
 Paladin (F),5,10,20,2
 Free Knight,0,10,15,0
-Ranger (M),0,10,15,0
-Ranger (F),0,10,15,0
+Ranger,0,10,15,0
+Wanderer,0,10,15,0
 DON'T TOUCH THIS,0,10,15,0
 Lance Knight,0,10,15,0
 Duke Knight,0,10,15,0
 Axe Knight,0,10,15,0
 Great Knight,0,10,15,0
-Arch Knight (M),0,10,15,0
-Arch Knight (F),0,10,15,0
-Bow Knight,0,10,15,0
+Bow knight (M),0,10,15,0
+Bow knight (F),0,10,15,0
+Arch knight,0,10,15,0
 Sword Armour,0,10,15,0
 Lance Armour,0,10,15,0
 Axe Armour,0,10,15,0
@@ -70,7 +70,7 @@ Baron,7,10,25,0
 Emperor,15,10,30,0
 Pegasus Knight,0,10,15,0
 Falcon Knight,7,10,22,7
-Harrier,10,20,25,10
+Harrier,10,20,25,7
 Wyvern Rider (M),0,10,15,0
 Wyvern Rider (F),0,10,15,0
 Wyvern Knight (M),0,10,15,0
@@ -79,7 +79,7 @@ Wyvern Master (M),0,10,15,0
 Wyvern Master (F),0,10,15,0
 Wyvern Lord (M),0,10,15,0
 Wyvern Lord (F),0,10,15,0
-Malig Knight,7,20,23,7
+Malig Knight,6,20,23,6
 Fire Mage (M),10,30,25,0
 Fire Mage (F),10,30,25,0
 Thunder Mage (M),7,30,22,0

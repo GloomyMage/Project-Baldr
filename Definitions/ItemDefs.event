@@ -52,9 +52,8 @@
 #define Poison 0xB3
 #define Petrify 0xB4
 
-
-#define CharmStaff 0xC7 //"geez biraku we don't even know what it does" shut up
-#define ThiefStaff 0xC8
+#define CharmStaff 0xFA //"geez biraku we don't even know what it does" shut up
+#define ThiefStaff 0xFB
 
 #define LifeRing 0xD0
 #define ParagonRing 0xD1
@@ -84,6 +83,16 @@
 #define Starlight 0xAE
 #define Imhullu 0xAF
 
+#define Durandal 0xC0
+#define DarknessLance 0xC1
+#define ThorHammer 0xC2
+#define Galerider 0xC3
+#define BiracleSword 0xC4
+#define ToaBlade 0xC5
+#define AndorAxe 0xC6
+#define FleursDuMal 0xC7
+#define Maera 0xC8
+
 #define Salamander 0xDF
 #define Awaken 0xE0
 #define Grafcalibur 0xE1
@@ -101,14 +110,3 @@
 #define Gaebolg 0x92
 #define Helswath 0x93
 #define Yewfelle 0x94
-
-//Things I want to add but haven't found an appropiate slot yet
-//#define BiracleSword
-//#define ThorHammer
-//#define DarknessLance
-//#define Maera
-//#define AndorAxe
-//#define ToaBlade
-//#define FleursDuMal
-//#define Galerider
-//#define Durandal

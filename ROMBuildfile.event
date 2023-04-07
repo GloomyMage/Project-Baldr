@@ -34,6 +34,8 @@
 	#include "Maps/Tileset Installer.event"
     #endif // USE_TEST_MAP
 	
+		ASSERT (FreeSpaceEnd - currentOffset) // So that you don't overwrite vanilla tables if using default freespace
+		
     //Music
 	#include "Music/_MusicInstaller2.event"
 	MESSAGE Music ends at currentOffset

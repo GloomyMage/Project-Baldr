@@ -1,0 +1,1096 @@
+##DIronSword
+[X]
+
+##DSlimSword
+Lightweight and easy to hit with.[X]
+
+
+##DSteelSword
+[X]
+
+
+##DSilverSword
+[X]
+
+
+##DIronBlade
+[X]
+
+
+##DSteelBlade
+[X]
+
+
+##DSilverBlade
+[X]
+
+
+##DPoisonSword
+Coated in lethal poison.[X]
+
+
+##DRapier
+Effective against cavalry 
+and armored units.[X]
+
+
+##DBalmung
+Od's Legendary Scimitar. 
+Skl+10 Spd+20.[X]
+
+
+##DBraveSword
+Can strike consecutively.[X]
+
+
+##DBaldung
+A sword made to look like Balmung.[X]
+
+
+##DKillingEdge
+High critical hit rate.[X]
+
+
+##DArmorslayer
+Effective against armored units.[X]
+
+
+##DWingClipper
+Effective against flying units.[X]
+
+
+##DLightBrand
+Suffused with light magic.[X]
+
+
+##DLandsSword
+Drains enemy HP into caster.[X]
+
+
+##DLancereaver
+Strong against spears.[X]
+
+
+##DZanbato
+Effective against cavalry.[X]
+
+
+##DIronLance
+[X]
+
+
+##DSlimLance
+Lightweight and easy to hit with.[X]
+
+
+##DSteelLance
+[X]
+
+
+##DSilverLance
+[X]
+
+
+##DToxinLance
+Coated in lethal poison.[X]
+
+
+##DBraveLance
+Can strike consecutively.[X]
+
+
+##DKillerLance
+High critical hit rate.[X]
+
+
+##DHorseslayer
+Effective against cavalry.[X]
+
+
+##DJavelin
+Doubles as ranged attack.[X]
+
+
+##DSpear
+Doubles as ranged attack.[X]
+
+
+##DAxereaver
+Strong against axes.[X]
+
+
+##DIronAxe
+[X]
+
+
+##DSteelAxe
+[X]
+
+
+##DSilverAxe
+[X]
+
+
+##DPoisonAxe
+Coated in lethal poison.[X]
+
+
+##DBraveAxe
+Can strike consecutively.[X]
+
+
+##DKillerAxe
+High critical hit rate.[X]
+
+
+##DHalberd
+Effective against cavalry.[X]
+
+
+##DHammer
+Effective against armored units.[X]
+
+
+##DDevilAxe
+Might injure its wielder.[X]
+
+
+##DHandAxe
+Doubles as ranged attack.[X]
+
+
+##DTomahawk
+Doubles as ranged attack.[X]
+
+
+##DSwordreaver
+Strong against swords.[X]
+
+
+##DSwordslayer
+Good against swordfighters.[X]
+
+
+##DHatchet
+Lightweight and easy to hit with.[X]
+
+
+##DIronBow
+[X]
+
+
+##DSteelBow
+[X]
+
+
+##DSilverBow
+[X]
+
+
+##DPoisonBow
+Coated in lethal poison.[X]
+
+
+##DKillerBow
+High critical hit rate.[X]
+
+
+##DBraveBow
+Can strike consecutively.[X]
+
+
+##DShortBow
+Can attack at short range.[X]
+
+
+##DLongbow
+Extended attack range.[X]
+
+
+##DBallista
+Long-range weapon.[X]
+
+
+##DIronBallista
+Heavy long-range weapon.[X]
+
+
+##DKillerBallista
+Long-range weapon. 
+High critical hit rate.[X]
+
+
+##DGreatBallista
+Powerful long-range weapon.[X]
+
+
+##DMercurius
+Sacred sword from another world.[X]
+
+
+##DGradivus
+Sacred lance from another world.[X]
+
+
+##DHauteclere
+Sacred axe from another world.[X]
+
+
+##DParthia
+Sacred bow from another world.[X]
+
+
+##DValflame
+Fjalar's Legendary Tome. 
+Mgc+10 Def+10 Res+10.[X]
+
+
+##DElwind
+[X]
+
+
+##DLightning
+[X]
+
+
+##DShine
+[X]
+
+
+##DResire
+Drains enemy HP into caster.[X]
+
+
+##DPurge
+Long-range lightning strike.[X]
+
+
+##DAura
+[X]
+
+
+##DMjolnir
+Thrud's Legendary Tome. 
+Skl+20 Spd+10.[X]
+
+
+##DJorgumandr
+[X]
+
+
+##DLuna
+Negates enemy resistance.[X]
+
+
+##DNosferatu
+Drains enemy HP into caster.[X]
+
+
+##DHel
+Reduces enemy HP to 1.[X]
+
+
+##DFenrir
+[X]
+
+
+##DErra
+Tome of plague and chaos[X]
+
+
+##DHeal
+Restores HP to allies in
+adjacent spaces.[X]
+
+
+##DMend
+Restores many HP to allies
+in adjacent spaces.[X]
+
+
+##DRecover
+Restores all HP to allies
+in adjacent spaces.[X]
+
+
+##DPhysic
+Restores HP to allies
+at a distance.[X]
+
+
+##DFortify
+Restores all HP to allies
+nearby.[X]
+
+
+##DRestore
+Returns allies to normal
+condition. (Cures sleep, etc.)[X]
+
+
+##DSilence
+Halts all enemy magic
+for several turns.[X]
+
+
+##DSleep
+Puts enemies to sleep for
+several turns.[X]
+
+##DBerserk
+Sends enemies into a
+berserker rage.[X]
+
+
+##DWarp
+Moves allies in adjacent
+spaces instantly elsewhere.[X]
+
+
+##DRescue
+Moves allies from distant
+spaces to adjacent ones.[X]
+
+
+##DTorch
+Lights an area. The light
+grows weaker each turn.[X]
+
+
+##DHammerne
+Restores an adjacent ally's
+weapons to new condition.[X]
+
+
+##DUnlock
+Unlocks doors, even from
+a distance.[X]
+
+
+##DBarrier
+Increases magic resistance
+of adjacent allies briefly.[X]
+
+
+##DVolantAxe
+Effective against flying units.[X]
+
+
+##DStrengthRing
+Str+5.[X]
+
+
+##DMagicRing
+Mgc+5.[X]
+
+
+##DSkillRing
+Skl+5.[X]
+
+
+##DSpeedRing
+Spd+5.[X]
+
+
+##DLuckRing
+Lck+5.[X]
+
+
+##DDefenseRing
+Def+5.[X]
+
+
+##DResistanceRing
+Res+5.[X]
+
+
+##DLegRing
+Mov+1.[X]
+
+
+##DBodyRing
+Con+2.[X]
+
+
+##DHeroCrest
+For mercenaries, myrmidons,
+and fighters Lv. 10 and up.[X]
+
+
+##DKnightCrest
+For knights and cavaliers
+Lv. 10 and up.[X]
+
+
+##DOrionBolt
+For archers
+Lv. 10 and up.[X]
+
+
+##DElysianWhip
+For pegasus knights and
+wyvern riders Lv. 10 and up.[X]
+
+
+##DGuidingRing
+For magic wielders and
+troubadours Lv. 10 and up.[X]
+
+
+##DChestKey
+Opens chests.[X]
+
+
+##DDoorKey
+Opens doors in
+adjacent spaces.[X]
+
+
+##DLockpick
+Opens doors and chests.
+Usable only by thieves.[X]
+
+
+##DVulnerary
+A medicinal solution used
+for healing minor wounds.[X]
+
+
+##DElixir
+A powerful solution that
+restores all HP.[X]
+
+
+##DPureWater
+A draught that boosts Res.
+Grows weaker each turn.[X]
+
+
+##DAntitoxin
+A medicinal solution that
+cures poison.[X]
+
+
+##DTorch
+A staff with burning pitch.
+Grows dimmer each turn.[X]
+
+
+##DFilliShield
+An amulet that protects fliers
+from arrows.[X]
+
+
+##DMemberCard
+If someone with this card
+stops in a suspicious space...[X]
+
+
+##DSilverCard
+A special card that reduces
+the cost of all items by half.[X]
+
+
+##DWhiteGem
+A valuable gemstone worth
+10,000 gold.[X]
+
+
+##DBlueGem
+A rare gemstone worth
+5,000 gold.[X]
+
+
+##DRedGem
+An uncommon gemstone
+worth 2,500 gold.[X]
+
+
+##DGold
+A bag full of money.[X]
+
+
+##DReginleif
+Effective against cavalry 
+and armored units.[X]
+
+
+##DChestKey
+Opens chests.[X]
+
+
+##DMine
+[X]
+
+
+##DLightRune
+[X]
+
+
+##DHoplonGuard
+A device that negates
+enemy critical attacks.[X]
+
+
+##DFillaMight
+[X]
+
+
+##DNinisGrace
+[X]
+
+
+##DThorIre
+[X]
+
+
+##DSetLitany
+[X]
+
+
+##DBragiSword
+Sword made to pierce darkness.[X]
+
+
+##DHeroicLance
+Can strike consecutively.
+Lck+10.[X]
+
+
+##DSeaAxe
+Can only be used by pirates.[X]
+
+
+##DMagicBow
+Deals magic damage[X]
+
+
+##DTyrfing
+Baldr's Legendary Blade. 
+Skl+10 Spd+10 Res+10.[X]
+
+
+##DBattleAxe
+Strong, but difficult to wield.[X]
+
+
+##DNaga
+Heim's Legendary Tome. 
+Skl+20 Spd+20 Def+20 Res+20.[X]
+
+
+##DMasterSeal
+For some units Lv. 10 and up
+who have not changed class.[X]
+
+
+##DMetisTome
+Gives a little treat to the
+unit that uses it.[X]
+
+
+##DHeavenSeal
+[X]
+
+
+##DForseti
+Ced's Legendary Tome. 
+Skl+10 Spd+20.[X]
+
+
+##DValkyrie
+Bragi's Legendary Staff.
+Revives a fallen ally.[X]
+
+
+##DFlycatcher
+Effective against flying units.[X]
+
+
+##DGungnir
+Dainn's Legendary Lance. 
+Str+10 Spd+10 Def+10.[X]
+
+
+##DLoptous
+Gair's Legendary Tome.
+Reduces enemy's attacks by half.
+Res+5.[X]
+
+
+##DWretchedAir
+The breath of a dragon corpse.
+It decays everything it touches. [X]
+
+
+##DMystletainn
+Hodr's Legendary Sword. 
+Skl+10 Res+20.[X]
+
+
+##DGaeBolg
+Njorun's Legendary Spear. 
+Str+10 Skl+10 Def+10.[X]
+
+
+##DHelswath
+Nal's Legendary Axe. 
+Def+20 Res+10.[X]
+
+
+##DYewfelle
+Ullr's Legendary Bow. 
+Str+10 Skl+10 Spd+10.[X]
+
+
+##DHeavySpear
+Effective against armored units.[X]
+
+
+##DShortSpear
+Doubles as ranged attack.[X]
+
+
+##DOceanSeal
+For use by thieves and
+pirates Lv. 10 and up.[X]
+
+
+##DLunarBrace
+For use by Eirika,
+princess of Renais.[X]
+
+
+##DSolarBrace
+For use by Ephraim,
+prince of Renais.[X]
+
+
+##D1G
+A bag full of money.[X]
+
+
+##D5G
+A bag full of money.[X]
+
+
+##D10G
+A bag full of money.[X]
+
+
+##D50G
+A bag full of money.[X]
+
+
+##D100G
+A bag full of money.[X]
+
+
+##D3000G
+A bag full of money.[X]
+
+
+##D5000G
+A bag full of money.[X]
+
+
+##DWindSword
+Capable of indirect attacks.[X]
+
+
+##DVulnerary
+A medicinal solution used
+for healing minor wounds.[X]
+
+
+##DVulnerary
+A medicinal solution used
+for healing minor wounds.[X]
+
+
+##DVulnerary
+A medicinal solution used
+for healing minor wounds.[X]
+
+
+##DDance
+A dance that allows
+allies to move again.[X]
+
+
+##DNightmare
+Lulls all enemies within range
+into a deep slumber.[X]
+
+
+##DDemonStone
+[X]
+
+
+##DDemonLight
+A malefic flash that destroys
+everything it touches.[X]
+
+
+##DRavager
+A horrific blow that invites
+the destruction of all.[X]
+
+
+##DDragonstone
+A stone imbued with mysterious might.
+Myrrh draws strength from it.[X]
+
+
+##DDemonSurge
+[X]
+
+
+##DGreatArch
+[X]
+
+
+##DFalchion
+Divine regalia forged by Naga.[X]
+
+
+##DStarlight
+Nullifies the attack-sealing effect of Imhullu.[X]
+
+
+##DImhullu
+Seals non-Starlight enemy attacks.[X]
+
+
+##DLethalTalon
+A claw slathered in deadly poison.[X]
+
+
+##DFieryFang
+A sharp, piercing fang.[X]
+
+
+##DHellfang
+A long, daggerlike fang.[X]
+
+
+##DPoison
+Inflicts Poison upon damage.[X]
+
+
+##DPetrify
+Malefic Tome that turns enemies 
+into stone statues.[X]
+
+
+##DStone
+Turns targets to stone for a while.[X]
+
+
+##DAircalibur
+[X]
+
+
+##DJunaFruit
+Give this to a worthy unit
+and see what happens.[X]
+
+
+##D150G
+A bag full of money.[X]
+
+
+##D200G
+A bag full of money.[X]
+
+
+##DBlackGem
+A valuable gemstone worth
+15,000 gold.[X]
+
+
+##DGoldGem
+A valuable gemstone worth
+20,000 gold.[X]
+
+
+##DMasterSword
+Can strike consecutively.[X]
+
+
+##DMasterLance
+Can strike consecutively.
+Doubles as ranged attack.[X]
+
+
+##DMasterAxe
+Can strike consecutively.
+Doubles as ranged attack.[X]
+
+
+##DMasterBow
+Can strike consecutively.[X]
+
+
+##DDurandal
+Blazing sword from another world.[X]
+
+
+##DDarknessLance
+Grants Nihil when wielded.
+Doubles as ranged attack.[X]
+
+
+##DThorHammer
+Grants Wrath when wielded.[X]
+
+
+##DGalerider
+Weapon used by a certain "Cassius".[X]
+
+
+##DBiracleSword
+Used by a fabulous person.
+Effective against male units.[X]
+
+
+##DToaBlade
+Named after an untold hero.[X]
+
+
+##DAndorAxe
+Named after an untold hero.[X]
+
+
+##DFleursDuMal
+Foreign anthology.[X]
+
+
+##DMaera
+Dark Tome named after a 
+Loptyr savior.[X]
+
+
+##D0xc9
+[X]
+
+
+##D0xca
+[X]
+
+
+##D0xcb
+[X]
+
+
+##D0xcc
+[X]
+
+
+##D0xcd
+[X]
+
+
+##D0xce
+[X]
+
+
+##D0xcf
+[X]
+
+
+##DLifeRing
+Heals a few HP every turn.[X]
+
+
+##DParagonRing
+Doubles experience gained.[X]
+
+
+##DThiefRing
+Grants unit the ability to steal items.[X]
+
+
+##DMiracleRing
+Raises avoid when unit's HP is low.[X]
+
+
+##DFollowUpRing
+Allows unit to perform double attacks.[X]
+
+
+##DBargainRing
+Reduces the cost of all items by half.[X]
+
+
+##DKnightRing
+Allows the user to move again and 
+use up any leftover movement distance.[X]
+
+
+##DRescueRing
+When used, returns user to the castle.[X]
+
+
+##DRecoverRing
+Restores all HP every turn.[X]
+
+
+##DCirclet
+Grants Miracle and Renewal.[X]
+
+
+##DDireThunder
+Can strike consecutively.[X]
+
+
+##DKingSword
+Can strike consecutively.
+Grants Charisma.[X]
+
+
+##DLoptrSword
+Reduces enemy's attacks by half.
+Res+20.[X]
+
+
+##DBeoSword
+The user always strikes first.[X]
+
+
+##DArdenBlade
+Can strike consecutively.
+Spd-5.[X]
+
+
+##DSalamander
+[X]
+
+
+##DAwaken
+[X]
+
+
+##DGrafcalibur
+Effective against flying units.[X]
+
+
+##DFire
+[X]
+
+
+##DElfire
+[X]
+
+
+##DBolganone
+[X]
+
+
+##DMeteor
+Long-range fire attack.[X]
+
+
+##DThunder
+[X]
+
+
+##DElthunder
+[X]
+
+
+##DThoron
+[X]
+
+
+##DBolting
+Long-range thunder attack.[X]
+
+
+##DWind
+[X]
+
+
+##DElwind
+[X]
+
+
+##DTornado
+[X]
+
+
+##DBlizzard
+Long-range wind attack.[X]
+
+
+##D0xee
+[X]
+
+
+##DSleepSword
+Puts enemies to sleep for
+several turns.[X]
+
+
+##DSilenceSword
+Halts all enemy magic
+for several turns.[X]
+
+
+##DBerserkSword
+Sends enemies into a
+berserker rage.[X]
+
+
+##DMiracleSword
+Raises avoid when unit's HP is low.[X]
+
+
+##DThiefSword
+Grants unit the ability to steal items.[X]
+
+
+##DSafeguard
+Def+7.[X]
+
+
+##DBarrierBlade
+Res+7.[X]
+
+
+##DFlameSword
+Uses Fire as ranged attacks.[X]
+
+
+##DThunderSword
+Uses Thunder as ranged attacks.[X]
+
+
+##DWindSword
+Uses Wind as ranged attacks.[X]
+
+
+##D0xf9
+[X]
+
+
+##DCharmStaff
+Grants Charisma to an 
+ally for a few turns.[X]
+
+
+##DThiefStaff
+Allows the user to steal a single 
+item from a target's inventory.[X]
+
+
+##D0xfc
+[X]
+
+
+##D0xfd
+[X]
+
+
+##D0xfe
+[X]

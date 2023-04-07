@@ -1,6 +1,3 @@
-#0x3B SS_TalkText
-Talk[X]
-
 ## SS_SkillsText
 Skills[X]
 

@@ -484,9 +484,10 @@ ALIGN 4
 
 PlayerUnits:
 UNIT Sigurd KnightLord Sigurd Level(1,Ally,0) [56,5] 0x0 0x0 0x0 0x1 [SteelSword, IronLance] NoAI
-UNIT Alec UniCav 0x0 Level(2,Ally,0) [56,5] 0x0 0x0 0x1 REDA55R6 [IronLance] NoAI
+UNIT Callista WyvKnightF 0x0 Level(2,Ally,0) [56,5] 0x0 0x0 0x1 REDA55R6 [IronLance] NoAI
+UNIT Indech HolyKnt 0x0 Level(2,Ally,0) [56,5] 0x0 0x0 0x1 REDA56R6 [IronLance] NoAI
 UNIT Noish UniCav 0x0 Level(3,Ally,0) [56,5] 0x0 0x0 0x1 REDA57R6 [SteelSword] NoAI
-UNIT Arden SwdArm 0x0 Level(3,Ally,0) [56,5] 0x0 0x0 0x1 REDA56R7 [IronSword] NoAI
+UNIT Hopper BowArm 0x0 Level(3,Ally,0) [56,5] 0x0 0x0 0x1 REDA56R7 [IronBow] NoAI
 UNIT //Tells the game that the unit list has ended
 
 UselessBoi:

@@ -18,6 +18,14 @@ POIN Proc_Devil	//devil effect
 
 POIN Proc_Moonbow 
 
+POIN AstraPlus
+
+POIN AstraPlusTwo
+
+POIN LunaPlus
+
+POIN SolPlus
+
 #ifndef COMBAT_ARTS
 	POIN Proc_Adept Proc_DragonFang 
 #else // COMBAT_ARTS

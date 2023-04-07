@@ -100,6 +100,9 @@ Free Knight[X]
 ##_Ranger
 Ranger[X]
 
+##_Wanderer
+Wanderer[X]
+
 ##_LncKnt
 Lance Knight[X]
 

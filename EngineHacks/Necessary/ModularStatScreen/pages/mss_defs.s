@@ -17,6 +17,8 @@
 .equ DrawLargeFont, 0x08004D5C
 .equ String_GetFromIndex, 0x0800A240
 .equ String_ExpandTactName, 0x0800A3B8
+.equ BufferText, 0x800A240
+.equ DrawText, 0x800443C
 
 @Menus and boxes
 .equ FillBgMap, 0x08001220
@@ -68,7 +70,6 @@
 .equ DrawWeaponRank, 0x08087788
 
 @RAM
-.equ DebuffTable, 0x203F100
 .equ gActiveBattleUnit, 0x203A4EC
 .equ StatScreenStruct, 0x2003BFC
 .equ BgBitfield, 0x300000D
@@ -104,6 +105,19 @@
   pop    {\reg}
   .short 0xf800
 .endm
+
+.macro bhl to, reg
+  ldr \reg, =\to
+  mov lr, \reg
+ .short 0xf800
+.endm
+
+.macro blh2 to, reg
+  ldr \reg, \to
+  mov lr, \reg
+ .short 0xf800
+.endm
+
 
 .macro blm to, from=origin
   .equ   func_\to, . + \to - \from

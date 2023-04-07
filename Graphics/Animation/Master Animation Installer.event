@@ -47,6 +47,9 @@
 #include "Sigurd\Unarmed Installer.event"
 }
 {
+#include "Noish\Sword Installer.event"
+}
+{
 #include "JamkePro\Bow Installer.event"
 }
 {
@@ -106,6 +109,7 @@
 }
 {
 #include "Knight(SALVAGED)\Sword Installer.event"
+#include "Knight(SALVAGED)\Bow Installer.event"
 #include "Knight(SALVAGED)\Unarmed Installer.event"
 }
 {
@@ -210,6 +214,11 @@ UnarmedAnim(0x4)
 EndAnim 
 
 ALIGN 4
+NoishAnims:
+SwordAnim(0xF7)
+EndAnim
+
+ALIGN 4
 QuanAnims:
 LanceAnim(0xB1)
 UnarmedAnim(0xB2)
@@ -235,6 +244,7 @@ EndAnim
 ALIGN 4
 ArmorAnims:
 SwordAnim(0x42)
+BowAnim(0xD3)
 UnarmedAnim(0x41)
 EndAnim
 

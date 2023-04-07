@@ -1,11 +1,12 @@
 #define FreeSpace 0x1000000
+#define FreeSpaceEnd 0xC00000
 #define FreeSpaceBLRange 0x1c1ec0
 
 #define ChapterTileset(chapter, object, palette, config) "PUSH; ORG 0x8b0890 + (148* chapter) + 4; SHORT object; BYTE palette config; POP"
 #define ChapterTileAnims(chapter, anim1, anim2) "PUSH; ORG 0x8b0890 + (148* chapter) + 9; BYTE anim1 anim2; POP"
 
-#ifndef DebuffTable
-  #define DebuffTable     0x0203F100
+#ifndef DebuffTableRam
+  #define DebuffTableRam     0x0203F100
   #define DebuffTableSize 0x00000440
 #endif
 

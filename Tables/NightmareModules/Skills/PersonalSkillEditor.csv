@@ -3,7 +3,7 @@ None,0x0
 Sigurd,PursuitID
 Seliph,0x0
 Alec,PursuitID
-Naoise,CritUpID
+Naoise,AccostID
 Arden,VantagePlusID
 Azelle,PursuitID
 Lex,VantageID
@@ -22,11 +22,11 @@ Beowolf,0x0
 Lewyn,0x0
 Silvia,0x0
 Erinys,0x0
-Hopper,0x0
-Indech,0x0
+Hopper,AstraPlusID
+Indech,SolPlusID
 Claud,0x0
 Tailtiu,0x0
-Callista,0x0
+Callista,LunaPlusID
 Brigid,0x0
 Larcei,0x0
 Creidne,0x0

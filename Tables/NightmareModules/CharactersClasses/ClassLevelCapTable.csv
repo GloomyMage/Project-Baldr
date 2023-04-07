@@ -1,107 +1,107 @@
 INLINE Class_Level_Cap_Table,Level Cap
 0x00 Separator/Nothing,30
-0x01 Ephraim Lord,30
-0x02 Eirika Lord,30
-0x03 Ephraim Great Lord,30
-0x04 Eirika Great Lord,30
-0x05 Cavalier,30
-0x06 Cavalier (F),30
-0x07 Paladin,30
-0x08 Paladin (F),30
-0x09 Armour Knight,30
-0x0A Armour Knight (F),30
-0x0B General,30
-0x0C General (F),30
-0x0D Thief,30
-0x0E Manakete,30
-0x0F Mercenary,30
-0x10 Mercenary (F),30
-0x11 Hero,30
-0x12 Hero (F),30
-0x13 Myrmidon,30
-0x14 Myrmidon (F),30
-0x15 Swordmaster,30
-0x16 Swordmaster (F),30
-0x17 Assassin,30
-0x18 Assassin (F),30
-0x19 Archer,30
-0x1A Archer (F),30
-0x1B Sniper,30
-0x1C Sniper (F),30
-0x1D Ranger,30
-0x1E Ranger (F),30
-0x1F Wyvern Rider,30
-0x20 Wyvern Rider (F),30
-0x21 Wyvern Lord,30
-0x22 Wyvern Lord (F),30
-0x23 Wyvern Knight,30
-0x24 Wyvern Knight (F),30
-0x25 Mage,30
-0x26 Mage (F),30
-0x27 Sage,30
-0x28 Sage (F),30
-0x29 Mage Knight,30
-0x2A Mage Knight (F),30
-0x2B Bishop,30
-0x2C Bishop (F),30
-0x2D Shaman,30
-0x2E Shaman (F),30
-0x2F Druid,30
-0x30 Druid (F),30
-0x31 Summoner,30
-0x32 Summoner (F),30
-0x33 Rogue,30
-0x34 Gorgon Egg,30
-0x35 Great Knight,30
-0x36 Great Knight (F),30
-0x37 Recruit (2),30
-0x38 Journeyman (3),30
-0x39 Pupil (3),30
-0x3A Recruit (3),30
-0x3B Manakete,30
-0x3C Manakete (F),30
-0x3D Journeyman (1),30
-0x3E Pupil (1),30
-0x3F Fighter,30
-0x40 Warrior,30
-0x41 Brigand,30
-0x42 Pirate,30
-0x43 Berserker,30
-0x44 Monk,30
-0x45 Priest,30
-0x46 Bard,30
-0x47 Recruit (1),30
-0x48 Pegasus Knight,30
-0x49 Falcon Knight,30
-0x4A Cleric,30
-0x4B Troubadour,30
-0x4C Valkyrie,30
-0x4D Dancer,30
-0x4E Soldier,30
-0x4F Necromancer,30
-0x50 Fleet,30
-0x51 Phantom,30
-0x52 Revenant,30
-0x53 Entombed,30
-0x54 Bonewalker,30
-0x55 Bonewalker (Bow),30
-0x56 Wight,30
-0x57 Wight (Bow),30
-0x58 Bael,30
-0x59 Elder Bael,30
-0x5A Cyclops,30
-0x5B Mauthe Doog,30
-0x5C Gwyllgi,30
-0x5D Tarvos,30
-0x5E Maelduin,30
-0x5F Mogall,30
-0x60 Arch Mogall,30
+0x01 Lord,30
+0x02 Knight Lord (Seliph),30
+0x03 Knight Lord (Sigurd),30
+0x04 Prince,30
+0x05 Princess,30
+0x06 Master Knight (M),30
+0x07 Master Knight (F),30
+0x08 Myrmidon (M),30
+0x09 Myrmidon (F),30
+0x0A Mercenary (M),30
+0x0B Mercenary (F),30
+0x0C Swordmaster (M),30
+0x0D Swordmaster (F),30
+0x0E Hero (M),30
+0x0D Hero (F),30
+0x10 Thief (M),30
+0x11 Thief (F),30
+0x12 Rogue (M),30
+0x13 Rogue (F),30
+0x14 Assassin (M),30
+0x15 Assassin (F),30
+0x16 Dancer,30
+0x17 Fighter,30
+0x18 Warrior,30
+0x19 Hunter,30
+0x1A Barbarian,30
+0x1B Brigand (M),30
+0x1C Brigand (F),30
+0x1D Pirate (M),30
+0x1E Pirate (F),30
+0x1F Berserker (M),30
+0x20 Berserker (F),30
+0x21 Archer (M),30
+0x22 Archer (F),30
+0x23 Sniper (M),30
+0x24 Sniper (F),30
+0x25 Adventurer (M),30
+0x26 Adventurer (F),30
+0x27 Freeblade,30
+0x28 Trueblade,30
+0x29 Soldier,30
+0x2A Halberdier,30
+0x2B Cavalier,30
+0x2C Paladin (M),30
+0x2D Holy Knight,30
+0x2E Troubadour,30
+0x2F Walkyrie,30
+0x30 Paladin (F),30
+0x31 Free Knight,30
+0x32 Ranger,30
+0x33 Wanderer,30
+0x34 DON'T TOUCH THIS,30
+0x35 Lance Knight,30
+0x36 Duke Knight,30
+0x37 Axe Knight,30
+0x38 Great Knight,30
+0x39 Bow Knight (M),30
+0x3A Bow Knight (F),30
+0x3B Arch Knight,30
+0x3C Sword Armour,30
+0x3D Lance Armour,30
+0x3E Axe Armour,30
+0x3F Bow Armour,30
+0x40 Protector,30
+0x41 Sentinel,30
+0x42 General,30
+0x43 Baron,30
+0x44 Emperor,30
+0x45 Pegasus Knight,30
+0x46 Falcon Knight,30
+0x47 Harrier,30
+0x48 Wyvern Rider (M),30
+0x49 Wyvern Rider (F),30
+0x4A Wyvern Knight (M),30
+0x4B Wyvern Knight (F),30
+0x4C Wyvern Master (M),30
+0x4D Wyvern Master (F),30
+0x4E Wyvern Lord (M),30
+0x4F Wyvern Lord (F),30
+0x50 Malig Knight,30
+0x51 Fire Mage (M),30
+0x52 Fire Mage (F),30
+0x53 Thunder Mage (M),30
+0x54 Thunder Mage (F),30
+0x55 Wind Mage (M),30
+0x56 Wind Mage (F),30
+0x57 Mage Fighter (M),30
+0x58 Mage Fighter (F),30
+0x59 Mage (M),30
+0x5A Mage (F),30
+0x5B Mage Knight (M),30
+0x5C Mage Knight (F),30
+0x5D Bard,30
+0x5E Shaman,30
+0x5F Sage (M),30
+0x60 Sage (F),30
 0x61 Gorgon,30
-0x62 Gorgon Egg,30
+0x62 DON'T TOUCH THIS,30
 0x63 Gargoyle,30
 0x64 Deathgoyle,30
-0x65 Dracozombie,30
-0x66 Demon King,30
+0x65 DON'T TOUCH THIS,30
+0x66 DON'T TOUCH THIS,30
 0x67 Archer on Ballista,30
 0x68 Archer on Iron Ballista,30
 0x69 Archer on Killer Ballista,30
@@ -115,18 +115,18 @@ INLINE Class_Level_Cap_Table,Level Cap
 0x71 Civilian,30
 0x72 Civilian (F),30
 0x73 Peer,30
-0x74 Queen,30
-0x75 Prince,30
-0x76 Queen,30
-0x77 (empty),30
-0x78 Fallen Prince,30
-0x79 Tent,30
-0x7A Pontifex,30
-0x7B Fallen Peer,30
-0x7C Cyclops 2,30
-0x7D Elder Bael 2,30
-0x7E Journeyman (2),30
-0x7F Invalid,30
+0x74 Priest,30
+0x75 Cleric,30
+0x76 High Priest,30
+0x77 High Priestess,30
+0x78 Bishop,30
+0x79 Queen,30
+0x7A Dark Mage (M),30
+0x7B Dark Mage (F),30
+0x7C Dark Bishop (M),30
+0x7D Dark Bishop (F),30
+0x7E Archbishop,30
+0x7F Dark Prince,30
 NULL,20
 NULL,20
 NULL,20

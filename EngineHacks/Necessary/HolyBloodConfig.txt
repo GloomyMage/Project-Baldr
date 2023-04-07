@@ -1,0 +1,65 @@
+
+
+ALIGN 4
+HolyBloodGetter:
+#incbin "HolyBloodAndParentsGetter.dmp"
+POIN PersonalDataTable
+
+ALIGN 4
+BloodGrowthGetter:
+#incbin "BloodGrowthGetter.dmp"
+POIN HolyBloodGetter
+POIN MagCharTable
+POIN MagClassTable
+POIN HolyBloodGrowthTable
+	
+ALIGN 4
+HolyBloodGrowthTable:
+//Entry 0, no blood
+//   HP STR SKL SPD DEF RES LUK MAG
+BYTE 00  00  00  00  00  00  00  00
+//Entry 1, baldr
+//   HP STR SKL SPD DEF RES LUK MAG
+BYTE 20  10  10  00  00  00  10  00
+//Entry 2, od
+//   HP STR SKL SPD DEF RES LUK MAG
+BYTE 20  00  30  00  00  00  00  00
+//Entry 3, hodr
+//   HP STR SKL SPD DEF RES LUK MAG
+BYTE 20  30  00  00  00  00  00  00
+//Entry 4, njorun
+//   HP STR SKL SPD DEF RES LUK MAG
+BYTE 20  10  00  10  10  00  00  00
+//Entry 5, dainn
+//   HP STR SKL SPD DEF RES LUK MAG
+BYTE 20  00  00  30  00  00  00  00
+//Entry 6, neir
+//   HP STR SKL SPD DEF RES LUK MAG
+BYTE 20  00  00  00  30  00  00  00
+//Entry 7, ulir
+//   HP STR SKL SPD DEF RES LUK MAG
+BYTE 20  00  00  00  00  00  30  00
+//Entry 8, fjalar
+//   HP STR SKL SPD DEF RES LUK MAG
+BYTE 20  00  00  00  00  00  00  30
+//Entry 9, thrud
+//   HP STR SKL SPD DEF RES LUK MAG
+BYTE 20  00  30  00  00  00  00  00
+//Entry 10, forseti
+//   HP STR SKL SPD DEF RES LUK MAG
+BYTE 20  00  00  30  00  00  00  00
+//Entry 11, naga
+//   HP STR SKL SPD DEF RES LUK MAG
+BYTE 10  00  00  00  00  20  00  20
+//Entry 12, lopt
+//   HP STR SKL SPD DEF RES LUK MAG
+BYTE 10  00  00  00  00  20  00  20
+//Entry 13, bragi
+//   HP STR SKL SPD DEF RES LUK MAG
+BYTE 10  00  00  00  00  20  10  10
+//Entry 14, inheritance entry, unused
+//   HP STR SKL SPD DEF RES LUK MAG
+BYTE 69  69  69  69  69  69  69  69
+//Entry 15, unused entry, unused
+//   HP STR SKL SPD DEF RES LUK MAG
+BYTE 96  96  96  96  96  96  96  96
