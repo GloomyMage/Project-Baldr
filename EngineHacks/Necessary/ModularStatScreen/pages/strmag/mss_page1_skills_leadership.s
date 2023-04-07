@@ -105,10 +105,13 @@ draw_aid_icon_at 26, 5
 
 draw_status_text_at 21, 7
 
-draw_textID_at 21, 9, textID=0x042
+ldr   r0, =LeadTextIDLink
+ldrh  r0, [r0]
+draw_textID_at 21, 9
 mov		r0, r8
 ldr		r3, =GetLeadershipStarCount
-sub		r3, #1 @get rid of unnecessary thumb bit
+mov   r1, #0x1
+bic		r3, r1 @get rid of unnecessary thumb bit
 mov		lr, r3
 .short 0xF800
 push	{r0}
