@@ -57,7 +57,6 @@
   #define LynLock 0x00100000
   #define AthosLock 0x00200000
 #endif
-#define PassiveBoosts 0x00800000
 
 //Used For Consolidated AdvWeaponLocks 
 #define AdvWeaponLock 0x01000000

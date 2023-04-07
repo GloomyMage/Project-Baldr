@@ -241,10 +241,6 @@
 [X]
 
 
-##UElwind
-[X]
-
-
 ##ULightning
 [X]
 
@@ -458,10 +454,6 @@ from magic attacks.[X]
 Cures poison.[X]
 
 
-##UTorch
-Lights an area.[X]
-
-
 ##UFilliShield
 Protects airborne
 units from bows.[X]
@@ -495,10 +487,6 @@ of items.[X]
 
 ##UReginleif
 [X]
-
-
-##UChestKey
-Opens chests.[X]
 
 
 ##UMine
@@ -666,18 +654,6 @@ when he's ready.[X]
 
 ##UWindSword
 [X]
-
-
-##UVulnerary
-Restores some HP.[X]
-
-
-##UVulnerary
-Restores some HP.[X]
-
-
-##UVulnerary
-Restores some HP.[X]
 
 
 ##UDance
@@ -1010,10 +986,6 @@ Use this, and...[X]
 
 
 ##UThunderSword
-[X]
-
-
-##UWindSword
 [X]
 
 

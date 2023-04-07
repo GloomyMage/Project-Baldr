@@ -412,10 +412,6 @@ Elysian Whip[X]
 Guiding Ring[X]
 
 
-##NChestKey
-Chest Key[X]
-
-
 ##NDoorKey
 Door Key[X]
 
@@ -438,10 +434,6 @@ Pure Water[X]
 
 ##NAntitoxin
 Antitoxin[X]
-
-
-##NTorch
-Torch[X]
 
 
 ##NFilliShield
@@ -634,22 +626,6 @@ Solar Brace[X]
 
 ##N5000G
 5000G[X]
-
-
-##NWindSword
-Wind Sword[X]
-
-
-##NVulnerary
-Vulnerary[X]
-
-
-##NVulnerary
-Vulnerary[X]
-
-
-##NVulnerary
-Vulnerary[X]
 
 
 ##NDance
@@ -930,10 +906,6 @@ Bolting[X]
 
 ##NWind
 Wind[X]
-
-
-##NElwind
-Elwind[X]
 
 
 ##NTornado

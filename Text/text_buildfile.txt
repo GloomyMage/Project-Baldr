@@ -237,17 +237,9 @@ Ares[X]
 ##Name_IndechChild
 IndechChild[X]
 
-##Name_Tine
-Tine[X]
-
 ##Name_Hannibal
 Hannibal[X]
 
-##Name_Altena
-Altena[X]
-
-##Name_Leif
-Leif[X]
 
 ##Name_Saias
 Saias[X]
@@ -536,9 +528,6 @@ Manfroy[X]
 ##Name_Julius
 Julius[X]
 
-##Name_Julius
-Julius[X]
-
 ##Name_Heim
 Heim[X]
 
@@ -572,13 +561,7 @@ Fjalar[X]
 ##Name_Thrud
 Thrud[X]
 
-##Name_Ced
-Ced[X]
 
-
-
-##Name_Verdane
-Verdane[X]
 
 ##Name_Verdane
 Verdane[X]
@@ -704,9 +687,6 @@ Eldigan[X]
 
 ##Name_Annand
 Annand[X]
-
-##Name_Arvis
-Arvis[X]
 
 ##Name_Eve
 Eve[X]

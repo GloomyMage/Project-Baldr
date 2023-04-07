@@ -26,8 +26,6 @@ CanUnitDoubleCalcLoopFunc:
 
 @ldr r4,[r0] @r4 = attacker
 @ldr r5,[r1] @r5 = defender
-mov  r4, r8
-push {r4}
 ldr r4,=#0x203A4EC @attacker struct
 ldr r5,=#0x203A56C @defender struct
 @keep the current true/false bool in r6
@@ -46,6 +44,16 @@ ble DoInverseCheck
 @instead of returning from here, we will store whether it's true or false in r6
 
 @cmp r1,#3
+push {r1}
+ldr r0,=SkillTester
+mov r14,r0
+mov r0,r4
+mov r1, #177
+.short 0xF800
+pop {r1}
+cmp r0, #0x0
+beq SetASFalse
+
 push {r2}
 ldr r2,=DoublingThresholdLink
 ldrb r2,[r2]
@@ -56,6 +64,17 @@ b SetASTrue
 
 DoInverseCheck:
 sub r1,r2,r3
+
+push {r1}
+ldr r0,=SkillTester
+mov r14,r0
+mov r0,r5
+mov r1, #177
+.short 0xF800
+pop {r1}
+cmp r0, #0x0
+beq SetASFalse
+
 push {r2}
 ldr r2,=DoublingThresholdLink
 ldrb r2,[r2]
@@ -81,8 +100,7 @@ SetASTrue_TargetDoubles:
 str r4,[r7]
 str r5,[r6]
 SetASTrue_End:
-mov r0,#1
-mov r8,r0
+mov r6,#1
 b PrepLoop
 
 SetASFalse:
@@ -90,12 +108,9 @@ ldr r4,=#0x203A4EC @attacker struct
 ldr r5,=#0x203A56C @defender struct
 str r4,[r6]
 str r5,[r7]
-mov r0,#0
-mov r8,r0
+mov r6,#0
 
 PrepLoop:
-ldr r4, [r6]
-ldr r5, [r7]
 ldr r7,=CanUnitDoubleCalcLoop
 
 LoopStart:
@@ -106,7 +121,7 @@ beq LoopExit
 mov r14,r3
 mov r0,r4
 mov r1,r5
-mov r2,r8
+mov r2,r6
 .short 0xF800
 
 cmp r0,#0
@@ -118,7 +133,7 @@ add r7,#4
 b LoopStart
 
 LoopExit:
-mov r0,r8
+mov r0,r6
 pop {r6-r7}
 b GoBack
 
@@ -149,8 +164,6 @@ pop {r6-r7}
 mov r0,#0
 
 GoBack:
-pop {r4}
-mov r8, r4
 pop {r4-r7}
 pop {r1}
 bx r1

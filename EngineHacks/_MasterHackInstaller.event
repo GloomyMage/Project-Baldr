@@ -97,7 +97,7 @@ POP
   //WARNING AAAAAAA
   #include "Necessary/ModularStatScreen/ModularStatScreen.event"
   
-  #include Necessary/HolyBloodConfig.txt
+  #include "Necessary/HolyBloodConfig.txt"
   
   // Strength/Magic Split
   #ifdef USE_STRMAG_SPLIT
@@ -153,9 +153,6 @@ POP
   
   //Switch Map Palette
   #include "ExternalHacks/SwitchMapPalette/Installer.event"
-  
-  //Pursuit
-  #include "Baldr/PursuitCalc/CanUnitDoubleCalcLoop.lyn.event"
   
   //New Calculations (crit)
   #include "Baldr/NewCalcs/NewCalcs.event"
