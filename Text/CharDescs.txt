@@ -459,11 +459,6 @@ One of the Four Heavenly Knights of Silesse. [NL]
 Comes to serve Lord Myos, [N]
 youngest brother of the late king.[X]
 
-## Desc_Myos ^
-In his hunger to succeed the Silessean throne [N]
-for himself he opposed the right of succession [N]
-of the late king's son, Lewyn.[X]
-
 ## Desc_Ivan ^
 A Silessian noble, who claims to [N]
 have links to the Silessian throne. [NL]
@@ -486,39 +481,11 @@ She's known as the Ice Empress.[X]
 He and his brother Myos incited a civil war in [N]
 Silesse to seize control of Silesse for themselves. [NL]
 A bad parental figure.[X]
- 
-## Desc_Dithorba ^
-One of the Four Heavenly Knights of Silesse. [NL]
-Comes to serve Lord Myos, [N]
-youngest brother of the late king.[X]
 
 ## Desc_Myos ^
 In his hunger to succeed the Silessean throne [N]
 for himself he opposed the right of succession [N]
 of the late king's son, Lewyn.[X]
-
-## Desc_Ivan ^
-A Silessian noble, who claims to [N]
-have links to the Silessian throne. [NL]
-A family person.[X]
-
-## Desc_Pamela ^
-One of the Four Heavenly Knights of Silesse. [NL]
-She joins Daccar's rebellion for her family's safety.[X]
-
-## Desc_Donovan ^
-A former bandit that blindly obeys [N]
-Daccar as long as he gets paid enough.[X]
-
-## Desc_Lamia ^
-The leader of a female mercenary [N]
-group feared all across Jugdral. [NL]
-She's known as the Ice Empress.[X]
-
-## Desc_Daccar ^
-He and his brother Myos incited a civil war in [N]
-Silesse to seize control of Silesse for themselves. [NL]
-A bad parental figure.[X]
 
 ## Desc_Slayder ^
 General of Dozel working directly under Lombard, [N]
@@ -540,8 +507,8 @@ also known as the wings of death. [NL]
 It is said he hails from a large family.[X]
 
 ## Desc_Vaja ^
-Velthomer general who has a great interest in astronomy. [N]
-She particularly enjoys the desert’s clear sky.[X]
+Velthomer general who has a great interest in astronomy.[N]
+She particularly enjoys the desert's clear sky.[X]
 
 ## Desc_Reptor ^
 Duke of Grannvale's House Friege and the [N]
@@ -603,7 +570,7 @@ It is said he hails from a large family.[X]
 Bloom[X]
 
 ## Desc_Muhammad ^
-Found and rescued by Reptor during Darna’s assault. [NL]
+Found and rescued by Reptor during Darna's assault. [NL]
 This young and mighty general has [N]
 sworn allegiance to Friege since then. [X]
 

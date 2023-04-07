@@ -122,6 +122,9 @@
   POP
   
   ALIGN 4
+  LeadTextIDLink:
+  SHORT LeadText
+  ALIGN 4
   TalkTextIDLink:
   SHORT SS_TalkText
   ALIGN 4

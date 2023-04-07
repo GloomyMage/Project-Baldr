@@ -437,10 +437,6 @@ For magic wielders and
 troubadours Lv. 10 and up.[X]
 
 
-##DChestKey
-Opens chests.[X]
-
-
 ##DDoorKey
 Opens doors in
 adjacent spaces.[X]
@@ -469,11 +465,6 @@ Grows weaker each turn.[X]
 ##DAntitoxin
 A medicinal solution that
 cures poison.[X]
-
-
-##DTorch
-A staff with burning pitch.
-Grows dimmer each turn.[X]
 
 
 ##DFilliShield
@@ -692,25 +683,6 @@ A bag full of money.[X]
 
 ##D5000G
 A bag full of money.[X]
-
-
-##DWindSword
-Capable of indirect attacks.[X]
-
-
-##DVulnerary
-A medicinal solution used
-for healing minor wounds.[X]
-
-
-##DVulnerary
-A medicinal solution used
-for healing minor wounds.[X]
-
-
-##DVulnerary
-A medicinal solution used
-for healing minor wounds.[X]
 
 
 ##DDance
@@ -1008,10 +980,6 @@ Long-range thunder attack.[X]
 
 
 ##DWind
-[X]
-
-
-##DElwind
 [X]
 
 
