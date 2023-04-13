@@ -190,6 +190,9 @@ UnitMenuTable:
   
   UM_Wait
 
+  //UM_PaletteChecker
+  //MenuCommand(ClassDisplayNameText, 0, GreenText, 0x4F449, ClassDisplayUMEffect)
+
   UM_Separator 
 
 #endif // UNIT_MENU

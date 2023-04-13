@@ -163,6 +163,9 @@ POP
   //Uncheese
   #include "ExternalHacks/Uncheese/UncheeseMasterInstaller.event"
   
+  //Debug Palette
+  //#include "Baldr/DebugClassDisplay/ClassDisplay.event"
+  
   //walking sounds
   PUSH
   #include "QualityOfLife/FE8-Walking-Sounds-Fix/FE8-Walking Sounds.event"

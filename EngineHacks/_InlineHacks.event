@@ -56,6 +56,45 @@ ORG 0x22A10
 BYTE 0x00 0x1C
 POP
 
+//change wrank thresholds to 50s
+PUSH
+//s rank
+//ORG $16d86
+//BYTE 0xfa
+//ORG $2ad7a
+//BYTE 0xfa
+ORG $16eb8
+BYTE 0x32
+//a rank
+ORG $16eae
+BYTE 0x32
+ORG $16eb4
+BYTE 0xc9
+ORG $16d7e
+BYTE 0xc8
+//b rank
+ORG $16ea4
+BYTE 0x32
+ORG $16eaa
+BYTE 0x97
+ORG $16d76
+BYTE 0x96
+//c rank
+ORG $16e9a
+BYTE 0x32
+ORG $16ea0
+BYTE 0x65
+ORG $16d6e
+BYTE 0x64
+//d rank
+ORG $16e96
+BYTE 0x33
+ORG $16d66
+BYTE 0x32
+ORG $16e90
+BYTE 0x32
+POP
+
 //5x fixes
 PUSH
 ORG $024DF2

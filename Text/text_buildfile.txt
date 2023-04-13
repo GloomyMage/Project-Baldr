@@ -842,3 +842,6 @@ a skill when used.[X]
 #include "ItemDesc.txt"
 #include "WeaponNames.txt"
 #include "ItemUse.txt"
+
+## ClassDisplayNameText
+ Display[X]

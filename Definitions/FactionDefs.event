@@ -13,7 +13,7 @@
 #define Thove 0xBC
 #define Zaxon 0xBD
 #define BeigeRitter 0xBE
-#define Assassin 0xBF
+#define AssassinFaction 0xBF
 #define Lubeck 0xC0
 #define Thracia 0xC1
 #define Velthomer 0xC2
@@ -36,4 +36,4 @@
 #define GelbenRitter 0xD3
 #define Belhalla 0xD4
 #define Ruffian 0xD5
-#define Mercenary 0xD6
+#define MercenaryFaction 0xD6
