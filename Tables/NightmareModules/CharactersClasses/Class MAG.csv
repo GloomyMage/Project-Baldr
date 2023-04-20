@@ -1,0 +1,257 @@
+INLINE MagClassTable,Base Magic,Magic Growth,Magic Cap,Magic Promotion Bonus
+None,0,0,20,0
+Lord,0,10,15,0
+Knight Lord (Seliph),0,10,15,0
+Knight Lord (Sigurd),0,10,15,0
+Prince,3,10,18,0
+Princess,7,20,22,0
+Master Knight (M),7,10,22,4
+Master Knight (F),7,10,22,0
+Myrmidon (M),0,10,15,0
+Myrmidon (F),0,10,15,0
+Mercenary (M),0,10,15,0
+Mercenary (F),0,10,15,0
+Swordmaster (M),0,10,15,0
+Swordmaster (F),0,10,15,0
+Hero (M),3,10,18,3
+Hero (F),3,10,18,3
+Thief (M),0,10,15,0
+Thief (F),0,10,15,0
+Rogue (M),3,10,18,3
+Rogue (F),3,10,18,3
+Assassin (M),0,10,15,0
+Assassin (F),0,10,15,0
+Dancer,0,10,15,0
+Fighter,0,0,15,0
+Warrior (M),0,0,15,0
+Warrior (F),0,0,15,0
+Hunter,0,0,15,0
+Barbarian,0,0,15,0
+Brigand,0,0,15,0
+Brigand (F),0,0,15,0
+Pirate (M),0,0,15,0
+Pirate (F),0,0,15,0
+Berserker (M),0,0,15,0
+Berserker (F),0,0,15,0
+Archer (M),0,10,15,0
+Archer (F),0,10,15,0
+Sniper (M),0,10,15,0
+Sniper (F),0,10,15,0
+Adventurer (M),5,20,18,5
+Adventurer (F),5,20,18,5
+Freeblade,0,10,15,0
+Soldier,0,10,15,0
+Halberdier,0,10,15,0
+Cavalier,0,10,15,0
+Paladin (M),5,10,20,5
+Holy Knight,7,20,22,7
+Troubadour,3,10,18,0
+Walkyrie,8,30,24,5
+Paladin (F),5,10,20,2
+Free Knight,0,10,15,0
+Ranger,0,10,15,0
+Wanderer,0,10,15,0
+DON'T TOUCH THIS,0,10,15,0
+Lance Knight,0,10,15,0
+Duke Knight,0,10,15,0
+Axe Knight,0,10,15,0
+Great Knight,0,10,15,0
+Bow knight (M),0,10,15,0
+Bow knight (F),0,10,15,0
+Arch knight,0,10,15,0
+Sword Armour,0,10,15,0
+Lance Armour,0,10,15,0
+Axe Armour,0,10,15,0
+Bow Armour,0,10,15,0
+Protector,0,10,15,0
+Sentry,0,10,15,0
+General,0,10,15,0
+Baron,7,10,25,0
+Emperor,15,10,30,0
+Pegasus Knight,0,10,15,0
+Falcon Knight,7,10,22,7
+Harrier,10,20,25,7
+Wyvern Rider (M),0,10,15,0
+Wyvern Rider (F),0,10,15,0
+Wyvern Knight (M),0,10,15,0
+Wyvern Knight (F),0,10,15,0
+Wyvern Master (M),0,10,15,0
+Wyvern Master (F),0,10,15,0
+Wyvern Lord (M),0,10,15,0
+Wyvern Lord (F),0,10,15,0
+Malig Knight,6,20,23,6
+Fire Mage (M),10,30,25,0
+Fire Mage (F),10,30,25,0
+Thunder Mage (M),7,30,22,0
+Thunder Mage (F),7,30,22,0
+Wind Mage (M),7,30,22,0
+Wind Mage (F),7,30,22,0
+Mage Fighter (M),12,20,27,5
+Mage Fighter (F),12,20,27,5
+Mage (M),7,30,22,0
+Mage (F),7,30,22,0
+Mage Knight (M),10,20,25,3
+Mage Knight (F),10,20,25,3
+Bard,7,30,22,0
+Shaman,8,30,23,0
+Sage (M),15,30,30,8
+Sage (F),15,30,30,7
+Black knight,8,20,18,8
+Gorgon Egg,0,0,30,0
+Gargoyle,0,0,20,0
+Deathgoyle,0,0,22,0
+Dracozombie,1,30,50,0
+Demon King,23,40,50,0
+Archer on Ballista,0,10,15,0
+Archer on Iron Ballista,0,10,15,0
+Archer on Killer Ballista,0,10,15,0
+Ballista,0,10,15,0
+Iron Ballista,0,10,15,0
+Killer Ballista,0,10,15,0
+Child,0,0,15,0
+Child (F),0,0,15,0
+Civilian,0,0,15,0
+Civilian (F),0,0,15,0
+Civilian,0,0,15,0
+Civilian (F),0,0,15,0
+Priest,7,30,22,0
+Cleric,7,30,22,0
+High Priest,12,30,27,5
+High Priestess,12,30,27,5
+Bishop (M),10,30,27,3
+Bishop (F),10,30,27,3
+Queen,15,20,30,0
+Dark Mage (M),10,30,23,0
+Dark Mage (F),10,30,23,0
+Dark Bishop (M),15,30,28,5
+Dark Bishop (F),15,30,28,5
+Archbishop,15,30,29,0
+Dark Prince,15,0,25,0
+Ephraim Lord,1,10,20,0
+Ephraim Lord,1,10,20,0
+Ephraim Lord,1,10,20,0
+Ephraim Lord,1,10,20,0
+Ephraim Lord,1,10,20,0
+Ephraim Lord,1,10,20,0
+Ephraim Lord,1,10,20,0
+Ephraim Lord,1,10,20,0
+Ephraim Lord,1,10,20,0
+Ephraim Lord,1,10,20,0
+Ephraim Lord,1,10,20,0
+Ephraim Lord,1,10,20,0
+Ephraim Lord,1,10,20,0
+Ephraim Lord,1,10,20,0
+Ephraim Lord,1,10,20,0
+Ephraim Lord,1,10,20,0
+Ephraim Lord,1,10,20,0
+Ephraim Lord,1,10,20,0
+Ephraim Lord,1,10,20,0
+Ephraim Lord,1,10,20,0
+Ephraim Lord,1,10,20,0
+Ephraim Lord,1,10,20,0
+Ephraim Lord,1,10,20,0
+Ephraim Lord,1,10,20,0
+Ephraim Lord,1,10,20,0
+Ephraim Lord,1,10,20,0
+Ephraim Lord,1,10,20,0
+Ephraim Lord,1,10,20,0
+Ephraim Lord,1,10,20,0
+Ephraim Lord,1,10,20,0
+Ephraim Lord,1,10,20,0
+Ephraim Lord,1,10,20,0
+Ephraim Lord,1,10,20,0
+Ephraim Lord,1,10,20,0
+Ephraim Lord,1,10,20,0
+Ephraim Lord,1,10,20,0
+Ephraim Lord,1,10,20,0
+Ephraim Lord,1,10,20,0
+Ephraim Lord,1,10,20,0
+Ephraim Lord,1,10,20,0
+Ephraim Lord,1,10,20,0
+Ephraim Lord,1,10,20,0
+Ephraim Lord,1,10,20,0
+Ephraim Lord,1,10,20,0
+Ephraim Lord,1,10,20,0
+Ephraim Lord,1,10,20,0
+Ephraim Lord,1,10,20,0
+Ephraim Lord,1,10,20,0
+Ephraim Lord,1,10,20,0
+Ephraim Lord,1,10,20,0
+Ephraim Lord,1,10,20,0
+Ephraim Lord,1,10,20,0
+Ephraim Lord,1,10,20,0
+Ephraim Lord,1,10,20,0
+Ephraim Lord,1,10,20,0
+Ephraim Lord,1,10,20,0
+Ephraim Lord,1,10,20,0
+Ephraim Lord,1,10,20,0
+Ephraim Lord,1,10,20,0
+Ephraim Lord,1,10,20,0
+Ephraim Lord,1,10,20,0
+Ephraim Lord,1,10,20,0
+Ephraim Lord,1,10,20,0
+Ephraim Lord,1,10,20,0
+Ephraim Lord,1,10,20,0
+Ephraim Lord,1,10,20,0
+Ephraim Lord,1,10,20,0
+Ephraim Lord,1,10,20,0
+Ephraim Lord,1,10,20,0
+Ephraim Lord,1,10,20,0
+Ephraim Lord,1,10,20,0
+Ephraim Lord,1,10,20,0
+Ephraim Lord,1,10,20,0
+Ephraim Lord,1,10,20,0
+Ephraim Lord,1,10,20,0
+Ephraim Lord,1,10,20,0
+Ephraim Lord,1,10,20,0
+Ephraim Lord,1,10,20,0
+Ephraim Lord,1,10,20,0
+Ephraim Lord,1,10,20,0
+Ephraim Lord,1,10,20,0
+Ephraim Lord,1,10,20,0
+Ephraim Lord,1,10,20,0
+Ephraim Lord,1,10,20,0
+Ephraim Lord,1,10,20,0
+Ephraim Lord,1,10,20,0
+Ephraim Lord,1,10,20,0
+Ephraim Lord,1,10,20,0
+Ephraim Lord,1,10,20,0
+Ephraim Lord,1,10,20,0
+Ephraim Lord,1,10,20,0
+Ephraim Lord,1,10,20,0
+Ephraim Lord,1,10,20,0
+Ephraim Lord,1,10,20,0
+Ephraim Lord,1,10,20,0
+Ephraim Lord,1,10,20,0
+Ephraim Lord,1,10,20,0
+Ephraim Lord,1,10,20,0
+Ephraim Lord,1,10,20,0
+Ephraim Lord,1,10,20,0
+Ephraim Lord,1,10,20,0
+Ephraim Lord,1,10,20,0
+Ephraim Lord,1,10,20,0
+Ephraim Lord,1,10,20,0
+Ephraim Lord,1,10,20,0
+Ephraim Lord,1,10,20,0
+Ephraim Lord,1,10,20,0
+Ephraim Lord,1,10,20,0
+Ephraim Lord,1,10,20,0
+Ephraim Lord,1,10,20,0
+Ephraim Lord,1,10,20,0
+Ephraim Lord,1,10,20,0
+Ephraim Lord,1,10,20,0
+Ephraim Lord,1,10,20,0
+Ephraim Lord,1,10,20,0
+Ephraim Lord,1,10,20,0
+Ephraim Lord,1,10,20,0
+Ephraim Lord,1,10,20,0
+Ephraim Lord,1,10,20,0
+Ephraim Lord,1,10,20,0
+Ephraim Lord,1,10,20,0
+Ephraim Lord,1,10,20,0
+Ephraim Lord,1,10,20,0
+Ephraim Lord,1,10,20,0
+Ephraim Lord,1,10,20,0
+Ephraim Lord,1,10,20,0
+Ephraim Lord,1,10,20,0
+Ephraim Lord,1,10,20,0
