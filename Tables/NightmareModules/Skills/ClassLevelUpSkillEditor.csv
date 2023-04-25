@@ -23,23 +23,23 @@ INLINE ClassLevelUpSkillTable,Skill Pointer
 0x15 Assassin (F),AssassinFSkillList|IsPointer
 0x16 Dancer,DancerSkillList|IsPointer
 0x17 Fighter,FighterSkillList|IsPointer
-0x18 Warrior,WarriorSkillList|IsPointer
-0x19 Hunter,HunterSkillList|IsPointer
-0x1A Barbarian,BarbarianSkillList|IsPointer
-0x1B Brigand (M),BrigandMSkillList|IsPointer
-0x1C Brigand (F),BrigandFSkillList|IsPointer
-0x1D Pirate (M),PirateMSkillList|IsPointer
-0x1E Pirate (F),PirateFSkillList|IsPointer
-0x1F Berserker (M),BerserkerMSkillList|IsPointer
-0x20 Berserker (F),BerserkerFSkillList|IsPointer
-0x21 Archer (M),ArcherMSkillList|IsPointer
-0x22 Archer (F),ArcherFSkillList|IsPointer
-0x23 Sniper (M),SniperMSkillList|IsPointer
-0x24 Sniper (F),SniperFSkillList|IsPointer
-0x25 Adventurer (M),AdventurerMSkillList|IsPointer
-0x26 Adventurer (F),AdventurerFSkillList|IsPointer
-0x27 Freeblade,FreebladeSkillList|IsPointer
-0x28 Trueblade,TruebladeSkillList|IsPointer
+0x18 Warrior (M),WarriorMSkillList|IsPointer
+0x19 Warrior (F),WarriorFSkillList|IsPointer
+0x1A Hunter,HunterSkillList|IsPointer
+0x1B Barbarian,BarbarianSkillList|IsPointer
+0x1C Brigand (M),BrigandMSkillList|IsPointer
+0x1D Brigand (F),BrigandFSkillList|IsPointer
+0x1E Pirate (M),PirateMSkillList|IsPointer
+0x1F Pirate (F),PirateFSkillList|IsPointer
+0x20 Berserker (M),BerserkerMSkillList|IsPointer
+0x21 Berserker (F),BerserkerFSkillList|IsPointer
+0x22 Archer (M),ArcherMSkillList|IsPointer
+0x23 Archer (F),ArcherFSkillList|IsPointer
+0x24 Sniper (M),SniperMSkillList|IsPointer
+0x25 Sniper (F),SniperFSkillList|IsPointer
+0x26 Adventurer (M),AdventurerMSkillList|IsPointer
+0x27 Adventurer (F),AdventurerFSkillList|IsPointer
+0x28 Freeblade,FreebladeSkillList|IsPointer
 0x29 Soldier,SoldierSkillList|IsPointer
 0x2A Halberdier,HalberdierSkillList|IsPointer
 0x2B Cavalier,CavalierSkillList|IsPointer
@@ -49,25 +49,25 @@ INLINE ClassLevelUpSkillTable,Skill Pointer
 0x2F Walkyrie,WalkyrieSkillList|IsPointer
 0x30 Paladin (F),PaladinFSkillList|IsPointer
 0x31 Free Knight,FreeKnightSkillList|IsPointer
-0x32 Ranger (M),RangerMSkillList|IsPointer
+0x32 Ranger,RangerSkillList|IsPointer
 0x33 Wanderer,WandererSkillList|IsPointer
 0x34 DON'T TOUCH THIS,0x0
 0x35 Lance Knight,LanceKnightSkillList|IsPointer
 0x36 Duke Knight,DukeKnightSkillList|IsPointer
 0x37 Axe Knight,AxeKnightSkillList|IsPointer
 0x38 Great Knight,GreatKnightSkillList|IsPointer
-0x39 Arch Knight (M),ArchKnightMSkillList|IsPointer
-0x3A Arch Knight (F),ArchKnightFSkillList|IsPointer
-0x3B Bow Knight,BowKnightSkillList|IsPointer
-0x3C Sword Armour,SwordArmourSkillList|IsPointer
-0x3D Lance Armour,LanceArmourSkillList|IsPointer
-0x3E Axe Armour,AxeArmourSkillList|IsPointer
-0x3F Bow Armour,BowArmourSkillList|IsPointer
-0x40 Protector,ProtectorSkillList|IsPointer
-0x41 Sentinel,SentinelSkillList|IsPointer
-0x42 General,GeneralSkillList|IsPointer
-0x43 Baron,BaronSkillList|IsPointer
-0x44 Emperor,EmperorSkillList|IsPointer
+0x39 Bow Knight (M),BowKnightMSkillList|IsPointer
+0x3A Bow Knight (F),BowKnightFSkillList|IsPointer
+0x3B Arch Knight,ArchKnightSkillList|IsPointer
+0x3C Black Knight,BlackKnightSkillList|IsPointer
+0x3D Sword Armour,SwordArmourSkillList|IsPointer
+0x3E Lance Armour,LanceArmourSkillList|IsPointer
+0x3F Axe Armour,AxeArmourSkillList|IsPointer
+0x40 Bow Armour,BowArmourSkillList|IsPointer
+0x41 Protector,ProtectorSkillList|IsPointer
+0x42 Sentry,SentrySkillList|IsPointer
+0x43 General,GeneralSkillList|IsPointer
+0x44 Guardian,GuardianSkillList|IsPointer
 0x45 Pegasus Knight,PegasusKnightSkillList|IsPointer
 0x46 Falcon Knight,FalconKnightSkillList|IsPointer
 0x47 Harrier,HarrierSkillList|IsPointer
@@ -98,8 +98,8 @@ INLINE ClassLevelUpSkillTable,Skill Pointer
 0x60 Sage (F),SageFSkillList|IsPointer
 0x61 Gorgon,0x0
 0x62 DON'T TOUCH THIS,0x0
-0x63 Gargoyle,0x0
-0x64 Deathgoyle,0x0
+0x63 Baron,BaronSkillList|IsPointer
+0x64 Emperor,EmperorSkillList|IsPointer
 0x65 DON'T TOUCH THIS,0x0
 0x66 DON'T TOUCH THIS,0x0
 0x67 Archer on Ballista,0x0
@@ -108,18 +108,18 @@ INLINE ClassLevelUpSkillTable,Skill Pointer
 0x6A Ballista,0x0
 0x6B Iron Ballista,0x0
 0x6C Killer Ballista,0x0
-0x6D Civilian,0x0
-0x6E Civilian (F),0x0
+0x6D Child,0x0
+0x6E Child(F),0x0
 0x6F Civilian,0x0
 0x70 Civilian (F),0x0
 0x71 Civilian,0x0
 0x72 Civilian (F),0x0
-0x73 Peer,0x0
-0x74 Priest,PriestSkillList|IsPointer
-0x75 Cleric,ClericSkillList|IsPointer
-0x76 High Priest,HighPriestSkillList|IsPointer
-0x77 High Priestess,HighPriestessSkillList|IsPointer
-0x78 Bishop,BishopSkillList|IsPointer
+0x73 Priest,PriestSkillList|IsPointer
+0x74 Cleric,ClericSkillList|IsPointer
+0x75 High Priest,HighPriestSkillList|IsPointer
+0x76 High Priestess,HighPriestessSkillList|IsPointer
+0x77 Bishop (M),BishopMSkillList|IsPointer
+0x78 Bishop (F),BishopFSkillList|IsPointer
 0x79 Queen,QueenSkillList|IsPointer
 0x7A Dark Mage (M),DarkMageMSkillList|IsPointer
 0x7B Dark Mage (F),DarkMageFSkillList|IsPointer
