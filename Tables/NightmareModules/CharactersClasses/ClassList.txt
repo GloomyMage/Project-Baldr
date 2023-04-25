@@ -1,128 +1,127 @@
-None
-Ephraim Lord
-Eirika Lord
-Ephraim Master Lord
-Eirika Master Lord
-Cavalier
-Cavalier (F)
-Paladin
-Paladin (F)
-Armour Knight
-Armour Knight (F)
-General
-General (F)
-Thief
-Manakete
-Mercenary
-Mercenary (F)
-Hero
-Hero (F)
-Myrmidon
+Lord
+Knight Lord (Seliph)
+Knight Lord (Sigurd)
+Prince
+Princess
+Master Knight (M)
+Master Knight (F)
+Myrmidon (M)
 Myrmidon (F)
-Swordmaster
+Mercenary (M)
+Mercenary (F)
+Swordmaster (M)
 Swordmaster (F)
-Assassin
+Hero (M)
+Hero (F)
+Thief (M)
+Thief (F)
+Rogue (M)
+Rogue (F)
+Assassin (M)
 Assassin (F)
-Archer
-Archer (F)
-Sniper
-Sniper (F)
-Ranger
-Ranger (F)
-Wyvern Rider
-Wyvern Rider (F)
-Wyvern Lord
-Wyvern Lord (F)
-Wyvern Knight
-Wyvern Knight (F)
-Mage
-Mage (F)
-Sage
-Sage (F)
-Mage Knight
-Mage Knight (F)
-Bishop
-Bishop (F)
-Shaman
-Shaman (F)
-Druid
-Druid (F)
-Summoner
-Summoner (F)
-Rogue
-Gorgon Egg
-Great Knight
-Great Knight (F)
-Recruit (2)
-Journeyman (3)
-Pupil (3)
-Recruit (3)
-Manakete
-Manakete (F)
-Journeyman (1)
-Pupil (1)
+Dancer
 Fighter
-Warrior
-Brigand
-Pirate
-Berserker
-Monk
-Priest
-Bard
-Recruit (1)
-Pegasus Knight
-Falcon Knight
-Cleric
+Warrior (M)
+Warrior (F)
+Hunter
+Barbarian
+Brigand (M)
+Brigand (F)
+Pirate (M)
+Pirate (F)
+Berserker (M)
+Berserker (F)
+Archer (M)
+Archer (F)
+Sniper (M)
+Sniper (F)
+Adventurer (M)
+Adventurer (F)
+Freeblade
+Soldier
+Halberdier
+Cavalier
+Paladin (M)
+Holy Knight
 Troubadour
 Valkyrie
-Dancer
-Soldier
-Necromancer
-Fleet
-Phantom
-Revenant
-Entombed
-Bonewalker
-Bonewalker (Bow)
-Wight
-Wight (Bow)
-Bael
-Elder Bael
-Cyclops
-Mauthe Doog
-Gwyllgi
-Tarvos
-Maelduin
-Mogall
-Arch Mogall
+Paladin (F)
+Free Knight
+Ranger (M)
+Ranger (F)
+DON'T TOUCH THIS
+Lance Knight
+Duke Knight
+Axe Knight
+Great Knight
+Bow Knight (M)
+Bow Knight (F)
+Arch Knight
+Black Knight
+Sword Armour
+Lance Armour
+Axe Armour
+Bow Armour
+Protector
+Sentinel
+General
+Guardian
+Pegasus Knight
+Falcon Knight
+Harrier
+Wyvern Rider (M)
+Wyvern Rider (F)
+Wyvern Knight (M)
+Wyvern Knight (F)
+Wyvern Master (M)
+Wyvern Master (F)
+Wyvern Lord (M)
+Wyvern Lord (F)
+Malig Knight
+Fire Mage (M)
+Fire Mage (F)
+Thunder Mage (M)
+Thunder Mage (F)
+Wind Mage (M)
+Wind Mage (F)
+Mage Fighter (M)
+Mage Fighter (F)
+Mage (M)
+Mage (F)
+Mage Knight (M)
+Mage Knight (F)
+Bard
+Shaman
+Sage (M)
+Sage (F)
 Gorgon
-Gorgon Egg
-Gargoyle
-Deathgoyle
-Dracozombie
-Demon King
+DON'T TOUCH THIS
+Baron
+Emperor
+DON'T TOUCH THIS
+DON'T TOUCH THIS
 Archer on Ballista
 Archer on Iron Ballista
 Archer on Killer Ballista
 Ballista
 Iron Ballista
 Killer Ballista
+Child
+Child (F)
 Civilian
 Civilian (F)
 Civilian
 Civilian (F)
-Civilian
-Civilian (F)
-Peer
+Priest
+Cleric
+High Priest
+High Priestess
+Bishop (M)
+Bishop (F)
 Queen
-Prince
-Queen
-(empty)
-Fallen Prince
-Tent
-Pontifex
-Dead Peer
-Cyclops
-Elder Bael
-Journeyman (2)
-Pupil (2)
+Dark Mage (M)
+Dark Mage (F)
+Dark Bishop (M)
+Dark Bishop (F)
+Archbishop
+Dark Prince

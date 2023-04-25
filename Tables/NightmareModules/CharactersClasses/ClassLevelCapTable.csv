@@ -59,15 +59,15 @@ INLINE Class_Level_Cap_Table,Level Cap
 0x39 Bow Knight (M),30
 0x3A Bow Knight (F),30
 0x3B Arch Knight,30
-0x3C Sword Armour,30
-0x3D Lance Armour,30
-0x3E Axe Armour,30
-0x3F Bow Armour,30
-0x40 Protector,30
-0x41 Sentry,30
-0x42 General,30
-0x43 Baron,30
-0x44 Emperor,30
+0x3C Black Knight,30
+0x3D Sword Armour,30
+0x3E Lance Armour,30
+0x3F Axe Armour,30
+0x40 Bow Armour,30
+0x41 Protector,30
+0x42 Sentry,30
+0x43 General,30
+0x44 Guardian,30
 0x45 Pegasus Knight,30
 0x46 Falcon Knight,30
 0x47 Harrier,30
@@ -96,10 +96,10 @@ INLINE Class_Level_Cap_Table,Level Cap
 0x5E Shaman,30
 0x5F Sage (M),30
 0x60 Sage (F),30
-0x61 Black Knight,30
+0x61 Gorgon,30
 0x62 DON'T TOUCH THIS,30
-0x63 Gargoyle,30
-0x64 Deathgoyle,30
+0x63 Baron,30
+0x64 Emperor,30
 0x65 DON'T TOUCH THIS,30
 0x66 DON'T TOUCH THIS,30
 0x67 Archer on Ballista,30
@@ -109,7 +109,7 @@ INLINE Class_Level_Cap_Table,Level Cap
 0x6B Iron Ballista,30
 0x6C Killer Ballista,30
 0x6D Child,30
-0x6E Child (F),30
+0x6E Child(F),30
 0x6F Civilian,30
 0x70 Civilian (F),30
 0x71 Civilian,30
