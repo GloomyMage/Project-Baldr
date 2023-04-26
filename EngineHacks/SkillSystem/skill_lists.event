@@ -1,3 +1,4 @@
+
 SigurdSkillList:
 BYTE 00 00
 ALIGN 4
@@ -812,10 +813,12 @@ BYTE 00 00
 ALIGN 4
 
 AssassinMSkillList:
+BYTE 1 LethalityID
 BYTE 00 00
 ALIGN 4
 
 AssassinFSkillList:
+BYTE 1 LethalityID
 BYTE 00 00
 ALIGN 4
 
@@ -827,7 +830,11 @@ FighterSkillList:
 BYTE 00 00
 ALIGN 4
 
-WarriorSkillList:
+WarriorMSkillList:
+BYTE 00 00
+ALIGN 4
+
+WarriorFSkillList:
 BYTE 00 00
 ALIGN 4
 
@@ -891,10 +898,6 @@ FreebladeSkillList:
 BYTE 00 00
 ALIGN 4
 
-TruebladeSkillList:
-BYTE 00 00
-ALIGN 4
-
 SoldierSkillList:
 BYTE 00 00
 ALIGN 4
@@ -919,7 +922,7 @@ TroubadourSkillList:
 BYTE 00 00
 ALIGN 4
 
-WalkyrieSkillList:
+ValkyrieSkillList:
 BYTE 00 00
 ALIGN 4
 
@@ -931,7 +934,7 @@ FreeKnightSkillList:
 BYTE 00 00
 ALIGN 4
 
-RangerMSkillList:
+RangerSkillList:
 BYTE 1 DesperationID
 BYTE 00 00
 ALIGN 4
@@ -958,16 +961,21 @@ BYTE 1 PaviseID
 BYTE 00 00
 ALIGN 4
 
-ArchKnightMSkillList:
+BowKnightMSkillList:
 BYTE 00 00
 ALIGN 4
 
-ArchKnightFSkillList:
+BowKnightFSkillList:
 BYTE 00 00
 ALIGN 4
 
-BowKnightSkillList:
+ArchKnightSkillList:
 BYTE 1 BowRangeUpID
+BYTE 00 00
+ALIGN 4
+
+BlackKnightSkillList:
+BYTE 1 VengeanceID
 BYTE 00 00
 ALIGN 4
 
@@ -991,7 +999,7 @@ ProtectorSkillList:
 BYTE 00 00
 ALIGN 4
 
-SentinelSkillList:
+SentrySkillList:
 BYTE 00 00
 ALIGN 4
 
@@ -999,12 +1007,7 @@ GeneralSkillList:
 BYTE 00 00
 ALIGN 4
 
-BaronSkillList:
-BYTE 00 00
-ALIGN 4
-
-EmperorSkillList:
-BYTE 1 CharismaID
+GuardianSkillList:
 BYTE 00 00
 ALIGN 4
 
@@ -1122,6 +1125,15 @@ SageFSkillList:
 BYTE 00 00
 ALIGN 4
 
+BaronSkillList:
+BYTE 00 00
+ALIGN 4
+
+EmperorSkillList:
+BYTE 1 CharismaID
+BYTE 00 00
+ALIGN 4
+
 PriestSkillList:
 BYTE 00 00
 ALIGN 4
@@ -1138,11 +1150,16 @@ HighPriestessSkillList:
 BYTE 00 00
 ALIGN 4
 
-BishopSkillList:
+BishopMSkillList:
+BYTE 00 00
+ALIGN 4
+
+BishopFSkillList:
 BYTE 00 00
 ALIGN 4
 
 QueenSkillList:
+BYTE 1 CharismaID
 BYTE 00 00
 ALIGN 4
 

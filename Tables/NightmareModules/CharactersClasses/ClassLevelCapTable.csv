@@ -23,23 +23,23 @@ INLINE Class_Level_Cap_Table,Level Cap
 0x15 Assassin (F),30
 0x16 Dancer,30
 0x17 Fighter,30
-0x18 Warrior,30
-0x19 Hunter,30
-0x1A Barbarian,30
-0x1B Brigand (M),30
-0x1C Brigand (F),30
-0x1D Pirate (M),30
-0x1E Pirate (F),30
-0x1F Berserker (M),30
-0x20 Berserker (F),30
-0x21 Archer (M),30
-0x22 Archer (F),30
-0x23 Sniper (M),30
-0x24 Sniper (F),30
-0x25 Adventurer (M),30
-0x26 Adventurer (F),30
-0x27 Freeblade,30
-0x28 Trueblade,30
+0x18 Warrior (M),30
+0x19 Warrior (F),30
+0x1A Hunter,30
+0x1B Barbarian,30
+0x1C Brigand (M),30
+0x1D Brigand (F),30
+0x1E Pirate (M),30
+0x1F Pirate (F),30
+0x20 Berserker (M),30
+0x21 Berserker (F),30
+0x22 Archer (M),30
+0x23 Archer (F),30
+0x24 Sniper (M),30
+0x25 Sniper (F),30
+0x26 Adventurer (M),30
+0x27 Adventurer (F),30
+0x28 Freeblade,30
 0x29 Soldier,30
 0x2A Halberdier,30
 0x2B Cavalier,30
@@ -59,15 +59,15 @@ INLINE Class_Level_Cap_Table,Level Cap
 0x39 Bow Knight (M),30
 0x3A Bow Knight (F),30
 0x3B Arch Knight,30
-0x3C Sword Armour,30
-0x3D Lance Armour,30
-0x3E Axe Armour,30
-0x3F Bow Armour,30
-0x40 Protector,30
-0x41 Sentinel,30
-0x42 General,30
-0x43 Baron,30
-0x44 Emperor,30
+0x3C Black Knight,30
+0x3D Sword Armour,30
+0x3E Lance Armour,30
+0x3F Axe Armour,30
+0x40 Bow Armour,30
+0x41 Protector,30
+0x42 Sentry,30
+0x43 General,30
+0x44 Guardian,30
 0x45 Pegasus Knight,30
 0x46 Falcon Knight,30
 0x47 Harrier,30
@@ -98,8 +98,8 @@ INLINE Class_Level_Cap_Table,Level Cap
 0x60 Sage (F),30
 0x61 Gorgon,30
 0x62 DON'T TOUCH THIS,30
-0x63 Gargoyle,30
-0x64 Deathgoyle,30
+0x63 Baron,30
+0x64 Emperor,30
 0x65 DON'T TOUCH THIS,30
 0x66 DON'T TOUCH THIS,30
 0x67 Archer on Ballista,30
@@ -108,18 +108,18 @@ INLINE Class_Level_Cap_Table,Level Cap
 0x6A Ballista,30
 0x6B Iron Ballista,30
 0x6C Killer Ballista,30
-0x6D Civilian,30
-0x6E Civilian (F),30
+0x6D Child,30
+0x6E Child(F),30
 0x6F Civilian,30
 0x70 Civilian (F),30
 0x71 Civilian,30
 0x72 Civilian (F),30
-0x73 Peer,30
-0x74 Priest,30
-0x75 Cleric,30
-0x76 High Priest,30
-0x77 High Priestess,30
-0x78 Bishop,30
+0x73 Priest,30
+0x74 Cleric,30
+0x75 High Priest,30
+0x76 High Priestess,30
+0x77 Bishop (M),30
+0x78 Bishop (F),30
 0x79 Queen,30
 0x7A Dark Mage (M),30
 0x7B Dark Mage (F),30

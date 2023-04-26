@@ -1,236 +1,242 @@
-##_Lord
+##_Lord ^
 Lord[X]
 
-##_KntLord
+##_KntLord ^
 Knight Lord[X]
 
-##_Prince
+##_Prince ^
 Prince[X]
 
-##_Princess
+##_Princess ^
 Princess[X]
 
 ##_MastKnt
 Master Knight[X]
 
-##_Myrm
+##_Myrm ^
 Myrmidon[X]
 
-##_Merc
+##_Merc ^
 Mercenary[X]
 
-##_Swdmast
+##_Swdmast ^
 Swordmaster[X]
 
-##_Hero
+##_Hero ^
 Hero[X]
 
-##_Thief
+##_Thief ^
 Thief[X]
 
-##_Rogue
+##_Rogue ^
 Rogue[X]
 
-##_Assass
+##_Assass ^
 Assassin[X]
 
-##_Dancer
+##_Dancer ^
 Dancer[X]
 
-##_Fighter
+##_Fighter ^
 Fighter[X]
 
-##_Warrior
+##_Warrior ^
 Warrior[X]
 
-##_Hunter
+##_Hunter ^
 Hunter[X]
 
-##_Barbarian
+##_Barbarian ^
 Barbarian[X]
 
-##_Brigand
+##_Brigand ^
 Brigand[X]
 
-##_Pirate
+##_Pirate ^
 Pirate[X]
 
-##_Berserk
+##_Berserk ^
 Berserker[X]
 
-##_Archer
+##_Archer ^
 Archer[X]
 
-##_Sniper
+##_Sniper ^
 Sniper[X]
 
-##_Advent
+##_Advent ^
 Adventurer[X]
 
-##_Freebld
+##_Freebld ^
 Freeblade[X]
 
-##_Truebld
+##_Truebld ^
 Trueblade[X]
 
-##_Soldier
+##_Soldier ^
 Soldier[X]
 
-##_Halbrd
+##_Halbrd ^
 Halberdier[X]
 
-##_Cav
+##_Cav ^
 Cavalier[X]
 
-##_Pal
+##_Pal ^
 Paladin[X]
 
-##_HolyKnt
+##_HolyKnt ^
 Holy Knight[X]
 
-##_Trbdr
+##_Trbdr ^
 Troubadour[X]
 
-##_Valk
+##_Valk ^
 Valkyrie[X]
 
-##_FreeKnt
+##_FreeKnt ^
 Free Knight[X]
 
-##_Ranger
+##_Ranger ^
 Ranger[X]
 
-##_Wanderer
+##_Wanderer ^
 Wanderer[X]
 
-##_LncKnt
+##_LncKnt ^
 Lance Knight[X]
 
-##_DukeKnt
+##_DukeKnt ^
 Duke Knight[X]
 
-##_AxeKnt
+##_AxeKnt ^
 Axe Knight[X]
 
-##_GreatKnt
+##_GreatKnt ^
 Great Knight[X]
 
-##_ArchKnt
-Arch Knight[X]
-
-##_BowKnt
+##_BowKnt ^
 Bow Knight[X]
 
-##_SwdArm
+##_ArchKnt ^
+Arch Knight[X]
+
+##_BlackKnt ^
+Black Knight[X]
+
+##_SwdArm ^
 Sword Armour[X]
 
-##_LncArm
+##_LncArm ^
 Lance Armour[X]
 
-##_AxeArm
+##_AxeArm ^
 Axe Armour[X]
 
-##_BowArm
+##_BowArm ^
 Bow Armour[X]
 
-##_Protector
+##_Protector ^
 Protector[X]
 
-##_Sentinel
+##_Sentinel ^
 Sentinel[X]
 
-##_General
+##_General ^
 General[X]
 
-##_Baron
-Baron[X]
+##_Guardian ^
+Guardian[X]
 
-##_Emperor
-Emperor[X]
-
-##_PegKnt
+##_PegKnt ^
 Pegasus Knight[X]
 
-##_FalcoKnt
+##_FalcoKnt ^
 Falcon Knight[X]
 
-##_Harrier
+##_Harrier ^
 Harrier[X]
 
-##_WyvRider
+##_WyvRider ^
 Wyvern Rider[X]
 
-##_WyvKnt
+##_WyvKnt ^
 Wyvern Knight[X]
 
-##_WyvMast
+##_WyvMast ^
 Wyvern Master[X]
 
-##_WyvLord
+##_WyvLord ^
 Wyvern Lord[X]
 
-##_MaligKnt
+##_MaligKnt ^
 Malig Knight[X]
 
-##_FirMage
+#_FirMage ^
 Fire Mage[X]
 
-##_ThrMage
+#_ThrMage ^
 Thunder Mage[X]
 
-##_WndMage
+##_WndMage ^
 Wind Mage[X]
 
-##_MageWar
+##_MageWar ^
 Mage Fighter[X]
 
-##_Mage
+##_Mage ^
 Mage[X]
 
-##_MageKnt
+##_MageKnt ^
 Mage Knight[X]
 
-##_Bard
+##_Bard ^
 Bard[X]
 
-##_Shaman
+##_Shaman ^
 Shaman[X]
 
-##_Sage
+##_Sage ^
 Sage[X]
 
-##_Civilian
+##_Baron ^
+Baron[X]
+
+##_Emperor ^
+Emperor[X]
+
+##_Child ^
+Child[X]
+
+##_Civilian ^
 Civilian[X]
 
-##_Peer
-Peer[X]
-
-##_Priest
+##_Priest ^
 Priest[X]
 
-##_Cleric
+##_Cleric ^
 Cleric[X]
 
-##_HPriest
+##_HPriest ^
 High Priest[X]
 
-##_HPriestF
+##_HPriestF ^
 High Priestess[X]
 
-##_Bishop
+##_Bishop ^
 Bishop[X]
 
-##_Queen
+##_Queen ^
 Queen[X]
 
-##_DrkMage
+##_DrkMage ^
 Dark Mage[X]
 
-##_DrkBishop
+##_DrkBishop ^
 Dark Bishop[X]
 
-##_Archbishop
+##_Archbishop ^
 Archbishop[X]
 
-##_DarkPrince
+##_DarkPrince ^
 Dark Prince[X]
