@@ -31,6 +31,7 @@ $RECYCLE.BIN/
 *.ss7
 *.ss8
 *.ss9
+EngineHacks/Necessary/PopupRework/Src/FE-CLib-master/*
 
 # python cache
 __pycache__

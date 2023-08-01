@@ -9,9 +9,8 @@
 PUSH
 
 	//Function that adds promo bonuses to char data
-    ORG $2BDFA
-	SHORT 0
-    callHack_r3(Add_Promotion_Bonuses)
+    ORG $2BD70
+	callHack_r3(Add_Promotion_Bonuses)
 	
 	//Change stats at 2020108 from shorts to bytes
 	//WRITES
