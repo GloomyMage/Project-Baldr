@@ -6,11 +6,11 @@ static int PopR_InitWRankNewCommon(unsigned wType) {
 
 	if (wType == 15) {
 		// Check if had wrank before promotion
-		if (gpUnitRight_BattleStruct->unit.supportBits)
+		if (gpUnitRight_BattleStruct->unit.unk3B)
 			return FALSE;
 
 		// Check if has not wrank even after promotion
-		if (!gpUnitLeft_BattleStruct->unit.supportBits)
+		if (!gpUnitLeft_BattleStruct->unit.unk3B)
 			return FALSE;
 
 		SetPopupWType(wType);
