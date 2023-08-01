@@ -1,1064 +1,1064 @@
-##DIronSword
+##DIronSword ^
 [X]
 
-##DSlimSword
+##DSlimSword ^
 Lightweight and easy to hit with.[X]
 
 
-##DSteelSword
+##DSteelSword ^
 [X]
 
 
-##DSilverSword
+##DSilverSword ^
 [X]
 
 
-##DIronBlade
+##DIronBlade ^
 [X]
 
 
-##DSteelBlade
+##DSteelBlade ^
 [X]
 
 
-##DSilverBlade
+##DSilverBlade ^
 [X]
 
 
-##DPoisonSword
+##DPoisonSword ^
 Coated in lethal poison.[X]
 
 
-##DRapier
-Effective against cavalry 
+##DRapier ^
+Effective against cavalry[N]
 and armored units.[X]
 
 
-##DBalmung
-Od's Legendary Scimitar. 
+##DBalmung ^
+Od's Legendary Scimitar.[N]
 Skl+10 Spd+20.[X]
 
 
-##DBraveSword
+##DBraveSword ^
 Can strike consecutively.[X]
 
 
-##DBaldung
+##DBaldung ^
 A sword made to look like Balmung.[X]
 
 
-##DKillingEdge
+##DKillingEdge ^
 High critical hit rate.[X]
 
 
-##DArmorslayer
+##DArmorslayer ^
 Effective against armored units.[X]
 
 
-##DWingClipper
+##DWingClipper ^
 Effective against flying units.[X]
 
 
-##DLightBrand
+##DLightBrand ^
 Suffused with light magic.[X]
 
 
-##DLandsSword
+##DLandsSword ^
 Drains enemy HP into caster.[X]
 
 
-##DLancereaver
+##DLancereaver ^
 Strong against spears.[X]
 
 
-##DZanbato
+##DZanbato ^
 Effective against cavalry.[X]
 
 
-##DIronLance
+##DIronLance ^
 [X]
 
 
-##DSlimLance
+##DSlimLance ^
 Lightweight and easy to hit with.[X]
 
 
-##DSteelLance
+##DSteelLance ^
 [X]
 
 
-##DSilverLance
+##DSilverLance ^
 [X]
 
 
-##DToxinLance
+##DToxinLance ^
 Coated in lethal poison.[X]
 
 
-##DBraveLance
+##DBraveLance ^
 Can strike consecutively.[X]
 
 
-##DKillerLance
+##DKillerLance ^
 High critical hit rate.[X]
 
 
-##DHorseslayer
+##DHorseslayer ^
 Effective against cavalry.[X]
 
 
-##DJavelin
+##DJavelin ^
 Doubles as ranged attack.[X]
 
 
-##DSpear
+##DSpear ^
 Doubles as ranged attack.[X]
 
 
-##DAxereaver
+##DAxereaver ^
 Strong against axes.[X]
 
 
-##DIronAxe
+##DIronAxe ^
 [X]
 
 
-##DSteelAxe
+##DSteelAxe ^
 [X]
 
 
-##DSilverAxe
+##DSilverAxe ^
 [X]
 
 
-##DPoisonAxe
+##DPoisonAxe ^
 Coated in lethal poison.[X]
 
 
-##DBraveAxe
+##DBraveAxe ^
 Can strike consecutively.[X]
 
 
-##DKillerAxe
+##DKillerAxe ^
 High critical hit rate.[X]
 
 
-##DHalberd
+##DHalberd ^
 Effective against cavalry.[X]
 
 
-##DHammer
+##DHammer ^
 Effective against armored units.[X]
 
 
-##DDevilAxe
+##DDevilAxe ^
 Might injure its wielder.[X]
 
 
-##DHandAxe
+##DHandAxe ^
 Doubles as ranged attack.[X]
 
 
-##DTomahawk
+##DTomahawk ^
 Doubles as ranged attack.[X]
 
 
-##DSwordreaver
+##DSwordreaver ^
 Strong against swords.[X]
 
 
-##DSwordslayer
+##DSwordslayer ^
 Good against swordfighters.[X]
 
 
-##DHatchet
+##DHatchet ^
 Lightweight and easy to hit with.[X]
 
 
-##DIronBow
+##DIronBow ^
 [X]
 
 
-##DSteelBow
+##DSteelBow ^
 [X]
 
 
-##DSilverBow
+##DSilverBow ^
 [X]
 
 
-##DPoisonBow
+##DPoisonBow ^
 Coated in lethal poison.[X]
 
 
-##DKillerBow
+##DKillerBow ^
 High critical hit rate.[X]
 
 
-##DBraveBow
+##DBraveBow ^
 Can strike consecutively.[X]
 
 
-##DShortBow
+##DShortBow ^
 Can attack at short range.[X]
 
 
-##DLongbow
+##DLongbow ^
 Extended attack range.[X]
 
 
-##DBallista
+##DBallista ^
 Long-range weapon.[X]
 
 
-##DIronBallista
+##DIronBallista ^
 Heavy long-range weapon.[X]
 
 
-##DKillerBallista
-Long-range weapon. 
+##DKillerBallista ^
+Long-range weapon.[N]
 High critical hit rate.[X]
 
 
-##DGreatBallista
+##DGreatBallista ^
 Powerful long-range weapon.[X]
 
 
-##DMercurius
+##DMercurius ^
 Sacred sword from another world.[X]
 
 
-##DGradivus
+##DGradivus ^
 Sacred lance from another world.[X]
 
 
-##DHauteclere
+##DHauteclere ^
 Sacred axe from another world.[X]
 
 
-##DParthia
+##DParthia ^
 Sacred bow from another world.[X]
 
 
-##DValflame
-Fjalar's Legendary Tome. 
+##DValflame ^
+Fjalar's Legendary Tome.[N] 
 Mgc+10 Def+10 Res+10.[X]
 
 
-##DElwind
+##DElwind ^
 [X]
 
 
-##DLightning
+##DLightning ^
 [X]
 
 
-##DShine
+##DShine ^
 [X]
 
 
-##DResire
+##DResire ^
 Drains enemy HP into caster.[X]
 
 
-##DPurge
+##DPurge ^
 Long-range lightning strike.[X]
 
 
-##DAura
+##DAura ^
 [X]
 
 
-##DMjolnir
-Thrud's Legendary Tome. 
+##DMjolnir ^
+Thrud's Legendary Tome.[N] 
 Skl+20 Spd+10.[X]
 
 
-##DJorgumandr
+##DJorgumandr ^
 [X]
 
 
-##DLuna
+##DLuna ^
 Negates enemy resistance.[X]
 
 
-##DNosferatu
+##DNosferatu ^
 Drains enemy HP into caster.[X]
 
 
-##DHel
+##DHel ^
 Reduces enemy HP to 1.[X]
 
 
-##DFenrir
+##DFenrir ^
 [X]
 
 
-##DErra
+##DErra ^
 Tome of plague and chaos[X]
 
 
-##DHeal
-Restores HP to allies in
+##DHeal ^
+Restores HP to allies in[N]
 adjacent spaces.[X]
 
 
-##DMend
-Restores many HP to allies
+##DMend ^
+Restores many HP to allies[N]
 in adjacent spaces.[X]
 
 
-##DRecover
-Restores all HP to allies
+##DRecover ^
+Restores all HP to allies[N]
 in adjacent spaces.[X]
 
 
-##DPhysic
-Restores HP to allies
+##DPhysic ^
+Restores HP to allies[N]
 at a distance.[X]
 
 
-##DFortify
-Restores all HP to allies
+##DFortify ^
+Restores all HP to allies[N]
 nearby.[X]
 
 
-##DRestore
-Returns allies to normal
+##DRestore ^
+Returns allies to normal[N]
 condition. (Cures sleep, etc.)[X]
 
 
-##DSilence
-Halts all enemy magic
+##DSilence ^
+Halts all enemy magic[N]
 for several turns.[X]
 
 
-##DSleep
-Puts enemies to sleep for
+##DSleep ^
+Puts enemies to sleep for[N]
 several turns.[X]
 
-##DBerserk
-Sends enemies into a
+##DBerserk ^
+Sends enemies into a[N]
 berserker rage.[X]
 
 
-##DWarp
-Moves allies in adjacent
+##DWarp ^
+Moves allies in adjacent[N]
 spaces instantly elsewhere.[X]
 
 
-##DRescue
-Moves allies from distant
+##DRescue ^
+Moves allies from distant[N]
 spaces to adjacent ones.[X]
 
 
-##DTorch
-Lights an area. The light
+##DTorch ^
+Lights an area. The light[N]
 grows weaker each turn.[X]
 
 
-##DHammerne
-Restores an adjacent ally's
+##DHammerne ^
+Restores an adjacent ally's[N]
 weapons to new condition.[X]
 
 
-##DUnlock
-Unlocks doors, even from
+##DUnlock ^
+Unlocks doors, even from[N]
 a distance.[X]
 
 
-##DBarrier
-Increases magic resistance
+##DBarrier ^
+Increases magic resistance[N]
 of adjacent allies briefly.[X]
 
 
-##DVolantAxe
+##DVolantAxe ^
 Effective against flying units.[X]
 
 
-##DStrengthRing
+##DStrengthRing ^
 Str+5.[X]
 
 
-##DMagicRing
+##DMagicRing ^
 Mgc+5.[X]
 
 
-##DSkillRing
+##DSkillRing ^
 Skl+5.[X]
 
 
-##DSpeedRing
+##DSpeedRing ^
 Spd+5.[X]
 
 
-##DLuckRing
+##DLuckRing ^
 Lck+5.[X]
 
 
-##DDefenseRing
+##DDefenseRing ^
 Def+5.[X]
 
 
-##DResistanceRing
+##DResistanceRing ^
 Res+5.[X]
 
 
-##DLegRing
+##DLegRing ^
 Mov+1.[X]
 
 
-##DBodyRing
+##DBodyRing ^
 Con+2.[X]
 
 
-##DHeroCrest
-For mercenaries, myrmidons,
+##DHeroCrest ^
+For mercenaries, myrmidons,[N]
 and fighters Lv. 10 and up.[X]
 
 
-##DKnightCrest
-For knights and cavaliers
+##DKnightCrest ^
+For knights and cavaliers[N]
 Lv. 10 and up.[X]
 
 
-##DOrionBolt
-For archers
+##DOrionBolt ^
+For archers[N]
 Lv. 10 and up.[X]
 
 
-##DElysianWhip
-For pegasus knights and
+##DElysianWhip ^
+For pegasus knights and[N]
 wyvern riders Lv. 10 and up.[X]
 
 
-##DGuidingRing
-For magic wielders and
+##DGuidingRing ^
+For magic wielders and[N]
 troubadours Lv. 10 and up.[X]
 
 
-##DDoorKey
-Opens doors in
+##DDoorKey ^
+Opens doors in[N]
 adjacent spaces.[X]
 
 
-##DLockpick
-Opens doors and chests.
+##DLockpick ^
+Opens doors and chests.[N]
 Usable only by thieves.[X]
 
 
-##DVulnerary
-A medicinal solution used
+##DVulnerary ^
+A medicinal solution used[N]
 for healing minor wounds.[X]
 
 
-##DElixir
-A powerful solution that
+##DElixir ^
+A powerful solution that[N]
 restores all HP.[X]
 
 
-##DPureWater
-A draught that boosts Res.
+##DPureWater ^
+A draught that boosts Res.[N]
 Grows weaker each turn.[X]
 
 
-##DAntitoxin
-A medicinal solution that
+##DAntitoxin ^
+A medicinal solution that[N]
 cures poison.[X]
 
 
-##DFilliShield
-An amulet that protects fliers
+##DFilliShield ^
+An amulet that protects fliers[N]
 from arrows.[X]
 
 
-##DMemberCard
-If someone with this card
+##DMemberCard ^
+If someone with this card[N]
 stops in a suspicious space...[X]
 
 
-##DSilverCard
-A special card that reduces
+##DSilverCard ^
+A special card that reduces[N]
 the cost of all items by half.[X]
 
 
-##DWhiteGem
-A valuable gemstone worth
+##DWhiteGem ^
+A valuable gemstone worth[N]
 10,000 gold.[X]
 
 
-##DBlueGem
-A rare gemstone worth
+##DBlueGem ^
+A rare gemstone worth[N]
 5,000 gold.[X]
 
 
-##DRedGem
-An uncommon gemstone
+##DRedGem ^
+An uncommon gemstone[N]
 worth 2,500 gold.[X]
 
 
-##DGold
+##DGold ^
 A bag full of money.[X]
 
 
-##DReginleif
-Effective against cavalry 
+##DReginleif ^
+Effective against cavalry[N]
 and armored units.[X]
 
 
-##DChestKey
+##DChestKey ^
 Opens chests.[X]
 
 
-##DMine
+##DMine ^
 [X]
 
 
-##DLightRune
+##DLightRune ^
 [X]
 
 
-##DHoplonGuard
-A device that negates
+##DHoplonGuard ^
+A device that negates[N]
 enemy critical attacks.[X]
 
 
-##DFillaMight
+##DFillaMight ^
 [X]
 
 
-##DNinisGrace
+##DNinisGrace ^
 [X]
 
 
-##DThorIre
+##DThorIre ^
 [X]
 
 
-##DSetLitany
+##DSetLitany ^
 [X]
 
 
-##DBragiSword
+##DBragiSword ^
 Sword made to pierce darkness.[X]
 
 
-##DHeroicLance
-Can strike consecutively.
+##DHeroicLance ^
+Can strike consecutively.[N]
 Lck+10.[X]
 
 
-##DSeaAxe
+##DSeaAxe ^
 Can only be used by pirates.[X]
 
 
-##DMagicBow
+##DMagicBow ^
 Deals magic damage[X]
 
 
-##DTyrfing
-Baldr's Legendary Blade. 
+##DTyrfing ^
+Baldr's Legendary Blade.[N]
 Skl+10 Spd+10 Res+10.[X]
 
 
-##DBattleAxe
+##DBattleAxe ^
 Strong, but difficult to wield.[X]
 
 
-##DNaga
-Heim's Legendary Tome. 
+##DNaga ^
+Heim's Legendary Tome.[N]
 Skl+20 Spd+20 Def+20 Res+20.[X]
 
 
-##DMasterSeal
-For some units Lv. 10 and up
+##DMasterSeal ^
+For some units Lv. 10 and up[N]
 who have not changed class.[X]
 
 
-##DMetisTome
-Gives a little treat to the
+##DMetisTome ^
+Gives a little treat to the[N]
 unit that uses it.[X]
 
 
-##DHeavenSeal
+##DHeavenSeal ^
 [X]
 
 
-##DForseti
-Ced's Legendary Tome. 
+##DForseti ^
+Ced's Legendary Tome.[N]
 Skl+10 Spd+20.[X]
 
 
-##DValkyrie
-Bragi's Legendary Staff.
+##DValkyrie ^
+Bragi's Legendary Staff.[N]
 Revives a fallen ally.[X]
 
 
-##DFlycatcher
+##DFlycatcher ^
 Effective against flying units.[X]
 
 
-##DGungnir
-Dainn's Legendary Lance. 
+##DGungnir ^
+Dainn's Legendary Lance.[N]
 Str+10 Spd+10 Def+10.[X]
 
 
-##DLoptous
-Gair's Legendary Tome.
-Reduces enemy's attacks by half.
-Res+5.[X]
+##DLoptous ^
+Gair's Legendary Tome. Res+5.[N]
+Reduces enemy's attacks by half.[X]
 
 
-##DWretchedAir
-The breath of a dragon corpse.
+##DWretchedAir ^
+The breath of a dragon corpse.[N]
 It decays everything it touches. [X]
 
 
-##DMystletainn
-Hodr's Legendary Sword. 
+##DMystletainn ^
+Hodr's Legendary Sword.[N]
 Skl+10 Res+20.[X]
 
 
-##DGaeBolg
-Njorun's Legendary Spear. 
+##DGaeBolg ^
+Njorun's Legendary Spear.[N]
 Str+10 Skl+10 Def+10.[X]
 
 
-##DHelswath
-Nal's Legendary Axe. 
+##DHelswath ^
+Nal's Legendary Axe.[N] 
 Def+20 Res+10.[X]
 
 
-##DYewfelle
-Ullr's Legendary Bow. 
+##DYewfelle ^
+Ullr's Legendary Bow.[N]
 Str+10 Skl+10 Spd+10.[X]
 
 
-##DHeavySpear
+##DHeavySpear ^
 Effective against armored units.[X]
 
 
-##DShortSpear
+##DShortSpear ^
 Doubles as ranged attack.[X]
 
 
-##DOceanSeal
-For use by thieves and
+##DOceanSeal ^
+For use by thieves and[N]
 pirates Lv. 10 and up.[X]
 
 
-##DLunarBrace
-For use by Eirika,
+##DLunarBrace ^
+For use by Eirika,[N]
 princess of Renais.[X]
 
 
-##DSolarBrace
-For use by Ephraim,
+##DSolarBrace ^
+For use by Ephraim,[N]
 prince of Renais.[X]
 
 
-##D1G
+##D1G ^
 A bag full of money.[X]
 
 
-##D5G
+##D5G ^
 A bag full of money.[X]
 
 
-##D10G
+##D10G ^
 A bag full of money.[X]
 
 
-##D50G
+##D50G ^
 A bag full of money.[X]
 
 
-##D100G
+##D100G ^
 A bag full of money.[X]
 
 
-##D3000G
+##D3000G ^
 A bag full of money.[X]
 
 
-##D5000G
+##D5000G ^
 A bag full of money.[X]
 
 
-##DDance
-A dance that allows
+##DDance ^
+A dance that allows[N]
 allies to move again.[X]
 
 
-##DNightmare
-Lulls all enemies within range
+##DNightmare ^
+Lulls all enemies within range[N]
 into a deep slumber.[X]
 
 
-##DDemonStone
+##DDemonStone ^
 [X]
 
 
-##DDemonLight
-A malefic flash that destroys
+##DDemonLight ^
+A malefic flash that destroys[N]
 everything it touches.[X]
 
 
-##DRavager
-A horrific blow that invites
+##DRavager ^
+A horrific blow that invites[N]
 the destruction of all.[X]
 
 
-##DDragonstone
-A stone imbued with mysterious might.
+##DDragonstone ^
+A stone imbued with mysterious might.[N]
 Myrrh draws strength from it.[X]
 
 
-##DDemonSurge
+##DDemonSurge ^
 [X]
 
 
-##DGreatArch
+##DGreatArch ^
 [X]
 
 
-##DFalchion
+##DFalchion ^
 Divine regalia forged by Naga.[X]
 
 
-##DStarlight
-Nullifies the attack-sealing effect of Imhullu.[X]
+##DStarlight ^
+Nullifies the attack-sealing[N]
+effect of Imhullu.[X]
 
 
-##DImhullu
+##DImhullu ^
 Seals non-Starlight enemy attacks.[X]
 
 
-##DLethalTalon
+##DLethalTalon ^
 A claw slathered in deadly poison.[X]
 
 
-##DFieryFang
+##DFieryFang ^
 A sharp, piercing fang.[X]
 
 
-##DHellfang
+##DHellfang ^
 A long, daggerlike fang.[X]
 
 
-##DPoison
+##DPoison ^
 Inflicts Poison upon damage.[X]
 
 
-##DPetrify
-Malefic Tome that turns enemies 
+##DPetrify ^
+Malefic Tome that turns enemies[N]
 into stone statues.[X]
 
 
-##DStone
+##DStone ^
 Turns targets to stone for a while.[X]
 
 
-##DAircalibur
+##DAircalibur ^
 [X]
 
 
-##DJunaFruit
-Give this to a worthy unit
+##DJunaFruit ^
+Give this to a worthy unit[N]
 and see what happens.[X]
 
 
-##D150G
+##D150G ^
 A bag full of money.[X]
 
 
-##D200G
+##D200G ^
 A bag full of money.[X]
 
 
-##DBlackGem
-A valuable gemstone worth
+##DBlackGem ^
+A valuable gemstone worth[N]
 15,000 gold.[X]
 
 
-##DGoldGem
-A valuable gemstone worth
+##DGoldGem ^
+A valuable gemstone worth[N]
 20,000 gold.[X]
 
 
-##DMasterSword
+##DMasterSword ^
 Can strike consecutively.[X]
 
 
-##DMasterLance
-Can strike consecutively.
+##DMasterLance ^
+Can strike consecutively.[N]
 Doubles as ranged attack.[X]
 
 
-##DMasterAxe
-Can strike consecutively.
+##DMasterAxe ^
+Can strike consecutively.[N]
 Doubles as ranged attack.[X]
 
 
-##DMasterBow
+##DMasterBow ^
 Can strike consecutively.[X]
 
 
-##DDurandal
+##DDurandal ^
 Blazing sword from another world.[X]
 
 
-##DDarknessLance
-Grants Nihil when wielded.
+##DDarknessLance ^
+Grants Nihil when wielded.[N]
 Doubles as ranged attack.[X]
 
 
-##DThorHammer
+##DThorHammer ^
 Grants Wrath when wielded.[X]
 
 
-##DGalerider
+##DGalerider ^
 Weapon used by a certain "Cassius".[X]
 
 
-##DBiracleSword
-Used by a fabulous person.
+##DBiracleSword ^
+Used by a fabulous person.[N]
 Effective against male units.[X]
 
 
-##DToaBlade
+##DToaBlade ^
 Named after an untold hero.[X]
 
 
-##DAndorAxe
+##DAndorAxe ^
 Named after an untold hero.[X]
 
 
-##DFleursDuMal
+##DFleursDuMal ^
 Foreign anthology.[X]
 
 
-##DMaera
-Dark Tome named after a 
+##DMaera ^
+Dark Tome named after a[N]
 Loptyr savior.[X]
 
 
-##D0xc9
+##D0xc9 ^
 [X]
 
 
-##D0xca
+##D0xca ^
 [X]
 
 
-##D0xcb
+##D0xcb ^
 [X]
 
 
-##D0xcc
+##D0xcc ^
 [X]
 
 
-##D0xcd
+##D0xcd ^
 [X]
 
 
-##D0xce
+##D0xce ^
 [X]
 
 
-##D0xcf
+##D0xcf ^
 [X]
 
 
-##DLifeRing
+##DLifeRing ^
 Heals a few HP every turn.[X]
 
 
-##DParagonRing
+##DParagonRing ^
 Doubles experience gained.[X]
 
 
-##DThiefRing
+##DThiefRing ^
 Grants unit the ability to steal items.[X]
 
 
-##DMiracleRing
+##DMiracleRing ^
 Raises avoid when unit's HP is low.[X]
 
 
-##DFollowUpRing
+##DFollowUpRing ^
 Allows unit to perform double attacks.[X]
 
 
-##DBargainRing
+##DBargainRing ^
 Reduces the cost of all items by half.[X]
 
 
-##DKnightRing
-Allows the user to move again and 
+##DKnightRing ^
+Allows the user to move again and [N]
 use up any leftover movement distance.[X]
 
 
-##DRescueRing
+##DRescueRing ^
 When used, returns user to the castle.[X]
 
 
-##DRecoverRing
+##DRecoverRing ^
 Restores all HP every turn.[X]
 
 
-##DCirclet
+##DCirclet ^
 Grants Miracle and Renewal.[X]
 
 
-##DDireThunder
+##DDireThunder ^
 Can strike consecutively.[X]
 
 
-##DKingSword
-Can strike consecutively.
+##DKingSword ^
+Can strike consecutively.[N]
 Grants Charisma.[X]
 
 
-##DLoptrSword
-Reduces enemy's attacks by half.
+##DLoptrSword ^
+Reduces enemy's attacks by half.[N]
 Res+20.[X]
 
 
-##DBeoSword
+##DBeoSword ^
 The user always strikes first.[X]
 
 
-##DArdenBlade
-Can strike consecutively.
+##DArdenBlade ^
+Can strike consecutively.[N]
 Spd-5.[X]
 
 
-##DSalamander
+##DSalamander ^
 [X]
 
 
-##DAwaken
+##DAwaken ^
 [X]
 
 
-##DGrafcalibur
+##DGrafcalibur ^
 Effective against flying units.[X]
 
 
-##DFire
+##DFire ^
 [X]
 
 
-##DElfire
+##DElfire ^
 [X]
 
 
-##DBolganone
+##DBolganone ^
 [X]
 
 
-##DMeteor
+##DMeteor ^
 Long-range fire attack.[X]
 
 
-##DThunder
+##DThunder ^
 [X]
 
 
-##DElthunder
+##DElthunder ^
 [X]
 
 
-##DThoron
+##DThoron ^
 [X]
 
 
-##DBolting
+##DBolting ^
 Long-range thunder attack.[X]
 
 
-##DWind
+##DWind ^
 [X]
 
 
-##DTornado
+##DTornado ^
 [X]
 
 
-##DBlizzard
+##DBlizzard ^
 Long-range wind attack.[X]
 
 
-##D0xee
+##D0xee ^
 [X]
 
 
-##DSleepSword
-Puts enemies to sleep for
+##DSleepSword ^
+Puts enemies to sleep for[N]
 several turns.[X]
 
 
-##DSilenceSword
-Halts all enemy magic
+##DSilenceSword ^
+Halts all enemy magic[N]
 for several turns.[X]
 
 
-##DBerserkSword
-Sends enemies into a
+##DBerserkSword ^
+Sends enemies into a[N]
 berserker rage.[X]
 
 
-##DMiracleSword
+##DMiracleSword ^
 Raises avoid when unit's HP is low.[X]
 
 
-##DThiefSword
+##DThiefSword ^
 Grants unit the ability to steal items.[X]
 
 
-##DSafeguard
+##DSafeguard ^
 Def+7.[X]
 
 
-##DBarrierBlade
+##DBarrierBlade ^
 Res+7.[X]
 
 
-##DFlameSword
+##DFlameSword ^
 Uses Fire as ranged attacks.[X]
 
 
-##DThunderSword
+##DThunderSword ^
 Uses Thunder as ranged attacks.[X]
 
 
-##DWindSword
+##DWindSword ^
 Uses Wind as ranged attacks.[X]
 
 
-##D0xf9
+##D0xf9 ^
 [X]
 
 
-##DCharmStaff
-Grants Charisma to an 
+##DCharmStaff ^
+Grants Charisma to an[N]
 ally for a few turns.[X]
 
 
-##DThiefStaff
-Allows the user to steal a single 
+##DThiefStaff ^
+Allows the user to steal a single[N]
 item from a target's inventory.[X]
 
 
-##D0xfc
+##D0xfc ^
 [X]
 
 
-##D0xfd
+##D0xfd ^
 [X]
 
 
-##D0xfe
+##D0xfe ^
 [X]
