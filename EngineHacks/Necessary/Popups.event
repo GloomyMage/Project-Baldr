@@ -33,6 +33,8 @@ gPromotionPopupTable:
 	PopRBattlePopup(PopR_InitAnimaRankNew, gPopup_PopR_NewWType, 96)
 	PopRBattlePopup(PopR_InitLightRankNew, gPopup_PopR_NewWType, 96)
 	PopRBattlePopup(PopR_InitElderRankNew, gPopup_PopR_NewWType, 96)
+	PopRBattlePopup(PopR_InitWindRankNew, gPopup_PopR_NewWType, 96)
+	PopRBattlePopup(PopR_InitThunderRankNew, gPopup_PopR_NewWType, 96)
 
 	// Skill system
 	PopRBattlePopup(InitPromotionSkillPopup|1, SkillLearnedPopup, 96)
