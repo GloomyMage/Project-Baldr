@@ -1,1013 +1,1007 @@
-##UIronSword
+##UIronSword ^
 [X]
 
-##USlimSword
+##USlimSword ^
 [X]
 
 
-##USteelSword
+##USteelSword ^
 [X]
 
 
-##USilverSword
+##USilverSword ^
 [X]
 
 
-##UIronBlade
+##UIronBlade ^
 [X]
 
 
-##USteelBlade
+##USteelBlade ^
 [X]
 
 
-##USilverBlade
+##USilverBlade ^
 [X]
 
 
-##UPoisonSword
+##UPoisonSword ^
 [X]
 
 
-##URapier
+##URapier ^
 [X]
 
 
-##UBalmung
+##UBalmung ^
 [X]
 
 
-##UBraveSword
+##UBraveSword ^
 [X]
 
 
-##UBaldung
+##UBaldung ^
 [X]
 
 
-##UKillingEdge
+##UKillingEdge ^
 [X]
 
 
-##UArmorslayer
+##UArmorslayer ^
 [X]
 
 
-##UWingClipper
+##UWingClipper ^
 [X]
 
 
-##ULightBrand
+##ULightBrand ^
 [X]
 
 
-##ULandsSword
+##ULandsSword ^
 [X]
 
 
-##ULancereaver
+##ULancereaver ^
 [X]
 
 
-##UZanbato
+##UZanbato ^
 [X]
 
 
-##UIronLance
+##UIronLance ^
 [X]
 
 
-##USlimLance
+##USlimLance ^
 [X]
 
 
-##USteelLance
+##USteelLance ^
 [X]
 
 
-##USilverLance
+##USilverLance ^
 [X]
 
 
-##UToxinLance
+##UToxinLance ^
 [X]
 
 
-##UBraveLance
+##UBraveLance ^
 [X]
 
 
-##UKillerLance
+##UKillerLance ^
 [X]
 
 
-##UHorseslayer
+##UHorseslayer ^
 [X]
 
 
-##UJavelin
+##UJavelin ^
 [X]
 
 
-##USpear
+##USpear ^
 [X]
 
 
-##UAxereaver
+##UAxereaver ^
 [X]
 
 
-##UIronAxe
+##UIronAxe ^
 [X]
 
 
-##USteelAxe
+##USteelAxe ^
 [X]
 
 
-##USilverAxe
+##USilverAxe ^
 [X]
 
 
-##UPoisonAxe
+##UPoisonAxe ^
 [X]
 
 
-##UBraveAxe
+##UBraveAxe ^
 [X]
 
 
-##UKillerAxe
+##UKillerAxe ^
 [X]
 
 
-##UHalberd
+##UHalberd ^
 [X]
 
 
-##UHammer
+##UHammer ^
 [X]
 
 
-##UDevilAxe
+##UDevilAxe ^
 [X]
 
 
-##UHandAxe
+##UHandAxe ^
 [X]
 
 
-##UTomahawk
+##UTomahawk ^
 [X]
 
 
-##USwordreaver
+##USwordreaver ^
 [X]
 
 
-##USwordslayer
+##USwordslayer ^
 [X]
 
 
-##UHatchet
+##UHatchet ^
 [X]
 
 
-##UIronBow
+##UIronBow ^
 [X]
 
 
-##USteelBow
+##USteelBow ^
 [X]
 
 
-##USilverBow
+##USilverBow ^
 [X]
 
 
-##UPoisonBow
+##UPoisonBow ^
 [X]
 
 
-##UKillerBow
+##UKillerBow ^
 [X]
 
 
-##UBraveBow
+##UBraveBow ^
 [X]
 
 
-##UShortBow
+##UShortBow ^
 [X]
 
 
-##ULongbow
+##ULongbow ^
 [X]
 
 
-##UBallista
+##UBallista ^
 [X]
 
 
-##UIronBallista
+##UIronBallista ^
 [X]
 
 
-##UKillerBallista
+##UKillerBallista ^
 [X]
 
 
-##UGreatBallista
+##UGreatBallista ^
 [X]
 
 
-##UMercurius
+##UMercurius ^
 [X]
 
 
-##UGradivus
+##UGradivus ^
 [X]
 
 
-##UHauteclere
+##UHauteclere ^
 [X]
 
 
-##UParthia
+##UParthia ^
 [X]
 
 
-##UValflame
+##UValflame ^
 [X]
 
 
-##ULightning
+##ULightning ^
 [X]
 
 
-##UShine
+##UShine ^
 [X]
 
 
-##UResire
+##UResire ^
 [X]
 
 
-##UPurge
+##UPurge ^
 [X]
 
 
-##UAura
+##UAura ^
 [X]
 
 
-##UMjolnir
+##UMjolnir ^
 [X]
 
 
-##UJorgumandr
+##UJorgumandr ^
 [X]
 
 
-##ULuna
+##ULuna ^
 [X]
 
 
-##UNosferatu
+##UNosferatu ^
 [X]
 
 
-##UHel
+##UHel ^
 [X]
 
 
-##UFenrir
+##UFenrir ^
 [X]
 
 
-##UErra
+##UErra ^
 [X]
 
 
-##UHeal
+##UHeal ^
 Restores some HP.[X]
 
 
-##UMend
+##UMend ^
 Restores more HP.[X]
 
 
-##URecover
+##URecover ^
 Restores all HP.[X]
 
 
-##UPhysic
-Restores HP to
+##UPhysic ^
+Restores HP to[N]
 distant allies.[X]
 
 
-##UFortify
-Restores HP to all
+##UFortify ^
+Restores HP to all[N]
 allies in one area.[X]
 
 
-##URestore
-Restores allies to
+##URestore ^
+Restores allies to[N]
 normal status.[X]
 
 
-##USilence
+##USilence ^
 Blocks enemy magic.[X]
 
 
-##USleep
+##USleep ^
 Puts enemies to sleep.[X]
 
-##UBerserk
-Drives enemies to
-attack wildly in a
-frenzy of rage.[X]
+##UBerserk ^
+Drives enemies to attack[N]
+wildly in a frenzy of rage.[X]
 
 
-##UWarp
-Warps allies to
+##UWarp ^
+Warps allies to[N]
 other spaces.[X]
 
 
-##URescue
-Warps allies to a
-space adjacent to
-the staff wielder.[X]
+##URescue ^
+Warps allies to a space adjacent[N]
+to the staff wielder.[X]
 
 
-##UTorch
+##UTorch ^
 Lights up an area.[X]
 
 
-##UHammerne
-Restores items to
+##UHammerne ^
+Restores items to[N]
 new condition.[X]
 
 
-##UUnlock
+##UUnlock ^
 Opens doors.[X]
 
 
-##UBarrier
+##UBarrier ^
 Raises resistance.[X]
 
 
-##UVolantAxe
+##UVolantAxe ^
 [X]
 
 
-##UStrengthRing
+##UStrengthRing ^
 [X]
 
 
-##UMagicRing
+##UMagicRing ^
 [X]
 
 
-##USkillRing
+##USkillRing ^
 [X]
 
 
-##USpeedRing
+##USpeedRing ^
 [X]
 
 
-##ULuckRing
+##ULuckRing ^
 [X]
 
 
-##UDefenseRing
+##UDefenseRing ^
 [X]
 
 
-##UResistanceRing
+##UResistanceRing ^
 [X]
 
 
-##ULegRing
+##ULegRing ^
 [X]
 
 
-##UBodyRing
+##UBodyRing ^
 [X]
 
 
-##UHeroCrest
-Use this on a worthy
-mercenary, fighter,
-or myrmidon.[X]
+##UHeroCrest ^
+Use this on a worthy mercenary,[N]
+fighter, or myrmidon.[X]
 
 
-##UKnightCrest
-Use this on a worthy
+##UKnightCrest ^
+Use this on a worthy[N]
 cavalier or knight.[X]
 
 
-##UOrionBolt
-Use this on a worthy
+##UOrionBolt ^
+Use this on a worthy[N]
 archer.[X]
 
 
-##UElysianWhip
-Use this on a worthy
-master of a winged
-mount.[X]
+##UElysianWhip ^
+Use this on a worthy[N]
+master of a winged mount.[X]
 
 
-##UGuidingRing
-Use this on a worthy
-wielder of magic
-power and staves.[X]
+##UGuidingRing ^
+Use this on a worthy wielder[N]
+of magic power and staves.[X]
 
 
-##UChestKey
+##UChestKey[N]
 Opens chests.[X]
 
 
-##UDoorKey
+##UDoorKey ^
 Opens doors.[X]
 
 
-##ULockpick
-Universal lockpicks
+##ULockpick ^
+Universal lockpicks[N]
 designed for thieves.[X]
 
-##UVulnerary
+##UVulnerary ^
 Restores some HP.[X]
 
 
-##UElixir
+##UElixir ^
 Restores all HP.[X]
 
 
-##UPureWater
-Reduces damage
+##UPureWater ^
+Reduces damage[N]
 from magic attacks.[X]
 
 
-##UAntitoxin
+##UAntitoxin ^
 Cures poison.[X]
 
 
-##UFilliShield
-Protects airborne
+##UFilliShield ^
+Protects airborne[N]
 units from bows.[X]
 
 
-##UMemberCard
-Grants access to
+##UMemberCard ^
+Grants access to[N]
 secret shops.[X]
 
 
-##USilverCard
-Reduces the cost
+##USilverCard ^
+Reduces the cost[N]
 of items.[X]
 
 
-##UWhiteGem
+##UWhiteGem ^
 [X]
 
 
-##UBlueGem
+##UBlueGem ^
 [X]
 
 
-##URedGem
+##URedGem ^
 [X]
 
 
-##UGold
+##UGold ^
 [X]
 
 
-##UReginleif
+##UReginleif ^
 [X]
 
 
-##UMine
+##UMine ^
 [X]
 
 
-##ULightRune
+##ULightRune ^
 [X]
 
 
-##UHoplonGuard
-Negates enemies'
+##UHoplonGuard ^
+Negates enemies'[N]
 critical attacks.[X]
 
 
-##UFillaMight
+##UFillaMight ^
 [X]
 
 
-##UNinisGrace
+##UNinisGrace ^
 [X]
 
 
-##UThorIre
+##UThorIre ^
 [X]
 
 
-##USetLitany
+##USetLitany ^
 [X]
 
 
-##UBragiSword
+##UBragiSword ^
 [X]
 
 
-##UHeroicLance
+##UHeroicLance ^
 [X]
 
 
-##USeaAxe
+##USeaAxe ^
 [X]
 
 
-##UMagicBow
+##UMagicBow ^
 [X]
 
 
-##UTyrfing
+##UTyrfing ^
 [X]
 
 
-##UBattleAxe
+##UBattleAxe ^
 [X]
 
 
-##UNaga
+##UNaga ^
 [X]
 
 
-##UMasterSeal
-Use this on a unit Lv.
-10 and up who has
-yet to change class.[X]
+##UMasterSeal ^
+Use this on a unit Lv.10 and[N]
+up who has yet to change class.[X]
 
 
-##UMetisTome
-Give this to a
+##UMetisTome ^
+Give this to a[N]
 unit you like.[X]
 
 
-##UHeavenSeal
+##UHeavenSeal ^
 [X]
 
 
-##UForseti
+##UForseti ^
 [X]
 
 
-##UValkyrie
+##UValkyrie ^
 Revives a dead unit.[X]
 
 
-##UFlycatcher
+##UFlycatcher ^
 [X]
 
 
-##UGungnir
+##UGungnir ^
 [X]
 
 
-##ULoptous
+##ULoptous ^
 [X]
 
 
-##UWretchedAir
+##UWretchedAir ^
 Draco Zombie only.[X]
 
 
-##UMystletainn
+##UMystletainn ^
 [X]
 
 
-##UGaeBolg
+##UGaeBolg ^
 [X]
 
 
-##UHelswath
+##UHelswath ^
 [X]
 
 
-##UYewfelle
+##UYewfelle ^
 [X]
 
 
-##UHeavySpear
+##UHeavySpear ^
 [X]
 
 
-##UShortSpear
+##UShortSpear ^
 [X]
 
 
-##UOceanSeal
-Use this on a worthy
+##UOceanSeal ^
+Use this on a worthy[N]
 thief or pirate.[X]
 
 
-##ULunarBrace
-Have Eirika use this
+##ULunarBrace ^
+Have Eirika use this[N]
 when she's ready.[X]
 
 
-##USolarBrace
-Have Ephraim use this
+##USolarBrace ^
+Have Ephraim use this[N]
 when he's ready.[X]
 
 
-##U1G
+##U1G ^
 [X]
 
 
-##U5G
+##U5G ^
 [X]
 
 
-##U10G
+##U10G ^
 [X]
 
 
-##U50G
+##U50G ^
 [X]
 
 
-##U100G
+##U100G ^
 [X]
 
 
-##U3000G
+##U3000G ^
 [X]
 
 
-##U5000G
+##U5000G ^
 [X]
 
 
-##UWindSword
+##UWindSword ^
 [X]
 
 
-##UDance
-Allows allies
+##UDance ^
+Allows allies[N]
 to move again.[X]
 
 
-##UNightmare
+##UNightmare ^
 [X]
 
 
-##UDemonStone
+##UDemonStone ^
 Creatures only.[X]
 
 
-##UDemonLight
+##UDemonLight ^
 [X]
 
 
-##URavager
+##URavager ^
 [X]
 
 
-##UDragonstone
+##UDragonstone ^
 Manakete only.[X]
 
 
-##UDemonSurge
+##UDemonSurge ^
 [X]
 
 
-##UGreatArch
+##UGreatArch ^
 [X]
 
 
-##UFalchion
+##UFalchion ^
 [X]
 
 
-##UStarlight
+##UStarlight ^
 [X]
 
 
-##UImhullu
+##UImhullu ^
 [X]
 
 
-##ULethalTalon
+##ULethalTalon ^
 [X]
 
 
-##UFieryFang
+##UFieryFang ^
 [X]
 
 
-##UHellfang
+##UHellfang ^
 [X]
 
 
-##UPoison
+##UPoison ^
 [X]
 
 
-##UPetrify
+##UPetrify ^
 [X]
 
 
-##UStone
+##UStone ^
 [X]
 
 
-##UAircalibur
+##UAircalibur ^
 Use this, and...[X]
 
 
-##UJunaFruit
-[X]
+##UJunaFruit ^
+Use this, and...[X]
 
 
-##U150G
+##U150G ^
 [X]
 
 
-##U200G
+##U200G ^
 [X]
 
 
-##UBlackGem
+##UBlackGem ^
 [X]
 
 
-##UGoldGem
+##UGoldGem ^
 [X]
 
 
-##UMasterSword
+##UMasterSword ^
 [X]
 
 
-##UMasterLance
+##UMasterLance ^
 [X]
 
 
-##UMasterAxe
+##UMasterAxe ^
 [X]
 
 
-##UMasterBow
+##UMasterBow ^
 [X]
 
 
-##UDurandal
+##UDurandal ^
 [X]
 
 
-##UDarknessLance
+##UDarknessLance ^
 [X]
 
 
-##UThorHammer
+##UThorHammer ^
 [X]
 
 
-##UGalerider
+##UGalerider ^
 [X]
 
 
-##UBiracleSword
+##UBiracleSword ^
 [X]
 
 
-##UToaBlade
+##UToaBlade ^
 [X]
 
 
-##UAndorAxe
+##UAndorAxe ^
 [X]
 
 
-##UFleursDuMal
+##UFleursDuMal ^
 [X]
 
 
-##UMaera
+##UMaera ^
 [X]
 
 
-##U0xc9
+##U0xc9 ^
 [X]
 
 
-##U0xca
+##U0xca ^
 [X]
 
 
-##U0xcb
+##U0xcb ^
 [X]
 
 
-##U0xcc
+##U0xcc ^
 [X]
 
 
-##U0xcd
+##U0xcd ^
 [X]
 
 
-##U0xce
+##U0xce ^
 [X]
 
 
-##U0xcf
+##U0xcf ^
 [X]
 
 
-##ULifeRing
+##ULifeRing ^
 [X]
 
 
-##UParagonRing
+##UParagonRing ^
 [X]
 
 
-##UThiefRing
+##UThiefRing ^
 [X]
 
 
-##UMiracleRing
+##UMiracleRing ^
 [X]
 
 
-##UFollowUpRing
+##UFollowUpRing ^
 [X]
 
 
-##UBargainRing
+##UBargainRing ^
 [X]
 
 
-##UKnightRing
+##UKnightRing ^
 [X]
 
 
-##URescueRing
+##URescueRing ^
 [X]
 
 
-##URecoverRing
+##URecoverRing ^
 [X]
 
 
-##UCirclet
+##UCirclet ^
 [X]
 
 
-##UDireThunder
+##UDireThunder ^
 [X]
 
 
-##UKingSword
+##UKingSword ^
 [X]
 
 
-##ULoptrSword
+##ULoptrSword ^
 [X]
 
 
-##UBeoSword
+##UBeoSword ^
 [X]
 
 
-##UArdenBlade
+##UArdenBlade ^
 [X]
 
 
-##USalamander
+##USalamander ^
 [X]
 
 
-##UAwaken
+##UAwaken ^
 [X]
 
 
-##UGrafcalibur
+##UGrafcalibur ^
 [X]
 
 
-##UFire
+##UFire ^
 [X]
 
 
-##UElfire
+##UElfire ^
 [X]
 
 
-##UBolganone
+##UBolganone ^
 [X]
 
 
-##UMeteor
+##UMeteor ^
 [X]
 
 
-##UThunder
+##UThunder ^
 [X]
 
 
-##UElthunder
+##UElthunder ^
 [X]
 
 
-##UThoron
+##UThoron ^
 [X]
 
 
-##UBolting
+##UBolting ^
 [X]
 
 
-##UWind
+##UWind ^
 [X]
 
 
-##UElwind
+##UElwind ^
 [X]
 
 
-##UTornado
+##UTornado ^
 [X]
 
 
-##UBlizzard
+##UBlizzard ^
 [X]
 
 
-##U0xee
+##U0xee ^
 [X]
 
 
-##USleepSword
+##USleepSword ^
 [X]
 
 
-##USilenceSword
+##USilenceSword ^
 [X]
 
 
-##UBerserkSword
+##UBerserkSword ^
 [X]
 
 
-##UMiracleSword
+##UMiracleSword ^
 [X]
 
 
-##UThiefSword
+##UThiefSword ^
 [X]
 
 
-##USafeguard
+##USafeguard ^
 [X]
 
 
-##UBarrierBlade
+##UBarrierBlade ^
 [X]
 
 
-##UFlameSword
+##UFlameSword ^
 [X]
 
 
-##UThunderSword
+##UThunderSword ^
 [X]
 
 
-##U0xf9
+##U0xf9 ^
 [X]
 
 
-##UCharmStaff
+##UCharmStaff ^
 Grants Charisma.[X]
 
 
-##UThiefStaff
+##UThiefStaff ^
 Steals an item.[X]
 
 
-##U0xfc
+##U0xfc ^
 [X]
 
 
-##U0xfd
+##U0xfd ^
 [X]
 
 
-##U0xfe
+##U0xfe ^
 [X]
