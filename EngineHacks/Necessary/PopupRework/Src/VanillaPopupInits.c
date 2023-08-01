@@ -4,6 +4,32 @@ static int PopR_InitWRankNewCommon(unsigned wType) {
 	extern struct BattleUnit* gpUnitLeft_BattleStruct;
 	extern struct BattleUnit* gpUnitRight_BattleStruct;
 
+	if (wType == 15) {
+		// Check if had wrank before promotion
+		if (gpUnitRight_BattleStruct->unit.supportBits)
+			return FALSE;
+
+		// Check if has not wrank even after promotion
+		if (!gpUnitLeft_BattleStruct->unit.supportBits)
+			return FALSE;
+
+		SetPopupWType(wType);
+		return TRUE;		
+	}
+
+	if (wType == 25) {
+		// Check if had wrank before promotion
+		if (gpUnitRight_BattleStruct->unit.unk47)
+			return FALSE;
+
+		// Check if has not wrank even after promotion
+		if (!gpUnitLeft_BattleStruct->unit.unk47)
+			return FALSE;
+
+		SetPopupWType(wType);
+		return TRUE;		
+	}
+
 	// Check if had wrank before promotion
 	if (gpUnitRight_BattleStruct->unit.ranks[wType])
 		return FALSE;
@@ -29,6 +55,8 @@ POPR_INIT_WRANK_DECL(Staff, 4)
 POPR_INIT_WRANK_DECL(Anima, 5)
 POPR_INIT_WRANK_DECL(Light, 6)
 POPR_INIT_WRANK_DECL(Elder, 7)
+POPR_INIT_WRANK_DECL(Wind, 15)
+POPR_INIT_WRANK_DECL(Thunder, 25)
 
 #undef POPR_INIT_WRANK_DECL
 
