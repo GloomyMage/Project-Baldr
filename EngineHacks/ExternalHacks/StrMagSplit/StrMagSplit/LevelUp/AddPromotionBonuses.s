@@ -57,7 +57,7 @@ ldrb 	r3,[r1]
 add		r2,r4,r0
 ldrb 	r7,[r2]
 sub 	r7,r7,r3
-mov 	r3,#0x39
+mov 	r3,#0x3B
 ldrb 	r1,[r5,r3]
 add 	r7,r7,r1
 mov 	r0,#0xFB
