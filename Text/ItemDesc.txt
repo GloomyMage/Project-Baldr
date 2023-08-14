@@ -991,8 +991,8 @@ Long-range thunder attack.[X]
 Long-range wind attack.[X]
 
 
-##D0xee ^
-[X]
+##DSwordofLegend ^
+Can strike consecutively.[X]
 
 
 ##DSleepSword ^
