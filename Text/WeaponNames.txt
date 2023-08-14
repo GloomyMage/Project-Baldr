@@ -1,984 +1,984 @@
-##NIronSword
+##NIronSword ^
 Iron Sword[X]
 
-##NSlimSword
+##NSlimSword ^
 Slim Sword[X]
 
 
-##NSteelSword
+##NSteelSword ^
 Steel Sword[X]
 
 
-##NSilverSword
+##NSilverSword ^
 Silver Sword[X]
 
 
-##NIronBlade
+##NIronBlade ^
 Iron Blade[X]
 
 
-##NSteelBlade
+##NSteelBlade ^
 Steel Blade[X]
 
 
-##NSilverBlade
+##NSilverBlade ^
 Silver Blade[X]
 
 
-##NPoisonSword
+##NPoisonSword ^
 Poison Sword[X]
 
 
-##NRapier
+##NRapier ^
 Rapier[X]
 
 
-##NBalmung
+##NBalmung ^
 Balmung[X]
 
 
-##NBraveSword
+##NBraveSword ^
 Brave Sword[X]
 
 
-##NBaldung
+##NBaldung ^
 Baldung[X]
 
 
-##NKillingEdge
+##NKillingEdge ^
 Killing Edge[X]
 
 
-##NArmorslayer
+##NArmorslayer ^
 Armorslayer[X]
 
 
-##NWingClipper
+##NWingClipper ^
 Wing Clipper[X]
 
 
-##NLightBrand
+##NLightBrand ^
 Light Brand[X]
 
 
-##NLandsSword
+##NLandsSword ^
 Lands Sword[X]
 
 
-##NLancereaver
+##NLancereaver ^
 Lancereaver[X]
 
 
-##NZanbato
+##NZanbato ^
 Zanbato[X]
 
 
-##NIronLance
+##NIronLance ^
 Iron Lance[X]
 
 
-##NSlimLance
+##NSlimLance ^
 Slim Lance[X]
 
 
-##NSteelLance
+##NSteelLance ^
 Steel Lance[X]
 
 
-##NSilverLance
+##NSilverLance ^
 Silver Lance[X]
 
 
-##NToxinLance
+##NToxinLance ^
 Toxin Lance[X]
 
 
-##NBraveLance
+##NBraveLance ^
 Brave Lance[X]
 
 
-##NKillerLance
+##NKillerLance ^
 Killer Lance[X]
 
 
-##NHorseslayer
+##NHorseslayer ^
 Horseslayer[X]
 
 
-##NJavelin
+##NJavelin ^
 Javelin[X]
 
 
-##NSpear
+##NSpear ^
 Spear[X]
 
 
-##NAxereaver
+##NAxereaver ^
 Axereaver[X]
 
 
-##NIronAxe
+##NIronAxe ^
 Iron Axe[X]
 
 
-##NSteelAxe
+##NSteelAxe ^
 Steel Axe[X]
 
 
-##NSilverAxe
+##NSilverAxe ^
 Silver Axe[X]
 
 
-##NPoisonAxe
+##NPoisonAxe ^
 Poison Axe[X]
 
 
-##NBraveAxe
+##NBraveAxe ^
 Brave Axe[X]
 
 
-##NKillerAxe
+##NKillerAxe ^
 Killer Axe[X]
 
 
-##NHalberd
+##NHalberd ^
 Halberd[X]
 
 
-##NHammer
+##NHammer ^
 Hammer[X]
 
 
-##NDevilAxe
+##NDevilAxe ^
 Devil Axe[X]
 
 
-##NHandAxe
+##NHandAxe ^
 Hand Axe[X]
 
 
-##NTomahawk
+##NTomahawk ^
 Tomahawk[X]
 
 
-##NSwordreaver
+##NSwordreaver ^
 Swordreaver[X]
 
 
-##NSwordslayer
+##NSwordslayer ^
 Swordslayer[X]
 
 
-##NHatchet
+##NHatchet ^
 Hatchet[X]
 
 
-##NIronBow
+##NIronBow ^
 Iron Bow[X]
 
 
-##NSteelBow
+##NSteelBow ^
 Steel Bow[X]
 
 
-##NSilverBow
+##NSilverBow ^
 Silver Bow[X]
 
 
-##NPoisonBow
+##NPoisonBow ^
 Poison Bow[X]
 
 
-##NKillerBow
+##NKillerBow ^
 Killer Bow[X]
 
 
-##NBraveBow
+##NBraveBow ^
 Brave Bow[X]
 
 
-##NShortBow
+##NShortBow ^
 Short Bow[X]
 
 
-##NLongbow
+##NLongbow ^
 Longbow[X]
 
 
-##NBallista
+##NBallista ^
 Ballista[X]
 
 
-##NIronBallista
+##NIronBallista ^
 Iron Ballista[X]
 
 
-##NKillerBallista
+##NKillerBallista ^
 Killer Ballista[X]
 
 
-##NGreatBallista
+##NGreatBallista ^
 Great Ballista[X]
 
 
-##NMercurius
+##NMercurius ^
 Mercurius[X]
 
 
-##NGradivus
+##NGradivus ^
 Gradivus[X]
 
 
-##NHauteclere
+##NHauteclere ^
 Hauteclere[X]
 
 
-##NParthia
+##NParthia ^
 Parthia[X]
 
 
-##NValflame
+##NValflame ^
 Valflame[X]
 
 
-##NElwind
+##NElwind ^
 Elwind[X]
 
 
-##NLightning
+##NLightning ^
 Lightning[X]
 
 
-##NShine
+##NShine ^
 Shine[X]
 
 
-##NResire
+##NResire ^
 Resire[X]
 
 
-##NPurge
+##NPurge ^
 Purge[X]
 
 
-##NAura
+##NAura ^
 Aura[X]
 
 
-##NMjolnir
+##NMjolnir ^
 Mjolnir[X]
 
 
-##NJorgumandr
+##NJorgumandr ^
 Jorgumandr[X]
 
 
-##NLuna
+##NLuna ^
 Luna[X]
 
 
-##NNosferatu
+##NNosferatu ^
 Nosferatu[X]
 
 
-##NHel
+##NHel ^
 Hel[X]
 
 
-##NFenrir
+##NFenrir ^
 Fenrir[X]
 
 
-##NErra
+##NErra ^
 Erra[X]
 
 
-##NHeal
+##NHeal ^
 Heal[X]
 
 
-##NMend
+##NMend ^
 Mend[X]
 
 
-##NRecover
+##NRecover ^
 Recover[X]
 
 
-##NPhysic
+##NPhysic ^
 Physic[X]
 
 
-##NFortify
+##NFortify ^
 Fortify[X]
 
 
-##NRestore
+##NRestore ^
 Restore[X]
 
 
-##NSilence
+##NSilence ^
 Silence[X]
 
 
-##NSleep
+##NSleep ^
 Sleep[X]
 
-##NBerserk
+##NBerserk ^
 Berserk[X]
 
 
-##NWarp
+##NWarp ^
 Warp[X]
 
 
-##NRescue
+##NRescue ^
 Rescue[X]
 
 
-##NTorch
+##NTorch ^
 Torch[X]
 
 
-##NHammerne
+##NHammerne ^
 Hammerne[X]
 
 
-##NUnlock
+##NUnlock ^
 Unlock[X]
 
 
-##NBarrier
+##NBarrier ^
 Barrier[X]
 
 
-##NVolantAxe
+##NVolantAxe ^
 Volant Axe[X]
 
 
-##NStrengthRing
+##NStrengthRing ^
 Strength Ring[X]
 
 
-##NMagicRing
+##NMagicRing ^
 Magic Ring[X]
 
 
-##NSkillRing
+##NSkillRing ^
 Skill Ring[X]
 
 
-##NSpeedRing
+##NSpeedRing ^
 Speed Ring[X]
 
 
-##NLuckRing
+##NLuckRing ^
 Luck Ring[X]
 
 
-##NDefenseRing
+##NDefenseRing ^
 Defense Ring[X]
 
 
-##NResistanceRing
+##NResistanceRing ^
 Resistance Ring[X]
 
 
-##NLegRing
+##NLegRing ^
 Leg Ring[X]
 
 
-##NBodyRing
+##NBodyRing ^
 Body Ring[X]
 
 
-##NHeroCrest
+##NHeroCrest ^
 Hero Crest[X]
 
 
-##NKnightCrest
+##NKnightCrest ^
 Knight Crest[X]
 
 
-##NOrionBolt
+##NOrionBolt ^
 Orion Bolt[X]
 
 
-##NElysianWhip
+##NElysianWhip ^
 Elysian Whip[X]
 
 
-##NGuidingRing
+##NGuidingRing ^
 Guiding Ring[X]
 
 
-##NDoorKey
+##NDoorKey ^
 Door Key[X]
 
 
-##NLockpick
+##NLockpick ^
 Lockpick[X]
 
 
-##NVulnerary
+##NVulnerary ^
 Vulnerary[X]
 
 
-##NElixir
+##NElixir ^
 Elixir[X]
 
 
-##NPureWater
+##NPureWater ^
 Pure Water[X]
 
 
-##NAntitoxin
+##NAntitoxin ^
 Antitoxin[X]
 
 
-##NFilliShield
+##NFilliShield ^
 Filli Shield[X]
 
 
-##NMemberCard
+##NMemberCard ^
 Member Card[X]
 
 
-##NSilverCard
+##NSilverCard ^
 Silver Card[X]
 
 
-##NWhiteGem
+##NWhiteGem ^
 White Gem[X]
 
 
-##NBlueGem
+##NBlueGem ^
 Blue Gem[X]
 
 
-##NRedGem
+##NRedGem ^
 Red Gem[X]
 
 
-##NGold
+##NGold ^
 Gold[X]
 
 
-##NReginleif
+##NReginleif ^
 Reginleif[X]
 
 
-##NChestKey
+##NChestKey ^
 Chest Key[X]
 
 
-##NMine
+##NMine ^
 Mine[X]
 
 
-##NLightRune
+##NLightRune ^
 Light Rune[X]
 
 
-##NHoplonGuard
+##NHoplonGuard ^
 Hoplon Guard[X]
 
 
-##NFillaMight
+##NFillaMight ^
 Filla's Might[X]
 
 
-##NNinisGrace
+##NNinisGrace ^
 Ninis's Grace[X]
 
 
-##NThorIre
+##NThorIre ^
 Thor's Ire[X]
 
 
-##NSetLitany
+##NSetLitany ^
 Set's Litany[X]
 
 
-##NBragiSword
+##NBragiSword ^
 Bragi Sword[X]
 
 
-##NHeroicLance
+##NHeroicLance ^
 Heroic Lance[X]
 
 
-##NSeaAxe
+##NSeaAxe ^
 Sea Axe[X]
 
 
-##NMagicBow
+##NMagicBow ^
 Magic Bow[X]
 
 
-##NTyrfing
+##NTyrfing ^
 Tyrfing[X]
 
 
-##NBattleAxe
+##NBattleAxe ^
 Battle Axe[X]
 
 
-##NNaga
+##NNaga ^
 Naga[X]
 
 
-##NMasterSeal
+##NMasterSeal ^
 Master Seal[X]
 
 
-##NMetisTome
+##NMetisTome ^
 Metis's Tome[X]
 
 
-##NHeavenSeal
+##NHeavenSeal ^
 Heaven Seal[X]
 
 
-##NForseti
+##NForseti ^
 Forseti[X]
 
 
-##NValkyrie
+##NValkyrie ^
 Valkyrie[X]
 
 
-##NFlycatcher
+##NFlycatcher ^
 Flycatcher[X]
 
 
-##NGungnir
+##NGungnir ^
 Gungnir[X]
 
 
-##NLoptous
+##NLoptous ^
 Loptous[X]
 
 
-##NWretchedAir
+##NWretchedAir ^
 Wretched Air[X]
 
 
-##NMystletainn
+##NMystletainn ^
 Mystletainn[X]
 
 
-##NGaeBolg
+##NGaeBolg ^
 Gae Bolg[X]
 
 
-##NHelswath
+##NHelswath ^
 Helswath[X]
 
 
-##NYewfelle
+##NYewfelle ^
 Yewfelle[X]
 
 
-##NHeavySpear
+##NHeavySpear ^
 Heavy Spear[X]
 
 
-##NShortSpear
+##NShortSpear ^
 Short Spear[X]
 
 
-##NOceanSeal
+##NOceanSeal ^
 Ocean Seal[X]
 
 
-##NLunarBrace
+##NLunarBrace ^
 Lunar Brace[X]
 
 
-##NSolarBrace
+##NSolarBrace ^
 Solar Brace[X]
 
 
-##N1G
+##N1G ^
 1G[X]
 
 
-##N5G
+##N5G ^
 5G[X]
 
 
-##N10G
+##N10G ^
 10G[X]
 
 
-##N50G
+##N50G ^
 50G[X]
 
 
-##N100G
+##N100G ^
 100G[X]
 
 
-##N3000G
+##N3000G ^
 3000G[X]
 
 
-##N5000G
+##N5000G ^
 5000G[X]
 
 
-##NDance
+##NDance ^
 Dance[X]
 
 
-##NNightmare
+##NNightmare ^
 Nightmare[X]
 
 
-##NDemonStone
+##NDemonStone ^
 Demon Stone[X]
 
 
-##NDemonLight
+##NDemonLight ^
 Demon Light[X]
 
 
-##NRavager
+##NRavager ^
 Ravager[X]
 
 
-##NDragonstone
+##NDragonstone ^
 Dragonstone[X]
 
 
-##NDemonSurge
+##NDemonSurge ^
 Demon Surge[X]
 
 
-##NGreatArch
+##NGreatArch ^
 GreatArch[X]
 
 
-##NFalchion
+##NFalchion ^
 Falchion[X]
 
 
-##NStarlight
+##NStarlight ^
 Starlight[X]
 
 
-##NImhullu
+##NImhullu ^
 Imhullu[X]
 
 
-##NLethalTalon
+##NLethalTalon ^
 Lethal Talon[X]
 
 
-##NFieryFang
+##NFieryFang ^
 Fiery Fang[X]
 
 
-##NHellfang
+##NHellfang ^
 Hellfang[X]
 
 
-##NPoison
+##NPoison ^
 Poison[X]
 
 
-##NPetrify
+##NPetrify ^
 Petrify[X]
 
 
-##NStone
+##NStone ^
 Stone[X]
 
 
-##NAircalibur
+##NAircalibur ^
 Aircalibur[X]
 
 
-##NJunaFruit
+##NJunaFruit ^
 Juna Fruit[X]
 
 
-##N150G
+##N150G ^
 150G[X]
 
 
-##N200G
+##N200G ^
 200G[X]
 
 
-##NBlackGem
+##NBlackGem ^
 Black Gem[X]
 
 
-##NGoldGem
+##NGoldGem ^
 Gold Gem[X]
 
 
-##NMasterSword
+##NMasterSword ^
 Master Sword[X]
 
 
-##NMasterLance
+##NMasterLance ^
 Master Lance[X]
 
 
-##NMasterAxe
+##NMasterAxe ^
 Master Axe[X]
 
 
-##NMasterBow
+##NMasterBow ^
 Master Bow[X]
 
 
-##NDurandal
+##NDurandal ^
 Durandal[X]
 
 
-##NDarknessLance
+##NDarknessLance ^
 Darkness Lance[X]
 
 
-##NThorHammer
+##NThorHammer ^
 Thor Hammer[X]
 
 
-##NGalerider
+##NGalerider ^
 Galerider[X]
 
 
-##NBiracleSword
+##NBiracleSword ^
 Biracle Sword[X]
 
 
-##NToaBlade
+##NToaBlade ^
 Toa Blade[X]
 
 
-##NAndorAxe
+##NAndorAxe ^
 AndorAxe[X]
 
 
-##NFleursDuMal
+##NFleursDuMal ^
 Fleurs du Mal[X]
 
 
-##NMaera
+##NMaera ^
 Maera[X]
 
 
-##N0xc9
+##N0xc9 ^
 0xc9[X]
 
 
-##N0xca
+##N0xca ^
 0xca[X]
 
 
-##N0xcb
+##N0xcb ^
 0xcb[X]
 
 
-##N0xcc
+##N0xcc ^
 0xcc[X]
 
 
-##N0xcd
+##N0xcd ^
 0xcd[X]
 
 
-##N0xce
+##N0xce ^
 0xce[X]
 
 
-##N0xcf
+##N0xcf ^
 0xcf[X]
 
 
-##NLifeRing
+##NLifeRing ^
 Life Ring[X]
 
 
-##NParagonRing
+##NParagonRing ^
 Paragon Ring[X]
 
 
-##NThiefRing
+##NThiefRing ^
 Thief Ring[X]
 
 
-##NMiracleRing
+##NMiracleRing ^
 Miracle Ring[X]
 
 
-##NFollowUpRing
+##NFollowUpRing ^
 Follow-Up Ring[X]
 
 
-##NBargainRing
+##NBargainRing ^
 Bargain Ring[X]
 
 
-##NKnightRing
+##NKnightRing ^
 Knight Ring[X]
 
 
-##NRescueRing
+##NRescueRing ^
 Rescue Ring[X]
 
 
-##NRecoverRing
+##NRecoverRing ^
 Recover Ring[X]
 
 
-##NCirclet
+##NCirclet ^
 Circlet[X]
 
 
-##NDireThunder
+##NDireThunder ^
 Dire Thunder[X]
 
 
-##NKingSword
+##NKingSword ^
 King Sword[X]
 
 
-##NLoptrSword
+##NLoptrSword ^
 Loptr Sword[X]
 
 
-##NBeoSword
+##NBeoSword ^
 Beo's Sword[X]
 
 
-##NArdenBlade
+##NArdenBlade ^
 Arden's Blade[X]
 
 
-##NSalamander
+##NSalamander ^
 Salamander[X]
 
 
-##NAwaken
+##NAwaken ^
 Awaken[X]
 
 
-##NGrafcalibur
+##NGrafcalibur ^
 Grafcalibur[X]
 
 
-##NFire
+##NFire ^
 Fire[X]
 
 
-##NElfire
+##NElfire ^
 Elfire[X]
 
 
-##NBolganone
+##NBolganone ^
 Bolganone[X]
 
 
-##NMeteor
+##NMeteor ^
 Meteor[X]
 
 
-##NThunder
+##NThunder ^
 Thunder[X]
 
 
-##NElthunder
+##NElthunder ^
 Elthunder[X]
 
 
-##NThoron
+##NThoron ^
 Thoron[X]
 
 
-##NBolting
+##NBolting ^
 Bolting[X]
 
 
-##NWind
+##NWind ^
 Wind[X]
 
 
-##NTornado
+##NTornado ^
 Tornado[X]
 
 
-##NBlizzard
+##NBlizzard ^
 Blizzard[X]
 
 
-##N0xee
-0xee[X]
+##NSwordofLegend ^
+Sword of Legend[X]
 
 
-##NSleepSword
+##NSleepSword ^
 Sleep Sword[X]
 
 
-##NSilenceSword
+##NSilenceSword ^
 Silence Sword[X]
 
 
-##NBerserkSword
+##NBerserkSword ^
 Berserk Sword[X]
 
 
-##NMiracleSword
+##NMiracleSword ^
 Miracle Sword[X]
 
 
-##NThiefSword
+##NThiefSword ^
 Thief Sword[X]
 
 
-##NSafeguard
+##NSafeguard ^
 Safeguard[X]
 
 
-##NBarrierBlade
+##NBarrierBlade ^
 Barrier Blade[X]
 
 
-##NFlameSword
+##NFlameSword ^
 Flame Sword[X]
 
 
-##NThunderSword
+##NThunderSword ^
 Thunder Sword[X]
 
 
-##NWindSword
+##NWindSword ^
 Wind Sword[X]
 
 
-##N0xf9
+##N0xf9 ^
 0xf9[X]
 
 
-##NCharmStaff
+##NCharmStaff ^
 Charm Staff[X]
 
 
-##NThiefStaff
+##NThiefStaff ^
 Thief Staff[X]
 
 
-##N0xfc
+##N0xfc ^
 0xfc[X]
 
 
-##N0xfd
+##N0xfd ^
 0xfd[X]
 
 
-##N0xfe
+##N0xfe ^
 0xfe[X]
