@@ -139,8 +139,8 @@ Bow Armour[X]
 ##_Protector ^
 Protector[X]
 
-##_Sentinel ^
-Sentinel[X]
+##_Sentry ^
+Sentry[X]
 
 ##_General ^
 General[X]
@@ -172,10 +172,10 @@ Wyvern Lord[X]
 ##_MaligKnt ^
 Malig Knight[X]
 
-#_FirMage ^
+##_FirMage ^
 Fire Mage[X]
 
-#_ThrMage ^
+##_ThrMage ^
 Thunder Mage[X]
 
 ##_WndMage ^

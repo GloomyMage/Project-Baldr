@@ -490,11 +490,11 @@ UNIT Arden SwdArm 0x0 Level(3,Ally,0) [56,5] 0x0 0x0 0x1 REDA56R7 [IronSword] No
 UNIT //Tells the game that the unit list has ended
 
 UselessBoi:
-UNIT Midir ArchKnt Sigurd Level(1,NPC,0) [29,18] 0x0 0x0 0x0 0x1 [IronBow] NoAI
+UNIT Midir BowCav Sigurd Level(1,NPC,0) [29,18] 0x0 0x0 0x0 0x1 [IronBow] NoAI
 UNIT
 
 UsefulBoi:
-UNIT Midir ArchKnt Sigurd Level(2,Ally,0) [29,18] 0x0 0x0 0x1 REDA27R18 [IronBow] NoAI
+UNIT Midir BowCav Sigurd Level(2,Ally,0) [29,18] 0x0 0x0 0x1 REDA27R18 [IronBow] NoAI
 UNIT
 
 Kidnapped:

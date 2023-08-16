@@ -364,7 +364,6 @@ MagicAnim(0x6d)
 StaffAnim(0x6e)
 EndAnim
 
-
 ALIGN 4
 SageFAnims:
 MagicAnim(0x6f)

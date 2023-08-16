@@ -370,7 +370,7 @@ BowCavFPaletteList:
 BYTE $00 $00 $00 $00 $00 $00 $00 $00
 ALIGN 4
 
-ArchKntList:
+ArchKntPaletteList:
 BYTE $00 $00 $00 $00 $00 $00 $00 $00
 ALIGN 4
 
@@ -407,6 +407,10 @@ BYTE $00 $00 $00 $00 $00 $00 $00 $00
 ALIGN 4
 
 AdventurerPaletteList:
+BYTE $00 $00 $00 $00 $00 $00 $00 $00
+ALIGN 4
+
+BlackKntPaletteList:
 BYTE $00 $00 $00 $00 $00 $00 $00 $00
 ALIGN 4
 
@@ -486,7 +490,7 @@ PaletteAssociationTable:
 	SetClassPaletteTable(GrtKnt,GKPaletteList)
 	SetClassPaletteTable(BowCav,BowCavPaletteList)
 	SetClassPaletteTable(BowCavF,BowCavFPaletteList)
-	SetClassPaletteTable(ArchKnt,ArchKntList)
+	SetClassPaletteTable(ArchKnt,ArchKntPaletteList)
 	SetClassPaletteTable(BlackKnt,BlackKntPaletteList)
 	SetClassPaletteTable(SwdArm,ArmorPaletteList)
 	SetClassPaletteTable(LncArm,ArmorPaletteList)

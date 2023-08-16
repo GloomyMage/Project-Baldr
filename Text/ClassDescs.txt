@@ -88,15 +88,15 @@ afar. Equip: [BowIcon][X]
 
 ##Desc_Sniper ^
 Archers of unparalleled accuracy. [N]
-Equip: [Bow Icon][X]
+Equip: [BowIcon][X]
 
 ##Desc_Advent ^
 Skilled treasure seekers who can [N]
-assist their allies. Equip:[Bow Icon][Staff Icon][X]
+assist their allies. Equip:[BowIcon][StaffIcon][X]
 
 ##Desc_Freebld ^
 Unequaled heroes who battle for [N]
-their freedom. Equip:[SwordIcon][Bow Icon][X]
+their freedom. Equip:[SwordIcon][BowIcon][X]
 
 ##Desc_Truebld ^
 Peerless swordsmen with fascinating [N]

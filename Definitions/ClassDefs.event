@@ -20,6 +20,7 @@
 #undef Rogue
 #undef Dancer
 #undef Bard
+#undef Shaman
 //class defs
 #define SeliphLord 0x01
 #define SeliphLordX 0x02
@@ -132,7 +133,7 @@
 #define BishopF 0x78
 #define Queen 0x79
 #define DMage 0x7A
-#define DMage 0x7B
+#define DMageF 0x7B
 #define DBishop 0x7C
 #define DBishopF 0x7D
 #define Archbishop 0x7E
