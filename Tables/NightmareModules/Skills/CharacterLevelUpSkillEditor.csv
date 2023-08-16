@@ -68,7 +68,7 @@ Shannan (Adult),ShannanSkillList|IsPointer
 Ares,AresSkillList|IsPointer
 IndechChild,IndechChildSkillList|IsPointer
 Leif,LeifSkillList|IsPointer
-Eyvel,EyvelSkillList|IsPointer
+Clement,ClementSkillList|IsPointer
 Hannibal,HannibalSkillList|IsPointer
 Shannam,ShannamSkillList|IsPointer
 Altena,AltenaSkillList|IsPointer
@@ -89,7 +89,7 @@ Ross,RossSkillList|IsPointer
 Macbeth,MacbethSkillList|IsPointer
 Waltz,WaltzSkillList|IsPointer
 Elling,EllingSkillList|IsPointer
-Clement,ClementSkillList|IsPointer
+Payne,PayneSkillList|IsPointer
 Zane,ZaneSkillList|IsPointer
 Chagall,ChagallSkillList|IsPointer
 Lino,LinoSkillList|IsPointer
@@ -217,9 +217,9 @@ Mercenary,0
 -,0
 -,0
 -,0
--,0
--,0
--,0
+Bartholomew,BartholomewSkillList|IsPointer
+Peksimet,PeksimetSkillList|IsPointer
+Shamash,ShamashSkillList|IsPointer
 -,0
 -,0
 -,0
