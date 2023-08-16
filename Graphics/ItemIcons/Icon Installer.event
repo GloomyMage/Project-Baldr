@@ -9,6 +9,9 @@ NewItemIcons:
 PUSH 
 // Individual Icons go here
 ALIGN 4
+ItemIconEntry(MiracleSwordIcon)
+#incbin "Swords/Miracle sword.dmp"
+ALIGN 4
 ItemIconEntry(TyrfingIcon)
 #incbin "Regalia/Tyrfing.dmp"
 ALIGN 4

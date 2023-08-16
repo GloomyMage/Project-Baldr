@@ -9,6 +9,8 @@ DeathQuoteTable:
 // Prologue
 ChapterDeathQuote(DiMaggio,0x0,0x0,DiMaggioDeath)
 ChapterDeathQuote(Gerrard,0x0,0x0,GerrardDeath)
+//Chapter 5
+ChapterDeathQuote(Slayder,0x0,0x0,SlayderDeath)
 // Always (mainly player units)
 AlwaysDeathQuote(Sigurd,GameOverFlag,SigurdDeath)
 AlwaysDeathQuote(Alec,0x0,AlecDeath)
@@ -20,6 +22,7 @@ AlwaysDeathQuote(Lex,0x0,LexDeath)
 AlwaysDeathQuote(Quan,0x0,QuanDeath)
 AlwaysDeathQuote(Finn,0x0,FinnDeath1)
 AlwaysDeathQuote(Ethlyn,0x0,EthlynDeath)
+AlwaysDeathQuote(Seliph,GameOverFlag,SeliphDeath)
 EndDeathQuote
 
 PUSH

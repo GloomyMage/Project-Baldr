@@ -53,10 +53,10 @@ Seize(1,8)
 Seize(0x13,EvansAttack,29,18)
 Seize(0x3,DebugMap,56,5)
 FE4Village(0xC,VillageOne,18,8)
-Village(0xD,VillageTwo,24,22)
-Village(0xE,VillageThree,24,2)
-Village(0xF,VillageFour,35,2)
-Village(0x10,VillageFive,45,2)
+FE4Village(0xD,VillageTwo,24,22)
+FE4Village(0xE,VillageThree,24,2)
+FE4Village(0xF,VillageFour,35,2)
+FE4Village(0x10,VillageFive,45,2)
 END_MAIN
 
 ALIGN 32
@@ -484,10 +484,9 @@ ALIGN 4
 
 PlayerUnits:
 UNIT Sigurd KnightLord Sigurd Level(1,Ally,0) [56,5] 0x0 0x0 0x0 0x1 [SteelSword, IronLance] NoAI
-UNIT Callista WyvKnightF 0x0 Level(2,Ally,0) [56,5] 0x0 0x0 0x1 REDA55R6 [IronLance] NoAI
-UNIT Indech HolyKnt 0x0 Level(2,Ally,0) [56,5] 0x0 0x0 0x1 REDA56R6 [IronLance] NoAI
+UNIT Alec UniCav 0x0 Level(2,Ally,0) [56,5] 0x0 0x0 0x1 REDA55R6 [IronLance] NoAI
 UNIT Noish UniCav 0x0 Level(3,Ally,0) [56,5] 0x0 0x0 0x1 REDA57R6 [SteelSword] NoAI
-UNIT Hopper BowArm 0x0 Level(3,Ally,0) [56,5] 0x0 0x0 0x1 REDA56R7 [IronBow] NoAI
+UNIT Arden SwdArm 0x0 Level(3,Ally,0) [56,5] 0x0 0x0 0x1 REDA56R7 [IronSword] NoAI
 UNIT //Tells the game that the unit list has ended
 
 UselessBoi:

@@ -8,3 +8,4 @@
 #define LegRingIcon 0x60
 #define TyrfingIcon 0xB0
 #define StarIcon 0xCA
+#define MiracleSwordIcon 0xAD

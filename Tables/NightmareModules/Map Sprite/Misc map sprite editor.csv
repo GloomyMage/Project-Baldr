@@ -48,11 +48,11 @@ Troubadour,0x81eaff8,0x81eb99c
 Walkyrie,0x81ebaf4,0x81ec4fc
 Paladin (F),0x81c6a84,0x81c7428
 Free Knight,0x81de41c,0x81dec38
-Ranger (M),0x81d286c,0x81d3194
+Ranger (M),ForrestMV|IsPointer,0x81d3194
 Ranger (F),0x81d286c,0x81d3194
 DON'T TOUCH THIS,0x81df6a0,0x81dfacc
-Lance Knight,0x81c5fe4,0x81c692c
-Duke Knight,0x81c4824,0x81c52b4
+Lance Knight,LanceCavMV|IsPointer,0x81c692c
+Duke Knight,DukeKnightMV|IsPointer,0x81c692c
 Axe Knight,AxeCavMv|IsPointer,0x81c692c
 Great Knight,0x81dfc24,0x81e058c
 Arch Knight (M),BowCavMv|IsPointer,0x81c692c

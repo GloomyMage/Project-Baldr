@@ -1,0 +1,17 @@
+#define ConvoBackgroundTable 0x95DD1C //Vanilla table
+
+#define SetConvoBackground(Index, ImagePointer, TSAPointer, PalettePointer) "PUSH; ORG ConvoBackgroundTable + (Index * 0xC); POIN ImagePointer TSAPointer PalettePointer; POP"
+
+ALIGN 4
+ThroneImage:
+#incbin "Throne.lz77"
+
+ALIGN 4
+ThronePalette:
+#incbin "Throne.pal"
+
+ALIGN 4
+BGThroneTSA:
+#incbin "ThroneTSA.dmp"
+
+SetConvoBackground(0x10, ThroneImage, BGThroneTSA, ThronePalette)

@@ -49,14 +49,14 @@
 #define Jeanne 0x2E
 #define Lene 0x2F
 #define Laylea 0x30
-#define CallistaSon 0x31
-#define CalliSonSub 0x32
+#define Zagreus 0x31
+#define Melchior 0x32
 #define Tine 0x33
 #define Linda 0x34
 #define Faval 0x35                      //Chapter 8
 #define Asaello 0x36
-#define CallistaDaughter 0x37
-#define CalliGirlSub 0x38
+#define Persephone 0x37
+#define Nehalennia 0x38
 #define Ced 0x39
 #define Hawk 0x3A
 #define Coirpre 0x3B                     //Chapter 9
@@ -67,9 +67,9 @@
 #define Iucharba 0x40
 #define ShannanAdult 0x41
 #define Ares 0x42
-#define IndechChild 0x43
+#define Aife 0x43
 #define Leif 0x44
-#define Eyvel 0x45                    //oh no
+#define Clement 0x45                    //oh no
 #define Hannibal 0x46
 #define Shannam 0x47
 #define Altena 0x48
