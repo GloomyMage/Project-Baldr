@@ -870,7 +870,7 @@ SlayderPortrait:
 #incbin "Slayder_frames.dmp"
 #incbin "Slayder_palette.dmp"
 #incbin "Slayder_minimug.dmp"
-setMugEntry(0x101,SlayderPortrait,2,5,2,3)
+setMugEntry(0x11E,SlayderPortrait,2,5,2,3)
 
 ALIGN 4
 AndreyPortrait:

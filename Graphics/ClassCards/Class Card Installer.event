@@ -1,6 +1,393 @@
 #define setCardEntry(cardEntry,cardLocation,cardPaletteLocation) "PUSH; ORG PortraitTable+cardEntry*0x1C; POIN 0 0 cardPaletteLocation 0 cardLocation; POP"
 
-#define AxeCavCard 0xA2
+#define MastKntCard 0x11D
+
+MastKntPortrait:
+#incbin "MastKnt.dmp"
+MastKntPortraitPalette:
+#incbin "MastKntPalette.dmp"
+
+setCardEntry(MastKntCard,MastKntPortrait,MastKntPortraitPalette)
+
+#define MyrmMCard 0x72
+
+MyrmMPortrait:
+#incbin "MyrmM.dmp"
+MyrmMPortraitPalette:
+#incbin "MyrmMPalette.dmp"
+
+setCardEntry(MyrmMCard,MyrmMPortrait,MyrmMPortraitPalette)
+
+#define MyrmFCard 0x73
+
+MyrmFPortrait:
+#incbin "MyrmF.dmp"
+MyrmFPortraitPalette:
+#incbin "MyrmFPalette.dmp"
+
+setCardEntry(MyrmFCard,MyrmFPortrait,MyrmFPortraitPalette)
+
+#define MercMCard 0x74
+
+MercMPortrait:
+#incbin "MercM.dmp"
+MercMPortraitPalette:
+#incbin "MercMPalette.dmp"
+
+setCardEntry(MercMCard,MercMPortrait,MercMPortraitPalette)
+
+#define MercFCard 0x75
+
+MercFPortrait:
+#incbin "MercF.dmp"
+MercFPortraitPalette:
+#incbin "MercFPalette.dmp"
+
+setCardEntry(MercFCard,MercFPortrait,MercFPortraitPalette)
+
+#define SwdmastMCard 0x76
+
+SwdmastMPortrait:
+#incbin "SwdmastM.dmp"
+SwdmastMPortraitPalette:
+#incbin "SwdmastMPalette.dmp"
+
+setCardEntry(SwdmastMCard,SwdmastMPortrait,SwdmastMPortraitPalette)
+
+#define SwdmastFCard 0x77
+
+SwdmastFPortrait:
+#incbin "SwdmastF.dmp"
+SwdmastFPortraitPalette:
+#incbin "SwdmastFPalette.dmp"
+
+setCardEntry(SwdmastFCard,SwdmastFPortrait,SwdmastFPortraitPalette)
+
+#define HeroMCard 0x78
+
+HeroMPortrait:
+#incbin "HeroM.dmp"
+HeroMPortraitPalette:
+#incbin "HeroMPalette.dmp"
+
+setCardEntry(HeroMCard,HeroMPortrait,HeroMPortraitPalette)
+
+#define HeroFCard 0x79
+
+HeroFPortrait:
+#incbin "HeroF.dmp"
+HeroFPortraitPalette:
+#incbin "HeroFPalette.dmp"
+
+setCardEntry(HeroFCard,HeroFPortrait,HeroFPortraitPalette)
+
+#define ThiefMCard 0x7A
+
+ThiefMPortrait:
+#incbin "ThiefM.dmp"
+ThiefMPortraitPalette:
+#incbin "ThiefMPalette.dmp"
+
+setCardEntry(ThiefMCard,ThiefMPortrait,ThiefMPortraitPalette)
+
+#define ThiefFCard 0x7B
+
+ThiefFPortrait:
+#incbin "ThiefF.dmp"
+ThiefFPortraitPalette:
+#incbin "ThiefFPalette.dmp"
+
+setCardEntry(ThiefFCard,ThiefFPortrait,ThiefFPortraitPalette)
+
+#define RogueMCard 0x7C
+
+RogueMPortrait:
+#incbin "RogueM.dmp"
+RogueMPortraitPalette:
+#incbin "RogueMPalette.dmp"
+
+setCardEntry(RogueMCard,RogueMPortrait,RogueMPortraitPalette)
+
+#define RogueFCard 0x7D
+
+RogueFPortrait:
+#incbin "RogueF.dmp"
+RogueFPortraitPalette:
+#incbin "RogueFPalette.dmp"
+
+setCardEntry(RogueFCard,RogueFPortrait,RogueFPortraitPalette)
+
+#define AssassMCard 0x7E
+
+AssassMPortrait:
+#incbin "AssassM.dmp"
+AssassMPortraitPalette:
+#incbin "AssassMPalette.dmp"
+
+setCardEntry(AssassMCard,AssassMPortrait,AssassMPortraitPalette)
+
+#define AssassFCard 0x7F
+
+AssassFPortrait:
+#incbin "AssassF.dmp"
+AssassFPortraitPalette:
+#incbin "AssassFPalette.dmp"
+
+setCardEntry(AssassFCard,AssassFPortrait,AssassFPortraitPalette)
+
+#define FighterCard 0x80
+
+FighterPortrait:
+#incbin "Fighter.dmp"
+FighterPortraitPalette:
+#incbin "FighterPalette.dmp"
+
+setCardEntry(FighterCard,FighterPortrait,FighterPortraitPalette)
+
+#define WarriorMCard 0x81
+
+WarriorMPortrait:
+#incbin "WarriorM.dmp"
+WarriorMPortraitPalette:
+#incbin "WarriorMPalette.dmp"
+
+setCardEntry(WarriorMCard,WarriorMPortrait,WarriorMPortraitPalette)
+
+#define WarriorFCard 0x82
+
+WarriorFPortrait:
+#incbin "WarriorF.dmp"
+WarriorFPortraitPalette:
+#incbin "WarriorFPalette.dmp"
+
+setCardEntry(WarriorFCard,WarriorFPortrait,WarriorFPortraitPalette)
+
+#define HunterCard 0x83
+
+HunterPortrait:
+#incbin "Hunter.dmp"
+HunterPortraitPalette:
+#incbin "HunterPalette.dmp"
+
+setCardEntry(HunterCard,HunterPortrait,HunterPortraitPalette)
+
+#define BarbarianCard 0x84
+
+BarbarianPortrait:
+#incbin "Barbarian.dmp"
+BarbarianPortraitPalette:
+#incbin "BarbarianPalette.dmp"
+
+setCardEntry(BarbarianCard,BarbarianPortrait,BarbarianPortraitPalette)
+
+#define BrigandMCard 0x85
+
+BrigandMPortrait:
+#incbin "BrigandM.dmp"
+BrigandMPortraitPalette:
+#incbin "BrigandMPalette.dmp"
+
+setCardEntry(BrigandMCard,BrigandMPortrait,BrigandMPortraitPalette)
+
+#define BrigandFCard 0x86
+
+BrigandFPortrait:
+#incbin "BrigandF.dmp"
+BrigandFPortraitPalette:
+#incbin "BrigandFPalette.dmp"
+
+setCardEntry(BrigandFCard,BrigandFPortrait,BrigandFPortraitPalette)
+
+#define PirateMCard 0x87
+
+PirateMPortrait:
+#incbin "PirateM.dmp"
+PirateMPortraitPalette:
+#incbin "PirateMPalette.dmp"
+
+setCardEntry(PirateMCard,PirateMPortrait,PirateMPortraitPalette)
+
+#define PirateFCard 0x88
+
+PirateFPortrait:
+#incbin "PirateF.dmp"
+PirateFPortraitPalette:
+#incbin "PirateFPalette.dmp"
+
+setCardEntry(PirateFCard,PirateFPortrait,PirateFPortraitPalette)
+
+#define BerserkMCard 0x89
+
+BerserkMPortrait:
+#incbin "BerserkM.dmp"
+BerserkMPortraitPalette:
+#incbin "BerserkMPalette.dmp"
+
+setCardEntry(BerserkMCard,BerserkMPortrait,BerserkMPortraitPalette)
+
+#define BerserkFCard 0x8A
+
+BerserkFPortrait:
+#incbin "BerserkF.dmp"
+BerserkFPortraitPalette:
+#incbin "BerserkFPalette.dmp"
+
+setCardEntry(BerserkFCard,BerserkFPortrait,BerserkFPortraitPalette)
+
+#define ArcherMCard 0x8B
+
+ArcherMPortrait:
+#incbin "ArcherM.dmp"
+ArcherMPortraitPalette:
+#incbin "ArcherMPalette.dmp"
+
+setCardEntry(ArcherMCard,ArcherMPortrait,ArcherMPortraitPalette)
+
+#define ArcherFCard 0x8C
+
+ArcherFPortrait:
+#incbin "ArcherF.dmp"
+ArcherFPortraitPalette:
+#incbin "ArcherFPalette.dmp"
+
+setCardEntry(ArcherFCard,ArcherFPortrait,ArcherFPortraitPalette)
+
+#define SniperMCard 0x8D
+
+SniperMPortrait:
+#incbin "SniperM.dmp"
+SniperMPortraitPalette:
+#incbin "SniperMPalette.dmp"
+
+setCardEntry(SniperMCard,SniperMPortrait,SniperMPortraitPalette)
+
+#define SniperFCard 0x8E
+
+SniperFPortrait:
+#incbin "SniperF.dmp"
+SniperFPortraitPalette:
+#incbin "SniperFPalette.dmp"
+
+setCardEntry(SniperFCard,SniperFPortrait,SniperFPortraitPalette)
+
+#define SoldierCard 0x8F
+
+SoldierClassPortrait:
+#incbin "Soldier.dmp"
+SoldierPortraitPalette:
+#incbin "SoldierPalette.dmp"
+
+setCardEntry(SoldierCard,SoldierClassPortrait,SoldierPortraitPalette)
+
+#define HalbrdCard 0x90
+
+HalbrdPortrait:
+#incbin "Halbrd.dmp"
+HalbrdPortraitPalette:
+#incbin "HalbrdPalette.dmp"
+
+setCardEntry(HalbrdCard,HalbrdPortrait,HalbrdPortraitPalette)
+
+#define UniCavCard 0x91
+
+UniCavPortrait:
+#incbin "AxeCav.dmp"
+UniCavPortraitPalette:
+#incbin "UniCavPalette.dmp"
+
+setCardEntry(UniCavCard,UniCavPortrait,UniCavPortraitPalette)
+
+#define PalMCard 0x92
+
+PalMPortrait:
+#incbin "PalM.dmp"
+PalMPortraitPalette:
+#incbin "PalMPalette.dmp"
+
+setCardEntry(PalMCard,PalMPortrait,PalMPortraitPalette)
+
+#define HolyKntCard 0x93
+
+HolyKntPortrait:
+#incbin "HolyKnt.dmp"
+HolyKntPortraitPalette:
+#incbin "HolyKntPalette.dmp"
+
+setCardEntry(HolyKntCard,HolyKntPortrait,HolyKntPortraitPalette)
+
+#define TrbdrCard 0x94
+
+TrbdrPortrait:
+#incbin "Trbdr.dmp"
+TrbdrPortraitPalette:
+#incbin "TrbdrPalette.dmp"
+
+setCardEntry(TrbdrCard,TrbdrPortrait,TrbdrPortraitPalette)
+
+#define ValkCard 0x95
+
+ValkPortrait:
+#incbin "Valk.dmp"
+ValkPortraitPalette:
+#incbin "ValkPalette.dmp"
+
+setCardEntry(ValkCard,ValkPortrait,ValkPortraitPalette)
+
+#define PalFCard 0x96
+
+PalFPortrait:
+#incbin "PalF.dmp"
+PalFPortraitPalette:
+#incbin "PalFPalette.dmp"
+
+setCardEntry(PalFCard,PalFPortrait,PalFPortraitPalette)
+
+#define SwdCavCard 0x97
+
+SwdCavPortrait:
+#incbin "SwdCav.dmp"
+SwdCavPortraitPalette:
+#incbin "SwdCavPalette.dmp"
+
+setCardEntry(SwdCavCard,SwdCavPortrait,SwdCavPortraitPalette)
+
+#define RangerCard 0x98
+
+RangerPortrait:
+#incbin "Ranger.dmp"
+RangerPortraitPalette:
+#incbin "RangerPalette.dmp"
+
+setCardEntry(RangerCard,RangerPortrait,RangerPortraitPalette)
+
+#define WandererCard 0x99
+
+WandererPortrait:
+#incbin "Wanderer.dmp"
+WandererPortraitPalette:
+#incbin "WandererPalette.dmp"
+
+setCardEntry(WandererCard,WandererPortrait,WandererPortraitPalette)
+
+#define LncCavCard 0x9A
+
+LncCavPortrait:
+#incbin "LncCav.dmp"
+LncCavPortraitPalette:
+#incbin "LncCavPalette.dmp"
+
+setCardEntry(LncCavCard,LncCavPortrait,LncCavPortraitPalette)
+
+#define DukeKntCard 0x9B
+
+DukeKntPortrait:
+#incbin "DukeKnt.dmp"
+DukeKntPortraitPalette:
+#incbin "DukeKntPalette.dmp"
+
+setCardEntry(DukeKntCard,DukeKntPortrait,DukeKntPortraitPalette)
+
+#define AxeCavCard 0x9C
 
 AxeCavPortrait:
 #incbin "AxeCav.dmp"
@@ -8,3 +395,390 @@ AxeCavPortraitPalette:
 #incbin "AxeCavPalette.dmp"
 
 setCardEntry(AxeCavCard,AxeCavPortrait,AxeCavPortraitPalette)
+
+#define GreatKntCard 0x9D
+
+GreatKntPortrait:
+#incbin "GreatKnt.dmp"
+GreatKntPortraitPalette:
+#incbin "GreatKntPalette.dmp"
+
+setCardEntry(GreatKntCard,GreatKntPortrait,GreatKntPortraitPalette)
+
+#define BowCavMCard 0x9E
+
+BowCavMPortrait:
+#incbin "BowCavM.dmp"
+BowCavMPortraitPalette:
+#incbin "BowCavMPalette.dmp"
+
+setCardEntry(BowCavMCard,BowCavMPortrait,BowCavMPortraitPalette)
+
+#define BowCavFCard 0x9F
+
+BowCavFPortrait:
+#incbin "BowCavF.dmp"
+BowCavFPortraitPalette:
+#incbin "BowCavFPalette.dmp"
+
+setCardEntry(BowCavFCard,BowCavFPortrait,BowCavFPortraitPalette)
+
+#define ArchKntCard 0xA0
+
+ArchKntPortrait:
+#incbin "ArchKnt.dmp"
+ArchKntPortraitPalette:
+#incbin "ArchKntPalette.dmp"
+
+setCardEntry(ArchKntCard,ArchKntPortrait,ArchKntPortraitPalette)
+
+#define BlackKntCard 0xA1
+
+BlackKntPortrait:
+#incbin "BlackKnt.dmp"
+BlackKntPortraitPalette:
+#incbin "BlackKntPalette.dmp"
+
+setCardEntry(BlackKntCard,BlackKntPortrait,BlackKntPortraitPalette)
+
+#define SwdArmCard 0xA2
+
+SwdArmPortrait:
+#incbin "SwdArm.dmp"
+SwdArmPortraitPalette:
+#incbin "SwdArmPalette.dmp"
+
+setCardEntry(SwdArmCard,SwdArmPortrait,SwdArmPortraitPalette)
+
+#define LncArmCard 0xA3
+
+LncArmPortrait:
+#incbin "LncArm.dmp"
+LncArmPortraitPalette:
+#incbin "LncArmPalette.dmp"
+
+setCardEntry(LncArmCard,LncArmPortrait,LncArmPortraitPalette)
+
+#define AxeArmCard 0xA4
+
+AxeArmPortrait:
+#incbin "AxeArm.dmp"
+AxeArmPortraitPalette:
+#incbin "AxeArmPalette.dmp"
+
+setCardEntry(AxeArmCard,AxeArmPortrait,AxeArmPortraitPalette)
+
+#define BowArmCard 0xA5
+
+BowArmPortrait:
+#incbin "BowArm.dmp"
+BowArmPortraitPalette:
+#incbin "BowArmPalette.dmp"
+
+setCardEntry(BowArmCard,BowArmPortrait,BowArmPortraitPalette)
+
+#define ProtectorCard 0xA6
+
+ProtectorPortrait:
+#incbin "Protector.dmp"
+ProtectorPortraitPalette:
+#incbin "ProtectorPalette.dmp"
+
+setCardEntry(ProtectorCard,ProtectorPortrait,ProtectorPortraitPalette)
+
+#define SentryCard 0xA7
+
+SentryPortrait:
+#incbin "Sentry.dmp"
+SentryPortraitPalette:
+#incbin "SentryPalette.dmp"
+
+setCardEntry(SentryCard,SentryPortrait,SentryPortraitPalette)
+
+#define GeneralCard 0xA8
+
+GeneralPortrait:
+#incbin "General.dmp"
+GeneralPortraitPalette:
+#incbin "GeneralPalette.dmp"
+
+setCardEntry(GeneralCard,GeneralPortrait,GeneralPortraitPalette)
+
+#define GuardianCard 0xA9
+
+GuardianPortrait:
+#incbin "Guardian.dmp"
+GuardianPortraitPalette:
+#incbin "GuardianPalette.dmp"
+
+setCardEntry(GuardianCard,GuardianPortrait,GuardianPortraitPalette)
+
+#define BaronCard 0xAA
+
+BaronPortrait:
+#incbin "Baron.dmp"
+BaronPortraitPalette:
+#incbin "BaronPalette.dmp"
+
+setCardEntry(BaronCard,BaronPortrait,BaronPortraitPalette)
+
+#define EmperorCard 0x100
+
+EmperorPortrait:
+#incbin "Emperor.dmp"
+EmperorPortraitPalette:
+#incbin "EmperorPalette.dmp"
+
+setCardEntry(EmperorCard,EmperorPortrait,EmperorPortraitPalette)
+
+#define PegKntCard 0x101
+
+PegKntPortrait:
+#incbin "PegKnt.dmp"
+PegKntPortraitPalette:
+#incbin "PegKntPalette.dmp"
+
+setCardEntry(PegKntCard,PegKntPortrait,PegKntPortraitPalette)
+
+#define FalcoKntCard 0x102
+
+FalcoKntPortrait:
+#incbin "FalcoKnt.dmp"
+FalcoKntPortraitPalette:
+#incbin "FalcoKntPalette.dmp"
+
+setCardEntry(FalcoKntCard,FalcoKntPortrait,FalcoKntPortraitPalette)
+
+#define HarrierCard 0x103
+
+HarrierPortrait:
+#incbin "Harrier.dmp"
+HarrierPortraitPalette:
+#incbin "HarrierPalette.dmp"
+
+setCardEntry(HarrierCard,HarrierPortrait,HarrierPortraitPalette)
+
+#define WyvRiderMCard 0x104
+
+WyvRiderMPortrait:
+#incbin "WyvRiderM.dmp"
+WyvRiderMPortraitPalette:
+#incbin "WyvRiderMPalette.dmp"
+
+setCardEntry(WyvRiderMCard,WyvRiderMPortrait,WyvRiderMPortraitPalette)
+
+#define WyvRiderFCard 0x105
+
+WyvRiderFPortrait:
+#incbin "WyvRiderF.dmp"
+WyvRiderFPortraitPalette:
+#incbin "WyvRiderFPalette.dmp"
+
+setCardEntry(WyvRiderFCard,WyvRiderFPortrait,WyvRiderFPortraitPalette)
+
+#define WyvKntCard 0x106
+
+WyvKntPortrait:
+#incbin "WyvKnt.dmp"
+WyvKntPortraitPalette:
+#incbin "WyvKntPalette.dmp"
+
+setCardEntry(WyvKntCard,WyvKntPortrait,WyvKntPortraitPalette)
+
+#define WyvMastCard 0x107
+
+WyvMastPortrait:
+#incbin "WyvMast.dmp"
+WyvMastPortraitPalette:
+#incbin "WyvMastPalette.dmp"
+
+setCardEntry(WyvMastCard,WyvMastPortrait,WyvMastPortraitPalette)
+
+#define WyvLordCard 0x108
+
+WyvLordPortrait:
+#incbin "WyvLord.dmp"
+WyvLordPortraitPalette:
+#incbin "WyvLordPalette.dmp"
+
+setCardEntry(WyvLordCard,WyvLordPortrait,WyvLordPortraitPalette)
+
+#define MaligKntCard 0x109
+
+MaligKntPortrait:
+#incbin "MaligKnt.dmp"
+MaligKntPortraitPalette:
+#incbin "MaligKntPalette.dmp"
+
+setCardEntry(MaligKntCard,MaligKntPortrait,MaligKntPortraitPalette)
+
+#define MageMCard 0x10A
+
+MageMPortrait:
+#incbin "MageM.dmp"
+MageMPortraitPalette:
+#incbin "MageMPalette.dmp"
+
+setCardEntry(MageMCard,MageMPortrait,MageMPortraitPalette)
+
+#define MageFCard 0x10B
+
+MageFPortrait:
+#incbin "MageF.dmp"
+MageFPortraitPalette:
+#incbin "MageFPalette.dmp"
+
+setCardEntry(MageFCard,MageFPortrait,MageFPortraitPalette)
+
+#define WarMageMCard 0x10C
+
+WarMageMPortrait:
+#incbin "WarMageM.dmp"
+WarMageMPortraitPalette:
+#incbin "WarMageMPalette.dmp"
+
+setCardEntry(WarMageMCard,WarMageMPortrait,WarMageMPortraitPalette)
+
+#define WarMageFCard 0x10D
+
+WarMageFPortrait:
+#incbin "WarMageF.dmp"
+WarMageFPortraitPalette:
+#incbin "WarMageFPalette.dmp"
+
+setCardEntry(WarMageFCard,WarMageFPortrait,WarMageFPortraitPalette)
+
+#define MageKntMCard 0x10E
+
+MageKntMPortrait:
+#incbin "MageKntM.dmp"
+MageKntMPortraitPalette:
+#incbin "MageKntMPalette.dmp"
+
+setCardEntry(MageKntMCard,MageKntMPortrait,MageKntMPortraitPalette)
+
+#define MageKntFCard 0x10F
+
+MageKntFPortrait:
+#incbin "MageKntF.dmp"
+MageKntFPortraitPalette:
+#incbin "MageKntFPalette.dmp"
+
+setCardEntry(MageKntFCard,MageKntFPortrait,MageKntFPortraitPalette)
+
+#define SageMCard 0x110
+
+SageMPortrait:
+#incbin "SageM.dmp"
+SageMPortraitPalette:
+#incbin "SageMPalette.dmp"
+
+setCardEntry(SageMCard,SageMPortrait,SageMPortraitPalette)
+
+#define SageFCard 0x111
+
+SageFPortrait:
+#incbin "SageF.dmp"
+SageFPortraitPalette:
+#incbin "SageFPalette.dmp"
+
+setCardEntry(SageFCard,SageFPortrait,SageFPortraitPalette)
+
+#define CivilianCard 0x112
+
+CivilianPortrait:
+#incbin "Civilian.dmp"
+CivilianPortraitPalette:
+#incbin "CivilianPalette.dmp"
+
+setCardEntry(CivilianCard,CivilianPortrait,CivilianPortraitPalette)
+
+#define PriestCard 0x113
+
+PriestPortrait:
+#incbin "Priest.dmp"
+PriestPortraitPalette:
+#incbin "PriestPalette.dmp"
+
+setCardEntry(PriestCard,PriestPortrait,PriestPortraitPalette)
+
+#define ClericCard 0x114
+
+ClericPortrait:
+#incbin "Cleric.dmp"
+ClericPortraitPalette:
+#incbin "ClericPalette.dmp"
+
+setCardEntry(ClericCard,ClericPortrait,ClericPortraitPalette)
+
+#define HighPriestCard 0x115
+
+HighPriestPortrait:
+#incbin "HPriest.dmp"
+HighPriestPortraitPalette:
+#incbin "HPriestPalette.dmp"
+
+setCardEntry(HighPriestCard,HighPriestPortrait,HighPriestPortraitPalette)
+
+#define HighPriestFCard 0x116
+
+HighPriestFPortrait:
+#incbin "HPriestF.dmp"
+HighPriestFPortraitPalette:
+#incbin "HPriestFPalette.dmp"
+
+setCardEntry(HighPriestFCard,HighPriestFPortrait,HighPriestFPortraitPalette)
+
+#define QueenCard 0x117
+
+QueenPortrait:
+#incbin "Queen.dmp"
+QueenPortraitPalette:
+#incbin "QueenPalette.dmp"
+
+setCardEntry(QueenCard,QueenPortrait,QueenPortraitPalette)
+
+#define DrkMageMCard 0x118
+
+DrkMageMPortrait:
+#incbin "DrkMageM.dmp"
+DrkMageMPortraitPalette:
+#incbin "DrkMageMPalette.dmp"
+
+setCardEntry(DrkMageMCard,DrkMageMPortrait,DrkMageMPortraitPalette)
+
+#define DrkMageFCard 0x119
+
+DrkMageFPortrait:
+#incbin "DrkMageF.dmp"
+DrkMageFPortraitPalette:
+#incbin "DrkMageFPalette.dmp"
+
+setCardEntry(DrkMageFCard,DrkMageFPortrait,DrkMageFPortraitPalette)
+
+#define DrkBishopMCard 0x11A
+
+DrkBishopMPortrait:
+#incbin "DrkBishopM.dmp"
+DrkBishopMPortraitPalette:
+#incbin "DrkBishopMPalette.dmp"
+
+setCardEntry(DrkBishopMCard,DrkBishopMPortrait,DrkBishopMPortraitPalette)
+
+#define DrkBishopFCard 0x11B
+
+DrkBishopFPortrait:
+#incbin "DrkBishopF.dmp"
+DrkBishopFPortraitPalette:
+#incbin "DrkBishopFPalette.dmp"
+
+setCardEntry(DrkBishopFCard,DrkBishopFPortrait,DrkBishopFPortraitPalette)
+
+#define BallistaCard 0x11C
+
+BallistaPortrait:
+#incbin "Ballista.dmp"
+BallistaPortraitPalette:
+#incbin "BallistaPalette.dmp"
+
+setCardEntry(BallistaCard,BallistaPortrait,BallistaPortraitPalette)
