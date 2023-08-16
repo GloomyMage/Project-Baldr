@@ -48,3 +48,8 @@ oops[A][X]
 [OpenMidRight][LoadMidir]
 Urgh...[N]
 Milady, I...[A][X]
+
+##SeliphDeath
+[OpenMidRight][LoadSeliph]
+Father... Everyone...[N]
+I'm sorry...[A][X]

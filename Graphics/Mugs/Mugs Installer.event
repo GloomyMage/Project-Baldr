@@ -10,7 +10,7 @@ SigurdPortrait:
 #incbin "Sigurd_frames.dmp"
 #incbin "Sigurd_palette.dmp"
 #incbin "Sigurd_minimug.dmp"
-setMugEntry(0x2,SigurdPortrait,3,5,3,3)
+setMugEntry(0x2,SigurdPortrait,2,5,3,3)
 
 ALIGN 4
 SeliphPortrait:
@@ -34,7 +34,7 @@ NoishPortrait:
 #incbin "Noish_frames.dmp"
 #incbin "Noish_palette.dmp"
 #incbin "Noish_minimug.dmp"
-setMugEntry(0x6,NoishPortrait,3,5,3,3)
+setMugEntry(0x6,NoishPortrait,2,5,3,3)
 
 ALIGN 4
 ArdenPortrait:
@@ -42,7 +42,7 @@ ArdenPortrait:
 #incbin "Arden_frames.dmp"
 #incbin "Arden_palette.dmp"
 #incbin "Arden_minimug.dmp"
-setMugEntry(0x7,ArdenPortrait,3,5,3,3)
+setMugEntry(0x7,ArdenPortrait,2,4,3,2)
 
 ALIGN 4
 ArdenPromotedPortrait:
@@ -66,25 +66,15 @@ LexPortrait:
 #incbin "Lex_frames.dmp"
 #incbin "Lex_palette.dmp"
 #incbin "Lex_minimug.dmp"
-setMugEntry(0x9,LexPortrait,2,5,3,3)
+setMugEntry(0x9,LexPortrait,2,5,2,3)
 
 ALIGN 4
-Quan_Mug:
+QuanPortrait:
 #incbin "Quan_mug.dmp"
-
-ALIGN 4
-Quan_Mini:
-#incbin "Quan_minimug.dmp"
-
-ALIGN 4
-Quan_Frames:
 #incbin "Quan_frames.dmp"
-
-ALIGN 4
-Quan_Palette:
 #incbin "Quan_palette.dmp"
-
-setMugEntryExtend(0xA, Quan_Mug, Quan_Mini, Quan_Palette, Quan_Frames, 3, 5, 3, 3, 0, 2, 0, 0)
+#incbin "Quan_minimug.dmp"
+setMugEntry(0xA,QuanPortrait,2,6,3,4)
 
 ALIGN 4
 EthlynPortrait:
@@ -100,7 +90,7 @@ FinnYoungPortrait:
 #incbin "FinnYoung_frames.dmp"
 #incbin "FinnYoung_palette.dmp"
 #incbin "FinnYoung_minimug.dmp"
-setMugEntry(0xE,FinnYoungPortrait,2,5,3,3)
+setMugEntry(0xE,FinnYoungPortrait,2,6,3,4)
 
 ALIGN 4
 FinnPortrait:
@@ -502,7 +492,7 @@ OifeyPortrait:
 #incbin "Oifey_frames.dmp"
 #incbin "Oifey_palette.dmp"
 #incbin "Oifey_minimug.dmp"
-setMugEntry(0x3,OifeyPortrait,3,6,3,4)
+setMugEntry(0x3,OifeyPortrait,2,6,3,4)
 
 ALIGN 4
 OifeyOldPortrait:
@@ -630,7 +620,7 @@ GerrardPortrait:
 #incbin "Gerrard_frames.dmp"
 #incbin "Gerrard_palette.dmp"
 #incbin "Gerrard_minimug.dmp"
-setMugEntry(0x37,GerrardPortrait,3,5,3,3)
+setMugEntry(0x37,GerrardPortrait,2,5,2,3)
 
 ALIGN 4
 KinboisPortrait:
@@ -873,6 +863,14 @@ DaccarPortrait:
 #incbin "Daccar_palette.dmp"
 #incbin "Daccar_minimug.dmp"
 setMugEntry(0x41,DaccarPortrait,2,4,2,2)
+
+ALIGN 4
+SlayderPortrait:
+#incbin "Slayder_mug.dmp"
+#incbin "Slayder_frames.dmp"
+#incbin "Slayder_palette.dmp"
+#incbin "Slayder_minimug.dmp"
+setMugEntry(0x101,SlayderPortrait,2,5,2,3)
 
 ALIGN 4
 AndreyPortrait:

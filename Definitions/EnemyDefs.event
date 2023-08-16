@@ -14,7 +14,7 @@
 #define Macbeth 0x57
 #define Voltz 0x58 //or was it waltz
 #define Elling 0x59  //who
-#define Clement 0x5A //hi bobby
+#define Payne 0x5A
 #define Zane 0x5B //ZANE
 #define Chagall 0x5C //discuss if he should have a second id for baron form or not
 #define Lino 0x5D  // chapter 3
@@ -103,6 +103,9 @@
 #define Fjalar 0xAE
 #define Thrud 0xAF
 #define Seti 0xB0
-
+//Extras
+#define Bartholomew 0xDA
+#define Peksimet 0xDB
+#define Shamash 0xDC
 
 

@@ -835,6 +835,7 @@ a skill when used.[X]
 #include "DeathQuotes.txt"
 
 #include "Chapter Text/Prologue.txt"
+#include "Chapter Text/Chapter5.txt"
 
 
 #include "Objectives.txt"

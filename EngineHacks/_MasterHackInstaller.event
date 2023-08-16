@@ -148,6 +148,9 @@ POP
   //Mug Exceed
   #include "ExternalHacks/MugExceed/EA.txt"
   
+  //A Support Trading
+  #include "ExternalHacks/ASupportTrades/ASupportTrades.event"
+  
   //Dynamic Portrait
   #include "Necessary/DynamicPortrait/DynamicPortraitsInstaller.event" 
   
@@ -173,6 +176,9 @@ POP
   
   //Tilechange triggers flag
   #include "Baldr/MapChange/Installer.event"
+  
+  //Camera Speed by Contro
+  #include "Baldr/CameraSpeed/Installer.event"
 
   //Supply available in prologue
   #include "QualityOfLife/PrologueSupply.event"
@@ -184,7 +190,7 @@ POP
   #include "QualityOfLife/TextChNames/TextChNames.event"
   
   //install base stat promos
-  #include "NewPromoGains.lyn.event"
+  //#include "NewPromoGains.lyn.event"
 
   //PC and Generic Music Hack (writes to e80000/e90000)
   #include "QualityOfLife/PCAndGenericMusic.event"

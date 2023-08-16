@@ -1,0 +1,73 @@
+EventPointerTable(0x0A,PointerList)
+
+
+PointerList:
+POIN TurnBasedEvents
+POIN CharacterBasedEvents
+POIN LocationBasedEvents
+POIN MiscBasedEvents
+POIN Dunno1 Dunno2 Dunno3 Tutorial
+POIN Traps1 Traps2
+POIN EvansGang EvansGang  //This unit group determines the number and position of deployment slots when there is a prep screen
+POIN $0 $0 $0
+POIN $0 $0 $0
+POIN BeginningScene EndingScene
+
+ALIGN 4
+TurnBasedEvents:
+END_MAIN
+
+ALIGN 32
+CharacterBasedEvents:
+END_MAIN
+
+ALIGN 4
+LocationBasedEvents:
+END_MAIN
+
+MiscBasedEvents:
+CauseGameOverIfLordDies
+END_MAIN
+
+Dunno1:
+END_MAIN
+
+Dunno2:
+END_MAIN
+
+Dunno3:
+END_MAIN
+
+Tutorial:
+END_MAIN
+
+Traps1:
+ENDTRAP
+ALIGN 4
+
+Traps2:
+ENDTRAP
+ALIGN 4
+
+BeginningScene:
+LOAD1 0x0 EvansGang
+EndEvent
+
+EndingScene:
+EndEvent
+
+EvansGang:
+UNIT Sigurd KnightLord Sigurd Level(1,Ally,0) [10,12] 0x0 0x0 0x0 0x1 [SteelSword, IronLance] NoAI
+UNIT Alec UniCav 0x0 Level(3,Ally,0) [9,13] 0x0 0x0 0x0 0x0 [0x0] NoAI
+UNIT Arden SwdArm 0x0 Level(3,Ally,0) [11,13] 0x0 0x0 0x0 0x0 [0x0] NoAI
+UNIT Noish UniCav 0x0 Level(3,Ally,0) [10,14] 0x0 0x0 0x0 0x0 [0x0] NoAI
+UNIT Lex AxeCav 0x0 Level(3,Ally,0) [11,15] 0x0 0x0 0x0 0x0 [0x0] NoAI
+UNIT Azel Mage 0x0 Level(3,Ally,0) [9,15] 0x0 0x0 0x0 0x0 [0x0] NoAI
+UNIT Quan DukeKnt 0x0 Level(3,Ally,0) [2,12] 0x0 0x0 0x0 0x0 [0x0] NoAI
+UNIT Finn LncCav 0x0 Level(3,Ally,0) [3,13] 0x0 0x0 0x0 0x0 [0x0] NoAI
+UNIT Ethlyn Troub 0x0 Level(3,Ally,0) [4,12] 0x0 0x0 0x0 0x0 [0x0] NoAI
+UNIT Midir ArchKnt 0x0 Level(3,Ally,0) [10,16] 0x0 0x0 0x0 0x0 [0x0] NoAI
+UNIT
+
+EnemyUnits:
+UNIT

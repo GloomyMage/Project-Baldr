@@ -1,0 +1,353 @@
+##LexAyraTalk
+[OpenMidRight][LoadAyra][OpenMidLeft][LoadLex]
+Ayra![N]
+Hey there.[A][N][OpenMidRight]
+Sigh[ToggleMouthMove]...[ToggleMouthMove][N]
+What do you want, Lex?[A][N][OpenMidLeft]
+Sheesh![N]
+Courteous as ever, aren't you?[A][N][OpenMidRight]
+Look, get to your point, whatever it may be.[N]
+I've better things to do than waste my time on you. [A][N][OpenMidLeft]
+Hold on.[N]
+I've got a little gift here.[A][N]
+I thought of you the moment I saw it.[A][N][OpenMidRight]
+You can foist it on other woman.[N]
+I've no use for such trinkets.[A][N][OpenMidLeft]
+Heh[ToggleMouthMove]...[ToggleMouthMove][N]
+Not even something like this?[A][N][OpenMidRight]
+Oh?[N]
+[ToggleMouthMove]...[ToggleMouthMove]Wit![A][N]
+That's-[A][N][OpenMidLeft]
+Ah, good![A][N]
+You're well acquainted with the famous[N]
+brave sword, then.[A][N][OpenMidRight]
+I never thought I'd see a real brave sword![N]
+Never have I seen a blade so beautiful[ToggleMouthMove]...[ToggleMouthMove][A][N][OpenMidLeft]
+Glad you like it![N]
+It's yours.[A][N]
+I guess I'll see you around, Ayra.[A][N][OpenMidRight]
+Er, Lex![N]
+Wait a moment![A][N][OpenMidLeft][ClearFace][OpenMidRight]
+Oh[ToggleMouthMove]...[ToggleMouthMove][A][X]
+
+##ChulainnAyraTalk
+[OpenMidRight][LoadAyra][OpenMidLeft][LoadChulainn]
+Hey, Ayra![N]
+This is for you.[A][N]
+Here.[A][N][OpenMidRight]
+Isn't this a brave sword?[N]
+Why me, though?[A][N]
+Shouldn't you be wielding this yourself?[A][N][OpenMidLeft]
+This thing is only gonna get harder from here,[N]
+yeah? You burn through blades so fast, [A][N]
+you could do with a spare or two.[A][N]
+Look after yourself out here, okay?[N]
+One day I might not be here to watch your back.[A][N][OpenMidRight]
+Chulainn[ToggleMouthMove]...[ToggleMouthMove][N]
+Thank you.[A][N]
+I promise I'll put it to good use.[A][X]
+
+##LachesisEldiganTalk
+[OpenMidRight][LoadEldigan][OpenMidLeft][LoadLachesis]
+Brother, stop![N]
+It's me, Lachesis![A][N]
+This pointlessness has gone on long enough![A][N]
+Your actions are utterly baffling![N]
+Would you really betray Sigurd, your friend?[A][N]
+Is this what you call a knight's pride?![A][N]
+Please, brother! Believe in Sigurd.[A][N]
+Give him even the tiniest amount more time[N]
+to finish his job. We don't need to fight.[A][N][OpenMidRight]
+Lachesis[ToggleMouthMove]...[ToggleMouthMove] Look, don't cry.[N]
+Fighting is my only choice.[A][N]
+Please don't make this harder than it already is.[A][N]
+His Majesty's death will spell the death[N]
+of Agustria, too, and I cannot allow that.[A][N][OpenMidLeft]
+That isn't true![N]
+Everything hinges on Chagall laying down his arms.[A][N]
+Sigurd never had any interest in fighting,[N]
+and has even less interest in continuing if you stop.[A][N]
+Brother[ToggleMouthMove]...[ToggleMouthMove] Please.[N]
+You lead the Cross Knights![A][N]
+Chagall simply cannot ignore your counsel![A][N][OpenMidRight]
+[ToggleMouthMove]...[ToggleMouthMove] You're right, Lachesis.[N]
+I'll try and persuade His Majesty, one more time.[A][N]
+If I must risk my life, I'd rather risk it to stop[N]
+this blasted war than to fight my friend.[A][N]
+Any knight would do the same.[A][N]
+Lachesis[ToggleMouthMove]...[ToggleMouthMove][A][N]
+Here.[N]
+This sword is for you.[A][N][OpenMidLeft]
+Isn't this the Lands Sword?![A][N]
+[ToggleMouthMove]...[ToggleMouthMove]Brother, you can't be-[N][OpenMidRight]
+This is a last memento, in case I[ToggleMouthMove]...[ToggleMouthMove][A][N]
+I'm sorry, Lachesis.
+You must survive![A][N][ClearFace][OpenMidLeft]
+W-wait![N]
+Stop! Don't go, Eldigan![A][X]
+
+##SigurdEldiganTalk
+
+##SigurdBeg
+[OpenMidRight][LoadEldigan][OpenMidLeft][LoadSigurd]
+Eldigan, please![N]
+Lay down your sword![A][N]
+I don't want to fight you![A][N]
+I still have every intention of returning[N]
+Agusty to Chagall![A][N][OpenMidRight]
+[ToggleMouthMove]...[ToggleMouthMove]Sigurd.[N]
+I'm sorry, but I grow weary of these excuses.[A][N]
+We stand now as two knights on the battlefield,[N]
+sworn to an honorable duel.[A][N]
+Draw, Sigurd![N]
+So long as I wield the demon blade, Mystletainn,[A][N]
+I won't be the one to fall this day![A][X]
+
+##SigurdSad
+[OpenMidRight][LoadOifey][OpenMidLeft][LoadSigurd]
+W[ToggleMouthMove]...[ToggleMouthMove]Why[ToggleMouthMove]...[ToggleMouthMove]Why did this happen?[N]
+Why couldn't we save Eldigan?![A][N]
+Has this damned war been[N]
+in vain after all along[ToggleMouthMove]...[ToggleMouthMove][A][N][OpenMidRight]
+I'm sorry, sire, but there was nothing you could[N]
+have done. I know it hurts, but[ToggleMouthMove]...[ToggleMouthMove][A][N]
+For now, the best we can do is work to realize[N]
+Eldigan's wishes,[A][N]
+and give the Agustrian people[N]
+the peace they deserve.[A][X]
+
+##IndechForSupport
+
+##ChagallIsEvil
+[OpenMidRight][LoadChagall][OpenMidLeft][LoadEldigan]
+Your Majesty, please order a retreat![N]
+There's no use in continuing this fight.[A][N]
+Agusty shall be returned to Your Majesty[N]
+someday, but it must happen peacefully.[A][N][OpenMidRight]
+Eldigan! How dare you abandon the battle[N]
+to spout such nonsense![A][N]
+You couldn't hide your true colors forever, traitor![A][N]
+Men! Seize this[ToggleMouthMove]...[ToggleMouthMove] this worm!
+Off with his head! Humiliate him![A][N]
+Parade his shamebefore the world![A][N][OpenMidLeft]
+I[ToggleMouthMove]...[ToggleMouthMove] this was all in vain[ToggleMouthMove]...[ToggleMouthMove][A][N]
+This spells Agustria's doom-[N][OpenMidRight]
+Tch, enough![A][N]
+Accept your death quietly, traitor![A][N]
+Finish him! Do it, right here, right NOW![A][N][OpenMidLeft]
+Lachesis[ToggleMouthMove]...[ToggleMouthMove][A][X]
+
+##IndechSeesItAll
+
+##SigurdIndechTalk
+
+##IndechJoinsTheArmy
+
+##CallistaRecruited
+
+##EldiganBattle
+[OpenMidLeft][LoadEldigan]
+Those of you who wish not[N]
+to fall prey to Mystletainn[ToggleMouthMove]...[ToggleMouthMove][A][N]
+Stay clear of me,[A][N]
+lest your life end on[N]
+the demon blade![A][X]
+
+##SigurdandEldiganBattle
+[OpenMidLeft][LoadEldigan]
+Sigurd[ToggleMouthMove]...[ToggleMouthMove][A][N]
+Never did I suspect our[N]
+blades would someday cross.[A][N]
+[ToggleMouthMove]...[ToggleMouthMove]Yet, we are knights.[N]
+This was always our fate.[A][N][ClearFace][OpenMidRight][LoadSigurd]
+E-Eldigan![N]
+Wait!![A][X]
+
+##LachesisandEldiganBattle
+[OpenMidLeft][LoadEldigan]
+Lachesis, stop![N]
+I will not fight you![A][X]
+
+##QuanandEldiganBattle
+
+##BeowolfandEldiganBattle
+
+##EldiganDeath
+[OpenMidLeft][LoadEldigan]
+Agustria[ToggleMouthMove]...[ToggleMouthMove][N]
+I've failed you[ToggleMouthMove]...[ToggleMouthMove][A][N]
+Forgive[ToggleMouthMove]...[ToggleMouthMove]me[ToggleMouthMove]...[ToggleMouthMove][A][X]
+
+##IndechBattle
+
+##LachesisandIndechBattle
+
+##IndechDeath
+
+##PapillonBattle
+[OpenMidLeft][LoadPapillon]
+Heh[ToggleMouthMove]...[ToggleMouthMove][ToggleSmile][A][N]
+Allow me to teach you the terror[N]
+of the Thracian dracoknights![A][X]
+
+##PapillonDeath
+[OpenMidLeft][LoadPapillon]
+Thracia[ToggleMouthMove]...[ToggleMouthMove][N]
+Glory to[ToggleMouthMove]...[ToggleMouthMove] urgh[ToggleMouthMove]...[ToggleMouthMove][A][X]
+
+##CallistaBattle
+
+##CallistaDeath
+
+##ChagallBattle
+[OpenMidLeft][LoadChagall]
+H-how dare you! I am the[N]
+King of Agustria![A][N]
+You dare[N]
+show me such direspect?![A][N]
+Damn it all[ToggleMouthMove]...[ToggleMouthMove][A][N]
+I'll show you the penalty[N]
+for such offense: death![A][X]
+
+##SigurdandChagallBattle
+[OpenMidLeft][LoadChagall]
+Sigurd![A][N]
+Feel the full force of your months[N]
+of humiliation of me![A][N][ClearFace][OpenMidRight][LoadSigurd]
+King Chagall, you've done naught[N]
+but murder countless innocents.[A][N]
+[ToggleMouthMove]...[ToggleMouthMove]And Eldigan[ToggleMouthMove]...[ToggleMouthMove][A][N]
+You're as foul as they come![A][N][ClearFace][OpenMidLeft][LoadChagall]
+Silence, you fool![N]
+You understand nothing of me![N]
+You die, Sigurd, here and now![A][X]
+
+##LachesisandChagallBattle
+[OpenMidLeft][LoadChagall]
+Hmhmhm[ToggleMouthMove]...[ToggleMouthMove][N]
+You're far too late, girl.[A][N]
+Eldigan is already long dead.[A][N][ClearFace][OpenMidRight][LoadLachesis]
+You[ToggleMouthMove]...[ToggleMouthMove] You pig! You butchered my brother![N]
+You will not get away with this![A][X]
+
+##IndechanadChagallBattle
+
+##ChagallDeath
+[OpenMidLeft][LoadChagall]
+My[ToggleMouthMove]...[ToggleMouthMove] My Agustria[ToggleMouthMove]...[ToggleMouthMove][A][X]
+
+##EldiganHurry
+[OpenMidRight][LoadEldigan][OpenMidLeft][LoadChagall]
+And just what do you think you are doing, Eldigan?![N]
+If you hadn't dawdled away your day here,[A][N]
+then perhaps we wouldn't have lost Madino![N]
+Ah, but that's your plan, isn't it?![A][N]
+You're part of their plot to destroy Agustria,[N]
+traitor![A][N][OpenMidRight]
+Your Majesty[ToggleMouthMove]...[ToggleMouthMove] How could you say that?[A][N][OpenMidLeft]
+What's this? Do you dare to be displeased?[N]
+To think, you've forgot my father's favor,[A][N]
+all to idly stall for time[ToggleMouthMove]...[ToggleMouthMove][N]
+You're a disgrace to knighthood![A][N][OpenMidRight]
+There's nothing more I can do to convince[N]
+you...Very well, Your Majesty.[A][N]
+My men and I will move out post-haste.[N]
+I am proud to be a paladin of Agustria.[A][N]
+If I must die, it shall be with sword in hand![N]
+By your leave, Your Majesty.[A][X]
+
+##IndechEldiganReadyToGo
+
+##EldiganRally
+[OpenMidRight][LoadEldigan]
+This is it, men.[N]
+It's time for us to enter the fray[ToggleMouthMove]...[ToggleMouthMove][A][N]
+Perhaps for the last time.[A][N]
+I count myself the luckiest commander there is[N]
+for your years of loyalty to me.[A][N]
+The fatherland's fate hinges on this final battle.[N]
+Do not let Agustria down.[A][N]
+Cross Knights! MOVE OUT![A][X]
+
+##ChagallTakesCommand
+[OpenMidRight][LoadChagall]
+Eldigan's finally moved out, has he?[N]
+Pompous twit[ToggleMouthMove]...[ToggleMouthMove][A][N]
+The rest of you, fortify the defenses![N]
+I'm in command now![A][X]
+
+##ChagallNeedsHelp
+
+##ProtectTheKing
+
+##TravantScheme
+[OpenMidRight][LoadTravant][OpenMidLeft][LoadChagall]
+Travant![N]
+I trust your dracoknights unit is ready?[A][N][OpenMidRight]
+You can rest assured, Chagall.[N]
+We'll deliver on your expectations.[A][N][OpenMidLeft]
+Hmph. I suppose even these common sellswords[A][N]
+ought to do a better job for me than all of my[N]
+worthless servants[ToggleMouthMove]...[ToggleMouthMove][A][N]
+Don't you dare let me down![A][X]
+
+##PapillonRally
+[OpenMidRight][LoadPapillon]
+Pick up the pace![N]
+Agustria's right there![A][N]
+Our targets are the knights of Granvalle.[N]
+Take your fill of battle![A][N]
+Sear the name of Thracia into the memories[N]
+of this land![N][A][X]
+
+##QuirkyCallista
+
+##ByeTravant
+[OpenMidRight][LoadTravant]
+Ugh[ToggleMouthMove]...[ToggleMouthMove] Papillon failed, did he? That does it.[N]
+It's time to withdraw. I refuse to fall with[N]
+this flaming wreck of a country.[A][N]
+Heh, farewell, King Chagall[ToggleMouthMove]...[ToggleMouthMove][N]
+You fool.[A][X]
+
+##BadNews
+[OpenMidRight][LoadOifey][OpenMidLeft][LoadSigurd]
+Eldigan[ToggleMouthMove]...[ToggleMouthMove][A][N][OpenMidRight]
+Sire[ToggleMouthMove]...[ToggleMouthMove] I know this is hard, but please,[N]
+you mustn't lose heart just yet.[A][N]
+By the way, Shannan has just arrived from Agusty.[N]
+He'd like a word with you, sire.[A][N][OpenMidLeft]
+Shannan?[A][N][OpenMidRight][ClearFace][OpenMidRight][LoadShannan]
+Sigurd![N]
+I'm sorry[ToggleMouthMove]...[ToggleMouthMove][N]
+I'm so, so sorry![A][N][OpenMidLeft]
+What's happening, Shannan?[N]
+Why are you crying?[A][N][OpenMidRight]
+Deirdre's gone![A][N]
+She left the castle and was looking to talk[N]
+to you, but she never returned.[A][N]
+I'm sorry![N]
+I failed to protect her[ToggleMouthMove]...[ToggleMouthMove][A][N][OpenMidLeft]
+What?![N]
+This can't be happening![A][N]
+And Seliph[ToggleMouthMove]...[ToggleMouthMove] Shannan, what about my son?[A][N][OpenMidRight]
+I've got Seliph with me.[N]
+See? Here he is.[A][N]
+But Deirdre...[A][N][OpenMidLeft]
+I see[ToggleMouthMove]...[ToggleMouthMove] Shannan, this isn't your fault.[N]
+Don't worry about it. We'll find her.[A][N]
+No matter what it takes, I'll find her.[A][N][OpenMidRight]
+B-but, I[ToggleMouthMove]...[ToggleMouthMove] I should've tried harder to stop her![N]
+I'm so sorry, Sigurd![A][N][ClearFace][OpenMidLeft]
+Deirdre[ToggleMouthMove]...[ToggleMouthMove][N]
+Where could you be...[A][X]
+
+##VillageOne
+
+##VillageTwo
+
+##VillageThree
+
+##VillageFour
+
+##VillageFive

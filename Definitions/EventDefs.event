@@ -3,6 +3,7 @@
 #define SetAI(unitid,ai1,ai2)"SVAL 0x1 ai1|(ai2<<8); CHAI unitid"
 #define SetAI(x,y,ai1,ai2) "SVAL 0x1 ai1|(ai2<<8); CHAI [x,y]"
 #define LoadUnitsByDifficulty(easy,normal,hard) "CHECK_TUTORIAL ; BNE 4034 rC r0 ; CHECK_HARD ; BNE 4035 rC r0 ; LOAD1 0x1 normal ; GOTO 4036 ; LABEL 4034 ; LOAD1 0x1 easy ; GOTO 4036 ; LABEL 4035 ; LOAD1 0x1 hard ; LABEL 4036 ; ENUN;"
+#define LoadUnitsByDifficulty2(easy,normal,hard) "CHECK_TUTORIAL ; BNE 4064 rC r0 ; CHECK_HARD ; BNE 4065 rC r0 ; LOAD1 0x1 normal ; GOTO 4066 ; LABEL 4064 ; LOAD1 0x1 easy ; GOTO 4066 ; LABEL 4065 ; LOAD1 0x1 hard ; LABEL 4066 ; ENUN;"
 #define SystemText(textid) "CenterTutorialTextBox; TUTORIALTEXTBOXSTART; TEXTSHOW textid; TEXTEND; REMA"
 #define SystemText(bgid,textid) "CenterTutorialTextBox; SetBackground(bgid); TUTORIALTEXTBOXSTART; TEXTSHOW textid; TEXTEND; FADI 0x3C"
 #define CGText(textid) "CGTEXTSTART; TEXTSHOW textid; TEXTEND"
@@ -15,6 +16,7 @@
 #define Narration(bgid,textid) "SetBackground(bgid); STAL 120; NarrationText(textid); MUSC 0x0; FADI 0x3c"
 #define CamOn "EVBIT_T 9"
 #define CamOff "EVBIT_F 9"
+#define StartGameOver "ASMC 0x800D391" // Game over ASMC 
 #define MoveByCoords(speed, srcX, srcY, destX, destY) "SVAL sB srcX|(srcY<<16); MOVE speed UnitAtCoordsSlotB [destX, destY]"
 #define RefreshSMS "ASMC 0x8026689" //see how this looks when loading stuff
 #define Reinforcements(pointer) "CamOn ; LOAD1 0x0 pointer; ENUN; RefreshSMS; CamOff"
@@ -38,8 +40,6 @@
 #define LocationText(bgid,textid,labelid,musicid) "MUSC 0x0; SetBackground(bgid); Location(labelid) ; MUSC musicid; TEXTSTART; TEXTSHOW textid; TEXTEND; FADI 0x3C"
 
 #define AreaEvent(eventID,EventPointer,corner1x,corner1y,corner2x,corner2y)   "AREA eventID EventPointer [corner1x,corner1y] [corner2x,corner2y]" 
-
-#define ResetBaseFlags "ENUT 0x3; ENUF BaseFlag1;ENUF BaseFlag2;ENUF BaseFlag3;ENUF BaseFlag4;ENUF BaseFlag5;ENUF BaseFlag6;ENUF BaseFlag7;ENUF BaseFlag8;"
 
 #define DesertItem(itemid,flag) "CHECK_ALLEGIANCE 0xFFFF; BNE 0x1 0xC 0x0; GiveItem(itemid); GOTO 0x2; LABEL 0x1; ENUF flag; LABEL 0x2; EndEvent"
 #define SurpriseAttack(unitpointer,coord1,coord2,flag) "CHECK_ALLEGIANCE 0xFFFF; BNE 0x1 0xC 0x0; CAM1 [coord1,coord2]; LOAD1 0x1 unitpointer; ENUN; GOTO 0x2; LABEL 0x1; ENUF flag; LABEL 0x2; EndEvent"

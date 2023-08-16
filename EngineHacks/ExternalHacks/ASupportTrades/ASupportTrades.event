@@ -1,0 +1,15 @@
+// A Support Trades
+// By Clendo
+
+PUSH
+ORG $25276
+SHORT $46C0
+jumpToHack(ASupportTrades) // First to check adjacent units
+ORG $252B6
+SHORT $46C0
+jumpToHack(ASupportTrades) // Second to check adjacent rescued units
+POP
+
+ALIGN 4
+ASupportTrades:
+#incbin "ASupportTrades.dmp"

@@ -47,18 +47,35 @@
 #include "Sigurd\Unarmed Installer.event"
 }
 {
+#include "Seliph\Sword Installer.event"
+#include "Seliph\Unarmed Installer.event"
+}
+{
 #include "Noish\Sword Installer.event"
 }
 {
+#include "Alec\Lance Installer.event"
+}
+{
 #include "JamkePro\Bow Installer.event"
+}
+{
+#include "Quan\Lance Installer.event"
+#include "Quan\Unarmed Installer.event"
 }
 {
 #include "Holyn\Sword Installer.event"
 #include "Holyn\Unarmed Installer.event"
 }
 {
+#include "HolynPro\Sword Installer.event"
+}
+{
 #include "Midir\Bow Installer.event"
 #include "Midir\Unarmed Installer.event"
+}
+{
+#include "MidirPro\Bow Installer.event"
 }
 {
 #include "Brigand\Axe Installer.event"
@@ -108,15 +125,34 @@
 #include "PalM(SALVAGED)\Unarmed Installer.event"
 }
 {
+#include "DukeKnight\Lance Installer.event"
+#include "DukeKnight\Unarmed Installer.event"
+}
+{
 #include "Knight(SALVAGED)\Sword Installer.event"
+#include "Knight(SALVAGED)\Lance Installer.event"
+#include "Knight(SALVAGED)\Axe Installer.event"
+#include "Knight(SALVAGED)\Handaxe Installer.event"
 #include "Knight(SALVAGED)\Bow Installer.event"
 #include "Knight(SALVAGED)\Unarmed Installer.event"
+}
+{
+#include "General\Sword Installer.event"
+#include "General\Lance Installer.event"
+#include "General\Axe Installer.event"
+#include "General\Handaxe Installer.event"
+#include "General\Bow Installer.event"
+#include "General\Unarmed Installer.event"
 }
 {
 #include "PalF(SALVAGED)\Sword Installer.event"
 #include "PalF(SALVAGED)\Lance Installer.event"
 #include "PalF(SALVAGED)\Staff Installer.event"
 #include "PalF(SALVAGED)\Unarmed Installer.event"
+}
+{
+#include "GreatKnight\Axe Installer.event"
+#include "GreatKnight\Handaxe Installer.event"
 }
 {
 #include "Baron\Sword Installer.event"
@@ -145,10 +181,6 @@
 {
 #include "HalberdierM(TBA)\Lance Installer.event"
 #include "HalberdierM(TBA)\Unarmed Installer.event"
-}
-{
-#include "Quan\Lance Installer.event"
-#include "Quan\Unarmed Installer.event"
 }
 {
 #include "DarkM(Temp)\Magic Installer.event"
@@ -209,8 +241,14 @@
 ALIGN 4
 SigurdAnims:
 SwordAnim(0x3)
-LanceAnim(0xC2)
+LanceAnim(0xBF)
 UnarmedAnim(0x4)
+EndAnim
+
+ALIGN 4
+SeliphAnims:
+SwordAnim(0x1)
+UnarmedAnim(0x2)
 EndAnim 
 
 ALIGN 4
@@ -219,15 +257,25 @@ SwordAnim(0xF7)
 EndAnim
 
 ALIGN 4
+AlecAnims:
+LanceAnim(0xFA)
+EndAnim
+
+ALIGN 4
 QuanAnims:
 LanceAnim(0xB1)
 UnarmedAnim(0xB2)
-EndAnim 
+EndAnim
 
 ALIGN 4
 MidirAnims:
 BowAnim(0xBE)
 UnarmedAnim(0xBD)
+EndAnim
+
+ALIGN 4
+MidirProAnims:
+BowAnim(0xC0)
 EndAnim
 
 ALIGN 4
@@ -242,10 +290,34 @@ UnarmedAnim(0x57)
 EndAnim
 
 ALIGN 4
+HolynProAnims:
+SwordAnim(0xC2)
+EndAnim
+
+ALIGN 4
+DukeKnightAnims:
+LanceAnim(0xAF)
+UnarmedAnim(0xB0)
+EndAnim
+
+ALIGN 4
 ArmorAnims:
 SwordAnim(0x42)
+LanceAnim(0x40)
+AxeAnim(0x43)
+HandAxeAnim(0xD4)
 BowAnim(0xD3)
 UnarmedAnim(0x41)
+EndAnim
+
+ALIGN 4
+GeneralAnims:
+SwordAnim(0x44)
+LanceAnim(0x45)
+AxeAnim(0x46)
+HandAxeAnim(0x47)
+BowAnim(0xD5)
+UnarmedAnim(0x48)
 EndAnim
 
 ALIGN 4

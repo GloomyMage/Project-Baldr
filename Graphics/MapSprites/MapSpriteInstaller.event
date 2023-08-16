@@ -84,11 +84,35 @@ BowCavMv:
 
 ALIGN 4
 AxeCavSt:
-#incbin "AxeCavSt.dmp"
+#incbin "AxeCavST.dmp"
 
 ALIGN 4
 AxeCavMv:
-#incbin "AxeCavMv.dmp"
+#incbin "AxeCavMV.dmp"
+
+ALIGN 4
+LanceCavST:
+#incbin "LanceCavST.dmp"
+
+ALIGN 4
+LanceCavMV:
+#incbin "LanceCavMV.dmp"
+
+ALIGN 4
+DukeKnightST:
+#incbin "DukeKnightST.dmp"
+
+ALIGN 4
+DukeKnightMV:
+#incbin "DukeKnightMV.dmp"
+
+ALIGN 4
+ForrestST:
+#incbin "ForrestST.dmp"
+
+ALIGN 4
+ForrestMV:
+#incbin "ForrestMV.dmp"
 
 ALIGN 4
 UniCavSt:

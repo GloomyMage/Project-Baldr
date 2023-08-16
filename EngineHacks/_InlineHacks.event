@@ -95,6 +95,17 @@ ORG $16e90
 BYTE 0x32
 POP
 
+//Level stays unreset at promotion
+PUSH
+
+    ORG $2BE70
+    BYTE 0x00 0x00 0x00 0x00
+
+    ORG $736C4
+    BYTE 0x28 0x7A
+
+POP
+
 //5x fixes
 PUSH
 ORG $024DF2

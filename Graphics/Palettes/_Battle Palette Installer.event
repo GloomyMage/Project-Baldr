@@ -31,10 +31,26 @@ FILL 0xFF * 0x07 // Allocate 0xFF entries for the CharClassTable.
 #define SetPaletteFuller(Character,UnpromotedPalette,UnpromotedClass,UnpromotedPalette2,UnpromotedClass2,FirstPromotionPalette,FirstPromotionClass,SecondPromotionPalette,SecondPromotionClass,ThirdPromotionPalette,ThirdPromotionClass,FourthPromotionPalette,FourthPromotionClass) "setCharPalette(Character,0x00,UnpromotedPalette,UnpromotedPalette2,FirstPromotionPalette,SecondPromotionPalette,ThirdPromotionPalette,FourthPromotionPalette) ; setCharClass(Character,0x00,UnpromotedClass,UnpromotedClass2,FirstPromotionClass,SecondPromotionClass,ThirdPromotionClass,FourthPromotionClass)"
 
 #define DiMaggioPaletteID 0x20
+#define GerrardPaletteID 0x21
 #define MunnirPaletteID 0x23
+#define BordeauxPaletteID 0x28
+#define SlayderPaletteID 0x2E
+#define HaroldPaletteID 0x5B
+#define AgustriaArmorID 0x02
+#define SilesseArmorID 0x03
+#define GrannvalleArmorID 0x04
+#define ArdenPaletteID 0x05
 
-setPalette(MunnirPaletteID,MunnirPalette)
 setPalette(DiMaggioPaletteID,DiMaggioPalette)
+setPalette(GerrardPaletteID,GerrardPalette)
+setPalette(MunnirPaletteID,MunnirPalette)
+setPalette(BordeauxPaletteID,BordeauxPalette)
+setPalette(SlayderPaletteID,SlayderPalette)
+setPalette(HaroldPaletteID,HaroldPalette)
+setPalette(AgustriaArmorID,AgustriaArmPalette)
+setPalette(SilesseArmorID,SilesseArmPalette)
+setPalette(GrannvalleArmorID,GranvalleArmPalette)
+setPalette(ArdenPaletteID,ArdenPalette)
 
 SetPaletteFull(DiMaggio,DiMaggioPaletteID,Brigand,0x0,0x0,0x0,0x0)
 
@@ -43,8 +59,40 @@ DiMaggioPalette:
 #incbin "DiMaggio.dmp"
 
 ALIGN 4
+GerrardPalette:
+#incbin "Gerrard.dmp"
+
+ALIGN 4
 MunnirPalette:
 #incbin "Munnir.dmp"
+
+ALIGN 4
+BordeauxPalette:
+#incbin "Bordeaux.dmp"
+
+ALIGN 4
+SlayderPalette:
+#incbin "Slayder.dmp"
+
+ALIGN 4
+HaroldPalette:
+#incbin "Harold.dmp"
+
+ALIGN 4
+AgustriaArmPalette:
+#incbin "AgustriaKnight.dmp"
+
+ALIGN 4
+GranvalleArmPalette:
+#incbin "GranvalleKnight.dmp"
+
+ALIGN 4
+SilesseArmPalette:
+#incbin "SilesseKnight.dmp"
+
+ALIGN 4
+ArdenPalette:
+#incbin "ArdenKnight.dmp"
 
 PUSH
 ORG $59BFC

@@ -3,6 +3,6 @@ MasterSealClassList:
 BYTE Thief FThief Merc MercF Myrm MyrmF Archer ArcherF Fighter BrigandF Pirate PirateF Soldier 
 BYTE FreeCav LncCav AxeCav BowCav SwdArm LncArm AxeArm BowArm
 BYTE Mage MageF Troub Priest Cleric DarkM DarkF 
-BYTE LncPeg
+BYTE LncPeg Princess
 BYTE 0x00 0x00
 

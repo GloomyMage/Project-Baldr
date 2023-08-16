@@ -1,0 +1,10 @@
+#define setCardEntry(cardEntry,cardLocation,cardPaletteLocation) "PUSH; ORG PortraitTable+cardEntry*0x1C; POIN 0 0 cardPaletteLocation 0 cardLocation; POP"
+
+#define AxeCavCard 0xA2
+
+AxeCavPortrait:
+#incbin "AxeCav.dmp"
+AxeCavPortraitPalette:
+#incbin "AxeCavPalette.dmp"
+
+setCardEntry(AxeCavCard,AxeCavPortrait,AxeCavPortraitPalette)

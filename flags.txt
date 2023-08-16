@@ -13,3 +13,9 @@ F:Village4
 11:Gerrard battle
 12:SigurdEthlyn
 13:Seize Jungby
+14:afev village 1
+15:afev village 2
+16:afev village 3
+17:afev village 4
+18:afev village 5
+19:Noish and dimaggio battle
