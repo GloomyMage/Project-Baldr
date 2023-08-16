@@ -4,7 +4,7 @@ He's courageous and has a strong sense of justice.[X]
 
 ##Desc_Alec ^
 Knight of Chalphy. The polar opposite of Naoise, [N]
-despite being his best friend and a bit of a womaniser.[X]
+despite being his best friend and a womaniser.[X]
 
 ##Desc_Naoise ^
 Knight of Chalphy. A calm and serious character, [N]
