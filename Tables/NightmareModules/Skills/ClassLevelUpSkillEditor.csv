@@ -46,7 +46,7 @@ INLINE ClassLevelUpSkillTable,Skill Pointer
 0x2C Paladin (M),PaladinMSkillList|IsPointer
 0x2D Holy Knight,HolyKnightSkillList|IsPointer
 0x2E Troubadour,TroubadourSkillList|IsPointer
-0x2F Walkyrie,WalkyrieSkillList|IsPointer
+0x2F Valkyrie,ValkyrieSkillList|IsPointer
 0x30 Paladin (F),PaladinFSkillList|IsPointer
 0x31 Free Knight,FreeKnightSkillList|IsPointer
 0x32 Ranger,RangerSkillList|IsPointer

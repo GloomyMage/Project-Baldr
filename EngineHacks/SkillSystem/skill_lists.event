@@ -736,6 +736,22 @@ PalmarchSkillList:
 BYTE 00 00
 ALIGN 4
 
+PayneSkillList:
+BYTE 00 00
+ALIGN 4
+
+ShamashSkillList:
+BYTE 00 00
+ALIGN 4
+
+BartholomewSkillList:
+BYTE 00 00
+ALIGN 4
+
+PeksimetSkillList:
+BYTE 00 00
+ALIGN 4
+
 LordSkillList:
 BYTE 00 00
 ALIGN 4

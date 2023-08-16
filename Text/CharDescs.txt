@@ -26,7 +26,7 @@ Compares himself to his older brother and [N]
 suffers from an inferiority complex.[X]
 
 ##Desc_Quan ^
-Prince of Leonster and inheritor of the lance Gáe Bolg. [NL]
+Prince of Leonster and inheritor of the lance Gae Bolg. [NL]
 Husband of Ethlyn, the younger sister [N]
 of his close friend Sigurd.[X]
 
@@ -152,7 +152,7 @@ Gentle, yet faces her destiny with strength.[X]
 
 ##Desc_Larcei ^
 A young warrior searching for her mother, [N]
-elegantly fashioned blade in hand. Scáthach [N]
+elegantly fashioned blade in hand. Scathach [N]
 is her twin brother, and Shannan is her cousin.[X]
 
 ##Desc_Diarmuid ^
@@ -302,11 +302,11 @@ Hannibal[X]
 
 ##Desc_Altena ^
 Daughter of Travant, [N]
-and inheritor of the Gáe Bolg.[X]
+and inheritor of the Gae Bolg.[X]
 
 ##Desc_Altena2 ^
 Daughter of Quan and Ethlyn, [N]
-and inheritor of the Gáe Bolg. [NL]
+and inheritor of the Gae Bolg. [NL]
 She was raised by her family's enemy, Travant.[X]
 
 ##Desc_Saias ^
@@ -493,7 +493,7 @@ A bad parental figure.[X]
 
 ##Desc_Slayder ^
 General of Dozel working directly under Lombard, [N]
-he takes pleasure in hunting down his “preys”.[X]
+he takes pleasure in hunting down his "preys".[X]
 
 ##Desc_Andrey ^
 After his ascension to the Yngvi throne, he assists Dukes [N]
@@ -503,7 +503,7 @@ Leader of the Beige Ritter.[X]
 ##Desc_Lombard ^
 Duke of Grannvale's House Dozel, [N]
 a full-blooded descendant of the [N]
-Crusader Nál and inheritor of Helswath. [X]
+Crusader Nal and inheritor of Helswath. [X]
 
 ##Desc_Magorn ^
 Leader of the Thracian Lance Ritter, [N]
@@ -517,7 +517,7 @@ She particularly enjoys the desert’s clear sky.[X]
 ##Desc_Reptor ^
 Duke of Grannvale's House Friege and the [N]
 Chancellor of Grannvale as a whole. He is the [N]
-descendant of Thrud, wielder of the tome Mjölnir. [X]
+descendant of Thrud, wielder of the tome Mjolnir. [X]
 
 ##Desc_Harold ^
 Dozel commandant, oblivious [N]
@@ -587,7 +587,7 @@ Formidable and admired mage knight in Friege's army. [NL]
 Ever ready to lend an ear to his younger sister, Olwen. [X]
 
 ##Desc_Ishtar ^
-The heir to Mjölnir, she carries the blood of [N]
+The heir to Mjolnir, she carries the blood of [N]
 the royal family of Friege. The descent of her love, [N]
 Julius, into the darkness troubles her.[X]
 
@@ -609,7 +609,7 @@ Distler[X]
 Travant[X]
 
 ##Desc_Travant2 ^
-King of Thracia, and descendant of the crusader Dáinn. [NL]
+King of Thracia, and descendant of the crusader Dainn. [NL]
 Eying the fertile land to his north, he hatches [N]
 a plan to unite the entire peninsula.[X]
 

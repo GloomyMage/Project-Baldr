@@ -420,7 +420,7 @@ Use this on a worthy wielder[N]
 of magic power and staves.[X]
 
 
-##UChestKey[N]
+##UChestKey ^
 Opens chests.[X]
 
 

@@ -162,14 +162,17 @@ Leif[X]
 ##Name_Altena
 Altena[X]
 
-##Name_CallistaSon
-Callison[X]
+##Name_Zagreus
+Zagreus[X]
 
-##Name_CallistaDaughter
-CallistaDaughter[X]
+##Name_Melchior
+Melchior[X]
 
 ##Name_Persephone
 Persephone[X]
+
+##Name_Nehalennia
+Nehalennia[X]
 
 ##Name_Creidne
 Creidne[X]
@@ -219,12 +222,6 @@ Oifey[X]
 ##Name_Shannan
 Shannan[X]
 
-##Name_CallistaSonSub
-CalliSonSub[X]
-
-##Name_CallistaGirlSub
-CalliGirlSub[X]
-
 ##Name_Iuchar
 Iuchar[X]
 
@@ -234,8 +231,8 @@ Iucharba[X]
 ##Name_Ares
 Ares[X]
 
-##Name_IndechChild
-IndechChild[X]
+##Name_Aife
+Aife[X]
 
 ##Name_Hannibal
 Hannibal[X]
