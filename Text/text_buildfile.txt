@@ -733,6 +733,18 @@ Jake[X]
 ##Name_Enemy
 Enemy[X]
 
+##Name_Payne
+Payne[X]
+
+##Name_Bartholomew
+Bartholomew[X]
+
+##Name_Shamash
+Shamash[X]
+
+##Name_Peksimet
+Peksimet[X]
+
 #include "statscreen_text.txt"
 
 #include "unitmenu_text.txt"
@@ -836,7 +848,6 @@ a skill when used.[X]
 
 #include "Chapter Text/Prologue.txt"
 #include "Chapter Text/Chapter5.txt"
-
 
 #include "Objectives.txt"
 
