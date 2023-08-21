@@ -15,6 +15,7 @@
 [.6] = [......]
 [.7] = [.......]
 [Beat] = [ToggleMouthMove]...[.4][ToggleMouthMove]
+[...] = [ToggleMouthMove]...[ToggleMouthMove]
 [Event] = [LoadOverworldFaces]
 
 [HorseIcon] = [0x7B]
@@ -161,3 +162,4 @@
 [LoadBaddie1] = [LoadFace][0x6c][0x1]
 [LoadBaddie2] = [LoadFace][0x6d][0x1]
 [LoadBaddie3] = [LoadFace][0x6e][0x1]
+[LoadBlacksmith] = [LoadFace][0xDF][0x1]

@@ -18,9 +18,9 @@ BYTE 02
 
 //Class Grants Bonus EXP when killed
 ORG 0x02C3FE
-BYTE 68
+BYTE 100
 ORG 0x2C4F8 
-BYTE 68
+BYTE 100
 
 // Lockpick skill - Kirito 
 ORG 0x40C6A 
@@ -28,13 +28,13 @@ BYTE 18
 
 //Phantom Class HardCoding
 ORG 0x18EDE
-BYTE 72
+BYTE 97
 ORG 0x3122E
-BYTE 72
+BYTE 97
 ORG 0x0240F6
-BYTE 72
+BYTE 97
 ORG 0x002C528
-BYTE 72
+BYTE 97
 
 //thracia trading
 PUSH

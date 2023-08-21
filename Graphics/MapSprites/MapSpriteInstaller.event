@@ -27,6 +27,22 @@ AP4WyvernLord:
 #incbin "AP4(WyvernLord).bin"
 
 ALIGN 4
+LordST:
+#incbin "LordST.dmp"
+
+ALIGN 4
+LordMv:
+#incbin "LordMv.dmp"
+
+ALIGN 4
+KntLordSeliphST:
+#incbin "KntLordSeliphST.dmp"
+
+ALIGN 4
+KntLordSeliphMv:
+#incbin "KntLordSeliphMv.dmp"
+
+ALIGN 4
 SigurdST:
 #incbin "SigurdST.dmp"
 
@@ -43,28 +59,68 @@ PrinceMv:
 #incbin "PrinceMv.dmp"
 
 ALIGN 4
-ArcherMSt:
-#incbin "ArcherMSt.dmp" 
+PrincessST:
+#incbin "PrincessST.dmp"
 
 ALIGN 4
-ArcherMMv:
-#incbin "ArcherMMv.dmp" 
+PrincessMv:
+#incbin "PrincessMv.dmp"
 
 ALIGN 4
-ArcherFSt:
-#incbin "ArcherFSt.dmp"
- 
-ALIGN 4
-ArcherFMv:
-#incbin "ArcherFMv.dmp" 
+MastKntMST:
+#incbin "MastKntMST.dmp"
 
 ALIGN 4
-PirateMSt:
-#incbin "PirateMSt.dmp"
- 
+MastKntMMv:
+#incbin "MastKntMMv.dmp"
+
 ALIGN 4
-PirateMMv:
-#incbin "PirateMMv.dmp"
+MastKntFST:
+#incbin "MastKntFST.dmp"
+
+ALIGN 4
+MastKntFMv:
+#incbin "MastKntFMv.dmp"
+
+ALIGN 4
+MercFST:
+#incbin "MercFST.dmp"
+
+ALIGN 4
+MercFMv:
+#incbin "MercFMv.dmp"
+
+ALIGN 4
+ThiefFST:
+#incbin "ThiefFST.dmp"
+
+ALIGN 4
+ThiefFMv:
+#incbin "ThiefFMv.dmp"
+
+ALIGN 4
+RogueFST:
+#incbin "RogueFST.dmp"
+
+ALIGN 4
+RogueFMv:
+#incbin "RogueFMv.dmp"
+
+ALIGN 4
+AssassMST:
+#incbin "AssassMST.dmp"
+
+ALIGN 4
+AssassMMv:
+#incbin "AssassMMv.dmp"
+
+ALIGN 4
+AssassFST:
+#incbin "AssassFST.dmp"
+
+ALIGN 4
+AssassFMv:
+#incbin "AssassFMv.dmp"
 
 ALIGN 4
 FighterSt:
@@ -123,17 +179,433 @@ UniCavMv:
 #incbin "UniCavMv.dmp"
 
 ALIGN 4
-HunterSt:
-#incbin "HunterSt.dmp"
+WarriorFST:
+#incbin "WarriorFST.dmp"
+
+ALIGN 4
+WarriorFMv:
+#incbin "WarriorFMv.dmp"
+
+ALIGN 4
+HunterST:
+#incbin "HunterST.dmp"
 
 ALIGN 4
 HunterMv:
 #incbin "HunterMv.dmp"
 
 ALIGN 4
-SwordknightST:
-#incbin "SwordknightST.dmp"
+BrigandMST:
+#incbin "BrigandMST.dmp"
 
 ALIGN 4
-SwordknightMV:
-#incbin "SwordknightMV.dmp"
+BrigandMMv:
+#incbin "BrigandMMv.dmp"
+
+ALIGN 4
+BrigandFST:
+#incbin "BrigandFST.dmp"
+
+ALIGN 4
+BrigandFMv:
+#incbin "BrigandFMv.dmp"
+
+ALIGN 4
+PirateMSt:
+#incbin "PirateMSt.dmp"
+
+ALIGN 4
+PirateMMv:
+#incbin "PirateMMV.dmp"
+
+ALIGN 4
+ArcherMST:
+#incbin "ArcherMSt.dmp" 
+
+ALIGN 4
+ArcherMMv:
+#incbin "ArcherMMv.dmp" 
+
+ALIGN 4
+ArcherFST:
+#incbin "ArcherFSt.dmp"
+
+ALIGN 4
+ArcherFMv:
+#incbin "ArcherFMv.dmp"
+
+ALIGN 4
+PirateFST:
+#incbin "PirateFST.dmp"
+
+ALIGN 4
+PirateFMv:
+#incbin "PirateFMv.dmp"
+
+ALIGN 4
+BerserkFST:
+#incbin "BerserkFST.dmp"
+
+ALIGN 4
+BerserkFMv:
+#incbin "BerserkFMv.dmp"
+
+ALIGN 4
+SniperMST:
+#incbin "SniperMST.dmp"
+
+ALIGN 4
+SniperMMv:
+#incbin "SniperMMv.dmp"
+
+ALIGN 4
+SniperFST:
+#incbin "SniperFST.dmp"
+
+ALIGN 4
+SniperFMv:
+#incbin "SniperFMv.dmp"
+
+ALIGN 4
+AdventMST:
+#incbin "AdventMST.dmp"
+
+ALIGN 4
+AdventMMv:
+#incbin "AdventMMv.dmp"
+
+ALIGN 4
+AdventFST:
+#incbin "AdventFST.dmp"
+
+ALIGN 4
+AdventFMv:
+#incbin "AdventFMv.dmp"
+
+ALIGN 4
+FreebldST:
+#incbin "FreebldST.dmp"
+
+ALIGN 4
+FreebldMv:
+#incbin "FreebldMv.dmp"
+
+ALIGN 4
+SoldierST:
+#incbin "SoldierST.dmp"
+
+ALIGN 4
+SoldierMv:
+#incbin "SoldierMv.dmp"
+
+ALIGN 4
+HalbrdST:
+#incbin "HalbrdST.dmp"
+
+ALIGN 4
+HalbrdMv:
+#incbin "HalbrdMv.dmp"
+
+ALIGN 4
+HolyKntST:
+#incbin "HolyKntST.dmp"
+
+ALIGN 4
+HolyKntMv:
+#incbin "HolyKntMv.dmp"
+
+ALIGN 4
+PalFST:
+#incbin "PalFST.dmp"
+
+ALIGN 4
+PalFMv:
+#incbin "PalFMv.dmp"
+
+ALIGN 4
+FreeKntST:
+#incbin "FreeKntST.dmp"
+
+ALIGN 4
+FreeKntMv:
+#incbin "FreeKntMv.dmp"
+
+ALIGN 4
+GreatKntST:
+#incbin "GreatKntST.dmp"
+
+ALIGN 4
+GreatKntMv:
+#incbin "GreatKntMv.dmp"
+
+ALIGN 4
+BowKntFST:
+#incbin "BowKntFST.dmp"
+
+ALIGN 4
+BowKntFMv:
+#incbin "BowKntFMv.dmp"
+
+ALIGN 4
+ArchKntST:
+#incbin "ArchKntST.dmp"
+
+ALIGN 4
+ArchKntMv:
+#incbin "ArchKntMv.dmp"
+
+ALIGN 4
+BlackKntST:
+#incbin "BlackKntST.dmp"
+
+ALIGN 4
+BlackKntMv:
+#incbin "BlackKntMv.dmp"
+
+ALIGN 4
+SwdArmST:
+#incbin "SwdArmST.dmp"
+
+ALIGN 4
+SwdArmMv:
+#incbin "SwdArmMv.dmp"
+
+ALIGN 4
+LncArmST:
+#incbin "LncArmST.dmp"
+
+ALIGN 4
+LncArmMv:
+#incbin "LncArmMv.dmp"
+
+ALIGN 4
+AxeArmST:
+#incbin "AxeArmST.dmp"
+
+ALIGN 4
+AxeArmMv:
+#incbin "AxeArmMv.dmp"
+
+ALIGN 4
+BowArmST:
+#incbin "BowArmST.dmp"
+
+ALIGN 4
+BowArmMv:
+#incbin "BowArmMv.dmp"
+
+ALIGN 4
+ProtectorST:
+#incbin "ProtectorST.dmp"
+
+ALIGN 4
+ProtectorMv:
+#incbin "ProtectorMv.dmp"
+
+ALIGN 4
+SentryST:
+#incbin "SentryST.dmp"
+
+ALIGN 4
+SentryMv:
+#incbin "SentryMv.dmp"
+
+ALIGN 4
+GeneralST:
+#incbin "GeneralST.dmp"
+
+ALIGN 4
+GeneralMv:
+#incbin "GeneralMv.dmp"
+
+ALIGN 4
+GuardianST:
+#incbin "GuardianST.dmp"
+
+ALIGN 4
+GuardianMv:
+#incbin "GuardianMv.dmp"
+
+ALIGN 4
+HarrierST:
+#incbin "HarrierST.dmp"
+
+ALIGN 4
+HarrierMv:
+#incbin "HarrierMv.dmp"
+
+ALIGN 4
+WyvRiderMST:
+#incbin "WyvRiderMST.dmp"
+
+ALIGN 4
+WyvRiderMMv:
+#incbin "WyvRiderMMv.dmp"
+
+ALIGN 4
+WyvRiderFST:
+#incbin "WyvRiderFST.dmp"
+
+ALIGN 4
+WyvRiderFMv:
+#incbin "WyvRiderFMv.dmp"
+
+ALIGN 4
+WyvLordFST:
+#incbin "WyvLordFST.dmp"
+
+ALIGN 4
+WyvLordFMv:
+#incbin "WyvLordFMv.dmp"
+
+ALIGN 4
+MaligKntST:
+#incbin "MaligKntST.dmp"
+
+ALIGN 4
+MaligKntMv:
+#incbin "MaligKntMv.dmp"
+
+ALIGN 4
+FirMageMST:
+#incbin "FirMageMST.dmp"
+
+ALIGN 4
+FirMageMMv:
+#incbin "FirMageMMv.dmp"
+
+ALIGN 4
+ThrMageMST:
+#incbin "ThrMageMST.dmp"
+
+ALIGN 4
+ThrMageMMv:
+#incbin "ThrMageMMv.dmp"
+
+ALIGN 4
+ThrMageFST:
+#incbin "ThrMageFST.dmp"
+
+ALIGN 4
+ThrMageFMv:
+#incbin "ThrMageFMv.dmp"
+
+ALIGN 4
+WndMageMST:
+#incbin "WndMageMST.dmp"
+
+ALIGN 4
+WndMageMMv:
+#incbin "WndMageMMv.dmp"
+
+ALIGN 4
+WndMageFST:
+#incbin "WndMageFST.dmp"
+
+ALIGN 4
+WndMageFMv:
+#incbin "WndMageFMv.dmp"
+
+ALIGN 4
+MageWarMST:
+#incbin "MageWarMST.dmp"
+
+ALIGN 4
+MageWarMMv:
+#incbin "MageWarMMv.dmp"
+
+ALIGN 4
+MageWarFST:
+#incbin "MageWarFST.dmp"
+
+ALIGN 4
+MageWarFMv:
+#incbin "MageWarFMv.dmp"
+
+ALIGN 4
+MageMST:
+#incbin "MageMST.dmp"
+
+ALIGN 4
+MageMMv:
+#incbin "MageMMv.dmp"
+
+ALIGN 4
+MageFST:
+#incbin "MageFST.dmp"
+
+ALIGN 4
+MageFMv:
+#incbin "MageFMv.dmp"
+
+ALIGN 4
+ShamanST:
+#incbin "ShamanST.dmp"
+
+ALIGN 4
+ShamanMv:
+#incbin "ShamanMv.dmp"
+
+ALIGN 4
+BaronST:
+#incbin "BaronST.dmp"
+
+ALIGN 4
+BaronMv:
+#incbin "BaronMv.dmp"
+
+ALIGN 4
+EmperorST:
+#incbin "EmperorST.dmp"
+
+ALIGN 4
+EmperorMv:
+#incbin "EmperorMv.dmp"
+
+ALIGN 4
+BishopFST:
+#incbin "BishopFST.dmp"
+
+ALIGN 4
+BishopFMv:
+#incbin "BishopFMv.dmp"
+
+ALIGN 4
+QueenST:
+#incbin "QueenST.dmp"
+
+ALIGN 4
+QueenMv:
+#incbin "QueenMv.dmp"
+
+ALIGN 4
+DrkMageFST:
+#incbin "DrkMageFST.dmp"
+
+ALIGN 4
+DrkMageFMv:
+#incbin "DrkMageFMv.dmp"
+
+ALIGN 4
+DrkBishopFST:
+#incbin "DrkBishopFST.dmp"
+
+ALIGN 4
+DrkBishopFMv:
+#incbin "DrkBishopFMv.dmp"
+
+ALIGN 4
+ArchbishopST:
+#incbin "ArchbishopST.dmp"
+
+ALIGN 4
+ArchbishopMv:
+#incbin "ArchbishopMv.dmp"
+
+ALIGN 4
+DarkPrinceST:
+#incbin "DarkPrinceST.dmp"
+
+ALIGN 4
+DarkPrinceMv:
+#incbin "DarkPrinceMv.dmp"

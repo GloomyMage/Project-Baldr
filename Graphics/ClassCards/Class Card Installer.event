@@ -291,7 +291,7 @@ setCardEntry(HalbrdCard,HalbrdPortrait,HalbrdPortraitPalette)
 #define UniCavCard 0x91
 
 UniCavPortrait:
-#incbin "AxeCav.dmp"
+#incbin "UniCav.dmp"
 UniCavPortraitPalette:
 #incbin "UniCavPalette.dmp"
 

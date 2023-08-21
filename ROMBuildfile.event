@@ -18,6 +18,7 @@
     #include "Tables/TableInstaller.event"
 	#include "Tables/StatBoosts.event"
 	#include "Tables/PromoUsability.event"
+	#include "Tables/EATables.event"
     MESSAGE Used table space ends at currentOffset
 
     //Engine Hacks

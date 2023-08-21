@@ -151,6 +151,9 @@ POP
   //A Support Trading
   #include "ExternalHacks/ASupportTrades/ASupportTrades.event"
   
+  //Repair Items
+  #include "ExternalHacks/RepairItems/RepairItems.event"
+  
   //Dynamic Portrait
   #include "Necessary/DynamicPortrait/DynamicPortraitsInstaller.event" 
   

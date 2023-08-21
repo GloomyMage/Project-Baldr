@@ -61,11 +61,11 @@
 #define Hawk 0x3A
 #define Coirpre 0x3B                     //Chapter 9
 #define Charlot 0x3C
-#define OifeyAdult 0x3D                 //Gen 2 Non-Inheritance
+#define Oifey 0x3D                 //Gen 2 Non-Inheritance
 #define Julia 0x3E
 #define Iuchar 0x3F
 #define Iucharba 0x40
-#define ShannanAdult 0x41
+#define Shannan 0x41
 #define Ares 0x42
 #define Aife 0x43
 #define Leif 0x44

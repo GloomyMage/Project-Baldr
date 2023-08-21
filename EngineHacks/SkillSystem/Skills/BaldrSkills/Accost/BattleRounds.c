@@ -48,6 +48,11 @@ void BattleUnwind(void) {
 bool ContinueIfAccost(BattleUnit* attacker, BattleUnit* defender) {
     int activationChance = 0;
     BattleUnit* accostUnit = attacker;
+
+    if (attacker->unit.curHP == 0 || defender->unit.curHP == 0) {
+        return FALSE;
+    }
+
     if (attacker->unit.curHP >= 25 && SkillTester(&attacker->unit, AccostIDLink)) {
         activationChance = attacker->battleSpeed - (defender->battleSpeed + (defender->unit.curHP / 2));
     }
@@ -55,6 +60,10 @@ bool ContinueIfAccost(BattleUnit* attacker, BattleUnit* defender) {
     else if (defender->unit.curHP >= 25 && SkillTester(&defender->unit, AccostIDLink)) {
         activationChance = defender->battleSpeed - (attacker->battleSpeed + (attacker->unit.curHP / 2));
         accostUnit = defender;
+    }
+
+    if (activationChance < 0) {
+        activationChance = 0;
     }
 
     if (BattleRoll1RN(activationChance, &accostUnit->unit)) {
