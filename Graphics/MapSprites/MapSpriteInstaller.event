@@ -192,7 +192,7 @@ HunterST:
 
 ALIGN 4
 HunterMv:
-#incbin "HunterMv.dmp"
+#incbin "HunterMV.dmp"
 
 ALIGN 4
 BrigandMST:
@@ -216,7 +216,7 @@ PirateMSt:
 
 ALIGN 4
 PirateMMv:
-#incbin "PirateMMV.dmp"
+#incbin "PirateMMv.dmp"
 
 ALIGN 4
 ArcherMST:
@@ -328,7 +328,7 @@ FreeKntST:
 
 ALIGN 4
 FreeKntMv:
-#incbin "FreeKntMv.dmp"
+#incbin "FreeKntMV.dmp"
 
 ALIGN 4
 GreatKntST:
@@ -336,7 +336,7 @@ GreatKntST:
 
 ALIGN 4
 GreatKntMv:
-#incbin "GreatKntMv.dmp"
+#incbin "GreatKntMV.dmp"
 
 ALIGN 4
 BowKntFST:

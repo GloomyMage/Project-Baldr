@@ -42,198 +42,198 @@
 //////////////Installed animations go here:
 
 {
-#include "Sigurd\Sword Installer.event"
-#include "Sigurd\Lance Installer.event"
-#include "Sigurd\Unarmed Installer.event"
+#include "Sigurd/Sword Installer.event"
+#include "Sigurd/Lance Installer.event"
+#include "Sigurd/Unarmed Installer.event"
 }
 {
-#include "Seliph\Sword Installer.event"
-#include "Seliph\Unarmed Installer.event"
+#include "Seliph/Sword Installer.event"
+#include "Seliph/Unarmed Installer.event"
 }
 {
-#include "Noish\Sword Installer.event"
+#include "Noish/Sword Installer.event"
 }
 {
-#include "Alec\Lance Installer.event"
+#include "Alec/Lance Installer.event"
 }
 {
-#include "JamkePro\Bow Installer.event"
+#include "JamkePro/Bow Installer.event"
 }
 {
-#include "Quan\Lance Installer.event"
-#include "Quan\Unarmed Installer.event"
+#include "Quan/Lance Installer.event"
+#include "Quan/Unarmed Installer.event"
 }
 {
-#include "Holyn\Sword Installer.event"
-#include "Holyn\Unarmed Installer.event"
+#include "Holyn/Sword Installer.event"
+#include "Holyn/Unarmed Installer.event"
 }
 {
-#include "HolynPro\Sword Installer.event"
+#include "HolynPro/Sword Installer.event"
 }
 {
-#include "Midir\Bow Installer.event"
-#include "Midir\Unarmed Installer.event"
+#include "Midir/Bow Installer.event"
+#include "Midir/Unarmed Installer.event"
 }
 {
-#include "MidirPro\Bow Installer.event"
+#include "MidirPro/Bow Installer.event"
 }
 {
-#include "Brigand\Axe Installer.event"
-#include "Brigand\Handaxe Installer.event"
-#include "Brigand\Unarmed Installer.event"
+#include "Brigand/Axe Installer.event"
+#include "Brigand/Handaxe Installer.event"
+#include "Brigand/Unarmed Installer.event"
 }
 {
-#include "FighterM(LeoLink)\Axe Installer.event"
-#include "FighterM(LeoLink)\Handaxe Installer.event"
-#include "FighterM(LeoLink)\Unarmed Installer.event"
+#include "FighterM(LeoLink)/Axe Installer.event"
+#include "FighterM(LeoLink)/Handaxe Installer.event"
+#include "FighterM(LeoLink)/Unarmed Installer.event"
 }
 {
-#include "Barbarian\Axe Installer.event"
-#include "Barbarian\Handaxe Installer.event"
-#include "Barbarian\Unarmed Installer.event"
+#include "Barbarian/Axe Installer.event"
+#include "Barbarian/Handaxe Installer.event"
+#include "Barbarian/Unarmed Installer.event"
 }
 {
-#include "WarriorM(Pushwall)\Axe Installer.event"
-#include "WarriorM(Pushwall)\Handaxe Installer.event"
-#include "WarriorM(Pushwall)\Bow Installer.event"
-#include "WarriorM(Pushwall)\Unarmed Installer.event"
+#include "WarriorM(Pushwall)/Axe Installer.event"
+#include "WarriorM(Pushwall)/Handaxe Installer.event"
+#include "WarriorM(Pushwall)/Bow Installer.event"
+#include "WarriorM(Pushwall)/Unarmed Installer.event"
 }
 {
-#include "BerserkerM(Blue Druid)\Axe Installer.event"
-#include "BerserkerM(Blue Druid)\Handaxe Installer.event"
-#include "BerserkerM(Blue Druid)\Unarmed Installer.event"
+#include "BerserkerM(Blue Druid)/Axe Installer.event"
+#include "BerserkerM(Blue Druid)/Handaxe Installer.event"
+#include "BerserkerM(Blue Druid)/Unarmed Installer.event"
 }
 {
-#include "MageF(LisandraBrave)\Magic Installer.event"
+#include "MageF(LisandraBrave)/Magic Installer.event"
 }
 {
-#include "MageM(GabrielKnight)\Magic Installer.event"
+#include "MageM(GabrielKnight)/Magic Installer.event"
 }
 {
-#include "Hunter(MeatOfJustice)\Bow Installer.event"
-#include "Hunter(MeatOfJustice)\Unarmed Installer.event"
+#include "Hunter(MeatOfJustice)/Bow Installer.event"
+#include "Hunter(MeatOfJustice)/Unarmed Installer.event"
 }
 {
-#include "CavM(SALVAGED)\Axe Installer.event"
-#include "CavM(SALVAGED)\Handaxe Installer.event"
-#include "CavM(SALVAGED)\Bow Installer.event"
-#include "CavM(SALVAGED)\Unarmed Installer.event"
+#include "CavM(SALVAGED)/Axe Installer.event"
+#include "CavM(SALVAGED)/Handaxe Installer.event"
+#include "CavM(SALVAGED)/Bow Installer.event"
+#include "CavM(SALVAGED)/Unarmed Installer.event"
 }
 {
-#include "PalM(SALVAGED)\Sword Installer.event"
-#include "PalM(SALVAGED)\Lance Installer.event"
-#include "PalM(SALVAGED)\Unarmed Installer.event"
+#include "PalM(SALVAGED)/Sword Installer.event"
+#include "PalM(SALVAGED)/Lance Installer.event"
+#include "PalM(SALVAGED)/Unarmed Installer.event"
 }
 {
-#include "DukeKnight\Lance Installer.event"
-#include "DukeKnight\Unarmed Installer.event"
+#include "DukeKnight/Lance Installer.event"
+#include "DukeKnight/Unarmed Installer.event"
 }
 {
-#include "Knight(SALVAGED)\Sword Installer.event"
-#include "Knight(SALVAGED)\Lance Installer.event"
-#include "Knight(SALVAGED)\Axe Installer.event"
-#include "Knight(SALVAGED)\Handaxe Installer.event"
-#include "Knight(SALVAGED)\Bow Installer.event"
-#include "Knight(SALVAGED)\Unarmed Installer.event"
+#include "Knight(SALVAGED)/Sword Installer.event"
+#include "Knight(SALVAGED)/Lance Installer.event"
+#include "Knight(SALVAGED)/Axe Installer.event"
+#include "Knight(SALVAGED)/Handaxe Installer.event"
+#include "Knight(SALVAGED)/Bow Installer.event"
+#include "Knight(SALVAGED)/Unarmed Installer.event"
 }
 {
-#include "General\Sword Installer.event"
-#include "General\Lance Installer.event"
-#include "General\Axe Installer.event"
-#include "General\Handaxe Installer.event"
-#include "General\Bow Installer.event"
-#include "General\Unarmed Installer.event"
+#include "General/Sword Installer.event"
+#include "General/Lance Installer.event"
+#include "General/Axe Installer.event"
+#include "General/Handaxe Installer.event"
+#include "General/Bow Installer.event"
+#include "General/Unarmed Installer.event"
 }
 {
-#include "PalF(SALVAGED)\Sword Installer.event"
-#include "PalF(SALVAGED)\Lance Installer.event"
-#include "PalF(SALVAGED)\Staff Installer.event"
-#include "PalF(SALVAGED)\Unarmed Installer.event"
+#include "PalF(SALVAGED)/Sword Installer.event"
+#include "PalF(SALVAGED)/Lance Installer.event"
+#include "PalF(SALVAGED)/Staff Installer.event"
+#include "PalF(SALVAGED)/Unarmed Installer.event"
 }
 {
-#include "GreatKnight\Axe Installer.event"
-#include "GreatKnight\Handaxe Installer.event"
+#include "GreatKnight/Axe Installer.event"
+#include "GreatKnight/Handaxe Installer.event"
 }
 {
-#include "Baron\Sword Installer.event"
-#include "Baron\Lance Installer.event"
-#include "Baron\Axe Installer.event"
-#include "Baron\Handaxe Installer.event"
-#include "Baron\Bow Installer.event"
-#include "Baron\Magic Installer.event"
+#include "Baron/Sword Installer.event"
+#include "Baron/Lance Installer.event"
+#include "Baron/Axe Installer.event"
+#include "Baron/Handaxe Installer.event"
+#include "Baron/Bow Installer.event"
+#include "Baron/Magic Installer.event"
 }
 {
-#include "ArcherM(Der)\Bow Installer.event"
-#include "ArcherM(Der)\Unarmed Installer.event"
+#include "ArcherM(Der)/Bow Installer.event"
+#include "ArcherM(Der)/Unarmed Installer.event"
 }
 {
-#include "ArcherF(Der)\Bow Installer.event"
-#include "ArcherF(Der)\Unarmed Installer.event"
+#include "ArcherF(Der)/Bow Installer.event"
+#include "ArcherF(Der)/Unarmed Installer.event"
 }
 {
-#include "SniperM(Nuramon)\Bow Installer.event"
-#include "SniperM(Nuramon)\Unarmed Installer.event"
+#include "SniperM(Nuramon)/Bow Installer.event"
+#include "SniperM(Nuramon)/Unarmed Installer.event"
 }
 {
-#include "SniperF(Nuramon)\Bow Installer.event"
-#include "SniperF(Nuramon)\Unarmed Installer.event"
+#include "SniperF(Nuramon)/Bow Installer.event"
+#include "SniperF(Nuramon)/Unarmed Installer.event"
 }
 {
-#include "HalberdierM(TBA)\Lance Installer.event"
-#include "HalberdierM(TBA)\Unarmed Installer.event"
+#include "HalberdierM(TBA)/Lance Installer.event"
+#include "HalberdierM(TBA)/Unarmed Installer.event"
 }
 {
-#include "DarkM(Temp)\Magic Installer.event"
+#include "DarkM(Temp)/Magic Installer.event"
 }
 {
-#include "DarkF(MarkyJoe)\Magic Installer.event"
+#include "DarkF(MarkyJoe)/Magic Installer.event"
 }
 {
-#include "SorcM(Eldritch)\Magic Installer.event"
-#include "SorcM(Eldritch)\Staff Installer.event"
+#include "SorcM(Eldritch)/Magic Installer.event"
+#include "SorcM(Eldritch)/Staff Installer.event"
 }
 {
-#include "SageM(Levin64)\Magic Installer.event"
-#include "SageM(Levin64)\Staff Installer.event"
+#include "SageM(Levin64)/Magic Installer.event"
+#include "SageM(Levin64)/Staff Installer.event"
 }
 {
-#include "SageF(Levin64)\Magic Installer.event"
-#include "SageF(Levin64)\Staff Installer.event"
+#include "SageF(Levin64)/Magic Installer.event"
+#include "SageF(Levin64)/Staff Installer.event"
 }
 {
-#include "Peg(Flasuban)\Lance Installer.event"
-#include "Peg(Flasuban)\Sword Installer.event"
-#include "Peg(Flasuban)\Unarmed Installer.event"
+#include "Peg(Flasuban)/Lance Installer.event"
+#include "Peg(Flasuban)/Sword Installer.event"
+#include "Peg(Flasuban)/Unarmed Installer.event"
 }
 {
-#include "Falco\Lance Installer.event"
-#include "Falco\Sword Installer.event"
-#include "Falco\Staff Installer.event"
-#include "Falco\Unarmed Installer.event"
+#include "Falco/Lance Installer.event"
+#include "Falco/Sword Installer.event"
+#include "Falco/Staff Installer.event"
+#include "Falco/Unarmed Installer.event"
 }
 {
-#include "Priest(Eldritch)\Staff Installer.event"
-#include "Priest(Eldritch)\Unarmed Installer.event"
+#include "Priest(Eldritch)/Staff Installer.event"
+#include "Priest(Eldritch)/Unarmed Installer.event"
 }
 {
-#include "Ballista(Spud)\Bow Installer.event"
+#include "Ballista(Spud)/Bow Installer.event"
 }
 {
-#include "BardM\Magic Installer.event"
-#include "BardM\Refresh Installer.event"
+#include "BardM/Magic Installer.event"
+#include "BardM/Refresh Installer.event"
 }
 {
-#include "AssassM\Sword Installer.event"
-#include "AssassM\Unarmed Installer.event"
+#include "AssassM/Sword Installer.event"
+#include "AssassM/Unarmed Installer.event"
 }
 {
-#include "AssassF\Sword Installer.event"
-#include "AssassF\Unarmed Installer.event"
+#include "AssassF/Sword Installer.event"
+#include "AssassF/Unarmed Installer.event"
 }
 {
-#include "TroubF\Sword Installer.event"
-#include "TroubF\Magic Installer.event"
-#include "TroubF\Staff Installer.event"
+#include "TroubF/Sword Installer.event"
+#include "TroubF/Magic Installer.event"
+#include "TroubF/Staff Installer.event"
 }
 
   //#include "my animation Installer.event"

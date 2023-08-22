@@ -1,7 +1,7 @@
 //EA Stuff that should have a csv but probably has a good reason not to 
 
-#include "EA\Supports\EndingsTables.event"
+#include "EA/Supports/EndingsTables.event"
 
-#include "EA\Supports\SupportConvosTable.event"
+#include "EA/Supports/SupportConvosTable.event"
 
-#include "EA\Supports\SupportPointersTable.event"
+#include "EA/Supports/SupportPointersTable.event"

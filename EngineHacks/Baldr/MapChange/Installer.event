@@ -1,4 +1,4 @@
-#include "eastdlib.event"
+#include "EAstdlib.event"
 #define TileMapFlag(TCN,X1,X2,L1,L2,flag,TilePointer) "BYTE TCN X1 X2 L1 L2 flag 0 0; POIN TilePointer"
 #ifndef jumpToHack_r2
     #define jumpToHack_r2(offset) "BYTE 0x00 0x4A 0x10 0x47; POIN (offset|0x1)"
