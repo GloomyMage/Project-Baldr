@@ -512,7 +512,7 @@ It is said he hails from a large family.[X]
 
 ##Desc_Vaja ^
 Velthomer general who has a great interest in astronomy. [N]
-She particularly enjoys the desert’s clear sky.[X]
+She particularly enjoys the desert's clear sky.[X]
 
 ##Desc_Reptor ^
 Duke of Grannvale's House Friege and the [N]
@@ -574,7 +574,7 @@ It is said he hails from a large family.[X]
 Bloom[X]
 
 ##Desc_Muhammad ^
-Found and rescued by Reptor during Darna’s assault. [NL]
+Found and rescued by Reptor during Darna's assault. [NL]
 This young and mighty general has [N]
 sworn allegiance to Friege since then. [X]
 
