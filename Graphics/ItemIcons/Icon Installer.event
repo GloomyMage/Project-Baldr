@@ -9,6 +9,36 @@ NewItemIcons:
 PUSH 
 // Individual Icons go here
 ALIGN 4
+ItemIconEntry(LifeRingIcon)
+#incbin "Misc/Life Ring.dmp"
+ALIGN 4
+ItemIconEntry(ParagonRingIcon)
+#incbin "Misc/Paragon Ring.dmp"
+ALIGN 4
+ItemIconEntry(ThiefRingIcon)
+#incbin "Misc/Thief Ring.dmp"
+ALIGN 4
+ItemIconEntry(MiracleRingIcon)
+#incbin "Misc/Miracle Ring.dmp"
+ALIGN 4
+ItemIconEntry(FollowUpRingIcon)
+#incbin "Misc/Follow-Up Ring.dmp"
+ALIGN 4
+ItemIconEntry(BargainRingIcon)
+#incbin "Misc/Bargain Ring.dmp"
+ALIGN 4
+ItemIconEntry(KnightRingIcon)
+#incbin "Misc/Knight Ring.dmp"
+ALIGN 4
+ItemIconEntry(RescueRingIcon)
+#incbin "Misc/Rescue Ring.dmp"
+ALIGN 4
+ItemIconEntry(RecoverRingIcon)
+#incbin "Misc/Recover Ring.dmp"
+ALIGN 4
+ItemIconEntry(CircletIcon)
+#incbin "Misc/Circlet.dmp"
+ALIGN 4
 ItemIconEntry(SwordOfLegendIcon)
 #incbin "Swords/Sword of Legend.dmp"
 ALIGN 4
@@ -69,11 +99,47 @@ ALIGN 4
 ItemIconEntry(MasterBowIcon)
 #incbin "Bows/Master Bow.dmp"
 ALIGN 4
+ItemIconEntry(FireIcon)
+#incbin "Fire/Fire.dmp"
+ALIGN 4
+ItemIconEntry(ElfireIcon)
+#incbin "Fire/Elfire.dmp"
+ALIGN 4
+ItemIconEntry(BolganoneIcon)
+#incbin "Fire/Bolganone.dmp"
+ALIGN 4
+ItemIconEntry(MeteorIcon)
+#incbin "Fire/Meteor.dmp"
+ALIGN 4
+ItemIconEntry(ThunderIcon)
+#incbin "Thunder/Thunder.dmp"
+ALIGN 4
+ItemIconEntry(ElthunderIcon)
+#incbin "Thunder/Elthunder.dmp"
+ALIGN 4
+ItemIconEntry(ThoronIcon)
+#incbin "Thunder/Thoron.dmp"
+ALIGN 4
+ItemIconEntry(BoltingIcon)
+#incbin "Thunder/Bolting.dmp"
+ALIGN 4
+ItemIconEntry(WindIcon)
+#incbin "Wind/Wind.dmp"
+ALIGN 4
+ItemIconEntry(ElwindIcon)
+#incbin "Wind/Elwindr.dmp"
+ALIGN 4
+ItemIconEntry(TornadoIcon)
+#incbin "Wind/Tornado.dmp"
+ALIGN 4
+ItemIconEntry(BlizzardIcon)
+#incbin "Wind/Blizzard.dmp"
+ALIGN 4
 ItemIconEntry(TyrfingIcon)
 #incbin "Regalia/Tyrfing.dmp"
 ALIGN 4
 ItemIconEntry(BalmungIcon)
-#incbin "Regalia/Bamlung.dmp"
+#incbin "Regalia/Balmung.dmp"
 ALIGN 4
 ItemIconEntry(MystletainnIcon)
 #incbin "Regalia/Mystletainn.dmp"
