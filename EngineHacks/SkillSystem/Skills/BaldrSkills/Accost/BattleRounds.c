@@ -54,11 +54,11 @@ bool ContinueIfAccost(BattleUnit* attacker, BattleUnit* defender) {
     }
 
     if (attacker->unit.curHP >= 25 && SkillTester(&attacker->unit, AccostIDLink)) {
-        activationChance = attacker->battleSpeed - (defender->battleSpeed + (defender->unit.curHP / 2));
+        activationChance = (attacker->battleSpeed + attacker->unit.curHP / 2) - defender->battleSpeed;
     }
 
     else if (defender->unit.curHP >= 25 && SkillTester(&defender->unit, AccostIDLink)) {
-        activationChance = defender->battleSpeed - (attacker->battleSpeed + (attacker->unit.curHP / 2));
+        activationChance = (defender->battleSpeed + defender->unit.curHP / 2) - attacker->battleSpeed;
         accostUnit = defender;
     }
 
@@ -66,8 +66,5 @@ bool ContinueIfAccost(BattleUnit* attacker, BattleUnit* defender) {
         activationChance = 0;
     }
 
-    if (BattleRoll1RN(activationChance, &accostUnit->unit)) {
-        return TRUE;
-    }
-    return FALSE;
+    return BattleRoll1RN(activationChance, &accostUnit->unit);
 }
