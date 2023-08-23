@@ -127,7 +127,7 @@ ItemIconEntry(WindIcon)
 #incbin "Wind/Wind.dmp"
 ALIGN 4
 ItemIconEntry(ElwindIcon)
-#incbin "Wind/Elwindr.dmp"
+#incbin "Wind/Elwind.dmp"
 ALIGN 4
 ItemIconEntry(TornadoIcon)
 #incbin "Wind/Tornado.dmp"
