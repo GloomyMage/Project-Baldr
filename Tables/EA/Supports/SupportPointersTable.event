@@ -39,3 +39,45 @@ SupportDataCharacters(0,0,0,0,0)
 SupportDataInitialValues(0,0,0,0,0)
 SupportDataGrowths(0,0,0,0,0)
 SupportCountAmount(5)
+
+ALIGN 4
+LewynSupportPointer:
+SupportDataCharacters(Ayra,Brigid,Erinys,Tailtiu,Sylvia) 
+SupportDataInitialValues(0,0,0,0,0)
+SupportDataGrowths(0,0,0,0,0)
+SupportCountAmount(5)
+
+ALIGN 4
+TailtiuSupportPointer:
+SupportDataCharacters(Lewyn,0,0,0,0) 
+SupportDataInitialValues(0,0,0,0,0)
+SupportDataGrowths(0,0,0,0,0)
+SupportCountAmount(5)
+
+ALIGN 4
+BrigidSupportPointer:
+SupportDataCharacters(Lewyn,0,0,0,0) 
+SupportDataInitialValues(0,0,0,0,0)
+SupportDataGrowths(0,0,0,0,0)
+SupportCountAmount(5)
+
+ALIGN 4
+AyraSupportPointer:
+SupportDataCharacters(Lewyn,0,0,0,0) 
+SupportDataInitialValues(0,0,0,0,0)
+SupportDataGrowths(0,0,0,0,0)
+SupportCountAmount(5)
+
+ALIGN 4
+ErinysSupportPointer:
+SupportDataCharacters(Lewyn,0,0,0,0) 
+SupportDataInitialValues(0,0,0,0,0)
+SupportDataGrowths(0,0,0,0,0)
+SupportCountAmount(5)
+
+ALIGN 4
+SylviaSupportPointer:
+SupportDataCharacters(Lewyn,0,0,0,0) 
+SupportDataInitialValues(0,0,0,0,0)
+SupportDataGrowths(0,0,0,0,0)
+SupportCountAmount(5)

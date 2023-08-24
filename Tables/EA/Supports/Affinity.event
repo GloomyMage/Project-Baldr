@@ -1,0 +1,18 @@
+//expanded affinity list
+PUSH
+ORG 0x28534
+POIN NewAffinityList
+POP
+
+#define AffinityEntry(ID, pow, def, hit, avo, crit, critavo) "BYTE ID pow def hit avo crit critavo 0"
+
+ALIGN 4
+NewAffinityList:
+AffinityEntry(1, 0, 0, 0, 0, 0, 0) //01 Fire
+AffinityEntry(2, 0, 0, 0, 0, 0, 0) //02 Thunder
+AffinityEntry(3, 0, 0, 0, 0, 0, 0) //03 Wind
+AffinityEntry(4, 0, 0, 0, 0, 0, 0) //04 Ice
+AffinityEntry(5, 0, 0, 0, 0, 0, 0) //05 Dark
+AffinityEntry(6, 0, 0, 0, 0, 0, 0) //06 Light
+AffinityEntry(7, 0, 0, 0, 0, 0, 0) //07 Anima
+WORD 0 0

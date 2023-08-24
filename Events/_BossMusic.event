@@ -1,0 +1,83 @@
+#define BossBGMEntry(UnitId,SongId) "BYTE UnitId 0 0 0; SHORT SongId 0"
+#define BossBGMTerminator "BYTE 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF"
+
+//MidBoss is normal bosses, Fateful is Holy blood bosses, vs arvis is arvis, vs julius is julius, lopt theme is julia, from friend is ayra jamka beowolf fury johalva johalvier tine faval altena and arion, fe1 attack is holyn, lacrima castle is hopper indech clement and callista, battle for tomorrow is burkaul, victory now is papillon, rise to the challenge is snevejr, confront is magorn, the battle must be won is harold, stalwart opposition is tonnamin, fe5 boss is coulter, softly with grace is musar, fateful is riddell
+
+ALIGN 4
+BossBGMTable:
+//Normal
+BossBGMEntry(DiMaggio,Midboss)
+BossBGMEntry(Gerrard,Midboss)
+BossBGMEntry(Kinbois,Midboss)
+BossBGMEntry(Sandima,Midboss)
+BossBGMEntry(Elliot,Midboss)
+BossBGMEntry(Graham,Midboss)
+BossBGMEntry(Phillip,Midboss)
+BossBGMEntry(Bordeaux,Midboss)
+BossBGMEntry(Henson,Midboss)
+BossBGMEntry(Banquo,Midboss)
+BossBGMEntry(Ross,Midboss)
+BossBGMEntry(Voltz,Midboss)
+BossBGMEntry(Macbeth,Midboss)
+BossBGMEntry(Elling,Midboss)
+BossBGMEntry(Clement,Midboss)
+BossBGMEntry(Jacobin,Midboss)
+BossBGMEntry(Lino,Midboss)
+BossBGMEntry(Estrella,Midboss)
+BossBGMEntry(Othello,Midboss)
+BossBGMEntry(Pizare,Midboss)
+BossBGMEntry(Duvall,Midboss)
+BossBGMEntry(Cuvuli,Midboss)
+BossBGMEntry(Marlon,Midboss)
+BossBGMEntry(Dithorba,Midboss)
+BossBGMEntry(Ivan,Midboss)
+BossBGMEntry(Pamela,Midboss)
+BossBGMEntry(Donovan,Midboss)
+BossBGMEntry(Lamia,Midboss)
+BossBGMEntry(Slayder,Midboss)
+BossBGMEntry(Vaja,Midboss)
+BossBGMEntry(Schmidt,Midboss)
+BossBGMEntry(Kutozov,Midboss)
+BossBGMEntry(Liza,Midboss)
+BossBGMEntry(Javarro,Midboss)
+BossBGMEntry(Bramsel,Midboss)
+BossBGMEntry(Banba,Midboss)
+BossBGMEntry(Eriu,Midboss)
+BossBGMEntry(Fotla,Midboss)
+BossBGMEntry(Muhammed,Midboss)
+BossBGMEntry(Ovo,Midboss)
+BossBGMEntry(Reinhardt,Midboss)
+BossBGMEntry(Maykov,Midboss)
+BossBGMEntry(Kanatz,Midboss)
+BossBGMEntry(Distler,Midboss)
+BossBGMEntry(Judah,Midboss)
+BossBGMEntry(Leidan,Midboss)
+BossBGMEntry(Lance,Midboss)
+BossBGMEntry(Lancelot,Midboss)
+BossBGMEntry(Morrigan,Midboss)
+BossBGMEntry(Zagam,Midboss)
+BossBGMEntry(Roberto,Midboss)
+BossBGMEntry(Boyce,Midboss)
+BossBGMEntry(Juphiel,Midboss)
+BossBGMEntry(Fisher,Midboss)
+BossBGMEntry(Dahlia,Midboss)
+BossBGMEntry(Dagon,Midboss)
+BossBGMEntry(Baran,Midboss)
+BossBGMEntry(Meng,Midboss)
+BossBGMEntry(Bleg,Midboss)
+BossBGMEntry(Mabel,Midboss)
+//Holy Blood
+//Fjalar
+//Recruitables original
+//Recruitables OC
+//Arena
+//Zanes
+BossBGMEntry(Zane,Midboss)
+BossBGMTerminator
+
+PUSH
+
+ORG $72908
+POIN BossBGMTable
+
+POP

@@ -106,7 +106,7 @@ MidirPortrait:
 #incbin "Midir_frames.dmp"
 #incbin "Midir_palette.dmp"
 #incbin "Midir_minimug.dmp"
-setMugEntry(0xF,MidirPortrait,3,5,3,3)
+setMugEntry(0xF,MidirPortrait,2,5,3,3)
 
 ALIGN 4
 AideenPortrait:
@@ -114,7 +114,7 @@ AideenPortrait:
 #incbin "Aideen_frames.dmp"
 #incbin "Aideen_palette.dmp"
 #incbin "Aideen_minimug.dmp"
-setMugEntry(0x10,AideenPortrait,3,5,3,3)
+setMugEntry(0x10,AideenPortrait,2,5,3,3)
 
 ALIGN 4
 DewPortrait:
@@ -636,7 +636,7 @@ MunnirPortrait:
 #incbin "Munnir_frames.dmp"
 #incbin "Munnir_palette.dmp"
 #incbin "Munnir_minimug.dmp"
-setMugEntry(0x39,MunnirPortrait,3,4,3,2)
+setMugEntry(0x39,MunnirPortrait,2,5,3,3)
 
 ALIGN 4
 BurkaulPortrait:
@@ -1198,7 +1198,7 @@ ArvisPortrait:
 #incbin "Arvis_frames.dmp"
 #incbin "Arvis_palette.dmp"
 #incbin "Arvis_minimug.dmp"
-setMugEntry(0x47,ArvisPortrait,2,4,2,2)
+setMugEntry(0x47,ArvisPortrait,2,5,3,3)
 
 ALIGN 4
 EvePortrait:
@@ -1326,7 +1326,7 @@ EdenPortrait:
 #incbin "Eden_frames.dmp"
 #incbin "Eden_palette.dmp"
 #incbin "Eden_minimug.dmp"
-setMugEntry(0x64,EdenPortrait,3,5,3,3)
+setMugEntry(0x64,EdenPortrait,2,6,2,4)
 
 ALIGN 4
 ShopkeeperToaPortrait:
@@ -1387,19 +1387,9 @@ Snevejr_Palette:
 setMugEntryExtend(0x4C, Snevejr_Mug, Snevejr_Mini, Snevejr_Palette, Snevejr_Frames, 2, 5, 2, 3, 10, 3, 0, 0)
 
 ALIGN 4
-Henson_Mug:
+HensonPortrait:
 #incbin "Henson_mug.dmp"
-
-ALIGN 4
-Henson_Mini:
-#incbin "Henson_minimug.dmp"
-
-ALIGN 4
-Henson_Frames:
 #incbin "Henson_frames.dmp"
-
-ALIGN 4
-Henson_Palette:
 #incbin "Henson_palette.dmp"
-
-setMugEntryExtend(0x4D, Henson_Mug, Henson_Mini, Henson_Palette, Henson_Frames, 2, 5, 2, 3, 0, 2, 0, 1)
+#incbin "Henson_minimug.dmp"
+setMugEntry(0x4D,HensonPortrait,2,5,2,3)

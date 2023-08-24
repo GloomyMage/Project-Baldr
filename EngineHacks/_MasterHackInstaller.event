@@ -169,6 +169,9 @@ POP
   //Set Unit Condition
   #include "Necessary/SetStatus/SetStatusInstaller.event"
   
+  //FE4 Style Durability by Dragz
+  #include "ExternalHacks/AwakeningStyleDurability/AwakeningStyleDurability.lyn.event"
+  
   //Uncheese
   #include "ExternalHacks/Uncheese/UncheeseMasterInstaller.event"
   

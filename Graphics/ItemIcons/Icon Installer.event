@@ -22,7 +22,7 @@ ItemIconEntry(MiracleRingIcon)
 #incbin "Misc/Miracle Ring.dmp"
 ALIGN 4
 ItemIconEntry(FollowUpRingIcon)
-#incbin "Misc/Follow-Up Ring.dmp"
+#incbin "Misc/Follow Up Ring.dmp"
 ALIGN 4
 ItemIconEntry(BargainRingIcon)
 #incbin "Misc/Bargain Ring.dmp"
@@ -35,9 +35,6 @@ ItemIconEntry(RescueRingIcon)
 ALIGN 4
 ItemIconEntry(RecoverRingIcon)
 #incbin "Misc/Recover Ring.dmp"
-ALIGN 4
-ItemIconEntry(CircletIcon)
-#incbin "Misc/Circlet.dmp"
 ALIGN 4
 ItemIconEntry(SwordOfLegendIcon)
 #incbin "Swords/Sword of Legend.dmp"
@@ -92,9 +89,6 @@ ItemIconEntry(SeaAxeIcon)
 ALIGN 4
 ItemIconEntry(MasterAxeIcon)
 #incbin "Axes/Master Axe.dmp"
-ALIGN 4
-ItemIconEntry(MagicBowIcon)
-#incbin "Bows/Magic Bow.dmp"
 ALIGN 4
 ItemIconEntry(MasterBowIcon)
 #incbin "Bows/Master Bow.dmp"

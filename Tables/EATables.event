@@ -5,3 +5,5 @@
 #include "EA/Supports/SupportConvosTable.event"
 
 #include "EA/Supports/SupportPointersTable.event"
+
+#include "EA/Supports/Affinity.event"

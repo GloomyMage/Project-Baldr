@@ -44,6 +44,7 @@ BYTE 00 00
 ALIGN 4
 
 MidirSkillList:
+BYTE 1 AccostID
 BYTE 00 00
 ALIGN 4
 
