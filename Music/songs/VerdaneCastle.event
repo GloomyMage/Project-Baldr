@@ -1,0 +1,1424 @@
+//Event file generated from Sappy .s format.
+	#include "MPlayDef.event"
+
+	#define	EvansCastle_grp  voicegroup000
+	#define	EvansCastle_pri  0
+	#define	EvansCastle_rev  0
+	#define	EvansCastle_mvl  100
+	#define	EvansCastle_key  0
+	#define	EvansCastle_tbs  1
+	#define	EvansCastle_exg  0
+	#define	EvansCastle_cmp  1
+
+	// .rodata
+	//	EvansCastle
+	ALIGN 4
+
+//**************** Track 1 (Midi-Chn.6) ****************//
+
+EvansCastle_1:
+	BYTE	KEYSH   EvansCastle_key+0
+// 000   ----------------------------------------
+	BYTE	TEMPO   125*EvansCastle_tbs/2
+	BYTE		VOICE   36
+	BYTE		MODT    0
+	BYTE		LFOS    44
+	BYTE		BENDR   12
+	BYTE	W02
+	BYTE		VOL     48*EvansCastle_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v-64
+	BYTE		VOL     68*EvansCastle_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+0
+	BYTE		VOL     68*EvansCastle_mvl/mxv
+	BYTE		BEND    c_v+0
+	BYTE		N15     Bn0   v127
+	BYTE	W16
+	BYTE		VOL     56*EvansCastle_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v+27
+	BYTE		VOL     48*EvansCastle_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE	W01
+	BYTE		N07     Fs1 
+	BYTE	W08
+	BYTE		N07   
+	BYTE	W09
+	BYTE		VOL     56*EvansCastle_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v-18
+	BYTE		VOL     68*EvansCastle_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+0
+	BYTE		N16     Bn0 
+	BYTE	W17
+	BYTE		N07     Fs1 
+	BYTE	W08
+	BYTE		N07   
+	BYTE	W09
+	BYTE		N16     Bn0 
+	BYTE	W17
+	BYTE		N07     Fs1 
+	BYTE	W08
+	BYTE		VOL     56*EvansCastle_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v+27
+	BYTE		VOL     48*EvansCastle_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		N07   
+	BYTE	W01
+// 001   ----------------------------------------
+	BYTE	W08
+	BYTE		VOL     56*EvansCastle_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v-18
+	BYTE		VOL     68*EvansCastle_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+0
+	BYTE		N16     Gn1 
+	BYTE	W17
+	BYTE		        Fs1 
+	BYTE	W17
+	BYTE		        Bn0 
+	BYTE	W17
+	BYTE		VOL     73*EvansCastle_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v-10
+	BYTE		VOL     81*EvansCastle_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v+0
+	BYTE		N07     Fs1 
+	BYTE	W08
+	BYTE		VOL     73*EvansCastle_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v+16
+	BYTE		VOL     68*EvansCastle_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+0
+	BYTE		N07   
+	BYTE	W09
+	BYTE		N16     Bn0 
+	BYTE	W17
+	BYTE		N07     Fs1 
+	BYTE	W03
+// 002   ----------------------------------------
+	BYTE	W05
+	BYTE		N07   
+	BYTE	W09
+	BYTE		N16     Bn0 
+	BYTE	W17
+	BYTE		N07     Fs1 
+	BYTE	W09
+	BYTE		N07   
+	BYTE	W08
+	BYTE		VOL     56*EvansCastle_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v+27
+	BYTE		VOL     48*EvansCastle_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		N16     Gn1 
+	BYTE	W17
+	BYTE		VOL     56*EvansCastle_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v-18
+	BYTE		VOL     68*EvansCastle_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+0
+	BYTE		N16     Fs1 
+	BYTE	W13
+EvansCastle_1_B1:
+	BYTE	W04
+	BYTE		N16     Bn0   v127
+	BYTE	W14
+// 003   ----------------------------------------
+	BYTE	W03
+	BYTE		VOL     56*EvansCastle_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v+27
+	BYTE		VOL     48*EvansCastle_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		N07     Fs1 
+	BYTE	W09
+	BYTE		N07   
+	BYTE	W08
+	BYTE		VOL     56*EvansCastle_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v-18
+	BYTE		VOL     68*EvansCastle_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+0
+	BYTE		N16     Bn0 
+	BYTE	W17
+	BYTE		N07     Fs1 
+	BYTE	W09
+	BYTE		N07   
+	BYTE	W09
+	BYTE		N16     Bn0 
+	BYTE	W17
+	BYTE		N07     Fs1 
+	BYTE	W08
+	BYTE		VOL     56*EvansCastle_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v+27
+	BYTE		VOL     48*EvansCastle_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		N07   
+	BYTE	W09
+	BYTE		VOL     56*EvansCastle_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v-18
+	BYTE		VOL     68*EvansCastle_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+0
+	BYTE		N16     Gn1 
+	BYTE	W07
+// 004   ----------------------------------------
+	BYTE	W10
+	BYTE		        Fs1 
+	BYTE	W17
+	BYTE		        Bn0 
+	BYTE	W17
+	BYTE		VOL     73*EvansCastle_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v-10
+	BYTE		VOL     81*EvansCastle_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v+0
+	BYTE		N07     Fs1 
+	BYTE	W08
+	BYTE		VOL     73*EvansCastle_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v+16
+	BYTE		VOL     68*EvansCastle_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+0
+	BYTE		N07   
+	BYTE	W09
+	BYTE		N16     Bn0 
+	BYTE	W17
+	BYTE		N07     Fs1 
+	BYTE	W08
+	BYTE		N07   
+	BYTE	W09
+	BYTE		N16     Bn0 
+	BYTE	W01
+// 005   ----------------------------------------
+	BYTE	W16
+	BYTE		N07     Fs1 
+	BYTE	W08
+	BYTE		N07   
+	BYTE	W09
+	BYTE		VOL     56*EvansCastle_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v+27
+	BYTE		VOL     48*EvansCastle_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		N16     Gn1 
+	BYTE	W17
+	BYTE		VOL     56*EvansCastle_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v-18
+	BYTE		VOL     68*EvansCastle_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+0
+	BYTE		N16     Fs1 
+	BYTE	W17
+	BYTE		        Bn0 
+	BYTE	W17
+	BYTE		VOL     56*EvansCastle_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v+27
+	BYTE		VOL     48*EvansCastle_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		N07     Fs1 
+	BYTE	W09
+	BYTE		N07   
+	BYTE	W03
+// 006   ----------------------------------------
+	BYTE	W05
+	BYTE		VOL     56*EvansCastle_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v-18
+	BYTE		VOL     68*EvansCastle_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+0
+	BYTE		N16     Bn0 
+	BYTE	W17
+	BYTE		N07     Fs1 
+	BYTE	W09
+	BYTE		N07   
+	BYTE	W08
+	BYTE		N15     Bn0 
+	BYTE	W17
+	BYTE		N07     Fs1 
+	BYTE	W09
+	BYTE		VOL     56*EvansCastle_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v+27
+	BYTE		VOL     48*EvansCastle_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		N07   
+	BYTE	W08
+	BYTE		VOL     56*EvansCastle_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v-18
+	BYTE		VOL     68*EvansCastle_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+0
+	BYTE		N16     Gn1 
+	BYTE	W17
+	BYTE		        Fs1 
+	BYTE	W06
+// 007   ----------------------------------------
+	BYTE	W11
+	BYTE		        Bn0 
+	BYTE	W17
+	BYTE		VOL     73*EvansCastle_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v-10
+	BYTE		VOL     81*EvansCastle_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v+0
+	BYTE		N07     Fs1 
+	BYTE	W09
+	BYTE		VOL     73*EvansCastle_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v+16
+	BYTE		VOL     68*EvansCastle_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+0
+	BYTE		N07   
+	BYTE	W08
+	BYTE		N16     Bn0 
+	BYTE	W17
+	BYTE		N07     Fs1 
+	BYTE	W09
+	BYTE		N07   
+	BYTE	W09
+	BYTE		N16     Bn0 
+	BYTE	W16
+// 008   ----------------------------------------
+	BYTE	W01
+	BYTE		N07     Fs1 
+	BYTE	W08
+	BYTE		N07   
+	BYTE	W09
+	BYTE		VOL     56*EvansCastle_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v+27
+	BYTE		VOL     48*EvansCastle_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		N16     Gn1 
+	BYTE	W17
+	BYTE		VOL     56*EvansCastle_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v-18
+	BYTE		VOL     68*EvansCastle_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+0
+	BYTE		N16     Fs1 
+	BYTE	W17
+	BYTE		        Bn0 
+	BYTE	W17
+	BYTE		VOL     56*EvansCastle_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v+27
+	BYTE		VOL     48*EvansCastle_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		N07     Fs1 
+	BYTE	W08
+	BYTE		N07   
+	BYTE	W09
+	BYTE		VOL     56*EvansCastle_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v-18
+	BYTE		VOL     68*EvansCastle_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+0
+	BYTE		N16     Bn0 
+	BYTE	W10
+// 009   ----------------------------------------
+	BYTE	W07
+	BYTE		N07     Fs1 
+	BYTE	W08
+	BYTE		N07   
+	BYTE	W09
+	BYTE		N16     Bn0 
+	BYTE	W17
+	BYTE		N07     Fs1 
+	BYTE	W08
+	BYTE		VOL     56*EvansCastle_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v+27
+	BYTE		VOL     48*EvansCastle_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		N07   
+	BYTE	W09
+	BYTE		VOL     56*EvansCastle_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v-18
+	BYTE		VOL     68*EvansCastle_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+0
+	BYTE		N15     Gn1 
+	BYTE	W17
+	BYTE		N16     Fs1 
+	BYTE	W17
+	BYTE		        Bn0 
+	BYTE	W04
+// 010   ----------------------------------------
+	BYTE	W13
+	BYTE		VOL     73*EvansCastle_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v-10
+	BYTE		VOL     81*EvansCastle_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v+0
+	BYTE		N07     Fs1 
+	BYTE	W09
+	BYTE		VOL     73*EvansCastle_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v+16
+	BYTE		VOL     68*EvansCastle_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+0
+	BYTE		N07   
+	BYTE	W08
+	BYTE		N16     Bn0 
+	BYTE	W17
+	BYTE		N07     Fs1 
+	BYTE	W09
+	BYTE		N07   
+	BYTE	W08
+	BYTE		N16     Bn0 
+	BYTE	W17
+	BYTE		N07     Fs1 
+	BYTE	W09
+	BYTE		N07   
+	BYTE	W06
+// 011   ----------------------------------------
+	BYTE	W02
+	BYTE		VOL     56*EvansCastle_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v+27
+	BYTE		VOL     48*EvansCastle_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		N16     Gn1 
+	BYTE	W17
+	BYTE		VOL     56*EvansCastle_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v-18
+	BYTE		VOL     68*EvansCastle_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+0
+	BYTE		N16     Fs1 
+	BYTE	W18
+	BYTE		        Bn0 
+	BYTE	W16
+	BYTE		VOL     56*EvansCastle_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v+27
+	BYTE		VOL     48*EvansCastle_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		N07     Fs1 
+	BYTE	W09
+	BYTE		N07   
+	BYTE	W09
+	BYTE		VOL     56*EvansCastle_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v-18
+	BYTE		VOL     68*EvansCastle_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+0
+	BYTE		N16     Bn0 
+	BYTE	W16
+	BYTE		N07     Fs1 
+	BYTE	W09
+// 012   ----------------------------------------
+	BYTE		N07   
+	BYTE	W09
+	BYTE		N16     Bn0 
+	BYTE	W17
+	BYTE		N07     Fs1 
+	BYTE	W08
+	BYTE		VOL     56*EvansCastle_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v+27
+	BYTE		VOL     48*EvansCastle_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		N07   
+	BYTE	W09
+	BYTE		VOL     56*EvansCastle_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v-18
+	BYTE		VOL     68*EvansCastle_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+0
+	BYTE		N16     Gn1 
+	BYTE	W17
+	BYTE		        Fs1 
+	BYTE	W17
+	BYTE		        Bn0 
+	BYTE	W17
+	BYTE		VOL     73*EvansCastle_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v-10
+	BYTE		VOL     81*EvansCastle_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v+0
+	BYTE		N07     Fs1 
+	BYTE	W02
+// 013   ----------------------------------------
+	BYTE	W06
+	BYTE		VOL     73*EvansCastle_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v+16
+	BYTE		VOL     68*EvansCastle_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+0
+	BYTE		N07   
+	BYTE	W09
+	BYTE		N16     Bn0 
+	BYTE	W17
+	BYTE		N07     Fs1 
+	BYTE	W08
+	BYTE		N07   
+	BYTE	W09
+	BYTE		N16     Bn0 
+	BYTE	W17
+	BYTE		N07     Fs1 
+	BYTE	W08
+	BYTE		N07   
+	BYTE	W09
+	BYTE		VOL     56*EvansCastle_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v+27
+	BYTE		VOL     48*EvansCastle_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		N16     Gn1 
+	BYTE	W13
+// 014   ----------------------------------------
+	BYTE	W04
+	BYTE		VOL     56*EvansCastle_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v-18
+	BYTE		VOL     68*EvansCastle_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+0
+	BYTE		N16     Fs1 
+	BYTE	W14
+	BYTE	GoTo
+	 POIN2	EvansCastle_1_B1
+EvansCastle_1_B2:
+	BYTE	W02
+	BYTE	FINE
+
+//**************** Track 2 (Midi-Chn.7) ****************//
+
+EvansCastle_2:
+	BYTE	KEYSH   EvansCastle_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   66
+	BYTE		MODT    0
+	BYTE		LFOS    44
+	BYTE		BENDR   12
+	BYTE		VOL     4*EvansCastle_mvl/mxv
+	BYTE	PRIO    0
+	BYTE		PAN     c_v-64
+	BYTE	W96
+// 001   ----------------------------------------
+	BYTE	W96
+// 002   ----------------------------------------
+	BYTE	W78
+EvansCastle_2_B1:
+	BYTE		PAN     c_v-64
+	BYTE		VOL     4*EvansCastle_mvl/mxv
+	BYTE	W04
+	BYTE		        58*EvansCastle_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v-64
+	BYTE		VOL     70*EvansCastle_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v-21
+	BYTE		VOL     70*EvansCastle_mvl/mxv
+	BYTE		BEND    c_v+0
+	BYTE		N32     Bn3   v108
+	BYTE	W14
+// 003   ----------------------------------------
+	BYTE	W20
+	BYTE		VOL     63*EvansCastle_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v-10
+	BYTE		VOL     58*EvansCastle_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v-32
+	BYTE		N16     Cn4 
+	BYTE	W17
+	BYTE		VOL     63*EvansCastle_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v-37
+	BYTE		VOL     70*EvansCastle_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v-21
+	BYTE		N16     Dn4 
+	BYTE	W18
+	BYTE		N32     Bn3 
+	BYTE	W32
+	BYTE	W02
+	BYTE		N16     Cn4 
+	BYTE	W07
+// 004   ----------------------------------------
+	BYTE	W10
+	BYTE		        Dn4 
+	BYTE	W17
+	BYTE		TIE     Bn3 
+	BYTE	W68
+	BYTE	W01
+// 005   ----------------------------------------
+	BYTE	W66
+	BYTE		EOT   
+	BYTE	W01
+	BYTE		N32     Fs3 
+	BYTE	W28
+	BYTE	W01
+// 006   ----------------------------------------
+	BYTE	W05
+	BYTE		VOL     63*EvansCastle_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v-10
+	BYTE		VOL     58*EvansCastle_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v-32
+	BYTE		N16     As3 
+	BYTE	W17
+	BYTE		VOL     63*EvansCastle_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v-37
+	BYTE		VOL     70*EvansCastle_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v-21
+	BYTE		N16     Bn3 
+	BYTE	W17
+	BYTE		N32     Fs3 
+	BYTE	W32
+	BYTE	W02
+	BYTE		N16     As3 
+	BYTE	W17
+	BYTE		        Bn3 
+	BYTE	W06
+// 007   ----------------------------------------
+	BYTE	W11
+	BYTE		TIE     Fs3 
+	BYTE	W84
+	BYTE	W01
+// 008   ----------------------------------------
+	BYTE	W48
+	BYTE	W02
+	BYTE		EOT   
+	BYTE	W44
+	BYTE	W02
+// 009   ----------------------------------------
+	BYTE	W56
+	BYTE	W02
+	BYTE		VOL     39*EvansCastle_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+63
+	BYTE		N15     Bn3 
+	BYTE	W17
+	BYTE		VOL     22*EvansCastle_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v+63
+	BYTE		N16     As3 
+	BYTE	W17
+	BYTE		TIE     Fs3 
+	BYTE	W04
+// 010   ----------------------------------------
+	BYTE	W96
+// 011   ----------------------------------------
+	BYTE	W32
+	BYTE	W03
+	BYTE		EOT   
+	BYTE	W60
+	BYTE	W01
+// 012   ----------------------------------------
+	BYTE	W96
+// 013   ----------------------------------------
+	BYTE	W96
+// 014   ----------------------------------------
+	BYTE	W18
+	BYTE	GoTo
+	 POIN2	EvansCastle_2_B1
+EvansCastle_2_B2:
+	BYTE	W03
+	BYTE		VOL     63*EvansCastle_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v-37
+	BYTE		VOL     70*EvansCastle_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v-21
+	BYTE	FINE
+
+//**************** Track 3 (Midi-Chn.8) ****************//
+
+EvansCastle_3:
+	BYTE	KEYSH   EvansCastle_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   66
+	BYTE		MODT    0
+	BYTE		LFOS    44
+	BYTE		BENDR   12
+	BYTE		VOL     4*EvansCastle_mvl/mxv
+	BYTE	PRIO    0
+	BYTE		PAN     c_v-64
+	BYTE	W96
+// 001   ----------------------------------------
+	BYTE	W96
+// 002   ----------------------------------------
+	BYTE	W78
+EvansCastle_3_B1:
+	BYTE		VOL     4*EvansCastle_mvl/mxv
+	BYTE	W04
+	BYTE		        39*EvansCastle_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v-64
+	BYTE		VOL     70*EvansCastle_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v+21
+	BYTE		VOL     70*EvansCastle_mvl/mxv
+	BYTE		BEND    c_v+0
+	BYTE		N32     Dn3   v100
+	BYTE	W14
+// 003   ----------------------------------------
+	BYTE	W20
+	BYTE		VOL     63*EvansCastle_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v+42
+	BYTE		VOL     58*EvansCastle_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+32
+	BYTE		N16     Ds3 
+	BYTE	W17
+	BYTE		        Fn3 
+	BYTE	W18
+	BYTE		VOL     63*EvansCastle_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v+16
+	BYTE		VOL     70*EvansCastle_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v+21
+	BYTE		N32     Dn3 
+	BYTE	W32
+	BYTE	W02
+	BYTE		N16     Ds3 
+	BYTE	W07
+// 004   ----------------------------------------
+	BYTE	W10
+	BYTE		VOL     63*EvansCastle_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v+42
+	BYTE		VOL     58*EvansCastle_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+32
+	BYTE		N16     Fn3 
+	BYTE	W17
+	BYTE		VOL     63*EvansCastle_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v+16
+	BYTE		VOL     70*EvansCastle_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v+21
+	BYTE		TIE     Dn3 
+	BYTE	W68
+	BYTE	W01
+// 005   ----------------------------------------
+	BYTE	W66
+	BYTE		EOT   
+	BYTE	W01
+	BYTE		N32     Bn2 
+	BYTE	W28
+	BYTE	W01
+// 006   ----------------------------------------
+	BYTE	W05
+	BYTE		VOL     63*EvansCastle_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v+42
+	BYTE		VOL     58*EvansCastle_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+32
+	BYTE		N16     Fs3 
+	BYTE	W17
+	BYTE		N16   
+	BYTE	W17
+	BYTE		VOL     63*EvansCastle_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v+16
+	BYTE		VOL     70*EvansCastle_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v+21
+	BYTE		N32     Bn2 
+	BYTE	W32
+	BYTE	W02
+	BYTE		N16     Fs3 
+	BYTE	W17
+	BYTE		VOL     63*EvansCastle_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v+42
+	BYTE		VOL     58*EvansCastle_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+32
+	BYTE		N16   
+	BYTE	W06
+// 007   ----------------------------------------
+	BYTE	W11
+	BYTE		VOL     63*EvansCastle_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v+16
+	BYTE		VOL     70*EvansCastle_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v+21
+	BYTE		TIE     Bn2 
+	BYTE	W84
+	BYTE	W01
+// 008   ----------------------------------------
+	BYTE	W48
+	BYTE	W02
+	BYTE		EOT   
+	BYTE	W44
+	BYTE	W02
+// 009   ----------------------------------------
+	BYTE	W56
+	BYTE	W02
+	BYTE		VOL     63*EvansCastle_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v+42
+	BYTE		VOL     22*EvansCastle_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v-64
+	BYTE		N16     Dn3 
+	BYTE	W17
+	BYTE		        Cs3 
+	BYTE	W17
+	BYTE		VOL     39*EvansCastle_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v-64
+	BYTE		TIE     Bn2 
+	BYTE	W04
+// 010   ----------------------------------------
+	BYTE	W96
+// 011   ----------------------------------------
+	BYTE	W32
+	BYTE	W03
+	BYTE		EOT   
+	BYTE	W60
+	BYTE	W01
+// 012   ----------------------------------------
+	BYTE	W96
+// 013   ----------------------------------------
+	BYTE	W96
+// 014   ----------------------------------------
+	BYTE	W18
+	BYTE	GoTo
+	 POIN2	EvansCastle_3_B1
+EvansCastle_3_B2:
+	BYTE	W03
+	BYTE		VOL     70*EvansCastle_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v+21
+	BYTE	FINE
+
+//**************** Track 4 (Midi-Chn.10) ****************//
+
+EvansCastle_4:
+	BYTE		VOL     127*EvansCastle_mvl/mxv
+	BYTE	KEYSH   EvansCastle_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   127
+	BYTE		MODT    0
+	BYTE		LFOS    44
+	BYTE	W02
+	BYTE		N03     FsM2  v020
+	BYTE		N32     Fn1   v036
+	BYTE	W03
+	BYTE		N13     FsM2  v020
+	BYTE	W14
+	BYTE		N03   
+	BYTE	W03
+	BYTE		N05   
+	BYTE	W05
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N05   
+	BYTE	W05
+	BYTE		N03   
+	BYTE		N32     Fn1   v036
+	BYTE	W03
+	BYTE		N13     FsM2  v020
+	BYTE	W14
+	BYTE		N03   
+	BYTE	W03
+	BYTE		N05   
+	BYTE	W05
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N04   
+	BYTE	W05
+	BYTE		N03   
+	BYTE		N32     Fn1   v036
+	BYTE	W03
+	BYTE		N13     FsM2  v020
+	BYTE	W14
+	BYTE		N03   
+	BYTE	W03
+	BYTE		N05   
+	BYTE	W05
+	BYTE		N03   
+	BYTE	W01
+// 001   ----------------------------------------
+	BYTE	W03
+	BYTE		N05   
+	BYTE	W05
+	BYTE		N03   
+	BYTE		N32     Fn1   v036
+	BYTE	W03
+	BYTE		N13     FsM2  v020
+	BYTE	W14
+	BYTE		N03   
+	BYTE	W03
+	BYTE		N05   
+	BYTE	W05
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N05   
+	BYTE	W05
+	BYTE		N03   
+	BYTE		N32     Fn1   v036
+	BYTE	W03
+	BYTE		N13     FsM2  v020
+	BYTE	W14
+	BYTE		N03   
+	BYTE	W03
+	BYTE		N05   
+	BYTE	W05
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N05   
+	BYTE	W05
+	BYTE		N03   
+	BYTE		N32     Fn1   v036
+	BYTE	W03
+	BYTE		N13     FsM2  v020
+	BYTE	W14
+	BYTE		N03   
+	BYTE	W03
+// 002   ----------------------------------------
+	BYTE	W01
+	BYTE		N04   
+	BYTE	W04
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N05   
+	BYTE	W05
+	BYTE		N03   
+	BYTE		N32     Fn1   v036
+	BYTE	W04
+	BYTE		N13     FsM2  v020
+	BYTE	W13
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N05   
+	BYTE	W05
+	BYTE		N03   
+	BYTE	W03
+	BYTE		N05   
+	BYTE	W05
+	BYTE		N03   
+	BYTE		N32     Fn1   v036
+	BYTE	W04
+	BYTE		N13     FsM2  v020
+	BYTE	W13
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N05   
+	BYTE	W05
+	BYTE		N03   
+	BYTE	W03
+	BYTE		N05   
+	BYTE	W01
+EvansCastle_4_B1:
+	BYTE	W04
+	BYTE		N03     FsM2  v020
+	BYTE		N32     Fn1   v036
+	BYTE	W04
+	BYTE		N13     FsM2  v020
+	BYTE	W10
+// 003   ----------------------------------------
+	BYTE	W03
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N04   
+	BYTE	W05
+	BYTE		N03   
+	BYTE	W03
+	BYTE		N05   
+	BYTE	W05
+	BYTE		N03   
+	BYTE		N32     Fn1   v036
+	BYTE	W04
+	BYTE		N13     FsM2  v020
+	BYTE	W13
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N05   
+	BYTE	W05
+	BYTE		N03   
+	BYTE	W03
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N03   
+	BYTE		N32     Fn1   v036
+	BYTE	W03
+	BYTE		N13     FsM2  v020
+	BYTE	W14
+	BYTE		N03   
+	BYTE	W03
+	BYTE		N05   
+	BYTE	W05
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N05   
+	BYTE	W05
+	BYTE		N03   
+	BYTE		N32     Fn1   v036
+	BYTE	W03
+	BYTE		N13     FsM2  v020
+	BYTE	W04
+// 004   ----------------------------------------
+	BYTE	W10
+	BYTE		N03   
+	BYTE	W03
+	BYTE		N04   
+	BYTE	W05
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N05   
+	BYTE	W05
+	BYTE		N03   
+	BYTE		N32     Fn1   v036
+	BYTE	W03
+	BYTE		N13     FsM2  v020
+	BYTE	W14
+	BYTE		N03   
+	BYTE	W03
+	BYTE		N05   
+	BYTE	W05
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N05   
+	BYTE	W05
+	BYTE		N03   
+	BYTE		N32     Fn1   v036
+	BYTE	W03
+	BYTE		N13     FsM2  v020
+	BYTE	W14
+	BYTE		N03   
+	BYTE	W03
+	BYTE		N05   
+	BYTE	W05
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N05   
+	BYTE	W05
+	BYTE		N03   
+	BYTE		N32     Fn1   v036
+	BYTE	W01
+// 005   ----------------------------------------
+	BYTE	W02
+	BYTE		N13     FsM2  v020
+	BYTE	W14
+	BYTE		N03   
+	BYTE	W03
+	BYTE		N04   
+	BYTE	W05
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N05   
+	BYTE	W05
+	BYTE		N03   
+	BYTE		N32     Fn1   v036
+	BYTE	W03
+	BYTE		N13     FsM2  v020
+	BYTE	W14
+	BYTE		N03   
+	BYTE	W03
+	BYTE		N05   
+	BYTE	W05
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N05   
+	BYTE	W05
+	BYTE		N03   
+	BYTE		N32     Fn1   v036
+	BYTE	W03
+	BYTE		N13     FsM2  v020
+	BYTE	W14
+	BYTE		N03   
+	BYTE	W03
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N03   
+	BYTE	W03
+// 006   ----------------------------------------
+	BYTE		N05   
+	BYTE	W05
+	BYTE		N03   
+	BYTE		N32     Fn1   v036
+	BYTE	W04
+	BYTE		N13     FsM2  v020
+	BYTE	W13
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N04   
+	BYTE	W05
+	BYTE		N03   
+	BYTE	W03
+	BYTE		N05   
+	BYTE	W05
+	BYTE		N03   
+	BYTE		N32     Fn1   v036
+	BYTE	W04
+	BYTE		N13     FsM2  v020
+	BYTE	W13
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N05   
+	BYTE	W05
+	BYTE		N03   
+	BYTE	W03
+	BYTE		N05   
+	BYTE	W05
+	BYTE		N03   
+	BYTE		N32     Fn1   v036
+	BYTE	W04
+	BYTE		N13     FsM2  v020
+	BYTE	W13
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N05   
+	BYTE	W02
+// 007   ----------------------------------------
+	BYTE	W03
+	BYTE		N03   
+	BYTE	W03
+	BYTE		N05   
+	BYTE	W05
+	BYTE		N03   
+	BYTE		N32     Fn1   v036
+	BYTE	W04
+	BYTE		N13     FsM2  v020
+	BYTE	W13
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N05   
+	BYTE	W05
+	BYTE		N03   
+	BYTE	W03
+	BYTE		N05   
+	BYTE	W05
+	BYTE		N03   
+	BYTE		N32     Fn1   v036
+	BYTE	W04
+	BYTE		N13     FsM2  v020
+	BYTE	W13
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N05   
+	BYTE	W05
+	BYTE		N03   
+	BYTE	W03
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N03   
+	BYTE		N32     Fn1   v036
+	BYTE	W03
+	BYTE		N13     FsM2  v020
+	BYTE	W13
+// 008   ----------------------------------------
+	BYTE	W01
+	BYTE		N03   
+	BYTE	W03
+	BYTE		N05   
+	BYTE	W05
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N04   
+	BYTE	W05
+	BYTE		N03   
+	BYTE		N32     Fn1   v036
+	BYTE	W03
+	BYTE		N13     FsM2  v020
+	BYTE	W14
+	BYTE		N03   
+	BYTE	W03
+	BYTE		N04   
+	BYTE	W05
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N05   
+	BYTE	W05
+	BYTE		N03   
+	BYTE		N32     Fn1   v036
+	BYTE	W03
+	BYTE		N13     FsM2  v020
+	BYTE	W14
+	BYTE		N03   
+	BYTE	W03
+	BYTE		N05   
+	BYTE	W05
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N05   
+	BYTE	W05
+	BYTE		N03   
+	BYTE		N32     Fn1   v036
+	BYTE	W03
+	BYTE		N13     FsM2  v020
+	BYTE	W07
+// 009   ----------------------------------------
+	BYTE	W07
+	BYTE		N03   
+	BYTE	W03
+	BYTE		N05   
+	BYTE	W05
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N05   
+	BYTE	W05
+	BYTE		N03   
+	BYTE		N32     Fn1   v036
+	BYTE	W03
+	BYTE		N13     FsM2  v020
+	BYTE	W14
+	BYTE		N03   
+	BYTE	W03
+	BYTE		N04   
+	BYTE	W05
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N05   
+	BYTE	W05
+	BYTE		N03   
+	BYTE		N32     Fn1   v036
+	BYTE	W03
+	BYTE		N13     FsM2  v020
+	BYTE	W14
+	BYTE		N03   
+	BYTE	W03
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N03   
+	BYTE	W03
+	BYTE		N05   
+	BYTE	W05
+	BYTE		N03   
+	BYTE		N32     Fn1   v036
+	BYTE	W04
+// 010   ----------------------------------------
+	BYTE		N13     FsM2  v020
+	BYTE	W13
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N05   
+	BYTE	W05
+	BYTE		N03   
+	BYTE	W03
+	BYTE		N05   
+	BYTE	W05
+	BYTE		N03   
+	BYTE		N32     Fn1   v036
+	BYTE	W04
+	BYTE		N13     FsM2  v020
+	BYTE	W13
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N04   
+	BYTE	W05
+	BYTE		N03   
+	BYTE	W03
+	BYTE		N05   
+	BYTE	W05
+	BYTE		N03   
+	BYTE		N32     Fn1   v036
+	BYTE	W04
+	BYTE		N13     FsM2  v020
+	BYTE	W13
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N05   
+	BYTE	W05
+	BYTE		N03   
+	BYTE	W03
+	BYTE		N05   
+	BYTE	W03
+// 011   ----------------------------------------
+	BYTE	W02
+	BYTE		N03   
+	BYTE		N32     Fn1   v036
+	BYTE	W04
+	BYTE		N13     FsM2  v020
+	BYTE	W13
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N05   
+	BYTE	W05
+	BYTE		N03   
+	BYTE	W03
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N03   
+	BYTE		N32     Fn1   v036
+	BYTE	W03
+	BYTE		N13     FsM2  v020
+	BYTE	W13
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N05   
+	BYTE	W05
+	BYTE		N03   
+	BYTE	W03
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N03   
+	BYTE		N32     Fn1   v036
+	BYTE	W03
+	BYTE		N13     FsM2  v020
+	BYTE	W13
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N05   
+	BYTE	W05
+// 012   ----------------------------------------
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N05   
+	BYTE	W05
+	BYTE		N03   
+	BYTE		N32     Fn1   v036
+	BYTE	W03
+	BYTE		N13     FsM2  v020
+	BYTE	W14
+	BYTE		N03   
+	BYTE	W03
+	BYTE		N05   
+	BYTE	W05
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N05   
+	BYTE	W05
+	BYTE		N03   
+	BYTE		N32     Fn1   v036
+	BYTE	W03
+	BYTE		N13     FsM2  v020
+	BYTE	W14
+	BYTE		N03   
+	BYTE	W03
+	BYTE		N04   
+	BYTE	W05
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N05   
+	BYTE	W05
+	BYTE		N03   
+	BYTE		N32     Fn1   v036
+	BYTE	W03
+	BYTE		N13     FsM2  v020
+	BYTE	W14
+	BYTE		N03   
+	BYTE	W02
+// 013   ----------------------------------------
+	BYTE	W01
+	BYTE		N05   
+	BYTE	W05
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N05   
+	BYTE	W05
+	BYTE		N03   
+	BYTE		N32     Fn1   v036
+	BYTE	W03
+	BYTE		N13     FsM2  v020
+	BYTE	W14
+	BYTE		N03   
+	BYTE	W03
+	BYTE		N05   
+	BYTE	W05
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N05   
+	BYTE	W05
+	BYTE		N03   
+	BYTE		N32     Fn1   v036
+	BYTE	W03
+	BYTE		N13     FsM2  v020
+	BYTE	W14
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N04   
+	BYTE	W04
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N05   
+	BYTE	W05
+	BYTE		N03   
+	BYTE		N32     Fn1   v036
+	BYTE	W04
+	BYTE		N13     FsM2  v020
+	BYTE	W09
+// 014   ----------------------------------------
+	BYTE	W04
+	BYTE		N03   
+	BYTE	W04
+	BYTE		N05   
+	BYTE	W05
+	BYTE		N03   
+	BYTE	W03
+	BYTE		N05   
+	BYTE	W02
+	BYTE	GoTo
+	 POIN2	EvansCastle_4_B1
+EvansCastle_4_B2:
+	BYTE	W03
+	BYTE	FINE
+
+//******************************************************//
+	ALIGN 4
+
+EvansCastle:
+	BYTE	4	// NumTrks
+	BYTE	0	// NumBlks
+	BYTE	EvansCastle_pri	// Priority
+	BYTE	EvansCastle_rev	// Reverb.
+
+	POIN2	EvansCastle_grp
+
+	POIN2	EvansCastle_1
+	POIN2	EvansCastle_2
+	POIN2	EvansCastle_3
+	POIN2	EvansCastle_4
+
+	

@@ -52,12 +52,20 @@ SongTable(0x13,VerdanePhase,1)
 #include "songs/Verdane.event"
 }
 {
+SongTable(0xA,EvansCastle,1)
+#include "songs/VerdaneCastle.event"
+}
+{
 SongTable(0x26,Crisis,1)
 #include "songs/Crisis.event"
 }
 {
 SongTable(0x2D,EmperorArvis,1)
 #include "songs/ThemeArvis.event"
+}
+{
+SongTable(0x2B,Diadora,1)
+#include "songs/DeirdreTheme.event"
 }
 {
 SongTable(0x1B,MidBoss,0)
@@ -78,6 +86,10 @@ SongTable(0x25,Enemy1,1)
 {
 SongTable(0x10,VictoryNear,1)
 #include "songs/NearVictory.event"
+}
+{
+SongTable(0x30,FE4JoinUs,1)
+#include "songs/JoinUs.event"
 }
 //installation of ipatix's sound mixer. Essential if you want to use GS synths; also makes most music sound better by reducing background noise.
 

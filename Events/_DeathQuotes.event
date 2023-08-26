@@ -1,5 +1,6 @@
 #define AlwaysDeathQuote(arg000,arg001,arg002) "BYTE arg000 0x0 0xff 0xff arg001 0x0 ;SHORT arg002 ;WORD 0x0 "
 #define ChapterDeathQuote(arg000,arg001,arg002,arg003) "BYTE arg000 0x0 0xff arg001 arg002 0x0 ;SHORT arg003 ;WORD 0x0 "
+#define KillerDeathQuote(arg000,arg001,arg002,arg003,arg004) "BYTE arg000 arg001 0xff arg002 arg003 0x0 ;SHORT arg004 ;WORD 0x0 "
 #define EndDeathQuote "BYTE 0xff 0xff 0x0 0x0 0x0 0x0 ;SHORT 0x0 ;WORD 0x0 "
 #define DefeatBossFlag 0x2
 #define GameOverFlag 0x65
@@ -7,8 +8,11 @@
 ALIGN 4
 DeathQuoteTable:
 // Prologue
+KillerDeathQuote(DiMaggio,Arden,0x0,0x1B,DiMaggioDeathTwo)
+KillerDeathQuote(Gerrard,Arden,0x0,0x1C,GerrardDeath)
 ChapterDeathQuote(DiMaggio,0x0,0x0,DiMaggioDeath)
 ChapterDeathQuote(Gerrard,0x0,0x0,GerrardDeath)
+//Chapter 1
 //Chapter 5
 ChapterDeathQuote(Slayder,0x0,0x0,SlayderDeath)
 // Always (mainly player units)
@@ -16,12 +20,12 @@ AlwaysDeathQuote(Sigurd,GameOverFlag,SigurdDeath)
 AlwaysDeathQuote(Alec,0x0,AlecDeath)
 AlwaysDeathQuote(Noish,0x0,NoishDeath)
 AlwaysDeathQuote(Arden,0x0,ArdenDeath)
-AlwaysDeathQuote(Midir,0x0,MidirDeath)
 AlwaysDeathQuote(Azel,0x0,AzelDeath)
 AlwaysDeathQuote(Lex,0x0,LexDeath)
 AlwaysDeathQuote(Quan,0x0,QuanDeath)
 AlwaysDeathQuote(Finn,0x0,FinnDeath1)
 AlwaysDeathQuote(Ethlyn,0x0,EthlynDeath)
+AlwaysDeathQuote(Midir,0x0,MidirDeath)
 AlwaysDeathQuote(Seliph,GameOverFlag,SeliphDeath)
 EndDeathQuote
 
