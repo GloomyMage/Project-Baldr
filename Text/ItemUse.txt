@@ -646,7 +646,7 @@ when he's ready.[X]
 [X]
 
 
-##UWindSword ^
+##UGlidedBow ^
 [X]
 
 
@@ -980,6 +980,10 @@ Use this, and...[X]
 
 
 ##UThunderSword ^
+[X]
+
+
+##UWindSword ^
 [X]
 
 

@@ -683,6 +683,10 @@ A bag full of money.[X]
 ##D5000G ^
 A bag full of money.[X]
 
+##DGlidedBow ^
+Verdane's regalia.[N]
+High critical hit rate.[X]
+
 
 ##DDance ^
 A dance that allows[N]

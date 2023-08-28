@@ -10,6 +10,7 @@
 #define LoptSword 0xDC
 #define BeoSword 0xDD
 #define ArdenSword 0xDE
+#define SwordOfLegend 0xEE
 #define SleepSwd 0xEF
 #define SilenceSwd 0xF0
 #define BerserkSwd 0xF1
@@ -24,11 +25,12 @@
 #define HeroicLance 0x82
 #define MasterLance 0xBD
 
-#define MasterAxe 0xBE
 #define SeaAxe 0x83
+#define MasterAxe 0xBE
 
 #define GreatBallista 0x38
 #define MagicBow 0x84
+##define GlidedBow 0xA1
 #define MasterBow 0xBF
 
 #define Fire 0xE2
