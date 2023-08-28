@@ -646,7 +646,7 @@ when he's ready.[X]
 [X]
 
 
-##UWindSword ^
+##UGlidedBow ^
 [X]
 
 
