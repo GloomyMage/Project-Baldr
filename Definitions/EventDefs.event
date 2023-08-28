@@ -36,6 +36,7 @@
 #define DisaIfDead(unit) "CHECK_ALIVE unit; BNE unit 0xc 0x0; DISA unit; LABEL unit"
 #define FE4Village(eventID,offset,villX,villY) "LOCA eventID offset [villX,villY] 0x10; LOCA eventID [villX,villY-1] 0x20"
 #define NewVillageEventItem(textID,background,item,tilechange) "MUSI; SMOV 0x2 background; SMOV 0x3 textID; CALL $9EE310; MUNO; CALL $591F40; SMOV 0x3 item; GIVEITEMTO 0xFFFF; TILECHANGE tilechange; EVBIT_T 0x7; ENDA"
+#define NewVillageEventMoney(textID,background,money,tilechange) "MUSI; SMOV 0x2 background; SMOV 0x3 textID; CALL $9EE310; MUNO; CALL $591F40; SMOV 0x3 money; GIVEITEMTOMAIN 0; TILECHANGE tilechange; EVBIT_T 0x7; ENDA"
 
 #define Location(textid) "BROWNBOXTEXT textid [8,8]"
 #define LocationText(bgid,textid,labelid) "SetBackground(bgid); Location(labelid) ; TEXTSTART; TEXTSHOW textid; TEXTEND; FADI 0x3C"
