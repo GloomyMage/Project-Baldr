@@ -535,6 +535,14 @@ ShannanPortrait:
 setMugEntry(0xB9,ShannanPortrait,2,5,2,3)
 
 ALIGN 4
+ShannanYoungPortrait:
+#incbin "ShannanYoung_mug.dmp"
+#incbin "ShannanYoung_frames.dmp"
+#incbin "ShannanYoung_palette.dmp"
+#incbin "ShannanYoung_minimug.dmp"
+setMugEntry(0xF0,ShannanYoungPortrait,3,7,3,5)
+
+ALIGN 4
 ShannamPortrait:
 #incbin "Shannam_mug.dmp"
 #incbin "Shannam_frames.dmp"

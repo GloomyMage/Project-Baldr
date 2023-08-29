@@ -203,7 +203,7 @@
 // If uncommented, the unit load buffer will be repointed.
 // The location it is repointed to is also defined here. The default location is
 // the area used for debug printing.
-#define REPOINT_UNIT_LOAD_BUFFER
+//#define REPOINT_UNIT_LOAD_BUFFER
 #define NewUnitLoadBufferLoc 0x2026F30
 
 
