@@ -26,22 +26,6 @@ ALIGN 4
 MapData:
   #incbin "CastleEvans_data.dmp"
 
-SetChapterData(1, 0x3C, 0, 0x68, 0x3E, 8, MapData, 0, 0, 9)
-
-ALIGN 4
-Map_Change_0:
-  SHORT $C44 $C44 $C44
-
-ALIGN 4
-Map_Change_1:
-  SHORT $0 $884 $884 $884 $0 $980 $0 $0 $0 $988 $980 $0 $0 $0 $988 $0 $0 $0 $0 $0 $0 $A84 $A84 $A84 $0
-
-ALIGN 4
-MapChangesData:
-  TileMap(0, 6, 10, 3, 1, 0, Map_Change_0)
-  TileMap(1, 5, 3, 5, 5, 0, Map_Change_1)
-  TileMapEnd
-
-EventPointerTable(9, MapChangesData)
+SetChapterData(1, 0x3C, 0, 0x68, 0x3E, 8, MapData, 0, 0, 0)
 
 }

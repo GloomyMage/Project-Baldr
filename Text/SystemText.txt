@@ -28,15 +28,8 @@ Height:[X]
 Age:[X]
 
 # 0x8D1
-Welcome to the arena.[A][NL]
-I see you're back.[A][2NL]
-I've lost a lot of gold[NL]
-thanks to you.[A][2NL]
-If you want to continue,[A][2NL]
-we're going to have to[NL]
-change things up.[A][2NL]
-These foes will give you[NL]
-a run for your money.[A][X]
+There's no one left for you to fight.[N]
+What? You're complaining?[A][X]
 
 # 0x08FE
 [OpenLeft][LoadFace][0x64][0x01][OpenLeft]Do you want to quit?[NL]

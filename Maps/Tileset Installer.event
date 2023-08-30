@@ -7,8 +7,16 @@ FieldTiles:
 #incext compress "Tilesets/Field.mapchip_config"
 
 ALIGN 4
+FortTiles:
+#incext compress "Tilesets/Fort.mapchip_config"
+
+ALIGN 4
 FieldObject:
 #incbin "Tilesets/Field.dmp"
+
+ALIGN 4
+FortObject:
+#incbin "Tilesets/Fort.dmp"
 
 ALIGN 4
 FieldNights:
@@ -18,3 +26,5 @@ EventPointerTable(0x02, JugdralFields)
 EventPointerTable(0x5B, FieldNights)
 EventPointerTable(0x03, FieldTiles)
 EventPointerTable(0x01, FieldObject)
+EventPointerTable(0x3C, FortObject)
+EventPointerTable(0x3E, FortTiles)
