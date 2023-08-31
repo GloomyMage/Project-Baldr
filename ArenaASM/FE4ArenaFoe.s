@@ -3,15 +3,19 @@
 @Check if unit has entered arena
 
 ldr r1,=#0x3004E50
-ldr r1,[r1]
-mov r5,#0x1E
-add r1,r1,r5
-ldrb r0,[r1]
+ldr r0,[r1]
+
+ldr     r1,=#0x8016B28
+mov	lr,r1
+.short	0xF800
 ldr r2,=#0x203A90A
 strb r0,[r2]
-ldrb r0,[r1,#0x1]
-strb r0,[r2,#0x1]
-ldrb r0,[r1]
+mov r5,#0x8
+mov r1,r0
+lsr r1,r5
+strb r1,[r2,#0x1]
+ldr r2,=#0x000000FF
+and r0,r2
 ldr r2,FE4ArenaChapterEnemyUnitListPointerTable+8
 mov r1,#0x24
 mul r1,r1,r0

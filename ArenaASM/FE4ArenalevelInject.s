@@ -70,7 +70,7 @@ add r2,r2,r1
 add r2,r2,#0x2 @load value we want from table
 ldrb r3,[r2]
 pop {r0,r2}
-strb    r3,[r0,#0x6]
+strb    r3,[r0,#0x3]
 mov     r3,#0x0
 ldr     r0,=#0x08031ACD
 bx r0

@@ -22,18 +22,21 @@ beq End
 	ldrb r2,[r2]
 	cmp r2,#0x19
 	bne continueAsNormal
-	ldr r2,=#0x203A4EC
-	mov r1,#0x49
-	add r2,r2,r1
-	ldrb r2,[r2]
-	mov r1,#0x1F
-	strb r2,[r0,r1]
-	ldr r2,=#0x203A4EC
+	@ldr r2,=#0x203A4EC
+	@mov r1,#0x49
+	@add r2,r2,r1
+	@ldrb r2,[r2]
+	@mov r1,#0x1F
+	@strb r2,[r0,r1]
+	push {r1}
+	ldr r2,=#0x3004E50
+	ldr r2,[r2]
 	mov r1,#0x12
 	add r2,r2,r1
 	ldrb r2,[r2]
 	mov r1,#0x13
 	strb r2,[r0,r1]
+	pop {r1}
 	ldr r2,=#0xFFFFFF00
 	and r1,r1,r2
 	continueAsNormal:

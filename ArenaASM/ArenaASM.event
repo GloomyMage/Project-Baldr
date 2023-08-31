@@ -34,7 +34,11 @@ ALIGN 4
 MESSAGE FE4 at currentOffset
 #include "FE4ArenaSave.lyn.event"
 ALIGN 4
-
+#include "Installer.event"
+ALIGN 4
+ArenaWeaponUse:
+#incbin "FE4WeaponUseLoss.dmp"
+ALIGN 4
 
 PUSH
 
@@ -47,11 +51,20 @@ PUSH
 	ORG $3190C
 	jumpToHack_r0(ArenaFoe)
 
+	ORG $B5B18
+	jumpToHack_r1(ArenaWeaponUse)
+
 	ORG $31820
 	BYTE 0x0 0x0 0x0 0x0
 
 	ORG $31834
 	BYTE 0x0 0x0 0x0 0x0
+
+	ORG $31866
+	BYTE 0x0 0x0 0x0 0x0
+
+	ORG $2412E //So units with no available weapon to use cannot enter arena
+	BYTE 0xF2 0xF7 0xFB 0xFC
 
 
 POP

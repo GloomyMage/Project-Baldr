@@ -38,7 +38,7 @@ b GoBack
 Found:
 add r0,r0,#0x1
 ldrb r0,[r0]
-mov r2,#0x7
+mov r2,#0x8
 cmp r0,r2
 beq Set
 b NotComplete

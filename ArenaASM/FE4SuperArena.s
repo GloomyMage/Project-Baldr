@@ -1,18 +1,15 @@
 .thumb
 
 push {r14}
-ldr r0,=#0x3004E50
-ldr r0,[r0]
-ldrb r1,[r0,#0xE]
-
+ldr r0,=#0x0203a8fa
+ldrb r1,[r0]
 
 @check for byte 0x4 being set
-mov r2,#0x4
-tst r1,r2
-beq CheckSecondBit
+mov r2,#0x1
+and r1,r2
+cmp r1,#0x1
+bne GoBack
 
-
-@Check if unit has completed the arena and increase arena level
 
 ldr r0,=#0x3004E50
 ldr r0,[r0]
@@ -29,29 +26,6 @@ beq addOne
 add r0,r0,#0x2
 b LOOP
 
-@if so, check for byte 0x2 being set
-CheckSecondBit:
-mov r2,#0x2
-tst r1,r2
-beq GoBack
-
-
-@if not, set byte 0x2
-
-ldr r0,=#0x3004E50
-ldr r0,[r0]
-ldr r0,[r0]
-ldrb r1,[r0,#0x4] @Get Unit ID
-
-ldr r0,=#0x02028250
-LOOPTwo:
-ldrb r2,[r0]
-cmp r2,#0x0
-beq addOne
-cmp r2,r1
-beq addOne
-add r0,r0,#0x2
-b LOOPTwo
 
 
 addOne:
