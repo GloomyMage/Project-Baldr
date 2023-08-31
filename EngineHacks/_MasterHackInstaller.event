@@ -157,6 +157,9 @@ POP
   //Repair Items by Zane and Vesly
   #include "ExternalHacks/RepairItems/RepairItems.event"
   
+  //HP Class Limit Fix
+  #include "ExternalHacks/SetHPClassLimit/SetHPClassLimit.event"
+  
   //Dynamic Portrait
   #include "Necessary/DynamicPortrait/DynamicPortraitsInstaller.event"
 
