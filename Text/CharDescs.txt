@@ -962,3 +962,7 @@ Enemy[X]
 
 ##Desc_Arena7 ^
 Enemy[X]
+
+##Desc_Commander ^
+Experienced and trusted soldier [N]
+who exerces leadership skills.[X]
