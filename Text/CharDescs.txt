@@ -964,5 +964,5 @@ Enemy[X]
 Enemy[X]
 
 ##Desc_Commander ^
-Experienced and trusted soldier [N]
+Experienced and trusted soldier[N]
 who exerces leadership skills.[X]

@@ -85,6 +85,9 @@ Tailtiu[X]
 ##Name_Brigid
 Brigid[X]
 
+##Name_Eyvel
+Eyvel[X]
+
 ##Name_Larcei
 Larcei[X]
 
@@ -129,12 +132,6 @@ Fee[X]
 
 ##Name_Ced
 Ced[X]
-
-##Name_Leif
-Leif[X]
-
-##Name_Altena
-Altena[X]
 
 ##Name_Zagreus
 Zagreus[X]
@@ -208,9 +205,6 @@ Ares[X]
 ##Name_Aife
 Aife[X]
 
-##Name_Tine
-Tine[X]
-
 ##Name_Hannibal
 Hannibal[X]
 
@@ -231,8 +225,6 @@ Shannam[X]
 
 ##Name_Arion
 Arion[X]
-
-
 
 ##Name_Gerrard
 Gerrard[X]
@@ -510,9 +502,6 @@ Manfroy[X]
 ##Name_Julius
 Julius[X]
 
-##Name_Julius
-Julius[X]
-
 ##Name_Heim
 Heim[X]
 
@@ -546,13 +535,8 @@ Fjalar[X]
 ##Name_Thrud
 Thrud[X]
 
-##Name_Ced
-Ced[X]
-
-
-
-##Name_Verdane
-Verdane[X]
+##Name_Seti
+Seti[X]
 
 ##Name_Verdane
 Verdane[X]
@@ -665,8 +649,6 @@ Ruffian[X]
 ##Name_Mercenary
 Mercenary[X]
 
-
-
 ##Name_Leonster
 Leonster[X]
 
@@ -678,9 +660,6 @@ Eldigan[X]
 
 ##Name_Annand
 Annand[X]
-
-##Name_Arvis
-Arvis[X]
 
 ##Name_Eve
 Eve[X]
@@ -726,6 +705,27 @@ Jake[X]
 
 ##Name_Enemy
 Enemy[X]
+
+##Name_Arena1
+Arena1[X]
+
+##Name_Arena2
+Arena2[X]
+
+##Name_Arena3
+Arena3[X]
+
+##Name_Arena4
+Arena4[X]
+
+##Name_Arena5
+Arena5[X]
+
+##Name_Arena6
+Arena6[X]
+
+##Name_Arena7
+Arena7[X]
 
 ##Name_Commander
 Commander[X]
