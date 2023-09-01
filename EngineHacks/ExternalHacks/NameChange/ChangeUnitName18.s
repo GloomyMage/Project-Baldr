@@ -4,12 +4,8 @@
   mov lr, \reg
   .short 0xf800
 .endm
-push {r14}
-sub r13,#0x48
-ldr	r7,=#0x2003BFC
-ldr	r0,[r7,#0xC]
-
-
+push	{r4}
+mov	r4,r0
 ldr  r5,Table
 sub  r5,#0x8        @     ループ処理が面倒なので、最初に0x8バイト差し引きます.
 Loop:
@@ -20,8 +16,8 @@ cmp  r0,#0x0        @     データのポインタがない場合、終端とみ
 beq  Original   @データがないので、ディフォルトの説明文をロードして終了!
 
 ldrb r0,[r5,#0x02]  @     B2:UNITID
-ldr	r1,[r7,#0xC]
-ldr  r1,[r1,#0x00]  @     RAMUNIT->ROMUNIT
+
+ldr  r1,[r4,#0x00]  @     RAMUNIT->ROMUNIT
 ldrb r1,[r1,#0x4]   @     ROMUNIT->ID
 cmp  r0,r1
 bne  Loop
@@ -32,8 +28,8 @@ cmp  r0,#0x00       @     ANY?
 beq  CheckMAP
 cmp  r0,#0xFF       @     ANY?
 beq  CheckMAP
-ldr	r1,[r7,#0xC]
-ldr  r1,[r1,#0x04]  @     RAMUNIT->ROMCLASS
+
+ldr  r1,[r4,#0x04]  @     RAMUNIT->ROMCLASS
 ldrb r1,[r1,#0x4]   @     CLASSUNIT->ID
 cmp  r0,r1
 bne  Loop
@@ -74,21 +70,24 @@ beq  Loop           @     条件不一致なので、次のループへ continue
 
 Found:
 ldrh r0,[r5,#0x00]  @     W0:TEXTを採用
-b    End
+b	End
 
 Original:
-ldr	r0,[r7,#0xC]
+mov	r0,r4
 ldr	r0,[r0]
 ldrh	r0,[r0]
 
 End:
-mov r6,r0
-add r13,#0x48
-pop   {r0}
-mov r5,r0
-mov r0,r6
-bx    r5
+ldr	r4,=#0x800A240
+mov	lr,r4
+.short	0xF800
+mov	r6,r0
+mov	r5,r0
+ldr	r4,=#0x8051F86
+mov	lr,r4
+pop	{r4}
+ldr	r4,=#0x2017678
+.short	0xF800
 .align
 .ltorg
 Table:
-@POIN ChangeUnitName_Table

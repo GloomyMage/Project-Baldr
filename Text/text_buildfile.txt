@@ -250,7 +250,8 @@ Shannam[X]
 ##Name_Arion
 Arion[X]
 
-
+##Name_Gazzak
+Gazzak[X]
 
 ##Name_Gerrard
 Gerrard[X]
@@ -729,6 +730,27 @@ Jake[X]
 
 ##Name_Enemy
 Enemy[X]
+
+##Name_Arena1 ^
+Arena1[X]
+
+##Name_Arena2 ^
+Arena2[X]
+
+##Name_Arena3 ^
+Arena3[X]
+
+##Name_Arena4 ^
+Arena4[X]
+
+##Name_Arena5 ^
+Arena5[X]
+
+##Name_Arena6 ^
+Arena6[X]
+
+##Name_Arena7 ^
+Arena7[X]
 
 ##Name_Payne
 Payne[X]

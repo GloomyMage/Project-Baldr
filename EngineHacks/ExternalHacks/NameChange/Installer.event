@@ -6,22 +6,24 @@
 #endif
     
     PUSH
-    ORG $8C5F4
+    ORG $8C5F4 //Hover over unit
     jumpToHack(ChangeUnitName1)
-    ORG $86E4C
+    ORG $86E4C //Unit stat screen
     jumpToHack(ChangeUnitName2)
-    ORG $365EC
+    ORG $365EC //Battle forecast
     jumpToHack(ChangeUnitName3)
-    ORG $9A5F0
+    ORG $9A5F0 //??
     jumpToHack(ChangeUnitName4)
-    ORG $9A97C
+    ORG $9A97C //??
     jumpToHack(ChangeUnitName5)
-    ORG $9954C
+    ORG $9954C //??
     jumpToHack(ChangeUnitName6)
-    ORG $9A1DC
+    ORG $9A1DC //??
     jumpToHack(ChangeUnitName7)
-    ORG $5203C
+    ORG $5203C //Something to do with battle
     jumpToHack(ChangeUnitName8)
+    ORG $51F7C //Something to do with battle
+    jumpToHack(ChangeUnitName18)
     ORG $923A8
     jumpToHack(ChangeUnitName9)
     ORG $9ECCE
@@ -113,6 +115,10 @@ ALIGN 4
     #incbin "ChangeUnitName17.dmp"
     POIN ChangeUnitName_Table
 ALIGN 4
+    ChangeUnitName18:
+    #incbin "ChangeUnitName18.dmp"
+    POIN ChangeUnitName_Table
+    ALIGN 4 
 ChangeUnitName_Table:
 #include "ChangeUnitName_Table.event"
 //@struct ChangeUnitDesc_Table

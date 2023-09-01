@@ -16,6 +16,12 @@ BYTE 02
 ORG 0x3327C
 BYTE 02
 
+//Change Supplies
+ORG 0x23F88
+BYTE 243
+ORG 0x23F94
+BYTE 244
+
 //Class Grants Bonus EXP when killed
 ORG 0x02C3FE
 BYTE 100
