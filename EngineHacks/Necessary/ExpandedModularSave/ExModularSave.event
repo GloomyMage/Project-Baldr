@@ -73,6 +73,7 @@ gSaveBlockTypeSizeLookup:
 #define EMS_CHUNK_EIDS_PERMANENT 6
 #define EMS_CHUNK_BONUSCLAIMDATA 7
 #define EMS_CHUNK_WMDATA         8
+#define EMS_CHUNK_ARENAUNITS 	 9
 
 // ===========
 // = MODULES =
@@ -143,6 +144,9 @@ gGameSaveChunks:
 	DeclSaveChunk($0680, $0AA8, ESU_SaveGameUnits, ESU_LoadGameUnits, EMS_CHUNK_SAVEUNITS)
 
 	// $1128
+	// Save arena progress
+	DeclSaveChunk($1130, $60, ESU_SaveArenaProgress, ESU_LoadArenaProgress, EMS_CHUNK_ARENAUNITS)
+
 
 	// free up to $1344
 
@@ -194,6 +198,9 @@ gSuspendSaveChunks:
 
 	// Save Debuffs (TODO: maybe reduce size)
 	DeclSaveChunk($2494, DebuffTableSize, SUD_SaveDebuffs,  SUD_LoadDebuffs)
+	
+	//Save Arena progress
+	DeclSaveChunk($2CE0, $60, ESU_SaveArenaProgress, ESU_LoadArenaProgress)
 
 	// Permanent eids (moved here because of a mistake in the previous allocation)
 	DeclSaveChunk($2DA8, $0019, $0A3150+1, $0A3198+1)

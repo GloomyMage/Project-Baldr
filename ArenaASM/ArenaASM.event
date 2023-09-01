@@ -1,0 +1,160 @@
+ALIGN 4
+ArenaLevelInject:
+//#incbin "Arenalevelinject.dmp"
+#incbin "FE4Arenalevelinject.dmp"
+POIN FE4ArenaChapterEnemyUnitListPointerTable
+ALIGN 4
+
+ALIGN 4
+ArenaItem:
+//#incbin "ArenaItem.dmp"
+#incbin "FE4ArenaItem.dmp"
+POIN FE4ArenaChapterEnemyUnitListPointerTable
+POIN ItemTable
+POIN CharacterTable
+ALIGN 4
+
+ALIGN 4
+ArenaFoe:
+//#incbin "ArenaFoe.dmp"
+//POIN MeleeArenaEnemies
+//POIN NewClassTable
+#incbin "FE4ArenaFoe.dmp"
+POIN FE4ArenaChapterEnemyUnitListPointerTable
+POIN ClassTable
+POIN ItemTable
+ALIGN 4
+
+ALIGN 4
+//#include "SuperArena Installer.event"
+#include "FE4SuperArena Installer.event"
+ALIGN 4
+
+ALIGN 4
+MESSAGE FE4 at currentOffset
+#include "FE4ArenaSave.lyn.event"
+ALIGN 4
+#include "Installer.event"
+ALIGN 4
+ArenaWeaponUse:
+#incbin "FE4WeaponUseLoss.dmp"
+ALIGN 4
+
+PUSH
+
+    ORG $31AB8
+	jumpToHack_r0(ArenaLevelInject)
+
+	ORG $31B70
+	jumpToHack_r0(ArenaItem)
+
+	ORG $3190C
+	jumpToHack_r0(ArenaFoe)
+
+	ORG $B5B18
+	jumpToHack_r1(ArenaWeaponUse)
+
+	ORG $31820
+	BYTE 0x0 0x0 0x0 0x0
+
+	ORG $31834
+	BYTE 0x0 0x0 0x0 0x0
+
+	ORG $31866
+	BYTE 0x0 0x0 0x0 0x0
+
+	ORG $2412E //So units with no available weapon to use cannot enter arena
+	BYTE 0xF2 0xF7 0xFB 0xFC
+
+
+POP
+
+ALIGN 4
+
+#include "FE4ArenaEnemyLists.event"
+
+ALIGN 4
+
+FE4ArenaChapterEnemyUnitListPointerTable:
+POIN ArenaChapter1 //0x0 Chapter ID
+POIN ArenaChapter1 //0x1 Chapter ID
+POIN ArenaChapter1 //0x2 Chapter ID
+POIN ArenaChapter1 //0x3 Chapter ID
+POIN ArenaChapter1 //0x4 Chapter ID
+POIN ArenaChapter1 //0x5 Chapter ID
+POIN ArenaChapter1 //0x6 Chapter ID
+POIN ArenaChapter1 //0x7 Chapter ID
+POIN ArenaChapter1 //0x8 Chapter ID
+POIN ArenaChapter1 //0x9 Chapter ID
+POIN ArenaChapter1 //0xA Chapter ID
+POIN ArenaChapter1 //0xB Chapter ID
+POIN ArenaChapter1 //0xC Chapter ID
+POIN ArenaChapter1 //0xD Chapter ID
+POIN ArenaChapter1 //0xE Chapter ID
+POIN ArenaChapter1 //0xF Chapter ID
+POIN ArenaChapter1 //0x10 Chapter ID
+POIN ArenaChapter1 //0x11 Chapter ID
+POIN ArenaChapter1 //0x12 Chapter ID
+POIN ArenaChapter1 //0x13 Chapter ID
+POIN ArenaChapter1 //0x14 Chapter ID
+POIN ArenaChapter1 //0x15 Chapter ID
+POIN ArenaChapter1 //0x16 Chapter ID
+POIN ArenaChapter1 //0x17 Chapter ID
+POIN ArenaChapter1 //0x18 Chapter ID
+POIN ArenaChapter1 //0x19 Chapter ID
+POIN ArenaChapter1 //0x1A Chapter ID
+POIN ArenaChapter1 //0x1B Chapter ID
+POIN ArenaChapter1 //0x1C Chapter ID
+POIN ArenaChapter1 //0x1D Chapter ID
+POIN ArenaChapter1 //0x1E Chapter ID
+POIN ArenaChapter1 //0x1F Chapter ID
+POIN ArenaChapter1 //0x20 Chapter ID
+POIN ArenaChapter1 //0x21 Chapter ID
+POIN ArenaChapter1 //0x22 Chapter ID
+POIN ArenaChapter1 //0x23 Chapter ID
+POIN ArenaChapter1 //0x24 Chapter ID
+POIN ArenaChapter1 //0x25 Chapter ID
+POIN ArenaChapter1 //0x26 Chapter ID
+POIN ArenaChapter1 //0x27 Chapter ID
+POIN ArenaChapter1 //0x28 Chapter ID
+POIN ArenaChapter1 //0x29 Chapter ID
+POIN ArenaChapter1 //0x2A Chapter ID
+POIN ArenaChapter1 //0x2B Chapter ID
+POIN ArenaChapter1 //0x2C Chapter ID
+POIN ArenaChapter1 //0x2D Chapter ID
+POIN ArenaChapter1 //0x2E Chapter ID
+POIN ArenaChapter1 //0x2F Chapter ID
+POIN ArenaChapter1 //0x30 Chapter ID
+POIN ArenaChapter1 //0x31 Chapter ID
+POIN ArenaChapter1 //0x32 Chapter ID
+POIN ArenaChapter1 //0x33 Chapter ID
+POIN ArenaChapter1 //0x34 Chapter ID
+POIN ArenaChapter1 //0x35 Chapter ID
+POIN ArenaChapter1 //0x36 Chapter ID
+POIN ArenaChapter1 //0x37 Chapter ID
+POIN ArenaChapter1 //0x38 Chapter ID
+POIN ArenaChapter1 //0x39 Chapter ID
+POIN ArenaChapter1 //0x3A Chapter ID
+POIN ArenaChapter1 //0x3B Chapter ID
+POIN ArenaChapter1 //0x3C Chapter ID
+POIN ArenaChapter1 //0x3D Chapter ID
+POIN ArenaChapter1 //0x3E Chapter ID
+POIN ArenaChapter1 //0x3F Chapter ID
+POIN ArenaChapter1 //0x40 Chapter ID
+POIN ArenaChapter1 //0x41 Chapter ID
+POIN ArenaChapter1 //0x42 Chapter ID
+POIN ArenaChapter1 //0x43 Chapter ID
+POIN ArenaChapter1 //0x44 Chapter ID
+POIN ArenaChapter1 //0x45 Chapter ID
+POIN ArenaChapter1 //0x46 Chapter ID
+POIN ArenaChapter1 //0x47 Chapter ID
+POIN ArenaChapter1 //0x48 Chapter ID
+POIN ArenaChapter1 //0x49 Chapter ID
+POIN ArenaChapter1 //0x4A Chapter ID
+POIN ArenaChapter1 //0x4B Chapter ID
+POIN ArenaChapter1 //0x4C Chapter ID
+POIN ArenaChapter1 //0x4D Chapter ID
+POIN ArenaChapter1 //0x4E Chapter ID
+BYTE 0xFF 0xFF 0xFF 0xFF
+
+ALIGN 4

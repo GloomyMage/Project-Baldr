@@ -30,7 +30,7 @@
 
 #define GreatBallista 0x38
 #define MagicBow 0x84
-##define GlidedBow 0xA1
+#define GlidedBow 0xA1
 #define MasterBow 0xBF
 
 #define Fire 0xE2

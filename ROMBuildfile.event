@@ -70,6 +70,9 @@
 
     #include "asmcs/WeaponsSupplyFix.event"
     ALIGN 4
+	
+	#include "ArenaASM/ArenaASM.event"
+	ALIGN 4
 
     // Weapon triangle
     ALIGN 4

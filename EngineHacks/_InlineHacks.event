@@ -16,6 +16,12 @@ BYTE 02
 ORG 0x3327C
 BYTE 02
 
+//Change Supplies
+ORG 0x23F88
+BYTE 243
+ORG 0x23F94
+BYTE 244
+
 //Class Grants Bonus EXP when killed
 ORG 0x02C3FE
 BYTE 100
@@ -54,6 +60,12 @@ ORG 0x229A8
 BYTE 0x00 0x1C
 ORG 0x22A10
 BYTE 0x00 0x1C
+POP
+
+//kill auto promos
+PUSH
+ORG 0x0CC750
+BYTE 0xC0 0x46
 POP
 
 //change wrank thresholds to 50s

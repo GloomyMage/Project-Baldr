@@ -31,7 +31,8 @@ Husband of Ethlyn, the younger sister [N]
 of his close friend Sigurd.[X]
 
 ##Desc_Finn ^
-A knight of Leonster and fervent servant of Prince Quan, [N]
+A knight of Leonster and fervent [N]
+servant of Prince Quan, [N]
 he pursues the same goals as him.[X]
 
 ##Desc_Finn2  ^
@@ -50,13 +51,14 @@ and descendant of the crusader Od. [NL]
 She fights for her homeland. [X]
 
 ##Desc_Jamke ^
-The youngest prince of Verdane. [N]
-He does not carry the blood of a crusader in his veins. [X]
+The youngest prince of Verdane. [NL]
+He does not carry the blood of [N]
+a crusader in his veins. [X]
 
 ##Desc_Jamke2  ^
-The youngest prince of Verdane. [N]
-He does not carry the blood of a crusader in his veins. [NL]
-He turns his bow against his homeland to try to stop the war.[X]
+The youngest prince of Verdane. [NL]
+He turns his bow against his homeland [N]
+to try to stop the war.[X]
 
 ##Desc_Edain ^
 Sigurd's childhood friend, and one of [N]
@@ -64,9 +66,9 @@ the two daughters of Duke Ring of Yngvi. [NL]
 She tries finding her long lost twin sister, Brigid.[X]
 
 ##Desc_Midir ^
-Archer knight of Yngvi who harbours a crush on Edain. [NL]
-Determined to save Edain and atone for his inability [N]
-to protect her from harm.[X]
+Knight of Yngvi who harbours a crush on Edain. [NL]
+Determined to save Edain and atone for [N]
+his inability to protect her from harm.[X]
 
 ##Desc_Dew ^
 He was captured for attempting to steal [N]
@@ -78,8 +80,9 @@ She lives hidden away in the Spirit Forest. [NL]
 She lost the memories of her past.[X]
 
 ##Desc_Chulainn ^
-Son of the Lord of Sophara Castle in southern Isaach, [N]
-and is a former gladiator and descendant of Od.[X]
+Son of the Lord of Sophara Castle in [N]
+southern Isaach, and is a former gladiator [N]
+and descendant of Od.[X]
 
 ##Desc_Lachesis ^
 Lady of House Nordion. [NL]

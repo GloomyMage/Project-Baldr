@@ -139,7 +139,7 @@ POP
   //Custom animations by Character
   #include "PRFAnims/Installer.event"
   
-  //Battle Palette Rework
+  //Battle Palette Rework by Gamma
   #include "ExternalHacks/BattlePaletteRework/BattlePaletteReworkFE8.event"
   
   //Boss killed by unit 
@@ -151,14 +151,23 @@ POP
   //Mug Exceed
   #include "ExternalHacks/MugExceed/EA.txt"
   
-  //A Support Trading
+  //A Support Trading by Clendo
   #include "ExternalHacks/ASupportTrades/ASupportTrades.event"
   
-  //Repair Items
+  //Repair Items by Zane and Vesly
   #include "ExternalHacks/RepairItems/RepairItems.event"
   
+  //HP Class Limit Fix
+  #include "ExternalHacks/SetHPClassLimit/SetHPClassLimit.event"
+  
   //Dynamic Portrait
-  #include "Necessary/DynamicPortrait/DynamicPortraitsInstaller.event" 
+  #include "Necessary/DynamicPortrait/DynamicPortraitsInstaller.event"
+
+  //Unit Description change
+  #include "ExternalHacks/ChangeUnitDesc/Installer.event"
+  
+  //Name change by Epicer
+  #include "ExternalHacks/NameChange/Installer.event" 
   
   //Switch Map Palette
   #include "ExternalHacks/SwitchMapPalette/Installer.event"

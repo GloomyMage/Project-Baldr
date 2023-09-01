@@ -32,10 +32,41 @@ SHORT For the Event Flag ID that will trigger the portrait change (0 if you want
 BYTE  For the character ID who we will check to determine if we change the portrait (0 if you want no character)
 BYTE  For the class ID the character above must be to trigger the portrait change (0 if you don't care about their class)
 */
-//Arden
-SHORT 0x0007
-SHORT 0x00f5
-SHORT 0x0000
-BYTE Arden
-BYTE General
+//Gen 2 Changes
+//Oifey
+SHORT 0x0003
+SHORT 0x001f
+SHORT 0x0078
+BYTE Oifey
+BYTE 0
+//Shannan
+SHORT 0x00f0
+SHORT 0x00b9
+SHORT 0x0078
+BYTE Shannan
+BYTE 0
+//Brigid 
+SHORT 0x0024
+SHORT 0x00b7
+SHORT 0x0078
+BYTE Brigid
+BYTE 0
+//Finn 
+SHORT 0x000E
+SHORT 0x00c2
+SHORT 0x0078
+BYTE Finn
+BYTE 0
+//Rodan
+SHORT 0x00c9
+SHORT 0x00da
+SHORT 0x0078
+BYTE Rodan
+BYTE 0
+//Palmarch
+SHORT 0x00f4
+SHORT 0x00f3
+SHORT 0x0078
+BYTE Palmarch
+BYTE 0
 WORD 0x0 0x0//Terminator, don't delete this or very bad things will happen

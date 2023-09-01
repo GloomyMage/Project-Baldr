@@ -60,10 +60,6 @@
 	ORG $2D7EC
 	callHack_r3(Trade_Portrait_Fix2)
 	
-	//Stop DeathQuote
-	ORG 0x846E4
-	jumpToHack(StopDeathQuote)
-	
 	ORG 0x32264
 	jumpToHack(GiveDropExp)
 	

@@ -37,3 +37,4 @@
 #define Belhalla 0xD4
 #define Ruffian 0xD5
 #define MercenaryFaction 0xD6
+#define Commander 0xD7
