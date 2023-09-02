@@ -119,6 +119,7 @@ a skill when used.[X]
 #include "ItemUse.txt"
 #include "RepairText.txt"
 #include "Endings.txt"
+#include "LocationNames.txt"
 
 ## ClassDisplayNameText
  Display[X]

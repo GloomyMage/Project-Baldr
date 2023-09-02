@@ -1,3 +1,7 @@
+#ifndef tilesetAnimation
+    #define tilesetAnimation(speed, size, pointer)    "BYTE speed 0; SHORT size; POIN pointer"
+#endif
+
 ALIGN 4
 JugdralFields:
 #incbin "Tilesets/FieldsPalette.dmp"
@@ -22,9 +26,98 @@ ALIGN 4
 FieldNights:
 #incbin "Tilesets/NightFields.dmp"
 
+ALIGN 4
+AgustriaFields:
+#incbin "Tilesets/AutumnFields.dmp"
+
+ALIGN 4
+StrongholdObjects:
+#incbin "Tilesets/Stronghold.dmp"
+
+ALIGN 4
+StrongholdPalette:
+#incbin "Tilesets/Stronghold_pal.dmp"
+
+ALIGN 4
+StrongholdTiles:
+#incext compress "Tilesets/Stronghold.mapchip_config"
+
+ALIGN 4
+StrongholdFrame1:
+#incbin "Tilesets/StrongholdAnimation/tile_animasinos.mapanime_1_000.dmp"
+ALIGN 4
+StrongholdFrame2:
+#incbin "Tilesets/StrongholdAnimation/tile_animasinos.mapanime_1_001.dmp"
+ALIGN 4
+StrongholdFrame3:
+#incbin "Tilesets/StrongholdAnimation/tile_animasinos.mapanime_1_002.dmp"
+ALIGN 4
+StrongholdFrame4:
+#incbin "Tilesets/StrongholdAnimation/tile_animasinos.mapanime_1_003.dmp"
+ALIGN 4
+StrongholdFrame5:
+#incbin "Tilesets/StrongholdAnimation/tile_animasinos.mapanime_1_004.dmp"
+ALIGN 4
+StrongholdFrame6:
+#incbin "Tilesets/StrongholdAnimation/tile_animasinos.mapanime_1_005.dmp"
+ALIGN 4
+StrongholdFrame7:
+#incbin "Tilesets/StrongholdAnimation/tile_animasinos.mapanime_1_006.dmp"
+ALIGN 4
+StrongholdFrame8:
+#incbin "Tilesets/StrongholdAnimation/tile_animasinos.mapanime_1_007.dmp"
+ALIGN 4
+StrongholdFrame9:
+#incbin "Tilesets/StrongholdAnimation/tile_animasinos.mapanime_1_008.dmp"
+ALIGN 4
+StrongholdFrame10:
+#incbin "Tilesets/StrongholdAnimation/tile_animasinos.mapanime_1_009.dmp"
+ALIGN 4
+StrongholdFrame11:
+#incbin "Tilesets/StrongholdAnimation/tile_animasinos.mapanime_1_010.dmp"
+ALIGN 4
+StrongholdFrame12:
+#incbin "Tilesets/StrongholdAnimation/tile_animasinos.mapanime_1_011.dmp"
+ALIGN 4
+StrongholdFrame13:
+#incbin "Tilesets/StrongholdAnimation/tile_animasinos.mapanime_1_012.dmp"
+ALIGN 4
+StrongholdFrame14:
+#incbin "Tilesets/StrongholdAnimation/tile_animasinos.mapanime_1_013.dmp"
+ALIGN 4
+StrongholdFrame15:
+#incbin "Tilesets/StrongholdAnimation/tile_animasinos.mapanime_1_014.dmp"
+ALIGN 4
+StrongholdFrame16:
+#incbin "Tilesets/StrongholdAnimation/tile_animasinos.mapanime_1_015.dmp"
+ALIGN 4
+StrongholdAnims:
+tilesetAnimation(0x1a,0x1000,StrongholdFrame1)
+tilesetAnimation(0x1a,0x1000,StrongholdFrame2)
+tilesetAnimation(0x1a,0x1000,StrongholdFrame3)
+tilesetAnimation(0x1a,0x1000,StrongholdFrame4)
+tilesetAnimation(0x1a,0x1000,StrongholdFrame5)
+tilesetAnimation(0x1a,0x1000,StrongholdFrame6)
+tilesetAnimation(0x1a,0x1000,StrongholdFrame7)
+tilesetAnimation(0x1a,0x1000,StrongholdFrame8)
+tilesetAnimation(0x1a,0x1000,StrongholdFrame9)
+tilesetAnimation(0x1a,0x1000,StrongholdFrame10)
+tilesetAnimation(0x1a,0x1000,StrongholdFrame11)
+tilesetAnimation(0x1a,0x1000,StrongholdFrame12)
+tilesetAnimation(0x1a,0x1000,StrongholdFrame13)
+tilesetAnimation(0x1a,0x1000,StrongholdFrame14)
+tilesetAnimation(0x1a,0x1000,StrongholdFrame15)
+tilesetAnimation(0x1a,0x1000,StrongholdFrame16)
+WORD 0 0
+
 EventPointerTable(0x02, JugdralFields)
 EventPointerTable(0x5B, FieldNights)
+EventPointerTable(0x4C, AgustriaFields)
 EventPointerTable(0x03, FieldTiles)
 EventPointerTable(0x01, FieldObject)
 EventPointerTable(0x3C, FortObject)
 EventPointerTable(0x3E, FortTiles)
+EventPointerTable(0x79, StrongholdObjects)
+EventPointerTable(0x7A, StrongholdPalette)
+EventPointerTable(0x7B, StrongholdTiles)
+EventPointerTable(0x7D, StrongholdAnims)
