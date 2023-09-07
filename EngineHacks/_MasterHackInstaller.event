@@ -157,6 +157,9 @@ POP
   //Repair Items by Zane and Vesly
   #include "ExternalHacks/RepairItems/RepairItems.event"
   
+  //Shopping edit by AuraWolf
+  #include "ExternalHacks/ShoppingEdits/ShoppingEdits.event"
+  
   //HP Class Limit Fix
   #include "ExternalHacks/SetHPClassLimit/SetHPClassLimit.event"
   
