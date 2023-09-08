@@ -281,10 +281,10 @@ Chagall[X]
 Lino[X]
 
 ##Name_Jacobin
-Jacobin [X]
+Jacobin[X]
 
 ##Name_Estrella
-Enemy [X]
+Estrella[X]
 
 ##Name_Othello
 Othello[X]
