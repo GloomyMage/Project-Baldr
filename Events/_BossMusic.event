@@ -1,7 +1,7 @@
 #define BossBGMEntry(UnitId,SongId) "BYTE UnitId 0 0 0; SHORT SongId 0"
 #define BossBGMTerminator "BYTE 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF"
 
-//MidBoss is normal bosses, Fateful is Holy blood bosses, vs arvis is arvis, vs julius is julius, lopt theme is julia, from friend is ayra jamka beowolf fury johalva johalvier tine faval altena and arion, fe1 attack is holyn, lacrima castle is hopper indech clement and callista, battle for tomorrow is burkaul, victory now is papillon, rise to the challenge is snevejr, confront is magorn, the battle must be won is harold, stalwart opposition is tonnamin, fe5 boss is coulter, softly with grace is musar, fateful is riddell
+//MidBoss is normal bosses, Fateful is Holy blood bosses, vs arvis is arvis, vs julius is julius, lopt theme is julia, from friend is ayra jamka beowolf fury johalva johalvier tine faval altena and arion, fe1 attack is holyn, lacrima castle is hopper indech and callista, battle for tomorrow is burkaul, victory now is papillon, rise to the challenge is snevejr, confront is magorn, the battle must be won is harold, stalwart opposition is tonnamin, fe5 boss is coulter, softly with grace is musar, fateful is riddell
 
 ALIGN 4
 BossBGMTable:
