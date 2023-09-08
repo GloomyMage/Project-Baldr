@@ -376,7 +376,7 @@ could do[...][A][N][OpenMidRight]
 Azelle[...]You fool[...][A][X]
 
 ##Village1
-[OpenMidLeft][LoadCurrent][OpenMidRight][LoadMan1]
+[OpenMidLeft][LoadCurrent][OpenMidRight][LoadMaleElder]
 The master archers of House Yngvi[N]
 All bear descent from Ullr.[A][N]
 Our noble duke, Lord Ring, has twin[N]
@@ -389,7 +389,7 @@ Rumor has it that they don't get[N]
 along well now that he is grown[...][A][X]
 
 ##Village2
-[OpenMidLeft][LoadCurrent][OpenMidRight][LoadMan2]
+[OpenMidLeft][LoadCurrent][OpenMidRight][LoadOldWoman]
 The ruling family of this area[N]
 has produced fine knights[A][N]
 It's no surprise, the Chalphys are[N]
@@ -400,7 +400,7 @@ But we don't, so please take this[N]
 and remember to Baldr' those bandits![A][X]
 
 ##Village3
-[OpenMidLeft][LoadCurrent][OpenMidRight][LoadWoman1]
+[OpenMidLeft][LoadCurrent][OpenMidRight][LoadFemaleElder]
 Oh? You came to save us![N]
 I was so sure this was the end![A][N]
 Take this speed ring, Its the least I[N]
@@ -411,7 +411,7 @@ Your enemies will be too slow[N]
 to hit you![A][X]
 
 ##Village4
-[OpenMidLeft][LoadCurrent][OpenMidRight][LoadMan3]
+[OpenMidLeft][LoadCurrent][OpenMidRight][LoadMaleElder]
 Listen up, kid![A][N]
 Swords are good against axes,[N]
 axes are good against lances,[A][N]
@@ -425,7 +425,7 @@ Go on, take it, it's your[N]
 reward for helping us out.[A][X]
 
 ##Village5
-[OpenMidLeft][LoadCurrent][OpenMidRight][LoadMan5]
+[OpenMidLeft][LoadCurrent][OpenMidRight][LoadOldMan]
 Oh, thank the gods![A][N]
 We're saved![N]
 We can't thank you enough![A][N]
