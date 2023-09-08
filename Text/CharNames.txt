@@ -707,25 +707,25 @@ Jake[X]
 Enemy[X]
 
 ##Name_Arena1
-Arena1[X]
+Enemy[X]
 
 ##Name_Arena2
-Arena2[X]
+Enemy[X]
 
 ##Name_Arena3
-Arena3[X]
+Enemy[X]
 
 ##Name_Arena4
-Arena4[X]
+Enemy[X]
 
 ##Name_Arena5
-Arena5[X]
+Enemy[X]
 
 ##Name_Arena6
-Arena6[X]
+Enemy[X]
 
 ##Name_Arena7
-Arena7[X]
+Enemy[X]
 
 ##Name_Commander
 Commander[X]

@@ -20,6 +20,12 @@ ORG 0x3327C
 BYTE 02
 POP
 
+//Mystery trading by Contro
+PUSH
+ORG 0x22F50
+SHORT 0x46C0 //Skip partial action check
+POP
+
 //Change Supplies
 PUSH
 ORG 0x23F88

@@ -1009,6 +1009,14 @@ BramselPortrait:
 setMugEntry(0x126,BramselPortrait,3,5,3,3)
 
 ALIGN 4
+JavarroPortrait:
+#incbin "Javarro_mug.dmp"
+#incbin "Javarro_frames.dmp"
+#incbin "Javarro_palette.dmp"
+#incbin "Javarro_minimug.dmp"
+setMugEntry(0x13C,JavarroPortrait,4,6,4,4)
+
+ALIGN 4
 BanbaPortrait:
 #incbin "Banba_mug.dmp"
 #incbin "Banba_frames.dmp"
