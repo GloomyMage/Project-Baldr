@@ -916,8 +916,8 @@ Restores all HP every turn.[X]
 Grants Miracle and Renewal.[X]
 
 
-##DDireThunder ^
-Can strike consecutively.[X]
+##DCursedBlade ^
+Might injure its wielder.[X]
 
 
 ##DKingSword ^
@@ -940,7 +940,8 @@ Spd-5.[X]
 
 
 ##DSalamander ^
-[X]
+Powerful fire tome of[N]
+House Velthomer.[X]
 
 
 ##DAwaken ^
@@ -1042,8 +1043,8 @@ Uses Thunder as ranged attacks.[X]
 Uses Wind as ranged attacks.[X]
 
 
-##D0xf9 ^
-[X]
+##DDireThunder ^
+Can strike consecutively.[X]
 
 
 ##DCharmStaff ^
