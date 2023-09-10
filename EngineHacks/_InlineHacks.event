@@ -20,6 +20,21 @@ ORG 0x3327C
 BYTE 02
 POP
 
+// Unit id and higher to class grow with autolevel
+PUSH 
+ORG 0x17C4C 
+BYTE 0xE7
+POP
+
+// Unit ID Cannot be hit by sleep, berserk, and silence 
+// by 7743 
+PUSH
+ORG 0x2CD44 
+BYTE 0xA3
+ORG 0x2CD48
+BYTE 0xA4
+POP
+
 //Mystery trading by Contro
 PUSH
 ORG 0x22F50
