@@ -1,0 +1,20 @@
+PUSH
+
+ORG 0x88638
+POIN StatScreenImage
+
+ORG 0x88644
+POIN StatScreenTSA
+
+ORG 0xA06460
+#incbin "StatScreen.pal"
+
+POP
+
+ALIGN 4
+StatScreenImage:
+#incbin "StatScreen.lz77"
+
+ALIGN 4
+StatScreenTSA:
+#incbin "StatScreen.bgtsa.lz77"

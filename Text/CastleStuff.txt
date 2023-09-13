@@ -1,0 +1,48 @@
+##NotEnoughLevel
+[OpenMidLeft][LoadCurrent][OpenMidRight][LoadOifey]
+Sorry, but you can only change[N]
+class upon reaching level 20.[A][N]
+Come back when you've[N]
+gained more experience.[A][X]
+
+##CongratsYouPromo
+[OpenMidLeft][LoadCurrent][OpenMidRight][LoadOifey]
+Masterfully done! You're now able to[N]
+change class now.[A][N]
+Would you like to do so now?[A][X]
+
+##UWannaPromo
+Promote to the next class?[N]
+[Yes][X]
+
+##UAlreadyPromo
+[OpenMidLeft][LoadCurrent][OpenMidRight][LoadOifey]
+You've already changed class.[N]
+You can't do so again.[A][N]
+Please be on your way.[A][X]
+
+##AuguryOne
+[OpenMidRight][LoadCurrent][OpenMidLeft][LoadAugury]
+Greetings, warrior[A][N]
+Would you like[N]
+your fate to be read?[A][X]
+
+##Loner
+[OpenMidRight][LoadCurrent][OpenMidLeft][LoadAugury]
+Ohh... You've yet to find one[N]
+to capture your heart.[A][X]
+
+##AuguryAyra
+[OpenMidRight][LoadCurrent][OpenMidLeft][LoadAugury]
+Ohh... You and Ayra[N]
+are bound in holy matrimony![A][X]
+
+##AuguryDeirdre
+[OpenMidRight][LoadCurrent][OpenMidLeft][LoadAugury]
+Ohh... You and Deirdre[N]
+are bound in holy matrimony![A][X]
+
+##AuguryThree
+[OpenMidRight][LoadCurrent][OpenMidLeft][LoadAugury]
+Thank you for coming.[N]
+I know we'll meet again.[A][X]

@@ -15,3 +15,5 @@
 #include "Minimugs/MinimugInstaller.event"
 
 #include "Backgrounds/Background Installer.event"
+
+#include "StatScreen/Installer.event"

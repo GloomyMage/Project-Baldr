@@ -178,6 +178,9 @@ POP
   //New Calculations (crit)
   #include "Baldr/NewCalcs/NewCalcs.event"
   
+  //Support Check by Contro
+  #include "Baldr/SupportCheck/SupportASMCs.lyn.event"
+  
   //Set Unit Condition
   #include "Necessary/SetStatus/SetStatusInstaller.event"
   

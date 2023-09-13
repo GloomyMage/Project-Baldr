@@ -67,16 +67,16 @@ Bad[X]
 Worst[X]
 
 ## LikesDesc
-A list of things this[N]
-character enjoys.[X]
+This character's[N]
+Major Crusader Blood.[X]
 
 ## DislikesDesc
-A list of things this[N]
-character does not enjoy.[X]
+This character's[N]
+Minor Crusader Blood.[X]
 
 ## AgeDesc
-This character's current age.[X]
+This character's mother.[X]
 
 ## HeightDesc
-This character's height.[X]
+This character's father.[X]
 
