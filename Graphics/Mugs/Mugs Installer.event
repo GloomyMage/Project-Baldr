@@ -746,7 +746,7 @@ ChagallPortrait:
 #incbin "Chagall_frames.dmp"
 #incbin "Chagall_palette.dmp"
 #incbin "Chagall_minimug.dmp"
-setMugEntry(0xD4,ChagallPortrait,2,5,2,3)
+setMugEntry(0xD4,ChagallPortrait,3,5,3,3)
 
 ALIGN 4
 LinoPortrait:
@@ -1623,6 +1623,22 @@ CrossKnightPortrait:
 #incbin "CrossKnight_palette.dmp"
 #incbin "CrossKnight_minimug.dmp"
 setMugEntry(0x6F,CrossKnightPortrait,4,4,4,4)
+
+ALIGN 4
+CaitlynPortrait:
+#incbin "Caitlyn_mug.dmp"
+#incbin "Caitlyn_frames.dmp"
+#incbin "Caitlyn_palette.dmp"
+#incbin "Caitlyn_minimug.dmp"
+setMugEntry(0x13D,CaitlynPortrait,3,6,3,4)
+
+ALIGN 4
+LamiaTroopPortrait:
+#incbin "LamiaTroop_mug.dmp"
+#incbin "LamiaTroop_frames.dmp"
+#incbin "LamiaTroop_palette.dmp"
+#incbin "LamiaTroop_minimug.dmp"
+setMugEntry(0x13E,LamiaTroopPortrait,2,6,3,4)
 
 ALIGN 4
 BatuPortrait:

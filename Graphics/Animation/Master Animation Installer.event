@@ -25,7 +25,7 @@
 #define SwordAnim(Animation) "BYTE 0x00 0x01 ; SHORT Animation"
 #define LanceAnim(Animation) "BYTE 0x01 0x01 ; SHORT Animation"
 #define AxeAnim(Animation) "BYTE 0x02 0x01 ; SHORT Animation"
-#define HandAxeAnim(Animation) "BYTE HandAxe 0x00 ; SHORT Animation ; BYTE Tomahawk 0x00 ; SHORT Animation; BYTE Hatchet 0x00 ; SHORT Animation"
+#define HandAxeAnim(Animation) "BYTE HandAxe 0x00 ; SHORT Animation ; BYTE Tomahawk 0x00 ; SHORT Animation; BYTE Hatchet 0x00 ; SHORT Animation; BYTE MasterAxe 0x00 ; SHORT Animation"
 #define BowAnim(Animation) "BYTE 0x03 0x01 ; SHORT Animation"
 #define StaffAnim(Animation) "BYTE 0x04 0x01 ; SHORT Animation"
 #define FireAnim(Animation) "BYTE 0x05 0x01 ; SHORT Animation"
@@ -62,11 +62,56 @@
 #include "Alec/Lance Installer.event"
 }
 {
+#include "Lex/Axe Installer.event"
+#include "Lex/Handaxe Installer.event"
+#include "Lex/Unarmed Installer.event"
+}
+{
+#include "Edain/Staff Installer.event"
+#include "Edain/Unarmed Installer.event"
+}
+{
+#include "Ayra/Sword Installer.event"
+#include "Ayra/Unarmed Installer.event"
+}
+{
+#include "AyraPro/Sword Installer.event"
+#include "AyraPro/Unarmed Installer.event"
+}
+{
+#include "Jamke/Bow Installer.event"
+#include "Jamke/Unarmed Installer.event"
+}
+{
 #include "JamkePro/Bow Installer.event"
+}
+{
+#include "Deirdre/Magic Installer.event"
+#include "Deirdre/Staff Installer.event"
+}
+{
+#include "Ethlyn/Staff Installer.event"
+}
+{
+#include "EthlynPro/Sword Installer.event"
+#include "EthlynPro/Lance Installer.event"
+#include "EthlynPro/Staff Installer.event"
+#include "EthlynPro/Unarmed Installer.event"
 }
 {
 #include "Quan/Lance Installer.event"
 #include "Quan/Unarmed Installer.event"
+}
+{
+#include "Finn/Lance Installer.event"
+#include "Finn/Unarmed Installer.event"
+}
+{
+#include "FinnPro/Lance Installer.event"
+#include "FinnPro/Unarmed Installer.event"
+}
+{
+#include "Dew/Sword Installer.event"
 }
 {
 #include "Holyn/Sword Installer.event"
@@ -76,11 +121,49 @@
 #include "HolynPro/Sword Installer.event"
 }
 {
+#include "Lachesis/Sword Installer.event"
+#include "Lachesis/Unarmed Installer.event"
+#include "Lachesis/Staff Installer.event"
+}
+{
 #include "Midir/Bow Installer.event"
 #include "Midir/Unarmed Installer.event"
 }
 {
 #include "MidirPro/Bow Installer.event"
+}
+{
+#include "Lana/Staff Installer.event"
+#include "Lana/Unarmed Installer.event"
+}
+{
+#include "Julia/Magic Installer.event"
+#include "Julia/Unarmed Installer.event"
+}
+{
+#include "Leif/Sword Installer.event"
+#include "Leif/Unarmed Installer.event"
+}
+{
+#include "Dalvin/Sword Installer.event"
+#include "Dalvin/Axe Installer.event"
+#include "Dalvin/Handaxe Installer.event"
+#include "Dalvin/Unarmed Installer.event"
+}
+{
+#include "Boyce/Sword Installer.event"
+}
+{
+#include "EmperorArvis/Magic Installer.event"
+}
+{
+#include "Shamash/Magic Installer.event"
+}
+{
+#include "Julius/Magic Installer.event"
+}
+{
+#include "Legion/Axe Installer.event"
 }
 {
 #include "Brigand/Axe Installer.event"
@@ -274,9 +357,59 @@ LanceAnim(0xFA)
 EndAnim
 
 ALIGN 4
+LachesisAnims:
+SwordAnim(0x6)
+StaffAnim(0x9)
+UnarmedAnim(0xA)
+EndAnim
+
+ALIGN 4
+LexAnims:
+AxeAnim(0x54)
+HandAxeAnim(0x55)
+UnarmedAnim(0x56)
+EndAnim
+
+ALIGN 4
+EdainAnims:
+StaffAnim(0xCE)
+UnarmedAnim(0xCF)
+EndAnim
+
+ALIGN 4
+DewAnims:
+SwordAnim(0xA2)
+UnarmedAnim(0xA2)
+EndAnim
+
+ALIGN 4
+AyraAnims:
+SwordAnim(0xA3)
+UnarmedAnim(0xA4)
+EndAnim
+
+ALIGN 4
+AyraProAnims:
+SwordAnim(0xA7)
+UnarmedAnim(0xA8)
+EndAnim
+
+ALIGN 4
 QuanAnims:
 LanceAnim(0xB1)
 UnarmedAnim(0xB2)
+EndAnim
+
+ALIGN 4
+FinnAnims:
+LanceAnim(0x96)
+UnarmedAnim(0x97)
+EndAnim
+
+ALIGN 4 
+FinnProAnims:
+LanceAnim(0xC4)
+UnarmedAnim(0xC5)
 EndAnim
 
 ALIGN 4
@@ -291,6 +424,12 @@ BowAnim(0xC0)
 EndAnim
 
 ALIGN 4
+JamkeAnims:
+BowAnim(0xC1)
+UnarmedAnim(0xC3)
+EndAnim
+
+ALIGN 4
 JamkeProAnims:
 BowAnim(0xF5)
 EndAnim  
@@ -302,8 +441,88 @@ UnarmedAnim(0x57)
 EndAnim
 
 ALIGN 4
+JuliaAnims:
+FireAnim(0xAD)
+ThunderAnim(0xAD)
+WindAnim(0xAD)
+LightAnim(0xAD)
+DarkAnim(0xAD)
+UnarmedAnim(0xAE)
+EndAnim
+
+ALIGN 4
+LanaAnims:
+StaffAnim(0xC6)
+UnarmedAnim(0xC7)
+EndAnim
+
+ALIGN 4
+DalvinProAnims:
+SwordAnim(0xCA)
+AxeAnim(0xCB)
+HandAxeAnim(0xCC)
+UnarmedAnim(0xCD)
+EndAnim
+
+ALIGN 4
+EthlynAnims:
+StaffAnim(0xB5)
+EndAnim
+
+ALIGN 4
+EthlynProAnims:
+SwordAnim(0xB6)
+LanceAnim(0xB7)
+StaffAnim(0xB8)
+UnarmedAnim(0xB9)
+EndAnim
+
+ALIGN 4
+DeirdreAnims:
+MagicAnim(0xBB)
+StaffAnim(0xBC)
+EndAnim
+
+ALIGN 4
+LeifAnims:
+SwordAnim(0x4E)
+UnarmedAnim(0x4F)
+EndAnim
+
+ALIGN 4
 HolynProAnims:
 SwordAnim(0xC2)
+EndAnim
+
+ALIGN 4
+BoyceAnims:
+SwordAnim(0xA9)
+EndAnim
+
+ALIGN 4
+ShamashAnims:
+MagicAnim(0xAA)
+EndAnim
+
+ALIGN 4
+LegionAnims:
+AxeAnim(0xAB)
+EndAnim
+
+ALIGN 4
+ArvisProAnims:
+MagicAnim(0x9E)
+EndAnim
+
+ALIGN 4
+JuliusAnims:
+MagicAnim(0x9D)
+EndAnim
+
+ALIGN 4
+HoodBishopAnims:
+MagicAnim(0x81)
+UnarmedAnim(0x82)
 EndAnim
 
 ALIGN 4

@@ -8,7 +8,7 @@ void ASMC_GetUnitHighestSupporter() {
     int count = GetROMUnitSupportCount(unit);
 
     for (int i = 0; i < count; ++i) {
-        temp = GetSupportLevelBySupportIndex(unit, i);
+        temp = unit->supports[i];
         if (temp > highSupport) {
             highSupport = temp;
             highSupporter = GetROMUnitSupportingId(unit, i);
@@ -24,7 +24,7 @@ void ASMC_GetUnitASupportPartner() {
     int count = GetROMUnitSupportCount(unit);
 
     for (int i = 0; i < count; ++i) {
-        if (GetSupportLevelBySupportIndex(unit, i) > 240) {
+        if (GetSupportLevelBySupportIndex(unit, i) == SUPPORT_LEVEL_A) {
             gEventSlot[0xC] = GetROMUnitSupportingId(unit, i);
             return;
         }

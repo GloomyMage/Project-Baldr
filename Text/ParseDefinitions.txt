@@ -240,6 +240,7 @@
 [LoadAida] = [LoadFace][0x15][0x1]
 [LoadPalmarch] = [LoadFace][0xF4][0x1]
 [LoadCrossKnight] = [LoadFace][0x6F][0x1]
+[LoadLamiaTroop] = [LoadFace][0x3E][0x2]
 [LoadBatu] = [LoadFace][0xE4][0x1]
 [LoadLahna] = [LoadFace][0xEF][0x1]
 [LoadFelipe] = [LoadFace][0xF2][0x1]
@@ -256,6 +257,7 @@
 [LoadGalzus] = [LoadFace][0x37][0x2]
 [LoadEthnia] = [LoadFace][0x39][0x2]
 [LoadEthnia2] = [LoadFace][0x3A][0x2]
+[LoadCaitlyn] = [LoadFace][0x3D][0x2]
 
 [LoadMaleElder] = [LoadFace][0x59][0x1]
 [LoadFemaleElder] = [LoadFace][0x5F][0x1]

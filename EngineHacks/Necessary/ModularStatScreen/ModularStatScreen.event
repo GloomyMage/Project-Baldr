@@ -17,6 +17,14 @@
   
   #include "DisplayGrowthsOptions/DisplayGrowthsOptions.event"
   #include "WeaponRankStatScreen/WeaponRankStatScreen.event"
+  
+  PUSH
+  ORG $88620
+  POIN RemoveGlowy
+  POP
+
+  RemoveGlowy:
+  #incbin "RemoveGlowy.lz77"
  
   PUSH
     ORG 0x205b24 //24 for stat screen

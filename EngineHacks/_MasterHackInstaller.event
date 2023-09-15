@@ -181,6 +181,9 @@ POP
   //Support Check by Contro
   #include "Baldr/SupportCheck/SupportASMCs.lyn.event"
   
+  //Minimug fix
+  #include "Necessary/MinimugPalette/MinimugPalette.event"
+  
   //Set Unit Condition
   #include "Necessary/SetStatus/SetStatusInstaller.event"
   
