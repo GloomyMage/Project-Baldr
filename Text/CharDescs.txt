@@ -754,6 +754,12 @@ Thrud[X]
 ##Desc_Seti ^
 Ced[X]
 
+##Desc_Deadlord ^
+Deadlord[X]
+
+##Desc_Legion ^
+Trororo[X]
+
 
 
 ##Desc_Verdane ^
