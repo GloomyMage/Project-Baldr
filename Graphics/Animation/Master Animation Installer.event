@@ -202,14 +202,20 @@
 #include "Hunter/Unarmed Installer.event"
 }
 {
-#include "CavM(SALVAGED)/Axe Installer.event"
-#include "CavM(SALVAGED)/Handaxe Installer.event"
+#include "CavM(SALVAGED)/Sword Installer.event"
+#include "CavM(SALVAGED)/Lance Installer.event"
 #include "CavM(SALVAGED)/Bow Installer.event"
 #include "CavM(SALVAGED)/Unarmed Installer.event"
 }
 {
+#include "LanceCav/Lance Installer.event"
+#include "LanceCav/Unarmed Installer.event"
+}
+{
 #include "PalM(SALVAGED)/Sword Installer.event"
 #include "PalM(SALVAGED)/Lance Installer.event"
+#include "PalM(SALVAGED)/Axe Installer.event"
+#include "PalM(SALVAGED)/Handaxe Installer.event"
 #include "PalM(SALVAGED)/Unarmed Installer.event"
 }
 {
@@ -237,6 +243,11 @@
 #include "PalF(SALVAGED)/Lance Installer.event"
 #include "PalF(SALVAGED)/Staff Installer.event"
 #include "PalF(SALVAGED)/Unarmed Installer.event"
+}
+{
+#include "AxeCav/Axe Installer.event"
+#include "AxeCav/Handaxe Installer.event"
+#include "AxeCav/Unarmed Installer.event"
 }
 {
 #include "GreatKnight/Axe Installer.event"
@@ -526,6 +537,12 @@ UnarmedAnim(0x82)
 EndAnim
 
 ALIGN 4
+LanceCavAnims:
+LanceAnim(0x37)
+UnarmedAnim(0x38)
+EndAnim
+
+ALIGN 4
 DukeKnightAnims:
 LanceAnim(0xAF)
 UnarmedAnim(0xB0)
@@ -665,6 +682,22 @@ MagicAnim(0x85)
 EndAnim
 
 ALIGN 4
+CavAnims:
+SwordAnim(0x34)
+LanceAnim(0x35)
+UnarmedAnim(0x36)
+EndAnim
+
+ALIGN 4
+PalMAnims:
+SwordAnim(0x3A)
+LanceAnim(0x3B)
+AxeAnim(0xD0)
+HandAxeAnim(0xD1)
+UnarmedAnim(0x3C)
+EndAnim
+
+ALIGN 4
 PalFAnims:
 SwordAnim(0x3d)
 LanceAnim(0x3e)
@@ -673,9 +706,16 @@ UnarmedAnim(0x3f)
 EndAnim
 
 ALIGN 4
+AxeCavAnims:
+AxeAnim(0xB3)
+HandAxeAnim(0xB4)
+UnarmedAnim(0x39)
+EndAnim
+
+ALIGN 4
 BowCavAnims:
 BowAnim(0xac)
-UnarmedAnim(0x39)
+UnarmedAnim(0x36)
 
 ALIGN 4
 BarbarianAnims:

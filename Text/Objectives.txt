@@ -3,7 +3,7 @@ Seize[X]
 
 ##_SeizeJungby
 Seize[N]
-Jungby Castle.[X]
+Yngvi Castle.[X]
 
 ##_SeizeEvans
 Seize[N]
@@ -54,3 +54,10 @@ Defend[X]
 
 ##_FinalObjective
 Liberate Jugdral[X]
+
+##_Manage
+Manage[X]
+
+##_Manage2
+Manage your army[N]
+then Seize[X]
