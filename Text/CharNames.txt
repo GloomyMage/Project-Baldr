@@ -538,6 +538,12 @@ Thrud[X]
 ##Name_Seti
 Seti[X]
 
+##Name_Deadlord
+Deadlord[X]
+
+##Name_Legion
+Legion[X]
+
 ##Name_Verdane
 Verdane[X]
 
