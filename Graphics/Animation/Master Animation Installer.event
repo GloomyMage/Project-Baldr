@@ -71,6 +71,10 @@
 #include "Edain/Unarmed Installer.event"
 }
 {
+#include "Myrm/Sword Installer.event"
+#include "Myrm/Unarmed Installer.event"
+}
+{
 #include "Ayra/Sword Installer.event"
 #include "Ayra/Unarmed Installer.event"
 }

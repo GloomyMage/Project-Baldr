@@ -12,22 +12,22 @@ Ethlyn,CritUpID
 Finn,PursuitID
 Midir,PursuitID
 Edain,0x0
-Dew,0x0
-Ayra,0x0
-Jamke,0x0
-Deirdre,0x0
-Lachesis,0x0
-Chulainn,0x0
-Beowolf,0x0
-Lewyn,0x0
-Silvia,0x0
-Erinys,0x0
+Dew,BargainID
+Ayra,AstraID
+Jamke,AccostID
+Deirdre,NihilID
+Lachesis,CharismaID
+Chulainn,LunaID
+Beowolf,PursuitID
+Lewyn,AdeptID
+Silvia,MiracleID
+Erinys,PursuitID
 Hopper,AstraPlusID
 Indech,SolPlusID
 Claud,0x0
-Tailtiu,0x0
+Tailtiu,WrathID
 Callista,LunaPlusID
-Brigid,0x0
+Brigid,PursuitID
 Larcei,0x0
 Creidne,0x0
 Scathach,0x0
@@ -60,15 +60,15 @@ Ced,0x0
 Hawk,0x0
 Coirpre,0x0
 Charlot,0x0
-Oifey (Adult),0x0
+Oifey (Adult),PursuitID
 Julia,0x0
 Iuchar,0x0
 Iucharba,0x0
-Shannan (Adult),0x0
+Shannan (Adult),AstraID
 Ares,0x0
 Aife,0x0
 Leif,0x0
-Clement,0x0
+Clement,BargainID
 Hannibal,0x0
 Shannam,0x0
 Altena,0x0
@@ -229,11 +229,11 @@ Leonster,0x0
 AnnandSquad,0x0
 Eldigan,0x0
 Annand,0x0
-Arvis,0x0
+Arvis,NihilID
 Eve,0x0
 Eva,0x0
 Alva,0x0
-Oifey,0x0
+Henson,0x0
 Byron,0x0
 Aida,0x0
 Palmarch,0x0
