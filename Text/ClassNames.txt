@@ -205,6 +205,15 @@ Baron[X]
 ##_Emperor ^
 Emperor[X]
 
+##_Ballista ^
+Ballista[X]
+
+##_IronBallista ^
+Iron Ballista[X]
+
+##_KillerBallista ^
+Killer Ballista[X]
+
 ##_Child ^
 Child[X]
 
