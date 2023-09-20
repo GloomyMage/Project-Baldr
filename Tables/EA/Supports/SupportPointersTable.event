@@ -14,7 +14,14 @@ The last two zeroes are for termination purposes and padding*/
 
 ALIGN 4
 SigurdSupportPointer:
-SupportDataCharacters(0,0,0,0,0) 
+SupportDataCharacters(Deirdre,0,0,0,0) 
+SupportDataInitialValues(0,0,0,0,0)
+SupportDataGrowths(0,0,0,0,0)
+SupportCountAmount(5)
+
+ALIGN 4
+DeirdreSupportPointer:
+SupportDataCharacters(Sigurd,0,0,0,0) 
 SupportDataInitialValues(0,0,0,0,0)
 SupportDataGrowths(0,0,0,0,0)
 SupportCountAmount(5)
@@ -35,49 +42,169 @@ SupportCountAmount(5)
 
 ALIGN 4
 ArdenSupportPointer:
-SupportDataCharacters(0,0,0,0,0) 
+SupportDataCharacters(Ayra,Erinys,Tailtiu,0,0) 
+SupportDataInitialValues(0,0,0,0,0)
+SupportDataGrowths(0,0,0,0,0)
+SupportCountAmount(5)
+
+ALIGN 4
+AlecSupportPointer:
+SupportDataCharacters(Sylvia,Erinys,Brigid,0,0) 
+SupportDataInitialValues(0,0,0,0,0)
+SupportDataGrowths(0,0,0,0,0)
+SupportCountAmount(5)
+
+ALIGN 4
+NoishSupportPointer:
+SupportDataCharacters(Ayra,Lachesis,Erinys,0,0) 
+SupportDataInitialValues(0,0,0,0,0)
+SupportDataGrowths(0,0,0,0,0)
+SupportCountAmount(5)
+
+ALIGN 4
+AzelSupportPointer:
+SupportDataCharacters(Edain,Lachesis,Tailtiu,0,0) 
+SupportDataInitialValues(0,0,0,0,0)
+SupportDataGrowths(0,0,0,0,0)
+SupportCountAmount(5)
+
+ALIGN 4
+LexSupportPointer:
+SupportDataCharacters(Ayra,Callista,Tailtiu,0,0) 
+SupportDataInitialValues(0,0,0,0,0)
+SupportDataGrowths(0,0,0,0,0)
+SupportCountAmount(5)
+
+ALIGN 4
+FinnSupportPointer:
+SupportDataCharacters(Lachesis,0,0,0,0) 
+SupportDataInitialValues(0,0,0,0,0)
+SupportDataGrowths(0,0,0,0,0)
+SupportCountAmount(5)
+
+ALIGN 4
+MidirSupportPointer:
+SupportDataCharacters(Edain,Erinys,Brigid,0,0) 
+SupportDataInitialValues(0,0,0,0,0)
+SupportDataGrowths(0,0,0,0,0)
+SupportCountAmount(5)
+
+ALIGN 4
+DewSupportPointer:
+SupportDataCharacters(Lachesis,Callista,Brigid,0,0) 
+SupportDataInitialValues(0,0,0,0,0)
+SupportDataGrowths(0,0,0,0,0)
+SupportCountAmount(5)
+
+ALIGN 4
+JamkeSupportPointer:
+SupportDataCharacters(Edain,Sylvia,Brigid,0,0) 
+SupportDataInitialValues(0,0,0,0,0)
+SupportDataGrowths(0,0,0,0,0)
+SupportCountAmount(5)
+
+ALIGN 4
+HolynSupportPointer:
+SupportDataCharacters(Ayra,Callista,Brigid,0,0) 
+SupportDataInitialValues(0,0,0,0,0)
+SupportDataGrowths(0,0,0,0,0)
+SupportCountAmount(5)
+
+ALIGN 4
+BeowolfSupportPointer:
+SupportDataCharacters(Ayra,Callista,Lachesis,0,0) 
 SupportDataInitialValues(0,0,0,0,0)
 SupportDataGrowths(0,0,0,0,0)
 SupportCountAmount(5)
 
 ALIGN 4
 LewynSupportPointer:
-SupportDataCharacters(Ayra,Brigid,Erinys,Tailtiu,Sylvia) 
+SupportDataCharacters(0,0,Erinys,Tailtiu,Sylvia) 
 SupportDataInitialValues(0,0,0,0,0)
 SupportDataGrowths(0,0,0,0,0)
 SupportCountAmount(5)
 
 ALIGN 4
-TailtiuSupportPointer:
-SupportDataCharacters(Lewyn,0,0,0,0) 
+HopperSupportPointer:
+SupportDataCharacters(Edain,Sylvia,Callista,Clement,0) 
 SupportDataInitialValues(0,0,0,0,0)
 SupportDataGrowths(0,0,0,0,0)
 SupportCountAmount(5)
 
 ALIGN 4
-BrigidSupportPointer:
-SupportDataCharacters(Lewyn,0,0,0,0) 
+IndechSupportPointer:
+SupportDataCharacters(Clement,0,0,0,0) 
+SupportDataInitialValues(0,0,0,0,0)
+SupportDataGrowths(0,0,0,0,0)
+SupportCountAmount(5)
+
+ALIGN 4
+ClementSupportPointer:
+SupportDataCharacters(Hopper,Indech,0,0,0) 
+SupportDataInitialValues(0,0,0,0,0)
+SupportDataGrowths(0,0,0,0,0)
+SupportCountAmount(5)
+
+ALIGN 4
+ClaudSupportPointer:
+SupportDataCharacters(Edain,Sylvia,Tailtiu,0,0) 
+SupportDataInitialValues(0,0,0,0,0)
+SupportDataGrowths(0,0,0,0,0)
+SupportCountAmount(5)
+
+ALIGN 4
+EdainSupportPointer:
+SupportDataCharacters(Azel,Midir,Jamke,Hopper,Claud) 
 SupportDataInitialValues(0,0,0,0,0)
 SupportDataGrowths(0,0,0,0,0)
 SupportCountAmount(5)
 
 ALIGN 4
 AyraSupportPointer:
-SupportDataCharacters(Lewyn,0,0,0,0) 
+SupportDataCharacters(Arden,Lex,Holyn,Noish,Beowolf) 
 SupportDataInitialValues(0,0,0,0,0)
 SupportDataGrowths(0,0,0,0,0)
 SupportCountAmount(5)
 
 ALIGN 4
-ErinysSupportPointer:
-SupportDataCharacters(Lewyn,0,0,0,0) 
+LachesisSupportPointer:
+SupportDataCharacters(Noish,Dew,Beowolf,Azel,Finn) 
 SupportDataInitialValues(0,0,0,0,0)
 SupportDataGrowths(0,0,0,0,0)
 SupportCountAmount(5)
 
 ALIGN 4
 SylviaSupportPointer:
-SupportDataCharacters(Lewyn,0,0,0,0) 
+SupportDataCharacters(Alec,Lewyn,Claud,Jamke,Hopper) 
 SupportDataInitialValues(0,0,0,0,0)
 SupportDataGrowths(0,0,0,0,0)
 SupportCountAmount(5)
+
+ALIGN 4
+ErinysSupportPointer:
+SupportDataCharacters(Arden,Noish,Lewyn,Alec,Midir) 
+SupportDataInitialValues(0,0,0,0,0)
+SupportDataGrowths(0,0,0,0,0)
+SupportCountAmount(5)
+
+ALIGN 4
+CallistaSupportPointer:
+SupportDataCharacters(Dew,Beowolf,Holyn,Lex,Hopper) 
+SupportDataInitialValues(0,0,0,0,0)
+SupportDataGrowths(0,0,0,0,0)
+SupportCountAmount(5)
+
+ALIGN 4
+BrigidSupportPointer:
+SupportDataCharacters(Alec,Midir,Jamke,Dew,Holyn) 
+SupportDataInitialValues(0,0,0,0,0)
+SupportDataGrowths(0,0,0,0,0)
+SupportCountAmount(5)
+
+ALIGN 4
+TailtiuSupportPointer:
+SupportDataCharacters(Azel,Lex,Claud,Arden,Lewyn) 
+SupportDataInitialValues(0,0,0,0,0)
+SupportDataGrowths(0,0,0,0,0)
+SupportCountAmount(5)
+

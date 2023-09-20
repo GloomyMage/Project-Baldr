@@ -71,10 +71,6 @@
 #include "Edain/Unarmed Installer.event"
 }
 {
-#include "Myrm/Sword Installer.event"
-#include "Myrm/Unarmed Installer.event"
-}
-{
 #include "Ayra/Sword Installer.event"
 #include "Ayra/Unarmed Installer.event"
 }
@@ -200,6 +196,36 @@
 }
 {
 #include "MageM(GabrielKnight)/Magic Installer.event"
+}
+{
+#include "Myrm/Sword Installer.event"
+#include "Myrm/Unarmed Installer.event"
+}
+{
+#include "MyrmF/Sword Installer.event"
+#include "MyrmF/Unarmed Installer.event"
+}
+{
+#include "Merc/Sword Installer.event"
+#include "Merc/Unarmed Installer.event"
+}
+{
+#include "MercF/Sword Installer.event"
+#include "MercF/Unarmed Installer.event"
+}
+{
+#include "Swordmaster/Sword Installer.event"
+#include "Swordmaster/Unarmed Installer.event"
+}
+{
+#include "SwordmasterF/Sword Installer.event"
+#include "SwordmasterF/Unarmed Installer.event"
+}
+{
+#include "Hero/Sword Installer.event"
+#include "Hero/Axe Installer.event"
+#include "Hero/Handaxe Installer.event"
+#include "Hero/Unarmed Installer.event"
 }
 {
 #include "Hunter/Bow Installer.event"
