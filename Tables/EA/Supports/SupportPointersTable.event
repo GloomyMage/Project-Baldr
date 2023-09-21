@@ -119,7 +119,7 @@ SupportCountAmount(5)
 
 ALIGN 4
 LewynSupportPointer:
-SupportDataCharacters(0,0,Erinys,Tailtiu,Sylvia) 
+SupportDataCharacters(Erinys,Tailtiu,Sylvia,0,0) 
 SupportDataInitialValues(0,0,0,0,0)
 SupportDataGrowths(0,0,0,0,0)
 SupportCountAmount(5)

@@ -187,6 +187,15 @@
 #include "WarriorM(Pushwall)/Unarmed Installer.event"
 }
 {
+#include "WarriorF/Axe Installer.event"
+#include "WarriorF/Handaxe Installer.event"
+#include "WarriorF/Bow Installer.event"
+#include "WarriorF/Unarmed Installer.event"
+}
+{
+#include "LoptWarrior/Axe Installer.event"
+}
+{
 #include "BerserkerM(Blue Druid)/Axe Installer.event"
 #include "BerserkerM(Blue Druid)/Handaxe Installer.event"
 #include "BerserkerM(Blue Druid)/Unarmed Installer.event"
@@ -222,10 +231,32 @@
 #include "SwordmasterF/Unarmed Installer.event"
 }
 {
+#include "Thief/Sword Installer.event"
+}
+{
+#include "ThiefF/Sword Installer.event"
+}
+{
+#include "Rogue/Sword Installer.event"
+#include "Rogue/Staff Installer.event"
+#include "Rogue/Unarmed Installer.event"
+}
+{
+#include "RogueF/Sword Installer.event"
+#include "RogueF/Staff Installer.event"
+#include "RogueF/Unarmed Installer.event"
+}
+{
 #include "Hero/Sword Installer.event"
 #include "Hero/Axe Installer.event"
 #include "Hero/Handaxe Installer.event"
 #include "Hero/Unarmed Installer.event"
+}
+{
+#include "HeroF/Sword Installer.event"
+#include "HeroF/Axe Installer.event"
+#include "HeroF/Handaxe Installer.event"
+#include "HeroF/Unarmed Installer.event"
 }
 {
 #include "Hunter/Bow Installer.event"
@@ -282,6 +313,7 @@
 {
 #include "GreatKnight/Axe Installer.event"
 #include "GreatKnight/Handaxe Installer.event"
+#include "GreatKnight/Unarmed Installer.event"
 }
 {
 #include "Baron/Sword Installer.event"
@@ -353,10 +385,12 @@
 }
 {
 #include "AssassM/Sword Installer.event"
+#include "AssassM/Bow Installer.event"
 #include "AssassM/Unarmed Installer.event"
 }
 {
 #include "AssassF/Sword Installer.event"
+#include "AssassF/Bow Installer.event"
 #include "AssassF/Unarmed Installer.event"
 }
 {
@@ -746,6 +780,7 @@ ALIGN 4
 BowCavAnims:
 BowAnim(0xac)
 UnarmedAnim(0x36)
+EndAnim
 
 ALIGN 4
 BarbarianAnims:
