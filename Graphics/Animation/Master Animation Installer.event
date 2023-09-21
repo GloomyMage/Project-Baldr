@@ -171,6 +171,11 @@
 #include "Brigand/Unarmed Installer.event"
 }
 {
+#include "BrigandF/Axe Installer.event"
+#include "BrigandF/Handaxe Installer.event"
+#include "BrigandF/Unarmed Installer.event"
+}
+{
 #include "FighterM(LeoLink)/Axe Installer.event"
 #include "FighterM(LeoLink)/Handaxe Installer.event"
 #include "FighterM(LeoLink)/Unarmed Installer.event"
@@ -196,9 +201,24 @@
 #include "LoptWarrior/Axe Installer.event"
 }
 {
+#include "Pirate/Axe Installer.event"
+#include "Pirate/Handaxe Installer.event"
+#include "Pirate/Unarmed Installer.event"
+}
+{
+#include "PirateF/Axe Installer.event"
+#include "PirateF/Handaxe Installer.event"
+#include "PirateF/Unarmed Installer.event"
+}
+{
 #include "BerserkerM(Blue Druid)/Axe Installer.event"
 #include "BerserkerM(Blue Druid)/Handaxe Installer.event"
 #include "BerserkerM(Blue Druid)/Unarmed Installer.event"
+}
+{
+#include "BerserkerF/Axe Installer.event"
+#include "BerserkerF/Handaxe Installer.event"
+#include "BerserkerF/Unarmed Installer.event"
 }
 {
 #include "MageF(LisandraBrave)/Magic Installer.event"
@@ -282,6 +302,18 @@
 {
 #include "DukeKnight/Lance Installer.event"
 #include "DukeKnight/Unarmed Installer.event"
+}
+{
+#include "FreeCav/Sword Installer.event"
+#include "FreeCav/Unarmed Installer.event"
+}
+{
+#include "Forrest/Sword Installer.event"
+#include "Forrest/Unarmed Installer.event"
+}
+{
+#include "ArchKnight/Bow Installer.event"
+#include "ArchKnight/Unarmed Installer.event"
 }
 {
 #include "Knight(SALVAGED)/Sword Installer.event"
@@ -371,6 +403,16 @@
 #include "Falco/Sword Installer.event"
 #include "Falco/Staff Installer.event"
 #include "Falco/Unarmed Installer.event"
+}
+{
+#include "WyvRider/Axe Installer.event"
+#include "WyvRider/Handaxe Installer.event"
+#include "WyvRider/Unarmed Installer.event"
+}
+{
+#include "WyvKnight/Lance Installer.event"
+#include "WyvKnight/Sword Installer.event"
+#include "WyvKnight/Unarmed Installer.event"
 }
 {
 #include "Priest(Eldritch)/Staff Installer.event"
