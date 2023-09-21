@@ -394,6 +394,14 @@
 #include "SageF(Levin64)/Staff Installer.event"
 }
 {
+#include "MageKnightM/Magic Installer.event"
+#include "MageKnightM/Sword Installer.event"
+}
+{
+#include "MageKnightF/Magic Installer.event"
+#include "MageKnightF/Sword Installer.event"
+}
+{
 #include "Peg(Flasuban)/Lance Installer.event"
 #include "Peg(Flasuban)/Sword Installer.event"
 #include "Peg(Flasuban)/Unarmed Installer.event"
@@ -413,6 +421,18 @@
 #include "WyvKnight/Lance Installer.event"
 #include "WyvKnight/Sword Installer.event"
 #include "WyvKnight/Unarmed Installer.event"
+}
+{
+#include "WyvMaster/Lance Installer.event"
+#include "WyvMaster/Sword Installer.event"
+#include "WyvMaster/Unarmed Installer.event"
+}
+{
+#include "WyvLord(Nuramon)\Lance Installer.event"
+#include "WyvLord(Nuramon)\Axe Installer.event"
+#include "WyvLord(Nuramon)\Handaxe Installer.event"
+#include "WyvLord(Nuramon)\Sword Installer.event"
+#include "WyvLord(Nuramon)\Unarmed Installer.event"
 }
 {
 #include "Priest(Eldritch)/Staff Installer.event"
@@ -437,7 +457,7 @@
 }
 {
 #include "TroubF/Sword Installer.event"
-#include "TroubF/Magic Installer.event"
+#include "TroubF/Unarmed Installer.event"
 #include "TroubF/Staff Installer.event"
 }
 
@@ -784,7 +804,7 @@ ALIGN 4
 TroubFAnims:
 SwordAnim(0xBA)
 StaffAnim(0x86)
-MagicAnim(0x85)
+UnarmedAnim(0x85)
 EndAnim
 
 ALIGN 4
