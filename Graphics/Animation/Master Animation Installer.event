@@ -372,18 +372,38 @@
 #include "SniperF(Nuramon)/Unarmed Installer.event"
 }
 {
+#include "Soldier/Lance Installer.event"
+#include "Soldier/Unarmed Installer.event"
+}
+{
 #include "HalberdierM(TBA)/Lance Installer.event"
 #include "HalberdierM(TBA)/Unarmed Installer.event"
 }
 {
-#include "DarkM(Temp)/Magic Installer.event"
+#include "FireMage/Magic Installer.event"
 }
 {
-#include "DarkF(MarkyJoe)/Magic Installer.event"
+#include "Shaman/Magic Installer.event"
+#include "Shaman/Staff Installer.event"
 }
 {
-#include "SorcM(Eldritch)/Magic Installer.event"
-#include "SorcM(Eldritch)/Staff Installer.event"
+#include "ShamanF/Magic Installer.event"
+#include "ShamanF/Staff Installer.event"
+}
+{
+#include "Druid/Magic Installer.event"
+#include "Druid/Staff Installer.event"
+}
+{
+#include "DruidF/Magic Installer.event"
+#include "DruidF/Staff Installer.event"
+}
+{
+#include "Bishop/Magic Installer.event"
+#include "Bishop/Staff Installer.event"
+}
+{
+#include "Guardian/Magic Installer.event"
 }
 {
 #include "SageM(Levin64)/Magic Installer.event"
@@ -439,11 +459,30 @@
 #include "Priest(Eldritch)/Unarmed Installer.event"
 }
 {
+#include "Cleric/Staff Installer.event"
+#include "Cleric/Unarmed Installer.event"
+}
+{
+#include "HighPriest/Magic Installer.event"
+#include "HighPriest/Staff Installer.event"
+}
+{
+#include "HighPriestF/Magic Installer.event"
+#include "HighPriestF/Staff Installer.event"
+}
+{
+#include "Valkyrie/Magic Installer.event"
+#include "Valkyrie/Staff Installer.event"
+}
+{
 #include "Ballista(Spud)/Bow Installer.event"
 }
 {
 #include "Lewyn/Magic Installer.event"
 #include "Lewyn/Refresh Installer.event"
+}
+{
+#include "Sylvia/Refresh Installer.event"
 }
 {
 #include "AssassM/Sword Installer.event"
