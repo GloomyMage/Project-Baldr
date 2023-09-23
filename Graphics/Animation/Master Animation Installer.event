@@ -617,6 +617,11 @@ UnarmedAnim(0x57)
 EndAnim
 
 ALIGN 4
+SylviaAnims:
+UnarmedAnim(0x91)
+EndAnim
+
+ALIGN 4
 JuliaAnims:
 FireAnim(0xAD)
 ThunderAnim(0xAD)
@@ -699,6 +704,11 @@ ALIGN 4
 HoodBishopAnims:
 MagicAnim(0x81)
 UnarmedAnim(0x82)
+EndAnim
+
+ALIGN 4
+LoptWarriorAnims:
+AxeAnim(0xE3)
 EndAnim
 
 ALIGN 4

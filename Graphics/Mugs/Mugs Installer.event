@@ -770,7 +770,7 @@ OthelloPortrait:
 #incbin "Othello_frames.dmp"
 #incbin "Othello_palette.dmp"
 #incbin "Othello_minimug.dmp"
-setMugEntry(0xD0,OthelloPortrait,3,5,3,3)
+setMugEntry(0xD0,OthelloPortrait,2,5,2,3)
 
 ALIGN 4
 JacobinPortrait:
@@ -1662,7 +1662,7 @@ ImcaPortrait:
 #incbin "Imca_frames.dmp"
 #incbin "Imca_palette.dmp"
 #incbin "Imca_minimug.dmp"
-setMugEntry(0xF5,ImcaPortrait,3,4,3,2)
+setMugEntry(0xF5,ImcaPortrait,2,5,2,3)
 
 ALIGN 4
 CohenPortrait:

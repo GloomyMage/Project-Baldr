@@ -42,6 +42,7 @@ CustomAnimationSet(Jamke,Hunter,JamkeAnims|IsPointer)
 CustomAnimationSet(Jamke,Sniper,JamkeProAnims|IsPointer)
 CustomAnimationSet(Holyn,Merc,HolynAnims|IsPointer)
 CustomAnimationSet(Holyn,Hero,HolynProAnims|IsPointer)
+CustomAnimationSet(Sylvia,Dancer,SylviaAnims|IsPointer)
 CustomAnimationSet(Clement,Bishop,HoodBishopAnims|IsPointer)
 CustomAnimationSet(Cuvuli,Bishop,HoodBishopAnims|IsPointer)
 CustomAnimationSet(Julia,Shaman,JuliaAnims|IsPointer)
@@ -51,6 +52,7 @@ CustomAnimationSet(Boyce,SwMast,BoyceAnims|IsPointer)
 CustomAnimationSet(Shamash,Guardian,ShamashAnims|IsPointer)
 CustomAnimationSet(ArvisGen2,Emperor,ArvisProAnims|IsPointer)
 CustomAnimationSet(Baldr,Berserker,LegionAnims|IsPointer)
+CustomAnimationSet(Loptrian,Warrior,LoptWarriorAnims|IsPointer)
 BYTE 0x00  //Unit: term data
 BYTE 0x00  //dummy
 BYTE 0x00  //dummy
