@@ -7,3 +7,4 @@
 #include "ItemDefs.event"
 #include "SongDefs.event"
 #include "IconDefs.event"
+#define IsPointer 0x8000000

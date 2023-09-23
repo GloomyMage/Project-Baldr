@@ -702,6 +702,110 @@ UnarmedAnim(0x82)
 EndAnim
 
 ALIGN 4
+MercAnims:
+SwordAnim(0xB)
+UnarmedAnim(0xC)
+EndAnim
+
+ALIGN 4
+MercFAnims:
+SwordAnim(0xDA)
+UnarmedAnim(0xDB)
+EndAnim
+
+ALIGN 4
+HeroAnims:
+SwordAnim(0xD)
+AxeAnim(0xE)
+HandAxeAnim(0xF)
+UnarmedAnim(0x10)
+EndAnim
+
+ALIGN 4
+HeroFAnims:
+SwordAnim(0xDC)
+AxeAnim(0xDD)
+HandAxeAnim(0xDE)
+UnarmedAnim(0xDF)
+EndAnim
+
+ALIGN 4
+MyrmAnims:
+SwordAnim(0x11)
+UnarmedAnim(0x12)
+EndAnim
+
+ALIGN 4
+MyrmFAnims:
+SwordAnim(0x13)
+UnarmedAnim(0x14)
+EndAnim
+
+ALIGN 4
+SwMastAnims:
+SwordAnim(0x15)
+UnarmedAnim(0x16)
+EndAnim
+
+ALIGN 4
+SwMastFAnims:
+SwordAnim(0x17)
+UnarmedAnim(0x18)
+EndAnim
+
+ALIGN 4
+FreeCavAnims:
+SwordAnim(0x2E)
+UnarmedAnim(0x2F)
+EndAnim
+
+ALIGN 4
+ForrestAnims:
+SwordAnim(0x30)
+UnarmedAnim(0x31)
+EndAnim
+
+ALIGN 4
+ThiefAnims:
+SwordAnim(0x89)
+UnarmedAnim(0x89)
+EndAnim
+
+ALIGN 4
+ThiefFAnims:
+SwordAnim(0x8A)
+UnarmedAnim(0x8A)
+EndAnim
+
+ALIGN 4
+RogueAnims:
+SwordAnim(0x8F)
+StaffAnim(0xD2)
+UnarmedAnim(0x90)
+EndAnim
+
+ALIGN 4
+RogueFAnims:
+SwordAnim(0xE0)
+StaffAnim(0xE1)
+UnarmedAnim(0xE2)
+EndAnim
+
+ALIGN 4
+AssassAnims:
+SwordAnim(0x8B)
+BowAnim(0xE4)
+UnarmedAnim(0x8C)
+EndAnim
+
+ALIGN 4
+AssassFAnims:
+SwordAnim(0x8D)
+BowAnim(0xE5)
+UnarmedAnim(0x8E)
+EndAnim
+
+ALIGN 4
 LanceCavAnims:
 LanceAnim(0x37)
 UnarmedAnim(0x38)
@@ -734,11 +838,69 @@ UnarmedAnim(0x48)
 EndAnim
 
 ALIGN 4
+FighterAnims:
+AxeAnim(0x19)
+HandAxeAnim(0x1A)
+UnarmedAnim(0x1B)
+EndAnim
+
+ALIGN 4
+WarriorAnims:
+AxeAnim(0x1C)
+HandAxeAnim(0x1D)
+BowAnim(0x1E)
+UnarmedAnim(0x1F)
+EndAnim
+
+ALIGN 4
+WarriorFAnims:
+AxeAnim(0xE6)
+HandAxeAnim(0xE7)
+BowAnim(0xE8)
+UnarmedAnim(0xE9)
+EndAnim
+
+ALIGN 4
 BrigandAnims:
 AxeAnim(0x20)
 HandAxeAnim(0x21)
 UnarmedAnim(0x22)
-EndAnim  
+EndAnim
+
+ALIGN 4
+BrigandFAnims:
+AxeAnim(0xEA)
+HandAxeAnim(0xEB)
+UnarmedAnim(0xEC)
+EndAnim
+
+ALIGN 4
+PirateAnims:
+AxeAnim(0x9A)
+HandAxeAnim(0x9B)
+UnarmedAnim(0x9C)
+EndAnim
+
+ALIGN 4
+PirateFAnims:
+AxeAnim(0xF0)
+HandAxeAnim(0xF1)
+UnarmedAnim(0xF2)
+EndAnim
+
+ALIGN 4
+ZerkerAnims:
+AxeAnim(0x23)
+HandAxeAnim(0x24)
+UnarmedAnim(0x25)
+EndAnim
+
+ALIGN 4
+ZerkerFAnims:
+AxeAnim(0xFD)
+HandAxeAnim(0xFE)
+UnarmedAnim(0xFF)
+EndAnim
 
 ALIGN 4
 LewynAnims:
@@ -766,6 +928,36 @@ UnarmedAnim(0x6a)
 EndAnim
 
 ALIGN 4
+WyvRiderAnims:
+AxeAnim(0x58)
+HandAxeAnim(0x59)
+UnarmedAnim(0x5A)
+EndAnim
+
+ALIGN 4
+WyvKnightAnims:
+SwordAnim(0x5B)
+LanceAnim(0x5C)
+UnarmedAnim(0x5D)
+EndAnim
+
+ALIGN 4
+WyvMasterAnims:
+SwordAnim(0x5E)
+LanceAnim(0x5F)
+UnarmedAnim(0x60)
+EndAnim
+
+ALIGN 4
+WyvLordAnims:
+SwordAnim(0x61)
+LanceAnim(0x62)
+AxeAnim(0x63)
+HandAxeAnim(0x64)
+UnarmedAnim(0x65)
+EndAnim
+
+ALIGN 4
 MageMAnims:
 MagicAnim(0x6b)
 EndAnim
@@ -773,6 +965,23 @@ EndAnim
 ALIGN 4
 MageFAnims:
 MagicAnim(0x6c)
+EndAnim
+
+ALIGN 4
+FireMageAnims:
+MagicAnim(0x95)
+EndAnim
+
+ALIGN 4
+MageKntAnims:
+MagicAnim(0x71)
+SwordAnim(0x72)
+EndAnim
+
+ALIGN 4
+MageKntFAnims:
+MagicAnim(0x73)
+StaffAnim(0x74)
 EndAnim
 
 ALIGN 4
@@ -790,6 +999,72 @@ EndAnim
 ALIGN 4
 GuardianAnims:
 MagicAnim(0x7d)
+EndAnim
+
+ALIGN 4
+ShamanAnims:
+MagicAnim(0x76)
+StaffAnim(0x75)
+EndAnim
+
+ALIGN 4
+ShamanFAnims:
+MagicAnim(0xD7)
+StaffAnim(0xED)
+EndAnim
+
+ALIGN 4
+DruidAnims:
+MagicAnim(0x78)
+StaffAnim(0x77)
+EndAnim
+
+ALIGN 4
+DruidFAnims:
+MagicAnim(0x7A)
+StaffAnim(0x79)
+EndAnim
+
+ALIGN 4
+ClericAnims:
+StaffAnim(0x80)
+UnarmedAnim(0xC8)
+EndAnim
+
+ALIGN 4
+PriestAnims:
+StaffAnim(0x7F)
+UnarmedAnim(0x7E)
+EndAnim
+
+ALIGN 4
+BishopAnims:
+MagicAnim(0x7C)
+StaffAnim(0x7B)
+EndAnim
+
+ALIGN 4
+HighPriestAnims:
+MagicAnim(0x82)
+StaffAnim(0x81)
+EndAnim
+
+ALIGN 4
+HighPriestFAnims:
+MagicAnim(0x83)
+StaffAnim(0x84)
+EndAnim
+
+ALIGN 4
+ValkAnims:
+MagicAnim(0x87)
+StaffAnim(0x88)
+EndAnim
+
+ALIGN 4
+SoldierAnims:
+LanceAnim(0x98)
+UnarmedAnim(0x99)
 EndAnim
 
 ALIGN 4
@@ -850,6 +1125,7 @@ ALIGN 4
 CavAnims:
 SwordAnim(0x34)
 LanceAnim(0x35)
+BowAnim(0xac)
 UnarmedAnim(0x36)
 EndAnim
 
@@ -878,9 +1154,22 @@ UnarmedAnim(0x39)
 EndAnim
 
 ALIGN 4
+GreatKnightAnims:
+AxeAnim(0x50)
+HandAxeAnim(0x51)
+UnarmedAnim(0x52)
+EndAnim
+
+ALIGN 4
 BowCavAnims:
 BowAnim(0xac)
 UnarmedAnim(0x36)
+EndAnim
+
+ALIGN 4
+ArchCavAnims:
+BowAnim(0x32)
+UnarmedAnim(0x33)
 EndAnim
 
 ALIGN 4
