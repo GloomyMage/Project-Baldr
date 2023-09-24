@@ -1,0 +1,105 @@
+//Event file generated from Sappy .s format.
+	#include "MPlayDef.event"
+
+	#define	se_fe6dance1_grp  FE6DanceTable
+	#define	se_fe6dance1_pri  20
+	#define	se_fe6dance1_rev  0
+	#define	se_fe6dance1_mvl  127
+	#define	se_fe6dance1_key  0
+	#define	se_fe6dance1_tbs  1
+	#define	se_fe6dance1_exg  0
+	#define	se_fe6dance1_cmp  1
+
+	// .rodata
+	//	se_fe6dance1
+	ALIGN 4
+
+
+//**************** Track 1 (Midi-Chn.0) ****************//
+
+se_fe6dance1_001:
+//  #01 //000   ----------------------------------------
+ BYTE   KEYSH   se_fe6dance1_key+0
+ BYTE   TEMPO   150*se_fe6dance1_tbs/2
+ BYTE   VOICE   0
+ BYTE   VOL   127*se_fe6dance1_mvl/mxv
+ BYTE   BENDR  12
+ BYTE   BEND   c_v-32
+ BYTE   N64  Cn3  v127
+ BYTE   W02
+ BYTE   BEND   c_v-32
+ BYTE   W02
+ BYTE   BEND   c_v-32
+ BYTE   W02
+ BYTE   BEND   c_v-32
+ BYTE   W02
+ BYTE   BEND   c_v-31
+ BYTE   W02
+ BYTE   BEND   c_v-30
+ BYTE   W02
+ BYTE   BEND   c_v-29
+ BYTE   W02
+ BYTE   BEND   c_v-28
+ BYTE   W02
+ BYTE   BEND   c_v-26
+ BYTE   W02
+ BYTE   BEND   c_v-24
+ BYTE   W02
+ BYTE   BEND   c_v-23
+ BYTE   W02
+ BYTE   BEND   c_v-21
+ BYTE   W02
+ BYTE   BEND   c_v-18
+ BYTE   W02
+ BYTE   BEND   c_v-16
+ BYTE   W02
+ BYTE   BEND   c_v-13
+ BYTE   W02
+ BYTE   BEND   c_v-10
+ BYTE   W02
+ BYTE   BEND   c_v-7
+ BYTE   W02
+ BYTE   BEND   c_v-4
+ BYTE   W02
+ BYTE   BEND   c_v+0
+ BYTE   W04
+ BYTE   BEND   c_v+0
+ BYTE   W02
+ BYTE   BEND   c_v+0
+ BYTE   W02
+ BYTE   BEND   c_v+0
+ BYTE   W02
+ BYTE   BEND   c_v+1
+ BYTE   W02
+ BYTE   BEND   c_v+2
+ BYTE   W02
+ BYTE   BEND   c_v+3
+ BYTE   W02
+ BYTE   BEND   c_v+4
+ BYTE   W02
+ BYTE   BEND   c_v+6
+ BYTE   W02
+ BYTE   BEND   c_v+8
+ BYTE   W02
+ BYTE   BEND   c_v+10
+ BYTE   W02
+ BYTE   BEND   c_v+13
+ BYTE   W02
+ BYTE   BEND   c_v+16
+ BYTE   W10
+ BYTE   FINE
+
+//******************************************************//
+	ALIGN 4
+
+se_fe6dance1:
+	BYTE	1	// NumTrks
+	BYTE	0	// NumBlks
+	BYTE	se_fe6dance1_pri	// Priority
+	BYTE	se_fe6dance1_rev	// Reverb.
+    
+	POIN2	se_fe6dance1_grp
+    
+	POIN2	se_fe6dance1_001
+
+	

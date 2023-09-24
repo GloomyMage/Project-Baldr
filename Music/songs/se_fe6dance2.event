@@ -1,0 +1,53 @@
+//Event file generated from Sappy .s format.
+	#include "MPlayDef.event"
+
+	#define	se_fe6dance2_grp  FE6DanceTable
+	#define	se_fe6dance2_pri  20
+	#define	se_fe6dance2_rev  0
+	#define	se_fe6dance2_mvl  127
+	#define	se_fe6dance2_key  0
+	#define	se_fe6dance2_tbs  1
+	#define	se_fe6dance2_exg  0
+	#define	se_fe6dance2_cmp  1
+
+	// .rodata
+	//	se_fe6dance2
+	ALIGN 4
+
+
+//**************** Track 1 (Midi-Chn.0) ****************//
+
+se_fe6dance2_001:
+//  #01 //000   ----------------------------------------
+ BYTE   KEYSH   se_fe6dance2_key+0
+ BYTE   TEMPO   150*se_fe6dance2_tbs/2
+ BYTE   VOICE   1
+ BYTE   VOL   127*se_fe6dance2_mvl/mxv
+ BYTE   N03  Gn2  v127
+ BYTE   W03
+ BYTE   N06  Cn3
+ BYTE   W06
+ BYTE   N03  Gs2  v052
+ BYTE   W03
+ BYTE   N04  Cs3
+ BYTE   W04
+ BYTE   N03  An2  v020
+ BYTE   W03
+ BYTE   N05  Dn3
+ BYTE   W05
+ BYTE   FINE
+
+//******************************************************//
+	ALIGN 4
+
+se_fe6dance2:
+	BYTE	1	// NumTrks
+	BYTE	0	// NumBlks
+	BYTE	se_fe6dance2_pri	// Priority
+	BYTE	se_fe6dance2_rev	// Reverb.
+    
+	POIN2	se_fe6dance2_grp
+    
+	POIN2	se_fe6dance2_001
+
+	

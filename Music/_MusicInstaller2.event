@@ -91,6 +91,18 @@ SongTable(0x10,VictoryNear,1)
 SongTable(0x30,FE4JoinUs,1)
 #include "songs/JoinUs.event"
 }
+// 224 FE6 dance sfx 1
+{
+SongTable(0x148,se_fe6dance1,6)
+#include "songs/se_fe6dance1.event"
+}
+
+// 225 FE6 dance sfx 2
+{
+SongTable(0x149,se_fe6dance2,6)
+#include "songs/se_fe6dance2.event"
+}
+
 //installation of ipatix's sound mixer. Essential if you want to use GS synths; also makes most music sound better by reducing background noise.
 
 PUSH
@@ -479,6 +491,10 @@ VoiceDirect(SynthstringsTable,0x0,0x3c,0x0281DD0,0x0,0x0,0x0,0xff,0x0,0xff,0xc0)
 VoiceDirect(SynthstringsTable,0x1,0x3c,0x04D1AD4,0x0,0x0,0x0,0xff,0x0,0xff,0xd0)
 ORG SynthstringsTable+0x0c*2
 
+FE6DanceTable:
+VoiceDirect(FE6DanceTable,0x0,0x3c,fe6dancesound1,0x0,0x0,0x0,0xff,0x0,0xff,0x0)
+VoiceDirect(FE6DanceTable,0x1,0x3c,fe6dancesound2,0x0,0x0,0x0,0xff,0x0,0xff,0x0)
+ORG FE6DanceTable+0x0c*2
 
 //note charts
 
@@ -548,6 +564,14 @@ GSSquareMacro(0x20,0xf0,0x20,0x80)
 
 //SampleHeader macro for .sb samples converted from .wav
 #define SampleHeader(IsSampleLooped,SamplePitchAdjustment,SampleLoopPoint,SampleLength) "BYTE $00 $00 $00 IsSampleLooped*0x40; WORD SamplePitchAdjustment; WORD SampleLoopPoint; WORD SampleLength"
+
+fe6dancesound1:
+#incbin "samples/fe6dance1.dmp"
+ALIGN 4
+
+fe6dancesound2:
+#incbin "samples/fe6dance2.dmp"
+ALIGN 4
 
 
 

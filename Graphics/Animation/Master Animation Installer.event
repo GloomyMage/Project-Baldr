@@ -57,8 +57,10 @@
 }
 {
 #include "Noish/Sword Installer.event"
+#include "Noish/Lance Installer.event"
 }
 {
+#include "Alec/Sword Installer.event"
 #include "Alec/Lance Installer.event"
 }
 {
@@ -372,6 +374,11 @@
 #include "SniperF(Nuramon)/Unarmed Installer.event"
 }
 {
+#include "Adventurer/Staff Installer.event"
+#include "Adventurer/Bow Installer.event"
+#include "Adventurer/Unarmed Installer.event"
+}
+{
 #include "Soldier/Lance Installer.event"
 #include "Soldier/Unarmed Installer.event"
 }
@@ -525,10 +532,12 @@ EndAnim
 ALIGN 4
 NoishAnims:
 SwordAnim(0xF7)
+LanceAnim(0xF8)
 EndAnim
 
 ALIGN 4
 AlecAnims:
+SwordAnim(0xFB)
 LanceAnim(0xFA)
 EndAnim
 

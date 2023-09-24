@@ -1,0 +1,6 @@
+#define MultiDancerBGMMacro(arg000,arg001,arg002) "BYTE arg000 arg001; SHORT arg002; "
+
+MultiDancerForBattleAnimeBGMTable:
+MultiDancerBGMMacro(0x00,0x16,0x20)
+MultiDancerBGMMacro(0x00,0x5d,0x20)
+MultiDancerBGMMacro(0x0,0x0,0x0)

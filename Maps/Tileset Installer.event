@@ -27,6 +27,10 @@ FieldNights:
 #incbin "Tilesets/NightFields.dmp"
 
 ALIGN 4
+FieldSnow:
+#incbin "Tilesets/SnowyFields.dmp"
+
+ALIGN 4
 AgustriaFields:
 #incbin "Tilesets/AutumnFields.dmp"
 
@@ -39,8 +43,24 @@ StrongholdPalette:
 #incbin "Tilesets/Stronghold_pal.dmp"
 
 ALIGN 4
+StrongholdSnow:
+#incbin "Tilesets/SnowyStronghold.dmp"
+
+ALIGN 4
 StrongholdTiles:
 #incext compress "Tilesets/Stronghold.mapchip_config"
+
+ALIGN 4
+FrontierObjects:
+#incbin "Tilesets/Frontier.dmp"
+
+ALIGN 4
+FrontierPalette:
+#incbin "Tilesets/Frontier_pal.dmp"
+
+ALIGN 4
+FrontierTiles:
+#incext compress "Tilesets/Frontier.mapchip_config"
 
 ALIGN 4
 StrongholdFrame1:
@@ -112,6 +132,7 @@ WORD 0 0
 
 EventPointerTable(0x02, JugdralFields)
 EventPointerTable(0x5B, FieldNights)
+EventPointerTable(0x38, FieldSnow)
 EventPointerTable(0x4C, AgustriaFields)
 EventPointerTable(0x03, FieldTiles)
 EventPointerTable(0x01, FieldObject)
@@ -119,5 +140,9 @@ EventPointerTable(0x3C, FortObject)
 EventPointerTable(0x3E, FortTiles)
 EventPointerTable(0x79, StrongholdObjects)
 EventPointerTable(0x7A, StrongholdPalette)
+EventPointerTable(0xE6, StrongholdSnow)
 EventPointerTable(0x7B, StrongholdTiles)
+EventPointerTable(0x5F, FrontierObjects)
+EventPointerTable(0x60, FrontierPalette)
+EventPointerTable(0x61, FrontierTiles)
 EventPointerTable(0x7D, StrongholdAnims)
