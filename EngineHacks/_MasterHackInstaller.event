@@ -312,18 +312,3 @@ POP
     MESSAGE "Using EMS Save/Suspend Expansion"
 
     #include "Necessary/ExpandedModularSave/ExModularSave.event"
-	
-	
-//bardly stuff
-ALIGN 4
-{
-#include "ExternalHacks/MultiDancer/Installer.event"
-}
-ALIGN 4
-{
-#include "ExternalHacks/MultiDancerForMap/Installer.event"
-}
-ALIGN 4
-{
-#include "ExternalHacks/MultiDancerForBattleAnime/Installer.event"
-}
