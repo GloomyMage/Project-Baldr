@@ -58,10 +58,12 @@
 {
 #include "Noish/Sword Installer.event"
 #include "Noish/Lance Installer.event"
+#include "Noish/Unarmed Installer.event"
 }
 {
 #include "Alec/Sword Installer.event"
 #include "Alec/Lance Installer.event"
+#include "Alec/Unarmed Installer.event"
 }
 {
 #include "Lex/Axe Installer.event"
@@ -86,6 +88,7 @@
 }
 {
 #include "JamkePro/Bow Installer.event"
+#include "JamkePro/Unarmed Installer.event"
 }
 {
 #include "Deirdre/Magic Installer.event"
@@ -492,6 +495,10 @@
 #include "Sylvia/Refresh Installer.event"
 }
 {
+#include "SorcM(Eldritch)/Magic Installer.event"
+#include "SorcM(Eldritch)/Staff Installer.event"
+}
+{
 #include "AssassM/Sword Installer.event"
 #include "AssassM/Bow Installer.event"
 #include "AssassM/Unarmed Installer.event"
@@ -533,12 +540,14 @@ ALIGN 4
 NoishAnims:
 SwordAnim(0xF7)
 LanceAnim(0xF8)
+UnarmedAnim(0xF9)
 EndAnim
 
 ALIGN 4
 AlecAnims:
 SwordAnim(0xFB)
 LanceAnim(0xFA)
+UnarmedAnim(0xFC)
 EndAnim
 
 ALIGN 4
@@ -617,6 +626,7 @@ EndAnim
 ALIGN 4
 JamkeProAnims:
 BowAnim(0xF5)
+UnarmedAnim(0xF6)
 EndAnim  
 
 ALIGN 4
@@ -711,8 +721,8 @@ EndAnim
 
 ALIGN 4
 HoodBishopAnims:
-MagicAnim(0x81)
-UnarmedAnim(0x82)
+MagicAnim(0xF3)
+UnarmedAnim(0xF4)
 EndAnim
 
 ALIGN 4
