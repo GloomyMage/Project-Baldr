@@ -305,6 +305,11 @@
 #include "PalM(SALVAGED)/Unarmed Installer.event"
 }
 {
+#include "HolyKnight/Sword Installer.event"
+#include "HolyKnight/Lance Installer.event"
+#include "HolyKnight/Magic Installer.event"
+}
+{
 #include "DukeKnight/Lance Installer.event"
 #include "DukeKnight/Unarmed Installer.event"
 }
@@ -315,6 +320,22 @@
 {
 #include "Forrest/Sword Installer.event"
 #include "Forrest/Unarmed Installer.event"
+}
+{
+#include "Voltz/Sword Installer.event"
+}
+{
+#include "Ranger/Sword Installer.event"
+#include "Ranger/Bow Installer.event"
+#include "Ranger/Unarmed Installer.event"
+}
+{
+#include "RangerF/Sword Installer.event"
+#include "RangerF/Bow Installer.event"
+}
+{
+#include "BowCav/Bow Installer.event"
+#include "BowCav/Unarmed Installer.event"
 }
 {
 #include "ArchKnight/Bow Installer.event"
@@ -335,6 +356,17 @@
 #include "General/Handaxe Installer.event"
 #include "General/Bow Installer.event"
 #include "General/Unarmed Installer.event"
+}
+{
+#include "Protector/Sword Installer.event"
+#include "Protector/Axe Installer.event"
+#include "Protector/Handaxe Installer.event"
+#include "Protector/Unarmed Installer.event"
+}
+{
+#include "Sentry/Lance Installer.event"
+#include "Sentry/Bow Installer.event"
+#include "Sentry/Unarmed Installer.event"
 }
 {
 #include "PalF(SALVAGED)/Sword Installer.event"
@@ -361,6 +393,24 @@
 #include "Baron/Magic Installer.event"
 }
 {
+#include "MasterKnight/Sword Installer.event"
+#include "MasterKnight/Lance Installer.event"
+#include "MasterKnight/Axe Installer.event"
+#include "MasterKnight/Handaxe Installer.event"
+#include "MasterKnight/Bow Installer.event"
+#include "MasterKnight/Magic Installer.event"
+#include "MasterKnight/Staff Installer.event"
+}
+{
+#include "MasterKnightF/Sword Installer.event"
+#include "MasterKnightF/Lance Installer.event"
+#include "MasterKnightF/Axe Installer.event"
+#include "MasterKnightF/Handaxe Installer.event"
+#include "MasterKnightF/Bow Installer.event"
+#include "MasterKnightF/Magic Installer.event"
+#include "MasterKnightF/Staff Installer.event"
+}
+{
 #include "ArcherM(Der)/Bow Installer.event"
 #include "ArcherM(Der)/Unarmed Installer.event"
 }
@@ -380,6 +430,16 @@
 #include "Adventurer/Staff Installer.event"
 #include "Adventurer/Bow Installer.event"
 #include "Adventurer/Unarmed Installer.event"
+}
+{
+#include "AdventurerF/Staff Installer.event"
+#include "AdventurerF/Bow Installer.event"
+#include "AdventurerF/Unarmed Installer.event"
+}
+{
+#include "Freeblade/Sword Installer.event"
+#include "Freeblade/Bow Installer.event"
+#include "Freeblade/Unarmed Installer.event"
 }
 {
 #include "Soldier/Lance Installer.event"
