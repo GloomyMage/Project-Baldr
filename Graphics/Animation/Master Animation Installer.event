@@ -156,6 +156,9 @@
 #include "Dalvin/Unarmed Installer.event"
 }
 {
+#include "Jacoban/Sword Installer.event"
+}
+{
 #include "Boyce/Sword Installer.event"
 }
 {
@@ -310,6 +313,21 @@
 #include "HolyKnight/Magic Installer.event"
 }
 {
+#include "Harrier/Sword Installer.event"
+#include "Harrier/Lance Installer.event"
+#include "Harrier/Magic Installer.event"
+}
+{
+#include "MaligKnight/Axe Installer.event"
+#include "MaligKnight/Handaxe Installer.event"
+#include "MaligKnight/Magic Installer.event"
+}
+{
+#include "BlackKnight/Sword Installer.event"
+#include "BlackKnight/Lance Installer.event"
+#include "BlackKnight/Magic Installer.event"
+}
+{
 #include "DukeKnight/Lance Installer.event"
 #include "DukeKnight/Unarmed Installer.event"
 }
@@ -393,6 +411,14 @@
 #include "Baron/Magic Installer.event"
 }
 {
+#include "Emperor/Sword Installer.event"
+#include "Emperor/Lance Installer.event"
+#include "Emperor/Axe Installer.event"
+#include "Emperor/Handaxe Installer.event"
+#include "Emperor/Bow Installer.event"
+#include "Emperor/Magic Installer.event"
+}
+{
 #include "MasterKnight/Sword Installer.event"
 #include "MasterKnight/Lance Installer.event"
 #include "MasterKnight/Axe Installer.event"
@@ -453,6 +479,31 @@
 #include "FireMage/Magic Installer.event"
 }
 {
+#include "FireMageF/Magic Installer.event"
+}
+{
+#include "ThunderMage/Magic Installer.event"
+}
+{
+#include "ThunderMageF/Magic Installer.event"
+}
+{
+#include "WindMage/Magic Installer.event"
+}
+{
+#include "WindMageF/Magic Installer.event"
+}
+{
+#include "MageFighter/Sword Installer.event"
+#include "MageFighter/Staff Installer.event"
+#include "MageFighter/Magic Installer.event"
+}
+{
+#include "MageFighterF/Sword Installer.event"
+#include "MageFighterF/Staff Installer.event"
+#include "MageFighterF/Magic Installer.event"
+}
+{
 #include "Shaman/Magic Installer.event"
 #include "Shaman/Staff Installer.event"
 }
@@ -469,8 +520,16 @@
 #include "DruidF/Staff Installer.event"
 }
 {
+#include "DarkDruid/Magic Installer.event"
+#include "DarkDruid/Staff Installer.event"
+}
+{
 #include "Bishop/Magic Installer.event"
 #include "Bishop/Staff Installer.event"
+}
+{
+#include "BishopF/Magic Installer.event"
+#include "BishopF/Staff Installer.event"
 }
 {
 #include "Guardian/Magic Installer.event"
@@ -482,6 +541,10 @@
 {
 #include "SageF(Levin64)/Magic Installer.event"
 #include "SageF(Levin64)/Staff Installer.event"
+}
+{
+#include "Queen/Magic Installer.event"
+#include "Queen/Staff Installer.event"
 }
 {
 #include "MageKnightM/Magic Installer.event"
