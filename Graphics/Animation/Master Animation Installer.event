@@ -232,7 +232,7 @@
 #include "MageF(LisandraBrave)/Magic Installer.event"
 }
 {
-#include "MageM(GabrielKnight)/Magic Installer.event"
+#include "MageM/Magic Installer.event"
 }
 {
 #include "Myrm/Sword Installer.event"
@@ -818,6 +818,11 @@ SwordAnim(0xC2)
 EndAnim
 
 ALIGN 4
+JacobanAnims:
+SwordAnim(0x13F)
+EndAnim
+
+ALIGN 4
 BoyceAnims:
 SwordAnim(0xA9)
 EndAnim
@@ -879,6 +884,14 @@ SwordAnim(0xDC)
 AxeAnim(0xDD)
 HandAxeAnim(0xDE)
 UnarmedAnim(0xDF)
+EndAnim
+
+ALIGN 4
+ProtectorAnims:
+SwordAnim(0x122)
+AxeAnim(0x123)
+HandAxeAnim(0x124)
+UnarmedAnim(0x125)
 EndAnim
 
 ALIGN 4
@@ -1125,6 +1138,45 @@ MagicAnim(0x95)
 EndAnim
 
 ALIGN 4
+FireMageFAnims:
+MagicAnim(0x132)
+EndAnim
+
+ALIGN 4
+ThunderMageAnims:
+MagicAnim(0x133)
+EndAnim
+
+ALIGN 4
+ThunderMageFAnims:
+MagicAnim(0x134)
+EndAnim
+
+ALIGN 4
+WindMageAnims:
+MagicAnim(0x135)
+EndAnim
+
+ALIGN 4
+WindMageFAnims:
+MagicAnim(0x136)
+EndAnim
+
+ALIGN 4
+MageFighterAnims:
+MagicAnim(0x138)
+SwordAnim(0x137)
+StaffAnim(0x139)
+EndAnim
+
+ALIGN 4
+MageFighterFAnims:
+MagicAnim(0x13B)
+SwordAnim(0x13A)
+StaffAnim(0x13C)
+EndAnim
+
+ALIGN 4
 MageKntAnims:
 MagicAnim(0x71)
 SwordAnim(0x72)
@@ -1178,6 +1230,12 @@ StaffAnim(0x79)
 EndAnim
 
 ALIGN 4
+DarkDruidAnims:
+MagicAnim(0x148)
+StaffAnim(0x149)
+EndAnim
+
+ALIGN 4
 ClericAnims:
 StaffAnim(0x80)
 UnarmedAnim(0xC8)
@@ -1193,6 +1251,18 @@ ALIGN 4
 BishopAnims:
 MagicAnim(0x7C)
 StaffAnim(0x7B)
+EndAnim
+
+ALIGN 4
+BishopFAnims:
+MagicAnim(0x13D)
+StaffAnim(0x13E)
+EndAnim
+
+ALIGN 4
+QueenAnims:
+MagicAnim(0x146)
+StaffAnim(0x147)
 EndAnim
 
 ALIGN 4
@@ -1250,6 +1320,45 @@ UnarmedAnim(0x2d)
 EndAnim
 
 ALIGN 4
+AdventurerAnims:
+BowAnim(0x100)
+StaffAnim(0x101)
+UnarmedAnim(0x102)
+EndAnim
+
+ALIGN 4
+AdventurerFAnims:
+BowAnim(0x103)
+StaffAnim(0x104)
+UnarmedAnim(0x105)
+EndAnim
+
+ALIGN 4
+FreebladeAnims:
+SwordAnim(0x106)
+BowAnim(0x107)
+UnarmedAnim(0x108)
+EndAnim
+
+ALIGN 4
+RangerAnims:
+SwordAnim(0x10C)
+BowAnim(0x10D)
+UnarmedAnim(0x10E)
+EndAnim
+
+ALIGN 4
+RangerFAnims:
+SwordAnim(0x11E)
+BowAnim(0x11F)
+EndAnim
+
+ALIGN 4
+VoltzAnims:
+SwordAnim(0x10F)
+EndAnim
+
+ALIGN 4
 BaronAnims:
 SwordAnim(0x49)
 LanceAnim(0x4A)
@@ -1258,6 +1367,39 @@ HandAxeAnim(0x4C)
 BowAnim(0xD6)
 MagicAnim(0x4D)
 StaffAnim(0x4D)
+EndAnim
+
+ALIGN 4
+MasterKntAnims:
+SwordAnim(0x110)
+LanceAnim(0x111)
+AxeAnim(0x112)
+HandAxeAnim(0x113)
+BowAnim(0x114)
+MagicAnim(0x115)
+StaffAnim(0x116)
+EndAnim
+
+ALIGN 4
+MasterKntFAnims:
+SwordAnim(0x117)
+LanceAnim(0x118)
+AxeAnim(0x119)
+HandAxeAnim(0x11A)
+BowAnim(0x11B)
+MagicAnim(0x11C)
+StaffAnim(0x11D)
+EndAnim
+
+ALIGN 4
+EmperorAnims:
+SwordAnim(0x140)
+LanceAnim(0x141)
+AxeAnim(0x142)
+HandAxeAnim(0x143)
+BowAnim(0x144)
+MagicAnim(0x145)
+StaffAnim(0x145)
 EndAnim
 
 ALIGN 4
@@ -1291,6 +1433,34 @@ UnarmedAnim(0x3C)
 EndAnim
 
 ALIGN 4
+HolyKntAnims:
+SwordAnim(0x109)
+LanceAnim(0x10A)
+MagicAnim(0x10B)
+EndAnim
+
+ALIGN 4
+BlackKntAnims:
+SwordAnim(0x129)
+LanceAnim(0x12A)
+MagicAnim(0x12B)
+EndAnim
+
+ALIGN 4
+HarrierAnims:
+SwordAnim(0x12C)
+LanceAnim(0x12D)
+MagicAnim(0x12E)
+EndAnim
+
+ALIGN 4
+MaligAnims:
+AxeAnim(0x12F)
+HandAxeAnim(0x130)
+MagicAnim(0x131)
+EndAnim
+
+ALIGN 4
 PalFAnims:
 SwordAnim(0x3d)
 LanceAnim(0x3e)
@@ -1314,14 +1484,21 @@ EndAnim
 
 ALIGN 4
 BowCavAnims:
-BowAnim(0xac)
-UnarmedAnim(0x36)
+BowAnim(0x120)
+UnarmedAnim(0x121)
 EndAnim
 
 ALIGN 4
 ArchCavAnims:
 BowAnim(0x32)
 UnarmedAnim(0x33)
+EndAnim
+
+ALIGN 4
+SentryAnims:
+LanceAnim(0x126)
+BowAnim(0x127)
+UnarmedAnim(0x128)
 EndAnim
 
 ALIGN 4
