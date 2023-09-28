@@ -2,10 +2,17 @@
 ALIGN 4
 
 ArenaChapter1:
-POIN SpecialChapter1ArenaMelee
-POIN SpecialChapter1ArenaBow
 POIN Chapter1ArenaMelee
 POIN Chapter1ArenaBow
+POIN Chapter1ArenaMelee
+POIN Chapter1ArenaBow
+BYTE 0xFF 0xFF 0xFF 0xFF
+ALIGN 4
+ArenaChapter2:
+POIN SpecialChapter2ArenaMelee
+POIN SpecialChapter2ArenaBow
+POIN Chapter2ArenaMelee
+POIN Chapter2ArenaBow
 BYTE 0xFF 0xFF 0xFF 0xFF
 
 //NOTE: Unlike other stats, Con must only be a bonus, not the actual stat
@@ -18,47 +25,71 @@ BYTE 0xF6 Mage LevelSetter(4) Fire 0 0 0 0   30 0 8 7 7 1 6 0 0 101 Fire 0 0 0 0
 BYTE 0xF7 LncCav LevelSetter(7) IronLance 0 0 0 0   37 9 0 8 8 8 0 0 0 101 IronLance 0 0 0 0    37 9 0 8 8 8 0 0 0 201 
 BYTE 0xF8 Myrm LevelSetter(10) SteelSword 0 0 0 0   40 10 1 13 13 8 1 0 0 101 SteelSword 0 0 0 0    40 10 1 13 13 8 1 0 0 201 
 BYTE 0xF9 AxeArm LevelSetter(13) SteelAxe 0 0 0 0   53 12 1 8 6 13 1 0 0 101 SteelAxe 0 0 0 0    53 12 1 8 6 13 1 0 0 201
-BYTE 0xFA Mage LevelSetter(16) Elwind 0 0 0 0   42 1 11 10 13 2 9 0 0 101 Elwind 0 0 0 0    42 1 11 10 13 2 9 0 0 201
+BYTE 0xFA WMage LevelSetter(16) Elwind 0 0 0 0   42 1 11 10 13 2 9 0 0 101 Elwind 0 0 0 0    42 1 11 10 13 2 9 0 0 201
 BYTE 0xFB General LevelSetter(19) IronBlade 0 0 0 0   59 15 1 11 10 17 4 0 0 101 IronBlade 0 0 0 0 	59 15 1 11 10 17 4 0 0 201
 BYTE 0x0 0x0 0x0 0x0
 
 ALIGN 4
 
-//Unit Class Level Inventory HP Str Mag Skill Speed Def Res Luk Con WpnLvl HHP HStr HMag HSkill HSpeed HDef HRes HLuk HCon HWpnLvl
+//Unit Class Level Inventory HP Str Mag Skill Speed Def Res Luk Con WpnLvl HInventory HHP HStr HMag HSkill HSpeed HDef HRes HLuk HCon HWpnLvl
 Chapter1ArenaBow:
 BYTE 0xF5 Fighter LevelSetter(1) HandAxe 0 0 0 0  36 8 0 3 10 8 0 0 0 101 HandAxe 0 0 0 0  42 8 0 3 10 8 0 0 0 201
 BYTE 0xF6 Mage LevelSetter(4) Fire 0 0 0 0   30 0 8 7 7 1 6 0 0 101 Fire 0 0 0 0  30 0 8 7 7 1 6 0 0 201
 BYTE 0xF7 LncCav LevelSetter(7) Javelin 0 0 0 0   37 9 0 8 8 8 0 0 0 101 Javelin 0 0 0 0    37 9 0 8 8 8 0 0 0 201
 BYTE 0xF8 Hunter LevelSetter(10) SteelBow 0 0 0 0   40 10 0 13 13 8 1 0 0 101 SteelBow 0 0 0 0    40 10 0 13 13 8 1 0 0 201
 BYTE 0xF9 AxeArm LevelSetter(13) HandAxe 0 0 0 0   53 12 1 8 6 13 1 0 0 101 HandAxe 0 0 0 0    53 12 1 8 6 13 1 0 0 201
-BYTE 0xFA Mage LevelSetter(16) Elwind 0 0 0 0   42 1 11 10 13 2 9 0 0 101 Elwind 0 0 0 0    42 1 11 10 13 2 9 0 0 201
+BYTE 0xFA WMage LevelSetter(16) Elwind 0 0 0 0   42 1 11 10 13 2 9 0 0 101 Elwind 0 0 0 0    42 1 11 10 13 2 9 0 0 201
 BYTE 0xFB General LevelSetter(19) SteelBow 0 0 0 0   59 15 1 11 10 17 4 0 0 101 SteelBow 0 0 0 0 	59 15 1 11 10 17 4 0 0 201
 BYTE 0x0 0x0 0x0 0x0
 
 ALIGN 4
 
 ALIGN 4
-//Unit Class Level Inventory HP Str Mag Skill Speed Def Res Luk Con WpnLvl HHP HStr HMag HSkill HSpeed HDef HRes HLuk HCon HWpnLvl
-SpecialChapter1ArenaMelee:
-BYTE 0xF5 Fighter LevelSetter(2) IronAxe 0 0 0 0  36 8 0 3 10 8 0 0 0 101 SteelAxe 0 0 0 0  42 8 0 3 10 8 0 0 0 201
-BYTE 0xF6 Mage LevelSetter(4) Fire 0 0 0 0   30 0 8 7 7 1 6 0 0 101 Fire 0 0 0 0  30 0 8 7 7 1 6 0 0 201
-BYTE 0xF7 LncCav LevelSetter(7) IronLance 0 0 0 0   37 9 0 8 8 8 0 0 0 101 IronLance 0 0 0 0    37 9 0 8 8 8 0 0 0 201
-BYTE 0xF8 Myrm LevelSetter(10) SteelSword 0 0 0 0   40 10 1 13 13 8 1 0 0 101 SteelSword 0 0 0 0    40 10 1 13 13 8 1 0 0 201
-BYTE 0xF9 AxeArm LevelSetter(13) SteelAxe 0 0 0 0   53 12 1 8 6 13 1 0 0 101 SteelAxe 0 0 0 0    53 12 1 8 6 13 1 0 0 201
-BYTE 0xFA Mage LevelSetter(16) Elwind 0 0 0 0   42 1 11 10 13 2 9 0 0 101 Elwind 0 0 0 0    42 1 11 10 13 2 9 0 0 201
-BYTE 0xFB General LevelSetter(19) IronBlade 0 0 0 0   59 15 1 11 10 17 4 0 0 101 IronBlade 0 0 0 0 	59 15 1 11 10 17 4 0 0 201
+//Unit Class Level Inventory HP Str Mag Skill Speed Def Res Luk Con WpnLvl HInventory HHP HStr HMag HSkill HSpeed HDef HRes HLuk HCon HWpnLvl
+Chapter2ArenaMelee:
+BYTE 0xF5 Fighter LevelSetter(5) SteelAxe 0 0 0 0  40 9 0 4 11 9 0 0 0 151 SilverAxe 0 0 0 0  44 9 0 4 11 9 0 0 0 201 
+BYTE 0xF6 FMage LevelSetter(8) Elfire 0 0 0 0   34 0 12 8 8 1 7 0 0 151 Elfire 0 0 0 0  38 0 12 8 8 1 7 0 0 201 
+BYTE 0xF7 LncCav LevelSetter(11) SteelLance 0 0 0 0   41 10 1 9 9 9 1 0 0 151 SilverLance 0 0 0 0    44 10 1 9 9 9 1 0 0 201 
+BYTE 0xF8 MercF LevelSetter(14) SteelSword 0 0 0 0   44 11 1 14 14 9 1 0 0 151 SteelSword 0 0 0 0    48 11 1 14 14 9 1 0 0 201 
+BYTE 0xF9 LncArm LevelSetter(17) SteelLance 0 0 0 0   57 14 1 10 8 15 1 0 0 151 SteelLance 0 0 0 0    60 14 1 10 8 15 1 0 0 201
+BYTE 0xFA TMage LevelSetter(20) Elthunder DefRing 0 0 0   46 2 13 15 12 3 11 0 0 151 Elthunder DefRing 0 0 0    50 2 13 15 12 3 11 0 0 201
+BYTE Holyn Merc LevelSetter(12) IronBlade 0 0 0 0   40 14 0 17 17 11 1 1 0 201 IronBlade 0 0 0 0 	40 14 0 17 17 11 1 1 0 201
 BYTE 0x0 0x0 0x0 0x0
 
 ALIGN 4
-//Unit Class Level Inventory HP Str Mag Skill Speed Def Res Luk Con WpnLvl HHP HStr HMag HSkill HSpeed HDef HRes HLuk HCon HWpnLvl
-SpecialChapter1ArenaBow:
-BYTE 0xF5 Fighter LevelSetter(2) HandAxe 0 0 0 0  36 8 0 3 10 8 0 0 0 101 HandAxe 0 0 0 0  42 8 0 3 10 8 0 0 0 201
-BYTE 0xF6 Mage LevelSetter(4) Fire 0 0 0 0   30 0 8 7 7 1 6 0 0 101 Fire 0 0 0 0  30 0 8 7 7 1 6 0 0 201
-BYTE 0xF7 LncCav LevelSetter(7) Javelin 0 0 0 0   37 9 0 8 8 8 0 0 0 101 Javelin 0 0 0 0    37 9 0 8 8 8 0 0 0 201
-BYTE 0xF8 Hunter LevelSetter(10) SteelBow 0 0 0 0   40 10 0 13 13 8 1 0 0 101 SteelBow 0 0 0 0    40 10 0 13 13 8 1 0 0 201
-BYTE 0xF9 AxeArm LevelSetter(13) HandAxe 0 0 0 0   53 12 1 8 6 13 1 0 0 101 HandAxe 0 0 0 0    53 12 1 8 6 13 1 0 0 201
-BYTE 0xFA Mage LevelSetter(16) Elwind 0 0 0 0   42 1 11 10 13 2 9 0 0 101 Elwind 0 0 0 0    42 1 11 10 13 2 9 0 0 201
-BYTE 0xFB General LevelSetter(19) SteelBow 0 0 0 0   59 15 1 11 10 17 4 0 0 101 SteelBow 0 0 0 0 	59 15 1 11 10 17 4 0 
+//Unit Class Level Inventory HP Str Mag Skill Speed Def Res Luk Con WpnLvl HInventory HHP HStr HMag HSkill HSpeed HDef HRes HLuk HCon HWpnLvl
+Chapter2ArenaBow:
+BYTE 0xF5 Fighter LevelSetter(5) HandAxe 0 0 0 0  40 9 0 4 11 9 0 0 0 151 Tomahawk 0 0 0 0  44 9 0 4 11 9 0 0 0 201 
+BYTE 0xF6 FMage LevelSetter(8) Elfire 0 0 0 0   34 0 12 8 8 1 7 0 0 151 Elfire 0 0 0 0  38 0 12 8 8 1 7 0 0 201 
+BYTE 0xF7 LncCav LevelSetter(11) Javelin 0 0 0 0   41 10 1 9 9 9 1 0 0 151 Javelin 0 0 0 0    44 10 1 9 9 9 1 0 0 201 
+BYTE 0xF8 Archer LevelSetter(14) SteelBow 0 0 0 0   44 11 1 14 14 9 1 0 0 151 SteelBow 0 0 0 0    48 11 1 14 14 9 1 0 0 201 
+BYTE 0xF9 LncArm LevelSetter(17) Javelin 0 0 0 0   57 14 1 10 8 15 1 0 0 151 Javelin 0 0 0 0    60 14 1 10 8 15 1 0 0 201
+BYTE 0xFA TMage LevelSetter(20) Elthunder DefRing 0 0 0   46 2 13 15 12 3 11 0 0 151 Elthunder DefRing 0 0 0    50 2 13 15 12 3 11 0 0 201
+BYTE Holyn Merc LevelSetter(12) FlameSwd 0 0 0 0   40 14 0 17 17 11 1 1 0 201 FlameSwd 0 0 0 0 	40 14 0 17 17 11 1 1 0 201
 BYTE 0x0 0x0 0x0 0x0
 
 ALIGN 4
+
+ALIGN 4
+//Unit Class Level Inventory HP Str Mag Skill Speed Def Res Luk Con WpnLvl HInventory HHP HStr HMag HSkill HSpeed HDef HRes HLuk HCon HWpnLvl
+SpecialChapter2ArenaMelee:
+BYTE 0xF5 Fighter LevelSetter(5) SteelAxe 0 0 0 0  40 9 0 4 11 9 0 0 0 151 SilverAxe 0 0 0 0  44 9 0 4 11 9 0 0 0 201 
+BYTE 0xF6 FMage LevelSetter(8) Elfire 0 0 0 0   34 0 12 8 8 1 7 0 0 151 Elfire 0 0 0 0  38 0 12 8 8 1 7 0 0 201 
+BYTE 0xF7 LncCav LevelSetter(11) SteelLance 0 0 0 0   41 10 1 9 9 9 1 0 0 151 SilverLance 0 0 0 0    44 10 1 9 9 9 1 0 0 201 
+BYTE 0xF8 MercF LevelSetter(14) SteelSword 0 0 0 0   44 11 1 14 14 9 1 0 0 151 SteelSword 0 0 0 0    48 11 1 14 14 9 1 0 0 201 
+BYTE 0xF9 LncArm LevelSetter(17) SteelLance 0 0 0 0   57 14 1 10 8 15 1 0 0 151 SteelLance 0 0 0 0    60 14 1 10 8 15 1 0 0 201
+BYTE 0xFA TMage LevelSetter(20) Elthunder DefRing 0 0 0   46 2 13 15 12 3 11 0 0 151 Elthunder DefRing 0 0 0    50 2 13 15 12 3 11 0 0 201
+BYTE 0xFB Hero LevelSetter(23) SteelBlade 0 0 0 0   63 18 5 18 18 13 5 0 0 201 SteelBlade 0 0 0 0 	63 18 5 18 18 13 5 0 0 201
+BYTE 0x0 0x0 0x0 0x0
+
+ALIGN 4
+//Unit Class Level Inventory HP Str Mag Skill Speed Def Res Luk Con WpnLvl HInventory HHP HStr HMag HSkill HSpeed HDef HRes HLuk HCon HWpnLvl
+SpecialChapter2ArenaBow:
+BYTE 0xF5 Fighter LevelSetter(5) HandAxe 0 0 0 0  40 9 0 4 11 9 0 0 0 151 Tomahawk 0 0 0 0  44 9 0 4 11 9 0 0 0 201 
+BYTE 0xF6 FMage LevelSetter(8) Elfire 0 0 0 0   34 0 12 8 8 1 7 0 0 151 Elfire 0 0 0 0  38 0 12 8 8 1 7 0 0 201 
+BYTE 0xF7 LncCav LevelSetter(11) Javelin 0 0 0 0   41 10 1 9 9 9 1 0 0 151 Javelin 0 0 0 0    44 10 1 9 9 9 1 0 0 201 
+BYTE 0xF8 Archer LevelSetter(14) SteelBow 0 0 0 0   44 11 1 14 14 9 1 0 0 151 SteelBow 0 0 0 0    48 11 1 14 14 9 1 0 0 201 
+BYTE 0xF9 LncArm LevelSetter(17) Javelin 0 0 0 0   57 14 1 10 8 15 1 0 0 151 Javelin 0 0 0 0    60 14 1 10 8 15 1 0 0 201
+BYTE 0xFA TMage LevelSetter(20) Elthunder DefRing 0 0 0   46 2 13 15 12 3 11 0 0 151 Elthunder DefRing 0 0 0    50 2 13 15 12 3 11 0 0 201
+BYTE 0xFB Sniper LevelSetter(23) SilverBow 0 0 0 0   63 18 2 18 18 13 5 0 0 201 SilverBow 0 0 0 0 	63 18 2 18 18 13 5 0 0 201
+BYTE 0x0 0x0 0x0 0x0
