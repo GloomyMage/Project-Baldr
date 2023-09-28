@@ -1,0 +1,14 @@
+PUSH
+ORG $C5830
+POIN GameTitleImage
+ORG $C5790
+POIN GameTitlePalette
+POP
+
+ALIGN 4
+GameTitleImage:
+#incbin "GameTitle.lz77"
+
+ALIGN 4
+GameTitlePalette:
+#incbin "GameTitle.pal"

@@ -21,3 +21,5 @@
 #include "Backgrounds/Background Installer.event"
 
 #include "StatScreen/Installer.event"
+
+#include "TitleScreen/Installer.event"
