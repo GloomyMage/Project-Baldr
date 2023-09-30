@@ -21,13 +21,19 @@ FILL 256*8
 
 GenericMinimugEntry(0,$599D34,$599F34)
 GenericMinimugEntry(1,VerdaneIcon,VerdanePalette)
-GenericMinimugEntry(2,$599734,$599F74)
-GenericMinimugEntry(3,$599734,$599F54)
-GenericMinimugEntry(4,$599D34,$599F54)
-GenericMinimugEntry(5,$599934,$599F74)
-GenericMinimugEntry(6,$599934,$599F54)
-GenericMinimugEntry(7,$599D34,$599F34)
+GenericMinimugEntry(2,OrgahilIcon,OrgahilPalette)
+GenericMinimugEntry(3,AgustriaIcon,AgustriaPalette)
+GenericMinimugEntry(4,SilesseIcon,SilessePalette)
+GenericMinimugEntry(5,DozelIcon,DozelPalette)
+GenericMinimugEntry(6,Lopt1Icon,Lopt1Palette)
+GenericMinimugEntry(7,Lopt2Icon,Lopt2Palette)
 GenericMinimugEntry(8,BelhallaIcon,BelhallaPalette)
+GenericMinimugEntry(9,VelthomerIcon,VelthomerPalette)
+GenericMinimugEntry(0xA,NewVelthomerIcon,NewVelthomerPalette)
+GenericMinimugEntry(0xB,IsaachIcon,IsaachPalette)
+GenericMinimugEntry(0xC,JungbyIcon,JungbyPalette)
+GenericMinimugEntry(0xD,ChalphyIcon,ChalphyPalette)
+GenericMinimugEntry(0xE,FreegeIcon,FreegePalette)
 
 ALIGN 4
 VerdaneIcon:
@@ -36,6 +42,102 @@ VerdaneIcon:
 ALIGN 4
 VerdanePalette:
 #incbin "VerdanePal.dmp"
+
+ALIGN 4
+AgustriaIcon:
+#incbin "Agustria.dmp"
+
+ALIGN 4
+AgustriaPalette:
+#incbin "AgustriaPal.dmp"
+
+ALIGN 4
+SilesseIcon:
+#incbin "Silesse.dmp"
+
+ALIGN 4
+SilessePalette:
+#incbin "SilessePal.dmp"
+
+ALIGN 4
+DozelIcon:
+#incbin "Dozel.dmp"
+
+ALIGN 4
+DozelPalette:
+#incbin "DozelPal.dmp"
+
+ALIGN 4
+Lopt1Icon:
+#incbin "Lopt1.dmp"
+
+ALIGN 4
+Lopt1Palette:
+#incbin "Lopt1Pal.dmp"
+
+ALIGN 4
+Lopt2Icon:
+#incbin "Lopt2.dmp"
+
+ALIGN 4
+Lopt2Palette:
+#incbin "Lopt2Pal.dmp"
+
+ALIGN 4
+ChalphyIcon:
+#incbin "Chalphy.dmp"
+
+ALIGN 4
+ChalphyPalette:
+#incbin "ChalphyPal.dmp"
+
+ALIGN 4
+VelthomerIcon:
+#incbin "Velthomer.dmp"
+
+ALIGN 4
+VelthomerPalette:
+#incbin "VelthomerPal.dmp"
+
+ALIGN 4
+NewVelthomerIcon:
+#incbin "NewVelthomer.dmp"
+
+ALIGN 4
+NewVelthomerPalette:
+#incbin "NewVelthomerPal.dmp"
+
+ALIGN 4
+FreegeIcon:
+#incbin "Freege.dmp"
+
+ALIGN 4
+FreegePalette:
+#incbin "FreegePal.dmp"
+
+ALIGN 4
+IsaachIcon:
+#incbin "Isaach.dmp"
+
+ALIGN 4
+IsaachPalette:
+#incbin "IsaachPal.dmp"
+
+ALIGN 4
+JungbyIcon:
+#incbin "Jungby.dmp"
+
+ALIGN 4
+JungbyPalette:
+#incbin "JungbyPal.dmp"
+
+ALIGN 4
+OrgahilIcon:
+#incbin "OldVerdane.dmp"
+
+ALIGN 4
+OrgahilPalette:
+#incbin "OldVerdanePal.dmp"
 
 ALIGN 4
 BelhallaIcon:
