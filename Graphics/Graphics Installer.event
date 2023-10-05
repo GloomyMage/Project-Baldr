@@ -23,3 +23,5 @@
 #include "StatScreen/Installer.event"
 
 #include "TitleScreen/Installer.event"
+
+#include "Difficulty/Installer.event"

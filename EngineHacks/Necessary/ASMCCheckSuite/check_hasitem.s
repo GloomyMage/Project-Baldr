@@ -28,7 +28,8 @@ ldr r0,[r0]
 LoopEnd:
 
 @check items
-ldrb r2,MemorySlot2
+ldr r2,MemorySlot2
+ldrb r2,[r2]
 ldrb r0,[r1,#0x1E]
 cmp r0,r2
 beq IsTrue

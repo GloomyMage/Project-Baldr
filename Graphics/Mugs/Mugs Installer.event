@@ -666,7 +666,7 @@ GrahamPortrait:
 #incbin "Graham_frames.dmp"
 #incbin "Graham_palette.dmp"
 #incbin "Graham_minimug.dmp"
-setMugEntry(0x3C,GrahamPortrait,2,5,2,3)
+setMugEntry(0x3C,GrahamPortrait,2,5,3,3)
 
 ALIGN 4
 PhilipPortrait:
@@ -722,7 +722,7 @@ EllingPortrait:
 #incbin "Elling_frames.dmp"
 #incbin "Elling_palette.dmp"
 #incbin "Elling_minimug.dmp"
-setMugEntry(0xC4,EllingPortrait,2,4,2,2)
+setMugEntry(0xC4,EllingPortrait,2,5,2,3)
 
 ALIGN 4
 ClementPortrait:
