@@ -1525,6 +1525,7 @@
    <property name="Width" value ="1"/>
    <property name="X" value ="2"/>
    <property name="Y" value ="46"/>
+   <property name="FlagID" value ="0x14"/>
   </properties>
   <data>
   <tile gid="0"/>
