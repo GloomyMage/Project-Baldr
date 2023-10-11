@@ -97,7 +97,7 @@
   <tile gid="929"/>
   <tile gid="823"/>
   <tile gid="423"/>
-  <tile gid="727"/>
+  <tile gid="725"/>
   <tile gid="725"/>
   <tile gid="725"/>
   <tile gid="487"/>
@@ -158,7 +158,7 @@
   <tile gid="460"/>
   <tile gid="529"/>
   <tile gid="596"/>
-  <tile gid="596"/>
+  <tile gid="508"/>
   <tile gid="596"/>
   <tile gid="658"/>
   <tile gid="460"/>
@@ -173,7 +173,7 @@
   <tile gid="553"/>
   <tile gid="493"/>
   <tile gid="418"/>
-  <tile gid="449"/>
+  <tile gid="540"/>
   <tile gid="419"/>
   <tile gid="493"/>
   <tile gid="464"/>
@@ -187,9 +187,9 @@
   <tile gid="427"/>
   <tile gid="427"/>
   <tile gid="825"/>
-  <tile gid="856"/>
   <tile gid="825"/>
-  <tile gid="856"/>
+  <tile gid="825"/>
+  <tile gid="825"/>
   <tile gid="386"/>
   <tile gid="593"/>
   <tile gid="427"/>
@@ -202,8 +202,8 @@
   <tile gid="825"/>
   <tile gid="825"/>
   <tile gid="822"/>
-  <tile gid="822"/>
-  <tile gid="856"/>
+  <tile gid="823"/>
+  <tile gid="823"/>
   <tile gid="657"/>
   <tile gid="658"/>
   <tile gid="625"/>

@@ -24,8 +24,8 @@
 
 ALIGN 4
 MapData:
-  #incbin "NordionDefense_data.dmp"
+  #incbin "CastleAgusty_data.dmp"
 
-SetChapterData(3, 1, 0, 0x5B, 3, 0x11, MapData, 5, 0, 0)
+SetChapterData(9, 0x79, 0, 0x7A, 0x7B, 0x28, MapData, 0x7D, 0, 0)
 
 }
