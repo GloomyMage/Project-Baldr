@@ -181,6 +181,9 @@ POP
   //Support Check by Contro
   #include "Baldr/SupportCheck/SupportASMCs.lyn.event"
   
+  //Experience formula
+  #include "Baldr/NewExpFormula/NewExpFormula.lyn.event"
+  
   //Minimug fix
   #include "Necessary/MinimugPalette/MinimugPalette.event"
   

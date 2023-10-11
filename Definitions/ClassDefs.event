@@ -119,6 +119,9 @@
 #define SageF 0x60
 #define Baron 0x63
 #define Emperor 0x64
+#define Ballist 0x67
+#define IronBallist 0x68
+#define KillBallist 0x69
 #define Child 0x6D
 #define ChildF 0x6E
 #define Civil 0x6F

@@ -36,6 +36,10 @@
 //songs
 
 {
+SongTable(0x4,Glorious,1)
+#include "songs/GloriusGrannvale.event"
+}
+{
 SongTable(0x9,FE04Field,1)
 #include "songs/FE4Prologue.event"
 }
@@ -52,8 +56,24 @@ SongTable(0x13,VerdanePhase,1)
 #include "songs/Verdane.event"
 }
 {
+SongTable(0x14,AgustriaPhase,1)
+#include "songs/Agustria.event"
+}
+{
 SongTable(0xA,EvansCastle,1)
 #include "songs/VerdaneCastle.event"
+}
+{
+SongTable(0xB,MaidenSpirit,1)
+#include "songs/SpiritForest.event"
+}
+{
+SongTable(0xD,DisturbanceInAgustria,1)
+#include "songs/DisturbanceAgustria.event"
+}
+{
+SongTable(0xF,NPCTheme,1)
+#include "songs/AlliedForces.event"
 }
 {
 SongTable(0x26,Crisis,1)
@@ -72,6 +92,18 @@ SongTable(0x1B,MidBoss,0)
 #include "songs/MidBoss.event"
 }
 {
+SongTable(0x1C,L_FE4_Fateful_Showdown,0)
+#include "songs/Fateful.event"
+}
+{
+SongTable(0x5D,BadToPal,0)
+#include "songs/EnemyToFriend.event"
+}
+{
+SongTable(0x5E,DewTheme,1)
+#include "songs/Dew.event"
+}
+{
 SongTable(0x31,Victory1FE4,1)
 #include "songs/Victory1.event"
 }
@@ -82,6 +114,14 @@ SongTable(0x32,FE5MinorV,1)
 {
 SongTable(0x25,Enemy1,1)
 #include "songs/EnemyMessage1.event"
+}
+{
+SongTable(0x27,Enemy2,1)
+#include "songs/EnemyMessage2.event"
+}
+{
+SongTable(0xC0,Munster,1)
+#include "songs/MansterPalace.event"
 }
 {
 SongTable(0x10,VictoryNear,1)

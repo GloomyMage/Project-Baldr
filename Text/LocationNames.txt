@@ -4,3 +4,15 @@ Yngvi[X]
 
 ##Name_Chalphy
 Chalphy[X]
+
+##Name_Evans
+Evans[X]
+
+##Name_Nordion
+Nordion[X]
+
+##Name_Genoa
+Genoa[X]
+
+##Name_Marpha
+Marpha[X]

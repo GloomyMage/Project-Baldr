@@ -67,8 +67,12 @@ BossBGMEntry(Meng,Midboss)
 BossBGMEntry(Bleg,Midboss)
 BossBGMEntry(Mabel,Midboss)
 //Holy Blood
+BossBGMEntry(Munnir,0x1C)
+BossBGMEntry(Chagall,0x1C)
 //Fjalar
 //Recruitables original
+BossBGMEntry(Jamke,0x5D)
+BossBGMEntry(Ayra,0x5D)
 //Recruitables OC
 //Arena
 //Zanes

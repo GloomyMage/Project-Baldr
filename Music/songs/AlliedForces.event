@@ -1,0 +1,4690 @@
+//Event file generated from Sappy .s format.
+	#include "MPlayDef.event"
+
+	#define	NPCTheme_grp  voicegroup000
+	#define	NPCTheme_pri  0
+	#define	NPCTheme_rev  0
+	#define	NPCTheme_mvl  80
+	#define	NPCTheme_key  0
+	#define	NPCTheme_tbs  1
+	#define	NPCTheme_exg  0
+	#define	NPCTheme_cmp  1
+
+	// .rodata
+	//	NPCTheme
+	ALIGN 4
+
+//**************** Track 1 (Midi-Chn.1) ****************//
+
+NPCTheme_1:
+	BYTE	KEYSH   NPCTheme_key+0
+// 000   ----------------------------------------
+	BYTE	TEMPO   125*NPCTheme_tbs/2
+	BYTE		VOICE   57
+	BYTE		MODT    0
+	BYTE		LFOS    44
+	BYTE		BENDR   12
+	BYTE		VOL     24*NPCTheme_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE	W04
+	BYTE		VOL     10*NPCTheme_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v+63
+	BYTE		VOL     0*NPCTheme_mvl/mxv
+	BYTE	PRIO    0
+	BYTE		PAN     c_v-64
+	BYTE		VOL     0*NPCTheme_mvl/mxv
+	BYTE		BEND    c_v+0
+	BYTE		N06     Bn1   v100
+	BYTE	W08
+	BYTE		VOL     10*NPCTheme_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v+63
+	BYTE		N06   
+	BYTE	W07
+	BYTE		        Fs2 
+	BYTE	W08
+	BYTE		N06   
+	BYTE	W07
+	BYTE		N06   
+	BYTE	W08
+	BYTE		VOL     24*NPCTheme_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+63
+	BYTE		N06     Bn2 
+	BYTE	W07
+	BYTE		VOL     10*NPCTheme_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v+63
+	BYTE	W01
+	BYTE		N06   
+	BYTE	W07
+	BYTE		VOL     24*NPCTheme_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+63
+	BYTE		N06   
+	BYTE	W08
+	BYTE		N06   
+	BYTE	W07
+	BYTE		VOL     10*NPCTheme_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v+63
+	BYTE		N06   
+	BYTE	W08
+	BYTE		VOL     24*NPCTheme_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+63
+	BYTE		N06   
+	BYTE	W07
+	BYTE		VOL     10*NPCTheme_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v+63
+	BYTE	W01
+	BYTE		N84     Ds3 
+	BYTE	W08
+// 001   ----------------------------------------
+	BYTE	W03
+	BYTE		VOL     24*NPCTheme_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+63
+	BYTE	W03
+	BYTE		VOL     10*NPCTheme_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v+63
+	BYTE	W07
+	BYTE		VOL     24*NPCTheme_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+63
+	BYTE	W64
+	BYTE	W01
+NPCTheme_1_B1:
+	BYTE		VOICE   57
+	BYTE		PAN     c_v+63
+	BYTE		VOL     24*NPCTheme_mvl/mxv
+	BYTE		BEND    c_v+0
+	BYTE	W18
+// 002   ----------------------------------------
+	BYTE	W96
+// 003   ----------------------------------------
+	BYTE	W01
+	BYTE		VOL     54*NPCTheme_mvl/mxv
+	BYTE	PRIO    31
+	BYTE		PAN     c_v-26
+	BYTE		VOL     65*NPCTheme_mvl/mxv
+	BYTE	PRIO    121
+	BYTE		PAN     c_v+0
+	BYTE	W23
+	BYTE		VOL     68*NPCTheme_mvl/mxv
+	BYTE	PRIO    115
+	BYTE		PAN     c_v-4
+	BYTE		VOL     72*NPCTheme_mvl/mxv
+	BYTE	PRIO    74
+	BYTE		PAN     c_v+0
+	BYTE	W30
+	BYTE		VOL     61*NPCTheme_mvl/mxv
+	BYTE	PRIO    91
+	BYTE		PAN     c_v+23
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v+0
+	BYTE	W42
+// 004   ----------------------------------------
+	BYTE	W84
+	BYTE	W03
+	BYTE		VOL     59*NPCTheme_mvl/mxv
+	BYTE	PRIO    39
+	BYTE		PAN     c_v-16
+	BYTE		VOL     65*NPCTheme_mvl/mxv
+	BYTE	PRIO    121
+	BYTE		PAN     c_v+0
+	BYTE	W09
+// 005   ----------------------------------------
+	BYTE	W14
+	BYTE		VOL     68*NPCTheme_mvl/mxv
+	BYTE	PRIO    115
+	BYTE		PAN     c_v-4
+	BYTE		VOL     72*NPCTheme_mvl/mxv
+	BYTE	PRIO    74
+	BYTE		PAN     c_v+0
+	BYTE	W30
+	BYTE		VOL     61*NPCTheme_mvl/mxv
+	BYTE	PRIO    91
+	BYTE		PAN     c_v+23
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v+0
+	BYTE	W52
+// 006   ----------------------------------------
+	BYTE	W08
+	BYTE		VOL     44*NPCTheme_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v+16
+	BYTE		VOL     54*NPCTheme_mvl/mxv
+	BYTE	PRIO    31
+	BYTE		PAN     c_v+30
+	BYTE	W44
+	BYTE	W02
+	BYTE		VOL     59*NPCTheme_mvl/mxv
+	BYTE	PRIO    39
+	BYTE		PAN     c_v+16
+	BYTE		VOL     61*NPCTheme_mvl/mxv
+	BYTE	PRIO    91
+	BYTE		PAN     c_v+23
+	BYTE	W42
+// 007   ----------------------------------------
+	BYTE	W03
+	BYTE		VOL     59*NPCTheme_mvl/mxv
+	BYTE	PRIO    39
+	BYTE		PAN     c_v+32
+	BYTE		VOL     54*NPCTheme_mvl/mxv
+	BYTE	PRIO    31
+	BYTE		PAN     c_v+30
+	BYTE	W23
+	BYTE		VOL     59*NPCTheme_mvl/mxv
+	BYTE	PRIO    39
+	BYTE		PAN     c_v+16
+	BYTE		VOL     65*NPCTheme_mvl/mxv
+	BYTE	PRIO    121
+	BYTE		PAN     c_v+25
+	BYTE	W44
+	BYTE	W01
+	BYTE		VOL     61*NPCTheme_mvl/mxv
+	BYTE	PRIO    91
+	BYTE		PAN     c_v+37
+	BYTE		VOL     59*NPCTheme_mvl/mxv
+	BYTE	PRIO    39
+	BYTE		PAN     c_v+32
+	BYTE	W01
+	BYTE		VOICE   60
+	BYTE		BEND    c_v+0
+	BYTE		N06     Bn2   v100
+	BYTE	W07
+	BYTE		VOL     54*NPCTheme_mvl/mxv
+	BYTE	PRIO    31
+	BYTE		PAN     c_v+48
+	BYTE		VOL     44*NPCTheme_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v+42
+	BYTE		N06   
+	BYTE	W08
+	BYTE		VOL     31*NPCTheme_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v+27
+	BYTE		N06   
+	BYTE	W07
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v+42
+	BYTE		N06     En3 
+	BYTE	W02
+// 008   ----------------------------------------
+	BYTE	W06
+	BYTE		VOL     44*NPCTheme_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v+42
+	BYTE		N06   
+	BYTE	W07
+	BYTE		N06   
+	BYTE	W08
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v+21
+	BYTE		VOL     61*NPCTheme_mvl/mxv
+	BYTE	PRIO    91
+	BYTE		PAN     c_v+37
+	BYTE		N06     Fs3 
+	BYTE	W07
+	BYTE		VOL     59*NPCTheme_mvl/mxv
+	BYTE	PRIO    39
+	BYTE		PAN     c_v+48
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v+42
+	BYTE	W01
+	BYTE		N06   
+	BYTE	W07
+	BYTE		VOL     44*NPCTheme_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v+42
+	BYTE		N06   
+	BYTE	W08
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v+21
+	BYTE		VOL     54*NPCTheme_mvl/mxv
+	BYTE	PRIO    31
+	BYTE		PAN     c_v+30
+	BYTE		N88     Ds3 
+	BYTE	W52
+// 009   ----------------------------------------
+	BYTE	W96
+// 010   ----------------------------------------
+	BYTE	W96
+// 011   ----------------------------------------
+	BYTE	W96
+// 012   ----------------------------------------
+	BYTE	W96
+// 013   ----------------------------------------
+	BYTE	W96
+// 014   ----------------------------------------
+	BYTE	W36
+	BYTE		VOL     61*NPCTheme_mvl/mxv
+	BYTE	PRIO    91
+	BYTE		PAN     c_v+8
+	BYTE		VOL     54*NPCTheme_mvl/mxv
+	BYTE	PRIO    31
+	BYTE		PAN     c_v-7
+	BYTE		N06     Gn3 
+	BYTE	W07
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v+0
+	BYTE		VOL     44*NPCTheme_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v-10
+	BYTE	W01
+	BYTE		N06   
+	BYTE	W07
+	BYTE		N06   
+	BYTE	W08
+	BYTE		        Bn3 
+	BYTE	W07
+	BYTE		N06   
+	BYTE	W08
+	BYTE		N06   
+	BYTE	W07
+	BYTE		VOL     54*NPCTheme_mvl/mxv
+	BYTE	PRIO    31
+	BYTE		PAN     c_v-26
+	BYTE		VOL     59*NPCTheme_mvl/mxv
+	BYTE	PRIO    39
+	BYTE		PAN     c_v-16
+	BYTE		N06     Dn4 
+	BYTE	W08
+	BYTE		N06   
+	BYTE	W07
+// 015   ----------------------------------------
+	BYTE		VOL     54*NPCTheme_mvl/mxv
+	BYTE	PRIO    31
+	BYTE		PAN     c_v-7
+	BYTE		N06   
+	BYTE	W08
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v+0
+	BYTE		VOL     44*NPCTheme_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v-10
+	BYTE		N88     Gn4 
+	BYTE	W08
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v-21
+	BYTE	W08
+	BYTE		VOL     54*NPCTheme_mvl/mxv
+	BYTE	PRIO    31
+	BYTE		PAN     c_v-7
+	BYTE	W72
+// 016   ----------------------------------------
+	BYTE	W24
+	BYTE	W02
+	BYTE		VOL     44*NPCTheme_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v+16
+	BYTE		N06     Fs3 
+	BYTE	W07
+	BYTE		N06   
+	BYTE	W08
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v+0
+	BYTE		VOL     54*NPCTheme_mvl/mxv
+	BYTE	PRIO    31
+	BYTE		PAN     c_v+11
+	BYTE		N06   
+	BYTE	W07
+	BYTE		VOL     59*NPCTheme_mvl/mxv
+	BYTE	PRIO    39
+	BYTE		PAN     c_v+0
+	BYTE		VOL     65*NPCTheme_mvl/mxv
+	BYTE	PRIO    121
+	BYTE		PAN     c_v+12
+	BYTE		N06     As3 
+	BYTE	W08
+	BYTE		VOL     61*NPCTheme_mvl/mxv
+	BYTE	PRIO    91
+	BYTE		PAN     c_v+23
+	BYTE		VOL     59*NPCTheme_mvl/mxv
+	BYTE	PRIO    39
+	BYTE		PAN     c_v+16
+	BYTE		N06   
+	BYTE	W07
+	BYTE		VOL     54*NPCTheme_mvl/mxv
+	BYTE	PRIO    31
+	BYTE		PAN     c_v+30
+	BYTE		VOL     44*NPCTheme_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v+16
+	BYTE	W01
+	BYTE		N06   
+	BYTE	W07
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v+0
+	BYTE		VOL     59*NPCTheme_mvl/mxv
+	BYTE	PRIO    39
+	BYTE		PAN     c_v+16
+	BYTE		N06     Cs4 
+	BYTE	W08
+	BYTE		VOL     54*NPCTheme_mvl/mxv
+	BYTE	PRIO    31
+	BYTE		PAN     c_v+30
+	BYTE		VOL     44*NPCTheme_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v+16
+	BYTE		N06   
+	BYTE	W07
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v+0
+	BYTE		VOL     54*NPCTheme_mvl/mxv
+	BYTE	PRIO    31
+	BYTE		PAN     c_v+11
+	BYTE		N06   
+	BYTE	W08
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v+21
+	BYTE		VOL     44*NPCTheme_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v+16
+	BYTE		N88     Fs4 
+	BYTE	W02
+// 017   ----------------------------------------
+	BYTE	W16
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v+21
+	BYTE	W07
+	BYTE		VOL     54*NPCTheme_mvl/mxv
+	BYTE	PRIO    31
+	BYTE		PAN     c_v+11
+	BYTE	W66
+	BYTE	W01
+	BYTE	GoTo
+	 POIN2	NPCTheme_1_B1
+NPCTheme_1_B2:
+	BYTE	FINE
+
+//**************** Track 2 (Midi-Chn.2) ****************//
+
+NPCTheme_2:
+	BYTE	KEYSH   NPCTheme_key+0
+// 000   ----------------------------------------
+	BYTE		MODT    0
+	BYTE		LFOS    44
+	BYTE		BENDR   12
+	BYTE	W96
+// 001   ----------------------------------------
+	BYTE	W78
+NPCTheme_2_B1:
+	BYTE		PAN     c_v+0
+	BYTE		VOL     127*NPCTheme_mvl/mxv
+	BYTE	W18
+// 002   ----------------------------------------
+	BYTE	W96
+// 003   ----------------------------------------
+	BYTE	W96
+// 004   ----------------------------------------
+	BYTE	W96
+// 005   ----------------------------------------
+	BYTE	W96
+// 006   ----------------------------------------
+	BYTE	W96
+// 007   ----------------------------------------
+	BYTE	W96
+// 008   ----------------------------------------
+	BYTE	W96
+// 009   ----------------------------------------
+	BYTE	W96
+// 010   ----------------------------------------
+	BYTE	W96
+// 011   ----------------------------------------
+	BYTE	W96
+// 012   ----------------------------------------
+	BYTE	W96
+// 013   ----------------------------------------
+	BYTE	W96
+// 014   ----------------------------------------
+	BYTE	W13
+	BYTE		VOICE   48
+	BYTE		VOL     39*NPCTheme_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v-32
+	BYTE		VOL     39*NPCTheme_mvl/mxv
+	BYTE		BEND    c_v-1
+	BYTE		TIE     Bn2   v100
+	BYTE	W80
+	BYTE	W03
+// 015   ----------------------------------------
+	BYTE	W24
+	BYTE	W03
+	BYTE		VOL     44*NPCTheme_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v-37
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v-21
+	BYTE	W68
+	BYTE	W01
+// 016   ----------------------------------------
+	BYTE	W01
+	BYTE		EOT   
+	BYTE	W02
+	BYTE		VOL     39*NPCTheme_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+0
+	BYTE		VOL     31*NPCTheme_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v-18
+	BYTE		TIE     As2 
+	BYTE	W36
+	BYTE		VOL     39*NPCTheme_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v-32
+	BYTE	W52
+	BYTE	W01
+	BYTE		VOL     44*NPCTheme_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v-37
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v-21
+	BYTE	W04
+// 017   ----------------------------------------
+	BYTE	W84
+	BYTE	W03
+	BYTE		EOT   
+	BYTE	W03
+	BYTE	GoTo
+	 POIN2	NPCTheme_2_B1
+NPCTheme_2_B2:
+	BYTE	FINE
+
+//**************** Track 3 (Midi-Chn.3) ****************//
+
+NPCTheme_3:
+	BYTE	KEYSH   NPCTheme_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   57
+	BYTE		MODT    0
+	BYTE		LFOS    44
+	BYTE		BENDR   12
+	BYTE		VOL     24*NPCTheme_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE	W04
+	BYTE		VOL     10*NPCTheme_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v+63
+	BYTE		VOL     0*NPCTheme_mvl/mxv
+	BYTE	PRIO    0
+	BYTE		PAN     c_v-64
+	BYTE		VOL     0*NPCTheme_mvl/mxv
+	BYTE		BEND    c_v+0
+	BYTE		N06     Fs2   v100
+	BYTE	W08
+	BYTE		VOL     10*NPCTheme_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v-64
+	BYTE		N06   
+	BYTE	W07
+	BYTE		        Bn2 
+	BYTE	W08
+	BYTE		N06   
+	BYTE	W07
+	BYTE		N06   
+	BYTE	W08
+	BYTE		VOL     24*NPCTheme_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v-64
+	BYTE		N06     En3 
+	BYTE	W08
+	BYTE		VOL     10*NPCTheme_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v-64
+	BYTE		N06   
+	BYTE	W07
+	BYTE		VOL     24*NPCTheme_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v-64
+	BYTE		N06   
+	BYTE	W08
+	BYTE		        Fs3 
+	BYTE	W07
+	BYTE		VOL     10*NPCTheme_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v-64
+	BYTE		N06   
+	BYTE	W08
+	BYTE		VOL     24*NPCTheme_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v-64
+	BYTE		N06   
+	BYTE	W08
+	BYTE		N84     Bn3 
+	BYTE	W08
+// 001   ----------------------------------------
+	BYTE	W18
+	BYTE		VOL     31*NPCTheme_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v-64
+	BYTE		VOL     24*NPCTheme_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v-64
+	BYTE	W12
+	BYTE		VOL     31*NPCTheme_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v-64
+	BYTE	W03
+	BYTE		VOL     24*NPCTheme_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v-64
+	BYTE	W10
+	BYTE		VOL     31*NPCTheme_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v-64
+	BYTE	W04
+	BYTE		VOL     24*NPCTheme_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v-64
+	BYTE	W10
+	BYTE		VOL     31*NPCTheme_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v-64
+	BYTE	W03
+	BYTE		VOL     24*NPCTheme_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v-64
+	BYTE	W10
+	BYTE		VOL     31*NPCTheme_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v-64
+	BYTE	W04
+	BYTE		VOL     24*NPCTheme_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v-64
+	BYTE	W04
+NPCTheme_3_B1:
+	BYTE		VOICE   57
+	BYTE		PAN     c_v-64
+	BYTE		VOL     24*NPCTheme_mvl/mxv
+	BYTE		BEND    c_v+0
+	BYTE	W18
+// 002   ----------------------------------------
+	BYTE	W96
+// 003   ----------------------------------------
+	BYTE	W01
+	BYTE		VOICE   60
+	BYTE		VOL     44*NPCTheme_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v-64
+	BYTE		VOL     54*NPCTheme_mvl/mxv
+	BYTE	PRIO    31
+	BYTE		PAN     c_v-26
+	BYTE		BEND    c_v+0
+	BYTE		N21     Fs2   v100
+	BYTE	W23
+	BYTE		        Bn2 
+	BYTE	W23
+	BYTE		VOL     61*NPCTheme_mvl/mxv
+	BYTE	PRIO    91
+	BYTE		PAN     c_v-34
+	BYTE		N21     Ds3 
+	BYTE	W48
+	BYTE	W01
+// 004   ----------------------------------------
+	BYTE	W84
+	BYTE	W03
+	BYTE		VOL     54*NPCTheme_mvl/mxv
+	BYTE	PRIO    31
+	BYTE		PAN     c_v-26
+	BYTE		N21     Fs2 
+	BYTE	W09
+// 005   ----------------------------------------
+	BYTE	W14
+	BYTE		        Bn2 
+	BYTE	W22
+	BYTE		VOL     59*NPCTheme_mvl/mxv
+	BYTE	PRIO    39
+	BYTE		PAN     c_v-32
+	BYTE		N21     Ds3 
+	BYTE	W60
+// 006   ----------------------------------------
+	BYTE	W09
+	BYTE		VOL     61*NPCTheme_mvl/mxv
+	BYTE	PRIO    91
+	BYTE		PAN     c_v-20
+	BYTE	W84
+	BYTE	W03
+// 007   ----------------------------------------
+	BYTE	W24
+	BYTE	W02
+	BYTE		VOL     72*NPCTheme_mvl/mxv
+	BYTE	PRIO    74
+	BYTE		PAN     c_v-32
+	BYTE		VOL     77*NPCTheme_mvl/mxv
+	BYTE	PRIO    67
+	BYTE		PAN     c_v-18
+	BYTE	W68
+	BYTE	W02
+// 008   ----------------------------------------
+	BYTE	W96
+// 009   ----------------------------------------
+	BYTE	W96
+// 010   ----------------------------------------
+	BYTE	W96
+// 011   ----------------------------------------
+	BYTE	W96
+// 012   ----------------------------------------
+	BYTE	W96
+// 013   ----------------------------------------
+	BYTE	W96
+// 014   ----------------------------------------
+	BYTE	W36
+	BYTE		VOL     61*NPCTheme_mvl/mxv
+	BYTE	PRIO    91
+	BYTE		PAN     c_v+8
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v-21
+	BYTE		N06     Dn3 
+	BYTE	W07
+	BYTE		VOL     39*NPCTheme_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+0
+	BYTE		VOL     31*NPCTheme_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v-18
+	BYTE	W01
+	BYTE		N06   
+	BYTE	W07
+	BYTE		N06   
+	BYTE	W08
+	BYTE		VOL     44*NPCTheme_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v-37
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v-21
+	BYTE		N06     Gn3 
+	BYTE	W07
+	BYTE		N06   
+	BYTE	W08
+	BYTE		VOL     44*NPCTheme_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v-10
+	BYTE		VOL     39*NPCTheme_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v-32
+	BYTE		N06   
+	BYTE	W07
+	BYTE		VOL     44*NPCTheme_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v-37
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v-21
+	BYTE		N06     Bn3 
+	BYTE	W08
+	BYTE		N06   
+	BYTE	W07
+// 015   ----------------------------------------
+	BYTE		N06   
+	BYTE	W08
+	BYTE		VOL     44*NPCTheme_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v-10
+	BYTE		VOL     39*NPCTheme_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v-32
+	BYTE		N88     Dn4 
+	BYTE	W18
+	BYTE		VOL     44*NPCTheme_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v-37
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v-21
+	BYTE	W68
+	BYTE	W02
+// 016   ----------------------------------------
+	BYTE	W24
+	BYTE	W02
+	BYTE		VOL     31*NPCTheme_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v+27
+	BYTE		VOL     39*NPCTheme_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+32
+	BYTE		N06     Cs3 
+	BYTE	W07
+	BYTE		N06   
+	BYTE	W08
+	BYTE		N06   
+	BYTE	W07
+	BYTE		VOL     44*NPCTheme_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v+16
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v+21
+	BYTE		N06     Fs3 
+	BYTE	W08
+	BYTE		VOL     44*NPCTheme_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v+42
+	BYTE		VOL     39*NPCTheme_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+32
+	BYTE		N06   
+	BYTE	W07
+	BYTE		VOL     31*NPCTheme_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v+63
+	BYTE		VOL     10*NPCTheme_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v+63
+	BYTE	W01
+	BYTE		N06   
+	BYTE	W07
+	BYTE		VOL     39*NPCTheme_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v-32
+	BYTE		VOL     61*NPCTheme_mvl/mxv
+	BYTE	PRIO    91
+	BYTE		PAN     c_v+23
+	BYTE		N06     As3 
+	BYTE	W08
+	BYTE		VOL     59*NPCTheme_mvl/mxv
+	BYTE	PRIO    39
+	BYTE		PAN     c_v+32
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v+21
+	BYTE		N06   
+	BYTE	W07
+	BYTE		VOL     44*NPCTheme_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v+42
+	BYTE		VOL     39*NPCTheme_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+32
+	BYTE		N06   
+	BYTE	W08
+	BYTE		N88     Cs4 
+	BYTE	W02
+// 017   ----------------------------------------
+	BYTE	W24
+	BYTE	W01
+	BYTE		VOL     44*NPCTheme_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v+16
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v+21
+	BYTE	W64
+	BYTE	W01
+	BYTE	GoTo
+	 POIN2	NPCTheme_3_B1
+NPCTheme_3_B2:
+	BYTE	FINE
+
+//**************** Track 4 (Midi-Chn.4) ****************//
+
+NPCTheme_4:
+	BYTE	KEYSH   NPCTheme_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   48
+	BYTE		MODT    0
+	BYTE		LFOS    44
+	BYTE		BENDR   12
+	BYTE		VOL     31*NPCTheme_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v+27
+	BYTE	W17
+	BYTE		VOL     31*NPCTheme_mvl/mxv
+	BYTE		BEND    c_v-1
+	BYTE		N21     Bn1   v100
+	BYTE	W22
+	BYTE		VOL     39*NPCTheme_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+32
+	BYTE		N21   
+	BYTE	W23
+	BYTE		N21   
+	BYTE	W23
+	BYTE		VOL     44*NPCTheme_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v+16
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v+21
+	BYTE		N21   
+	BYTE	W11
+// 001   ----------------------------------------
+	BYTE	W11
+	BYTE		N21   
+	BYTE	W23
+	BYTE		N21   
+	BYTE	W23
+	BYTE		VOL     54*NPCTheme_mvl/mxv
+	BYTE	PRIO    31
+	BYTE		PAN     c_v+30
+	BYTE		N21   
+	BYTE	W21
+NPCTheme_4_B1:
+	BYTE		VOICE   48
+	BYTE		PAN     c_v+30
+	BYTE		VOL     54*NPCTheme_mvl/mxv
+	BYTE		BEND    c_v-1
+	BYTE	W05
+	BYTE		VOICE   57
+	BYTE		VOL     44*NPCTheme_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v+63
+	BYTE		VOL     10*NPCTheme_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v+63
+	BYTE		BEND    c_v+0
+	BYTE		N14     An3   v100
+	BYTE	W13
+// 002   ----------------------------------------
+	BYTE	W02
+	BYTE		N06   
+	BYTE	W08
+	BYTE		N06   
+	BYTE	W07
+	BYTE		        Gs3 
+	BYTE	W08
+	BYTE		        Fs3 
+	BYTE	W08
+	BYTE		N14     Gs3 
+	BYTE	W15
+	BYTE		N06   
+	BYTE	W07
+	BYTE		N06   
+	BYTE	W08
+	BYTE		        Fs3 
+	BYTE	W07
+	BYTE		        En3 
+	BYTE	W08
+	BYTE		        Ds3 
+	BYTE	W08
+	BYTE		        En3 
+	BYTE	W07
+	BYTE		N56     Fs3 
+	BYTE	W03
+// 003   ----------------------------------------
+	BYTE	W56
+	BYTE	W02
+	BYTE		VOL     0*NPCTheme_mvl/mxv
+	BYTE	PRIO    0
+	BYTE		PAN     c_v-64
+	BYTE		N06   
+	BYTE	W07
+	BYTE		VOL     10*NPCTheme_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v+63
+	BYTE		N06     Gs3 
+	BYTE	W08
+	BYTE		N14     An3 
+	BYTE	W15
+	BYTE		N06   
+	BYTE	W08
+// 004   ----------------------------------------
+	BYTE		N06   
+	BYTE	W07
+	BYTE		        Gs3 
+	BYTE	W08
+	BYTE		        Fs3 
+	BYTE	W07
+	BYTE		N14     Gs3 
+	BYTE	W16
+	BYTE		N06   
+	BYTE	W07
+	BYTE		N06   
+	BYTE	W08
+	BYTE		        Fs3 
+	BYTE	W07
+	BYTE		        En3 
+	BYTE	W08
+	BYTE		        Ds3 
+	BYTE	W07
+	BYTE		        En3 
+	BYTE	W08
+	BYTE		N56     Fs3 
+	BYTE	W13
+// 005   ----------------------------------------
+	BYTE	W48
+	BYTE		VOL     24*NPCTheme_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		VOL     31*NPCTheme_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v+27
+	BYTE		N06   
+	BYTE	W07
+	BYTE		VOL     24*NPCTheme_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+63
+	BYTE		VOL     10*NPCTheme_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v+63
+	BYTE		N06     Gs3 
+	BYTE	W08
+	BYTE		N14     An3 
+	BYTE	W15
+	BYTE		N06   
+	BYTE	W07
+	BYTE		N06   
+	BYTE	W08
+	BYTE		        Bn3 
+	BYTE	W03
+// 006   ----------------------------------------
+	BYTE	W05
+	BYTE		        An3 
+	BYTE	W07
+	BYTE		N14     Gs3 
+	BYTE	W15
+	BYTE		N06   
+	BYTE	W08
+	BYTE		VOL     0*NPCTheme_mvl/mxv
+	BYTE	PRIO    0
+	BYTE		PAN     c_v-64
+	BYTE		N06   
+	BYTE	W07
+	BYTE		        An3 
+	BYTE	W08
+	BYTE		        Gs3 
+	BYTE	W08
+	BYTE		VOL     10*NPCTheme_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v+63
+	BYTE		N14     Fs3 
+	BYTE	W15
+	BYTE		N06   
+	BYTE	W07
+	BYTE		N06   
+	BYTE	W08
+	BYTE		        Gs3 
+	BYTE	W07
+	BYTE		        Fs3 
+	BYTE	W01
+// 007   ----------------------------------------
+	BYTE	W07
+	BYTE		N14     En3 
+	BYTE	W15
+	BYTE		N06   
+	BYTE	W08
+	BYTE		N06   
+	BYTE	W07
+	BYTE		        Fs3 
+	BYTE	W08
+	BYTE		        En3 
+	BYTE	W07
+	BYTE		N21     Ds3 
+	BYTE	W23
+	BYTE		N06     Bn2 
+	BYTE	W08
+	BYTE		N06   
+	BYTE	W07
+	BYTE		N06   
+	BYTE	W06
+// 008   ----------------------------------------
+	BYTE	W02
+	BYTE		        En3 
+	BYTE	W08
+	BYTE		N06   
+	BYTE	W07
+	BYTE		N06   
+	BYTE	W08
+	BYTE		        An3 
+	BYTE	W07
+	BYTE		N06   
+	BYTE	W08
+	BYTE		N06   
+	BYTE	W07
+	BYTE		N88     Bn3 
+	BYTE	W24
+	BYTE	W01
+	BYTE		VOL     24*NPCTheme_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		VOL     31*NPCTheme_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v+27
+	BYTE	W01
+	BYTE		VOL     24*NPCTheme_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+63
+	BYTE		VOL     10*NPCTheme_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v+63
+	BYTE		VOL     24*NPCTheme_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		VOL     31*NPCTheme_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v+27
+	BYTE		VOL     24*NPCTheme_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+63
+	BYTE		VOL     10*NPCTheme_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v+63
+	BYTE	W09
+	BYTE		VOL     24*NPCTheme_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		VOL     31*NPCTheme_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v+27
+	BYTE	W06
+	BYTE		VOL     24*NPCTheme_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+63
+	BYTE		VOL     10*NPCTheme_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v+63
+	BYTE	W06
+	BYTE		VOL     24*NPCTheme_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		VOL     31*NPCTheme_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v+27
+	BYTE	W02
+// 009   ----------------------------------------
+	BYTE	W05
+	BYTE		VOL     24*NPCTheme_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+63
+	BYTE		VOL     10*NPCTheme_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v+63
+	BYTE	W06
+	BYTE		VOL     24*NPCTheme_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		VOL     31*NPCTheme_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v+27
+	BYTE	W06
+	BYTE		VOL     24*NPCTheme_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+63
+	BYTE		VOL     10*NPCTheme_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v+63
+	BYTE	W07
+	BYTE		VOL     24*NPCTheme_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		VOL     31*NPCTheme_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v+27
+	BYTE	W06
+	BYTE		VOL     24*NPCTheme_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+63
+	BYTE		VOL     10*NPCTheme_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v+63
+	BYTE	W06
+	BYTE		VOL     24*NPCTheme_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		VOL     31*NPCTheme_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v+27
+	BYTE	W06
+	BYTE		VOL     24*NPCTheme_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+63
+	BYTE		VOL     10*NPCTheme_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v+63
+	BYTE		N32     Gs3 
+	BYTE	W32
+	BYTE	W02
+	BYTE		N10   
+	BYTE	W12
+	BYTE		        As3 
+	BYTE	W08
+// 010   ----------------------------------------
+	BYTE	W03
+	BYTE		N11     Bn3 
+	BYTE	W12
+	BYTE		N09     Cs4 
+	BYTE	W11
+	BYTE		N10     As3 
+	BYTE	W11
+	BYTE		N44     Fs3 
+	BYTE	W44
+	BYTE	W02
+	BYTE		        Bn3 
+	BYTE	W13
+// 011   ----------------------------------------
+	BYTE	W32
+	BYTE		N54     En3 
+	BYTE	W56
+	BYTE	W01
+	BYTE		N10     Fs3 
+	BYTE	W07
+// 012   ----------------------------------------
+	BYTE	W04
+	BYTE		        En3 
+	BYTE	W12
+	BYTE		        Cs3 
+	BYTE	W11
+	BYTE		N32     Ds3 
+	BYTE	W32
+	BYTE	W02
+	BYTE		N10     En3 
+	BYTE	W11
+	BYTE		N44     Fs3 
+	BYTE	W24
+// 013   ----------------------------------------
+	BYTE	W22
+	BYTE		N32     Gs3 
+	BYTE	W32
+	BYTE	W02
+	BYTE		N10   
+	BYTE	W11
+	BYTE		VOL     24*NPCTheme_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		VOL     31*NPCTheme_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v+27
+	BYTE		N10     As3 
+	BYTE	W12
+	BYTE		VOL     24*NPCTheme_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+63
+	BYTE		VOL     10*NPCTheme_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v+63
+	BYTE		N10     Fs3 
+	BYTE	W11
+	BYTE		VOL     24*NPCTheme_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		VOL     31*NPCTheme_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v+27
+	BYTE		N10     As3 
+	BYTE	W06
+// 014   ----------------------------------------
+	BYTE	W05
+	BYTE		VOL     24*NPCTheme_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+63
+	BYTE		VOL     10*NPCTheme_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v+63
+	BYTE		N10     Cs4 
+	BYTE	W12
+	BYTE		VOL     0*NPCTheme_mvl/mxv
+	BYTE	PRIO    0
+	BYTE		PAN     c_v-64
+	BYTE		TIE     Bn3 
+	BYTE	W64
+	BYTE		VOL     10*NPCTheme_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v+63
+	BYTE	W05
+	BYTE		VOL     0*NPCTheme_mvl/mxv
+	BYTE	PRIO    0
+	BYTE		PAN     c_v-64
+	BYTE	W07
+	BYTE		VOL     10*NPCTheme_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v+63
+	BYTE	W03
+// 015   ----------------------------------------
+	BYTE	W05
+	BYTE		VOL     0*NPCTheme_mvl/mxv
+	BYTE	PRIO    0
+	BYTE		PAN     c_v-64
+	BYTE	W04
+	BYTE		VOL     10*NPCTheme_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v+63
+	BYTE	W84
+	BYTE	W03
+// 016   ----------------------------------------
+	BYTE	W05
+	BYTE		EOT   
+	BYTE	W02
+	BYTE		VOL     0*NPCTheme_mvl/mxv
+	BYTE	PRIO    0
+	BYTE		PAN     c_v-64
+	BYTE		TIE     As3 
+	BYTE	W88
+	BYTE	W01
+// 017   ----------------------------------------
+	BYTE		VOL     10*NPCTheme_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v+63
+	BYTE	W30
+	BYTE		VOL     24*NPCTheme_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		VOL     31*NPCTheme_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v+27
+	BYTE	W04
+	BYTE		VOL     24*NPCTheme_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+63
+	BYTE		VOL     10*NPCTheme_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v+63
+	BYTE		VOL     24*NPCTheme_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		VOL     31*NPCTheme_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v+27
+	BYTE		VOL     24*NPCTheme_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+63
+	BYTE		VOL     10*NPCTheme_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v+63
+	BYTE	W05
+	BYTE		VOL     24*NPCTheme_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		VOL     31*NPCTheme_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v+27
+	BYTE	W48
+	BYTE		EOT   
+	BYTE	W03
+	BYTE	GoTo
+	 POIN2	NPCTheme_4_B1
+NPCTheme_4_B2:
+	BYTE	W02
+	BYTE		VOL     24*NPCTheme_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+63
+	BYTE		VOL     10*NPCTheme_mvl/mxv
+	BYTE	PRIO    125
+	BYTE		PAN     c_v+63
+	BYTE		N14     An3   v100
+	BYTE	W04
+// 018   ----------------------------------------
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W07
+	BYTE		N06   
+	BYTE	W08
+	BYTE		        Gs3 
+	BYTE	W07
+	BYTE		        Fs3 
+	BYTE	W07
+	BYTE	FINE
+
+//**************** Track 5 (Midi-Chn.5) ****************//
+
+NPCTheme_5:
+	BYTE	KEYSH   NPCTheme_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   48
+	BYTE		MODT    0
+	BYTE		LFOS    44
+	BYTE		BENDR   12
+	BYTE		VOL     31*NPCTheme_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v-18
+	BYTE	W17
+	BYTE		VOL     31*NPCTheme_mvl/mxv
+	BYTE		BEND    c_v-1
+	BYTE		N21     Fs2   v100
+	BYTE	W22
+	BYTE		VOL     39*NPCTheme_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v-32
+	BYTE		BEND    c_v-1
+	BYTE		N21     En2 
+	BYTE	W23
+	BYTE		N21   
+	BYTE	W23
+	BYTE		VOL     44*NPCTheme_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v-37
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v-21
+	BYTE		N21     Ds2 
+	BYTE	W11
+// 001   ----------------------------------------
+	BYTE	W11
+	BYTE		N21   
+	BYTE	W23
+	BYTE		N21   
+	BYTE	W23
+	BYTE		VOL     59*NPCTheme_mvl/mxv
+	BYTE	PRIO    39
+	BYTE		PAN     c_v-32
+	BYTE		VOL     61*NPCTheme_mvl/mxv
+	BYTE	PRIO    91
+	BYTE		PAN     c_v-20
+	BYTE		N21   
+	BYTE	W21
+NPCTheme_5_B1:
+	BYTE		VOICE   48
+	BYTE		PAN     c_v-20
+	BYTE		VOL     61*NPCTheme_mvl/mxv
+	BYTE		BEND    c_v-1
+	BYTE	W02
+	BYTE		VOL     54*NPCTheme_mvl/mxv
+	BYTE	PRIO    31
+	BYTE		PAN     c_v-7
+	BYTE		VOL     59*NPCTheme_mvl/mxv
+	BYTE	PRIO    39
+	BYTE		PAN     c_v+0
+	BYTE	W16
+// 002   ----------------------------------------
+	BYTE	W52
+	BYTE		VOL     61*NPCTheme_mvl/mxv
+	BYTE	PRIO    91
+	BYTE		PAN     c_v-5
+	BYTE		VOL     65*NPCTheme_mvl/mxv
+	BYTE	PRIO    121
+	BYTE		PAN     c_v+0
+	BYTE	W22
+	BYTE		VOL     59*NPCTheme_mvl/mxv
+	BYTE	PRIO    39
+	BYTE		PAN     c_v+16
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v+0
+	BYTE	W22
+// 003   ----------------------------------------
+	BYTE	W01
+	BYTE		VOICE   60
+	BYTE		VOL     44*NPCTheme_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v+16
+	BYTE		VOL     59*NPCTheme_mvl/mxv
+	BYTE	PRIO    39
+	BYTE		PAN     c_v+32
+	BYTE		BEND    c_v+0
+	BYTE		N21     Bn2   v100
+	BYTE	W23
+	BYTE		VOL     61*NPCTheme_mvl/mxv
+	BYTE	PRIO    91
+	BYTE		PAN     c_v+37
+	BYTE		N21     Ds3 
+	BYTE	W23
+	BYTE		VOL     65*NPCTheme_mvl/mxv
+	BYTE	PRIO    121
+	BYTE		PAN     c_v+25
+	BYTE		VOL     68*NPCTheme_mvl/mxv
+	BYTE	PRIO    115
+	BYTE		PAN     c_v+30
+	BYTE		N21     Fs3 
+	BYTE	W22
+	BYTE		VOL     72*NPCTheme_mvl/mxv
+	BYTE	PRIO    74
+	BYTE		PAN     c_v+21
+	BYTE		VOL     59*NPCTheme_mvl/mxv
+	BYTE	PRIO    39
+	BYTE		PAN     c_v+0
+	BYTE	W23
+	BYTE		VOL     61*NPCTheme_mvl/mxv
+	BYTE	PRIO    91
+	BYTE		PAN     c_v-5
+	BYTE		VOL     65*NPCTheme_mvl/mxv
+	BYTE	PRIO    121
+	BYTE		PAN     c_v+0
+	BYTE	W04
+// 004   ----------------------------------------
+	BYTE	W19
+	BYTE		VOL     61*NPCTheme_mvl/mxv
+	BYTE	PRIO    91
+	BYTE		PAN     c_v+8
+	BYTE		VOL     59*NPCTheme_mvl/mxv
+	BYTE	PRIO    39
+	BYTE		PAN     c_v+0
+	BYTE	W22
+	BYTE		VOL     61*NPCTheme_mvl/mxv
+	BYTE	PRIO    91
+	BYTE		PAN     c_v-5
+	BYTE		VOL     65*NPCTheme_mvl/mxv
+	BYTE	PRIO    121
+	BYTE		PAN     c_v+0
+	BYTE	W44
+	BYTE	W02
+	BYTE		VOL     54*NPCTheme_mvl/mxv
+	BYTE	PRIO    31
+	BYTE		PAN     c_v+30
+	BYTE		VOL     61*NPCTheme_mvl/mxv
+	BYTE	PRIO    91
+	BYTE		PAN     c_v+37
+	BYTE		N21     Bn2 
+	BYTE	W09
+// 005   ----------------------------------------
+	BYTE	W14
+	BYTE		        Ds3 
+	BYTE	W22
+	BYTE		        Fs3 
+	BYTE	W23
+	BYTE		VOL     78*NPCTheme_mvl/mxv
+	BYTE	PRIO    122
+	BYTE		PAN     c_v-3
+	BYTE		VOL     81*NPCTheme_mvl/mxv
+	BYTE	PRIO    122
+	BYTE		PAN     c_v+0
+	BYTE	W15
+	BYTE		VOL     72*NPCTheme_mvl/mxv
+	BYTE	PRIO    74
+	BYTE		PAN     c_v+21
+	BYTE		VOL     59*NPCTheme_mvl/mxv
+	BYTE	PRIO    39
+	BYTE		PAN     c_v+0
+	BYTE	W09
+	BYTE		VOL     54*NPCTheme_mvl/mxv
+	BYTE	PRIO    31
+	BYTE		PAN     c_v+11
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v+0
+	BYTE	W13
+// 006   ----------------------------------------
+	BYTE	W09
+	BYTE		VOL     68*NPCTheme_mvl/mxv
+	BYTE	PRIO    115
+	BYTE		PAN     c_v-28
+	BYTE		VOL     81*NPCTheme_mvl/mxv
+	BYTE	PRIO    122
+	BYTE		PAN     c_v+0
+	BYTE	W14
+	BYTE		VOL     68*NPCTheme_mvl/mxv
+	BYTE	PRIO    115
+	BYTE		PAN     c_v+30
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v+0
+	BYTE	W17
+	BYTE		VOL     44*NPCTheme_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v+16
+	BYTE		VOL     39*NPCTheme_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+0
+	BYTE	W07
+	BYTE		VOL     44*NPCTheme_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v-10
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v+0
+	BYTE	W07
+	BYTE		VOL     65*NPCTheme_mvl/mxv
+	BYTE	PRIO    121
+	BYTE		PAN     c_v-25
+	BYTE		VOL     77*NPCTheme_mvl/mxv
+	BYTE	PRIO    67
+	BYTE		PAN     c_v+0
+	BYTE	W15
+	BYTE		VOL     65*NPCTheme_mvl/mxv
+	BYTE	PRIO    121
+	BYTE		PAN     c_v+25
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v+0
+	BYTE	W16
+	BYTE		VOL     44*NPCTheme_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v+16
+	BYTE		VOL     39*NPCTheme_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+0
+	BYTE	W08
+	BYTE		VOL     44*NPCTheme_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v-10
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v+0
+	BYTE	W03
+// 007   ----------------------------------------
+	BYTE	W03
+	BYTE		VOL     68*NPCTheme_mvl/mxv
+	BYTE	PRIO    115
+	BYTE		PAN     c_v-28
+	BYTE		VOL     81*NPCTheme_mvl/mxv
+	BYTE	PRIO    122
+	BYTE		PAN     c_v+0
+	BYTE	W15
+	BYTE		VOL     68*NPCTheme_mvl/mxv
+	BYTE	PRIO    115
+	BYTE		PAN     c_v+30
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v+0
+	BYTE	W09
+	BYTE		VOL     54*NPCTheme_mvl/mxv
+	BYTE	PRIO    31
+	BYTE		PAN     c_v-7
+	BYTE		VOL     59*NPCTheme_mvl/mxv
+	BYTE	PRIO    39
+	BYTE		PAN     c_v+0
+	BYTE	W07
+	BYTE		VOL     54*NPCTheme_mvl/mxv
+	BYTE	PRIO    31
+	BYTE		PAN     c_v+11
+	BYTE	W01
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v+0
+	BYTE	W14
+	BYTE		VOL     65*NPCTheme_mvl/mxv
+	BYTE	PRIO    121
+	BYTE		PAN     c_v-25
+	BYTE		VOL     77*NPCTheme_mvl/mxv
+	BYTE	PRIO    67
+	BYTE		PAN     c_v+0
+	BYTE	W23
+	BYTE		VOL     72*NPCTheme_mvl/mxv
+	BYTE	PRIO    74
+	BYTE		PAN     c_v+10
+	BYTE		VOL     65*NPCTheme_mvl/mxv
+	BYTE	PRIO    121
+	BYTE		PAN     c_v+0
+	BYTE	W07
+	BYTE		VOL     61*NPCTheme_mvl/mxv
+	BYTE	PRIO    91
+	BYTE		PAN     c_v+8
+	BYTE		VOL     59*NPCTheme_mvl/mxv
+	BYTE	PRIO    39
+	BYTE		PAN     c_v+0
+	BYTE	W08
+	BYTE		VOL     54*NPCTheme_mvl/mxv
+	BYTE	PRIO    31
+	BYTE		PAN     c_v+11
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v+0
+	BYTE	W07
+	BYTE		VOL     54*NPCTheme_mvl/mxv
+	BYTE	PRIO    31
+	BYTE		PAN     c_v-7
+	BYTE		VOL     59*NPCTheme_mvl/mxv
+	BYTE	PRIO    39
+	BYTE		PAN     c_v+0
+	BYTE	W02
+// 008   ----------------------------------------
+	BYTE	W06
+	BYTE		VOL     54*NPCTheme_mvl/mxv
+	BYTE	PRIO    31
+	BYTE		PAN     c_v+11
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v+0
+	BYTE	W15
+	BYTE		VOL     59*NPCTheme_mvl/mxv
+	BYTE	PRIO    39
+	BYTE		PAN     c_v-16
+	BYTE		VOL     65*NPCTheme_mvl/mxv
+	BYTE	PRIO    121
+	BYTE		PAN     c_v+0
+	BYTE	W08
+	BYTE		VOL     59*NPCTheme_mvl/mxv
+	BYTE	PRIO    39
+	BYTE		PAN     c_v+16
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v+0
+	BYTE	W15
+	BYTE		VOL     61*NPCTheme_mvl/mxv
+	BYTE	PRIO    91
+	BYTE		PAN     c_v-20
+	BYTE		VOL     72*NPCTheme_mvl/mxv
+	BYTE	PRIO    74
+	BYTE		PAN     c_v+0
+	BYTE	W22
+	BYTE		VOL     74*NPCTheme_mvl/mxv
+	BYTE	PRIO    30
+	BYTE		PAN     c_v-4
+	BYTE		VOL     77*NPCTheme_mvl/mxv
+	BYTE	PRIO    67
+	BYTE		PAN     c_v+0
+	BYTE	W09
+	BYTE		VOL     65*NPCTheme_mvl/mxv
+	BYTE	PRIO    121
+	BYTE		PAN     c_v+25
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v+0
+	BYTE	W14
+	BYTE		VOL     54*NPCTheme_mvl/mxv
+	BYTE	PRIO    31
+	BYTE		PAN     c_v-7
+	BYTE		VOL     59*NPCTheme_mvl/mxv
+	BYTE	PRIO    39
+	BYTE		PAN     c_v+0
+	BYTE	W07
+// 009   ----------------------------------------
+	BYTE	W16
+	BYTE		VOL     65*NPCTheme_mvl/mxv
+	BYTE	PRIO    121
+	BYTE		PAN     c_v-12
+	BYTE		VOL     72*NPCTheme_mvl/mxv
+	BYTE	PRIO    74
+	BYTE		PAN     c_v+0
+	BYTE	W23
+	BYTE		VOL     68*NPCTheme_mvl/mxv
+	BYTE	PRIO    115
+	BYTE		PAN     c_v+7
+	BYTE		VOL     65*NPCTheme_mvl/mxv
+	BYTE	PRIO    121
+	BYTE		PAN     c_v+0
+	BYTE	W22
+	BYTE		VOL     68*NPCTheme_mvl/mxv
+	BYTE	PRIO    115
+	BYTE		PAN     c_v-4
+	BYTE		VOL     72*NPCTheme_mvl/mxv
+	BYTE	PRIO    74
+	BYTE		PAN     c_v+0
+	BYTE	W23
+	BYTE		VOL     68*NPCTheme_mvl/mxv
+	BYTE	PRIO    115
+	BYTE		PAN     c_v+7
+	BYTE		VOL     65*NPCTheme_mvl/mxv
+	BYTE	PRIO    121
+	BYTE		PAN     c_v+0
+	BYTE	W12
+// 010   ----------------------------------------
+	BYTE	W32
+	BYTE	W01
+	BYTE		VOL     68*NPCTheme_mvl/mxv
+	BYTE	PRIO    115
+	BYTE		PAN     c_v-4
+	BYTE		VOL     72*NPCTheme_mvl/mxv
+	BYTE	PRIO    74
+	BYTE		PAN     c_v+0
+	BYTE	W60
+	BYTE	W03
+// 011   ----------------------------------------
+	BYTE	W17
+	BYTE		VOL     68*NPCTheme_mvl/mxv
+	BYTE	PRIO    115
+	BYTE		PAN     c_v+7
+	BYTE		VOL     65*NPCTheme_mvl/mxv
+	BYTE	PRIO    121
+	BYTE		PAN     c_v+0
+	BYTE	W32
+	BYTE	W02
+	BYTE		VOL     68*NPCTheme_mvl/mxv
+	BYTE	PRIO    115
+	BYTE		PAN     c_v-4
+	BYTE		VOL     72*NPCTheme_mvl/mxv
+	BYTE	PRIO    74
+	BYTE		PAN     c_v+0
+	BYTE	W23
+	BYTE		VOL     68*NPCTheme_mvl/mxv
+	BYTE	PRIO    115
+	BYTE		PAN     c_v+7
+	BYTE		VOL     65*NPCTheme_mvl/mxv
+	BYTE	PRIO    121
+	BYTE		PAN     c_v+0
+	BYTE	W22
+// 012   ----------------------------------------
+	BYTE	W01
+	BYTE		VOL     68*NPCTheme_mvl/mxv
+	BYTE	PRIO    115
+	BYTE		PAN     c_v-4
+	BYTE		VOL     72*NPCTheme_mvl/mxv
+	BYTE	PRIO    74
+	BYTE		PAN     c_v+0
+	BYTE	W11
+	BYTE		VOL     65*NPCTheme_mvl/mxv
+	BYTE	PRIO    121
+	BYTE		PAN     c_v+12
+	BYTE		VOL     59*NPCTheme_mvl/mxv
+	BYTE	PRIO    39
+	BYTE		PAN     c_v+0
+	BYTE	W11
+	BYTE		VOL     61*NPCTheme_mvl/mxv
+	BYTE	PRIO    91
+	BYTE		PAN     c_v-5
+	BYTE		VOL     65*NPCTheme_mvl/mxv
+	BYTE	PRIO    121
+	BYTE		PAN     c_v+0
+	BYTE	W44
+	BYTE	W02
+	BYTE		VOL     68*NPCTheme_mvl/mxv
+	BYTE	PRIO    115
+	BYTE		PAN     c_v-4
+	BYTE		VOL     72*NPCTheme_mvl/mxv
+	BYTE	PRIO    74
+	BYTE		PAN     c_v+0
+	BYTE	W22
+	BYTE		VOL     68*NPCTheme_mvl/mxv
+	BYTE	PRIO    115
+	BYTE		PAN     c_v+7
+	BYTE		VOL     65*NPCTheme_mvl/mxv
+	BYTE	PRIO    121
+	BYTE		PAN     c_v+0
+	BYTE	W05
+// 013   ----------------------------------------
+	BYTE	W07
+	BYTE		VOL     68*NPCTheme_mvl/mxv
+	BYTE	PRIO    115
+	BYTE		PAN     c_v-4
+	BYTE		VOL     72*NPCTheme_mvl/mxv
+	BYTE	PRIO    74
+	BYTE		PAN     c_v+0
+	BYTE	W78
+	BYTE	W01
+	BYTE		VOL     68*NPCTheme_mvl/mxv
+	BYTE	PRIO    115
+	BYTE		PAN     c_v+7
+	BYTE		VOL     65*NPCTheme_mvl/mxv
+	BYTE	PRIO    121
+	BYTE		PAN     c_v+0
+	BYTE	W10
+// 014   ----------------------------------------
+	BYTE	W02
+	BYTE		VOL     61*NPCTheme_mvl/mxv
+	BYTE	PRIO    91
+	BYTE		PAN     c_v+8
+	BYTE		VOL     59*NPCTheme_mvl/mxv
+	BYTE	PRIO    39
+	BYTE		PAN     c_v+0
+	BYTE	W11
+	BYTE		VOL     65*NPCTheme_mvl/mxv
+	BYTE	PRIO    121
+	BYTE		PAN     c_v-12
+	BYTE		VOL     72*NPCTheme_mvl/mxv
+	BYTE	PRIO    74
+	BYTE		PAN     c_v+0
+	BYTE	W23
+	BYTE		VOL     68*NPCTheme_mvl/mxv
+	BYTE	PRIO    115
+	BYTE		PAN     c_v+7
+	BYTE		VOL     65*NPCTheme_mvl/mxv
+	BYTE	PRIO    121
+	BYTE		PAN     c_v+0
+	BYTE	W07
+	BYTE		VOL     61*NPCTheme_mvl/mxv
+	BYTE	PRIO    91
+	BYTE		PAN     c_v+8
+	BYTE		VOL     59*NPCTheme_mvl/mxv
+	BYTE	PRIO    39
+	BYTE		PAN     c_v+0
+	BYTE	W08
+	BYTE		VOL     54*NPCTheme_mvl/mxv
+	BYTE	PRIO    31
+	BYTE		PAN     c_v+11
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v+0
+	BYTE	W08
+	BYTE		VOL     59*NPCTheme_mvl/mxv
+	BYTE	PRIO    39
+	BYTE		PAN     c_v-16
+	BYTE		VOL     65*NPCTheme_mvl/mxv
+	BYTE	PRIO    121
+	BYTE		PAN     c_v+0
+	BYTE	W30
+	BYTE		VOL     59*NPCTheme_mvl/mxv
+	BYTE	PRIO    39
+	BYTE		PAN     c_v+16
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v+0
+	BYTE	W07
+// 015   ----------------------------------------
+	BYTE		VOL     54*NPCTheme_mvl/mxv
+	BYTE	PRIO    31
+	BYTE		PAN     c_v-7
+	BYTE		VOL     59*NPCTheme_mvl/mxv
+	BYTE	PRIO    39
+	BYTE		PAN     c_v+0
+	BYTE	W08
+	BYTE		VOL     65*NPCTheme_mvl/mxv
+	BYTE	PRIO    121
+	BYTE		PAN     c_v-12
+	BYTE		VOL     72*NPCTheme_mvl/mxv
+	BYTE	PRIO    74
+	BYTE		PAN     c_v+0
+	BYTE	W23
+	BYTE		VOL     61*NPCTheme_mvl/mxv
+	BYTE	PRIO    91
+	BYTE		PAN     c_v+23
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v+0
+	BYTE	W15
+	BYTE		VOL     54*NPCTheme_mvl/mxv
+	BYTE	PRIO    31
+	BYTE		PAN     c_v-7
+	BYTE		VOL     59*NPCTheme_mvl/mxv
+	BYTE	PRIO    39
+	BYTE		PAN     c_v+0
+	BYTE	W07
+	BYTE		VOL     65*NPCTheme_mvl/mxv
+	BYTE	PRIO    121
+	BYTE		PAN     c_v-12
+	BYTE		VOL     72*NPCTheme_mvl/mxv
+	BYTE	PRIO    74
+	BYTE		PAN     c_v+0
+	BYTE	W16
+	BYTE		VOL     61*NPCTheme_mvl/mxv
+	BYTE	PRIO    91
+	BYTE		PAN     c_v+23
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v+0
+	BYTE	W15
+	BYTE		VOL     54*NPCTheme_mvl/mxv
+	BYTE	PRIO    31
+	BYTE		PAN     c_v-7
+	BYTE		VOL     59*NPCTheme_mvl/mxv
+	BYTE	PRIO    39
+	BYTE		PAN     c_v+0
+	BYTE	W12
+// 016   ----------------------------------------
+	BYTE	W03
+	BYTE		VOL     65*NPCTheme_mvl/mxv
+	BYTE	PRIO    121
+	BYTE		PAN     c_v-12
+	BYTE		VOL     72*NPCTheme_mvl/mxv
+	BYTE	PRIO    74
+	BYTE		PAN     c_v+0
+	BYTE	W23
+	BYTE		VOL     65*NPCTheme_mvl/mxv
+	BYTE	PRIO    121
+	BYTE		PAN     c_v+12
+	BYTE		VOL     59*NPCTheme_mvl/mxv
+	BYTE	PRIO    39
+	BYTE		PAN     c_v+0
+	BYTE	W07
+	BYTE		VOL     54*NPCTheme_mvl/mxv
+	BYTE	PRIO    31
+	BYTE		PAN     c_v+11
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v+0
+	BYTE	W08
+	BYTE		VOL     54*NPCTheme_mvl/mxv
+	BYTE	PRIO    31
+	BYTE		PAN     c_v-7
+	BYTE		VOL     59*NPCTheme_mvl/mxv
+	BYTE	PRIO    39
+	BYTE		PAN     c_v+0
+	BYTE	W07
+	BYTE		VOL     61*NPCTheme_mvl/mxv
+	BYTE	PRIO    91
+	BYTE		PAN     c_v-5
+	BYTE		VOL     65*NPCTheme_mvl/mxv
+	BYTE	PRIO    121
+	BYTE		PAN     c_v+0
+	BYTE	W15
+	BYTE		VOL     59*NPCTheme_mvl/mxv
+	BYTE	PRIO    39
+	BYTE		PAN     c_v+16
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v+0
+	BYTE	W16
+	BYTE		VOL     54*NPCTheme_mvl/mxv
+	BYTE	PRIO    31
+	BYTE		PAN     c_v-7
+	BYTE		VOL     59*NPCTheme_mvl/mxv
+	BYTE	PRIO    39
+	BYTE		PAN     c_v+0
+	BYTE	W07
+	BYTE		VOL     54*NPCTheme_mvl/mxv
+	BYTE	PRIO    31
+	BYTE		PAN     c_v+11
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v+0
+	BYTE	W08
+	BYTE		VOL     61*NPCTheme_mvl/mxv
+	BYTE	PRIO    91
+	BYTE		PAN     c_v-20
+	BYTE		VOL     72*NPCTheme_mvl/mxv
+	BYTE	PRIO    74
+	BYTE		PAN     c_v+0
+	BYTE	W02
+// 017   ----------------------------------------
+	BYTE	W21
+	BYTE		VOL     68*NPCTheme_mvl/mxv
+	BYTE	PRIO    115
+	BYTE		PAN     c_v+7
+	BYTE		VOL     65*NPCTheme_mvl/mxv
+	BYTE	PRIO    121
+	BYTE		PAN     c_v+0
+	BYTE	W07
+	BYTE		VOL     59*NPCTheme_mvl/mxv
+	BYTE	PRIO    39
+	BYTE		PAN     c_v+16
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v+0
+	BYTE	W08
+	BYTE		VOL     54*NPCTheme_mvl/mxv
+	BYTE	PRIO    31
+	BYTE		PAN     c_v-7
+	BYTE		VOL     59*NPCTheme_mvl/mxv
+	BYTE	PRIO    39
+	BYTE		PAN     c_v+0
+	BYTE	W30
+	BYTE		VOL     61*NPCTheme_mvl/mxv
+	BYTE	PRIO    91
+	BYTE		PAN     c_v-5
+	BYTE		VOL     65*NPCTheme_mvl/mxv
+	BYTE	PRIO    121
+	BYTE		PAN     c_v+0
+	BYTE	W23
+	BYTE		VOL     61*NPCTheme_mvl/mxv
+	BYTE	PRIO    91
+	BYTE		PAN     c_v+8
+	BYTE		VOL     59*NPCTheme_mvl/mxv
+	BYTE	PRIO    39
+	BYTE		PAN     c_v+0
+	BYTE	W01
+	BYTE	GoTo
+	 POIN2	NPCTheme_5_B1
+NPCTheme_5_B2:
+	BYTE	FINE
+
+//**************** Track 6 (Midi-Chn.6) ****************//
+
+NPCTheme_6:
+	BYTE	KEYSH   NPCTheme_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   57
+	BYTE		MODT    0
+	BYTE		LFOS    44
+	BYTE		BENDR   12
+	BYTE		VOL     39*NPCTheme_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+0
+	BYTE		VOL     39*NPCTheme_mvl/mxv
+	BYTE		BEND    c_v+0
+	BYTE		N01     Fs2   v100
+	BYTE	W01
+	BYTE		N06   
+	BYTE	W01
+	BYTE		VOL     31*NPCTheme_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v+27
+	BYTE	W01
+	BYTE		VOL     39*NPCTheme_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+0
+	BYTE	W06
+	BYTE		N06   
+	BYTE	W08
+	BYTE		VOL     44*NPCTheme_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v+16
+	BYTE		BEND    c_v+0
+	BYTE		N06     Bn2 
+	BYTE	W01
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v+0
+	BYTE	W01
+	BYTE		VOL     44*NPCTheme_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v+16
+	BYTE	W01
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v+0
+	BYTE	W02
+	BYTE		VOL     44*NPCTheme_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v+16
+	BYTE	W01
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v+0
+	BYTE	W01
+	BYTE		VOL     44*NPCTheme_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v+16
+	BYTE		VOL     39*NPCTheme_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+0
+	BYTE		N06   
+	BYTE	W06
+	BYTE		VOL     44*NPCTheme_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v+16
+	BYTE	W02
+	BYTE		N06   
+	BYTE	W07
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v+0
+	BYTE		VOL     54*NPCTheme_mvl/mxv
+	BYTE	PRIO    31
+	BYTE		PAN     c_v+11
+	BYTE		N06     En3 
+	BYTE	W08
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v+21
+	BYTE		VOL     44*NPCTheme_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v+16
+	BYTE		N06   
+	BYTE	W07
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v+21
+	BYTE		N06   
+	BYTE	W08
+	BYTE		VOL     54*NPCTheme_mvl/mxv
+	BYTE	PRIO    31
+	BYTE		PAN     c_v+11
+	BYTE		VOL     59*NPCTheme_mvl/mxv
+	BYTE	PRIO    39
+	BYTE		PAN     c_v+16
+	BYTE		N06     Fs3 
+	BYTE	W06
+	BYTE		VOL     61*NPCTheme_mvl/mxv
+	BYTE	PRIO    91
+	BYTE		PAN     c_v+23
+	BYTE	W01
+	BYTE		VOL     59*NPCTheme_mvl/mxv
+	BYTE	PRIO    39
+	BYTE		PAN     c_v+32
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v+21
+	BYTE	W01
+	BYTE		N06   
+	BYTE	W07
+	BYTE		VOL     54*NPCTheme_mvl/mxv
+	BYTE	PRIO    31
+	BYTE		PAN     c_v+11
+	BYTE		VOL     59*NPCTheme_mvl/mxv
+	BYTE	PRIO    39
+	BYTE		PAN     c_v+16
+	BYTE		N06   
+	BYTE	W01
+	BYTE		VOL     54*NPCTheme_mvl/mxv
+	BYTE	PRIO    31
+	BYTE		PAN     c_v+30
+	BYTE	W07
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v+21
+	BYTE		N84     Bn3 
+	BYTE	W10
+	BYTE		VOL     54*NPCTheme_mvl/mxv
+	BYTE	PRIO    31
+	BYTE		PAN     c_v+30
+	BYTE	W01
+// 001   ----------------------------------------
+	BYTE	W08
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v+21
+	BYTE	W01
+	BYTE		VOL     54*NPCTheme_mvl/mxv
+	BYTE	PRIO    31
+	BYTE		PAN     c_v+30
+	BYTE	W04
+	BYTE		VOL     59*NPCTheme_mvl/mxv
+	BYTE	PRIO    39
+	BYTE		PAN     c_v+16
+	BYTE		VOL     61*NPCTheme_mvl/mxv
+	BYTE	PRIO    91
+	BYTE		PAN     c_v+23
+	BYTE	W06
+	BYTE		VOL     59*NPCTheme_mvl/mxv
+	BYTE	PRIO    39
+	BYTE		PAN     c_v+16
+	BYTE		VOL     54*NPCTheme_mvl/mxv
+	BYTE	PRIO    31
+	BYTE		PAN     c_v+30
+	BYTE	W06
+	BYTE		VOL     59*NPCTheme_mvl/mxv
+	BYTE	PRIO    39
+	BYTE		PAN     c_v+16
+	BYTE		VOL     61*NPCTheme_mvl/mxv
+	BYTE	PRIO    91
+	BYTE		PAN     c_v+23
+	BYTE	W08
+	BYTE		VOL     59*NPCTheme_mvl/mxv
+	BYTE	PRIO    39
+	BYTE		PAN     c_v+16
+	BYTE		VOL     54*NPCTheme_mvl/mxv
+	BYTE	PRIO    31
+	BYTE		PAN     c_v+30
+	BYTE	W05
+	BYTE		VOL     59*NPCTheme_mvl/mxv
+	BYTE	PRIO    39
+	BYTE		PAN     c_v+16
+	BYTE		VOL     61*NPCTheme_mvl/mxv
+	BYTE	PRIO    91
+	BYTE		PAN     c_v+23
+	BYTE	W08
+	BYTE		VOL     59*NPCTheme_mvl/mxv
+	BYTE	PRIO    39
+	BYTE		PAN     c_v+16
+	BYTE		VOL     54*NPCTheme_mvl/mxv
+	BYTE	PRIO    31
+	BYTE		PAN     c_v+30
+	BYTE	W06
+	BYTE		VOL     59*NPCTheme_mvl/mxv
+	BYTE	PRIO    39
+	BYTE		PAN     c_v+16
+	BYTE		VOL     61*NPCTheme_mvl/mxv
+	BYTE	PRIO    91
+	BYTE		PAN     c_v+23
+	BYTE	W08
+	BYTE		VOL     59*NPCTheme_mvl/mxv
+	BYTE	PRIO    39
+	BYTE		PAN     c_v+16
+	BYTE		VOL     54*NPCTheme_mvl/mxv
+	BYTE	PRIO    31
+	BYTE		PAN     c_v+30
+	BYTE	W05
+	BYTE		VOL     59*NPCTheme_mvl/mxv
+	BYTE	PRIO    39
+	BYTE		PAN     c_v+16
+	BYTE		VOL     61*NPCTheme_mvl/mxv
+	BYTE	PRIO    91
+	BYTE		PAN     c_v+23
+	BYTE	W08
+	BYTE		VOL     59*NPCTheme_mvl/mxv
+	BYTE	PRIO    39
+	BYTE		PAN     c_v+16
+	BYTE		VOL     54*NPCTheme_mvl/mxv
+	BYTE	PRIO    31
+	BYTE		PAN     c_v+30
+	BYTE	W05
+NPCTheme_6_B1:
+	BYTE		VOICE   57
+	BYTE		BEND    c_v+0
+	BYTE	W02
+	BYTE		VOICE   48
+	BYTE		BEND    c_v-1
+	BYTE		N21     Bn1   v100
+	BYTE	W16
+// 002   ----------------------------------------
+	BYTE	W06
+	BYTE		VOL     59*NPCTheme_mvl/mxv
+	BYTE	PRIO    39
+	BYTE		PAN     c_v+16
+	BYTE		VOL     61*NPCTheme_mvl/mxv
+	BYTE	PRIO    91
+	BYTE		PAN     c_v+23
+	BYTE		N21   
+	BYTE	W23
+	BYTE		VOL     59*NPCTheme_mvl/mxv
+	BYTE	PRIO    39
+	BYTE		PAN     c_v+32
+	BYTE		VOL     54*NPCTheme_mvl/mxv
+	BYTE	PRIO    31
+	BYTE		PAN     c_v+30
+	BYTE		N21   
+	BYTE	W23
+	BYTE		N21   
+	BYTE	W22
+	BYTE		N21   
+	BYTE	W22
+// 003   ----------------------------------------
+	BYTE	W01
+	BYTE		N21   
+	BYTE	W23
+	BYTE		N21   
+	BYTE	W23
+	BYTE		VOL     59*NPCTheme_mvl/mxv
+	BYTE	PRIO    39
+	BYTE		PAN     c_v+16
+	BYTE		VOL     61*NPCTheme_mvl/mxv
+	BYTE	PRIO    91
+	BYTE		PAN     c_v+23
+	BYTE		N21   
+	BYTE	W22
+	BYTE		VOL     59*NPCTheme_mvl/mxv
+	BYTE	PRIO    39
+	BYTE		PAN     c_v+32
+	BYTE		VOL     54*NPCTheme_mvl/mxv
+	BYTE	PRIO    31
+	BYTE		PAN     c_v+30
+	BYTE		N21   
+	BYTE	W23
+	BYTE		VOL     59*NPCTheme_mvl/mxv
+	BYTE	PRIO    39
+	BYTE		PAN     c_v+16
+	BYTE		VOL     61*NPCTheme_mvl/mxv
+	BYTE	PRIO    91
+	BYTE		PAN     c_v+23
+	BYTE		N21   
+	BYTE	W04
+// 004   ----------------------------------------
+	BYTE	W19
+	BYTE		VOL     59*NPCTheme_mvl/mxv
+	BYTE	PRIO    39
+	BYTE		PAN     c_v+32
+	BYTE		VOL     54*NPCTheme_mvl/mxv
+	BYTE	PRIO    31
+	BYTE		PAN     c_v+30
+	BYTE		N21   
+	BYTE	W22
+	BYTE		N21   
+	BYTE	W23
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v+21
+	BYTE		N21   
+	BYTE	W23
+	BYTE		VOL     54*NPCTheme_mvl/mxv
+	BYTE	PRIO    31
+	BYTE		PAN     c_v+30
+	BYTE		N21   
+	BYTE	W09
+// 005   ----------------------------------------
+	BYTE	W14
+	BYTE		N21   
+	BYTE	W22
+	BYTE		N21   
+	BYTE	W23
+	BYTE		N44   
+	BYTE	W36
+	BYTE	W01
+// 006   ----------------------------------------
+	BYTE	W09
+	BYTE		VOL     59*NPCTheme_mvl/mxv
+	BYTE	PRIO    39
+	BYTE		PAN     c_v+16
+	BYTE		VOL     65*NPCTheme_mvl/mxv
+	BYTE	PRIO    121
+	BYTE		PAN     c_v+25
+	BYTE		BEND    c_v-1
+	BYTE		N44     En2 
+	BYTE	W44
+	BYTE	W01
+	BYTE		VOL     61*NPCTheme_mvl/mxv
+	BYTE	PRIO    91
+	BYTE		PAN     c_v+37
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v+21
+	BYTE		N44     Ds2 
+	BYTE	W42
+// 007   ----------------------------------------
+	BYTE	W04
+	BYTE		BEND    c_v-1
+	BYTE		N21     Cs2 
+	BYTE	W22
+	BYTE		VOL     54*NPCTheme_mvl/mxv
+	BYTE	PRIO    31
+	BYTE		PAN     c_v+30
+	BYTE		N21   
+	BYTE	W23
+	BYTE		        Bn1 
+	BYTE	W23
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v+21
+	BYTE		N21   
+	BYTE	W22
+	BYTE		VOL     54*NPCTheme_mvl/mxv
+	BYTE	PRIO    31
+	BYTE		PAN     c_v+30
+	BYTE		N21   
+	BYTE	W02
+// 008   ----------------------------------------
+	BYTE	W21
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v+21
+	BYTE		N21   
+	BYTE	W23
+	BYTE		N21   
+	BYTE	W22
+	BYTE		VOL     54*NPCTheme_mvl/mxv
+	BYTE	PRIO    31
+	BYTE		PAN     c_v+11
+	BYTE		VOL     61*NPCTheme_mvl/mxv
+	BYTE	PRIO    91
+	BYTE		PAN     c_v+23
+	BYTE	W01
+	BYTE		N21   
+	BYTE	W22
+	BYTE		VOL     59*NPCTheme_mvl/mxv
+	BYTE	PRIO    39
+	BYTE		PAN     c_v+32
+	BYTE		VOL     54*NPCTheme_mvl/mxv
+	BYTE	PRIO    31
+	BYTE		PAN     c_v+30
+	BYTE		N21   
+	BYTE	W07
+// 009   ----------------------------------------
+	BYTE	W16
+	BYTE		VOL     59*NPCTheme_mvl/mxv
+	BYTE	PRIO    39
+	BYTE		PAN     c_v+16
+	BYTE		VOL     61*NPCTheme_mvl/mxv
+	BYTE	PRIO    91
+	BYTE		PAN     c_v+23
+	BYTE		N21   
+	BYTE	W23
+	BYTE		VOL     59*NPCTheme_mvl/mxv
+	BYTE	PRIO    39
+	BYTE		PAN     c_v+32
+	BYTE		VOL     54*NPCTheme_mvl/mxv
+	BYTE	PRIO    31
+	BYTE		PAN     c_v+30
+	BYTE		BEND    c_v-1
+	BYTE		N21     En2 
+	BYTE	W22
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v+21
+	BYTE		N21   
+	BYTE	W23
+	BYTE		BEND    c_v-1
+	BYTE		N21     Fs2 
+	BYTE	W12
+// 010   ----------------------------------------
+	BYTE	W11
+	BYTE		N21   
+	BYTE	W22
+	BYTE		VOL     44*NPCTheme_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v+42
+	BYTE	W01
+	BYTE		VOL     39*NPCTheme_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+32
+	BYTE		BEND    c_v-1
+	BYTE		N21     Ds2 
+	BYTE	W22
+	BYTE		VOL     44*NPCTheme_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v+16
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v+21
+	BYTE		N21   
+	BYTE	W23
+	BYTE		BEND    c_v-1
+	BYTE		N21     Gs2 
+	BYTE	W17
+// 011   ----------------------------------------
+	BYTE	W06
+	BYTE		N21   
+	BYTE	W22
+	BYTE		VOL     44*NPCTheme_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v+42
+	BYTE		VOL     39*NPCTheme_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+32
+	BYTE	W01
+	BYTE		N21     Cs2 
+	BYTE	W22
+	BYTE		VOL     44*NPCTheme_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v+16
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v+21
+	BYTE		N21   
+	BYTE	W23
+	BYTE		        Fs2 
+	BYTE	W22
+// 012   ----------------------------------------
+	BYTE	W01
+	BYTE		VOL     54*NPCTheme_mvl/mxv
+	BYTE	PRIO    31
+	BYTE		PAN     c_v+11
+	BYTE		VOL     61*NPCTheme_mvl/mxv
+	BYTE	PRIO    91
+	BYTE		PAN     c_v+23
+	BYTE		N21   
+	BYTE	W22
+	BYTE		VOL     59*NPCTheme_mvl/mxv
+	BYTE	PRIO    39
+	BYTE		PAN     c_v+32
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v+21
+	BYTE		N21     Bn1 
+	BYTE	W23
+	BYTE		N21   
+	BYTE	W23
+	BYTE		N21   
+	BYTE	W22
+	BYTE		N21   
+	BYTE	W05
+// 013   ----------------------------------------
+	BYTE	W18
+	BYTE		BEND    c_v-1
+	BYTE		N21     En2 
+	BYTE	W23
+	BYTE		VOL     54*NPCTheme_mvl/mxv
+	BYTE	PRIO    31
+	BYTE		PAN     c_v+11
+	BYTE		VOL     61*NPCTheme_mvl/mxv
+	BYTE	PRIO    91
+	BYTE		PAN     c_v+23
+	BYTE		N21   
+	BYTE	W23
+	BYTE		N21   
+	BYTE	W22
+	BYTE		VOL     65*NPCTheme_mvl/mxv
+	BYTE	PRIO    121
+	BYTE		PAN     c_v+25
+	BYTE		N21   
+	BYTE	W10
+// 014   ----------------------------------------
+	BYTE	W13
+	BYTE		VOL     44*NPCTheme_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v-10
+	BYTE		BEND    c_v-1
+	BYTE		TIE     Gn1 
+	BYTE	W80
+	BYTE	W03
+// 015   ----------------------------------------
+	BYTE	W96
+// 016   ----------------------------------------
+	BYTE	W01
+	BYTE		EOT   
+	BYTE	W02
+	BYTE		VOL     39*NPCTheme_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+0
+	BYTE		VOL     31*NPCTheme_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v-18
+	BYTE		TIE     Fs1 
+	BYTE	W14
+	BYTE		VOL     39*NPCTheme_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+0
+	BYTE	W08
+	BYTE		VOL     44*NPCTheme_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v-10
+	BYTE	W54
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v-21
+	BYTE	W15
+	BYTE		VOL     54*NPCTheme_mvl/mxv
+	BYTE	PRIO    31
+	BYTE		PAN     c_v-7
+	BYTE	W02
+// 017   ----------------------------------------
+	BYTE	W32
+	BYTE		VOL     59*NPCTheme_mvl/mxv
+	BYTE	PRIO    39
+	BYTE		PAN     c_v-16
+	BYTE	W54
+	BYTE	W01
+	BYTE		EOT   
+	BYTE	W02
+	BYTE		VOL     44*NPCTheme_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v+16
+	BYTE		VOL     54*NPCTheme_mvl/mxv
+	BYTE	PRIO    31
+	BYTE		PAN     c_v+30
+	BYTE		N21     Bn1 
+	BYTE	W01
+	BYTE	GoTo
+	 POIN2	NPCTheme_6_B1
+NPCTheme_6_B2:
+	BYTE	W06
+// 018   ----------------------------------------
+	BYTE	W15
+	BYTE		VOL     59*NPCTheme_mvl/mxv
+	BYTE	PRIO    39
+	BYTE		PAN     c_v+16
+	BYTE		VOL     61*NPCTheme_mvl/mxv
+	BYTE	PRIO    91
+	BYTE		PAN     c_v+23
+	BYTE		N21     Bn1   v100
+	BYTE	W23
+	BYTE		VOL     59*NPCTheme_mvl/mxv
+	BYTE	PRIO    39
+	BYTE		PAN     c_v+32
+	BYTE		VOL     54*NPCTheme_mvl/mxv
+	BYTE	PRIO    31
+	BYTE		PAN     c_v+30
+	BYTE	FINE
+
+//**************** Track 7 (Midi-Chn.7) ****************//
+
+NPCTheme_7:
+	BYTE	KEYSH   NPCTheme_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   57
+	BYTE		MODT    0
+	BYTE		LFOS    44
+	BYTE		BENDR   12
+	BYTE		VOL     39*NPCTheme_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+0
+	BYTE	W01
+	BYTE		VOL     39*NPCTheme_mvl/mxv
+	BYTE		BEND    c_v+0
+	BYTE		N06     Bn1   v100
+	BYTE	W01
+	BYTE		VOL     31*NPCTheme_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v-18
+	BYTE	W01
+	BYTE		VOL     39*NPCTheme_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+0
+	BYTE	W06
+	BYTE		N06   
+	BYTE	W08
+	BYTE		VOL     44*NPCTheme_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v-10
+	BYTE		N06     Fs2 
+	BYTE	W01
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v+0
+	BYTE	W01
+	BYTE		VOL     44*NPCTheme_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v-10
+	BYTE	W01
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v+0
+	BYTE	W02
+	BYTE		VOL     44*NPCTheme_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v-10
+	BYTE	W01
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v+0
+	BYTE	W01
+	BYTE		VOL     44*NPCTheme_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v+16
+	BYTE		VOL     39*NPCTheme_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+0
+	BYTE		N06   
+	BYTE	W06
+	BYTE		VOL     44*NPCTheme_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v-10
+	BYTE	W02
+	BYTE		N06   
+	BYTE	W07
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v-21
+	BYTE		VOL     54*NPCTheme_mvl/mxv
+	BYTE	PRIO    31
+	BYTE		PAN     c_v-7
+	BYTE		BEND    c_v+0
+	BYTE		N06     Bn2 
+	BYTE	W08
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v+0
+	BYTE		VOL     44*NPCTheme_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v-10
+	BYTE		N06   
+	BYTE	W07
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v-21
+	BYTE		N06   
+	BYTE	W08
+	BYTE		VOL     54*NPCTheme_mvl/mxv
+	BYTE	PRIO    31
+	BYTE		PAN     c_v-26
+	BYTE		VOL     59*NPCTheme_mvl/mxv
+	BYTE	PRIO    39
+	BYTE		PAN     c_v-16
+	BYTE		N06   
+	BYTE	W06
+	BYTE		VOL     61*NPCTheme_mvl/mxv
+	BYTE	PRIO    91
+	BYTE		PAN     c_v-20
+	BYTE	W02
+	BYTE		VOL     54*NPCTheme_mvl/mxv
+	BYTE	PRIO    31
+	BYTE		PAN     c_v-7
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v-21
+	BYTE		N06   
+	BYTE	W07
+	BYTE		VOL     54*NPCTheme_mvl/mxv
+	BYTE	PRIO    31
+	BYTE		PAN     c_v-26
+	BYTE		VOL     59*NPCTheme_mvl/mxv
+	BYTE	PRIO    39
+	BYTE		PAN     c_v-16
+	BYTE		N06   
+	BYTE	W01
+	BYTE		VOL     54*NPCTheme_mvl/mxv
+	BYTE	PRIO    31
+	BYTE		PAN     c_v-26
+	BYTE	W07
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v-21
+	BYTE		N84     Ds3 
+	BYTE	W02
+	BYTE		VOL     44*NPCTheme_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v-10
+	BYTE		VOL     39*NPCTheme_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v-32
+	BYTE	W05
+	BYTE		VOL     44*NPCTheme_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v-37
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v-21
+	BYTE	W04
+// 001   ----------------------------------------
+	BYTE	W12
+	BYTE		VOL     54*NPCTheme_mvl/mxv
+	BYTE	PRIO    31
+	BYTE		PAN     c_v-26
+	BYTE	W06
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v-21
+	BYTE	W05
+	BYTE		VOL     54*NPCTheme_mvl/mxv
+	BYTE	PRIO    31
+	BYTE		PAN     c_v-26
+	BYTE	W10
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v-21
+	BYTE	W04
+	BYTE		VOL     54*NPCTheme_mvl/mxv
+	BYTE	PRIO    31
+	BYTE		PAN     c_v-26
+	BYTE	W09
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v-21
+	BYTE	W04
+	BYTE		VOL     54*NPCTheme_mvl/mxv
+	BYTE	PRIO    31
+	BYTE		PAN     c_v-26
+	BYTE	W10
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v-21
+	BYTE	W04
+	BYTE		VOL     54*NPCTheme_mvl/mxv
+	BYTE	PRIO    31
+	BYTE		PAN     c_v-26
+	BYTE	W09
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v-21
+	BYTE	W04
+	BYTE		VOL     54*NPCTheme_mvl/mxv
+	BYTE	PRIO    31
+	BYTE		PAN     c_v-26
+	BYTE	W01
+NPCTheme_7_B1:
+	BYTE		VOICE   57
+	BYTE		PAN     c_v-26
+	BYTE		VOL     54*NPCTheme_mvl/mxv
+	BYTE		BEND    c_v+0
+	BYTE	W02
+	BYTE		VOICE   48
+	BYTE		VOL     59*NPCTheme_mvl/mxv
+	BYTE	PRIO    39
+	BYTE		PAN     c_v-32
+	BYTE		VOL     61*NPCTheme_mvl/mxv
+	BYTE	PRIO    91
+	BYTE		PAN     c_v-20
+	BYTE		BEND    c_v-1
+	BYTE		N21     Fs2   v100
+	BYTE	W16
+// 002   ----------------------------------------
+	BYTE	W06
+	BYTE		N21   
+	BYTE	W23
+	BYTE		BEND    c_v-1
+	BYTE		N21     En2 
+	BYTE	W23
+	BYTE		VOL     65*NPCTheme_mvl/mxv
+	BYTE	PRIO    121
+	BYTE		PAN     c_v-25
+	BYTE		N21   
+	BYTE	W22
+	BYTE		        Ds2 
+	BYTE	W22
+// 003   ----------------------------------------
+	BYTE	W01
+	BYTE		N21   
+	BYTE	W23
+	BYTE		N21   
+	BYTE	W23
+	BYTE		VOL     68*NPCTheme_mvl/mxv
+	BYTE	PRIO    115
+	BYTE		PAN     c_v-16
+	BYTE		N21   
+	BYTE	W22
+	BYTE		VOL     65*NPCTheme_mvl/mxv
+	BYTE	PRIO    121
+	BYTE		PAN     c_v-12
+	BYTE		VOL     61*NPCTheme_mvl/mxv
+	BYTE	PRIO    91
+	BYTE		PAN     c_v-20
+	BYTE		BEND    c_v-1
+	BYTE		N21     Fs2 
+	BYTE	W23
+	BYTE		VOL     65*NPCTheme_mvl/mxv
+	BYTE	PRIO    121
+	BYTE		PAN     c_v-25
+	BYTE		N21   
+	BYTE	W04
+// 004   ----------------------------------------
+	BYTE	W19
+	BYTE		VOL     61*NPCTheme_mvl/mxv
+	BYTE	PRIO    91
+	BYTE		PAN     c_v-20
+	BYTE		BEND    c_v-1
+	BYTE		N21     En2 
+	BYTE	W22
+	BYTE		VOL     65*NPCTheme_mvl/mxv
+	BYTE	PRIO    121
+	BYTE		PAN     c_v-25
+	BYTE		N21   
+	BYTE	W23
+	BYTE		        Ds2 
+	BYTE	W23
+	BYTE		VOL     68*NPCTheme_mvl/mxv
+	BYTE	PRIO    115
+	BYTE		PAN     c_v-28
+	BYTE		VOL     72*NPCTheme_mvl/mxv
+	BYTE	PRIO    74
+	BYTE		PAN     c_v-21
+	BYTE		N21   
+	BYTE	W09
+// 005   ----------------------------------------
+	BYTE	W14
+	BYTE		VOL     68*NPCTheme_mvl/mxv
+	BYTE	PRIO    115
+	BYTE		PAN     c_v-16
+	BYTE		VOL     65*NPCTheme_mvl/mxv
+	BYTE	PRIO    121
+	BYTE		PAN     c_v-25
+	BYTE		N21   
+	BYTE	W22
+	BYTE		N21   
+	BYTE	W23
+	BYTE		VOL     59*NPCTheme_mvl/mxv
+	BYTE	PRIO    39
+	BYTE		PAN     c_v-16
+	BYTE		VOL     54*NPCTheme_mvl/mxv
+	BYTE	PRIO    31
+	BYTE		PAN     c_v-26
+	BYTE		BEND    c_v-1
+	BYTE		N44     Fs2 
+	BYTE	W36
+	BYTE	W01
+// 006   ----------------------------------------
+	BYTE	W09
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v-21
+	BYTE		N44     Bn2 
+	BYTE	W44
+	BYTE	W01
+	BYTE		N44   
+	BYTE	W42
+// 007   ----------------------------------------
+	BYTE	W04
+	BYTE		N21     As2 
+	BYTE	W22
+	BYTE		VOL     59*NPCTheme_mvl/mxv
+	BYTE	PRIO    39
+	BYTE		PAN     c_v-32
+	BYTE		VOL     61*NPCTheme_mvl/mxv
+	BYTE	PRIO    91
+	BYTE		PAN     c_v-20
+	BYTE		N21   
+	BYTE	W23
+	BYTE		VOL     54*NPCTheme_mvl/mxv
+	BYTE	PRIO    31
+	BYTE		PAN     c_v-7
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v-21
+	BYTE		N44     Fs2 
+	BYTE	W44
+	BYTE	W01
+	BYTE		N21   
+	BYTE	W02
+// 008   ----------------------------------------
+	BYTE	W21
+	BYTE		N21   
+	BYTE	W23
+	BYTE		N44   
+	BYTE	W44
+	BYTE	W01
+	BYTE		N21   
+	BYTE	W07
+// 009   ----------------------------------------
+	BYTE	W16
+	BYTE		VOL     54*NPCTheme_mvl/mxv
+	BYTE	PRIO    31
+	BYTE		PAN     c_v-26
+	BYTE		N21   
+	BYTE	W23
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v-21
+	BYTE		N21     Bn2 
+	BYTE	W22
+	BYTE		VOL     44*NPCTheme_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v-10
+	BYTE		VOL     39*NPCTheme_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v-32
+	BYTE		N21   
+	BYTE	W23
+	BYTE		VOL     44*NPCTheme_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v-37
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v-21
+	BYTE		BEND    c_v-1
+	BYTE		N21     Cs3 
+	BYTE	W12
+// 010   ----------------------------------------
+	BYTE	W11
+	BYTE		N21   
+	BYTE	W23
+	BYTE		BEND    c_v-1
+	BYTE		N21     As2 
+	BYTE	W22
+	BYTE		N21   
+	BYTE	W23
+	BYTE		BEND    c_v-1
+	BYTE		N21     Ds3 
+	BYTE	W17
+// 011   ----------------------------------------
+	BYTE	W06
+	BYTE		VOL     44*NPCTheme_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v-10
+	BYTE		VOL     39*NPCTheme_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v-32
+	BYTE		N21   
+	BYTE	W22
+	BYTE		VOL     44*NPCTheme_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v-37
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v-21
+	BYTE	W01
+	BYTE		BEND    c_v-1
+	BYTE		N21     Gs2 
+	BYTE	W22
+	BYTE		VOL     59*NPCTheme_mvl/mxv
+	BYTE	PRIO    39
+	BYTE		PAN     c_v-32
+	BYTE		VOL     61*NPCTheme_mvl/mxv
+	BYTE	PRIO    91
+	BYTE		PAN     c_v-20
+	BYTE		N21   
+	BYTE	W23
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v+0
+	BYTE		VOL     39*NPCTheme_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v-32
+	BYTE		BEND    c_v-1
+	BYTE		N21     Cs3 
+	BYTE	W22
+// 012   ----------------------------------------
+	BYTE	W01
+	BYTE		N21   
+	BYTE	W22
+	BYTE		VOL     44*NPCTheme_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v-37
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v-21
+	BYTE		BEND    c_v-1
+	BYTE		N21     Fs2 
+	BYTE	W23
+	BYTE		N21   
+	BYTE	W23
+	BYTE		N21   
+	BYTE	W22
+	BYTE		VOL     44*NPCTheme_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v-10
+	BYTE		VOL     39*NPCTheme_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v-32
+	BYTE		N21   
+	BYTE	W05
+// 013   ----------------------------------------
+	BYTE	W18
+	BYTE		VOL     44*NPCTheme_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v-37
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v-21
+	BYTE		N21     Bn2 
+	BYTE	W23
+	BYTE		N21   
+	BYTE	W23
+	BYTE		BEND    c_v-1
+	BYTE		N21     Cs3 
+	BYTE	W22
+	BYTE		VOL     59*NPCTheme_mvl/mxv
+	BYTE	PRIO    39
+	BYTE		PAN     c_v-32
+	BYTE		VOL     61*NPCTheme_mvl/mxv
+	BYTE	PRIO    91
+	BYTE		PAN     c_v-20
+	BYTE		N21   
+	BYTE	W10
+// 014   ----------------------------------------
+	BYTE	W13
+	BYTE		VOL     44*NPCTheme_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v+16
+	BYTE		BEND    c_v-1
+	BYTE		TIE     Dn2 
+	BYTE	W80
+	BYTE	W03
+// 015   ----------------------------------------
+	BYTE	W96
+// 016   ----------------------------------------
+	BYTE	W01
+	BYTE		EOT   
+	BYTE	W02
+	BYTE		VOL     39*NPCTheme_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+32
+	BYTE		VOL     31*NPCTheme_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v+27
+	BYTE		TIE     Cs2 
+	BYTE	W14
+	BYTE		VOL     39*NPCTheme_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+0
+	BYTE	W08
+	BYTE		VOL     44*NPCTheme_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v+16
+	BYTE	W54
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v+21
+	BYTE	W15
+	BYTE		VOL     54*NPCTheme_mvl/mxv
+	BYTE	PRIO    31
+	BYTE		PAN     c_v+11
+	BYTE	W02
+// 017   ----------------------------------------
+	BYTE	W32
+	BYTE		VOL     59*NPCTheme_mvl/mxv
+	BYTE	PRIO    39
+	BYTE		PAN     c_v+16
+	BYTE	W54
+	BYTE	W01
+	BYTE		EOT   
+	BYTE	W02
+	BYTE		VOL     68*NPCTheme_mvl/mxv
+	BYTE	PRIO    115
+	BYTE		PAN     c_v-4
+	BYTE		VOL     61*NPCTheme_mvl/mxv
+	BYTE	PRIO    91
+	BYTE		PAN     c_v-20
+	BYTE		N21     Fs2 
+	BYTE	W01
+	BYTE	GoTo
+	 POIN2	NPCTheme_7_B1
+NPCTheme_7_B2:
+	BYTE	W06
+// 018   ----------------------------------------
+	BYTE	W15
+	BYTE		N21     Fs2   v100
+	BYTE	W23
+	BYTE		BEND    c_v-1
+	BYTE	FINE
+
+//**************** Track 8 (Midi-Chn.8) ****************//
+
+NPCTheme_8:
+	BYTE	KEYSH   NPCTheme_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   57
+	BYTE		MODT    0
+	BYTE		LFOS    44
+	BYTE		BENDR   12
+	BYTE		VOL     59*NPCTheme_mvl/mxv
+	BYTE	PRIO    39
+	BYTE		PAN     c_v+0
+	BYTE	W60
+	BYTE	W02
+	BYTE		VOL     61*NPCTheme_mvl/mxv
+	BYTE	PRIO    91
+	BYTE		PAN     c_v-5
+	BYTE		VOL     65*NPCTheme_mvl/mxv
+	BYTE	PRIO    121
+	BYTE		PAN     c_v+0
+	BYTE	W23
+	BYTE		VOL     59*NPCTheme_mvl/mxv
+	BYTE	PRIO    39
+	BYTE		PAN     c_v+16
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v+0
+	BYTE	W11
+// 001   ----------------------------------------
+	BYTE	W11
+	BYTE		VOL     59*NPCTheme_mvl/mxv
+	BYTE	PRIO    39
+	BYTE		PAN     c_v-16
+	BYTE		VOL     65*NPCTheme_mvl/mxv
+	BYTE	PRIO    121
+	BYTE		PAN     c_v+0
+	BYTE	W23
+	BYTE		VOL     61*NPCTheme_mvl/mxv
+	BYTE	PRIO    91
+	BYTE		PAN     c_v+8
+	BYTE		VOL     59*NPCTheme_mvl/mxv
+	BYTE	PRIO    39
+	BYTE		PAN     c_v+0
+	BYTE	W23
+	BYTE		VOL     65*NPCTheme_mvl/mxv
+	BYTE	PRIO    121
+	BYTE		PAN     c_v-12
+	BYTE		VOL     72*NPCTheme_mvl/mxv
+	BYTE	PRIO    74
+	BYTE		PAN     c_v+0
+	BYTE	W07
+	BYTE		VOL     61*NPCTheme_mvl/mxv
+	BYTE	PRIO    91
+	BYTE		PAN     c_v+23
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v+0
+	BYTE	W14
+NPCTheme_8_B1:
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	W02
+	BYTE		        44*NPCTheme_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v+16
+	BYTE		VOL     39*NPCTheme_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+0
+	BYTE		VOL     39*NPCTheme_mvl/mxv
+	BYTE		BEND    c_v+0
+	BYTE		N13     An3   v100
+	BYTE	W14
+	BYTE		VOL     44*NPCTheme_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v-10
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v+0
+	BYTE		N06   
+	BYTE	W02
+// 002   ----------------------------------------
+	BYTE	W06
+	BYTE		VOL     44*NPCTheme_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v+16
+	BYTE		VOL     39*NPCTheme_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+0
+	BYTE		N06   
+	BYTE	W08
+	BYTE		        Gs3 
+	BYTE	W07
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v-21
+	BYTE		VOL     59*NPCTheme_mvl/mxv
+	BYTE	PRIO    39
+	BYTE		PAN     c_v+0
+	BYTE		N06     Fs3 
+	BYTE	W08
+	BYTE		VOL     54*NPCTheme_mvl/mxv
+	BYTE	PRIO    31
+	BYTE		PAN     c_v+11
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v+0
+	BYTE		N13     Gs3 
+	BYTE	W15
+	BYTE		VOL     54*NPCTheme_mvl/mxv
+	BYTE	PRIO    31
+	BYTE		PAN     c_v-7
+	BYTE		VOL     59*NPCTheme_mvl/mxv
+	BYTE	PRIO    39
+	BYTE		PAN     c_v+0
+	BYTE		N06   
+	BYTE	W08
+	BYTE		VOL     54*NPCTheme_mvl/mxv
+	BYTE	PRIO    31
+	BYTE		PAN     c_v+11
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v+0
+	BYTE		N06   
+	BYTE	W07
+	BYTE		VOL     44*NPCTheme_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v+16
+	BYTE		VOL     39*NPCTheme_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+0
+	BYTE		N06     Fs3 
+	BYTE	W08
+	BYTE		        En3 
+	BYTE	W07
+	BYTE		VOL     44*NPCTheme_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v-10
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v+0
+	BYTE		N06     Ds3 
+	BYTE	W08
+	BYTE		VOL     44*NPCTheme_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v+16
+	BYTE		VOL     39*NPCTheme_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+0
+	BYTE		N06     En3 
+	BYTE	W07
+	BYTE		VOL     44*NPCTheme_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v-10
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v+0
+	BYTE		N56     Fs3 
+	BYTE	W03
+	BYTE		VOL     44*NPCTheme_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v+16
+	BYTE		VOL     39*NPCTheme_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+0
+	BYTE	W04
+// 003   ----------------------------------------
+	BYTE	W01
+	BYTE		VOL     44*NPCTheme_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v-10
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v+0
+	BYTE	W08
+	BYTE		VOL     44*NPCTheme_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v+16
+	BYTE		VOL     39*NPCTheme_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+0
+	BYTE	W04
+	BYTE		VOL     44*NPCTheme_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v-10
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v+0
+	BYTE	W08
+	BYTE		VOL     44*NPCTheme_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v+16
+	BYTE		VOL     39*NPCTheme_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+0
+	BYTE	W04
+	BYTE		VOL     44*NPCTheme_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v-10
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v+0
+	BYTE	W08
+	BYTE		VOL     44*NPCTheme_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v+16
+	BYTE		VOL     39*NPCTheme_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+0
+	BYTE	W04
+	BYTE		VOL     44*NPCTheme_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v-10
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v+0
+	BYTE	W08
+	BYTE		VOL     44*NPCTheme_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v+16
+	BYTE		VOL     39*NPCTheme_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+0
+	BYTE	W04
+	BYTE		VOL     44*NPCTheme_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v-10
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v+0
+	BYTE	W05
+	BYTE		VOL     44*NPCTheme_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v+16
+	BYTE		VOL     39*NPCTheme_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+0
+	BYTE		N06   
+	BYTE	W08
+	BYTE		        Gs3 
+	BYTE	W07
+	BYTE		VOL     44*NPCTheme_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v-10
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v+0
+	BYTE		N13     An3 
+	BYTE	W15
+	BYTE		VOL     44*NPCTheme_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v+16
+	BYTE		VOL     39*NPCTheme_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+0
+	BYTE		N06   
+	BYTE	W08
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v-21
+	BYTE		VOL     59*NPCTheme_mvl/mxv
+	BYTE	PRIO    39
+	BYTE		PAN     c_v+0
+	BYTE		N06   
+	BYTE	W04
+// 004   ----------------------------------------
+	BYTE	W03
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v+21
+	BYTE		VOL     39*NPCTheme_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+0
+	BYTE		N06     Gs3 
+	BYTE	W08
+	BYTE		        Fs3 
+	BYTE	W08
+	BYTE		VOL     44*NPCTheme_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v-10
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v+0
+	BYTE		N14     Gs3 
+	BYTE	W15
+	BYTE		VOL     54*NPCTheme_mvl/mxv
+	BYTE	PRIO    31
+	BYTE		PAN     c_v-7
+	BYTE		VOL     59*NPCTheme_mvl/mxv
+	BYTE	PRIO    39
+	BYTE		PAN     c_v+0
+	BYTE		N06   
+	BYTE	W07
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v+21
+	BYTE		VOL     39*NPCTheme_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+0
+	BYTE		N06   
+	BYTE	W08
+	BYTE		        Fs3 
+	BYTE	W08
+	BYTE		        En3 
+	BYTE	W07
+	BYTE		VOL     44*NPCTheme_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v-10
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v+0
+	BYTE		N06     Ds3 
+	BYTE	W08
+	BYTE		VOL     44*NPCTheme_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v+16
+	BYTE		VOL     39*NPCTheme_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+0
+	BYTE		N06     En3 
+	BYTE	W07
+	BYTE		VOL     44*NPCTheme_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v-10
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v+0
+	BYTE		N56     Fs3 
+	BYTE	W17
+// 005   ----------------------------------------
+	BYTE	W44
+	BYTE		VOL     59*NPCTheme_mvl/mxv
+	BYTE	PRIO    39
+	BYTE		PAN     c_v-16
+	BYTE		VOL     65*NPCTheme_mvl/mxv
+	BYTE	PRIO    121
+	BYTE		PAN     c_v+0
+	BYTE		N06   
+	BYTE	W07
+	BYTE		VOL     54*NPCTheme_mvl/mxv
+	BYTE	PRIO    31
+	BYTE		PAN     c_v+30
+	BYTE		VOL     39*NPCTheme_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+0
+	BYTE		N06     Gs3 
+	BYTE	W08
+	BYTE		N13     An3 
+	BYTE	W15
+	BYTE		VOL     44*NPCTheme_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v-10
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v+0
+	BYTE		N06   
+	BYTE	W08
+	BYTE		VOL     44*NPCTheme_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v+16
+	BYTE		VOL     39*NPCTheme_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+0
+	BYTE		N06   
+	BYTE	W07
+	BYTE		        Bn3 
+	BYTE	W07
+// 006   ----------------------------------------
+	BYTE	W01
+	BYTE		        An3 
+	BYTE	W08
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v-21
+	BYTE		VOL     59*NPCTheme_mvl/mxv
+	BYTE	PRIO    39
+	BYTE		PAN     c_v+0
+	BYTE		N13     Gs3 
+	BYTE	W15
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v+21
+	BYTE		VOL     39*NPCTheme_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+0
+	BYTE		N06   
+	BYTE	W07
+	BYTE		VOL     31*NPCTheme_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v+27
+	BYTE		VOL     24*NPCTheme_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		N06   
+	BYTE	W08
+	BYTE		        An3 
+	BYTE	W07
+	BYTE		        Gs3 
+	BYTE	W08
+	BYTE		VOL     44*NPCTheme_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v-37
+	BYTE		VOL     59*NPCTheme_mvl/mxv
+	BYTE	PRIO    39
+	BYTE		PAN     c_v+0
+	BYTE		N13     Fs3 
+	BYTE	W15
+	BYTE		VOL     54*NPCTheme_mvl/mxv
+	BYTE	PRIO    31
+	BYTE		PAN     c_v+11
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v+0
+	BYTE		N06   
+	BYTE	W07
+	BYTE		N06   
+	BYTE	W08
+	BYTE		VOL     44*NPCTheme_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v+16
+	BYTE		VOL     39*NPCTheme_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+0
+	BYTE		N06     Gs3 
+	BYTE	W08
+	BYTE		        Fs3 
+	BYTE	W04
+// 007   ----------------------------------------
+	BYTE	W03
+	BYTE		VOL     44*NPCTheme_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v-10
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v+0
+	BYTE	W01
+	BYTE		N13     En3 
+	BYTE	W14
+	BYTE		N06   
+	BYTE	W08
+	BYTE		N06   
+	BYTE	W08
+	BYTE		        Fs3 
+	BYTE	W07
+	BYTE		        En3 
+	BYTE	W08
+	BYTE		N21     Ds3 
+	BYTE	W23
+	BYTE		VOL     54*NPCTheme_mvl/mxv
+	BYTE	PRIO    31
+	BYTE		PAN     c_v-7
+	BYTE		VOL     59*NPCTheme_mvl/mxv
+	BYTE	PRIO    39
+	BYTE		PAN     c_v+0
+	BYTE		N06     Bn2 
+	BYTE	W07
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v+21
+	BYTE		VOL     39*NPCTheme_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+0
+	BYTE		N06   
+	BYTE	W08
+	BYTE		N06   
+	BYTE	W07
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v-21
+	BYTE		VOL     59*NPCTheme_mvl/mxv
+	BYTE	PRIO    39
+	BYTE		PAN     c_v+0
+	BYTE		N06     En3 
+	BYTE	W02
+// 008   ----------------------------------------
+	BYTE	W06
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v+21
+	BYTE		VOL     39*NPCTheme_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+0
+	BYTE		N06   
+	BYTE	W07
+	BYTE		N06   
+	BYTE	W08
+	BYTE		VOL     44*NPCTheme_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v-10
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v+0
+	BYTE		N06     An3 
+	BYTE	W08
+	BYTE		VOL     44*NPCTheme_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v+16
+	BYTE		VOL     39*NPCTheme_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+0
+	BYTE		N06   
+	BYTE	W07
+	BYTE		N06   
+	BYTE	W08
+	BYTE		VOL     44*NPCTheme_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v-10
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v+0
+	BYTE		N88     Bn3 
+	BYTE	W01
+	BYTE		VOL     44*NPCTheme_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v+16
+	BYTE		VOL     39*NPCTheme_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+0
+	BYTE	W07
+	BYTE		VOL     44*NPCTheme_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v-10
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v+0
+	BYTE	W09
+	BYTE		VOL     44*NPCTheme_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v+16
+	BYTE		VOL     39*NPCTheme_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+0
+	BYTE	W01
+	BYTE		VOL     44*NPCTheme_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v-10
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v+0
+	BYTE	W06
+	BYTE		VOL     54*NPCTheme_mvl/mxv
+	BYTE	PRIO    31
+	BYTE		PAN     c_v-7
+	BYTE		VOL     59*NPCTheme_mvl/mxv
+	BYTE	PRIO    39
+	BYTE		PAN     c_v+0
+	BYTE		VOL     54*NPCTheme_mvl/mxv
+	BYTE	PRIO    31
+	BYTE		PAN     c_v+11
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v+0
+	BYTE	W11
+	BYTE		VOL     54*NPCTheme_mvl/mxv
+	BYTE	PRIO    31
+	BYTE		PAN     c_v-7
+	BYTE		VOL     59*NPCTheme_mvl/mxv
+	BYTE	PRIO    39
+	BYTE		PAN     c_v+0
+	BYTE	W04
+	BYTE		VOL     54*NPCTheme_mvl/mxv
+	BYTE	PRIO    31
+	BYTE		PAN     c_v+11
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v+0
+	BYTE	W09
+	BYTE		VOL     54*NPCTheme_mvl/mxv
+	BYTE	PRIO    31
+	BYTE		PAN     c_v-7
+	BYTE		VOL     59*NPCTheme_mvl/mxv
+	BYTE	PRIO    39
+	BYTE		PAN     c_v+0
+	BYTE	W04
+// 009   ----------------------------------------
+	BYTE		VOL     54*NPCTheme_mvl/mxv
+	BYTE	PRIO    31
+	BYTE		PAN     c_v+11
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v+0
+	BYTE	W09
+	BYTE		VOL     54*NPCTheme_mvl/mxv
+	BYTE	PRIO    31
+	BYTE		PAN     c_v-7
+	BYTE		VOL     59*NPCTheme_mvl/mxv
+	BYTE	PRIO    39
+	BYTE		PAN     c_v+0
+	BYTE	W03
+	BYTE		VOL     54*NPCTheme_mvl/mxv
+	BYTE	PRIO    31
+	BYTE		PAN     c_v+11
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v+0
+	BYTE	W09
+	BYTE		VOL     54*NPCTheme_mvl/mxv
+	BYTE	PRIO    31
+	BYTE		PAN     c_v-7
+	BYTE		VOL     59*NPCTheme_mvl/mxv
+	BYTE	PRIO    39
+	BYTE		PAN     c_v+0
+	BYTE	W04
+	BYTE		VOL     54*NPCTheme_mvl/mxv
+	BYTE	PRIO    31
+	BYTE		PAN     c_v+11
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v+0
+	BYTE	W09
+	BYTE		VOL     54*NPCTheme_mvl/mxv
+	BYTE	PRIO    31
+	BYTE		PAN     c_v-7
+	BYTE		VOL     59*NPCTheme_mvl/mxv
+	BYTE	PRIO    39
+	BYTE		PAN     c_v+0
+	BYTE	W04
+	BYTE		VOL     54*NPCTheme_mvl/mxv
+	BYTE	PRIO    31
+	BYTE		PAN     c_v+11
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v+0
+	BYTE	W01
+	BYTE		VOL     44*NPCTheme_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v+16
+	BYTE		VOL     39*NPCTheme_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+0
+	BYTE		N32     Gs3 
+	BYTE	W32
+	BYTE	W02
+	BYTE		N10   
+	BYTE	W11
+	BYTE		        As3 
+	BYTE	W11
+	BYTE		VOL     44*NPCTheme_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v-10
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v+0
+	BYTE		N11     Bn3 
+	BYTE	W01
+// 010   ----------------------------------------
+	BYTE	W12
+	BYTE		N09     Cs4 
+	BYTE	W10
+	BYTE		VOL     44*NPCTheme_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v+16
+	BYTE		VOL     39*NPCTheme_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+0
+	BYTE		N10     As3 
+	BYTE	W12
+	BYTE		VOL     44*NPCTheme_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v-10
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v+0
+	BYTE		VOL     44*NPCTheme_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v+16
+	BYTE		VOL     39*NPCTheme_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+0
+	BYTE		N44     Fs3 
+	BYTE	W09
+	BYTE		VOL     44*NPCTheme_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v-10
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v+0
+	BYTE	W04
+	BYTE		VOL     44*NPCTheme_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v+16
+	BYTE		VOL     39*NPCTheme_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+0
+	BYTE	W09
+	BYTE		VOL     44*NPCTheme_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v-10
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v+0
+	BYTE	W04
+	BYTE		VOL     44*NPCTheme_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v+16
+	BYTE		VOL     39*NPCTheme_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+0
+	BYTE	W09
+	BYTE		VOL     44*NPCTheme_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v-10
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v+0
+	BYTE	W04
+	BYTE		VOL     44*NPCTheme_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v+16
+	BYTE		VOL     39*NPCTheme_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+0
+	BYTE	W06
+	BYTE		VOL     44*NPCTheme_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v-10
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v+0
+	BYTE		N44     Bn3 
+	BYTE	W04
+	BYTE		VOL     44*NPCTheme_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v+16
+	BYTE		VOL     39*NPCTheme_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+0
+	BYTE	W01
+	BYTE		VOL     44*NPCTheme_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v-10
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v+0
+	BYTE	W10
+	BYTE		VOL     44*NPCTheme_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v+16
+	BYTE		VOL     39*NPCTheme_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+0
+	BYTE	W01
+	BYTE		VOL     44*NPCTheme_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v-10
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v+0
+	BYTE	W01
+// 011   ----------------------------------------
+	BYTE	W09
+	BYTE		VOL     44*NPCTheme_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v+16
+	BYTE		VOL     39*NPCTheme_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+0
+	BYTE	W01
+	BYTE		VOL     44*NPCTheme_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v-10
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v+0
+	BYTE	W10
+	BYTE		VOL     44*NPCTheme_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v+16
+	BYTE		VOL     39*NPCTheme_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+0
+	BYTE	W01
+	BYTE		VOL     44*NPCTheme_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v-10
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v+0
+	BYTE	W07
+	BYTE		VOL     44*NPCTheme_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v+16
+	BYTE	W01
+	BYTE		VOL     39*NPCTheme_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+0
+	BYTE		N54     En3 
+	BYTE	W56
+	BYTE		N10     Fs3 
+	BYTE	W11
+// 012   ----------------------------------------
+	BYTE	W01
+	BYTE		        En3 
+	BYTE	W11
+	BYTE		        Cs3 
+	BYTE	W11
+	BYTE		N32     Ds3 
+	BYTE	W32
+	BYTE	W02
+	BYTE		N10     En3 
+	BYTE	W12
+	BYTE		N44     Fs3 
+	BYTE	W19
+	BYTE		VOL     44*NPCTheme_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v-10
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v+0
+	BYTE	W08
+// 013   ----------------------------------------
+	BYTE	W18
+	BYTE		VOL     44*NPCTheme_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v+16
+	BYTE		VOL     39*NPCTheme_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+0
+	BYTE		N32     Gs3 
+	BYTE	W32
+	BYTE	W02
+	BYTE		VOL     44*NPCTheme_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v-10
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v+0
+	BYTE		N10   
+	BYTE	W12
+	BYTE		        As3 
+	BYTE	W11
+	BYTE		        Fs3 
+	BYTE	W11
+	BYTE		        As3 
+	BYTE	W10
+// 014   ----------------------------------------
+	BYTE	W02
+	BYTE		        Cs4 
+	BYTE	W11
+	BYTE		VOL     39*NPCTheme_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+32
+	BYTE		VOL     24*NPCTheme_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		TIE     Bn3 
+	BYTE	W12
+	BYTE		VOL     31*NPCTheme_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v-18
+	BYTE		VOL     39*NPCTheme_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+0
+	BYTE	W01
+	BYTE		VOL     31*NPCTheme_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v+27
+	BYTE		VOL     24*NPCTheme_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE		VOL     31*NPCTheme_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v-18
+	BYTE		VOL     39*NPCTheme_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+0
+	BYTE		VOL     31*NPCTheme_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v+27
+	BYTE		VOL     24*NPCTheme_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE	W11
+	BYTE		VOL     31*NPCTheme_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v-18
+	BYTE		VOL     39*NPCTheme_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+0
+	BYTE	W04
+	BYTE		VOL     31*NPCTheme_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v+27
+	BYTE		VOL     24*NPCTheme_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE	W09
+	BYTE		VOL     31*NPCTheme_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v-18
+	BYTE		VOL     39*NPCTheme_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+0
+	BYTE	W06
+	BYTE		VOL     31*NPCTheme_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v+27
+	BYTE		VOL     24*NPCTheme_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE	W06
+	BYTE		VOL     31*NPCTheme_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v-18
+	BYTE		VOL     39*NPCTheme_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+0
+	BYTE	W08
+	BYTE		VOL     31*NPCTheme_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v+27
+	BYTE		VOL     24*NPCTheme_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE	W01
+	BYTE		VOL     31*NPCTheme_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v-18
+	BYTE		VOL     39*NPCTheme_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+0
+	BYTE		VOL     31*NPCTheme_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v+27
+	BYTE		VOL     24*NPCTheme_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE	W04
+	BYTE		VOL     31*NPCTheme_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v-18
+	BYTE		VOL     39*NPCTheme_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+0
+	BYTE	W10
+	BYTE		VOL     31*NPCTheme_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v+27
+	BYTE		VOL     24*NPCTheme_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE	W02
+	BYTE		VOL     31*NPCTheme_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v-18
+	BYTE		VOL     39*NPCTheme_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+0
+	BYTE	W09
+// 015   ----------------------------------------
+	BYTE	W64
+	BYTE		VOL     44*NPCTheme_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v-10
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v+0
+	BYTE	W01
+	BYTE		VOL     44*NPCTheme_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v+16
+	BYTE		VOL     39*NPCTheme_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+0
+	BYTE	W12
+	BYTE		VOL     44*NPCTheme_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v-10
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v+0
+	BYTE	W01
+	BYTE		VOL     44*NPCTheme_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v+16
+	BYTE		VOL     39*NPCTheme_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+0
+	BYTE	W13
+	BYTE		VOL     44*NPCTheme_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v-10
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v+0
+	BYTE	W01
+	BYTE		VOL     44*NPCTheme_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v+16
+	BYTE		VOL     39*NPCTheme_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+0
+	BYTE	W04
+// 016   ----------------------------------------
+	BYTE	W01
+	BYTE		EOT   
+	BYTE	W02
+	BYTE		TIE     As3 
+	BYTE	W05
+	BYTE		VOL     31*NPCTheme_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v+27
+	BYTE		VOL     24*NPCTheme_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE	W02
+	BYTE		VOL     31*NPCTheme_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v-18
+	BYTE		VOL     39*NPCTheme_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+0
+	BYTE	W11
+	BYTE		VOL     31*NPCTheme_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v+27
+	BYTE		VOL     24*NPCTheme_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE	W02
+	BYTE		VOL     31*NPCTheme_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v-18
+	BYTE		VOL     39*NPCTheme_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+0
+	BYTE	W12
+	BYTE		VOL     31*NPCTheme_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v+27
+	BYTE		VOL     24*NPCTheme_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE	W01
+	BYTE		VOL     31*NPCTheme_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v-18
+	BYTE		VOL     39*NPCTheme_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+0
+	BYTE	W12
+	BYTE		VOL     31*NPCTheme_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v+27
+	BYTE		VOL     24*NPCTheme_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE	W02
+	BYTE		VOL     31*NPCTheme_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v-18
+	BYTE		VOL     39*NPCTheme_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+0
+	BYTE	W12
+	BYTE		VOL     31*NPCTheme_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v+27
+	BYTE		VOL     24*NPCTheme_mvl/mxv
+	BYTE	PRIO    33
+	BYTE		PAN     c_v+0
+	BYTE	W01
+	BYTE		VOL     31*NPCTheme_mvl/mxv
+	BYTE	PRIO    109
+	BYTE		PAN     c_v-18
+	BYTE		VOL     39*NPCTheme_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+0
+	BYTE	W30
+	BYTE	W01
+	BYTE		VOL     44*NPCTheme_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v-10
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v+0
+	BYTE	W02
+// 017   ----------------------------------------
+	BYTE	W04
+	BYTE		VOL     44*NPCTheme_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v+16
+	BYTE		VOL     39*NPCTheme_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+0
+	BYTE		VOL     44*NPCTheme_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v-10
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v+0
+	BYTE	W01
+	BYTE		VOL     44*NPCTheme_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v+16
+	BYTE		VOL     39*NPCTheme_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+0
+	BYTE	W03
+	BYTE		VOL     44*NPCTheme_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v-10
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v+0
+	BYTE	W17
+	BYTE		VOL     54*NPCTheme_mvl/mxv
+	BYTE	PRIO    31
+	BYTE		PAN     c_v-7
+	BYTE		VOL     59*NPCTheme_mvl/mxv
+	BYTE	PRIO    39
+	BYTE		PAN     c_v+0
+	BYTE	W05
+	BYTE		VOL     54*NPCTheme_mvl/mxv
+	BYTE	PRIO    31
+	BYTE		PAN     c_v+11
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v+0
+	BYTE	W06
+	BYTE		VOL     54*NPCTheme_mvl/mxv
+	BYTE	PRIO    31
+	BYTE		PAN     c_v-7
+	BYTE		VOL     59*NPCTheme_mvl/mxv
+	BYTE	PRIO    39
+	BYTE		PAN     c_v+0
+	BYTE	W10
+	BYTE		VOL     54*NPCTheme_mvl/mxv
+	BYTE	PRIO    31
+	BYTE		PAN     c_v+11
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v+0
+	BYTE	W02
+	BYTE		VOL     54*NPCTheme_mvl/mxv
+	BYTE	PRIO    31
+	BYTE		PAN     c_v-7
+	BYTE		VOL     59*NPCTheme_mvl/mxv
+	BYTE	PRIO    39
+	BYTE		PAN     c_v+0
+	BYTE	W06
+	BYTE		VOL     61*NPCTheme_mvl/mxv
+	BYTE	PRIO    91
+	BYTE		PAN     c_v-5
+	BYTE		VOL     65*NPCTheme_mvl/mxv
+	BYTE	PRIO    121
+	BYTE		PAN     c_v+0
+	BYTE		VOL     61*NPCTheme_mvl/mxv
+	BYTE	PRIO    91
+	BYTE		PAN     c_v+8
+	BYTE		VOL     59*NPCTheme_mvl/mxv
+	BYTE	PRIO    39
+	BYTE		PAN     c_v+0
+	BYTE	W06
+	BYTE		VOL     54*NPCTheme_mvl/mxv
+	BYTE	PRIO    31
+	BYTE		PAN     c_v+11
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v+0
+	BYTE	W01
+	BYTE		VOL     54*NPCTheme_mvl/mxv
+	BYTE	PRIO    31
+	BYTE		PAN     c_v-7
+	BYTE		VOL     59*NPCTheme_mvl/mxv
+	BYTE	PRIO    39
+	BYTE		PAN     c_v+0
+	BYTE	W06
+	BYTE		VOL     61*NPCTheme_mvl/mxv
+	BYTE	PRIO    91
+	BYTE		PAN     c_v-5
+	BYTE		VOL     65*NPCTheme_mvl/mxv
+	BYTE	PRIO    121
+	BYTE		PAN     c_v+0
+	BYTE	W01
+	BYTE		VOL     61*NPCTheme_mvl/mxv
+	BYTE	PRIO    91
+	BYTE		PAN     c_v+8
+	BYTE		VOL     59*NPCTheme_mvl/mxv
+	BYTE	PRIO    39
+	BYTE		PAN     c_v+0
+	BYTE	W06
+	BYTE		VOL     54*NPCTheme_mvl/mxv
+	BYTE	PRIO    31
+	BYTE		PAN     c_v+11
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v+0
+	BYTE	W01
+	BYTE		VOL     54*NPCTheme_mvl/mxv
+	BYTE	PRIO    31
+	BYTE		PAN     c_v-7
+	BYTE		VOL     59*NPCTheme_mvl/mxv
+	BYTE	PRIO    39
+	BYTE		PAN     c_v+0
+	BYTE	W06
+	BYTE		VOL     61*NPCTheme_mvl/mxv
+	BYTE	PRIO    91
+	BYTE		PAN     c_v-5
+	BYTE		VOL     65*NPCTheme_mvl/mxv
+	BYTE	PRIO    121
+	BYTE		PAN     c_v+0
+	BYTE		VOL     61*NPCTheme_mvl/mxv
+	BYTE	PRIO    91
+	BYTE		PAN     c_v+8
+	BYTE		VOL     59*NPCTheme_mvl/mxv
+	BYTE	PRIO    39
+	BYTE		PAN     c_v+0
+	BYTE	W06
+	BYTE		EOT   
+	BYTE		VOL     54*NPCTheme_mvl/mxv
+	BYTE	PRIO    31
+	BYTE		PAN     c_v+11
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v+0
+	BYTE	W01
+	BYTE		VOL     54*NPCTheme_mvl/mxv
+	BYTE	PRIO    31
+	BYTE		PAN     c_v-7
+	BYTE		VOL     59*NPCTheme_mvl/mxv
+	BYTE	PRIO    39
+	BYTE		PAN     c_v+0
+	BYTE	W01
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v+21
+	BYTE		VOL     39*NPCTheme_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+0
+	BYTE		N13     An3 
+	BYTE	W01
+	BYTE	GoTo
+	 POIN2	NPCTheme_8_B1
+NPCTheme_8_B2:
+	BYTE	W06
+// 018   ----------------------------------------
+	BYTE	W08
+	BYTE		VOL     44*NPCTheme_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v-10
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v+0
+	BYTE		N06     An3   v100
+	BYTE	W07
+	BYTE		VOL     44*NPCTheme_mvl/mxv
+	BYTE	PRIO    84
+	BYTE		PAN     c_v+16
+	BYTE		VOL     39*NPCTheme_mvl/mxv
+	BYTE	PRIO    32
+	BYTE		PAN     c_v+0
+	BYTE		N06   
+	BYTE	W08
+	BYTE		        Gs3 
+	BYTE	W07
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v-21
+	BYTE		VOL     59*NPCTheme_mvl/mxv
+	BYTE	PRIO    39
+	BYTE		PAN     c_v+0
+	BYTE		N06     Fs3 
+	BYTE	W08
+	BYTE		VOL     54*NPCTheme_mvl/mxv
+	BYTE	PRIO    31
+	BYTE		PAN     c_v+11
+	BYTE		VOL     50*NPCTheme_mvl/mxv
+	BYTE	PRIO    17
+	BYTE		PAN     c_v+0
+	BYTE	FINE
+
+//**************** Track 9 (Midi-Chn.10) ****************//
+
+NPCTheme_9:
+	BYTE		VOL     127*NPCTheme_mvl/mxv
+	BYTE	KEYSH   NPCTheme_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   127
+	BYTE		MODT    0
+	BYTE		LFOS    44
+	BYTE	W17
+	BYTE		N22     Dn1   v044
+	BYTE	W22
+	BYTE		N22   
+	BYTE	W23
+	BYTE		N22   
+	BYTE	W23
+	BYTE		N22   
+	BYTE	W11
+// 001   ----------------------------------------
+	BYTE	W11
+	BYTE		N22   
+	BYTE	W23
+	BYTE		N22   
+	BYTE	W23
+	BYTE		N07   
+	BYTE	W07
+	BYTE		N07   
+	BYTE	W08
+	BYTE		N07   
+	BYTE	W06
+NPCTheme_9_B1:
+	BYTE	W02
+	BYTE		N22     Dn1   v044
+	BYTE	W16
+// 002   ----------------------------------------
+	BYTE	W06
+	BYTE		N22   
+	BYTE	W23
+	BYTE		N22   
+	BYTE	W23
+	BYTE		N22   
+	BYTE	W22
+	BYTE		N22   
+	BYTE	W22
+// 003   ----------------------------------------
+	BYTE	W01
+	BYTE		N22   
+	BYTE	W23
+	BYTE		N22   
+	BYTE	W23
+	BYTE		N07   
+	BYTE	W07
+	BYTE		N07   
+	BYTE	W08
+	BYTE		N07   
+	BYTE	W07
+	BYTE		N22   
+	BYTE	W23
+	BYTE		N22   
+	BYTE	W04
+// 004   ----------------------------------------
+	BYTE	W19
+	BYTE		N22   
+	BYTE	W22
+	BYTE		N22   
+	BYTE	W23
+	BYTE		N22   
+	BYTE	W23
+	BYTE		N22   
+	BYTE	W09
+// 005   ----------------------------------------
+	BYTE	W14
+	BYTE		N22   
+	BYTE	W22
+	BYTE		N07   
+	BYTE	W08
+	BYTE		N07   
+	BYTE	W07
+	BYTE		N07   
+	BYTE	W08
+	BYTE		N14   
+	BYTE	W15
+	BYTE		N08   
+	BYTE	W09
+	BYTE		N07   
+	BYTE	W07
+	BYTE		N07   
+	BYTE	W06
+// 006   ----------------------------------------
+	BYTE	W02
+	BYTE		N07   
+	BYTE	W07
+	BYTE		N14   
+	BYTE		N44     Fn1 
+	BYTE	W15
+	BYTE		N08     Dn1 
+	BYTE	W08
+	BYTE		N07   
+	BYTE	W08
+	BYTE		N07   
+	BYTE	W07
+	BYTE		N06   
+	BYTE	W07
+	BYTE		N15   
+	BYTE		N44     Fn1 
+	BYTE	W15
+	BYTE		N08     Dn1 
+	BYTE	W08
+	BYTE		N07   
+	BYTE	W08
+	BYTE		N07   
+	BYTE	W08
+	BYTE		N06   
+	BYTE	W03
+// 007   ----------------------------------------
+	BYTE	W04
+	BYTE		N14   
+	BYTE		N22     Fn1 
+	BYTE	W14
+	BYTE		N08     Dn1 
+	BYTE	W09
+	BYTE		N07   
+	BYTE	W08
+	BYTE		N07   
+	BYTE	W07
+	BYTE		N06   
+	BYTE	W07
+	BYTE		N22   
+	BYTE	W23
+	BYTE		N07   
+	BYTE	W07
+	BYTE		N07   
+	BYTE	W08
+	BYTE		N07   
+	BYTE	W07
+	BYTE		N07   
+	BYTE	W02
+// 008   ----------------------------------------
+	BYTE	W06
+	BYTE		N07   
+	BYTE	W07
+	BYTE		N07   
+	BYTE	W08
+	BYTE		N07   
+	BYTE	W08
+	BYTE		N07   
+	BYTE	W07
+	BYTE		N07   
+	BYTE	W08
+	BYTE		N22   
+	BYTE	W23
+	BYTE		N08   
+	BYTE	W08
+	BYTE		N07   
+	BYTE	W08
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N22   
+	BYTE	W07
+// 009   ----------------------------------------
+	BYTE	W16
+	BYTE		N22   
+	BYTE	W23
+	BYTE		N22   
+	BYTE	W22
+	BYTE		N22   
+	BYTE	W23
+	BYTE		N22   
+	BYTE	W12
+// 010   ----------------------------------------
+	BYTE	W11
+	BYTE		N11   
+	BYTE	W11
+	BYTE		N11   
+	BYTE	W12
+	BYTE		N22   
+	BYTE	W22
+	BYTE		N22   
+	BYTE	W23
+	BYTE		N22   
+	BYTE	W17
+// 011   ----------------------------------------
+	BYTE	W06
+	BYTE		N11   
+	BYTE	W11
+	BYTE		N11   
+	BYTE	W12
+	BYTE		N22   
+	BYTE	W22
+	BYTE		N22   
+	BYTE	W23
+	BYTE		N22   
+	BYTE	W22
+// 012   ----------------------------------------
+	BYTE	W01
+	BYTE		N11   
+	BYTE	W11
+	BYTE		N11   
+	BYTE	W11
+	BYTE		N22   
+	BYTE	W23
+	BYTE		N22   
+	BYTE	W23
+	BYTE		N22   
+	BYTE	W22
+	BYTE		N11   
+	BYTE	W05
+// 013   ----------------------------------------
+	BYTE	W07
+	BYTE		N11   
+	BYTE	W11
+	BYTE		N22   
+	BYTE	W23
+	BYTE		N22   
+	BYTE	W23
+	BYTE		N22   
+	BYTE	W22
+	BYTE		N11   
+	BYTE	W10
+// 014   ----------------------------------------
+	BYTE	W02
+	BYTE		N11   
+	BYTE	W11
+	BYTE		N22   
+	BYTE	W23
+	BYTE		N07   
+	BYTE	W08
+	BYTE		N07   
+	BYTE	W07
+	BYTE		N07   
+	BYTE	W08
+	BYTE		N22   
+	BYTE	W22
+	BYTE		N07   
+	BYTE	W08
+	BYTE		N07   
+	BYTE	W07
+// 015   ----------------------------------------
+	BYTE		N07   
+	BYTE	W08
+	BYTE		N22   
+	BYTE	W23
+	BYTE		N07   
+	BYTE	W07
+	BYTE		N07   
+	BYTE	W08
+	BYTE		N07   
+	BYTE	W07
+	BYTE		N15   
+	BYTE	W16
+	BYTE		N15   
+	BYTE	W15
+	BYTE		N07   
+	BYTE	W07
+	BYTE		N07   
+	BYTE	W05
+// 016   ----------------------------------------
+	BYTE	W03
+	BYTE		N22   
+	BYTE	W23
+	BYTE		N07   
+	BYTE	W07
+	BYTE		N07   
+	BYTE	W08
+	BYTE		N07   
+	BYTE	W07
+	BYTE		N15   
+	BYTE	W16
+	BYTE		N15   
+	BYTE	W15
+	BYTE		N07   
+	BYTE	W07
+	BYTE		N07   
+	BYTE	W08
+	BYTE		N22   
+	BYTE	W02
+// 017   ----------------------------------------
+	BYTE	W21
+	BYTE		N07   
+	BYTE	W07
+	BYTE		N07   
+	BYTE	W08
+	BYTE		N07   
+	BYTE	W07
+	BYTE		N22   
+	BYTE	W23
+	BYTE		N22   
+	BYTE	W23
+	BYTE		N22   
+	BYTE	W01
+	BYTE	GoTo
+	 POIN2	NPCTheme_9_B1
+NPCTheme_9_B2:
+	BYTE	W06
+// 018   ----------------------------------------
+	BYTE	W15
+	BYTE		N22     Dn1   v044
+	BYTE	W23
+	BYTE	FINE
+
+//******************************************************//
+	ALIGN 4
+
+NPCTheme:
+	BYTE	9	// NumTrks
+	BYTE	0	// NumBlks
+	BYTE	NPCTheme_pri	// Priority
+	BYTE	NPCTheme_rev	// Reverb.
+
+	POIN2	NPCTheme_grp
+
+	POIN2	NPCTheme_1
+	POIN2	NPCTheme_2
+	POIN2	NPCTheme_3
+	POIN2	NPCTheme_4
+	POIN2	NPCTheme_5
+	POIN2	NPCTheme_6
+	POIN2	NPCTheme_7
+	POIN2	NPCTheme_8
+	POIN2	NPCTheme_9
+
+	

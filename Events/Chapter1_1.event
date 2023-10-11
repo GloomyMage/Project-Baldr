@@ -1,0 +1,469 @@
+
+EventPointerTable(0x0D,ThisChapter)
+
+ThisChapter:
+
+POIN TurnBasedEvents
+
+POIN CharacterBasedEvents
+
+POIN LocationBasedEvents
+
+POIN MiscBasedEvents
+
+POIN Dunno Dunno Dunno
+
+POIN Tutorial
+
+POIN TrapData TrapData
+
+POIN C1_1Units C1_1Units
+
+POIN $0 $0 $0 $0 $0 $0
+
+POIN BeginningScene EndingScene
+
+Dunno:
+WORD $00
+
+Tutorial:
+WORD $00
+
+TrapData:
+ENDTRAP
+
+ALIGN 4
+TurnBasedEvents:
+TurnEventPlayer(0x0,DewCometh,2)
+TurnEventPlayer(0x1B,LateforEldie,25)
+END_MAIN
+
+ALIGN 4
+LocationBasedEvents:
+Seize(1,38)
+Seize(0x13,ShananSaved,34,29)
+FE4Village(0xC,VillageOne,24,18)
+FE4Village(0xD,VillageTwo,12,40)
+END_MAIN
+
+ALIGN 32
+CharacterBasedEvents:
+CharacterEvent(0x8,ReadyourBooks,Quan,Finn)
+CharacterEvent(0x12,MidirandEdain,Midir,Edain)
+CharacterEvent(0x12,AzelandEdain,Azel,Edain)
+CharacterEventBothWays(0x11,SorrySiglud,Edain,Sigurd)
+CharacterEventBothWays(0xB,ReturnStaff,Edain,Ethlyn)
+CharacterEventBothWays(0x1D,TheGuys,Alec,Arden)
+CharacterEventBothWays(0x7,WeLikeSigurd,Quan,Ayra,0x9)
+CharacterEvent(0x9,AyraJoineth,Sigurd,Ayra,0x13)
+END_MAIN
+
+MiscBasedEvents:
+AreaEvent(0x1A,AyraAttack,28,25,35,32)
+AFEV 0xC VillageBranchOne 0x14
+AFEV 0xD VillageBranchTwo 0x15
+CauseGameOverIfLordDies
+END_MAIN
+
+BeginningScene:
+MUSC 0x4
+Narration(0x8,Ch1_Narration)
+CLEAN
+LOMA 0x3
+CAM1 [10,9]
+LOAD1 0x1 SoldierGuy1
+ENUN
+FADU 16
+Location(Name_Nordion)
+EVBIT_T 9
+LOAD1 0x1 Eltoshan
+ENUN
+Text(FineJob)
+EVBIT_F 9
+MOVE 120 CrossKnight [25,15]
+ENUN
+EVBIT_T 9
+MOVE 120 Eldigan [42,17]
+ENUN
+EVBIT_F 9
+CLEN 0x0
+Location(Name_Evans)
+FADI 16
+LOMA 0x1
+CAM1 [7,14]
+CHECK_ALIVE Quan
+BEQ 0x1 0xC 0x0
+FADU 16
+LOAD1 0x0 SigurdQuan
+ENUN
+Text(EldiganEvansQuan)
+GOTO 0x2
+LABEL 0x1
+FADU 16
+LOAD1 0x0 SiggyAlone
+ENUN
+Text(EldiganEvans)
+LABEL 0x2
+FADI 16
+CLEN 0x0
+CLEA 0x0
+LOMA 0x2
+CAM1 [23,0]
+FADU 16
+LOAD1 0x1 EldiganBye
+ENUN
+SilentKillUnit(Eldigan)
+CAM1 [34,29]
+MUSC 0x27
+Location(Name_Genoa)
+CleanText(0x10,CimbaethBlackmail)
+LOAD1 0x1 AyraUnits
+ENUN
+Text(CimbaethRally)
+LOAD1 0x1 GenoaUnits
+ENUN
+GotoPrepScreen
+EndEvent
+
+EndingScene:
+CHECK_ALIVE Edain
+BEQ 0x1 0xC 0x0
+MUSC 0x2B
+CleanText(0x2C,SeizingMarpha)
+GOTO 0x2
+LABEL 0x1
+Text(SigurdKindaSucks)
+CleanText(0x2C,DeirdreScreameth)
+Text(SigurdNoticeth)
+MUSC 0x2B
+CleanText(0x2C,SigurdSaveLady)
+LABEL 0x2
+LOAD1 0x1 DeirdreShy
+ENUN
+SilentKillUnit(Deirdre)
+CleanText(0x2C,SigurdInLove)
+CHECK_EVENTID 0x1B
+BEQ 0x30 0xc 0x0
+MNC2 0x4
+GOTO 0x31
+LABEL 0x30
+MNC2 0x3
+LABEL 0x31
+EndEvent
+
+LateforEldie:
+Text(SigurdSlow)
+EndEvent
+
+TheGuys:
+CheckInventory(Arden,ArdenSword)
+BEQ 0x9000 sC s0
+Text(ArdenAlecTalkSword)
+GOTO 0x9001
+LABEL 0x9000
+Text(ArdenAlecTalk)
+LABEL 0x9001
+EndEvent
+
+ReturnStaff:
+Text(EthlynEdainTalk)
+GiveItem(Rescue,Ethlyn)
+EndEvent
+
+SorrySiglud:
+MUSS 0x30
+Text(SigurdEdainTalk)
+MURE 60
+EndEvent
+
+MidirandEdain:
+Text(MidirEdainTalk)
+EndEvent
+
+AzelandEdain:
+Text(AzelleEdainTalk)
+EndEvent
+
+ShananSaved:
+SFXKillUnit(Verdane1)
+SFXKillUnit(Verdane1)
+SFXKillUnit(Verdane1)
+SFXKillUnit(Verdane1)
+SFXKillUnit(Verdane1)
+SFXKillUnit(Verdane1)
+SFXKillUnit(Verdane1)
+SFXKillUnit(Verdane1)
+SFXKillUnit(Verdane1)
+SFXKillUnit(Verdane1)
+SFXKillUnit(Verdane1)
+SFXKillUnit(Verdane1)
+SFXKillUnit(Verdane1)
+SFXKillUnit(Verdane1)
+SFXKillUnit(Verdane1)
+SFXKillUnit(Verdane1)
+CHECK_ALIVE Ayra
+BEQ 0x1 0xC 0x0
+MUSC 0x31
+CleanText(0x26,SeizingGenoa)
+GOTO 0x2
+LABEL 0x1
+//ayra dies
+CleanText(0x26,SeizingGenoa)
+LABEL 0x2
+EndEvent
+
+AyraJoineth:
+MUSS 0x30
+Text(RecruitingAyra)
+TurnAlly(Ayra)
+MURE 60
+EndEvent
+
+ReadyourBooks:
+MUSS 0xC0
+Text(QuanFinnTalk)
+AddUnitStatus(Finn,Strength,1)
+AddUnitStatus(Finn,Skill,1)
+AddUnitStatus(Finn,Defence,1)
+MURE 60
+EndEvent
+
+WeLikeSigurd:
+Text(QuanAyraTalk)
+EndEvent
+
+AyraAttack:
+CHECK_ALLEGIANCE 0xFFFF
+BNE 0x1 0xC 0x0
+CAM1 [34,31]
+Text(AyraWoe)
+SetAI(Ayra,0x0,0x0,0x0,0x0)
+GOTO 0x2
+LABEL 0x1
+ENUF 0x1A
+LABEL 0x2
+EndEvent
+
+DewCometh:
+CAM1 [1,38]
+MUSC 0x25
+Location(Name_Marpha)
+EVBIT_T 9
+LOAD1 0x1 AideenCometh
+ENUN
+EVBIT_F 9
+Text(JamkeFreeingPrisoners)
+MOVE 120 Edain [12,37]
+MOVE 120 Dew [11,37]
+ENUN
+EVBIT_T 9
+MOVE 120 Jamke [3,39]
+ENUN
+Text(JamkeAlone)
+EVBIT_F 9
+MOVE 120 Jamke [0,41]
+ENUN
+SilentKillUnit(Jamke)
+CleanText(0x26,MunnirMad)
+LOAD1 0x1 MunnirGentlemen
+EndEvent
+
+
+VillageOne:
+NewVillageEventMoney(C1_1VillageOne, 0x2, 0x1388, 0x1)
+
+VillageTwo:
+NewVillageEventMoney(C1_1VillageTwo, 0x2, 0x1388, 0x9)
+
+VillageBranchOne:
+//Use a counter to keep track of how many times the village was attacked
+COUNTER_CHECK VillageCounterOne
+SVAL s1 0x0
+BNE 0x9000 sC s1
+  //First time village is being attacked
+  TILECHANGE 0x2
+  GOTO 0x9006
+LABEL 0x9000
+SVAL s1 0x1
+BNE 0x9001 sC s1
+  //Second time village is being attacked
+  TILECHANGE 0x3
+  GOTO 0x9006
+LABEL 0x9001
+SVAL s1 0x2
+BNE 0x9002 sC s1
+  //Third time village is attacked
+  TILECHANGE 0x4
+  GOTO 0x9006
+LABEL 0x9002
+SVAL s1 0x3
+BNE 0x9003 sC s1
+  //Fourth Time village is attacked
+  TILECHANGE 0x5
+  GOTO 0x9006
+LABEL 0x9003
+SVAL s1 0x4
+BNE 0x9004 sC s1
+  //Fifth Time village is attacked
+  TILECHANGE 0x6
+  GOTO 0x9006
+LABEL 0x9004
+SVAL s1 0x5
+BNE 0x9005 sC s1
+  //Final time village is attacked
+  TILECHANGE 0x7
+  GOTO 0x9007
+LABEL 0x9006
+//Add 1 to times village has been attacked
+COUNTER_INC VillageCounterOne
+ENUF 0xC
+ENUF 0x14
+TILEREVERSE 0x0
+LABEL 0x9007
+EndEvent
+
+VillageBranchTwo:
+//Use a counter to keep track of how many times the village was attacked
+COUNTER_CHECK VillageCounterTwo
+SVAL s1 0x0
+BNE 0x9000 sC s1
+  //First time village is being attacked
+  TILECHANGE 0xA
+  GOTO 0x9006
+LABEL 0x9000
+SVAL s1 0x1
+BNE 0x9001 sC s1
+  //Second time village is being attacked
+  TILECHANGE 0xB
+  GOTO 0x9006
+LABEL 0x9001
+SVAL s1 0x2
+BNE 0x9002 sC s1
+  //Third time village is attacked
+  TILECHANGE 0xC
+  GOTO 0x9006
+LABEL 0x9002
+SVAL s1 0x3
+BNE 0x9003 sC s1
+  //Fourth Time village is attacked
+  TILECHANGE 0xD
+  GOTO 0x9006
+LABEL 0x9003
+SVAL s1 0x4
+BNE 0x9004 sC s1
+  //Fifth Time village is attacked
+  TILECHANGE 0xE
+  GOTO 0x9006
+LABEL 0x9004
+SVAL s1 0x5
+BNE 0x9005 sC s1
+  //Final time village is attacked
+  TILECHANGE 0xF
+  GOTO 0x9007
+LABEL 0x9006
+//Add 1 to times village has been attacked
+COUNTER_INC VillageCounterTwo
+ENUF 0xD
+ENUF 0x15
+TILEREVERSE 0x8
+LABEL 0x9007
+EndEvent
+
+ALIGN 4
+
+C1_1Units:
+UNIT Sigurd KnightLord Sigurd Level(1,Ally,0) [23,0] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT Quan DukeKnt Sigurd Level(1,Ally,0) [22,1] 0x0 0x0 0x0 0x1 [IronLance] NoAI
+UNIT Quan DukeKnt Sigurd Level(1,Ally,0) [24,1] 0x0 0x0 0x0 0x1 [IronLance] NoAI
+UNIT Quan DukeKnt Sigurd Level(1,Ally,0) [23,2] 0x0 0x0 0x0 0x1 [IronLance] NoAI
+UNIT Quan DukeKnt Sigurd Level(1,Ally,0) [21,0] 0x0 0x0 0x0 0x1 [IronLance] NoAI
+UNIT Quan DukeKnt Sigurd Level(1,Ally,0) [25,0] 0x0 0x0 0x0 0x1 [IronLance] NoAI
+UNIT Quan DukeKnt Sigurd Level(1,Ally,0) [20,1] 0x0 0x0 0x0 0x1 [IronLance] NoAI
+UNIT Quan DukeKnt Sigurd Level(1,Ally,0) [21,2] 0x0 0x0 0x0 0x1 [IronLance] NoAI
+UNIT Quan DukeKnt Sigurd Level(1,Ally,0) [25,2] 0x0 0x0 0x0 0x1 [IronLance] NoAI
+UNIT Quan DukeKnt Sigurd Level(1,Ally,0) [26,1] 0x0 0x0 0x0 0x1 [IronLance] NoAI
+UNIT //Tells the game that the unit list has ended
+
+AyraUnits:
+UNIT Commander AxeCav Kinbois Level(10,Enemy,1) [34,29] 0x0 0x0 0x0 0x1 [HandAxe] NeverMoveAI
+UNIT Verdane1 Fighter Kinbois Level(1,Enemy,1) [34,29] 0x0 0x0 0x1 REDA34R32 [IronAxe, HandAxe] AttackInRangeAI
+UNIT Verdane1 Fighter Kinbois Level(1,Enemy,1) [34,29] 0x0 0x0 0x1 REDA33R30 [IronAxe, HandAxe] AttackInRangeAI
+UNIT Verdane1 Fighter Kinbois Level(1,Enemy,1) [34,29] 0x0 0x0 0x1 REDA35R30 [IronAxe, HandAxe] AttackInRangeAI
+UNIT Ruffian Brigand Henson Level(1,Enemy,1) [26,12] 0x0 0x0 0x0 0x1 [IronAxe] BrigandAI
+UNIT Ruffian Brigand Henson Level(1,Enemy,1) [0,32] 0x0 0x0 0x0 0x1 [IronAxe] BrigandAI
+UNIT Ayra MyrmF Kinbois Level(4,Enemy,0) [34,29] 0x0 0x0 0x1 REDA34R31 [IronBlade] AttackInRangeAI
+UNIT
+
+GenoaUnits:
+UNIT Verdane1 Barbarian Kinbois Level(1,Enemy,1) [34,29] 0x0 0x0 0x1 REDA29R23 [IronAxe] NoAI
+UNIT Verdane1 Barbarian Kinbois Level(1,Enemy,1) [34,29] 0x0 0x0 0x1 REDA30R23 [IronAxe] NoAI
+UNIT Verdane1 Barbarian Kinbois Level(1,Enemy,1) [34,29] 0x0 0x0 0x1 REDA31R23 [IronAxe] NoAI
+UNIT Verdane1 Barbarian Kinbois Level(1,Enemy,1) [34,29] 0x0 0x0 0x1 REDA32R23 [IronAxe] NoAI
+UNIT Verdane1 Barbarian Kinbois Level(1,Enemy,1) [34,29] 0x0 0x0 0x1 REDA33R23 [IronAxe] NoAI
+UNIT Verdane1 Hunter Kinbois Level(1,Enemy,1) [34,29] 0x0 0x0 0x1 REDA29R24 [IronBow] NoAI
+UNIT Verdane1 Hunter Kinbois Level(1,Enemy,1) [34,29] 0x0 0x0 0x1 REDA30R24 [IronBow] NoAI
+UNIT Verdane1 Hunter Kinbois Level(1,Enemy,1) [34,29] 0x0 0x0 0x1 REDA32R24 [IronBow] NoAI
+UNIT Verdane1 Hunter Kinbois Level(1,Enemy,1) [34,29] 0x0 0x0 0x1 REDA33R24 [IronBow] NoAI
+UNIT Verdane1 Fighter Kinbois Level(1,Enemy,1) [34,29] 0x0 0x0 0x1 REDA31R24 [IronAxe, HandAxe] NoAI
+UNIT Verdane1 Fighter Kinbois Level(1,Enemy,1) [34,29] 0x0 0x0 0x1 REDA30R25 [IronAxe, HandAxe] NoAI
+UNIT Verdane1 Fighter Kinbois Level(1,Enemy,1) [34,29] 0x0 0x0 0x1 REDA32R25 [IronAxe, HandAxe] NoAI
+UNIT Kinbois Warrior Munnir Level(10,Enemy,0) [34,29] DropItem 0x0 0x1 REDA31R25 [SilverAxe, HandAxe] NoAI
+UNIT
+
+SoldierGuy1:
+UNIT CrossKnight Soldier Eldigan Level(20,NPC,1) [25,14] 0x0 0x0 0x0 0x1 [Javelin] NoAI
+UNIT
+
+Eltoshan:
+UNIT Eldigan PalM Chagall Level(20,NPC,0) [10,9] 0x0 0x0 0x1 REDA24R14 [Mystletainn, SteelLance] NoAI
+UNIT
+
+EldiganBye:
+UNIT Eldigan PalM Chagall Level(20,NPC,0) [23,0] 0x0 0x0 0x1 REDA12R0 [Mystletainn, SteelLance] NoAI
+UNIT
+
+SiggyAlone:
+UNIT Sigurd KnightLord Sigurd Level(1,Ally,0) [7,13] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT Eldigan PalM Chagall Level(20,NPC,0) [7,18] 0x0 0x0 0x1 REDA7R14 [Mystletainn, SteelLance] NoAI
+UNIT
+
+SigurdQuan:
+UNIT Sigurd KnightLord Sigurd Level(1,Ally,0) [6,13] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT Quan DukeKnt Sigurd Level(1,Ally,0) [8,13] 0x0 0x0 0x0 0x1 [IronLance] NoAI
+UNIT Eldigan PalM Chagall Level(20,NPC,0) [7,18] 0x0 0x0 0x1 REDA7R14 [Mystletainn, SteelLance] NoAI
+UNIT
+
+AideenCometh:
+UNIT Dew Thief Sigurd Level(1,Ally,0) [1,38] 0x0 0x0 0x1 REDA8R38 [IronSword] NoAI
+UNIT Edain Cleric Sigurd Level(3,Ally,0) [1,38] 0x0 0x0 0x1 REDA9R38 [Mend] NoAI
+UNIT Jamke Hunter Sandima Level(6,Enemy,0) [1,38] 0x0 0x0 0x1 REDA9R37 [GlidedBow] NoAI
+UNIT
+
+DeirdreShy:
+UNIT Deirdre Shaman Sigurd Level(3,NPC,0) [1,38] 0x0 0x0 0x1 REDA0R34 [Silence, Aura, Circlet] NoAI
+UNIT
+
+MunnirGentlemen:
+UNIT Verdane2 Barbarian Munnir Level(5,Enemy,1) [1,38] 0x0 0x0 0x1 REDA6R37 [IronAxe] NoAI
+UNIT Verdane2 Barbarian Munnir Level(5,Enemy,1) [1,38] 0x0 0x0 0x1 REDA5R35 [IronAxe] NoAI
+UNIT Verdane2 Barbarian Munnir Level(5,Enemy,1) [1,38] 0x0 0x0 0x1 REDA6R35 [IronAxe] NoAI
+UNIT Verdane2 Barbarian Munnir Level(5,Enemy,1) [1,38] 0x0 0x0 0x1 REDA5R36 [IronAxe] NoAI
+UNIT Verdane2 Barbarian Munnir Level(5,Enemy,1) [1,38] 0x0 0x0 0x1 REDA6R36 [IronAxe] NoAI
+UNIT Verdane2 Barbarian Munnir Level(5,Enemy,1) [1,38] 0x0 0x0 0x1 REDA5R38 [IronAxe] NoAI
+UNIT Verdane2 Barbarian Munnir Level(5,Enemy,1) [1,38] 0x0 0x0 0x1 REDA6R38 [IronAxe] NoAI
+UNIT Verdane2 Barbarian Munnir Level(5,Enemy,1) [1,38] 0x0 0x0 0x1 REDA5R39 [IronAxe] NoAI
+UNIT Verdane2 Barbarian Munnir Level(5,Enemy,1) [1,38] 0x0 0x0 0x1 REDA6R39 [IronAxe] NoAI
+UNIT Commander Fighter Munnir Level(10,Enemy,1) [1,38] 0x0 0x0 0x1 REDA5R37 [SteelAxe] NoAI
+UNIT Verdane2 Barbarian Munnir Level(5,Enemy,1) [1,38] 0x0 0x0 0x1 REDA0R40 [IronAxe] AttackInRangeAI
+UNIT Verdane2 Barbarian Munnir Level(5,Enemy,1) [1,38] 0x0 0x0 0x1 REDA1R41 [IronAxe] AttackInRangeAI
+UNIT Verdane2 Barbarian Munnir Level(5,Enemy,1) [1,38] 0x0 0x0 0x1 REDA2R40 [IronAxe] AttackInRangeAI
+UNIT Verdane2 Barbarian Munnir Level(5,Enemy,1) [1,38] 0x0 0x0 0x1 REDA0R40 [IronAxe] AttackInRangeAI
+UNIT Verdane2 Barbarian Munnir Level(5,Enemy,1) [1,38] 0x0 0x0 0x1 REDA3R39 [IronAxe] AttackInRangeAI
+UNIT Verdane2 Barbarian Munnir Level(5,Enemy,1) [1,38] 0x0 0x0 0x1 REDA3R40 [IronAxe] AttackInRangeAI
+UNIT Verdane2 Barbarian Munnir Level(5,Enemy,1) [1,38] 0x0 0x0 0x1 REDA3R34 [IronAxe] AttackInRangeAI
+UNIT Verdane2 Barbarian Munnir Level(5,Enemy,1) [1,38] 0x0 0x0 0x1 REDA3R35 [IronAxe] AttackInRangeAI
+UNIT Verdane2 Hunter Munnir Level(5,Enemy,1) [1,38] 0x0 0x0 0x1 REDA0R39 [IronBow] AttackInRangeAI
+UNIT Verdane2 Hunter Munnir Level(5,Enemy,1) [1,38] 0x0 0x0 0x1 REDA1R40 [IronBow] AttackInRangeAI
+UNIT Verdane2 Hunter Munnir Level(5,Enemy,1) [1,38] 0x0 0x0 0x1 REDA2R39 [IronBow] AttackInRangeAI
+UNIT Munnir Warrior Sandima Level(20,Enemy,1) [1,38] DropItem 0x0 0x0 0x1 [HandAxe, SklRing] NeverMoveAI
+UNIT

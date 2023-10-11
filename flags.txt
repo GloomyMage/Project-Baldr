@@ -1,10 +1,16 @@
 Flags
+//Global
+9D:Holyn is Recruited 
+78:Gen 2 Starts
+79:1x happened
+//Prologue
 01:Dimaggio Battle
 3:Seize
+7:SigurdLex
 8:AlecEthlyn
 9:ArvisSpawn
 A:Evans Spawning
-B:Cliff Brigands
+B:somethingig
 C:Village1
 D:Village2
 E:Village3
@@ -19,3 +25,65 @@ F:Village4
 17:afev village 4
 18:afev village 5
 19:Noish and dimaggio battle
+1A:Rapier Chalphy
+1B:Arden Kill Maggio
+1C:Arden Kill Gerrard
+1D:SigurdAzelle
+1E:SigurdQuan
+//Chapter 1-1
+1:Kinbois Battle
+3:Seize
+7:Quan and Ayra
+8:Finn and Quan Stat Boost
+9:Ayra Recruitment
+B:Edain and Ethlyn
+C:Village1
+D:Village2
+E:Munnir Battle
+F:Ayra battle
+10:Ayra Battle Lex
+11:SigurdTalkEdain
+12:Midir and Azelle talk to Edain
+13:Seize Genoa
+14:afev village 1
+15:afev village 2
+16:Ethlyn vs Kinbois
+17:Azelle vs Munnir
+18:Midir vs Munnir
+19:Dew vs Munnir
+1A:Ayra runs
+1B:Eltosian Time Limit
+1C:Edain vs Munnir
+1D:Alec talks to Arden
+//Chapter 1X
+1:Elliot Quote
+3:Ending Event
+6:Routed
+7:Lachesis and Elliot Battle
+9:Elliot retreat
+//Chapter 1-2
+3:Seize Nordion
+1:SandimaBattle
+7:DewWarpEdain
+8:SigludRecruitLachesis
+9:HeirheinCometh
+A:JamkeRecruited
+B:JamketalktoSiglud
+C:VillageOne
+D:JamkeBattle
+E:JamkeDewBattle
+F:JamkeEdainBattle
+10:SandimaDeirdreBattle
+11:SandimaJamkeBattle
+12:BurkaulBattle
+13:BurkaulVsJamk
+14:afev village 1
+15:BraveAxe
+16:DeirdreShowsup
+//Castle Nordion
+1:Holyn Battle Quote
+7:Holyn AFEV ends
+8:LachesisDewTalk
+13:SeizeVerdane
+
+do bragi blade, salamander, arden blade and cursed blade

@@ -1,0 +1,263 @@
+
+EventPointerTable(0x14,ThisChapter)
+
+ThisChapter:
+
+POIN TurnBasedEvents
+
+POIN CharacterBasedEvents
+
+POIN LocationBasedEvents
+
+POIN MiscBasedEvents
+
+POIN Dunno Dunno Dunno
+
+POIN Tutorial
+
+POIN TrapData TrapData
+
+POIN NordionUnits NordionUnits
+
+POIN $0 $0 $0 $0 $0 $0
+
+POIN BeginningScene EndingScene
+
+Dunno:
+WORD $00
+
+Tutorial:
+WORD $00
+
+TrapData:
+ENDTRAP
+
+ALIGN 4
+TurnBasedEvents:
+END_MAIN
+
+ALIGN 4
+LocationBasedEvents:
+END_MAIN
+
+ALIGN 32
+CharacterBasedEvents:
+END_MAIN
+
+MiscBasedEvents:
+DefeatAll(EndingScene)
+CauseGameOverIfLordDies
+END_MAIN
+
+BeginningScene:
+RemoveUnit(Sigurd)
+RemoveUnit(Alec)
+RemoveUnit(Noish)
+RemoveUnit(Arden)
+RemoveUnit(Lex)
+RemoveUnit(Azel)
+RemoveUnit(Quan)
+RemoveUnit(Finn)
+RemoveUnit(Ethlyn)
+RemoveUnit(Midir)
+RemoveUnit(Ayra)
+RemoveUnit(Dew)
+RemoveUnit(Edain)
+CAM1 [25,14]
+LOAD 0x1 SoldierGuy2
+ENUN
+FADU 16
+Text(TalkingSoldier)
+MOVE 120 Palmarch [42,17]
+ENUN
+CAM1 [14,4]
+LOAD1 0x1 ElliotUnits
+ENUN
+Text(ElliotArrives)
+CAM1 [25,14]
+Text(BestSoldier)
+CamOn
+MOVE 120 CrossKnight [15,10]
+CamOff
+MOVE 120 Elliot [14,10]
+ENUN
+StartBattle 
+CriticalHit(0,99)
+EndAttack
+FIG1 Elliot CrossKnight SilverLance
+SFXKillUnit(CrossKnight)
+MOVE 120 Elliot [14,3]
+CleanText(0x10,BorderInvaded)
+CAM1 [10,9]
+LOAD1 0x1 NordionUnits
+Text(EldiganConfrontsElliot)
+ENUN
+EndEvent
+
+EndingScene:
+MUSC 0x0
+ENUT 0x79
+CAM1 [17,9]
+MOVE 120 Lachesis [17,9]
+ENUN
+CHECK_ALIVE Eve
+BEQ 0x1 0xC 0x0
+Text(IsElliotTrulyGone)
+LOAD1 0x1 ElliotBack
+ENUN
+MOVE 120 Lachesis [16,9]
+MOVE 120 Eve [17,9]
+ENUN
+GOTO 0x2
+LABEL 0x1
+Text(IsElliotTrulyGoneBad)
+LOAD1 0x1 ElliotBack
+ENUN
+StartBattle 
+CriticalHit(0,99)
+EndAttack
+FIG1 Elliot Lachesis Horseslayer
+SFXKillUnit(Lachesis)
+StartGameOver
+GOTO 0x3
+LABEL 0x2
+StartBattle 
+CriticalHit(0,99)
+EndAttack
+FIG1 Elliot Eve Horseslayer
+SFXKillUnit(Eve)
+MOVE 120 Eldigan [17,9]
+CleanText(0x20,Elliotisacreep)
+StartBattle 
+CriticalHit(0,99)
+EndAttack
+FIG1 Eldigan Elliot Mystletainn
+SFXKillUnit(Elliot)
+Text(IsItOverEldie)
+UnremoveUnit(Sigurd)
+UnremoveUnit(Alec)
+UnremoveUnit(Noish)
+UnremoveUnit(Arden)
+UnremoveUnit(Lex)
+UnremoveUnit(Azel)
+UnremoveUnit(Quan)
+UnremoveUnit(Finn)
+UnremoveUnit(Ethlyn)
+UnremoveUnit(Midir)
+UnremoveUnit(Ayra)
+UnremoveUnit(Dew)
+UnremoveUnit(Edain)
+RemoveUnit(Lachesis)
+RemoveUnit(Indech)
+SilentKillUnit(Eva)
+SilentKillUnit(Alva)
+SilentKillUnit(Eldigan)
+FADI 0x3C
+LOMA 0x9
+CAM1 [10,15]
+FADU 16
+Location(Name_Agusty)
+LOAD 0x1 AgustriaBosses
+ENUN
+FlashCursor(Bordeaux,16)
+Text(HeirheinHalt)
+FlashCursor(Macbeth,16)
+Text(AnphonyHalt)
+FlashCursor(Clement,16)
+Text(MackilyHalt)
+MOVE 120 Graham [0,11]
+MOVE 120 Phillip [1,12]
+ENUN
+MOVE 120 Banquo [0,11]
+MOVE 120 Ross [1,12]
+ENUN
+MOVE 120 Hopper [0,11]
+MOVE 120 Elling [1,12]
+ENUN
+CamOn
+MOVE 120 Bordeaux [8,4]
+MOVE 120 Macbeth [12,4]
+MOVE 120 Othello [11,5]
+MOVE 120 Clement [9,5]
+ENUN
+CamOff
+FlashCursor(Heim,16)
+Text(AgustriaReunion)
+FlashCursor(Clement,16)
+Text(ClementSpeaks)
+FlashCursor(Heim,16)
+Text(ImcaContinues)
+MOVE 120 Bordeaux [6,15]
+MOVE 120 Macbeth [6,16]
+MOVE 120 Othello [6,17]
+MOVE 120 Clement [6,18]
+ENUN
+CamOn
+MOVE 120 Chagall [17,12]
+ENUN
+CamOff
+Text(ChagallComplain)
+FADI 0x3C
+LOAD1 0x1 SchemerCometh
+ENUN
+FADU 16
+Text(Schemers)
+MNC2 0x4
+LABEL 0x3
+EndEvent
+
+NordionUnits:
+UNIT Eldigan PalM Chagall Level(25,Ally,0) [10,9] 0x0 0x0 0x1 REDA10R12 [Mystletainn, SteelLance] NoAI
+UNIT Indech HolyKnt Eldigan Level(14,Ally,0) [10,9] 0x0 0x0 0x1 REDA12R10 [SteelLance, Lightning] NoAI
+UNIT Eve PalM Eldigan Level(18,Ally,0) [10,9] 0x0 0x0 0x1 REDA11R11 [SteelSword, Javelin] NoAI
+UNIT Eva PalM Eldigan Level(18,Ally,0) [10,9] 0x0 0x0 0x1 REDA9R11 [SteelSword, Javelin] NoAI
+UNIT Alva PalF Eldigan Level(18,Ally,0) [10,9] 0x0 0x0 0x1 REDA8R10 [SteelSword, Javelin] NoAI
+UNIT Lachesis Princess Eldigan Level(2,Ally,0) [10,9] 0x0 0x0 0x0 0x1 [MiracleSwd, Heal] NoAI
+UNIT //Tells the game that the unit list has ended
+
+ElliotUnits:
+UNIT Elliot DukeKnt Bordeaux Level(15,Enemy,0) [14,0] DropItem 0x0 0x1 REDA14R3 [SilverLance, Horseslayer] NoAI
+UNIT Heirhein LncCav Elliot Level(8,Enemy,1) [14,0] 0x0 0x0 0x1 REDA13R4 [SteelLance] NoAI
+UNIT Heirhein LncCav Elliot Level(8,Enemy,1) [14,0] 0x0 0x0 0x1 REDA14R4 [SteelLance] NoAI
+UNIT Heirhein LncCav Elliot Level(8,Enemy,1) [14,0] 0x0 0x0 0x1 REDA15R4 [SteelLance] NoAI
+UNIT Heirhein LncCav Elliot Level(8,Enemy,1) [14,0] 0x0 0x0 0x1 REDA13R5 [SteelLance] NoAI
+UNIT Heirhein LncCav Elliot Level(8,Enemy,1) [14,0] 0x0 0x0 0x1 REDA14R5 [SteelLance] NoAI
+UNIT Heirhein LncCav Elliot Level(8,Enemy,1) [14,0] 0x0 0x0 0x1 REDA15R5 [SteelLance] NoAI
+UNIT Heirhein LncCav Elliot Level(8,Enemy,1) [14,0] 0x0 0x0 0x1 REDA13R6 [SteelLance] NoAI
+UNIT Heirhein LncCav Elliot Level(8,Enemy,1) [14,0] 0x0 0x0 0x1 REDA14R6 [SteelLance] NoAI
+UNIT Heirhein LncCav Elliot Level(8,Enemy,1) [14,0] 0x0 0x0 0x1 REDA15R6 [SteelLance] NoAI
+UNIT Heirhein LncCav Elliot Level(8,Enemy,1) [14,0] 0x0 0x0 0x1 REDA13R7 [SteelLance] NoAI
+UNIT Heirhein LncCav Elliot Level(8,Enemy,1) [14,0] 0x0 0x0 0x1 REDA14R7 [SteelLance] NoAI
+UNIT Heirhein LncCav Elliot Level(8,Enemy,1) [14,0] 0x0 0x0 0x1 REDA15R7 [SteelLance] NoAI
+UNIT Heirhein LncCav Elliot Level(8,Enemy,1) [14,0] 0x0 0x0 0x1 REDA13R8 [SteelLance] NoAI
+UNIT Heirhein LncCav Elliot Level(8,Enemy,1) [14,0] 0x0 0x0 0x1 REDA14R8 [SteelLance] NoAI
+UNIT Heirhein LncCav Elliot Level(8,Enemy,1) [14,0] 0x0 0x0 0x1 REDA15R8 [SteelLance] NoAI
+UNIT
+
+ElliotBack:
+UNIT Elliot DukeKnt Bordeaux Level(15,Enemy,0) [21,8] DropItem 0x0 0x1 REDA18R9 [SilverLance, Horseslayer] NoAI
+UNIT
+
+SoldierGuy2:
+UNIT CrossKnight Soldier Eldigan Level(20,NPC,1) [25,14] 0x0 0x0 0x0 0x1 [Javelin] NoAI
+UNIT Palmarch Bishop Byron Level(10,NPC,0) [26,14] 0x0 0x0 0x0 0x1 [Mend] NeverMoveAI
+UNIT
+
+AgustriaBosses:
+UNIT Bordeaux General Elliot Level(8,Enemy,1) [8,28] 0x0 0x0 0x1 REDA8R14 [SteelLance] NoAI
+UNIT Graham DukeKnt Elliot Level(8,Enemy,1) [9,28] 0x0 0x0 0x1 REDA9R14 [SteelLance] NoAI
+UNIT Phillip General Elliot Level(8,Enemy,1) [10,28] 0x0 0x0 0x1 REDA10R14 [SteelLance] NoAI
+UNIT Macbeth General Elliot Level(8,Enemy,1) [11,28] 0x0 0x0 0x1 REDA11R14 [SteelLance] NoAI
+UNIT Othello DukeKnt Elliot Level(8,Enemy,1) [12,28] 0x0 0x0 0x1 REDA12R14 [SteelLance] NoAI
+UNIT Ross PalM Elliot Level(8,Enemy,1) [8,29] 0x0 0x0 0x1 REDA8R15 [SteelLance] NoAI
+UNIT Banquo GrtKnt Elliot Level(8,Enemy,1) [9,29] 0x0 0x0 0x1 REDA9R15 [SteelLance] NoAI
+UNIT Clement Bishop Elliot Level(8,Enemy,1) [10,29] 0x0 0x0 0x1 REDA10R15 [SteelLance] NoAI
+UNIT Elling FMage Elliot Level(8,Enemy,1) [11,29] 0x0 0x0 0x1 REDA11R15 [SteelLance] NoAI
+UNIT Hopper BowArm Elliot Level(8,Enemy,1) [12,29] 0x0 0x0 0x1 REDA12R15 [SteelLance] NoAI
+UNIT Chagall General Elliot Level(8,Enemy,1) [11,3] 0x0 0x0 0x0 0x1 [SteelLance] NoAI
+UNIT Heim Protector Elliot Level(8,Enemy,1) [10,2] 0x0 0x0 0x0 0x1 [SteelLance] NoAI
+UNIT
+
+SchemerCometh:
+UNIT Manfroy DBishop Elliot Level(8,Enemy,1) [18,12] 0x0 0x0 0x0 0x1 [SteelLance] NoAI
+UNIT

@@ -73,7 +73,7 @@
 #define Circlet 0xD9
 
 #define StrRing 0x5B
-#define MgcRing 0x5B
+#define MgcRing 0x5C
 #define SklRing 0x5D
 #define SpdRing 0x5E
 #define LckRing 0x5F

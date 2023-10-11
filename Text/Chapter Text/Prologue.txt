@@ -602,6 +602,14 @@ Yes[...]This ain't right[...][A][X]
 [OpenMidLeft][LoadGerrard]
 Go to hell, you Grannvale dogs![A][X]
 
+##MidirAndGerrardBattle
+[OpenMidLeft][LoadGerrard]
+W-wait! you're using arrows![N]
+You coward![A][N][ClearFace][OpenMidRight][LoadMidir]
+Shut up![N]
+Where's Lady Edain!?[A][N]
+Bring her back, NOW![A][X]
+
 ##GerrardDeath
 [OpenMidLeft][LoadGerrard]
 Ahahaha[...]Too bad for you[...][A][N]

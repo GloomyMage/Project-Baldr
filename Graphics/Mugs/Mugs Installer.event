@@ -690,7 +690,7 @@ BanquoPortrait:
 #incbin "Banquo_frames.dmp"
 #incbin "Banquo_palette.dmp"
 #incbin "Banquo_minimug.dmp"
-setMugEntry(0xBB,BanquoPortrait,3,4,3,2)
+setMugEntry(0xBB,BanquoPortrait,2,5,3,3)
 
 ALIGN 4
 RossPortrait:

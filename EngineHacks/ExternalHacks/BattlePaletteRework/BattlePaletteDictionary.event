@@ -1,0 +1,32 @@
+#define PaletteIdentifier(index,letter1,letter2,letter3,pointer) "BYTE letter1 letter2 letter3 0;  WORD 0 0; POIN pointer "
+
+//This file assumes you have installed palette data in another file. It is just a dictionary linking a palette index to a pointer where the actual color information is installed.
+
+//The letters are optional identifiers, you can leave them blank if you don't care.
+
+//If you have less than 0xFF entries, uncomment the PUSH and POP.
+
+/*
+PUSH
+ORG $EF8008
+*/
+
+PaletteIdentifier($00,$72,$75,$6b,DiMaggioPalette)
+PaletteIdentifier($01,$72,$75,$6b,GerrardPalette)
+PaletteIdentifier($02,$72,$75,$6b,KinboisPalette)
+PaletteIdentifier($03,$72,$75,$6b,MunnirPalette)
+PaletteIdentifier($04,$72,$75,$6b,ElliotPalette)
+PaletteIdentifier($05,$72,$75,$6b,SandimaPalette)
+PaletteIdentifier($06,$72,$75,$6b,VerdaneFighterPalette)
+PaletteIdentifier($07,$72,$75,$6b,VerdaneHunterPalette)
+PaletteIdentifier($08,$72,$75,$6b,VerdaneBarbarianPalette)
+PaletteIdentifier($09,$72,$75,$6b,VerdaneBrigandPalette)
+PaletteIdentifier($0A,$72,$75,$6b,VerdaneWarriorPalette)
+PaletteIdentifier($0B,$72,$75,$6b,HeirheinLancePalette)
+PaletteIdentifier($0C,$72,$75,$6b,HeirheinAxePalette)
+PaletteIdentifier($0D,$72,$75,$6b,ArdenPalette)
+PaletteIdentifier($0E,$72,$75,$6b,AzelPalette)
+PaletteIdentifier($0F,$72,$75,$6b,EldiganPalette)
+/*
+POP
+*/

@@ -30,30 +30,6 @@ FILL 0xFF * 0x07 // Allocate 0xFF entries for the CharClassTable.
 #define SetPaletteFull(Character,UnpromotedPalette,UnpromotedClass,FirstPromotionPalette,FirstPromotionClass,SecondPromotionPalette,SecondPromotionClass) "setCharPalette(Character,0x00,UnpromotedPalette,0x00,FirstPromotionPalette,SecondPromotionPalette,0x00,0x00) ; setCharClass(Character,0x00,UnpromotedClass,0x00,FirstPromotionClass,SecondPromotionClass,0x00,0x00)"
 #define SetPaletteFuller(Character,UnpromotedPalette,UnpromotedClass,UnpromotedPalette2,UnpromotedClass2,FirstPromotionPalette,FirstPromotionClass,SecondPromotionPalette,SecondPromotionClass,ThirdPromotionPalette,ThirdPromotionClass,FourthPromotionPalette,FourthPromotionClass) "setCharPalette(Character,0x00,UnpromotedPalette,UnpromotedPalette2,FirstPromotionPalette,SecondPromotionPalette,ThirdPromotionPalette,FourthPromotionPalette) ; setCharClass(Character,0x00,UnpromotedClass,UnpromotedClass2,FirstPromotionClass,SecondPromotionClass,ThirdPromotionClass,FourthPromotionClass)"
 
-#define DiMaggioPaletteID 0x20
-#define GerrardPaletteID 0x21
-#define MunnirPaletteID 0x23
-#define BordeauxPaletteID 0x28
-#define SlayderPaletteID 0x2E
-#define HaroldPaletteID 0x5B
-#define AgustriaArmorID 0x02
-#define SilesseArmorID 0x03
-#define GrannvalleArmorID 0x04
-#define ArdenPaletteID 0x05
-
-setPalette(DiMaggioPaletteID,DiMaggioPalette)
-setPalette(GerrardPaletteID,GerrardPalette)
-setPalette(MunnirPaletteID,MunnirPalette)
-setPalette(BordeauxPaletteID,BordeauxPalette)
-setPalette(SlayderPaletteID,SlayderPalette)
-setPalette(HaroldPaletteID,HaroldPalette)
-setPalette(AgustriaArmorID,AgustriaArmPalette)
-setPalette(SilesseArmorID,SilesseArmPalette)
-setPalette(GrannvalleArmorID,GranvalleArmPalette)
-setPalette(ArdenPaletteID,ArdenPalette)
-
-SetPaletteFull(DiMaggio,DiMaggioPaletteID,Brigand,0x0,0x0,0x0,0x0)
-
 ALIGN 4
 DiMaggioPalette:
 #incbin "DiMaggio.dmp"
@@ -63,8 +39,20 @@ GerrardPalette:
 #incbin "Gerrard.dmp"
 
 ALIGN 4
+KinboisPalette:
+#incbin "Kinbois.dmp"
+
+ALIGN 4
 MunnirPalette:
 #incbin "Munnir.dmp"
+
+ALIGN 4
+ElliotPalette:
+#incbin "Elliot.dmp"
+
+ALIGN 4
+SandimaPalette:
+#incbin "Sandima.dmp"
 
 ALIGN 4
 BordeauxPalette:
@@ -77,6 +65,34 @@ SlayderPalette:
 ALIGN 4
 HaroldPalette:
 #incbin "Harold.dmp"
+
+ALIGN 4
+VerdaneFighterPalette:
+#incbin "VerdaneFighter.dmp"
+
+ALIGN 4
+VerdaneBrigandPalette:
+#incbin "VerdaneBrigand.dmp"
+
+ALIGN 4
+VerdaneBarbarianPalette:
+#incbin "VerdaneBarbarian.dmp"
+
+ALIGN 4
+VerdaneHunterPalette:
+#incbin "VerdaneHunter.dmp"
+
+ALIGN 4
+VerdaneWarriorPalette:
+#incbin "VerdaneWarrior.dmp"
+
+ALIGN 4
+HeirheinAxePalette:
+#incbin "HeirheinAxe.dmp"
+
+ALIGN 4
+HeirheinLancePalette:
+#incbin "HeirheinLance.dmp"
 
 ALIGN 4
 AgustriaArmPalette:
@@ -93,6 +109,14 @@ SilesseArmPalette:
 ALIGN 4
 ArdenPalette:
 #incbin "ArdenKnight.dmp"
+
+ALIGN 4
+AzelPalette:
+#incbin "Azel.dmp"
+
+ALIGN 4
+EldiganPalette:
+#incbin "Eldigan.dmp"
 
 PUSH
 ORG $59BFC

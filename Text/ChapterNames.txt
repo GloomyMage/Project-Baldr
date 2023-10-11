@@ -1,2 +1,20 @@
 # 0x160
 Birth of a Crusader[X]
+
+# 0x161
+Castle Evans[X]
+
+# 0x162
+Aideen's Rescue[X]
+
+# 0x163
+Nordion's Defense[X]
+
+# 0x164
+Girl of the Spirit Forest[X]
+
+# 0x165
+The End of Agustria[X]
+
+# 0x166
+Castle Nordion[X]
