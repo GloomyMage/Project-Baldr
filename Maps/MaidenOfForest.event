@@ -62,7 +62,7 @@ Map_Change_7:
 
 ALIGN 4
 MapChangesData:
-  TileMap(0, 2, 46, 1, 2, 0, Map_Change_0)
+  TileMap(0, 2, 46, 1, 2, 0x14, Map_Change_0)
   TileMap(1, 2, 47, 1, 1, 0, Map_Change_1)
   TileMap(2, 1, 45, 1, 1, 0, Map_Change_2)
   TileMap(3, 2, 45, 1, 1, 0, Map_Change_3)

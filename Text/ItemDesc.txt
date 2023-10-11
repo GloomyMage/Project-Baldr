@@ -6,7 +6,7 @@ Lightweight and easy to hit with.[X]
 
 
 ##DSteelSword ^
-[X]
+ [X]
 
 
 ##DSilverSword ^
