@@ -67,7 +67,7 @@ RepairItems_CalculateRepairCost_Internal:
 
       ldrb r1, [r0, #ItemDataAttributes]
 
-      mov  r2, #ItemAttributeWeapon
+      mov  r2, #(ItemAttributeWeapon | ItemAttributeStaff)
       and  r2, r1
       cmp  r2, #0
       beq  Next

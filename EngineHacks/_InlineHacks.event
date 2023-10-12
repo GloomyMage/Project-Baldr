@@ -64,6 +64,15 @@ ORG 0x2CD48
 BYTE 0xA4
 POP
 
+// Weapon Rank Fix
+// by Serif 
+PUSH
+ORG 0x2C1A2
+BYTE 255
+ORG 0x2C1A6
+BYTE 255
+POP
+
 //Mystery trading by Contro
 PUSH
 ORG 0x22F50
