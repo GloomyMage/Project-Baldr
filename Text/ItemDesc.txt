@@ -1,5 +1,5 @@
 ##DIronSword ^
-[X]
+ [X]
 
 ##DSlimSword ^
 Lightweight and easy to hit with.[X]
@@ -10,19 +10,19 @@ Lightweight and easy to hit with.[X]
 
 
 ##DSilverSword ^
-[X]
+ [X]
 
 
 ##DIronBlade ^
-[X]
+ [X]
 
 
 ##DSteelBlade ^
-[X]
+ [X]
 
 
 ##DSilverBlade ^
-[X]
+ [X]
 
 
 ##DPoisonSword ^
@@ -76,7 +76,7 @@ Effective against cavalry.[X]
 
 
 ##DIronLance ^
-[X]
+ [X]
 
 
 ##DSlimLance ^
@@ -84,11 +84,11 @@ Lightweight and easy to hit with.[X]
 
 
 ##DSteelLance ^
-[X]
+ [X]
 
 
 ##DSilverLance ^
-[X]
+ [X]
 
 
 ##DToxinLance ^
@@ -120,15 +120,15 @@ Strong against axes.[X]
 
 
 ##DIronAxe ^
-[X]
+ [X]
 
 
 ##DSteelAxe ^
-[X]
+ [X]
 
 
 ##DSilverAxe ^
-[X]
+ [X]
 
 
 ##DPoisonAxe ^
@@ -176,15 +176,15 @@ Lightweight and easy to hit with.[X]
 
 
 ##DIronBow ^
-[X]
+ [X]
 
 
 ##DSteelBow ^
-[X]
+ [X]
 
 
 ##DSilverBow ^
-[X]
+ [X]
 
 
 ##DPoisonBow ^
@@ -246,15 +246,15 @@ Mgc+10 Def+10 Res+10.[X]
 
 
 ##DElwind ^
-[X]
+ [X]
 
 
 ##DLightning ^
-[X]
+ [X]
 
 
 ##DShine ^
-[X]
+ [X]
 
 
 ##DResire ^
@@ -266,7 +266,7 @@ Long-range lightning strike.[X]
 
 
 ##DAura ^
-[X]
+ [X]
 
 
 ##DMjolnir ^
@@ -275,7 +275,7 @@ Skl+20 Spd+10.[X]
 
 
 ##DJorgumandr ^
-[X]
+ [X]
 
 
 ##DLuna ^
@@ -291,7 +291,7 @@ Reduces enemy HP to 1.[X]
 
 
 ##DFenrir ^
-[X]
+ [X]
 
 
 ##DErra ^
@@ -511,11 +511,11 @@ Opens chests.[X]
 
 
 ##DMine ^
-[X]
+ [X]
 
 
 ##DLightRune ^
-[X]
+ [X]
 
 
 ##DHoplonGuard ^
@@ -524,19 +524,19 @@ enemy critical attacks.[X]
 
 
 ##DFillaMight ^
-[X]
+ [X]
 
 
 ##DNinisGrace ^
-[X]
+ [X]
 
 
 ##DThorIre ^
-[X]
+ [X]
 
 
 ##DSetLitany ^
-[X]
+ [X]
 
 
 ##DBragiSword ^
@@ -581,7 +581,7 @@ unit that uses it.[X]
 
 
 ##DHeavenSeal ^
-[X]
+ [X]
 
 
 ##DForseti ^
@@ -699,7 +699,7 @@ into a deep slumber.[X]
 
 
 ##DDemonStone ^
-[X]
+ [X]
 
 
 ##DDemonLight ^
@@ -718,11 +718,11 @@ Myrrh draws strength from it.[X]
 
 
 ##DDemonSurge ^
-[X]
+ [X]
 
 
 ##DGreatArch ^
-[X]
+ [X]
 
 
 ##DFalchion ^
@@ -755,7 +755,7 @@ Inflicts Poison upon damage.[X]
 
 
 ##DPetrify ^
-Malefic Tome that turns enemies[N]
+Malefic tome that turns enemies[N]
 into stone statues.[X]
 
 
@@ -764,7 +764,7 @@ Turns targets to stone for a while.[X]
 
 
 ##DAircalibur ^
-[X]
+ [X]
 
 
 ##DJunaFruit ^
@@ -843,36 +843,36 @@ Foreign anthology.[X]
 
 
 ##DMaera ^
-Dark Tome named after a[N]
+Dark tome named after a[N]
 Loptyr savior.[X]
 
 
 ##D0xc9 ^
-[X]
+ [X]
 
 
 ##D0xca ^
-[X]
+ [X]
 
 
 ##D0xcb ^
-[X]
+ [X]
 
 
 ##D0xcc ^
-[X]
+ [X]
 
 
 ##D0xcd ^
-[X]
+ [X]
 
 
 ##D0xce ^
-[X]
+ [X]
 
 
 ##D0xcf ^
-[X]
+ [X]
 
 
 ##DLifeRing ^
@@ -921,13 +921,11 @@ Might injure its wielder.[X]
 
 
 ##DKingSword ^
-Can strike consecutively.[N]
-Grants Charisma.[X]
+Can strike consecutively. Grants Charisma.[X]
 
 
 ##DLoptrSword ^
-Reduces enemy's attacks by half.[N]
-Res+20.[X]
+Reduces enemy's attacks by half. Res+20.[X]
 
 
 ##DBeoSword ^
@@ -935,17 +933,15 @@ The user always strikes first.[X]
 
 
 ##DArdenBlade ^
-Can strike consecutively.[N]
-Spd-5.[X]
+Can strike consecutively. Spd-5.[X]
 
 
 ##DSalamander ^
-Powerful fire tome of[N]
-House Velthomer.[X]
+Powerful fire tome of House Velthomer.[X]
 
 
 ##DAwaken ^
-[X]
+ [X]
 
 
 ##DGrafcalibur ^
@@ -953,15 +949,15 @@ Effective against flying units.[X]
 
 
 ##DFire ^
-[X]
+ [X]
 
 
 ##DElfire ^
-[X]
+ [X]
 
 
 ##DBolganone ^
-[X]
+ [X]
 
 
 ##DMeteor ^
@@ -969,15 +965,15 @@ Long-range fire attack.[X]
 
 
 ##DThunder ^
-[X]
+ [X]
 
 
 ##DElthunder ^
-[X]
+ [X]
 
 
 ##DThoron ^
-[X]
+ [X]
 
 
 ##DBolting ^
@@ -985,11 +981,11 @@ Long-range thunder attack.[X]
 
 
 ##DWind ^
-[X]
+ [X]
 
 
 ##DTornado ^
-[X]
+ [X]
 
 
 ##DBlizzard ^
@@ -1058,12 +1054,12 @@ item from a target's inventory.[X]
 
 
 ##D0xfc ^
-[X]
+ [X]
 
 
 ##D0xfd ^
-[X]
+ [X]
 
 
 ##D0xfe ^
-[X]
+ [X]
