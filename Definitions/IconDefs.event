@@ -30,6 +30,7 @@
 #define LightBrandIcon 0xF
 #define LandsSwordIcon 0x10
 #define MasterSwordIcon 0xD3
+#define ArdenBladeIcon 0xA9
 #define HeroicLanceIcon 0x94
 #define MasterLanceIcon 0xD4
 #define SeaAxeIcon 0x95
@@ -48,6 +49,7 @@
 #define ElwindIcon 0xC7
 #define TornadoIcon 0xC8
 #define BlizzardIcon 0xC9
+#define SalamanderIcon 0x62
 #define TyrfingIcon 0xB0
 #define BalmungIcon 0x09
 #define MystletainnIcon 0xB1
