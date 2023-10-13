@@ -1,292 +1,292 @@
 ##UIronSword ^
-[X]
+ [X]
 
 ##USlimSword ^
-[X]
+ [X]
 
 
 ##USteelSword ^
-[X]
+ [X]
 
 
 ##USilverSword ^
-[X]
+ [X]
 
 
 ##UIronBlade ^
-[X]
+ [X]
 
 
 ##USteelBlade ^
-[X]
+ [X]
 
 
 ##USilverBlade ^
-[X]
+ [X]
 
 
 ##UPoisonSword ^
-[X]
+ [X]
 
 
 ##URapier ^
-[X]
+ [X]
 
 
 ##UBalmung ^
-[X]
+ [X]
 
 
 ##UBraveSword ^
-[X]
+ [X]
 
 
 ##UBaldung ^
-[X]
+ [X]
 
 
 ##UKillingEdge ^
-[X]
+ [X]
 
 
 ##UArmorslayer ^
-[X]
+ [X]
 
 
 ##UWingClipper ^
-[X]
+ [X]
 
 
 ##ULightBrand ^
-[X]
+ [X]
 
 
 ##ULandsSword ^
-[X]
+ [X]
 
 
 ##ULancereaver ^
-[X]
+ [X]
 
 
 ##UZanbato ^
-[X]
+ [X]
 
 
 ##UIronLance ^
-[X]
+ [X]
 
 
 ##USlimLance ^
-[X]
+ [X]
 
 
 ##USteelLance ^
-[X]
+ [X]
 
 
 ##USilverLance ^
-[X]
+ [X]
 
 
 ##UToxinLance ^
-[X]
+ [X]
 
 
 ##UBraveLance ^
-[X]
+ [X]
 
 
 ##UKillerLance ^
-[X]
+ [X]
 
 
 ##UHorseslayer ^
-[X]
+ [X]
 
 
 ##UJavelin ^
-[X]
+ [X]
 
 
 ##USpear ^
-[X]
+ [X]
 
 
 ##UAxereaver ^
-[X]
+ [X]
 
 
 ##UIronAxe ^
-[X]
+ [X]
 
 
 ##USteelAxe ^
-[X]
+ [X]
 
 
 ##USilverAxe ^
-[X]
+ [X]
 
 
 ##UPoisonAxe ^
-[X]
+ [X]
 
 
 ##UBraveAxe ^
-[X]
+ [X]
 
 
 ##UKillerAxe ^
-[X]
+ [X]
 
 
 ##UHalberd ^
-[X]
+ [X]
 
 
 ##UHammer ^
-[X]
+ [X]
 
 
 ##UDevilAxe ^
-[X]
+ [X]
 
 
 ##UHandAxe ^
-[X]
+ [X]
 
 
 ##UTomahawk ^
-[X]
+ [X]
 
 
 ##USwordreaver ^
-[X]
+ [X]
 
 
 ##USwordslayer ^
-[X]
+ [X]
 
 
 ##UHatchet ^
-[X]
+ [X]
 
 
 ##UIronBow ^
-[X]
+ [X]
 
 
 ##USteelBow ^
-[X]
+ [X]
 
 
 ##USilverBow ^
-[X]
+ [X]
 
 
 ##UPoisonBow ^
-[X]
+ [X]
 
 
 ##UKillerBow ^
-[X]
+ [X]
 
 
 ##UBraveBow ^
-[X]
+ [X]
 
 
 ##UShortBow ^
-[X]
+ [X]
 
 
 ##ULongbow ^
-[X]
+ [X]
 
 
 ##UBallista ^
-[X]
+ [X]
 
 
 ##UIronBallista ^
-[X]
+ [X]
 
 
 ##UKillerBallista ^
-[X]
+ [X]
 
 
 ##UGreatBallista ^
-[X]
+ [X]
 
 
 ##UMercurius ^
-[X]
+ [X]
 
 
 ##UGradivus ^
-[X]
+ [X]
 
 
 ##UHauteclere ^
-[X]
+ [X]
 
 
 ##UParthia ^
-[X]
+ [X]
 
 
 ##UValflame ^
-[X]
+ [X]
 
 
 ##ULightning ^
-[X]
+ [X]
 
 
 ##UShine ^
-[X]
+ [X]
 
 
 ##UResire ^
-[X]
+ [X]
 
 
 ##UPurge ^
-[X]
+ [X]
 
 
 ##UAura ^
-[X]
+ [X]
 
 
 ##UMjolnir ^
-[X]
+ [X]
 
 
 ##UJorgumandr ^
-[X]
+ [X]
 
 
 ##ULuna ^
-[X]
+ [X]
 
 
 ##UNosferatu ^
-[X]
+ [X]
 
 
 ##UHel ^
-[X]
+ [X]
 
 
 ##UFenrir ^
-[X]
+ [X]
 
 
 ##UErra ^
-[X]
+ [X]
 
 
 ##UHeal ^
@@ -356,43 +356,43 @@ Raises resistance.[X]
 
 
 ##UVolantAxe ^
-[X]
+ [X]
 
 
 ##UStrengthRing ^
-[X]
+ [X]
 
 
 ##UMagicRing ^
-[X]
+ [X]
 
 
 ##USkillRing ^
-[X]
+ [X]
 
 
 ##USpeedRing ^
-[X]
+ [X]
 
 
 ##ULuckRing ^
-[X]
+ [X]
 
 
 ##UDefenseRing ^
-[X]
+ [X]
 
 
 ##UResistanceRing ^
-[X]
+ [X]
 
 
 ##ULegRing ^
-[X]
+ [X]
 
 
 ##UBodyRing ^
-[X]
+ [X]
 
 
 ##UHeroCrest ^
@@ -465,31 +465,31 @@ of items.[X]
 
 
 ##UWhiteGem ^
-[X]
+ [X]
 
 
 ##UBlueGem ^
-[X]
+ [X]
 
 
 ##URedGem ^
-[X]
+ [X]
 
 
 ##UGold ^
-[X]
+ [X]
 
 
 ##UReginleif ^
-[X]
+ [X]
 
 
 ##UMine ^
-[X]
+ [X]
 
 
 ##ULightRune ^
-[X]
+ [X]
 
 
 ##UHoplonGuard ^
@@ -498,47 +498,47 @@ critical attacks.[X]
 
 
 ##UFillaMight ^
-[X]
+ [X]
 
 
 ##UNinisGrace ^
-[X]
+ [X]
 
 
 ##UThorIre ^
-[X]
+ [X]
 
 
 ##USetLitany ^
-[X]
+ [X]
 
 
 ##UBragiSword ^
-[X]
+ [X]
 
 
 ##UHeroicLance ^
-[X]
+ [X]
 
 
 ##USeaAxe ^
-[X]
+ [X]
 
 
 ##UMagicBow ^
-[X]
+ [X]
 
 
 ##UTyrfing ^
-[X]
+ [X]
 
 
 ##UBattleAxe ^
-[X]
+ [X]
 
 
 ##UNaga ^
-[X]
+ [X]
 
 
 ##UMasterSeal ^
@@ -552,11 +552,11 @@ unit you like.[X]
 
 
 ##UHeavenSeal ^
-[X]
+ [X]
 
 
 ##UForseti ^
-[X]
+ [X]
 
 
 ##UValkyrie ^
@@ -564,15 +564,15 @@ Revives a dead unit.[X]
 
 
 ##UFlycatcher ^
-[X]
+ [X]
 
 
 ##UGungnir ^
-[X]
+ [X]
 
 
 ##ULoptous ^
-[X]
+ [X]
 
 
 ##UWretchedAir ^
@@ -580,27 +580,27 @@ Draco Zombie only.[X]
 
 
 ##UMystletainn ^
-[X]
+ [X]
 
 
 ##UGaeBolg ^
-[X]
+ [X]
 
 
 ##UHelswath ^
-[X]
+ [X]
 
 
 ##UYewfelle ^
-[X]
+ [X]
 
 
 ##UHeavySpear ^
-[X]
+ [X]
 
 
 ##UShortSpear ^
-[X]
+ [X]
 
 
 ##UOceanSeal ^
@@ -619,35 +619,35 @@ when he's ready.[X]
 
 
 ##U1G ^
-[X]
+ [X]
 
 
 ##U5G ^
-[X]
+ [X]
 
 
 ##U10G ^
-[X]
+ [X]
 
 
 ##U50G ^
-[X]
+ [X]
 
 
 ##U100G ^
-[X]
+ [X]
 
 
 ##U3000G ^
-[X]
+ [X]
 
 
 ##U5000G ^
-[X]
+ [X]
 
 
 ##UGlidedBow ^
-[X]
+ [X]
 
 
 ##UDance ^
@@ -656,7 +656,7 @@ to move again.[X]
 
 
 ##UNightmare ^
-[X]
+ [X]
 
 
 ##UDemonStone ^
@@ -664,11 +664,11 @@ Creatures only.[X]
 
 
 ##UDemonLight ^
-[X]
+ [X]
 
 
 ##URavager ^
-[X]
+ [X]
 
 
 ##UDragonstone ^
@@ -676,47 +676,47 @@ Manakete only.[X]
 
 
 ##UDemonSurge ^
-[X]
+ [X]
 
 
 ##UGreatArch ^
-[X]
+ [X]
 
 
 ##UFalchion ^
-[X]
+ [X]
 
 
 ##UStarlight ^
-[X]
+ [X]
 
 
 ##UImhullu ^
-[X]
+ [X]
 
 
 ##ULethalTalon ^
-[X]
+ [X]
 
 
 ##UFieryFang ^
-[X]
+ [X]
 
 
 ##UHellfang ^
-[X]
+ [X]
 
 
 ##UPoison ^
-[X]
+ [X]
 
 
 ##UPetrify ^
-[X]
+ [X]
 
 
 ##UStone ^
-[X]
+ [X]
 
 
 ##UAircalibur ^
@@ -728,267 +728,267 @@ Use this, and...[X]
 
 
 ##U150G ^
-[X]
+ [X]
 
 
 ##U200G ^
-[X]
+ [X]
 
 
 ##UBlackGem ^
-[X]
+ [X]
 
 
 ##UGoldGem ^
-[X]
+ [X]
 
 
 ##UMasterSword ^
-[X]
+ [X]
 
 
 ##UMasterLance ^
-[X]
+ [X]
 
 
 ##UMasterAxe ^
-[X]
+ [X]
 
 
 ##UMasterBow ^
-[X]
+ [X]
 
 
 ##UDurandal ^
-[X]
+ [X]
 
 
 ##UDarknessLance ^
-[X]
+ [X]
 
 
 ##UThorHammer ^
-[X]
+ [X]
 
 
 ##UGalerider ^
-[X]
+ [X]
 
 
 ##UBiracleSword ^
-[X]
+ [X]
 
 
 ##UToaBlade ^
-[X]
+ [X]
 
 
 ##UAndorAxe ^
-[X]
+ [X]
 
 
 ##UFleursDuMal ^
-[X]
+ [X]
 
 
 ##UMaera ^
-[X]
+ [X]
 
 
 ##U0xc9 ^
-[X]
+ [X]
 
 
 ##U0xca ^
-[X]
+ [X]
 
 
 ##U0xcb ^
-[X]
+ [X]
 
 
 ##U0xcc ^
-[X]
+ [X]
 
 
 ##U0xcd ^
-[X]
+ [X]
 
 
 ##U0xce ^
-[X]
+ [X]
 
 
 ##U0xcf ^
-[X]
+ [X]
 
 
 ##ULifeRing ^
-[X]
+ [X]
 
 
 ##UParagonRing ^
-[X]
+ [X]
 
 
 ##UThiefRing ^
-[X]
+ [X]
 
 
 ##UMiracleRing ^
-[X]
+ [X]
 
 
 ##UFollowUpRing ^
-[X]
+ [X]
 
 
 ##UBargainRing ^
-[X]
+ [X]
 
 
 ##UKnightRing ^
-[X]
+ [X]
 
 
 ##URescueRing ^
-[X]
+ [X]
 
 
 ##URecoverRing ^
-[X]
+ [X]
 
 
 ##UCirclet ^
-[X]
+ [X]
 
 
 ##UCursedBlade ^
-[X]
+ [X]
 
 
 ##UKingSword ^
-[X]
+ [X]
 
 
 ##ULoptrSword ^
-[X]
+ [X]
 
 
 ##UBeoSword ^
-[X]
+ [X]
 
 
 ##UArdenBlade ^
-[X]
+ [X]
 
 
 ##USalamander ^
-[X]
+ [X]
 
 
 ##UAwaken ^
-[X]
+ [X]
 
 
 ##UGrafcalibur ^
-[X]
+ [X]
 
 
 ##UFire ^
-[X]
+ [X]
 
 
 ##UElfire ^
-[X]
+ [X]
 
 
 ##UBolganone ^
-[X]
+ [X]
 
 
 ##UMeteor ^
-[X]
+ [X]
 
 
 ##UThunder ^
-[X]
+ [X]
 
 
 ##UElthunder ^
-[X]
+ [X]
 
 
 ##UThoron ^
-[X]
+ [X]
 
 
 ##UBolting ^
-[X]
+ [X]
 
 
 ##UWind ^
-[X]
+ [X]
 
 
 ##UElwind ^
-[X]
+ [X]
 
 
 ##UTornado ^
-[X]
+ [X]
 
 
 ##UBlizzard ^
-[X]
+ [X]
 
 
 ##USwordofLegend ^
-[X]
+ [X]
 
 
 ##USleepSword ^
-[X]
+ [X]
 
 
 ##USilenceSword ^
-[X]
+ [X]
 
 
 ##UBerserkSword ^
-[X]
+ [X]
 
 
 ##UMiracleSword ^
-[X]
+ [X]
 
 
 ##UThiefSword ^
-[X]
+ [X]
 
 
 ##USafeguard ^
-[X]
+ [X]
 
 
 ##UBarrierBlade ^
-[X]
+ [X]
 
 
 ##UFlameSword ^
-[X]
+ [X]
 
 
 ##UThunderSword ^
-[X]
+ [X]
 
 
 ##UWindSword ^
-[X]
+ [X]
 
 
 ##UDireThunder ^
-[X]
+ [X]
 
 
 ##UCharmStaff ^
@@ -1000,12 +1000,12 @@ Steals an item.[X]
 
 
 ##U0xfc ^
-[X]
+ [X]
 
 
 ##U0xfd ^
-[X]
+ [X]
 
 
 ##U0xfe ^
-[X]
+ [X]
