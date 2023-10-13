@@ -16,6 +16,7 @@
 #define RescueRingIcon 0x86
 #define RecoverRingIcon 0x87
 #define CircletIcon 0x88
+#define ArdenBladeIcon 0xA9
 #define SwordOfLegendIcon 0xCB
 #define SleepSwordIcon 0xCC
 #define SilenceSwordIcon 0xCD
@@ -30,7 +31,6 @@
 #define LightBrandIcon 0xF
 #define LandsSwordIcon 0x10
 #define MasterSwordIcon 0xD3
-#define ArdenBladeIcon 0xA9
 #define HeroicLanceIcon 0x94
 #define MasterLanceIcon 0xD4
 #define SeaAxeIcon 0x95
