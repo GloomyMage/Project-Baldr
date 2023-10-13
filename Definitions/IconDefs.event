@@ -16,6 +16,7 @@
 #define RescueRingIcon 0x86
 #define RecoverRingIcon 0x87
 #define CircletIcon 0x88
+#define ArdenBladeIcon 0xA9
 #define SwordOfLegendIcon 0xCB
 #define SleepSwordIcon 0xCC
 #define SilenceSwordIcon 0xCD
@@ -48,6 +49,7 @@
 #define ElwindIcon 0xC7
 #define TornadoIcon 0xC8
 #define BlizzardIcon 0xC9
+#define SalamanderIcon 0x62
 #define TyrfingIcon 0xB0
 #define BalmungIcon 0x09
 #define MystletainnIcon 0xB1
