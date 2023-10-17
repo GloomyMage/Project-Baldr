@@ -1,7 +1,7 @@
 ALIGN 4
 ArenaLevelInject:
 //#incbin "Arenalevelinject.dmp"
-#incbin "FE4Arenalevelinject.dmp"
+#incbin "FE4ArenalevelInject.dmp"
 POIN FE4ArenaChapterEnemyUnitListPointerTable
 ALIGN 4
 

@@ -1500,13 +1500,6 @@ Maybe they can satisfy my lust[...][A][X]
 [OpenMidLeft][LoadHolyn]
 Gaaaaah[...][A][X]
 
-##ChulainnBattle
-[OpenMidLeft][LoadHolyn]
-You're challenging me?[N]
-Don't underestimate me.[A][N] 
-Never know where you'll come[N]
-across a man with Crusader blood.[A][X]
-
 ##RecruitingChulainn
 [OpenMidRight][LoadCurrent][OpenMidLeft][LoadChulainn]
 Hah[...]Heh[...][ToggleSmile][N]
