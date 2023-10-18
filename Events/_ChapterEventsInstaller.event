@@ -7,6 +7,7 @@
 	ENDA
 	POP
 
+#include "_BattleEvents.event"
 #include "_BattleQuotes.event"
 #include "_DeathQuotes.event"
 
