@@ -14,12 +14,12 @@
 	//Just comment out whatever you don't want
 
 	#include "Unbreakable-Enemies-and-NPC-Weapons/Only-Player-Weapons-Break.txt"
-	#include "Uncheese-Wexp/Wexp-Uncheese.txt"
-	#include "Uncheese-Staff-Exp/Uncheese-Staff-Exp.txt"
-	#include "Uncheese-Combat-Exp/Uncheese-Combat-Exp.txt"	
+	//#include "Uncheese-Wexp/Wexp-Uncheese.txt"
+	//#include "Uncheese-Staff-Exp/Uncheese-Staff-Exp.txt"
+	//#include "Uncheese-Combat-Exp/Uncheese-Combat-Exp.txt"	
 	
 	//Note: If you included an exp modifier, DON'T COMMENT THE RESETTER OUT
-	#include "Uncheese-Character-Struct-Byte-Resetters/Uncheese-Charstruct-Resetter.txt"
+	//#include "Uncheese-Character-Struct-Byte-Resetters/Uncheese-Charstruct-Resetter.txt"
 	
 #else
 	ERROR "You're not assembling FE8 events!"

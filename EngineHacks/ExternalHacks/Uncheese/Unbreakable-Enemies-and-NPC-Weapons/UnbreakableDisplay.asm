@@ -35,6 +35,10 @@ cmp     r0,#0xB
 beq     Unbreakable//0xB is monster/dragonstone
 cmp     r0,#0x11
 beq 	Unbreakable//0x11 is dragonstone
+cmp     r0,#15
+beq     Unbreaktable//15 is wind
+cmp     r0,#25
+beq     Unbreaktable//25 is thunder
 b 		Continue//Anything not checked so far is not a weapon
 
 Unbreakable:

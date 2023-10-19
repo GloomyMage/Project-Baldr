@@ -24,6 +24,10 @@ cmp     r2,#0xB
 beq     WeaponCharCheck//0xB is monster/dragonstone
 cmp     r2,#0x11
 beq 	WeaponCharCheck//0x11 is dragonstone
+cmp     r2,#15
+beq 	WeaponCharCheck//15 is wind
+cmp     r2,#25
+beq 	WeaponCharCheck//25 is thunder
 b 		ItemCharCheck//Anything not checked so far is not a weapon
 ///
 StaffCharCheck:
