@@ -11,9 +11,9 @@ source_rom="$base_dir/FE8_clean.gba"
 
 main_event="$base_dir/ROMBuildfile.event"
 
-target_rom="$base_dir/SkillsTest.gba"
-target_ups="$base_dir/SkillsTest.ups" # unused, but kept for symmetry with MAKE HACK_full.cmd
-target_sym="$base_dir/SkillsTest.sym"
+target_rom="$base_dir/Baldr.gba"
+target_ups="$base_dir/Baldr.ups" # unused, but kept for symmetry with MAKE HACK_full.cmd
+target_sym="$base_dir/Baldr.sym"
 
 # defining tools
 
