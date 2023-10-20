@@ -1,6 +1,5 @@
 #include "gbafe.h"
 
-static int  absolute(int value) {return value < 0 ? -value : value;}
 int GetKillExpGain(BattleUnit* actor, BattleUnit* target);
 int GetHitExpGain(BattleUnit* actor, BattleUnit* target);
 
@@ -32,39 +31,15 @@ int GetBattleUnitExpGain(BattleUnit* actor, BattleUnit* target) {
 }
 
 int GetHitExpGain(BattleUnit* actor, BattleUnit* target) {
-    int result;
     int actorLevel = actor->unit.level;
     int targetLevel = target->unit.level;
 
-    if (actorLevel >= targetLevel) {
-        result = 10 - absolute(actorLevel - targetLevel) * 2;
-    }
-    else {
-        result = 10 + absolute(actorLevel - targetLevel) * 2;
-    }
-
-    if (result > 20) {
-        result = 20;
-    }
-
-    return result;
+    return 10 + (targetLevel - actorLevel);
 }
 
 int GetKillExpGain(BattleUnit* actor, BattleUnit* target) {
-    int result;
     int actorLevel = actor->unit.level;
     int targetLevel = target->unit.level;
 
-    if (actorLevel >= targetLevel) {
-        result = 25 - absolute(actorLevel - targetLevel) * 5;
-    }
-    else {
-        result = 25 + absolute(actorLevel - targetLevel) * 5;
-    }
-
-    if (UNIT_CATTRIBUTES(&target->unit) & CA_BOSS) {
-        result += 40;
-    }
-
-    return result;
+    return 30 + ((targetLevel - actorLevel) * 2);
 }

@@ -581,11 +581,11 @@
 #include "WyvMaster/Unarmed Installer.event"
 }
 {
-#include "WyvLord(Nuramon)\Lance Installer.event"
-#include "WyvLord(Nuramon)\Axe Installer.event"
-#include "WyvLord(Nuramon)\Handaxe Installer.event"
-#include "WyvLord(Nuramon)\Sword Installer.event"
-#include "WyvLord(Nuramon)\Unarmed Installer.event"
+#include "WyvLord(Nuramon)/Lance Installer.event"
+#include "WyvLord(Nuramon)/Axe Installer.event"
+#include "WyvLord(Nuramon)/Handaxe Installer.event"
+#include "WyvLord(Nuramon)/Sword Installer.event"
+#include "WyvLord(Nuramon)/Unarmed Installer.event"
 }
 {
 #include "Priest(Eldritch)/Staff Installer.event"
