@@ -111,7 +111,6 @@ a skill when used.[X]
 
 #include "Chapter Text/Prologue.txt"
 #include "Chapter Text/Chapter1.txt"
-#include "Chapter Text/Chapter2.txt
 #include "Chapter Text/Chapter5.txt"
 #include "Chapter Text/Narrations.txt"
 #include "CastleStuff.txt"

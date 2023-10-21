@@ -762,7 +762,7 @@ EstrellaPortrait:
 #incbin "Estrella_frames.dmp"
 #incbin "Estrella_palette.dmp"
 #incbin "Estrella_minimug.dmp"
-setMugEntry(0xCC,EstrellaPortrait,3,5,3,3)
+setMugEntry(0xCC,EstrellaPortrait,2,5,3,3)
 
 ALIGN 4
 OthelloPortrait:
@@ -812,7 +812,7 @@ PizarePortrait:
 #incbin "Pizare_frames.dmp"
 #incbin "Pizare_palette.dmp"
 #incbin "Pizare_minimug.dmp"
-setMugEntry(0xED,PizarePortrait,3,5,3,3)
+setMugEntry(0xED,PizarePortrait,2,5,2,3)
 
 ALIGN 4
 DuvallPortrait:
@@ -820,7 +820,7 @@ DuvallPortrait:
 #incbin "Duvall_frames.dmp"
 #incbin "Duvall_palette.dmp"
 #incbin "Duvall_minimug.dmp"
-setMugEntry(0xCA,DuvallPortrait,2,6,2,4)
+setMugEntry(0xCA,DuvallPortrait,2,5,3,3)
 
 ALIGN 4
 CuvuliPortrait:
@@ -878,7 +878,7 @@ IrisPortrait:
 #incbin "Iris_frames.dmp"
 #incbin "Iris_palette.dmp"
 #incbin "Iris_minimug.dmp"
-setMugEntry(0xD7,IrisPortrait,3,5,3,3)
+setMugEntry(0xD7,IrisPortrait,2,5,3,3)
 
 ALIGN 4
 PamelaPortrait:
@@ -910,7 +910,7 @@ DaccarPortrait:
 #incbin "Daccar_frames.dmp"
 #incbin "Daccar_palette.dmp"
 #incbin "Daccar_minimug.dmp"
-setMugEntry(0x41,DaccarPortrait,2,4,2,2)
+setMugEntry(0x41,DaccarPortrait,3,5,3,3)
 
 ALIGN 4
 SlayderPortrait:
@@ -1719,3 +1719,11 @@ HensonPortrait:
 #incbin "Henson_palette.dmp"
 #incbin "Henson_minimug.dmp"
 setMugEntry(0x4D,HensonPortrait,2,5,2,3)
+
+ALIGN 4
+BaronPortrait:
+#incbin "BaronPhoto_mug.dmp"
+#incbin "BaronPhoto_frames.dmp"
+#incbin "BaronPhoto_palette.dmp"
+#incbin "BaronPhoto_minimug.dmp"
+setMugEntry(0x13F,BaronPortrait,2,5,3,3)

@@ -170,7 +170,16 @@ POP
   #include "ExternalHacks/ChangeUnitDesc/Installer.event"
   
   //Name change by Epicer
-  #include "ExternalHacks/NameChange/Installer.event" 
+  #include "ExternalHacks/NameChange/Installer.event"
+  
+  //Ai Definitions by Stan 
+  #include "ExternalHacks/AiPerformExtension/AiScrDefinitions.event" 
+  
+  //Ai Extension by Stan
+  #include "ExternalHacks/AiPerformExtension/AiPerformExt.event" 
+  
+  //Ai Ferry by Stan 
+  #include "ExternalHacks/FerryAi/FerryAi.event" 
   
   //Switch Map Palette
   #include "ExternalHacks/SwitchMapPalette/Installer.event"
