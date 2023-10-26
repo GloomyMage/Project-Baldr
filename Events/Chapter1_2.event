@@ -34,14 +34,12 @@ ENDTRAP
 
 ALIGN 4
 TurnBasedEvents:
-TurnEventNPC(0x9,HeirheinArrive,1,255)
 TurnEventEnemy(0x0,JamkeAssemble,1)
 END_MAIN
 
 ALIGN 4
 LocationBasedEvents:
-Seize(10,2)
-Seize(0x13,VerdaneSeized,5,23)
+Seize(5,23)
 FE4Village(0xC,VillageOne,2,47)
 END_MAIN
 
@@ -49,8 +47,6 @@ ALIGN 32
 CharacterBasedEvents:
 CharacterEventBothWays(0x7,DewFoundIt,Edain,Dew)
 CharacterEvent(0xA,WaitJomk,Edain,Jamke)
-CharacterEventBothWays(0xB,VerdaneAlone,Sigurd,Jamke,0x13)
-CharacterEvent(0x8,Brotheriscool,Sigurd,Lachesis,0x13)
 END_MAIN
 
 MiscBasedEvents:
@@ -61,13 +57,6 @@ CauseGameOverIfLordDies
 END_MAIN
 
 BeginningScene:
-ENUT 0x9
-CHECK_EVENTID 0x79
-BEQ 0x30 0xc 0x0
-UnremoveUnit(Lachesis)
-LABEL 0x30
-LOAD1 0x0 AloneLachesus
-ENUN
 CAM1 [5,23]
 FADU 16
 MUSC 0x27
@@ -84,6 +73,14 @@ GotoPrepScreen
 EndEvent
 
 EndingScene:
+CLEE 0
+CleanText(0x17,SeizingVerdane)
+CHECK_ALIVE Jamke
+BEQ 0x1 0xC 0x0
+Text(SigurdJamkeTalk)
+GOTO 0x2
+LABEL 0x1
+LABEL 0x2
 MNC2 0x6
 EndEvent
 
@@ -133,27 +130,6 @@ GiveItem(Warp,Edain)
 MURE 60
 EndEvent
 
-HeirheinArrive:
-CAM1 [10,2]
-CleanText(0x10,ImcaDied)
-LOAD1 0x1 EldieLeaves
-ENUN
-SilentKillUnit(Eldigan)
-LOAD1 0x1 HeirheinFodder
-ENUN
-EndEvent
-
-VerdaneAlone:
-Text(SigurdJamkeTalk)
-EndEvent
-
-Brotheriscool:
-MUSS 0x30
-//uh
-TurnAlly(Lachesis)
-MURE 60
-EndEvent
-
 JamkeAssemble:
 MUSC 0x13
 CAM1 [8,29]
@@ -167,12 +143,6 @@ ENUN
 MOVE 120 Jamke [18,36]
 ENUN
 CamOff
-EndEvent
-
-VerdaneSeized:
-CLEE 0
-ENUF 0x9
-CleanText(0x17,SeizingVerdane)
 EndEvent
 
 VillageOne:
@@ -259,10 +229,6 @@ UNIT Loptrian Warrior Sandima Level(5,Enemy,1) [5,23] 0x0 0x0 0x1 REDA3R25 [Stee
 UNIT Loptrian Warrior Sandima Level(5,Enemy,1) [5,23] 0x0 0x0 0x1 REDA7R25 [SteelAxe] AttackInRangeAI
 UNIT
 
-AloneLachesus:
-UNIT Lachesis Princess Sigurd Level(2,NPC,0) [10,2] 0x0 0x0 0x0 0x1 [MiracleSwd, Heal] NeverMoveAI
-UNIT
-
 FirstVerdaners:
 UNIT Verdane2 Barbarian Sandima Level(10,Enemy,1) [8,35] 0x0 0x0 0x0 0x1 [IronAxe] NoAI
 UNIT Verdane2 Barbarian Sandima Level(10,Enemy,1) [4,33] 0x0 0x0 0x0 0x1 [IronAxe] NoAI
@@ -282,22 +248,6 @@ UNIT Verdane2 Hunter Sandima Level(10,Enemy,1) [7,30] 0x0 0x0 0x0 0x1 [IronBow] 
 UNIT Verdane2 Hunter Sandima Level(10,Enemy,1) [8,29] 0x0 0x0 0x0 0x1 [IronBow] NoAI
 UNIT Verdane2 Hunter Sandima Level(10,Enemy,1) [9,30] 0x0 0x0 0x0 0x1 [IronBow] NoAI
 UNIT Commander Myrm Sandima Level(6,Enemy,1) [8,37] DropItem 0x0 0x0 0x1 [CursedBlade] NoAI
-UNIT
-
-EldieLeaves:
-UNIT Eldigan PalM Chagall Level(20,NPC,0) [10,2] 0x0 0x0 0x1 REDA17R0 [Mystletainn, SteelLance] NoAI
-UNIT
-
-HeirheinFodder:
-UNIT Heirhein AxeCav Bordeaux Level(5,Enemy,1) [2,0] 0x0 0x0 0x0 0x1 [IronAxe] NoAI
-UNIT Heirhein AxeCav Bordeaux Level(5,Enemy,1) [4,0] 0x0 0x0 0x0 0x1 [IronAxe] NoAI
-UNIT Heirhein AxeCav Bordeaux Level(5,Enemy,1) [6,0] 0x0 0x0 0x0 0x1 [IronAxe] NoAI
-UNIT Heirhein AxeCav Bordeaux Level(5,Enemy,1) [8,0] 0x0 0x0 0x0 0x1 [IronAxe] NoAI
-UNIT Heirhein AxeCav Bordeaux Level(5,Enemy,1) [12,0] 0x0 0x0 0x0 0x1 [IronAxe] NoAI
-UNIT Heirhein AxeCav Bordeaux Level(5,Enemy,1) [14,0] 0x0 0x0 0x0 0x1 [IronAxe] NoAI
-UNIT Heirhein AxeCav Bordeaux Level(5,Enemy,1) [16,0] 0x0 0x0 0x0 0x1 [IronAxe] NoAI
-UNIT Heirhein AxeCav Bordeaux Level(5,Enemy,1) [18,0] 0x0 0x0 0x0 0x1 [IronAxe] NoAI
-UNIT Heirhein AxeCav Bordeaux Level(5,Enemy,1) [20,0] 0x0 0x0 0x0 0x1 [IronAxe] NoAI
 UNIT
 
 TheMaiden:

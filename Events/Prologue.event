@@ -206,7 +206,7 @@ EndEvent
 
 AzelArvisTalkConvo:
 MUSC 0x2D
-Text(SilverSwordTime)
+Text(SalamanderTime)
 GiveItem(Salamander,Azel)
 MOVE 120 ArvisGen1 [17,0]
 ENUN
@@ -600,8 +600,8 @@ UNIT Kinbois Warrior Sandima Level(10,Enemy,1) [7,7] 0x0 0x0 0x0 0x1 [SilverAxe,
 UNIT Verdane1 Barbarian DiMaggio Level(5,Enemy,1) [19,12] 0x0 0x0 0x1 REDA28R22 [HandAxe] AttackInRangeAI
 UNIT Verdane1 Barbarian DiMaggio Level(5,Enemy,1) [19,12] 0x0 0x0 0x1 REDA29R22 [HandAxe] AttackInRangeAI
 UNIT Verdane1 Barbarian DiMaggio Level(5,Enemy,1) [19,12] 0x0 0x0 0x1 REDA30R22 [HandAxe] AttackInRangeAI
-UNIT Verdane1 Brigand DiMaggio Level(1,Enemy,1) [9,1] 0x0 0x0 0x0 0x1 [IronAxe] BrigandAI
-UNIT Verdane1 Brigand DiMaggio Level(1,Enemy,1) [8,5] 0x0 0x0 0x0 0x1 [IronAxe] BrigandAI
+UNIT Verdane1 Brigand DiMaggio Level(1,Enemy,1) [9,1] 0x0 0x0 0x0 0x1 [IronAxe] TheWaitingBrigandAI
+UNIT Verdane1 Brigand DiMaggio Level(1,Enemy,1) [8,5] 0x0 0x0 0x0 0x1 [IronAxe] TheWaitingBrigandAI
 UNIT Verdane1 Barbarian DiMaggio Level(1,Enemy,1) [18,10] 0x0 0x0 0x0 0x1 [IronAxe] NoAI
 UNIT Verdane1 Barbarian DiMaggio Level(1,Enemy,1) [21,6] 0x0 0x0 0x0 0x1 [IronAxe] NoAI
 UNIT Verdane1 Barbarian DiMaggio Level(10,Enemy,1) [19,12] 0x0 0x0 0x1 REDA27R21 [HandAxe] AttackInRangeAI
@@ -613,16 +613,16 @@ UNIT Verdane1 Hunter DiMaggio Level(1,Enemy,1) [38,15] 0x0 0x0 0x0 0x1 [IronBow]
 UNIT Verdane1 Barbarian DiMaggio Level(10,Enemy,1) [32,11] 0x0 0x0 0x0 0x1 [HandAxe] AttackInRangeAI
 UNIT Verdane1 Barbarian DiMaggio Level(1,Enemy,1) [33,12] 0x0 0x0 0x0 0x1 [IronAxe] NoAI
 UNIT Verdane1 Barbarian DiMaggio Level(1,Enemy,1) [33,10] 0x0 0x0 0x0 0x1 [IronAxe] NoAI
-UNIT Verdane1 Brigand DiMaggio Level(1,Enemy,1) [39,19] 0x0 0x0 0x0 0x1 [IronAxe] BrigandAI
+UNIT Verdane1 Brigand DiMaggio Level(1,Enemy,1) [39,19] 0x0 0x0 0x0 0x1 [IronAxe] TheWaitingBrigandAI
 UNIT Verdane1 Barbarian DiMaggio Level(1,Enemy,1) [41,16] 0x0 0x0 0x0 0x1 [IronAxe] NoAI
 UNIT Verdane1 Barbarian DiMaggio Level(1,Enemy,1) [38,12] 0x0 0x0 0x0 0x1 [IronAxe] NoAI
 UNIT Verdane1 Barbarian DiMaggio Level(1,Enemy,1) [43,13] 0x0 0x0 0x0 0x1 [IronAxe] NoAI
 UNIT Verdane1 Barbarian DiMaggio Level(1,Enemy,1) [47,7] 0x0 0x0 0x0 0x1 [IronAxe] NoAI
 UNIT Verdane1 Barbarian DiMaggio Level(1,Enemy,1) [43,4] 0x0 0x0 0x0 0x1 [IronAxe] NoAI
-UNIT Verdane1 Brigand DiMaggio Level(1,Enemy,1) [45,2] 0x0 0x0 0x0 0x1 [IronAxe] BrigandAI
+UNIT Verdane1 Brigand DiMaggio Level(1,Enemy,1) [45,2] 0x0 0x0 0x0 0x1 [IronAxe] TheWaitingBrigandAI
 UNIT Verdane1 Barbarian DiMaggio Level(10,Enemy,1) [37,4] 0x0 0x0 0x0 0x1 [HandAxe] AttackInRangeAI
 UNIT Verdane1 Barbarian DiMaggio Level(1,Enemy,1) [32,3] 0x0 0x0 0x0 0x1 [IronAxe] NoAI
-UNIT Verdane1 Brigand DiMaggio Level(1,Enemy,1) [28,0] 0x0 0x0 0x0 0x1 [IronAxe] BrigandAI
+UNIT Verdane1 Brigand DiMaggio Level(1,Enemy,1) [28,0] 0x0 0x0 0x0 0x1 [IronAxe] TheWaitingBrigandAI
 UNIT Verdane1 Barbarian DiMaggio Level(1,Enemy,1) [29,0] 0x0 0x0 0x0 0x1 [IronAxe] NoAI
 UNIT Verdane1 Barbarian DiMaggio Level(10,Enemy,1) [28,4] 0x0 0x0 0x0 0x1 [HandAxe] AttackInRangeAI
 UNIT Verdane1 Barbarian DiMaggio Level(1,Enemy,1) [20,14] 0x0 0x0 0x0 0x1 [IronAxe] NoAI

@@ -389,8 +389,8 @@ UNIT Commander AxeCav Kinbois Level(10,Enemy,1) [34,29] 0x0 0x0 0x0 0x1 [HandAxe
 UNIT Verdane1 Fighter Kinbois Level(1,Enemy,1) [34,29] 0x0 0x0 0x1 REDA34R32 [IronAxe, HandAxe] AttackInRangeAI
 UNIT Verdane1 Fighter Kinbois Level(1,Enemy,1) [34,29] 0x0 0x0 0x1 REDA33R30 [IronAxe, HandAxe] AttackInRangeAI
 UNIT Verdane1 Fighter Kinbois Level(1,Enemy,1) [34,29] 0x0 0x0 0x1 REDA35R30 [IronAxe, HandAxe] AttackInRangeAI
-UNIT Ruffian Brigand Henson Level(1,Enemy,1) [26,12] 0x0 0x0 0x0 0x1 [IronAxe] BrigandAI
-UNIT Ruffian Brigand Henson Level(1,Enemy,1) [0,32] 0x0 0x0 0x0 0x1 [IronAxe] BrigandAI
+UNIT Ruffian Brigand Henson Level(1,Enemy,1) [26,12] 0x0 0x0 0x0 0x1 [IronAxe] TheWaitingBrigandAI
+UNIT Ruffian Brigand Henson Level(1,Enemy,1) [0,32] 0x0 0x0 0x0 0x1 [IronAxe] TheWaitingBrigandAI
 UNIT Ayra MyrmF Kinbois Level(4,Enemy,0) [34,29] 0x0 0x0 0x1 REDA34R31 [IronBlade] AttackInRangeAI
 UNIT
 

@@ -165,6 +165,21 @@ Very well! Let us ride together.[A][N]
 But you mustn't leave my side.[A][N][OpenFarLeft]
 I won't.[A][X]
 
+##Holynisnotamused
+[OpenMidLeft][LoadHolyn]
+Is that all there is?[A][N]
+Not even the Gladiators of Agustria[N]
+can fill my desire for a challenge.[A][N]
+I heard the Grannvelian army is[N]
+in this castle.[A][N]
+They conquered all of Verdane.[N]
+They must have some fine fighters.[A][N]
+Maybe they can satisfy my lust[...][A][X]
+
+##HolynisRekt
+[OpenMidLeft][LoadHolyn]
+Gaaaaah[...][A][X]
+
 ##ChulainnBattle
 [OpenMidLeft][LoadHolyn]
 You're challenging me?[N]
