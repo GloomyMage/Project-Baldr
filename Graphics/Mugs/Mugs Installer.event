@@ -1721,9 +1721,9 @@ HensonPortrait:
 setMugEntry(0x4D,HensonPortrait,2,5,2,3)
 
 ALIGN 4
-BaronPortrait:
+BaronPhotoPortrait:
 #incbin "BaronPhoto_mug.dmp"
 #incbin "BaronPhoto_frames.dmp"
 #incbin "BaronPhoto_palette.dmp"
 #incbin "BaronPhoto_minimug.dmp"
-setMugEntry(0x13F,BaronPortrait,2,5,3,3)
+setMugEntry(0x13F,BaronPhotoPortrait,2,5,3,3)
