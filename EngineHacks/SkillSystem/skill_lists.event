@@ -53,14 +53,17 @@ BYTE 00 00
 ALIGN 4
 
 DewSkillList:
+BYTE 1 SolID
 BYTE 00 00
 ALIGN 4
 
 AyraSkillList:
+BYTE 1 NihilID
 BYTE 00 00
 ALIGN 4
 
 JamkeSkillList:
+BYTE 1 AdeptID
 BYTE 00 00
 ALIGN 4
 
@@ -77,14 +80,17 @@ BYTE 00 00
 ALIGN 4
 
 BeowolfSkillList:
+BYTE 1 AccostID
 BYTE 00 00
 ALIGN 4
 
 LewynSkillList:
+BYTE 1 CritUpID
 BYTE 00 00
 ALIGN 4
 
 SilviaSkillList:
+BYTE 1 AdeptID
 BYTE 00 00
 ALIGN 4
 
@@ -209,6 +215,7 @@ BYTE 00 00
 ALIGN 4
 
 LindaSkillList:
+BYTE 1 ParagonID
 BYTE 00 00
 ALIGN 4
 
@@ -245,10 +252,13 @@ BYTE 00 00
 ALIGN 4
 
 OifeySkillList:
+BYTE 1 CritUpID
 BYTE 00 00
 ALIGN 4
 
 JuliaSkillList:
+BYTE 1 AdeptID
+BYTE 1 NihilID
 BYTE 00 00
 ALIGN 4
 
@@ -265,6 +275,8 @@ BYTE 00 00
 ALIGN 4
 
 AresSkillList:
+BYTE 1 AdeptID
+BYTE 1 VantageID
 BYTE 00 00
 ALIGN 4
 
@@ -281,6 +293,7 @@ BYTE 00 00
 ALIGN 4
 
 HannibalSkillList:
+BYTE 1 AdeptID
 BYTE 00 00
 ALIGN 4
 
@@ -297,6 +310,7 @@ BYTE 00 00
 ALIGN 4
 
 ArionSkillList:
+BYTE 1 NihilID
 BYTE 00 00
 ALIGN 4
 

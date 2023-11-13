@@ -157,6 +157,9 @@ POP
   //Repair Items by Zane and Vesly
   #include "ExternalHacks/RepairItems/RepairItems.event"
   
+  //Shopping edit by AuraWolf
+  #include "ExternalHacks/ShoppingEdits/ShoppingEdits.event"
+  
   //HP Class Limit Fix
   #include "ExternalHacks/SetHPClassLimit/SetHPClassLimit.event"
   
@@ -167,13 +170,31 @@ POP
   #include "ExternalHacks/ChangeUnitDesc/Installer.event"
   
   //Name change by Epicer
-  #include "ExternalHacks/NameChange/Installer.event" 
+  #include "ExternalHacks/NameChange/Installer.event"
+  
+  //Ai Definitions by Stan 
+  #include "ExternalHacks/AiPerformExtension/AiScrDefinitions.event" 
+  
+  //Ai Extension by Stan
+  #include "ExternalHacks/AiPerformExtension/AiPerformExt.event" 
+  
+  //Ai Ferry by Stan 
+  #include "ExternalHacks/FerryAi/FerryAi.event" 
   
   //Switch Map Palette
   #include "ExternalHacks/SwitchMapPalette/Installer.event"
   
   //New Calculations (crit)
   #include "Baldr/NewCalcs/NewCalcs.event"
+  
+  //Support Check by Contro
+  #include "Baldr/SupportCheck/SupportASMCs.lyn.event"
+  
+  //Experience formula
+  #include "Baldr/NewExpFormula/NewExpFormula.lyn.event"
+  
+  //Minimug fix
+  #include "Necessary/MinimugPalette/MinimugPalette.event"
   
   //Set Unit Condition
   #include "Necessary/SetStatus/SetStatusInstaller.event"

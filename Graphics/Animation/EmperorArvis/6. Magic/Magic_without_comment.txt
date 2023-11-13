@@ -215,6 +215,7 @@ C06
 C0D
 ~~~
 /// - Mode 7
+C02
 3 p- Magic_000.png
 C0E
 3 p- Magic_072.png
@@ -226,6 +227,7 @@ C01
 C0D
 ~~~
 /// - Mode 8
+C02
 3 p- Magic_000.png
 C0E
 3 p- Magic_072.png

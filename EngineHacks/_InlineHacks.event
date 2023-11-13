@@ -1,12 +1,44 @@
 PUSH
 
 //Allow each animation table entry to have its own palette
+PUSH
 ORG 0x59A34
 SHORT 0x46C0 0x46C0
 ORG 0x59B16
 SHORT 0x46C0 0x46C0
+POP
+
+//Prep screen text width
+PUSH
+ORG 0x99554 //Prep screen item menu selected pixel width
+BYTE 0x2B
+ORG 0x9878C //Prep screen item menu selected tile width
+BYTE 0x6
+ORG 0x9A820 //Prep screen item menu tile width
+BYTE 0x6
+ORG 0x98728 //Prep screen pick units tile width
+BYTE 0x6
+POP
+
+//Change Y location of map sprite in statscreen
+//On load
+PUSH
+ORG 0x886EC  //Y argument before function call
+BYTE 0x8C    //Y coord
+
+//Unit switch
+ORG 0x87E34  //Y argument before function call
+BYTE 0x8C    //Y coord
+POP
+
+//1 RN By Pushwall
+PUSH
+    ORG $CC2
+    SHORT $E004
+POP
 
 //Change Ephraim Campaign Main Character
+PUSH
 ORG 0x037B8A
 BYTE 02
 ORG 0x037B96
@@ -15,24 +47,128 @@ ORG 0x33274
 BYTE 02
 ORG 0x3327C
 BYTE 02
+POP
+
+// Unit id and higher to class grow with autolevel
+PUSH 
+ORG 0x17C4C 
+BYTE 0xE7
+POP
+
+// Unit ID Cannot be hit by sleep, berserk, and silence 
+// by 7743 
+PUSH
+ORG 0x2CD44 
+BYTE 0xA3
+ORG 0x2CD48
+BYTE 0xA4
+POP
+
+// Weapon Rank Fix
+// by Serif 
+PUSH
+ORG 0x2C1A2
+BYTE 255
+ORG 0x2C1A6
+BYTE 255
+POP
+
+//Mystery trading by Contro
+PUSH
+ORG 0x22F50
+SHORT 0x46C0 //Skip partial action check
+POP
+
+PUSH
+//gTerrainList_LootableVillages
+ORG 0x5A8120
+BYTE 0x3 0x37 0x0
+
+//gTerrainList_LootableVillagesAndChests
+ORG 0x5A8124
+BYTE 0x03 0x37 0x21 0x0
+POP
 
 //Change Supplies
+PUSH
 ORG 0x23F88
 BYTE 243
 ORG 0x23F94
 BYTE 244
+POP
 
 //Class Grants Bonus EXP when killed
+PUSH
 ORG 0x02C3FE
 BYTE 100
 ORG 0x2C4F8 
 BYTE 100
+POP
 
 // Lockpick skill - Kirito 
+PUSH
 ORG 0x40C6A 
 BYTE 18
+POP
+
+// Pegasus triangle attack 
+PUSH
+ORG 0x750C4 
+BYTE 69 
+ORG 0x7510C 
+BYTE 69 
+ORG 0x75156 
+BYTE 69
+ORG 0x750CC 
+BYTE 70 
+ORG 0x75114 
+BYTE 70
+POP
+
+// Armor triangle - 7743
+PUSH
+ORG 0x74FD8 
+BYTE 84
+ORG 0x75044 
+BYTE 84 
+ORG 0x74FE0 
+BYTE 86
+ORG 0x7504C 
+BYTE 86 
+ORG 0x74FB4 
+BYTE 82 
+ORG 0x74FBA 
+BYTE 88
+ORG 0x74FC8 
+BYTE 82 
+ORG 0x75034 
+BYTE 82 
+ORG 0x74FD0 
+BYTE 88
+ORG 0x7503C
+BYTE 88
+POP
+
+// Ewan promotes rank removal 
+PUSH
+ORG 0x2bd0a 
+BYTE 97 
+ORG 0x2BE5A 
+BYTE 97 
+ORG 0x2bd10 
+BYTE 97 
+ORG 0x2BE60 
+BYTE 97
+POP
+
+// Manakete bg - 7743 
+PUSH
+ORG 0x70B7E 
+BYTE 97
+POP
 
 //Phantom Class HardCoding
+PUSH
 ORG 0x18EDE
 BYTE 97
 ORG 0x3122E
@@ -41,6 +177,7 @@ ORG 0x0240F6
 BYTE 97
 ORG 0x002C528
 BYTE 97
+POP
 
 //thracia trading
 PUSH
@@ -118,6 +255,20 @@ PUSH
 
 POP
 
+//Battle conversations for any action by Contro
+PUSH
+ORG 0x8351A         //Anims off
+SHORT 0x46C0 0x46C0 //Skip attack action branch
+ORG 0x834CA         //Anims on
+SHORT 0x46C0 0x46C0 //Skip attack action branch
+POP
+
+//Remove con from weight calculations
+PUSH
+ORG 0x2AB86
+SHORT 0x46C0 //nop
+POP
+
 //5x fixes
 PUSH
 ORG $024DF2
@@ -130,6 +281,7 @@ BYTE 0xE0
 POP
 
 //Allows MNC2 To jump to any chapter ID.
+PUSH
 ORG 0xBD070
 SHORT 0xE0B8
 //Fixes the world map chapter ID being loaded instead of the actual chapter ID.
@@ -138,6 +290,7 @@ SHORT 0 0
 //Fixes the game considering some chapters postgame.
 ORG 0x897C4
 SHORT 0x200E 0x5620 //mov r0, #0x0E; ldsb r0, [r4, r0]
+POP
 
 POP
 

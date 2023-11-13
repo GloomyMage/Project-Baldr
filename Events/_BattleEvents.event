@@ -1,0 +1,11 @@
+ALIGN 4
+DeirdreBattleQuoteEvent:
+GetUnitStatus(Deirdre, Item1)
+SVAL s1 Silence
+BEQ 0x9000 s1 sC
+Text(DeirdreandSandimaBattle)
+GOTO 0x9001
+LABEL 0x9000
+Text(SandimaSealMyMagic)
+LABEL 0x9001
+EndEvent

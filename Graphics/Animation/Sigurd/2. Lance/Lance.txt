@@ -1,5 +1,5 @@
 #######################################################
-#C2 bos_at1 Knight Lord Lance
+#96 pbrf_sp1 Recruit Lance
 #
 #When importing to FEditorAdv delete # and after each line.
 #######################################################

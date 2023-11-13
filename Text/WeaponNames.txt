@@ -844,8 +844,8 @@ Recover Ring[X]
 Circlet[X]
 
 
-##NDireThunder ^
-Dire Thunder[X]
+##NCursedBlade ^
+Cursed Blade[X]
 
 
 ##NKingSword ^
@@ -964,8 +964,8 @@ Thunder Sword[X]
 Wind Sword[X]
 
 
-##N0xf9 ^
-0xf9[X]
+##NDireThunder ^
+Dire Thunder[X]
 
 
 ##NCharmStaff ^

@@ -754,6 +754,12 @@ Thrud[X]
 ##Desc_Seti ^
 Ced[X]
 
+##Desc_Deadlord ^
+Deadlord[X]
+
+##Desc_Legion ^
+Trororo[X]
+
 
 
 ##Desc_Verdane ^
@@ -962,3 +968,7 @@ Enemy[X]
 
 ##Desc_Arena7 ^
 Enemy[X]
+
+##Desc_Commander ^
+Experienced and trusted soldier[N]
+who exerces leadership skills.[X]

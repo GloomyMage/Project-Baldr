@@ -4,9 +4,13 @@
 
 #include "ClassCards/Class Card Installer.event"
 
-#include AnimationTable.event
+#include "Animation/RepointedTable.event"
+
+//#include AnimationTable.event
 
 #include "Animation/Master Animation Installer.event"
+
+#include "BattlePlatforms/BattlePlatformInstaller.event"
 
 #include "Palettes/_Battle Palette Installer.event"
 
@@ -15,3 +19,9 @@
 #include "Minimugs/MinimugInstaller.event"
 
 #include "Backgrounds/Background Installer.event"
+
+#include "StatScreen/Installer.event"
+
+#include "TitleScreen/Installer.event"
+
+#include "Difficulty/Installer.event"

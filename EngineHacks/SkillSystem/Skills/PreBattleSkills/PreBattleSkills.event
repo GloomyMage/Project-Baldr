@@ -77,7 +77,7 @@ ALIGN 4
 Fortune:
 #incbin "Fortune/Fortune.dmp"
 POIN SkillTester
-WORD FortuneID
+WORD NihilID
 
 ALIGN 4
 Frenzy:

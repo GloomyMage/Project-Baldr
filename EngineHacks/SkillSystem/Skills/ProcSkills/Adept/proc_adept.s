@@ -42,6 +42,7 @@ beq End
 
 mov  r0, #0x5E
 ldrh r0, [r4, r0] @Attack speed as activation stat
+add  r0, #20
 mov r1, r4 @skill user
 blh d100Result
 cmp r0, #1

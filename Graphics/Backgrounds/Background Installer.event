@@ -14,4 +14,17 @@ ALIGN 4
 BGThroneTSA:
 #incbin "ThroneTSA.dmp"
 
+ALIGN 4
+MapImage:
+#incbin "WorldMap.lz77"
+
+ALIGN 4
+MapPalette:
+#incbin "WorldMap.pal"
+
+ALIGN 4
+MapTSA:
+#incbin "WorldMapTSA.dmp"
+
 SetConvoBackground(0x10, ThroneImage, BGThroneTSA, ThronePalette)
+SetConvoBackground(0x8, MapImage, MapTSA, MapPalette)

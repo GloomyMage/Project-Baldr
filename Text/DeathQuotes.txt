@@ -34,20 +34,58 @@ just let me go in peace...[A][X]
 
 ##QuanDeath
 [OpenMidRight][LoadQuan]
-oops[A][X]
+Urgh[...] What have I[...][A][X]
 
 ##EthlynDeath
 [OpenMidRight][LoadEthlyn]
-oops[A][X]
+Aah[...] Quan[...] [...]help[...][A][X]
 
 ##FinnDeath1
 [OpenMidRight][LoadFinn]
-oops[A][X]
+[...]my apologies.[A][N]
+I cannot fight with this wound,[A][N]
+so I shall return[N]
+to Leonster at once.[A][X]
 
 ##MidirDeath
 [OpenMidRight][LoadMidir]
 Urgh...[N]
 Milady, I...[A][X]
+
+##EdainDeath
+[OpenMidRight][LoadEdain]
+O lords above[...][A][N]
+Protect my comrades[...][N]
+in my stead[...][A][X]
+
+##DewDeath
+[OpenMidRight][LoadDew]
+Ah, geez[...] I stuffed[N]
+this one up, huh?[A][X]
+
+##AyraDeath
+[OpenMidRight][LoadAyra]
+Shannan[...] Grow up well[...][A][X]
+
+##JamkeDeath
+[OpenMidRight][LoadJamke]
+Gah! Is this the[N]
+end for me[...]already?[A][X]
+
+##DeirdreDeath
+[OpenMidRight][LoadDeirdre]
+No, stop! Where[N]
+are you taking me?![A][X]
+
+##HolynDeath
+[OpenMidRight][LoadHolyn]
+Heh[...] I really am[N]
+a dolt, aren't I[...]?[A][X]
+
+##LachesisDeath
+[OpenMidRight][LoadLachesis]
+Ahh[...] Eldie[...][A][X]
+
 
 ##SeliphDeath
 [OpenMidRight][LoadSeliph]

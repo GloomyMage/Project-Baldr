@@ -25,6 +25,9 @@
     #include "EngineHacks/_MasterHackInstaller.event"
     MESSAGE Used hax space ends at currentOffset
 
+    //Cannnot Die By Vesly
+    #include "CannotDie/Installer.event"
+
 	#ifdef USE_TEST_MAP
     //Events
     #include "Events/_ChapterEventsInstaller.event"

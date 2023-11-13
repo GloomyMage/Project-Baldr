@@ -36,6 +36,10 @@
 //songs
 
 {
+SongTable(0x4,Glorious,1)
+#include "songs/GloriusGrannvale.event"
+}
+{
 SongTable(0x9,FE04Field,1)
 #include "songs/FE4Prologue.event"
 }
@@ -52,8 +56,24 @@ SongTable(0x13,VerdanePhase,1)
 #include "songs/Verdane.event"
 }
 {
+SongTable(0x14,AgustriaPhase,1)
+#include "songs/Agustria.event"
+}
+{
 SongTable(0xA,EvansCastle,1)
 #include "songs/VerdaneCastle.event"
+}
+{
+SongTable(0xB,MaidenSpirit,1)
+#include "songs/SpiritForest.event"
+}
+{
+SongTable(0xD,DisturbanceInAgustria,1)
+#include "songs/DisturbanceAgustria.event"
+}
+{
+SongTable(0xF,NPCTheme,1)
+#include "songs/AlliedForces.event"
 }
 {
 SongTable(0x26,Crisis,1)
@@ -72,6 +92,18 @@ SongTable(0x1B,MidBoss,0)
 #include "songs/MidBoss.event"
 }
 {
+SongTable(0x1C,L_FE4_Fateful_Showdown,0)
+#include "songs/Fateful.event"
+}
+{
+SongTable(0x5D,BadToPal,0)
+#include "songs/EnemyToFriend.event"
+}
+{
+SongTable(0x5E,DewTheme,1)
+#include "songs/Dew.event"
+}
+{
 SongTable(0x31,Victory1FE4,1)
 #include "songs/Victory1.event"
 }
@@ -84,6 +116,14 @@ SongTable(0x25,Enemy1,1)
 #include "songs/EnemyMessage1.event"
 }
 {
+SongTable(0x27,Enemy2,1)
+#include "songs/EnemyMessage2.event"
+}
+{
+SongTable(0xC0,Munster,1)
+#include "songs/MansterPalace.event"
+}
+{
 SongTable(0x10,VictoryNear,1)
 #include "songs/NearVictory.event"
 }
@@ -91,6 +131,18 @@ SongTable(0x10,VictoryNear,1)
 SongTable(0x30,FE4JoinUs,1)
 #include "songs/JoinUs.event"
 }
+// 224 FE6 dance sfx 1
+{
+SongTable(0x148,se_fe6dance1,6)
+#include "songs/se_fe6dance1.event"
+}
+
+// 225 FE6 dance sfx 2
+{
+SongTable(0x149,se_fe6dance2,6)
+#include "songs/se_fe6dance2.event"
+}
+
 //installation of ipatix's sound mixer. Essential if you want to use GS synths; also makes most music sound better by reducing background noise.
 
 PUSH
@@ -479,6 +531,10 @@ VoiceDirect(SynthstringsTable,0x0,0x3c,0x0281DD0,0x0,0x0,0x0,0xff,0x0,0xff,0xc0)
 VoiceDirect(SynthstringsTable,0x1,0x3c,0x04D1AD4,0x0,0x0,0x0,0xff,0x0,0xff,0xd0)
 ORG SynthstringsTable+0x0c*2
 
+FE6DanceTable:
+VoiceDirect(FE6DanceTable,0x0,0x3c,fe6dancesound1,0x0,0x0,0x0,0xff,0x0,0xff,0x0)
+VoiceDirect(FE6DanceTable,0x1,0x3c,fe6dancesound2,0x0,0x0,0x0,0xff,0x0,0xff,0x0)
+ORG FE6DanceTable+0x0c*2
 
 //note charts
 
@@ -548,6 +604,14 @@ GSSquareMacro(0x20,0xf0,0x20,0x80)
 
 //SampleHeader macro for .sb samples converted from .wav
 #define SampleHeader(IsSampleLooped,SamplePitchAdjustment,SampleLoopPoint,SampleLength) "BYTE $00 $00 $00 IsSampleLooped*0x40; WORD SamplePitchAdjustment; WORD SampleLoopPoint; WORD SampleLength"
+
+fe6dancesound1:
+#incbin "samples/fe6dance1.dmp"
+ALIGN 4
+
+fe6dancesound2:
+#incbin "samples/fe6dance2.dmp"
+ALIGN 4
 
 
 

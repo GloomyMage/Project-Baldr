@@ -5,17 +5,38 @@ POP
 
 #define SpecifiedBattleConvo(Character1,Character2,Chapter,EventID,TextID) "SHORT Character1 Character2 Chapter EventID TextID 0x0 0x0 0x0; SHORT Character2 Character1 Chapter EventID TextID 0x0 0x0 0x0"
 #define UnspecifiedBattleConvo(Character,Chapter,EventID,TextID) "SHORT Character 0x0 Chapter EventID TextID 0x0 0x0 0x0; SHORT 0x0 Character Chapter EventID TextID 0x0 0x0 0x0"
+#define BattleQuoteEntry(Unit1, Unit2, ChapterID, CompletionFlag, TextID, QuoteEvent) "SHORT Unit1 Unit2 ChapterID CompletionFlag TextID 0x0000; POIN QuoteEvent"
+#define BattleQuoteEntryBothWays(Unit1, Unit2, ChapterID, CompletionFlag, TextID, QuoteEvent) "BattleQuoteEntry(Unit1, Unit2, ChapterID, CompletionFlag, TextID, QuoteEvent); BattleQuoteEntry(Unit2, Unit1, ChapterID, CompletionFlag, TextID, QuoteEvent)"
 
 ALIGN 4
 BattleQuoteTable: // This is in free space
 //prologue
 SpecifiedBattleConvo(DiMaggio,Noish,0x0,0x19,NoishandDiMaggioBattle)
-SpecifiedBattleConvo(Noish,DiMaggio,0x0,0x19,NoishandDiMaggioBattle)
 UnspecifiedBattleConvo(Munnir,0x0,0x0,MunnirRektsMidir)
 UnspecifiedBattleConvo(DiMaggio,0x0,0x1,DiMaggioBattle)
 UnspecifiedBattleConvo(Gerrard,0x0,0x11,GerrardBattle)
 //ch 1
+SpecifiedBattleConvo(Ayra,Lex,0x2,0x10,LexandAyraBattle)
+UnspecifiedBattleConvo(Ayra,0x2,0xF,AyraBattle)
+SpecifiedBattleConvo(Kinbois,Ethlyn,0x2,0x16,EthlynandCimbaethBattle)
+UnspecifiedBattleConvo(Kinbois,0x2,0x1,CimbaethBattle)
+SpecifiedBattleConvo(Munnir,Azel,0x2,0x17,AzelleandMunnirBattle)
+SpecifiedBattleConvo(Munnir,Midir,0x2,0x18,MidirandMunnirBattle)
+SpecifiedBattleConvo(Munnir,Dew,0x2,0x19,DewandMunnirBattle)
+SpecifiedBattleConvo(Munnir,Edain,0x2,0x1C,EdainandMunnirBattle)
+UnspecifiedBattleConvo(Munnir,0x2,0xE,MunnirBattle)
+SpecifiedBattleConvo(Elliot,Lachesis,0x3,0x7,LachesisandElliotBattle)
+UnspecifiedBattleConvo(Elliot,0x3,0x1,ElliotBattle)
+BattleQuoteEntryBothWays(Deirdre, Sandima, 0x4, 0x10, 0x0000, DeirdreBattleQuoteEvent)
+SpecifiedBattleConvo(Sandima,Jamke,0x4,0x11,JamkeandSandimaBattle)
+UnspecifiedBattleConvo(Sandima,0x4,0x1,SandimaBattle)
+SpecifiedBattleConvo(Dew,Jamke,0x4,0xE,DewandJamkeBattle)
+SpecifiedBattleConvo(Edain,Jamke,0x4,0xF,EdainandJamkeBattle)
+UnspecifiedBattleConvo(Jamke,0x4,0xD,JamkeBattle)
+SpecifiedBattleConvo(Burkaul,Jamke,0x4,0x13,JamkeandBurkaulBattle)
+UnspecifiedBattleConvo(Burkaul,0x4,0x12,BurkaulBattle)
 //ch 2
+UnspecifiedBattleConvo(Holyn,0x6,0x1,ChulainnBattle)
 //ch 3
 //ch 4
 //ch 5 

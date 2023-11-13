@@ -1,7 +1,7 @@
 ALIGN 4
 ArenaLevelInject:
 //#incbin "Arenalevelinject.dmp"
-#incbin "FE4Arenalevelinject.dmp"
+#incbin "FE4ArenalevelInject.dmp"
 POIN FE4ArenaChapterEnemyUnitListPointerTable
 ALIGN 4
 
@@ -81,25 +81,25 @@ POIN ArenaChapter1 //0x1 Chapter ID
 POIN ArenaChapter1 //0x2 Chapter ID
 POIN ArenaChapter1 //0x3 Chapter ID
 POIN ArenaChapter1 //0x4 Chapter ID
-POIN ArenaChapter1 //0x5 Chapter ID
-POIN ArenaChapter1 //0x6 Chapter ID
-POIN ArenaChapter1 //0x7 Chapter ID
-POIN ArenaChapter1 //0x8 Chapter ID
-POIN ArenaChapter1 //0x9 Chapter ID
-POIN ArenaChapter1 //0xA Chapter ID
-POIN ArenaChapter1 //0xB Chapter ID
-POIN ArenaChapter1 //0xC Chapter ID
-POIN ArenaChapter1 //0xD Chapter ID
-POIN ArenaChapter1 //0xE Chapter ID
-POIN ArenaChapter1 //0xF Chapter ID
-POIN ArenaChapter1 //0x10 Chapter ID
-POIN ArenaChapter1 //0x11 Chapter ID
-POIN ArenaChapter1 //0x12 Chapter ID
-POIN ArenaChapter1 //0x13 Chapter ID
-POIN ArenaChapter1 //0x14 Chapter ID
-POIN ArenaChapter1 //0x15 Chapter ID
-POIN ArenaChapter1 //0x16 Chapter ID
-POIN ArenaChapter1 //0x17 Chapter ID
+POIN ArenaChapter2 //0x5 Chapter ID
+POIN ArenaChapter2 //0x6 Chapter ID
+POIN ArenaChapter2 //0x7 Chapter ID
+POIN ArenaChapter2 //0x8 Chapter ID
+POIN ArenaChapter3 //0x9 Chapter ID
+POIN ArenaChapter3 //0xA Chapter ID
+POIN ArenaChapter3 //0xB Chapter ID
+POIN ArenaChapter3 //0xC Chapter ID
+POIN ArenaChapter3 //0xD Chapter ID
+POIN ArenaChapter4 //0xE Chapter ID
+POIN ArenaChapter4 //0xF Chapter ID
+POIN ArenaChapter4 //0x10 Chapter ID
+POIN ArenaChapter4 //0x11 Chapter ID
+POIN ArenaChapter4 //0x12 Chapter ID
+POIN ArenaChapter5 //0x13 Chapter ID
+POIN ArenaChapter5 //0x14 Chapter ID
+POIN ArenaChapter5 //0x15 Chapter ID
+POIN ArenaChapter5 //0x16 Chapter ID
+POIN ArenaChapter5 //0x17 Chapter ID
 POIN ArenaChapter1 //0x18 Chapter ID
 POIN ArenaChapter1 //0x19 Chapter ID
 POIN ArenaChapter1 //0x1A Chapter ID

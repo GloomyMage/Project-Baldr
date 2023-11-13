@@ -7,8 +7,10 @@
 	ENDA
 	POP
 
+#include "_BattleEvents.event"
 #include "_BattleQuotes.event"
 #include "_DeathQuotes.event"
+#include "_BossMusic.event"
 
 ALIGN 4
 {
@@ -16,4 +18,16 @@ ALIGN 4
 }
 {
 #include "CastleEvans.event"
+}
+{
+#include "Chapter1_1.event"
+}
+{
+#include "Chapter1x.event"
+}
+{
+#include "Chapter1_2.event"
+}
+{
+#include "CastleNordion.event"
 }

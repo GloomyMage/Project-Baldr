@@ -3,6 +3,8 @@
 #define VillageCounterThree s5
 #define VillageCounterFour s4
 #define VillageCounterFive s3
+#define VillageCounterSix s2
+#define VillageCounterSeven s1
 
 EventPointerTable(0x07,ThisChapter)
 
@@ -53,8 +55,8 @@ Seize(1,8)
 Seize(0x13,EvansAttack,29,18)
 Seize(0x3,DebugMap,56,5)
 FE4Village(0xC,VillageOne,18,8)
-FE4Village(0xD,VillageTwo,24,22)
-FE4Village(0xE,VillageThree,24,2)
+FE4Village(0xD,VillageTwo,24,2)
+FE4Village(0xE,VillageThree,24,22)
 FE4Village(0xF,VillageFour,35,2)
 FE4Village(0x10,VillageFive,45,2)
 END_MAIN
@@ -62,13 +64,17 @@ END_MAIN
 ALIGN 32
 CharacterBasedEvents:
 CharacterEventBothWays(0x0,SigurdArvisTalkConvo,Sigurd,ArvisGen1)
+CharacterEventBothWays(0x0,AzelArvisTalkConvo,Azel,ArvisGen1)
 CharacterEventBothWays(0x8,PrettyFace,Alec,Ethlyn)
 CharacterEventBothWays(0x12,BrothersTalketh,Sigurd,Ethlyn)
+CharacterEventBothWays(0x7,LexTalketh,Sigurd,Lex)
+CharacterEventBothWays(0x1D,AzelTalketh,Sigurd,Azel)
+CharacterEventBothWays(0x1E,QuanTalketh,Sigurd,Quan)
 END_MAIN
 
 MiscBasedEvents:
 CauseGameOverIfLordDies
-AreaEvent(0xB,BanditTime,7,0,20,16)
+AreaEvent(0x1A,VisitusSir,56,5,56,5)
 AFEV 0xC VillageBranchOne 0x14
 AFEV 0xD VillageBranchTwo 0x15
 AFEV 0xE VillageBranchThree 0x16
@@ -77,19 +83,35 @@ AFEV 0x10 VillageBranchFive 0x18
 END_MAIN
 
 BeginningScene:
+MUSC 0x4
+SetBackground(0x8)
+STAL 120
+NarrationText(Prologue_Narration)
+CURSOR [9, 4]
+STAL 60
+REMOVE_CURSORS
+NarrationText(Prologue_Narration2)
+CURSOR [4, 6]
+STAL 60
+REMOVE_CURSORS
+NarrationText(Prologue_Narration3)
+MUSC 0x0
+FADI 0x3c
+CLEAN
 MUSC 0x26
 ENUT 0x9
 ENUT 0xA
-ENUT 0xB
 STAL 60
 CAM1 [29,19]
 FADU 16
+Location(Name_Jungby)
 LOAD1 0x1 EnemyUnits
 ENUN
 CleanText(0x10,SorryAideen)
 LOAD1 0x1 UselessBoi
 ENUN
 CAM1 [56,5]
+Location(Name_Chalphy)
 CleanText(0x10,ChalphyDudes)
 LOAD1 0x1 PlayerUnits
 ENUN
@@ -105,6 +127,12 @@ LOAD1 0x1 RodanCometh
 ENUN
 EVBIT_F 9
 CleanText(0x26,RodanTime)
+CHECK_EVENTID 0x1B
+BEQ 0x30 0xc 0x0
+CHECK_EVENTID 0x1C
+BEQ 0x30 0xc 0x0
+GiveItem(ArdenSword,Arden)
+LABEL 0x30
 MNC2 0x1
 EndEvent
 
@@ -116,17 +144,36 @@ EvansAttack:
 MUSC 0x32
 ENUF 0x9
 ENUF 0xA
-ENUF 0xB
+CHECK_EVENTID 0x1B
+BEQ 0x30 0xc 0x0
+CleanText(0x12,MidirRescuethbyHard)
+ENUT 0x28
+GOTO 0x31
+LABEL 0x30
 CleanText(0x10,MidirRescueth)
+LABEL 0x31
 LOAD1 0x1 UsefulBoi
-EndEvent
+ENUN
+ENDA
 
 DestroyBridge:
 MUSC 0x13
 CAM1 Gerrard
+CHECK_EVENTID 0x1B
+BEQ 0x32 0xc 0x0
+Text(StuffedUpArden)
+LOAD1 0x1 BridgeDestroyers
+ENUN
+CAM1 [7,1]
+LOAD1 0x1 CliffBandits
+ENUN
+CAM1 Gerrard
+GOTO 0x33
+LABEL 0x32
 Text(StuffedUp)
 LOAD1 0x1 BridgeDestroyers
 ENUN
+LABEL 0x33
 TILEREVERSE 0x28
 EndEvent
 
@@ -152,6 +199,15 @@ LABEL 0x1
 Text(OopsAzelleDied)
 LABEL 0x2
 GiveItem(SilverSword,Sigurd)
+MOVE 120 ArvisGen1 [17,0]
+ENUN
+SilentKillUnit(ArvisGen1)
+EndEvent
+
+AzelArvisTalkConvo:
+MUSC 0x2D
+Text(SalamanderTime)
+GiveItem(Salamander,Azel)
 MOVE 120 ArvisGen1 [17,0]
 ENUN
 SilentKillUnit(ArvisGen1)
@@ -227,23 +283,43 @@ BrothersTalketh:
 Text(SigurdEthlyn)
 EndEvent
 
-BanditTime:
-SurpriseAttack(CliffBandits,0,0,0xB)
+QuanTalketh:
+Text(QuanisWell)
+EndEvent
+
+AzelTalketh:
+Text(LittleFella)
+EndEvent
+
+LexTalketh:
+Text(HowSirDo)
+EndEvent
+
+VisitusSir:
+CHECK_ACTIVE
+SVAL s1 Sigurd
+BNE 0x9000 s1 sC
+    GiveItem(Rapier,Sigurd)
+    GOTO 0x9001
+LABEL 0x9000
+ENUF 0x1A
+LABEL 0x9001
+EndEvent
 
 VillageOne:
-NewVillageEventItem(Village1, 0x2, IronBow, 0x1)
+NewVillageEventMoney(Village1, 0x2, 0x1388, 0x1)
 
 VillageTwo:
-NewVillageEventItem(Village2, 0x2, SpdRing, 0x11)
+NewVillageEventMoney(Village2, 0x2, 0x1388, 0x9)
 
 VillageThree:
-NewVillageEventItem(Village3, 0x2, SteelSword, 0x9)
+NewVillageEventItem(Village3, 0x2, SpdRing, 0x11)
 
 VillageFour:
 NewVillageEventItem(Village4, 0x2, Axereaver, 0x19)
 
 VillageFive:
-NewVillageEventItem(Village5, 0x2, 0xA0, 0x21)
+NewVillageEventMoney(Village5, 0x2, 0x1388, 0x21)
 
 VillageBranchOne:
 //Use a counter to keep track of how many times the village was attacked
@@ -298,53 +374,6 @@ COUNTER_CHECK VillageCounterTwo
 SVAL s1 0x0
 BNE 0x9000 sC s1
   //First time village is being attacked
-  TILECHANGE 0x12
-  GOTO 0x9006
-LABEL 0x9000
-SVAL s1 0x1
-BNE 0x9001 sC s1
-  //Second time village is being attacked
-  TILECHANGE 0x13
-  GOTO 0x9006
-LABEL 0x9001
-SVAL s1 0x2
-BNE 0x9002 sC s1
-  //Third time village is attacked
-  TILECHANGE 0x14
-  GOTO 0x9006
-LABEL 0x9002
-SVAL s1 0x3
-BNE 0x9003 sC s1
-  //Fourth Time village is attacked
-  TILECHANGE 0x15
-  GOTO 0x9006
-LABEL 0x9003
-SVAL s1 0x4
-BNE 0x9004 sC s1
-  //Fifth Time village is attacked
-  TILECHANGE 0x16
-  GOTO 0x9006
-LABEL 0x9004
-SVAL s1 0x5
-BNE 0x9005 sC s1
-  //Final time village is attacked
-  TILECHANGE 0x17
-  GOTO 0x9007
-LABEL 0x9006
-//Add 1 to times village has been attacked
-COUNTER_INC VillageCounterTwo
-ENUF 0xD
-ENUF 0x15
-TILEREVERSE 0x10
-LABEL 0x9007
-EndEvent
-
-VillageBranchThree:
-//Use a counter to keep track of how many times the village was attacked
-COUNTER_CHECK VillageCounterThree
-SVAL s1 0x0
-BNE 0x9000 sC s1
-  //First time village is being attacked
   TILECHANGE 0xA
   GOTO 0x9006
 LABEL 0x9000
@@ -379,10 +408,57 @@ BNE 0x9005 sC s1
   GOTO 0x9007
 LABEL 0x9006
 //Add 1 to times village has been attacked
+COUNTER_INC VillageCounterTwo
+ENUF 0xD
+ENUF 0x15
+TILEREVERSE 0x8
+LABEL 0x9007
+EndEvent
+
+VillageBranchThree:
+//Use a counter to keep track of how many times the village was attacked
+COUNTER_CHECK VillageCounterThree
+SVAL s1 0x0
+BNE 0x9000 sC s1
+  //First time village is being attacked
+  TILECHANGE 0x12
+  GOTO 0x9006
+LABEL 0x9000
+SVAL s1 0x1
+BNE 0x9001 sC s1
+  //Second time village is being attacked
+  TILECHANGE 0x13
+  GOTO 0x9006
+LABEL 0x9001
+SVAL s1 0x2
+BNE 0x9002 sC s1
+  //Third time village is attacked
+  TILECHANGE 0x14
+  GOTO 0x9006
+LABEL 0x9002
+SVAL s1 0x3
+BNE 0x9003 sC s1
+  //Fourth Time village is attacked
+  TILECHANGE 0x15
+  GOTO 0x9006
+LABEL 0x9003
+SVAL s1 0x4
+BNE 0x9004 sC s1
+  //Fifth Time village is attacked
+  TILECHANGE 0x16
+  GOTO 0x9006
+LABEL 0x9004
+SVAL s1 0x5
+BNE 0x9005 sC s1
+  //Final time village is attacked
+  TILECHANGE 0x17
+  GOTO 0x9007
+LABEL 0x9006
+//Add 1 to times village has been attacked
 COUNTER_INC VillageCounterThree
 ENUF 0xE
 ENUF 0x16
-TILEREVERSE 0x8
+TILEREVERSE 0x10
 LABEL 0x9007
 EndEvent
 
@@ -484,7 +560,7 @@ ALIGN 4
 
 PlayerUnits:
 UNIT Sigurd KnightLord Sigurd Level(1,Ally,0) [56,5] 0x0 0x0 0x0 0x1 [SteelSword, IronLance] NoAI
-UNIT Alec UniCav 0x0 Level(2,Ally,0) [56,5] 0x0 0x0 0x1 REDA55R6 [IronLance] NoAI
+UNIT Alec UniCav 0x0 Level(2,Ally,0) [56,5] 0x0 0x0 0x1 REDA55R6 [IronSword] NoAI
 UNIT Noish UniCav 0x0 Level(3,Ally,0) [56,5] 0x0 0x0 0x1 REDA57R6 [SteelSword] NoAI
 UNIT Arden SwdArm 0x0 Level(3,Ally,0) [56,5] 0x0 0x0 0x1 REDA56R7 [IronSword] NoAI
 UNIT //Tells the game that the unit list has ended
@@ -513,7 +589,7 @@ UNIT Ethlyn Troub 0x0 Level(1,Ally,0) [57,7] 0x0 0x0 0x1 REDA46R11 [Heal, SlimSw
 UNIT
 
 ArvisCometh:
-UNIT ArvisGen1 Sage 0x0 Level(25,NPC,0) [33,0] 0x0 0x0 0x1 REDA32R3 [Valflame, RecoverRing] NoAI
+UNIT ArvisGen1 Sage 0x0 Level(25,NPC,0) [33,0] 0x0 0x0 0x1 REDA32R3 [Valflame, RecoverRing, SilverSword, Salamander] NoAI
 UNIT
 
 EnemyUnits:
@@ -524,8 +600,8 @@ UNIT Kinbois Warrior Sandima Level(10,Enemy,1) [7,7] 0x0 0x0 0x0 0x1 [SilverAxe,
 UNIT Verdane1 Barbarian DiMaggio Level(5,Enemy,1) [19,12] 0x0 0x0 0x1 REDA28R22 [HandAxe] AttackInRangeAI
 UNIT Verdane1 Barbarian DiMaggio Level(5,Enemy,1) [19,12] 0x0 0x0 0x1 REDA29R22 [HandAxe] AttackInRangeAI
 UNIT Verdane1 Barbarian DiMaggio Level(5,Enemy,1) [19,12] 0x0 0x0 0x1 REDA30R22 [HandAxe] AttackInRangeAI
-UNIT Verdane1 Brigand DiMaggio Level(1,Enemy,1) [9,1] 0x0 0x0 0x0 0x1 [IronAxe] BrigandAI
-UNIT Verdane1 Brigand DiMaggio Level(1,Enemy,1) [8,5] 0x0 0x0 0x0 0x1 [IronAxe] BrigandAI
+UNIT Verdane1 Brigand DiMaggio Level(1,Enemy,1) [9,1] 0x0 0x0 0x0 0x1 [IronAxe] TheWaitingBrigandAI
+UNIT Verdane1 Brigand DiMaggio Level(1,Enemy,1) [8,5] 0x0 0x0 0x0 0x1 [IronAxe] TheWaitingBrigandAI
 UNIT Verdane1 Barbarian DiMaggio Level(1,Enemy,1) [18,10] 0x0 0x0 0x0 0x1 [IronAxe] NoAI
 UNIT Verdane1 Barbarian DiMaggio Level(1,Enemy,1) [21,6] 0x0 0x0 0x0 0x1 [IronAxe] NoAI
 UNIT Verdane1 Barbarian DiMaggio Level(10,Enemy,1) [19,12] 0x0 0x0 0x1 REDA27R21 [HandAxe] AttackInRangeAI
@@ -537,16 +613,16 @@ UNIT Verdane1 Hunter DiMaggio Level(1,Enemy,1) [38,15] 0x0 0x0 0x0 0x1 [IronBow]
 UNIT Verdane1 Barbarian DiMaggio Level(10,Enemy,1) [32,11] 0x0 0x0 0x0 0x1 [HandAxe] AttackInRangeAI
 UNIT Verdane1 Barbarian DiMaggio Level(1,Enemy,1) [33,12] 0x0 0x0 0x0 0x1 [IronAxe] NoAI
 UNIT Verdane1 Barbarian DiMaggio Level(1,Enemy,1) [33,10] 0x0 0x0 0x0 0x1 [IronAxe] NoAI
-UNIT Verdane1 Brigand DiMaggio Level(1,Enemy,1) [39,19] 0x0 0x0 0x0 0x1 [IronAxe] BrigandAI
+UNIT Verdane1 Brigand DiMaggio Level(1,Enemy,1) [39,19] 0x0 0x0 0x0 0x1 [IronAxe] TheWaitingBrigandAI
 UNIT Verdane1 Barbarian DiMaggio Level(1,Enemy,1) [41,16] 0x0 0x0 0x0 0x1 [IronAxe] NoAI
 UNIT Verdane1 Barbarian DiMaggio Level(1,Enemy,1) [38,12] 0x0 0x0 0x0 0x1 [IronAxe] NoAI
 UNIT Verdane1 Barbarian DiMaggio Level(1,Enemy,1) [43,13] 0x0 0x0 0x0 0x1 [IronAxe] NoAI
 UNIT Verdane1 Barbarian DiMaggio Level(1,Enemy,1) [47,7] 0x0 0x0 0x0 0x1 [IronAxe] NoAI
 UNIT Verdane1 Barbarian DiMaggio Level(1,Enemy,1) [43,4] 0x0 0x0 0x0 0x1 [IronAxe] NoAI
-UNIT Verdane1 Brigand DiMaggio Level(1,Enemy,1) [45,2] 0x0 0x0 0x0 0x1 [IronAxe] BrigandAI
+UNIT Verdane1 Brigand DiMaggio Level(1,Enemy,1) [45,2] 0x0 0x0 0x0 0x1 [IronAxe] TheWaitingBrigandAI
 UNIT Verdane1 Barbarian DiMaggio Level(10,Enemy,1) [37,4] 0x0 0x0 0x0 0x1 [HandAxe] AttackInRangeAI
 UNIT Verdane1 Barbarian DiMaggio Level(1,Enemy,1) [32,3] 0x0 0x0 0x0 0x1 [IronAxe] NoAI
-UNIT Verdane1 Brigand DiMaggio Level(1,Enemy,1) [28,0] 0x0 0x0 0x0 0x1 [IronAxe] BrigandAI
+UNIT Verdane1 Brigand DiMaggio Level(1,Enemy,1) [28,0] 0x0 0x0 0x0 0x1 [IronAxe] TheWaitingBrigandAI
 UNIT Verdane1 Barbarian DiMaggio Level(1,Enemy,1) [29,0] 0x0 0x0 0x0 0x1 [IronAxe] NoAI
 UNIT Verdane1 Barbarian DiMaggio Level(10,Enemy,1) [28,4] 0x0 0x0 0x0 0x1 [HandAxe] AttackInRangeAI
 UNIT Verdane1 Barbarian DiMaggio Level(1,Enemy,1) [20,14] 0x0 0x0 0x0 0x1 [IronAxe] NoAI
