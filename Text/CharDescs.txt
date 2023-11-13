@@ -26,8 +26,8 @@ Compares himself to his older brother and [N]
 suffers from an inferiority complex.[X]
 
 ##Desc_Quan ^
-Prince of Leonster and inheritor of the lance Gae Bolg. [NL]
-Husband of Ethlyn, the younger sister [N]
+Prince of Leonster and inheritor of the lance[N]
+Gae Bolg. Husband of Ethlyn, the younger sister [N]
 of his close friend Sigurd.[X]
 
 ##Desc_Finn ^
