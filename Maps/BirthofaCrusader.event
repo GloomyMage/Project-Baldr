@@ -202,7 +202,7 @@ MapChangesData:
   TileMap(5, 17, 7, 1, 1, 0, Map_Change_5)
   TileMap(6, 19, 7, 1, 1, 0, Map_Change_6)
   TileMap(7, 17, 8, 3, 1, 0, Map_Change_7)
-  TileMap(8, 24, 1, 1, 2, 0x15, Map_Change_8)
+  TileMap(8, 24, 1, 1, 2, 0, Map_Change_8)
   TileMap(9, 24, 2, 1, 1, 0, Map_Change_9)
   TileMap(10, 23, 0, 1, 1, 0, Map_Change_10)
   TileMap(11, 24, 0, 1, 1, 0, Map_Change_11)
