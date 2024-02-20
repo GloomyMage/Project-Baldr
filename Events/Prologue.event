@@ -1,4 +1,4 @@
-#define BridgeTileChangeID 32
+#define BridgeTileChangeID 35
 
 EventPointerTable(0x07,ThisChapter)
 
