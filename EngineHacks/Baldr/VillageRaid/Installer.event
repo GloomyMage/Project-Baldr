@@ -2,7 +2,7 @@
 
 PUSH
     ORG 0x3A1C8
-    jumpToHack(SetVillageFlag)
+    jumpToHack(SetRaidTileChange)
 POP
 
 ALIGN 4

@@ -25,12 +25,12 @@
 @}
 @List is 0xFF terminated
 
-.global SetVillageFlag
-.type SetVillageFlag, %function
+.global SetRaidTileChange
+.type SetRaidTileChange, %function
 
 @Hooks 803A1C8
 @r5 = CpPerformProc proc state
-SetVillageFlag:
+SetRaidTileChange:
     push {r6}
     mov  r6, r5
     @Get coordinates of raided village
