@@ -40,7 +40,6 @@ END_MAIN
 ALIGN 4
 LocationBasedEvents:
 Seize(5,23)
-FE4Village(0xC,VillageOne,2,47)
 END_MAIN
 
 ALIGN 32
@@ -52,7 +51,6 @@ END_MAIN
 MiscBasedEvents:
 AreaEvent(0x15,HowSheKnow,24,34,24,34)
 AreaEvent(0x16,LoveAtFirstSight,8,37,13,39)
-AFEV 0xC VillageBranchOne 0x14
 CauseGameOverIfLordDies
 END_MAIN
 
@@ -146,54 +144,7 @@ CamOff
 EndEvent
 
 VillageOne:
-NewVillageEventMoney(C1_2VillageOne, 0x2, 0x1388, 0x1)
-
-VillageBranchOne:
-//Use a counter to keep track of how many times the village was attacked
-COUNTER_CHECK VillageCounterOne
-SVAL s1 0x0
-BNE 0x9000 sC s1
-  //First time village is being attacked
-  TILECHANGE 0x2
-  GOTO 0x9006
-LABEL 0x9000
-SVAL s1 0x1
-BNE 0x9001 sC s1
-  //Second time village is being attacked
-  TILECHANGE 0x3
-  GOTO 0x9006
-LABEL 0x9001
-SVAL s1 0x2
-BNE 0x9002 sC s1
-  //Third time village is attacked
-  TILECHANGE 0x4
-  GOTO 0x9006
-LABEL 0x9002
-SVAL s1 0x3
-BNE 0x9003 sC s1
-  //Fourth Time village is attacked
-  TILECHANGE 0x5
-  GOTO 0x9006
-LABEL 0x9003
-SVAL s1 0x4
-BNE 0x9004 sC s1
-  //Fifth Time village is attacked
-  TILECHANGE 0x6
-  GOTO 0x9006
-LABEL 0x9004
-SVAL s1 0x5
-BNE 0x9005 sC s1
-  //Final time village is attacked
-  TILECHANGE 0x7
-  GOTO 0x9007
-LABEL 0x9006
-//Add 1 to times village has been attacked
-COUNTER_INC VillageCounterOne
-ENUF 0xC
-ENUF 0x14
-TILEREVERSE 0x0
-LABEL 0x9007
-EndEvent
+VillageEventMoney(C1_2VillageOne, 0x2, 0x1388)
 
 PlayerUnits:
 UNIT Sigurd KnightLord Sigurd Level(1,Ally,0) [20,48] 0x0 0x0 0x0 0x1 [IronSword] NoAI

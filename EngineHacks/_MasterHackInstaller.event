@@ -192,6 +192,8 @@ POP
   
   //Experience formula
   #include "Baldr/NewExpFormula/NewExpFormula.lyn.event"
+
+  #include "Baldr/VillageRaid/Installer.event"
   
   //Minimug fix
   #include "Necessary/MinimugPalette/MinimugPalette.event"

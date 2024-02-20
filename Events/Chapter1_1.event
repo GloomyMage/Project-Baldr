@@ -42,8 +42,8 @@ ALIGN 4
 LocationBasedEvents:
 Seize(1,38)
 Seize(0x13,ShananSaved,34,29)
-FE4Village(0xC,VillageOne,24,18)
-FE4Village(0xD,VillageTwo,12,40)
+Village(0xC,VillageOne,24,18)
+Village(0xD,VillageTwo,12,40)
 END_MAIN
 
 ALIGN 32
@@ -60,8 +60,6 @@ END_MAIN
 
 MiscBasedEvents:
 AreaEvent(0x1A,AyraAttack,28,25,35,32)
-AFEV 0xC VillageBranchOne 0x14
-AFEV 0xD VillageBranchTwo 0x15
 CauseGameOverIfLordDies
 END_MAIN
 
@@ -270,104 +268,10 @@ EndEvent
 
 
 VillageOne:
-NewVillageEventMoney(C1_1VillageOne, 0x2, 0x1388, 0x1)
+VillageEventMoney(C1_1VillageOne, 0x2, 0x1388)
 
 VillageTwo:
-NewVillageEventMoney(C1_1VillageTwo, 0x2, 0x1388, 0x9)
-
-VillageBranchOne:
-//Use a counter to keep track of how many times the village was attacked
-COUNTER_CHECK VillageCounterOne
-SVAL s1 0x0
-BNE 0x9000 sC s1
-  //First time village is being attacked
-  TILECHANGE 0x2
-  GOTO 0x9006
-LABEL 0x9000
-SVAL s1 0x1
-BNE 0x9001 sC s1
-  //Second time village is being attacked
-  TILECHANGE 0x3
-  GOTO 0x9006
-LABEL 0x9001
-SVAL s1 0x2
-BNE 0x9002 sC s1
-  //Third time village is attacked
-  TILECHANGE 0x4
-  GOTO 0x9006
-LABEL 0x9002
-SVAL s1 0x3
-BNE 0x9003 sC s1
-  //Fourth Time village is attacked
-  TILECHANGE 0x5
-  GOTO 0x9006
-LABEL 0x9003
-SVAL s1 0x4
-BNE 0x9004 sC s1
-  //Fifth Time village is attacked
-  TILECHANGE 0x6
-  GOTO 0x9006
-LABEL 0x9004
-SVAL s1 0x5
-BNE 0x9005 sC s1
-  //Final time village is attacked
-  TILECHANGE 0x7
-  GOTO 0x9007
-LABEL 0x9006
-//Add 1 to times village has been attacked
-COUNTER_INC VillageCounterOne
-ENUF 0xC
-ENUF 0x14
-TILEREVERSE 0x0
-LABEL 0x9007
-EndEvent
-
-VillageBranchTwo:
-//Use a counter to keep track of how many times the village was attacked
-COUNTER_CHECK VillageCounterTwo
-SVAL s1 0x0
-BNE 0x9000 sC s1
-  //First time village is being attacked
-  TILECHANGE 0xA
-  GOTO 0x9006
-LABEL 0x9000
-SVAL s1 0x1
-BNE 0x9001 sC s1
-  //Second time village is being attacked
-  TILECHANGE 0xB
-  GOTO 0x9006
-LABEL 0x9001
-SVAL s1 0x2
-BNE 0x9002 sC s1
-  //Third time village is attacked
-  TILECHANGE 0xC
-  GOTO 0x9006
-LABEL 0x9002
-SVAL s1 0x3
-BNE 0x9003 sC s1
-  //Fourth Time village is attacked
-  TILECHANGE 0xD
-  GOTO 0x9006
-LABEL 0x9003
-SVAL s1 0x4
-BNE 0x9004 sC s1
-  //Fifth Time village is attacked
-  TILECHANGE 0xE
-  GOTO 0x9006
-LABEL 0x9004
-SVAL s1 0x5
-BNE 0x9005 sC s1
-  //Final time village is attacked
-  TILECHANGE 0xF
-  GOTO 0x9007
-LABEL 0x9006
-//Add 1 to times village has been attacked
-COUNTER_INC VillageCounterTwo
-ENUF 0xD
-ENUF 0x15
-TILEREVERSE 0x8
-LABEL 0x9007
-EndEvent
+VillageEventMoney(C1_1VillageTwo, 0x2, 0x1388)
 
 ALIGN 4
 
