@@ -24,7 +24,7 @@ FortObject:
 
 ALIGN 4
 FieldNights:
-#incbin "Tilesets/NightFields.dmp"
+#incbin "Tilesets/FieldsNightPalette.dmp"
 
 ALIGN 4
 FieldSnow:
