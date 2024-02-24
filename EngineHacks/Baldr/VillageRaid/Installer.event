@@ -1,0 +1,38 @@
+#include "VillageRaid.lyn.event"
+
+PUSH
+    ORG 0x3A1C8
+    jumpToHack(SetRaidTileChange)
+POP
+
+ALIGN 4
+gRaidTileChangeArrayTable:
+FILL 4*0x4E
+
+#define RaidTileChangeEntry(x, y, tileChangeId) "BYTE x y tileChangeId 0"
+#define AssignTileChangeArray(chapterIndex, TileChangeArray) "PUSH; ORG gRaidTileChangeArrayTable + (4*chapterIndex); POIN TileChangeArray; POP"
+#define TileChangeArrayEnd "WORD 0xFFFFFFFF"
+
+ALIGN 4
+PrologueRaidTileChangeArray:
+RaidTileChangeEntry(18, 7, 0)
+RaidTileChangeEntry(24, 1, 7)
+RaidTileChangeEntry(24, 21, 14)
+RaidTileChangeEntry(35, 1, 21)
+RaidTileChangeEntry(45, 1, 28)
+TileChangeArrayEnd
+
+ALIGN 4
+Chapter1_1RaidTileChangeArray:
+RaidTileChangeEntry(24, 17, 0)
+RaidTileChangeEntry(12, 39, 7)
+TileChangeArrayEnd
+
+ALIGN 4
+Chapter1_2RaidTileChangeArray:
+RaidTileChangeEntry(12, 46, 0)
+TileChangeArrayEnd
+
+AssignTileChangeArray(0, PrologueRaidTileChangeArray)
+AssignTileChangeArray(2, Chapter1_1RaidTileChangeArray)
+AssignTileChangeArray(4, Chapter1_2RaidTileChangeArray)

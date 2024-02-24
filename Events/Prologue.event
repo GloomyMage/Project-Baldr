@@ -1,10 +1,4 @@
-#define VillageCounterOne s7
-#define VillageCounterTwo s6
-#define VillageCounterThree s5
-#define VillageCounterFour s4
-#define VillageCounterFive s3
-#define VillageCounterSix s2
-#define VillageCounterSeven s1
+#define BridgeTileChangeID 35
 
 EventPointerTable(0x07,ThisChapter)
 
@@ -54,11 +48,11 @@ LocationBasedEvents:
 Seize(1,8)
 Seize(0x13,EvansAttack,29,18)
 Seize(0x3,DebugMap,56,5)
-FE4Village(0xC,VillageOne,18,8)
-FE4Village(0xD,VillageTwo,24,2)
-FE4Village(0xE,VillageThree,24,22)
-FE4Village(0xF,VillageFour,35,2)
-FE4Village(0x10,VillageFive,45,2)
+Village(0xC,VillageOne,18,8)
+Village(0xD,VillageTwo,24,2)
+Village(0xE,VillageThree,24,22)
+Village(0xF,VillageFour,35,2)
+Village(0x10,VillageFive,45,2)
 END_MAIN
 
 ALIGN 32
@@ -75,11 +69,6 @@ END_MAIN
 MiscBasedEvents:
 CauseGameOverIfLordDies
 AreaEvent(0x1A,VisitusSir,56,5,56,5)
-AFEV 0xC VillageBranchOne 0x14
-AFEV 0xD VillageBranchTwo 0x15
-AFEV 0xE VillageBranchThree 0x16
-AFEV 0xF VillageBranchFour 0x17   
-AFEV 0x10 VillageBranchFive 0x18
 END_MAIN
 
 BeginningScene:
@@ -174,7 +163,7 @@ Text(StuffedUp)
 LOAD1 0x1 BridgeDestroyers
 ENUN
 LABEL 0x33
-TILEREVERSE 0x28
+TILEREVERSE BridgeTileChangeID
 EndEvent
 
 ArvisArrive:
@@ -242,7 +231,7 @@ EVBIT_F 9
 MOVE 120 Kinbois [7,8]
 ENUN
 SOUN 0xAB
-TILECHANGE 0x28
+TILECHANGE BridgeTileChangeID
 MOVE 120 Kinbois [6,23]
 ENUN
 SilentKillUnit(Kinbois)
@@ -307,254 +296,19 @@ LABEL 0x9001
 EndEvent
 
 VillageOne:
-NewVillageEventMoney(Village1, 0x2, 0x1388, 0x1)
+VillageEventMoney(Village1, 0x2, 0x1388)
 
 VillageTwo:
-NewVillageEventMoney(Village2, 0x2, 0x1388, 0x9)
+VillageEventMoney(Village2, 0x2, 0x1388)
 
 VillageThree:
-NewVillageEventItem(Village3, 0x2, SpdRing, 0x11)
+VillageEventItem(Village3, 0x2, SpdRing)
 
 VillageFour:
-NewVillageEventItem(Village4, 0x2, Axereaver, 0x19)
+VillageEventItem(Village4, 0x2, Axereaver)
 
 VillageFive:
-NewVillageEventMoney(Village5, 0x2, 0x1388, 0x21)
-
-VillageBranchOne:
-//Use a counter to keep track of how many times the village was attacked
-COUNTER_CHECK VillageCounterOne
-SVAL s1 0x0
-BNE 0x9000 sC s1
-  //First time village is being attacked
-  TILECHANGE 0x2
-  GOTO 0x9006
-LABEL 0x9000
-SVAL s1 0x1
-BNE 0x9001 sC s1
-  //Second time village is being attacked
-  TILECHANGE 0x3
-  GOTO 0x9006
-LABEL 0x9001
-SVAL s1 0x2
-BNE 0x9002 sC s1
-  //Third time village is attacked
-  TILECHANGE 0x4
-  GOTO 0x9006
-LABEL 0x9002
-SVAL s1 0x3
-BNE 0x9003 sC s1
-  //Fourth Time village is attacked
-  TILECHANGE 0x5
-  GOTO 0x9006
-LABEL 0x9003
-SVAL s1 0x4
-BNE 0x9004 sC s1
-  //Fifth Time village is attacked
-  TILECHANGE 0x6
-  GOTO 0x9006
-LABEL 0x9004
-SVAL s1 0x5
-BNE 0x9005 sC s1
-  //Final time village is attacked
-  TILECHANGE 0x7
-  GOTO 0x9007
-LABEL 0x9006
-//Add 1 to times village has been attacked
-COUNTER_INC VillageCounterOne
-ENUF 0xC
-ENUF 0x14
-TILEREVERSE 0x0
-LABEL 0x9007
-EndEvent
-
-VillageBranchTwo:
-//Use a counter to keep track of how many times the village was attacked
-COUNTER_CHECK VillageCounterTwo
-SVAL s1 0x0
-BNE 0x9000 sC s1
-  //First time village is being attacked
-  TILECHANGE 0xA
-  GOTO 0x9006
-LABEL 0x9000
-SVAL s1 0x1
-BNE 0x9001 sC s1
-  //Second time village is being attacked
-  TILECHANGE 0xB
-  GOTO 0x9006
-LABEL 0x9001
-SVAL s1 0x2
-BNE 0x9002 sC s1
-  //Third time village is attacked
-  TILECHANGE 0xC
-  GOTO 0x9006
-LABEL 0x9002
-SVAL s1 0x3
-BNE 0x9003 sC s1
-  //Fourth Time village is attacked
-  TILECHANGE 0xD
-  GOTO 0x9006
-LABEL 0x9003
-SVAL s1 0x4
-BNE 0x9004 sC s1
-  //Fifth Time village is attacked
-  TILECHANGE 0xE
-  GOTO 0x9006
-LABEL 0x9004
-SVAL s1 0x5
-BNE 0x9005 sC s1
-  //Final time village is attacked
-  TILECHANGE 0xF
-  GOTO 0x9007
-LABEL 0x9006
-//Add 1 to times village has been attacked
-COUNTER_INC VillageCounterTwo
-ENUF 0xD
-ENUF 0x15
-TILEREVERSE 0x8
-LABEL 0x9007
-EndEvent
-
-VillageBranchThree:
-//Use a counter to keep track of how many times the village was attacked
-COUNTER_CHECK VillageCounterThree
-SVAL s1 0x0
-BNE 0x9000 sC s1
-  //First time village is being attacked
-  TILECHANGE 0x12
-  GOTO 0x9006
-LABEL 0x9000
-SVAL s1 0x1
-BNE 0x9001 sC s1
-  //Second time village is being attacked
-  TILECHANGE 0x13
-  GOTO 0x9006
-LABEL 0x9001
-SVAL s1 0x2
-BNE 0x9002 sC s1
-  //Third time village is attacked
-  TILECHANGE 0x14
-  GOTO 0x9006
-LABEL 0x9002
-SVAL s1 0x3
-BNE 0x9003 sC s1
-  //Fourth Time village is attacked
-  TILECHANGE 0x15
-  GOTO 0x9006
-LABEL 0x9003
-SVAL s1 0x4
-BNE 0x9004 sC s1
-  //Fifth Time village is attacked
-  TILECHANGE 0x16
-  GOTO 0x9006
-LABEL 0x9004
-SVAL s1 0x5
-BNE 0x9005 sC s1
-  //Final time village is attacked
-  TILECHANGE 0x17
-  GOTO 0x9007
-LABEL 0x9006
-//Add 1 to times village has been attacked
-COUNTER_INC VillageCounterThree
-ENUF 0xE
-ENUF 0x16
-TILEREVERSE 0x10
-LABEL 0x9007
-EndEvent
-
-VillageBranchFour:
-//Use a counter to keep track of how many times the village was attacked
-COUNTER_CHECK VillageCounterFour
-SVAL s1 0x0
-BNE 0x9000 sC s1
-  //First time village is being attacked
-  TILECHANGE 0x1A
-  GOTO 0x9006
-LABEL 0x9000
-SVAL s1 0x1
-BNE 0x9001 sC s1
-  //Second time village is being attacked
-  TILECHANGE 0x1B
-  GOTO 0x9006
-LABEL 0x9001
-SVAL s1 0x2
-BNE 0x9002 sC s1
-  //Third time village is attacked
-  TILECHANGE 0x1C
-  GOTO 0x9006
-LABEL 0x9002
-SVAL s1 0x3
-BNE 0x9003 sC s1
-  //Fourth Time village is attacked
-  TILECHANGE 0x1D
-  GOTO 0x9006
-LABEL 0x9003
-SVAL s1 0x4
-BNE 0x9004 sC s1
-  //Fifth Time village is attacked
-  TILECHANGE 0x1E
-  GOTO 0x9006
-LABEL 0x9004
-SVAL s1 0x5
-BNE 0x9005 sC s1
-  //Final time village is attacked
-  TILECHANGE 0x1F
-  GOTO 0x9007
-LABEL 0x9006
-//Add 1 to times village has been attacked
-COUNTER_INC VillageCounterFour
-ENUF 0xF
-ENUF 0x17
-TILEREVERSE 0x18
-LABEL 0x9007
-EndEvent
-
-VillageBranchFive:
-//Use a counter to keep track of how many times the village was attacked
-COUNTER_CHECK VillageCounterFive
-SVAL s1 0x0
-BNE 0x9000 sC s1
-  //First time village is being attacked
-  TILECHANGE 0x22
-  GOTO 0x9006
-LABEL 0x9000
-SVAL s1 0x1
-BNE 0x9001 sC s1
-  //Second time village is being attacked
-  TILECHANGE 0x23
-  GOTO 0x9006
-LABEL 0x9001
-SVAL s1 0x2
-BNE 0x9002 sC s1
-  //Third time village is attacked
-  TILECHANGE 0x24
-  GOTO 0x9006
-LABEL 0x9002
-SVAL s1 0x3
-BNE 0x9003 sC s1
-  //Fourth Time village is attacked
-  TILECHANGE 0x25
-  GOTO 0x9006
-LABEL 0x9003
-SVAL s1 0x4
-BNE 0x9004 sC s1
-  //Fifth Time village is attacked
-  TILECHANGE 0x26
-  GOTO 0x9006
-LABEL 0x9004
-SVAL s1 0x5
-BNE 0x9005 sC s1
-  //Final time village is attacked
-  TILECHANGE 0x27
-  GOTO 0x9007
-LABEL 0x9006
-//Add 1 to times village has been attacked
-COUNTER_INC VillageCounterFive
-ENUF 0x10
-ENUF 0x18
-TILEREVERSE 0x20
-LABEL 0x9007
-EndEvent
+VillageEventMoney(Village5, 0x2, 0x1388)
 
 ALIGN 4
 
