@@ -16,6 +16,8 @@ ALIGN 4
 
 ArmorPaletteList:
 PaletteAssociationEntry(Arden, $0D)
+PaletteAssociationEntry(Heirhein, $10)
+PaletteAssociationEntry(Agusty, $11)
 BYTE $00 $00 $00 $00 $00 $00 $00 $00
 ALIGN 4
 

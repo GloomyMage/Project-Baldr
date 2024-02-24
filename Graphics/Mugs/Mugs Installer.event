@@ -18,7 +18,7 @@ SeliphPortrait:
 #incbin "Seliph_frames.dmp"
 #incbin "Seliph_palette.dmp"
 #incbin "Seliph_minimug.dmp"
-setMugEntry(0x4,SeliphPortrait,2,5,2,3)
+setMugEntry(0x4,SeliphPortrait,3,5,3,3)
 
 ALIGN 4
 AlecPortrait:

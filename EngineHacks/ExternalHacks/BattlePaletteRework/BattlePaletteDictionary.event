@@ -27,6 +27,8 @@ PaletteIdentifier($0C,$72,$75,$6b,HeirheinAxePalette)
 PaletteIdentifier($0D,$72,$75,$6b,ArdenPalette)
 PaletteIdentifier($0E,$72,$75,$6b,AzelPalette)
 PaletteIdentifier($0F,$72,$75,$6b,EldiganPalette)
+PaletteIdentifier($10,$72,$75,$6b,HeirheinArmPalette)
+PaletteIdentifier($11,$72,$75,$6b,AgustriaArmPalette)
 /*
 POP
 */

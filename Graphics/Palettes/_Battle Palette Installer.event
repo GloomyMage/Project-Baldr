@@ -95,6 +95,10 @@ HeirheinLancePalette:
 #incbin "HeirheinLance.dmp"
 
 ALIGN 4
+HeirheinArmPalette:
+#incbin "HeirheinKnight.dmp"
+
+ALIGN 4
 AgustriaArmPalette:
 #incbin "AgustriaKnight.dmp"
 
