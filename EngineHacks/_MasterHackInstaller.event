@@ -187,6 +187,9 @@ POP
   //New Calculations (crit)
   #include "Baldr/NewCalcs/NewCalcs.event"
   
+  //Extend Desc by Vesly
+  #include "ExternalHacks/ExtendWeaponDescBox/Installer.event"
+  
   //Support Check by Contro
   #include "Baldr/SupportCheck/SupportASMCs.lyn.event"
   
