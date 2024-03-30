@@ -268,7 +268,7 @@ allies. Equip: [AnimaIcon][LightIcon][X]
 
 ##Desc_Shaman ^
 Enigmatic maidens shrouded in [N]
-mystery. Equip: [AnimaIcon][LightIcon][StaffIcon][X]
+mystery. Equip: [LightIcon][StaffIcon][X]
 
 ##Desc_Sage ^
 Advanced scholars of magical codices. [N]
