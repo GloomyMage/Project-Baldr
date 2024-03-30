@@ -349,8 +349,8 @@ Harsh and misogynistic, he is under the [N]
 negative influence of the dark mage Sandima.[X]
 
 ##Desc_Burkaul ^
-Jamke's bow instructor, calm and patient, helped his [N]
-student not yield to Sandima's iron grasp on Verdane. [NL]
+Jamke's bow instructor, calm and patient, helped[N]
+his student not yield to Sandima's iron grasp. [NL]
 It is said he hails from a large family.[X]
 
 ##Desc_Sandima ^
