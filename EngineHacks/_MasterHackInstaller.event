@@ -145,6 +145,12 @@ POP
   //Boss killed by unit 
   #include "ExternalHacks/KilledbyUnit/Installer.event"
   
+  //FE4 Staff Hit by Contro
+  #include "Baldr/StaffHit/StaffHit.lyn.event"
+  
+  //FE4 Staff Exp by Contro
+  #include "Baldr/StaffExp/StaffExp.lyn.event"
+  
   //ASMC Check Suite
   #include "Necessary/ASMCCheckSuite/ASMCCheckInstaller.event"
   
@@ -153,6 +159,9 @@ POP
   
   //A Support Trading by Clendo
   #include "ExternalHacks/ASupportTrades/ASupportTrades.event"
+  
+  //Change Chapter Objective by Zeta
+  #include "ExternalHacks/ChangeChapterObjective/Installer.event"
   
   //Repair Items by Zane and Vesly
   #include "ExternalHacks/RepairItems/RepairItems.event"
@@ -196,6 +205,7 @@ POP
   //Experience formula
   #include "Baldr/NewExpFormula/NewExpFormula.lyn.event"
 
+  //FE4 Village Raid by Contro
   #include "Baldr/VillageRaid/Installer.event"
   
   //Minimug fix

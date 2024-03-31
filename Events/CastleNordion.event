@@ -19,8 +19,7 @@ END_MAIN
 
 ALIGN 32
 CharacterBasedEvents:
-CharacterEvent(0x8,StealSword,Dew,Lachesis)
-CharacterEvent(0x15,TheBrand,Deirdre,Ethlyn)
+CharacterEventBothWays(0x8,TheBrand,Deirdre,Ethlyn)
 CharacterEvent(0x0,TheTestOfLove,0x0,Augury)
 CharacterEvent(0x0,PromotedLol,Sigurd,Oifey)
 CharacterEvent(0x0,OifeyPromoAlec,Alec,Oifey)
@@ -56,6 +55,7 @@ ALIGN 4
 LocationBasedEvents:
 Vendor(Chapter2BattlePrepVendor,2,12)
 Armory(Chapter2BattlePrepShop,16,12)
+Seize(9,19)
 END_MAIN
 
 MiscBasedEvents:
@@ -97,15 +97,11 @@ SilentKillUnit(Holyn)
 EndEvent
 
 EndingScene:
-EndEvent
-
-StealSword:
-MUSS 0x5E
-GiveItem(ThiefSwd,Lachesis)
-MURE 60
+MNC2 0x1C
 EndEvent
 
 TheBrand:
+Text(EthlynDeirdreTalk)
 GiveItem(LightBrand,Ethlyn)
 EndEvent
 

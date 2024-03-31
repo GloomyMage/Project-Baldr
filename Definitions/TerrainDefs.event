@@ -1,0 +1,9 @@
+//Terrain type IDs
+#define TerrainFort     0xA
+#define TerrainGate     0xB
+#define TerrainForest   0xC
+#define TerrainMountain 0x11
+#define TerrainPeak     0x12
+#define TerrainPillar   0x1D
+#define TerrainThrone   0x1F
+#define TerrainChurch   0x24

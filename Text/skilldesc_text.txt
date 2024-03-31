@@ -71,7 +71,7 @@ second strike negates defenses.[N]
 (Skill/2 % activation)[X]
 
 ## SD_Astra
-Astra: 5 attacks at half damage.[N]
+Astra: 5 attacks at full damage.[N]
 (Skill % activation)[X]
 
 ## SD_AstraPlus ^

@@ -30,9 +30,29 @@ TileChangeArrayEnd
 
 ALIGN 4
 Chapter1_2RaidTileChangeArray:
-RaidTileChangeEntry(12, 46, 0)
+RaidTileChangeEntry(2, 32, 0)
+TileChangeArrayEnd
+
+ALIGN 4
+Chapter2_2RaidTileChangeArray:
+RaidTileChangeEntry(17, 29, 0)
+RaidTileChangeEntry(22, 22, 7)
+RaidTileChangeEntry(21, 31, 14)
+RaidTileChangeEntry(25, 32, 21)
+RaidTileChangeEntry(27, 26, 28)
+RaidTileChangeEntry(24, 35, 35)
+TileChangeArrayEnd
+
+ALIGN 4
+Chapter2_3RaidTileChangeArray:
+RaidTileChangeEntry(9, 32, 0)
+RaidTileChangeEntry(12, 29, 7)
+RaidTileChangeEntry(10, 26, 14)
+RaidTileChangeEntry(15, 22, 21)
 TileChangeArrayEnd
 
 AssignTileChangeArray(0, PrologueRaidTileChangeArray)
 AssignTileChangeArray(2, Chapter1_1RaidTileChangeArray)
 AssignTileChangeArray(4, Chapter1_2RaidTileChangeArray)
+AssignTileChangeArray(7, Chapter2_2RaidTileChangeArray)
+AssignTileChangeArray(8, Chapter2_3RaidTileChangeArray)

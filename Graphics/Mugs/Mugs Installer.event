@@ -149,6 +149,14 @@ LachesisPortrait:
 setMugEntry(0x18,LachesisPortrait,3,5,3,3)
 
 ALIGN 4
+LachesisSadPortrait:
+#incbin "LachesisSad_mug.dmp"
+#incbin "LachesisSad_frames.dmp"
+#incbin "LachesisSad_palette.dmp"
+#incbin "LachesisSad_minimug.dmp"
+setMugEntry(0x140,LachesisSadPortrait,3,5,3,3)
+
+ALIGN 4
 HolynPortrait:
 #incbin "Holyn_mug.dmp"
 #incbin "Holyn_frames.dmp"
@@ -828,7 +836,7 @@ CuvuliPortrait:
 #incbin "Cuvuli_frames.dmp"
 #incbin "Cuvuli_palette.dmp"
 #incbin "Cuvuli_minimug.dmp"
-setMugEntry(0xC6,CuvuliPortrait,3,5,3,3)
+setMugEntry(0xC6,CuvuliPortrait,2,5,3,3)
 
 ALIGN 4
 MarlonPortrait:
@@ -870,7 +878,7 @@ MyosPortrait:
 #incbin "Myos_frames.dmp"
 #incbin "Myos_palette.dmp"
 #incbin "Myos_minimug.dmp"
-setMugEntry(0x30,MyosPortrait,2,5,2,3)
+setMugEntry(0x30,MyosPortrait,2,5,3,3)
 
 ALIGN 4
 IrisPortrait:
@@ -902,7 +910,7 @@ LamiaPortrait:
 #incbin "Lamia_frames.dmp"
 #incbin "Lamia_palette.dmp"
 #incbin "Lamia_minimug.dmp"
-setMugEntry(0x124,LamiaPortrait,2,6,2,4)
+setMugEntry(0x124,LamiaPortrait,2,5,3,3)
 
 ALIGN 4
 DaccarPortrait:
@@ -990,7 +998,7 @@ LizaPortrait:
 #incbin "Liza_frames.dmp"
 #incbin "Liza_palette.dmp"
 #incbin "Liza_minimug.dmp"
-setMugEntry(0xDB,LizaPortrait,3,5,3,3)
+setMugEntry(0xDB,LizaPortrait,2,5,3,3)
 
 ALIGN 4
 IshtorePortrait:
@@ -1319,6 +1327,14 @@ ManfroyPortrait:
 #incbin "Manfroy_palette.dmp"
 #incbin "Manfroy_minimug.dmp"
 setMugEntry(0xBC,ManfroyPortrait,3,5,3,3)
+
+ALIGN 4
+ManfroyYoungPortrait:
+#incbin "ManfroyYoung_mug.dmp"
+#incbin "ManfroyYoung_frames.dmp"
+#incbin "ManfroyYoung_palette.dmp"
+#incbin "ManfroyYoung_minimug.dmp"
+setMugEntry(0x141,ManfroyYoungPortrait,2,6,3,4)
 
 ALIGN 4
 JuliusPortrait:

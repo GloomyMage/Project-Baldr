@@ -81,4 +81,10 @@ SHORT 0x00f3
 SHORT 0x0078
 BYTE Palmarch
 BYTE 0
+//Manfroy
+SHORT 0x0141
+SHORT 0x00BC
+SHORT 0x0078
+BYTE Manfroy
+BYTE 0
 WORD 0x0 0x0//Terminator, don't delete this or very bad things will happen

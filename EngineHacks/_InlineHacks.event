@@ -64,6 +64,14 @@ ORG 0x2CD48
 BYTE 0xA4
 POP
 
+//Terrain Healing
+#define TerrainHealAmount   $80C744
+
+PUSH
+//Healing
+ORG TerrainHealAmount + TerrainChurch;   BYTE 100
+POP
+
 // Weapon Rank Fix
 // by Serif 
 PUSH
@@ -71,6 +79,28 @@ ORG 0x2C1A2
 BYTE 255
 ORG 0x2C1A6
 BYTE 255
+POP
+
+//Female Aid Fix
+// by Serif
+PUSH
+ORG 0x14FFDA0
+BYTE 24
+ORG 0x14FFDF4
+BYTE 0
+POP
+
+//Gate Nerf
+#define TerrainHealStatus 0x80C785
+
+PUSH
+ORG TerrainHealStatus + TerrainGate; BYTE False
+POP
+
+//Warp effect
+PUSH
+ORG 0x10c18
+BYTE 0x91 0x78 0xD2 0x78 0x08 0x06
 POP
 
 //Mystery trading by Contro

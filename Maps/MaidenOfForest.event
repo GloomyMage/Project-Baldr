@@ -29,42 +29,42 @@ MapData:
 SetChapterData(4, 1, 0, 0x5B, 3, 0x15, MapData, 5, 0, 0x16)
 
 ALIGN 4
-Village1_LastHit:
+Map_Change_0:
   SHORT $0 $EA0 $0 $F1C $F20 $F24
 
 ALIGN 4
-Village1_Visited:
+Map_Change_1:
   SHORT $E28
 
 ALIGN 4
-Village1_1Hit:
+Map_Change_2:
   SHORT $E1C
 
 ALIGN 4
-Village1_2Hit:
+Map_Change_3:
   SHORT $E20
 
 ALIGN 4
-Village1_3Hit:
+Map_Change_4:
   SHORT $E24
 
 ALIGN 4
-Village1_4Hit:
+Map_Change_5:
   SHORT $E9C
 
 ALIGN 4
-Village1_5Hit:
+Map_Change_6:
   SHORT $EA4
 
 ALIGN 4
 MapChangesData:
-  TileMap(0, 1, 46, 3, 2, 0, Village1_LastHit)
-  TileMap(1, 2, 47, 1, 1, 0, Village1_Visited)
-  TileMap(2, 1, 45, 1, 1, 0, Village1_1Hit)
-  TileMap(3, 2, 45, 1, 1, 0, Village1_2Hit)
-  TileMap(4, 3, 45, 1, 1, 0, Village1_3Hit)
-  TileMap(5, 1, 46, 1, 1, 0, Village1_4Hit)
-  TileMap(6, 3, 46, 1, 1, 0, Village1_5Hit)
+  TileMap(0, 1, 32, 3, 2, 0, Map_Change_0)
+  TileMap(1, 2, 33, 1, 1, 0, Map_Change_1)
+  TileMap(2, 1, 31, 1, 1, 0, Map_Change_2)
+  TileMap(3, 2, 31, 1, 1, 0, Map_Change_3)
+  TileMap(4, 3, 31, 1, 1, 0, Map_Change_4)
+  TileMap(5, 1, 32, 1, 1, 0, Map_Change_5)
+  TileMap(6, 3, 32, 1, 1, 0, Map_Change_6)
   TileMapEnd
 
 EventPointerTable(0x16, MapChangesData)

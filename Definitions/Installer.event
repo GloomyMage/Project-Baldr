@@ -6,5 +6,6 @@
 #include "EventDefs.event"
 #include "ItemDefs.event"
 #include "SongDefs.event"
+#include "TerrainDefs.event"
 #include "IconDefs.event"
 #define IsPointer 0x8000000
