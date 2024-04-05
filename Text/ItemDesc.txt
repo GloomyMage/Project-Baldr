@@ -683,7 +683,7 @@ A bag full of money.[X]
 ##D5000G ^
 A bag full of money.[X]
 
-##DGlidedBow ^
+##DGildedBow ^
 Verdane's regalia.[N]
 High critical hit rate.[X]
 

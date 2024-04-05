@@ -35,7 +35,7 @@
 #define MasterLanceIcon 0xD4
 #define SeaAxeIcon 0x95
 #define MasterAxeIcon 0xD5
-#define GlidedBowIcon 0x78
+#define GildedBowIcon 0x78
 #define MasterBowIcon 0xD6
 #define FireIcon 0xBE
 #define ElfireIcon 0xBF

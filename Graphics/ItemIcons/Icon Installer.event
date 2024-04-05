@@ -90,8 +90,8 @@ ALIGN 4
 ItemIconEntry(MasterAxeIcon)
 #incbin "Axes/Master Axe.dmp"
 ALIGN 4
-ItemIconEntry(GlidedBowIcon)
-#incbin "Bows/Glided Bow.dmp"
+ItemIconEntry(GildedBowIcon)
+#incbin "Bows/Gilded Bow.dmp"
 ALIGN 4
 ItemIconEntry(MasterBowIcon)
 #incbin "Bows/Master Bow.dmp"
