@@ -164,7 +164,7 @@ UNIT Quan DukeKnt Sigurd Level(1,Ally,0) [15,46] 0x0 0x0 0x0 0x1 [IronLance] NoA
 UNIT //Tells the game that the unit list has ended
 
 Jomk:
-UNIT Jamke Hunter Sandima Level(6,Enemy,0) [5,23] 0x0 0x0 0x1 REDA8R33 [GlidedBow] NoAI
+UNIT Jamke Hunter Sandima Level(6,Enemy,0) [5,23] 0x0 0x0 0x1 REDA8R33 [GildedBow] NoAI
 UNIT
 
 EnemyUnits:
