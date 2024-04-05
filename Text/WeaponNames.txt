@@ -628,8 +628,8 @@ Solar Brace[X]
 5000G[X]
 
 
-##NGlidedBow ^
-Glided Bow[X]
+##NGildedBow ^
+Gilded Bow[X]
 
 
 ##NDance ^
