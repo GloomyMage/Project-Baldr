@@ -353,7 +353,7 @@ UNIT
 AideenCometh:
 UNIT Dew Thief Sigurd Level(1,Ally,0) [1,38] 0x0 0x0 0x1 REDA8R38 [IronSword] NoAI
 UNIT Edain Cleric Sigurd Level(3,Ally,0) [1,38] 0x0 0x0 0x1 REDA9R38 [Mend] NoAI
-UNIT Jamke Hunter Sandima Level(6,Enemy,0) [1,38] 0x0 0x0 0x1 REDA9R37 [GlidedBow] NoAI
+UNIT Jamke Hunter Sandima Level(6,Enemy,0) [1,38] 0x0 0x0 0x1 REDA9R37 [GildedBow] NoAI
 UNIT
 
 DeirdreShy:
