@@ -26,6 +26,8 @@ POIN LunaPlus
 
 POIN SolPlus
 
+POIN Wrath
+
 #ifndef COMBAT_ARTS
 	POIN Proc_Adept Proc_DragonFang 
 #else // COMBAT_ARTS

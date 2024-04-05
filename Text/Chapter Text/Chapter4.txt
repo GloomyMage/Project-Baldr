@@ -419,8 +419,9 @@ I've come a long way[N]
 from the Erin you once knew![A][N][ClearFace][OpenMidLeft][LoadDithorba]
 Pfeh. Don't make me laugh![A][N]
 Once a weakling, always[N]
-a weakling![A]
-Some things will never change![X]
+a weakling![A][N]
+Some things will[N]
+never change![X]
 
 ##DithorbaDeath
 [OpenMidLeft][LoadDithorba]

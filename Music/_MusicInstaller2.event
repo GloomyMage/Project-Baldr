@@ -72,6 +72,10 @@ SongTable(0xD,DisturbanceInAgustria,1)
 #include "songs/DisturbanceAgustria.event"
 }
 {
+SongTable(0x5F,DanceSkies,1)
+#include "songs/DanceInSkies.event"
+}
+{
 SongTable(0xF,NPCTheme,1)
 #include "songs/AlliedForces.event"
 }
