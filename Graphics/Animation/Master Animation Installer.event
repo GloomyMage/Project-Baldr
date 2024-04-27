@@ -768,13 +768,13 @@ EndAnim
 
 ALIGN 4
 SylviaAnims:
-SwordAnim(0x152)
+SwordAnim(0x14C)
 UnarmedAnim(0x91)
 EndAnim
 
 ALIGN 4
 TailtiuAnims:
-MagicAnim(0x153)
+MagicAnim(0x14D)
 EndAnim
 
 ALIGN 4
@@ -803,7 +803,7 @@ EndAnim
 
 ALIGN 4
 EthlynAnims:
-SwordAnim(0x151)
+SwordAnim(0x14b)
 StaffAnim(0xB5)
 EndAnim
 
@@ -875,7 +875,7 @@ EndAnim
 
 ALIGN 4
 ReptorAnims:
-MagicAnim(0x150)
+MagicAnim(0x14A)
 EndAnim
 
 ALIGN 4

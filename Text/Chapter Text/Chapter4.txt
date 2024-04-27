@@ -192,7 +192,7 @@ bringing them the heads of their infamous traitors![A][N]
 Heh heh heh[ToggleMouthMove]...[ToggleMouthMove][ToggleSmile][A][X]
 
 ##SigurdClaudTalk
-[OpenMidRight][LoadClaud][OpenMidLeft][LoadSigurd]
+[OpenMidRight][LoadClaud][OpenMidLeft][LoadSigurdLeft]
 I'm so sorry I dragged you into this mess as well,[N]
 Father Claud.[A][N][OpenMidRight]
 It's fine. If anything, I'm sorry that my[N]
@@ -828,7 +828,7 @@ Gah[ToggleMouthMove]...[ToggleMouthMove] You're[ToggleMouthMove]...[ToggleMouthM
 You're too strong[ToggleMouthMove]...[ToggleMouthMove][A][X]
 
 ##SeizingSilesse
-[OpenMidRight][LoadLahna][OpenMidLeft][LoadSigurd]
+[OpenMidRight][LoadLahna][OpenMidLeft][LoadSigurdLeft]
 Your Highness! I'm so glad you're unharmed.[N]
 My sincerest apologies for not coming to your aid sooner.[A][N][OpenMidRight]
 It's fine, Lord Sigurd.[N]

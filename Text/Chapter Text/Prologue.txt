@@ -366,7 +366,7 @@ careful and not get yourself killed.[A][N][OpenMidLeft]
 Take this and give them a taste of Hell.[A][X]
 
 ##SilverSwordTime
-[OpenMidLeft][LoadSigurd][OpenMidRight][LoadArvis]
+[OpenMidLeft][LoadSigurdLeft][OpenMidRight][LoadArvis]
 It has been too long, Master Sigurd.[A][N][OpenMidLeft]
 Lord Arvis! Why are you-[A][N][OpenMidRight]
 His Majesty is concerned, and he[N]
@@ -401,7 +401,7 @@ to His Majesty's side in the capital.[A][N]
 I'm entrusting this crisis to you, Sigurd.[A][X]
 
 ##OopsAzelleDied
-[OpenMidLeft][LoadSigurd][OpenMidRight][LoadArvis]
+[OpenMidLeft][LoadSigurdLeft][OpenMidRight][LoadArvis]
 It has been too long, Master Sigurd.[A][N][OpenMidLeft]
 Lord Arvis! Why are you-[A][N][OpenMidRight]
 His Majesty is concerned, and he[N]

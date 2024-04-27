@@ -719,7 +719,7 @@ I failed[ToggleMouthMove]...[ToggleMouthMove] you[ToggleMouthMove]...[ToggleMout
 [A][X]
 
 ##SigurdLewynTalk
-[OpenMidRight][LoadLewyn][OpenMidLeft][LoadSigurd]
+[OpenMidRight][LoadLewyn][OpenMidLeft][LoadSigurdLeft]
 Lewyn, I presume?[A][N]
 The one who's been helping defend the villages?[N]
 I appreciate the aid.[A][N]
@@ -1119,7 +1119,7 @@ Will I go down[ToggleMouthMove]...[ToggleMouthMove] in glory[ToggleMouthMove]...
 [A][X]
 
 ##SeizingMackily
-[OpenMidRight][LoadOifey][OpenMidLeft][LoadSigurd]
+[OpenMidRight][LoadOifey][OpenMidLeft][LoadSigurdLeft]
 Good. Mackily is ours.[N]
 That leaves the capital, Agusti[ToggleMouthMove]...[ToggleMouthMove][A][N][OpenMidLeft]
 Indeed, sire, but don't get too careless.[A][N]
@@ -1622,7 +1622,7 @@ Spare me![A][N]
 Please[ToggleMouthMove]...[ToggleMouthMove][A][X]
 
 ##DeirdreWasCaptured
-[OpenMidRight][LoadDeirdre][OpenMidLeft][LoadSigurd]
+[OpenMidRight][LoadDeirdre][OpenMidLeft][LoadSigurdLeft]
 Deirdre?![N]
 You're alright![A][N][OpenMidRight]
 Yes, I'm fine.[A][N]
