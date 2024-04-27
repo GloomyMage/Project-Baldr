@@ -69,6 +69,7 @@
 
 
 [LoadSigurd] = [LoadFace][0x2][0x1]
+[LoadSigurdLeft] = [LoadFace][0x44][0x2]
 [LoadAlec] = [LoadFace][0x5][0x1]
 [LoadNoish] = [LoadFace][0x6][0x1]
 [LoadArden] = [LoadFace][0x7][0x1]
@@ -262,6 +263,8 @@
 [LoadEthnia] = [LoadFace][0x39][0x2]
 [LoadEthnia2] = [LoadFace][0x3A][0x2]
 [LoadCaitlyn] = [LoadFace][0x3D][0x2]
+[LoadBaldr] = [LoadFace][0x42][0x2]
+[LoadHeim] = [LoadFace][0x43][0x2]
 
 [LoadMaleElder] = [LoadFace][0x59][0x1]
 [LoadFemaleElder] = [LoadFace][0x5F][0x1]

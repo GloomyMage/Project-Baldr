@@ -395,7 +395,7 @@ What was that now?[A][N][ClearFace][OpenMidRight][LoadLex]
 Shannan[...] I'm sorry[...][A][X]
 
 ##RecruitingAyra
-[OpenMidRight][LoadAyra][OpenMidLeft][LoadSigurd]
+[OpenMidRight][LoadAyra][OpenMidLeft][LoadSigurdLeft]
 Hold, Lady Ayra![N]
 Prince Shannan is safe with us![A][N]
 You needn't keep fighting.[A][N][OpenMidRight]
@@ -453,7 +453,7 @@ ought to be a great help for everybody.[A][N]
 Thank you. I'll cherish it.[A][X]
 
 ##SigurdEdainTalk
-[OpenMidRight][LoadEdain][OpenMidLeft][LoadSigurd]
+[OpenMidRight][LoadEdain][OpenMidLeft][LoadSigurdLeft]
 Edain?[N]
 Thank goodness you're okay![A][N][OpenMidRight]
 Lord Sigurd![N]
@@ -680,7 +680,7 @@ This can't be[...][A][N]
 Guh[...][A][X]
 
 ##SigurdKindaSucks
-[OpenMidLeft][LoadSigurd]
+[OpenMidLeft][LoadSigurdLeft]
 We were too late. Edain...[N]
 How will I ever face Lord Ring now?[A][X]
 
@@ -697,7 +697,7 @@ Keep up your yappin' and you'll regret it![A][N][OpenMidLeft]
 AAAAAAAA!!![A][X]
 
 ##SigurdNoticeth
-[OpenMidLeft][LoadSigurd]
+[OpenMidLeft][LoadSigurdLeft]
 Is that someone screaming?[N]
 I'd better go check things out.[A][X]
 
@@ -710,7 +710,7 @@ C'mon, I'm just askin' for a little date.[A][N][OpenMidLeft]
 I need to go home, sir.[N]
 I ask of you, please, pay me no mind![A][N][OpenMidRight]
 Shaddup![N]
-Keep up your yappin' and you'll regret it![A][N][OpenLeft][LoadSigurd]
+Keep up your yappin' and you'll regret it![A][N][OpenLeft][LoadSigurdLeft]
 What's going on here?[N]
 Let the girl go.[A][N][OpenMidRight]
 What's your problem? This one's-[N]
@@ -751,7 +751,7 @@ Please, wait![A][N][OpenMidLeft][ClearFace][OpenMidRight]
 
 ##SigurdSaveLady
 [OpenMidRight][LoadHenson][OpenMidLeft][LoadDeirdre]
-[OpenLeft][LoadSigurd]
+[OpenLeft][LoadSigurdLeft]
 What's going on here?[N]
 Let the girl go.[A][N][OpenMidRight]
 What's your problem? This one's-[N]
@@ -822,7 +822,7 @@ That poor girl[...][N]
 Deirdre[...] we must meet again.[A][X]
 
 ##SigurdSlow
-[OpenMidLeft][LoadSigurd][OpenMidRight][LoadOifey]
+[OpenMidLeft][LoadSigurdLeft][OpenMidRight][LoadOifey]
 Sir, we've just received word[N]
 from Nordion.[A][N]
 Prince Elliot of Heirhein[N]

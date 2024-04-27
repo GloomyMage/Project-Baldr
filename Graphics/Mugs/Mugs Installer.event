@@ -13,6 +13,14 @@ SigurdPortrait:
 setMugEntry(0x2,SigurdPortrait,2,5,3,3)
 
 ALIGN 4
+SigurdLeftPortrait:
+#incbin "SigurdLeft_mug.dmp"
+#incbin "SigurdLeft_frames.dmp"
+#incbin "SigurdLeft_palette.dmp"
+#incbin "SigurdLeft_minimug.dmp"
+setMugEntry(0x144,SigurdLeftPortrait,3,5,4,3)
+
+ALIGN 4
 SeliphPortrait:
 #incbin "Seliph_mug.dmp"
 #incbin "Seliph_frames.dmp"
@@ -1353,6 +1361,22 @@ JuliusEvilPortrait:
 setMugEntry(0xBE,JuliusEvilPortrait,3,5,3,3)
 
 ALIGN 4
+BaldrPortrait:
+#incbin "Baldr_mug.dmp"
+#incbin "Baldr_frames.dmp"
+#incbin "Baldr_palette.dmp"
+#incbin "Baldr_minimug.dmp"
+setMugEntry(0x142,BaldrPortrait,2,6,3,4)
+
+ALIGN 4
+HeimPortrait:
+#incbin "Heim_mug.dmp"
+#incbin "Heim_frames.dmp"
+#incbin "Heim_palette.dmp"
+#incbin "Heim_minimug.dmp"
+setMugEntry(0x143,HeimPortrait,2,5,2,3)
+
+ALIGN 4
 PersephonePortrait:
 #incbin "Persephone_mug.dmp"
 #incbin "Persephone_frames.dmp"
@@ -1494,7 +1518,7 @@ VictorPortrait:
 #incbin "Victor_frames.dmp"
 #incbin "Victor_palette.dmp"
 #incbin "Victor_minimug.dmp"
-setMugEntry(0x135,VictorPortrait,3,5,3,3)
+setMugEntry(0x135,VictorPortrait,2,5,3,3)
 
 ALIGN 4
 MaricclePortrait:

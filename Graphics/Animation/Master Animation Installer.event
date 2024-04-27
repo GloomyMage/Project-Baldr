@@ -95,6 +95,7 @@
 #include "Deirdre/Staff Installer.event"
 }
 {
+#include "Ethlyn/Sword Installer.event"
 #include "Ethlyn/Staff Installer.event"
 }
 {
@@ -135,6 +136,9 @@
 #include "Midir/Unarmed Installer.event"
 }
 {
+#include "Tailtiu/Magic Installer.event"
+}
+{
 #include "MidirPro/Bow Installer.event"
 }
 {
@@ -157,6 +161,9 @@
 }
 {
 #include "Jacoban/Sword Installer.event"
+}
+{
+#include "Reptor/Magic Installer.event"
 }
 {
 #include "Boyce/Sword Installer.event"
@@ -615,6 +622,7 @@
 #include "Lewyn/Refresh Installer.event"
 }
 {
+#include "Sylvia/Sword Installer.event"
 #include "Sylvia/Refresh Installer.event"
 }
 {
@@ -760,7 +768,13 @@ EndAnim
 
 ALIGN 4
 SylviaAnims:
+SwordAnim(0x152)
 UnarmedAnim(0x91)
+EndAnim
+
+ALIGN 4
+TailtiuAnims:
+MagicAnim(0x153)
 EndAnim
 
 ALIGN 4
@@ -789,6 +803,7 @@ EndAnim
 
 ALIGN 4
 EthlynAnims:
+SwordAnim(0x151)
 StaffAnim(0xB5)
 EndAnim
 
@@ -850,12 +865,17 @@ EndAnim
 ALIGN 4
 HoodBishopAnims:
 MagicAnim(0xF3)
-UnarmedAnim(0xF4)
+StaffAnim(0xF4)
 EndAnim
 
 ALIGN 4
 LoptWarriorAnims:
 AxeAnim(0xE3)
+EndAnim
+
+ALIGN 4
+ReptorAnims:
+MagicAnim(0x150)
 EndAnim
 
 ALIGN 4

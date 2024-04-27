@@ -27,6 +27,7 @@
 
 #define HeroicLance 0x82
 #define MasterLance 0xBD
+#define Flycatcher 0x8D
 
 #define VolantAxe 0x5A
 #define SeaAxe 0x83
