@@ -223,6 +223,9 @@ POP
   //Debug Palette
   //#include "Baldr/DebugClassDisplay/ClassDisplay.event"
   
+  //title screen BG
+  #include "ExternalHacks/TitleBG/titlebackgroundinstaller.event"
+  
   //walking sounds
   PUSH
   #include "QualityOfLife/FE8-Walking-Sounds-Fix/FE8-Walking Sounds.event"
@@ -233,6 +236,9 @@ POP
   
   //Camera Speed by Contro
   #include "Baldr/CameraSpeed/Installer.event"
+  
+  //FE4 Dance by Contro
+  #include "Baldr/AuraDance/Installer.event"
 
   //Supply available in prologue
   #include "QualityOfLife/PrologueSupply.event"

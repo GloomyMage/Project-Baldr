@@ -1,0 +1,11 @@
+PUSH
+//Make Dance use one-unit animations
+ORG 0x570F0
+BYTE 1
+
+//Set Dance spell animation
+ORG 0x576C8
+BYTE 0x2A //Using fortify animation by default
+POP
+
+#include "AuraDance.lyn.event"

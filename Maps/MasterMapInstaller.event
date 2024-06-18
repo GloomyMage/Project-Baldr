@@ -5,6 +5,7 @@
 #include "CastleNordion.event"
 #include "ChagallDisturbance.event"
 #include "CuvuliAmbush.event"
+#include "DahnaFort.event"
 #include "HeirOfLight.event"
 #include "JacoAttack.event"
 #include "Lionheart.event"

@@ -1038,7 +1038,7 @@ JavarroPortrait:
 #incbin "Javarro_frames.dmp"
 #incbin "Javarro_palette.dmp"
 #incbin "Javarro_minimug.dmp"
-setMugEntry(0x13C,JavarroPortrait,4,6,4,4)
+setMugEntry(0x13C,JavarroPortrait,2,5,2,3)
 
 ALIGN 4
 BanbaPortrait:

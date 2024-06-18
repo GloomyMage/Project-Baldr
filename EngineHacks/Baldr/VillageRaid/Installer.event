@@ -51,6 +51,11 @@ RaidTileChangeEntry(10, 26, 14)
 RaidTileChangeEntry(15, 22, 21)
 TileChangeArrayEnd
 
+ALIGN 4 
+Chapter3_3RaidTileChangeArray:
+RaidTileChangeEntry(22, 5, 0)
+TileChangeArrayEnd
+
 AssignTileChangeArray(0, PrologueRaidTileChangeArray)
 AssignTileChangeArray(2, Chapter1_1RaidTileChangeArray)
 AssignTileChangeArray(4, Chapter1_2RaidTileChangeArray)

@@ -191,6 +191,7 @@
 [LoadVaja] = [LoadFace][0xD2][0x1]
 [LoadReptor] = [LoadFace][0xB5][0x1]
 [LoadHarold] = [LoadFace][0xEB][0x1]
+[LoadSchmidt] = [LoadFace][0x45][0x2]
 [LoadDannan] = [LoadFace][0x50][0x1]
 [LoadKutuzov] = [LoadFace][0xB6][0x1]
 [LoadLiza] = [LoadFace][0xDB][0x1]

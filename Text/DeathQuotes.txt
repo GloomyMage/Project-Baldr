@@ -86,6 +86,58 @@ a dolt, aren't I[...]?[A][X]
 [OpenMidRight][LoadLachesis]
 Ahh[...] Eldie[...][A][X]
 
+##LewynDeath
+[OpenMidRight][LoadLewyn]
+Nngh[...] No, I[...] There's[N] 
+still so much I need to do[...][A][N]
+I can't die here[...][N]
+I won't die here[...][A][X]
+
+##SylviaDeath
+[OpenMidRight][LoadSylvia]
+W-why[...][N]
+Why am I[...][A][X]
+
+##BeowolfDeath
+[OpenMidRight][LoadBeowolf]
+D-damn[...][N]
+this just ain't my[...][A][X]
+
+##ErinysDeath
+[OpenMidRight][LoadErinys]
+Ah[...] Queen Lahna[...][N]
+Please forgive me[...][A][X]
+
+##HopperDeath
+[OpenMidRight][LoadHopper]
+Lord Clement[...][N]
+I'm[...][A][X]
+
+##IndechDeath
+[OpenMidRight][LoadIndech]
+Caitlin[...][N]
+I won't be[...]coming back[...][A][N]
+I'm sorry[...]Eldigan[...][A][X]
+
+##CallistaDeath
+[A][X]
+
+##BrigidDeath
+[OpenMidRight][LoadBrigid]
+This[...] So this is where[N]
+it all ends, huh[...]![A][X]
+
+##TailtiuDeath
+[OpenMidRight][LoadTailtiu]
+No! I[...] I can't take[N]
+much more of this[...][A][X]
+
+##ClaudDeath
+[OpenMidRight][LoadClaud]
+Gods above[...] If you must[N]
+claim my life[...][A][N]
+Please[...] Safeguard[N]
+those of my friends[...][A][X]
 
 ##SeliphDeath
 [OpenMidRight][LoadSeliph]

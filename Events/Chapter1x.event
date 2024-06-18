@@ -155,7 +155,7 @@ StartBattle
 NormalDamage(0,56)
 EndAttack
 FIG1 Eldigan Elliot Mystletainn
-MOVE 120 Eldigan [13,0]
+MOVE 120 Elliot [13,0]
 ENUN
 SilentKillUnit(Elliot)
 Text(CrossKnightDudsElliot)

@@ -24,59 +24,29 @@
 
 ALIGN 4
 MapData:
-  #incbin "PlankWalk_data.dmp"
+  #incbin "DahnaFort_data.dmp"
 
-SetChapterData(0xD, 0x5F, 0, 0x60, 0x61, 0x39, MapData, 5, 0, 0x3A)
+SetChapterData(0x42, 0x3C, 0, 0x3D, 0x3E, 0xD9, MapData, 0, 0, 0xDA)
 
 ALIGN 4
 Map_Change_0:
-  SHORT $0 $EA0 $0 $F1C $F20 $F24
+  SHORT $C44 $C44
 
 ALIGN 4
 Map_Change_1:
-  SHORT $E2C
+  SHORT $C44 $C44
 
 ALIGN 4
 Map_Change_2:
-  SHORT $E1C
-
-ALIGN 4
-Map_Change_3:
-  SHORT $E20
-
-ALIGN 4
-Map_Change_4:
-  SHORT $E24
-
-ALIGN 4
-Map_Change_5:
-  SHORT $E9C
-
-ALIGN 4
-Map_Change_6:
-  SHORT $EA4
-
-ALIGN 4
-Map_Change_7:
-  SHORT $D74 $D7C
-
-ALIGN 4
-Map_Change_8:
-  SHORT $E74 $E7C
+  SHORT $CD4
 
 ALIGN 4
 MapChangesData:
-  TileMap(0, 21, 5, 3, 2, 0, Map_Change_0)
-  TileMap(1, 22, 6, 1, 1, 0, Map_Change_1)
-  TileMap(2, 21, 4, 1, 1, 0, Map_Change_2)
-  TileMap(3, 22, 4, 1, 1, 0, Map_Change_3)
-  TileMap(4, 23, 4, 1, 1, 0, Map_Change_4)
-  TileMap(5, 21, 5, 1, 1, 0, Map_Change_5)
-  TileMap(6, 23, 5, 1, 1, 0, Map_Change_6)
-  TileMap(7, 37, 19, 2, 1, 0, Map_Change_7)
-  TileMap(8, 37, 20, 2, 1, 0, Map_Change_8)
+  TileMap(0, 1, 17, 2, 1, 0, Map_Change_0)
+  TileMap(1, 14, 17, 2, 1, 0, Map_Change_1)
+  TileMap(2, 8, 12, 1, 1, 0, Map_Change_2)
   TileMapEnd
 
-EventPointerTable(0x3A, MapChangesData)
+EventPointerTable(0xDA, MapChangesData)
 
 }

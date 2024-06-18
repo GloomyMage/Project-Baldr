@@ -21,6 +21,58 @@ Marpha Castle.[X]
 Seize[N]
 Verdane Castle.[X]
 
+##_SeizeHeirhein
+Seize[N]
+Heirhein Castle.[X]
+
+##_SeizeAnphony
+Seize[N]
+Anphony Castle.[X]
+
+##_SeizeMackily
+Seize[N]
+Mackily Castle.[X]
+
+##_SeizeAgusty
+Seize[N]
+Agusty Castle.[X]
+
+##_SeizeMadino
+Seize[N]
+Madino Castle.[X]
+
+##_SeizeSilvail
+Seize[N]
+Silvail Castle.[X]
+
+##_SeizeOrgahil
+Seize[N]
+Orgahil Castle.[X]
+
+##_SeizeThove
+Seize[N]
+Thove Castle.[X]
+
+##_SeizeSilesse
+Seize[N]
+Silesse Castle.[X]
+
+##_SeizeZaxon
+Seize[N]
+Zaxon Castle.[X]
+
+##_SeizeLubeck
+Seize[N]
+Lubeck Castle.[X]
+
+##_SeizePhinora
+Seize[N]
+Phinora Castle.[X]
+
+##_SeizeBelhalla
+Seize[N]
+Belhalla Castle.[X]
+
 ##_SeizeCastle
 Seize[N]
 The Castle.[X]
@@ -51,6 +103,13 @@ Defeat bosses[X]
 
 ##_Defend
 Defend[X]
+
+##_CH3_1Objective
+Defend/Kill[X]
+
+##_CH3_1Objective2
+Defend and[N]
+Kill the Boss[X]
 
 ##_FinalObjective
 Liberate Jugdral[X]
