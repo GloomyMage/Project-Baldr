@@ -30,7 +30,7 @@ SetChapterData(0x18, 1, 0, 2, 3, 0x6F, MapData, 5, 0, 0x70)
 
 ALIGN 4
 Map_Change_0:
-  SHORT $EA0 $F20
+  SHORT $0 $EA0 $0 $F1C $F20 $F24
 
 ALIGN 4
 Map_Change_1:
@@ -57,19 +57,14 @@ Map_Change_6:
   SHORT $EA4
 
 ALIGN 4
-Map_Change_7:
-  SHORT $F1C $0 $F24
-
-ALIGN 4
 MapChangesData:
-  TileMap(0, 57, 4, 1, 2, 0, Map_Change_0)
+  TileMap(0, 56, 4, 3, 2, 0, Map_Change_0)
   TileMap(1, 57, 5, 1, 1, 0, Map_Change_1)
   TileMap(2, 56, 3, 1, 1, 0, Map_Change_2)
   TileMap(3, 57, 3, 1, 1, 0, Map_Change_3)
   TileMap(4, 58, 3, 1, 1, 0, Map_Change_4)
   TileMap(5, 56, 4, 1, 1, 0, Map_Change_5)
   TileMap(6, 58, 4, 1, 1, 0, Map_Change_6)
-  TileMap(7, 56, 5, 3, 1, 0, Map_Change_7)
   TileMapEnd
 
 EventPointerTable(0x70, MapChangesData)

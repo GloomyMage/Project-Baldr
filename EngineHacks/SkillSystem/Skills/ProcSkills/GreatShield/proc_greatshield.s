@@ -40,7 +40,7 @@ cmp r0, #0
 beq End
 @if skill found, check proc
 
-ldrb r0, [r5, #0x17] @defense stat as activation rate
+ldrb r0, [r5, #0x8] @level stat as activation rate
 mov r1, r5 @skill user
 blh d100Result
 cmp r0, #1

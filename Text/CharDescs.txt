@@ -363,13 +363,13 @@ The greedy and opportunistic prince of Heirhein. [NL]
 He bears hatred toward Grannvale and Eldigan.[X]
 
 ##Desc_Graham ^
-Heirhein's finest knight, and former rival of Elliot. [NL] 
+Heirhein's finest knight, and former rival of Elliot.[NL]
 He sometimes finds lost items in his hair.[X]
 
 ##Desc_Phillip ^
 Bordeaux's retainer. He seeks retribution for [N]
-the loss of the young prince Elliot of Heirhein, [N]
-whom he perceived as his own son. Has a great moustache. [X]
+the loss of Elliot of Heirhein, whom he perceived [N]
+as his own son. Has a great moustache. [X]
 
 ##Desc_Bordeaux ^
 Lord of an Agustria county and Elliot's father. [NL]
@@ -415,7 +415,8 @@ She always carries two quivers [N]
 so she never runs low on arrows.[X]
 
 ##Desc_Jacobin ^
-He often expresses his disapproval of the empire regime. [NL]
+He often expresses his [NL]
+disapproval of the empire regime. [N]
 Eldest brother of the elemental sword trio. [X]
 
 ##Desc_Estrella ^
@@ -882,7 +883,7 @@ Leonster[X]
 AnnandSquad[X]
 
 ##Desc_Eldigan ^
-Ruler of Nordion. Wields the Demon Sword [N] 
+Ruler of Nordion. Wields the Demon Sword [N]
 in knightly devotion to any master. [NL]
 Older brother of Lachesis.[X]
 

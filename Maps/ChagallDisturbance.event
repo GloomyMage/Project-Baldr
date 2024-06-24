@@ -34,7 +34,7 @@ Map_Change_0:
 
 ALIGN 4
 Map_Change_1:
-  SHORT $E28
+  SHORT $80
 
 ALIGN 4
 Map_Change_2:

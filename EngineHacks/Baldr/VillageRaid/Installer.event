@@ -51,9 +51,49 @@ RaidTileChangeEntry(10, 26, 14)
 RaidTileChangeEntry(15, 22, 21)
 TileChangeArrayEnd
 
+ALIGN 4
+Chapter3_1RaidTileChangeArray:
+RaidTileChangeEntry(10, 10, 0)
+RaidTileChangeEntry(15, 1, 7)
+RaidTileChangeEntry(21, 1, 14)
+RaidTileChangeEntry(26, 12, 21)
+RaidTileChangeEntry(34, 18, 28)
+TileChangeArrayEnd
+
+ALIGN 4
+Chapter3_2RaidTileChangeArray:
+RaidTileChangeEntry(4, 5, 0)
+RaidTileChangeEntry(17, 1, 7)
+RaidTileChangeEntry(29, 1, 14)
+RaidTileChangeEntry(45, 3, 21)
+RaidTileChangeEntry(53, 9, 28)
+TileChangeArrayEnd
+
 ALIGN 4 
 Chapter3_3RaidTileChangeArray:
 RaidTileChangeEntry(22, 5, 0)
+TileChangeArrayEnd
+
+ALIGN 4
+Chapter4_1RaidTileChangeArray:
+RaidTileChangeEntry(20, 30, 0)
+RaidTileChangeEntry(16, 14, 7)
+RaidTileChangeEntry(21, 20, 14)
+RaidTileChangeEntry(33, 23, 21)
+RaidTileChangeEntry(23, 7, 28)
+RaidTileChangeEntry(28, 6, 35)
+RaidTileChangeEntry(37, 3, 42)
+TileChangeArrayEnd
+
+ALIGN 4
+Chapter5_1RaidTileChangeArray:
+RaidTileChangeEntry(1, 23, 0)
+RaidTileChangeEntry(18, 22, 7)
+RaidTileChangeEntry(19, 6, 14)
+RaidTileChangeEntry(34, 1, 21)
+RaidTileChangeEntry(35, 19, 28)
+RaidTileChangeEntry(55, 3, 35)
+RaidTileChangeEntry(58, 13, 42)
 TileChangeArrayEnd
 
 AssignTileChangeArray(0, PrologueRaidTileChangeArray)
@@ -61,3 +101,8 @@ AssignTileChangeArray(2, Chapter1_1RaidTileChangeArray)
 AssignTileChangeArray(4, Chapter1_2RaidTileChangeArray)
 AssignTileChangeArray(7, Chapter2_2RaidTileChangeArray)
 AssignTileChangeArray(8, Chapter2_3RaidTileChangeArray)
+AssignTileChangeArray(10, Chapter3_1RaidTileChangeArray)
+AssignTileChangeArray(11, Chapter3_2RaidTileChangeArray)
+AssignTileChangeArray(13, Chapter3_3RaidTileChangeArray)
+AssignTileChangeArray(15, Chapter4_1RaidTileChangeArray)
+AssignTileChangeArray(20, Chapter5_1RaidTileChangeArray)

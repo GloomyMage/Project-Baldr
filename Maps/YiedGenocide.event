@@ -24,8 +24,8 @@
 
 ALIGN 4
 MapData:
-  #incbin "ThresholdOfDestiny_data.dmp"
+  #incbin "YiedGenocide_data.dmp"
 
-SetChapterData(0x14, 1, 0, 2, 3, 0x5C, MapData, 5, 0, 0)
+SetChapterData(0x17, 1, 0, 2, 3, 0x69, MapData, 5, 0, 0)
 
 }

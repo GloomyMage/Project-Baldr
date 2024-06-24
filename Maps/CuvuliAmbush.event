@@ -26,6 +26,257 @@ ALIGN 4
 MapData:
   #incbin "CuvuliAmbush_data.dmp"
 
-SetChapterData(0xF, 1, 0, 0x38, 3, 0x45, MapData, 5, 0, 0)
+SetChapterData(0xF, 1, 0, 0x38, 3, 0x45, MapData, 5, 0, 46)
+
+ALIGN 4
+Map_Change_0:
+  SHORT $0 $EA0 $0 $F1C $DAC $F24
+
+ALIGN 4
+Map_Change_1:
+  SHORT $E28
+
+ALIGN 4
+Map_Change_2:
+  SHORT $E1C
+
+ALIGN 4
+Map_Change_3:
+  SHORT $E20
+
+ALIGN 4
+Map_Change_4:
+  SHORT $E24
+
+ALIGN 4
+Map_Change_5:
+  SHORT $E9C
+
+ALIGN 4
+Map_Change_6:
+  SHORT $EA4
+
+ALIGN 4
+Map_Change_7:
+  SHORT $0 $EA0 $0 $F1C $F20 $F24
+
+ALIGN 4
+Map_Change_8:
+  SHORT $80
+
+ALIGN 4
+Map_Change_9:
+  SHORT $E1C
+
+ALIGN 4
+Map_Change_10:
+  SHORT $E20
+
+ALIGN 4
+Map_Change_11:
+  SHORT $E24
+
+ALIGN 4
+Map_Change_12:
+  SHORT $E9C
+
+ALIGN 4
+Map_Change_13:
+  SHORT $EA4
+
+ALIGN 4
+Map_Change_14:
+  SHORT $0 $EA0 $0 $F1C $F20 $F24
+
+ALIGN 4
+Map_Change_15:
+  SHORT $80
+
+ALIGN 4
+Map_Change_16:
+  SHORT $E1C
+
+ALIGN 4
+Map_Change_17:
+  SHORT $E20
+
+ALIGN 4
+Map_Change_18:
+  SHORT $E24
+
+ALIGN 4
+Map_Change_19:
+  SHORT $E9C
+
+ALIGN 4
+Map_Change_20:
+  SHORT $EA4
+
+ALIGN 4
+Map_Change_21:
+  SHORT $0 $EA0 $0 $F1C $DAC $F24
+
+ALIGN 4
+Map_Change_22:
+  SHORT $E28
+
+ALIGN 4
+Map_Change_23:
+  SHORT $E1C
+
+ALIGN 4
+Map_Change_24:
+  SHORT $E20
+
+ALIGN 4
+Map_Change_25:
+  SHORT $E24
+
+ALIGN 4
+Map_Change_26:
+  SHORT $E9C
+
+ALIGN 4
+Map_Change_27:
+  SHORT $EA4
+
+ALIGN 4
+Map_Change_28:
+  SHORT $0 $EA0 $0 $F1C $F20 $F24
+
+ALIGN 4
+Map_Change_29:
+  SHORT $80
+
+ALIGN 4
+Map_Change_30:
+  SHORT $E1C
+
+ALIGN 4
+Map_Change_31:
+  SHORT $E20
+
+ALIGN 4
+Map_Change_32:
+  SHORT $E24
+
+ALIGN 4
+Map_Change_33:
+  SHORT $E9C
+
+ALIGN 4
+Map_Change_34:
+  SHORT $EA4
+
+ALIGN 4
+Map_Change_35:
+  SHORT $0 $EA0 $0 $F1C $DAC $F24
+
+ALIGN 4
+Map_Change_36:
+  SHORT $E28
+
+ALIGN 4
+Map_Change_37:
+  SHORT $E1C
+
+ALIGN 4
+Map_Change_38:
+  SHORT $E20
+
+ALIGN 4
+Map_Change_39:
+  SHORT $E24
+
+ALIGN 4
+Map_Change_40:
+  SHORT $E9C
+
+ALIGN 4
+Map_Change_41:
+  SHORT $EA4
+
+ALIGN 4
+Map_Change_42:
+  SHORT $0 $EA0 $0 $F1C $F20 $F24
+
+ALIGN 4
+Map_Change_43:
+  SHORT $80
+
+ALIGN 4
+Map_Change_44:
+  SHORT $E1C
+
+ALIGN 4
+Map_Change_45:
+  SHORT $E20
+
+ALIGN 4
+Map_Change_46:
+  SHORT $E24
+
+ALIGN 4
+Map_Change_47:
+  SHORT $E9C
+
+ALIGN 4
+Map_Change_48:
+  SHORT $EA4
+
+ALIGN 4
+MapChangesData:
+  TileMap(0, 19, 30, 3, 2, 0, Map_Change_0)
+  TileMap(1, 20, 31, 1, 1, 0, Map_Change_1)
+  TileMap(2, 19, 29, 1, 1, 0, Map_Change_2)
+  TileMap(3, 20, 29, 1, 1, 0, Map_Change_3)
+  TileMap(4, 21, 29, 1, 1, 0, Map_Change_4)
+  TileMap(5, 19, 30, 1, 1, 0, Map_Change_5)
+  TileMap(6, 21, 30, 1, 1, 0, Map_Change_6)
+  TileMap(7, 15, 14, 3, 2, 0, Map_Change_7)
+  TileMap(8, 16, 15, 1, 1, 0, Map_Change_8)
+  TileMap(9, 15, 13, 1, 1, 0, Map_Change_9)
+  TileMap(10, 16, 13, 1, 1, 0, Map_Change_10)
+  TileMap(11, 17, 13, 1, 1, 0, Map_Change_11)
+  TileMap(12, 15, 14, 1, 1, 0, Map_Change_12)
+  TileMap(13, 17, 14, 1, 1, 0, Map_Change_13)
+  TileMap(14, 20, 20, 3, 2, 0, Map_Change_14)
+  TileMap(15, 21, 21, 1, 1, 0, Map_Change_15)
+  TileMap(16, 20, 19, 1, 1, 0, Map_Change_16)
+  TileMap(17, 21, 19, 1, 1, 0, Map_Change_17)
+  TileMap(18, 22, 19, 1, 1, 0, Map_Change_18)
+  TileMap(19, 20, 20, 1, 1, 0, Map_Change_19)
+  TileMap(20, 22, 20, 1, 1, 0, Map_Change_20)
+  TileMap(21, 32, 23, 3, 2, 0, Map_Change_21)
+  TileMap(22, 33, 24, 1, 1, 0, Map_Change_22)
+  TileMap(23, 32, 22, 1, 1, 0, Map_Change_23)
+  TileMap(24, 33, 22, 1, 1, 0, Map_Change_24)
+  TileMap(25, 34, 22, 1, 1, 0, Map_Change_25)
+  TileMap(26, 32, 23, 1, 1, 0, Map_Change_26)
+  TileMap(27, 34, 23, 1, 1, 0, Map_Change_27)
+  TileMap(28, 22, 7, 3, 2, 0, Map_Change_28)
+  TileMap(29, 23, 8, 1, 1, 0, Map_Change_29)
+  TileMap(30, 22, 6, 1, 1, 0, Map_Change_30)
+  TileMap(31, 23, 6, 1, 1, 0, Map_Change_31)
+  TileMap(32, 24, 6, 1, 1, 0, Map_Change_32)
+  TileMap(33, 22, 7, 1, 1, 0, Map_Change_33)
+  TileMap(34, 24, 7, 1, 1, 0, Map_Change_34)
+  TileMap(35, 27, 6, 3, 2, 0, Map_Change_35)
+  TileMap(36, 28, 7, 1, 1, 0, Map_Change_36)
+  TileMap(37, 27, 5, 1, 1, 0, Map_Change_37)
+  TileMap(38, 28, 5, 1, 1, 0, Map_Change_38)
+  TileMap(39, 29, 5, 1, 1, 0, Map_Change_39)
+  TileMap(40, 27, 6, 1, 1, 0, Map_Change_40)
+  TileMap(41, 29, 6, 1, 1, 0, Map_Change_41)
+  TileMap(42, 36, 3, 3, 2, 0, Map_Change_42)
+  TileMap(43, 37, 4, 1, 1, 0, Map_Change_43)
+  TileMap(44, 36, 2, 1, 1, 0, Map_Change_44)
+  TileMap(45, 37, 2, 1, 1, 0, Map_Change_45)
+  TileMap(46, 38, 2, 1, 1, 0, Map_Change_46)
+  TileMap(47, 36, 3, 1, 1, 0, Map_Change_47)
+  TileMap(48, 38, 3, 1, 1, 0, Map_Change_48)
+  TileMapEnd
+
+EventPointerTable(46, MapChangesData)
 
 }

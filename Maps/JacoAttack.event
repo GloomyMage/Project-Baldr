@@ -30,7 +30,7 @@ SetChapterData(0xA, 1, 0, 2, 3, 0x2B, MapData, 5, 0, 0x2C)
 
 ALIGN 4
 Map_Change_0:
-  SHORT $EA0 $F20
+  SHORT $0 $EA0 $0 $F1C $DAC $F24
 
 ALIGN 4
 Map_Change_1:
@@ -58,178 +58,153 @@ Map_Change_6:
 
 ALIGN 4
 Map_Change_7:
-  SHORT $F1C $0 $F24
+  SHORT $0 $EA0 $0 $F1C $DAC $F24
 
 ALIGN 4
 Map_Change_8:
-  SHORT $EA0 $F20
+  SHORT $E28
 
 ALIGN 4
 Map_Change_9:
-  SHORT $E28
+  SHORT $E1C
 
 ALIGN 4
 Map_Change_10:
-  SHORT $E1C
+  SHORT $E20
 
 ALIGN 4
 Map_Change_11:
-  SHORT $E20
+  SHORT $E24
 
 ALIGN 4
 Map_Change_12:
-  SHORT $E24
+  SHORT $E9C
 
 ALIGN 4
 Map_Change_13:
-  SHORT $E9C
+  SHORT $EA4
 
 ALIGN 4
 Map_Change_14:
-  SHORT $EA4
+  SHORT $0 $EA0 $0 $F1C $DAC $F24
 
 ALIGN 4
 Map_Change_15:
-  SHORT $F1C $0 $F24
+  SHORT $E28
 
 ALIGN 4
 Map_Change_16:
-  SHORT $EA0 $F20
+  SHORT $E1C
 
 ALIGN 4
 Map_Change_17:
-  SHORT $E28
+  SHORT $E20
 
 ALIGN 4
 Map_Change_18:
-  SHORT $E1C
+  SHORT $E24
 
 ALIGN 4
 Map_Change_19:
-  SHORT $E20
+  SHORT $E9C
 
 ALIGN 4
 Map_Change_20:
-  SHORT $E24
+  SHORT $EA4
 
 ALIGN 4
 Map_Change_21:
-  SHORT $E9C
+  SHORT $0 $EA0 $0 $F1C $F20 $F24
 
 ALIGN 4
 Map_Change_22:
-  SHORT $EA4
+  SHORT $80
 
 ALIGN 4
 Map_Change_23:
-  SHORT $F1C $0 $F24
+  SHORT $E1C
 
 ALIGN 4
 Map_Change_24:
-  SHORT $EA0 $F20
+  SHORT $E20
 
 ALIGN 4
 Map_Change_25:
-  SHORT $E28
+  SHORT $E24
 
 ALIGN 4
 Map_Change_26:
-  SHORT $E1C
+  SHORT $E9C
 
 ALIGN 4
 Map_Change_27:
-  SHORT $E20
+  SHORT $EA4
 
 ALIGN 4
 Map_Change_28:
-  SHORT $E24
+  SHORT $0 $EA0 $0 $F1C $F20 $F24
 
 ALIGN 4
 Map_Change_29:
-  SHORT $E9C
+  SHORT $80
 
 ALIGN 4
 Map_Change_30:
-  SHORT $EA4
-
-ALIGN 4
-Map_Change_31:
-  SHORT $F1C $0 $F24
-
-ALIGN 4
-Map_Change_32:
-  SHORT $EA0 $F20
-
-ALIGN 4
-Map_Change_33:
-  SHORT $E28
-
-ALIGN 4
-Map_Change_34:
   SHORT $E1C
 
 ALIGN 4
-Map_Change_35:
+Map_Change_31:
   SHORT $E20
 
 ALIGN 4
-Map_Change_36:
+Map_Change_32:
   SHORT $E24
 
 ALIGN 4
-Map_Change_37:
+Map_Change_33:
   SHORT $E9C
 
 ALIGN 4
-Map_Change_38:
+Map_Change_34:
   SHORT $EA4
 
 ALIGN 4
-Map_Change_39:
-  SHORT $F1C $0 $F24
-
-ALIGN 4
 MapChangesData:
-  TileMap(0, 10, 10, 1, 2, 0, Map_Change_0)
+  TileMap(0, 9, 10, 3, 2, 0, Map_Change_0)
   TileMap(1, 10, 11, 1, 1, 0, Map_Change_1)
   TileMap(2, 9, 9, 1, 1, 0, Map_Change_2)
   TileMap(3, 10, 9, 1, 1, 0, Map_Change_3)
   TileMap(4, 11, 9, 1, 1, 0, Map_Change_4)
   TileMap(5, 9, 10, 1, 1, 0, Map_Change_5)
   TileMap(6, 11, 10, 1, 1, 0, Map_Change_6)
-  TileMap(7, 9, 11, 3, 1, 0, Map_Change_7)
-  TileMap(8, 15, 1, 1, 2, 0, Map_Change_8)
-  TileMap(9, 15, 2, 1, 1, 0, Map_Change_9)
-  TileMap(10, 14, 0, 1, 1, 0, Map_Change_10)
-  TileMap(11, 15, 0, 1, 1, 0, Map_Change_11)
-  TileMap(12, 16, 0, 1, 1, 0, Map_Change_12)
-  TileMap(13, 14, 1, 1, 1, 0, Map_Change_13)
-  TileMap(14, 16, 1, 1, 1, 0, Map_Change_14)
-  TileMap(15, 14, 2, 3, 1, 0, Map_Change_15)
-  TileMap(16, 21, 1, 1, 2, 0, Map_Change_16)
-  TileMap(17, 21, 2, 1, 1, 0, Map_Change_17)
-  TileMap(18, 20, 0, 1, 1, 0, Map_Change_18)
-  TileMap(19, 21, 0, 1, 1, 0, Map_Change_19)
-  TileMap(20, 22, 0, 1, 1, 0, Map_Change_20)
-  TileMap(21, 20, 1, 1, 1, 0, Map_Change_21)
-  TileMap(22, 22, 1, 1, 1, 0, Map_Change_22)
-  TileMap(23, 20, 2, 3, 1, 0, Map_Change_23)
-  TileMap(24, 26, 12, 1, 2, 0, Map_Change_24)
-  TileMap(25, 26, 13, 1, 1, 0, Map_Change_25)
-  TileMap(26, 25, 11, 1, 1, 0, Map_Change_26)
-  TileMap(27, 26, 11, 1, 1, 0, Map_Change_27)
-  TileMap(28, 27, 11, 1, 1, 0, Map_Change_28)
-  TileMap(29, 25, 12, 1, 1, 0, Map_Change_29)
-  TileMap(30, 27, 12, 1, 1, 0, Map_Change_30)
-  TileMap(31, 25, 13, 3, 1, 0, Map_Change_31)
-  TileMap(32, 34, 18, 1, 2, 0, Map_Change_32)
-  TileMap(33, 34, 19, 1, 1, 0, Map_Change_33)
-  TileMap(34, 33, 17, 1, 1, 0, Map_Change_34)
-  TileMap(35, 34, 17, 1, 1, 0, Map_Change_35)
-  TileMap(36, 35, 17, 1, 1, 0, Map_Change_36)
-  TileMap(37, 33, 18, 1, 1, 0, Map_Change_37)
-  TileMap(38, 35, 18, 1, 1, 0, Map_Change_38)
-  TileMap(39, 33, 19, 3, 1, 0, Map_Change_39)
+  TileMap(7, 14, 1, 3, 2, 0, Map_Change_7)
+  TileMap(8, 15, 2, 1, 1, 0, Map_Change_8)
+  TileMap(9, 14, 0, 1, 1, 0, Map_Change_9)
+  TileMap(10, 15, 0, 1, 1, 0, Map_Change_10)
+  TileMap(11, 16, 0, 1, 1, 0, Map_Change_11)
+  TileMap(12, 14, 1, 1, 1, 0, Map_Change_12)
+  TileMap(13, 16, 1, 1, 1, 0, Map_Change_13)
+  TileMap(14, 20, 1, 3, 2, 0, Map_Change_14)
+  TileMap(15, 21, 2, 1, 1, 0, Map_Change_15)
+  TileMap(16, 20, 0, 1, 1, 0, Map_Change_16)
+  TileMap(17, 21, 0, 1, 1, 0, Map_Change_17)
+  TileMap(18, 22, 0, 1, 1, 0, Map_Change_18)
+  TileMap(19, 20, 1, 1, 1, 0, Map_Change_19)
+  TileMap(20, 22, 1, 1, 1, 0, Map_Change_20)
+  TileMap(21, 25, 12, 3, 2, 0, Map_Change_21)
+  TileMap(22, 26, 13, 1, 1, 0, Map_Change_22)
+  TileMap(23, 25, 11, 1, 1, 0, Map_Change_23)
+  TileMap(24, 26, 11, 1, 1, 0, Map_Change_24)
+  TileMap(25, 27, 11, 1, 1, 0, Map_Change_25)
+  TileMap(26, 25, 12, 1, 1, 0, Map_Change_26)
+  TileMap(27, 27, 12, 1, 1, 0, Map_Change_27)
+  TileMap(28, 33, 18, 3, 2, 0, Map_Change_28)
+  TileMap(29, 34, 19, 1, 1, 0, Map_Change_29)
+  TileMap(30, 33, 17, 1, 1, 0, Map_Change_30)
+  TileMap(31, 34, 17, 1, 1, 0, Map_Change_31)
+  TileMap(32, 35, 17, 1, 1, 0, Map_Change_32)
+  TileMap(33, 33, 18, 1, 1, 0, Map_Change_33)
+  TileMap(34, 35, 18, 1, 1, 0, Map_Change_34)
   TileMapEnd
 
 EventPointerTable(0x2C, MapChangesData)

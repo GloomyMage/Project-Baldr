@@ -18,3 +18,60 @@ The End of Agustria[X]
 
 # 0x166
 Castle Nordion[X]
+
+# 0x167
+Crisis in Agustria[X]
+
+# 0x168
+Chagall's Disturbance[X]
+
+# 0x169
+Castle Agusty[X]
+
+# 0x16A
+Jacobin's Attack[X]
+
+# 0x16B
+The Lionheart[X]
+
+# 0x16C
+Tower Braggi[X]
+
+# 0x16D
+Walking the Plank[X]
+
+# 0x16E
+Castle Sailane[X]
+
+# 0x16F
+Cuvuli's Ambush[X]
+
+# 0x170
+Liberation of Thove[X]
+
+# 0x171
+Dance in the Skies[X]
+
+# 0x172
+Winged Grace[X]
+
+# 0x173
+Castle Zaxon[X]
+
+# 0x174
+Doors to Destiny[X]
+
+# 0x175
+Threshold of Fate[X]
+
+# 0x176
+Battle of Belhalla[X]
+
+# 0x177
+The Yied Massacre[X]
+
+# 0x178
+Inheritor of Light[X]
+
+# 0x17C
+For a Friend[X]

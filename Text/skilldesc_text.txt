@@ -4,8 +4,9 @@ Savior: Can rescue[N]
 without penalties.[X]
 
 ## SD_Adept
-Adept: Gain a consecutive attack.[N]
-(Speed % activation)[X]
+Adept: After attacking, this unit may[N]
+perform an additional attack in battle.[N]
+Chance: Attack Speed + 20%[X]
 
 ## SD_Acrobat
 Acrobat: All traversable[N]
@@ -57,13 +58,15 @@ Bane: Leave the opponent at[N]
 1 HP if the attack would kill.[N]
 (Skill/2 % activation)[X]
 
-## SD_Luna
-Luna: Negates enemy defenses.[N]
-(Skill % activation)[X]
+## SD_Luna ^
+Luna: On activation, this unit's attack[N]
+cannot miss and nullifies the foe's Defense.[N]
+Chance: Skill%[X]
 
 ## SD_Sol
-Sol: Restore damage dealt as HP.[N]
-(Skill % activation)[X]
+Sol: On activation, this unit's attack cannot[N]
+miss and restores HP equal to the damage dealt.[N]
+Chance: Skill%[X]
 
 ## SD_Aether
 Aether: First strike absorbs HP,[N]
@@ -71,21 +74,24 @@ second strike negates defenses.[N]
 (Skill/2 % activation)[X]
 
 ## SD_Astra
-Astra: 5 attacks at full damage.[N]
-(Skill % activation)[X]
+Astra: On activation, this unit can[N]
+attack five times consecutively.[N]
+Chance: Skill%[X]
 
 ## SD_AstraPlus ^
-Astra+: Doubling threshold halved. During combat,[N]
-if unit has 4 AS > enemy AS, unit gets 4 attacks;[N]
-if 6 AS > enemy AS, unit gets 6 attacks[X]
+Glimmer: This unit can attack up to six times if[N]
+they have more Attack Speed than their foe.[N]
+Trigger: Unit's AS > Foe's AS[X]
 
-## SD_SolPlus
-Sol+: Heal half of damage dealt[N]
-when under half health.[X]
+## SD_SolPlus ^
+Noontime: If this unit is below half HP, this unit's[N]
+attacks restore HP equal to half the damage dealt.[N]
+Trigger: Current HP > 50%[X]
 
 ## SD_LunaPlus
-Luna+: Ignore half of Def/Res[N]
-when the enemy is at full HP[X]
+Moonbow: If the foe is at full HP, this unit's[N]
+attacks ignore half of the foe's Def/Res.[N]
+Trigger: Foe's current HP = 100%[X]
 
 ## SD_RenewalPlus
 Renewal+: Recover all health.[X]
@@ -125,12 +131,14 @@ Tomebreaker: +50 Hit/Avo when[N]
 enemy has a tome equipped.[X]
 
 ## SD_Aegis
-Aegis: Nullify a magic attack.[N]
-(Skill % activation)[X]
+Aegis: This unit has a chance to nullify[N]
+damage from an enemy's magical attack.[N]
+Chance: Skill%[X]
 
 ## SD_Pavise
-Pavise: Nullify a physical attack.[N]
-(Skill % activation)[X]
+Pavise: This unit has a chance to nullify[N]
+damage from an enemy's physical attack.[N]
+Chance: Skill%[X]
 
 ## SD_DuelistsBlow
 Duelist's Blow: +30 Avo[N]
@@ -156,17 +164,18 @@ when initiating battle.[X]
 Armored Blow: +10 Def[N]
 when initiating battle.[X]
 
-## SD_Vantage
-Vantage: If HP < 50%,[N]
-strike first when attacked.[X]
+## SD_Vantage ^ 
+Vantage: When unit is below 50% HP and[N]
+foe initiates combat, this unit will attack first.[N]
+If the foe has Accost, negates it from activating.[X]
 
 ## SD_Desperation
 Desperation: If HP < 50%,[N]
 double attacks occur immediately.[X]
 
 ## SD_Wrath
-Wrath: If HP < 50%,[N]
-+20 critical rate.[X]
+Wrath: When this unit is below 50% HP, this[N]
+unit's attacks will always be a critical hit.[X]
 
 ## SD_Counter
 Counter: Reflect physical damage[N]
@@ -200,9 +209,10 @@ when equipping a bow.[X]
 Tomefaire: +4 damage[N]
 when equipping a tome.[X]
 
-## SD_CritUp
-Crit Boost: User can inflict a[N]
-critical hit, doubling Atk.[X]
+## SD_CritUp ^ 
+Critical: This unit is capable of inflicting[N]
+critical hits, which doubles the unit's attack.[N]
+Chance = Skill%[X]
 
 ## SD_Slayer
 Slayer: Deal effective damage[N]
@@ -213,8 +223,8 @@ Summon: Can conjure a phantom[N]
 soldier to fight alongside you.[X]
 
 ## SD_Dance
-Dance: Refresh an ally unit[N]
-to let them act again.[X]
+Dance: Refreshes up to four units adjacent[N]
+to this unit, allowing them to act again.[X]
 
 ## SD_Lifetaker
 Lifetaker: Restore up to 25% HP after[N]
@@ -285,16 +295,16 @@ Spur Resistance: Adjacent allies[N]
 take -4 magical damage.[X]
 
 ## SD_Nihil
-Nihil: Cancels the opponent's[N]
-skills in combat.[X]
+Nihil: This unit is unaffected by combat[N]
+skills, critical hits, and effective damage.[X]
 
 ## SD_Nullify
 Nullify: Unit is protected[N]
 from all effective attacks.[X]
 
 ## SD_Paragon
-Paragon: Experience gain[N]
-is doubled.[X]
+Paragon: This unit's EXP gain[N]
+is permanently doubled.[X]
 
 ## SD_Impale
 Impale: Deal 4x damage.[N]
@@ -495,8 +505,9 @@ Patience: When under[N]
 attack, avoid +10. [X]
 
 ## SD_Pursuit
-Pursuit: Allows unit to double if[N]
-attack speed is higher than foe's. [X]
+Pursuit: This unit will perform a follow-up[N]
+attack if they are faster than their foe.[N]
+Trigger: Unit's AS > Foe's AS.[X]
 
 ## SD_LightWeight
 Light Weight: When holding three[N]
@@ -999,7 +1010,8 @@ Defiant Res: When HP is 25%[N]
 or lower, gain +4 Resistance.[X]
 
 ## SD_Bargain
-Bargain: Halves prices in shops.[X]
+Bargain: This unit gets a 50%[N]
+discount from all shops.[X]
 
 ## SD_ShortShield
 Short Shield: Gain 6 defense[N]
@@ -1248,8 +1260,9 @@ Charge+: If unit has used up[N]
 all movement, gain brave effect.[X]
 
 ## SD_GreatShield
-Great Shield: Negate all damage.[N]
-(Defense % activation)[X]
+Great Shield: This unit has a chance to[N]
+nullify damage from an enemy's attack.[N]
+Chance: Level%[X]
 
 ## SD_Moonlight
 Moonlight: Cannot double but[N]
