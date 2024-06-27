@@ -439,6 +439,9 @@ Leader of a thief group. [NL]
 He entered Bragi's Tower to[N]
 steal high-value relics.[X]
 
+##Desc_Scragg ^
+Scragg[X]
+
 ##Desc_Pizare ^
 Lackey of Duvall. He wants to make [N]
 as much havoc as he can on Agustria.[X]
@@ -602,6 +605,9 @@ It is said he hails from a large family.[X]
 
 ##Desc_Maykov ^
 Maykov[X]
+
+##Desc_Reagan ^
+Reagan[X]
 
 ##Desc_Kanatz ^
 Kanatz[X]

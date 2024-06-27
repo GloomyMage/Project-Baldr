@@ -292,6 +292,9 @@ Othello[X]
 ##Name_Papillon
 Papillon[X]
 
+##Name_Scragg
+Scragg[X]
+
 ##Name_Payne
 Payne[X]
 
@@ -405,6 +408,9 @@ Coulter[X]
 
 ##Name_Maykov
 Maykov[X]
+
+##Name_Reagan
+Reagan[X]
 
 ##Name_Kanatz
 Kanatz[X]

@@ -485,6 +485,14 @@ HawkPortrait:
 setMugEntry(0x27,HawkPortrait,2,5,3,3)
 
 ALIGN 4
+HawkBabyPortrait:
+#incbin "HawkBaby_mug.dmp"
+#incbin "HawkBaby_frames.dmp"
+#incbin "HawkBaby_palette.dmp"
+#incbin "HawkBaby_minimug.dmp"
+setMugEntry(0x152,HawkBabyPortrait,3,7,3,5)
+
+ALIGN 4
 CoirprePortrait:
 #incbin "Coirpre_mug.dmp"
 #incbin "Coirpre_frames.dmp"
@@ -823,6 +831,14 @@ PaynePortrait:
 setMugEntry(0x32,PaynePortrait,2,5,2,3)
 
 ALIGN 4
+ScraggPortrait:
+#incbin "Scragg_mug.dmp"
+#incbin "Scragg_frames.dmp"
+#incbin "Scragg_palette.dmp"
+#incbin "Scragg_minimug.dmp"
+setMugEntry(0x156,ScraggPortrait,2,5,3,3)
+
+ALIGN 4
 PizarePortrait:
 #incbin "Pizare_mug.dmp"
 #incbin "Pizare_frames.dmp"
@@ -1129,6 +1145,14 @@ MaykovPortrait:
 setMugEntry(0xE6,MaykovPortrait,2,5,2,3)
 
 ALIGN 4
+ReaganPortrait:
+#incbin "Reagan_mug.dmp"
+#incbin "Reagan_frames.dmp"
+#incbin "Reagan_palette.dmp"
+#incbin "Reagan_minimug.dmp"
+setMugEntry(0x14A,ReaganPortrait,2,5,2,3)
+
+ALIGN 4
 KanatzPortrait:
 #incbin "Kanatz_mug.dmp"
 #incbin "Kanatz_frames.dmp"
@@ -1175,6 +1199,14 @@ BartholomewPortrait:
 #incbin "Bartholomew_palette.dmp"
 #incbin "Bartholomew_minimug.dmp"
 setMugEntry(0x12B,BartholomewPortrait,3,5,3,3)
+
+ALIGN 4
+JudahPortrait:
+#incbin "Judah_mug.dmp"
+#incbin "Judah_frames.dmp"
+#incbin "Judah_palette.dmp"
+#incbin "Judah_minimug.dmp"
+setMugEntry(0x146,JudahPortrait,3,5,3,3)
 
 ALIGN 4
 LeidanPortrait:
@@ -1241,12 +1273,36 @@ MorriganPortrait:
 setMugEntry(0x12D,MorriganPortrait,2,6,3,4)
 
 ALIGN 4
+ZagamPortrait:
+#incbin "Zagam_mug.dmp"
+#incbin "Zagam_frames.dmp"
+#incbin "Zagam_palette.dmp"
+#incbin "Zagam_minimug.dmp"
+setMugEntry(0x147,ZagamPortrait,3,5,3,3)
+
+ALIGN 4
 ShamashPortrait:
 #incbin "Shamash_mug.dmp"
 #incbin "Shamash_frames.dmp"
 #incbin "Shamash_palette.dmp"
 #incbin "Shamash_minimug.dmp"
 setMugEntry(0x4A,ShamashPortrait,3,5,3,3)
+
+ALIGN 4
+ArvisDadPortrait:
+#incbin "ArvisDad_mug.dmp"
+#incbin "ArvisDad_frames.dmp"
+#incbin "ArvisDad_palette.dmp"
+#incbin "ArvisDad_minimug.dmp"
+setMugEntry(0x148,ArvisDadPortrait,2,5,2,3)
+
+ALIGN 4
+RobertoPortrait:
+#incbin "Roberto_mug.dmp"
+#incbin "Roberto_frames.dmp"
+#incbin "Roberto_palette.dmp"
+#incbin "Roberto_minimug.dmp"
+setMugEntry(0x149,RobertoPortrait,3,5,3,3)
 
 ALIGN 4
 BoycePortrait:
@@ -1297,12 +1353,36 @@ BrianPortrait:
 setMugEntry(0xD5,BrianPortrait,3,5,3,3)
 
 ALIGN 4
+DahliaPortrait:
+#incbin "Dahlia_mug.dmp"
+#incbin "Dahlia_frames.dmp"
+#incbin "Dahlia_palette.dmp"
+#incbin "Dahlia_minimug.dmp"
+setMugEntry(0x14B,DahliaPortrait,3,6,3,4)
+
+ALIGN 4
 DagonPortrait:
 #incbin "Dagon_mug.dmp"
 #incbin "Dagon_frames.dmp"
 #incbin "Dagon_palette.dmp"
 #incbin "Dagon_minimug.dmp"
-setMugEntry(0xCB,DagonPortrait,3,5,3,3)
+setMugEntry(0xCB,DagonPortrait,2,6,2,4)
+
+ALIGN 4
+ScorpiusPortrait:
+#incbin "Scorpius_mug.dmp"
+#incbin "Scorpius_frames.dmp"
+#incbin "Scorpius_palette.dmp"
+#incbin "Scorpius_minimug.dmp"
+setMugEntry(0x14C,ScorpiusPortrait,2,5,2,3)
+
+ALIGN 4
+BaranPortrait:
+#incbin "Baran_mug.dmp"
+#incbin "Baran_frames.dmp"
+#incbin "Baran_palette.dmp"
+#incbin "Baran_minimug.dmp"
+setMugEntry(0x14D,BaranPortrait,2,6,2,4)
 
 ALIGN 4
 VeldPortrait:
@@ -1326,7 +1406,7 @@ BlegPortrait:
 #incbin "Bleg_frames.dmp"
 #incbin "Bleg_palette.dmp"
 #incbin "Bleg_minimug.dmp"
-setMugEntry(0x12F,BlegPortrait,3,5,3,3)
+setMugEntry(0x12F,BlegPortrait,2,5,2,3)
 
 ALIGN 4
 MabelPortrait:
@@ -1529,12 +1609,44 @@ VictorPortrait:
 setMugEntry(0x135,VictorPortrait,2,5,3,3)
 
 ALIGN 4
+PisuergaPortrait:
+#incbin "Pisuerga_mug.dmp"
+#incbin "Pisuerga_frames.dmp"
+#incbin "Pisuerga_palette.dmp"
+#incbin "Pisuerga_minimug.dmp"
+setMugEntry(0x14E,PisuergaPortrait,2,5,3,3)
+
+ALIGN 4
+ValeriaPortrait:
+#incbin "Valeria_mug.dmp"
+#incbin "Valeria_frames.dmp"
+#incbin "Valeria_palette.dmp"
+#incbin "Valeria_minimug.dmp"
+setMugEntry(0x14F,ValeriaPortrait,3,6,3,4)
+
+ALIGN 4
 MaricclePortrait:
 #incbin "Mariccle_mug.dmp"
 #incbin "Mariccle_frames.dmp"
 #incbin "Mariccle_palette.dmp"
 #incbin "Mariccle_minimug.dmp"
-setMugEntry(0x136,MaricclePortrait,2,5,3,3)
+setMugEntry(0x136,MaricclePortrait,3,5,3,3)
+
+ALIGN 4
+ManananPortrait:
+#incbin "Mananan_mug.dmp"
+#incbin "Mananan_frames.dmp"
+#incbin "Mananan_palette.dmp"
+#incbin "Mananan_minimug.dmp"
+setMugEntry(0x150,ManananPortrait,2,5,2,3)
+
+ALIGN 4
+RibautPortrait:
+#incbin "Ribaut_mug.dmp"
+#incbin "Ribaut_frames.dmp"
+#incbin "Ribaut_palette.dmp"
+#incbin "Ribaut_minimug.dmp"
+setMugEntry(0x151,RibautPortrait,4,5,4,3)
 
 ALIGN 4
 GalzusYoungPortrait:
@@ -1681,6 +1793,22 @@ CaitlynPortrait:
 setMugEntry(0x13D,CaitlynPortrait,3,6,3,4)
 
 ALIGN 4
+ChalphyPortrait:
+#incbin "Chalphy_mug.dmp"
+#incbin "Chalphy_frames.dmp"
+#incbin "Chalphy_palette.dmp"
+#incbin "Chalphy_minimug.dmp"
+setMugEntry(0x154,ChalphyPortrait,2,5,2,3)
+
+ALIGN 4
+GrannvalePortrait:
+#incbin "Grannvale_mug.dmp"
+#incbin "Grannvale_frames.dmp"
+#incbin "Grannvale_palette.dmp"
+#incbin "Grannvale_minimug.dmp"
+setMugEntry(0x155,GrannvalePortrait,2,5,3,3)
+
+ALIGN 4
 LamiaTroopPortrait:
 #incbin "LamiaTroop_mug.dmp"
 #incbin "LamiaTroop_frames.dmp"
@@ -1711,6 +1839,14 @@ ImcaPortrait:
 #incbin "Imca_palette.dmp"
 #incbin "Imca_minimug.dmp"
 setMugEntry(0xF5,ImcaPortrait,2,5,2,3)
+
+ALIGN 4
+GrahnyePortrait:
+#incbin "Grahnye_mug.dmp"
+#incbin "Grahnye_frames.dmp"
+#incbin "Grahnye_palette.dmp"
+#incbin "Grahnye_minimug.dmp"
+setMugEntry(0x153,GrahnyePortrait,3,5,3,3)
 
 ALIGN 4
 CohenPortrait:
@@ -1767,6 +1903,46 @@ HensonPortrait:
 #incbin "Henson_palette.dmp"
 #incbin "Henson_minimug.dmp"
 setMugEntry(0x4D,HensonPortrait,2,5,2,3)
+
+ALIGN 4
+DullesPortrait:
+#incbin "Dulles_mug.dmp"
+#incbin "Dulles_frames.dmp"
+#incbin "Dulles_palette.dmp"
+#incbin "Dulles_minimug.dmp"
+setMugEntry(0x157,DullesPortrait,2,5,2,3)
+
+ALIGN 4
+KeimosPortrait:
+#incbin "Keimos_mug.dmp"
+#incbin "Keimos_frames.dmp"
+#incbin "Keimos_palette.dmp"
+#incbin "Keimos_minimug.dmp"
+setMugEntry(0x158,KeimosPortrait,3,5,3,3)
+
+ALIGN 4
+MarilynPortrait:
+#incbin "Marilyn_mug.dmp"
+#incbin "Marilyn_frames.dmp"
+#incbin "Marilyn_palette.dmp"
+#incbin "Marilyn_minimug.dmp"
+setMugEntry(0x159,MarilynPortrait,4,6,4,4)
+
+ALIGN 4
+ThortonPortrait:
+#incbin "Thorton_mug.dmp"
+#incbin "Thorton_frames.dmp"
+#incbin "Thorton_palette.dmp"
+#incbin "Thorton_minimug.dmp"
+setMugEntry(0x15A,ThortonPortrait,2,5,2,3)
+
+ALIGN 4
+MarioPortrait:
+#incbin "Mario_mug.dmp"
+#incbin "Mario_frames.dmp"
+#incbin "Mario_palette.dmp"
+#incbin "Mario_minimug.dmp"
+setMugEntry(0x15B,MarioPortrait,2,5,2,3)
 
 ALIGN 4
 BaronPhotoPortrait:
